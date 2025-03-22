@@ -67,7 +67,7 @@ element {
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   hoverlabel = 
-  description = 任务页面
+  description = 任务书
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = a4206568-e6c3-4281-a4a0-cba8bf3782ce-1736836161454

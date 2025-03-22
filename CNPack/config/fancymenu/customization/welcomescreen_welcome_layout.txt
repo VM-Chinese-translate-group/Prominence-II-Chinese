@@ -160,7 +160,7 @@ element {
 
 element {
   interactable = true
-  source = 加入我们的Discord论坛
+  source = 加入我们的Discord！
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -1044,7 +1044,7 @@ element {
 
 element {
   interactable = true
-  source = 优化建议（译注：全英文）
+  source = 优化建议（全英）
   source_mode = direct
   shadow = true
   scale = 1.0

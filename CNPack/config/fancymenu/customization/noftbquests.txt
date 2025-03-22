@@ -234,7 +234,7 @@ element {
 }
 
 element {
-  source = （译注：不用Modrinth启动器开游戏的玩家不用看）Modrinth&c里没有FTB系列模组&f。%n%%n%&f由于授权方面的问题，我们也不能把这些模组打包进整合包里，%n%&f所以要想正常游玩这个整合包，你需要手动安装FTB系列模组以及它们的前置%n%%n%&e下载以下这些模组并把它们放在%n%&e你的整合包的“mods”文件夹下，而后重新启动整合包。%n%&7你可以点击Modrinth启动器里的“Folder”选项来直接打开整合包文件夹。
+  source = Modrinth&c里没有FTB系列模组&f。%n%%n%&f由于授权方面的问题，我们也不能把这些模组打包进整合包里，%n%&f所以要想正常游玩这个整合包，你需要手动安装FTB系列模组以及它们的前置%n%%n%&e下载以下这些模组并把它们放在%n%&e你的整合包的“mods”文件夹下，而后重新启动整合包。%n%&7你可以点击Modrinth启动器里的“Folder”选项来直接打开整合包文件夹。
   source_mode = direct
   shadow = true
   case_mode = normal

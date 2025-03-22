@@ -128,7 +128,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Join our discord!
+  description = 加入我们的Discord！
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = a8b0940d-b1c2-49d6-a048-4a521404bc3f-1740556345271
