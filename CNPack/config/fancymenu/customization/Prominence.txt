@@ -888,7 +888,7 @@ vanilla_button {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Accesibility
+  description = 辅助功能
   navigatable = true
   widget_active_state_requirement_container_identifier = a0b588e8-1951-42f8-a058-033f9e39da49-1738159556051
   [loading_requirement_container_meta:a0b588e8-1951-42f8-a058-033f9e39da49-1738159556051] = [groups:][instances:]
@@ -1141,7 +1141,7 @@ vanilla_button {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = 游戏语言
+  description = 语言
   navigatable = true
   widget_active_state_requirement_container_identifier = 50ca97c1-3fe9-4d6c-91e3-c8d33009e942-1738159556051
   [loading_requirement_container_meta:50ca97c1-3fe9-4d6c-91e3-c8d33009e942-1738159556051] = [groups:][instances:]

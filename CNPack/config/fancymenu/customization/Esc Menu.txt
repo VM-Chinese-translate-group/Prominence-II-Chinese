@@ -168,7 +168,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Report an Issue or Bug
+  description = 提交议题或Bug
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = b30d2e87-a58a-4608-bbad-7f9a5bc9a3a2-1740556345271

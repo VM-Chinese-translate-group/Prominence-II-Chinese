@@ -104,7 +104,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Report an Issue
+  description = 报告议题
   label = 
   navigatable = true
   element_type = custom_button
@@ -163,7 +163,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Quit Game
+  description = 退出游戏
   label = 
   navigatable = true
   element_type = custom_button
@@ -453,7 +453,7 @@ vanilla_button {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Language
+  description = 语言
   navigatable = true
   element_type = vanilla_button
   instance_identifier = mc_titlescreen_language_button
@@ -553,7 +553,7 @@ vanilla_button {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Accesibility
+  description = 辅助功能
   navigatable = true
   element_type = vanilla_button
   instance_identifier = mc_titlescreen_accessibility_button
