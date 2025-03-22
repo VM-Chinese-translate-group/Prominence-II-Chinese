@@ -57,7 +57,7 @@
     "spell.archers_expansion.arctic_volley.name":"极地齐射",
     "spell.archers_expansion.choking_gas.description":"投射物击中后创造一团毒云，造成{damage}点伤害。",
     "spell.archers_expansion.choking_gas.name":"窒息毒气",
-    "spell.archers_expansion.disabling_shot.description":"箭矢命中目标后向后跳跃，减速目标并造成{damage}点伤害。",
+    "spell.archers_expansion.disabling_shot.description":"命中目标后向后跳跃，减速目标并造成{damage}点伤害。",
     "spell.archers_expansion.disabling_shot.name":"致残射击",
     "spell.archers_expansion.dual_shot.description":"同时发射两只箭矢。",
     "spell.archers_expansion.dual_shot.name":"双重射击",

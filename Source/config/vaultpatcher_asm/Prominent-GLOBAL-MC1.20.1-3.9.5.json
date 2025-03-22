@@ -1,0 +1,3641 @@
+[
+  {
+    "authors": "VaultPatcherDuper",
+    "name": "Prominent-GLOBAL-MC1.20.1-3.9.5.jar extracted",
+    "desc": "Use VaultPatcherDuper extracted mods hardcoded text",
+    "mods": "Prominent-GLOBAL-MC1.20.1-3.9.5",
+    "dynamic": false
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.ProminentLoader",
+      "method": "isValidManifest",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "ElocinDev",
+        "value": "ElocinDev"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.ProminentLoader",
+      "method": "isValidManifest",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Prominence II RPG Hasturian Era",
+        "value": "Prominence II RPG Hasturian Era"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.ProminentLoader",
+      "method": "isValidManifest",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Hello there! You seem to be using Prominent in a modified version of Prominence (or another pack that isn't Prominence). Keep in mind this is not allowed, both Prominent and Prominence have a strict license that does not allow redistribution or public modification, making this either an illegal reupload of Prominence, or a an illegal redistribution of Prominent, as Prominent is not available through CurseForge, so you're also breaking the license of Prominent by overriding the file within the modpack. ",
+        "value": "Hello there! You seem to be using Prominent in a modified version of Prominence (or another pack that isn't Prominence). Keep in mind this is not allowed, both Prominent and Prominence have a strict license that does not allow redistribution or public modification, making this either an illegal reupload of Prominence, or a an illegal redistribution of Prominent, as Prominent is not available through CurseForge, so you're also breaking the license of Prominent by overriding the file within the modpack. "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ArtifactUpgrader",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "ꦖ §7Unleash the remnant to upgrade your Artifact weapon.",
+        "value": "ꦖ §7Unleash the remnant to upgrade your Artifact weapon."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ArtifactUpgrader",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§6 +",
+        "value": "§6 +"
+      },
+      {
+        "key": " Artifact Power",
+        "value": " Artifact Power"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ArtifactUpgrader",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Your Artifact is already fully upgraded.",
+        "value": "Your Artifact is already fully upgraded."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ArtifactUpgrader",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The remnant was unleashed and captured by your Artifact Weapon. +",
+        "value": "The remnant was unleashed and captured by your Artifact Weapon. +"
+      },
+      {
+        "key": " Artifact Power Obtained",
+        "value": " Artifact Power Obtained"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.BeaconOfHope",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Call upon S'kellak's Aid to travel to the city of Vaaz.",
+        "value": "Call upon S'kellak's Aid to travel to the city of Vaaz."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.BeaconOfHope",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Given as quest reward in Chapter I of Hasturian Era.",
+        "value": " Given as quest reward in Chapter I of Hasturian Era."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.MoltenCore",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§7Made from the depths of §cVaaz§7 by the creator of all things, §cS'kellak§7.",
+        "value": "§7Made from the depths of §cVaaz§7 by the creator of all things, §cS'kellak§7."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.MoltenCore",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§7Given as a reward to those who have proven themselves worthy by eliminating the threats of the realms.",
+        "value": "§7Given as a reward to those who have proven themselves worthy by eliminating the threats of the realms."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.MoltenCore",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§eComplete Chapter I of Void's Invasion to unlock.",
+        "value": "§eComplete Chapter I of Void's Invasion to unlock."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.MoltenCore",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§8This is a personal soulbound item! Do not try to share or destroy or it will break progression.",
+        "value": "§8This is a personal soulbound item! Do not try to share or destroy or it will break progression."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ScrollItem",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Your talent tree has been reset.",
+        "value": "Your talent tree has been reset."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.ScrollItem",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Resets your talent tree knowledge and refunds all points previously spent.",
+        "value": "Resets your talent tree knowledge and refunds all points previously spent."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Ashedar Fire Modifier",
+        "value": "Ashedar Fire Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Ashedar Arcane Modifier",
+        "value": "Ashedar Arcane Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Sunfire",
+        "value": "Sunfire"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Arcane",
+        "value": "Arcane"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Artifact",
+        "value": " Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Sunstrike",
+        "value": "Sunstrike"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Focus a shockwave of pure solar power, dealing fire damage to all enemies in a frontal cone.",
+        "value": "Focus a shockwave of pure solar power, dealing fire damage to all enemies in a frontal cone."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Deals double damage while affected by Solar Eclipse",
+        "value": " Deals double damage while affected by Solar Eclipse"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Heals you the damaged amount while affected by Lunar Eclipse.",
+        "value": " Heals you the damaged amount while affected by Lunar Eclipse."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Prominence",
+        "value": "Prominence"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Unleash the true power of Ash, erupting fire damage in a large area.",
+        "value": "Unleash the true power of Ash, erupting fire damage in a large area."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Sets targets on fire and blinds them while affected by Solar Eclipse",
+        "value": " Sets targets on fire and blinds them while affected by Solar Eclipse"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Deals double damage to stunned enemies while affected by Lunar Eclipse.",
+        "value": " Deals double damage to stunned enemies while affected by Lunar Eclipse."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Solar Eclipse",
+        "value": "Solar Eclipse"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Increases damage done by Ash'edar by 10%. Applies for 10 seconds.",
+        "value": "Increases damage done by Ash'edar by 10%. Applies for 10 seconds."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Darkening",
+        "value": "Darkening"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Swirls the inner arcane power of Edar, dealing arcane damage all around you.",
+        "value": "Swirls the inner arcane power of Edar, dealing arcane damage all around you."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Extends the duration of your current Eclipse by 2 seconds.",
+        "value": " Extends the duration of your current Eclipse by 2 seconds."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Heals you the damaged amount while affected by Lunar Eclipse.",
+        "value": " Heals you the damaged amount while affected by Lunar Eclipse."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Moonlight Nova",
+        "value": "Moonlight Nova"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Unleash a powerful nova of pure moonlight, damaging and stunning all enemies.",
+        "value": "Unleash a powerful nova of pure moonlight, damaging and stunning all enemies."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Deals double damage while affected by Solar Eclipse",
+        "value": " Deals double damage while affected by Solar Eclipse"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Stun duration is increased while affected by Lunar Eclipse.",
+        "value": " Stun duration is increased while affected by Lunar Eclipse."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Lunar Eclipse",
+        "value": "Lunar Eclipse"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Increases attack and movement speed by 10%. Applies for 10 seconds.",
+        "value": "Increases attack and movement speed by 10%. Applies for 10 seconds."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Solar and Lunar Eclipses share their cooldown.",
+        "value": " Solar and Lunar Eclipses share their cooldown."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Astral Attunement",
+        "value": "Astral Attunement"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "When dual wielding along with its twin, melee attacks deal double damage.",
+        "value": "When dual wielding along with its twin, melee attacks deal double damage."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ashedar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Available spells will change depending on which blade is in your main hand.",
+        "value": " Available spells will change depending on which blade is in your main hand."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The Essence of Ash'edar must be on your main hand, and your off hand must be empty.",
+        "value": "The Essence of Ash'edar must be on your main hand, and your off hand must be empty."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Ash'edar, the Cosmic Twins",
+        "value": "Ash'edar, the Cosmic Twins"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Sunfire & Arcane Artifacts",
+        "value": "Sunfire & Arcane Artifacts"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Converts the Essence of Ash'edar into its weapon form. Requires a free offhand",
+        "value": "Converts the Essence of Ash'edar into its weapon form. Requires a free offhand"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " A'zhar Modifier",
+        "value": " A'zhar Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Soulfire Artifact",
+        "value": "Soulfire Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Soul Absorption",
+        "value": "Soul Absorption"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Absorb all Broken Souls, consuming them and healing 10% of your",
+        "value": "Absorb all Broken Souls, consuming them and healing 10% of your"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Breath of A'zhar",
+        "value": "Breath of A'zhar"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Unleash the breath of A'zhar, dealing high soulfire damage on a",
+        "value": "Unleash the breath of A'zhar, dealing high soulfire damage on a"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "large cone. If you don't have a broken soul stack, you will recieve",
+        "value": "large cone. If you don't have a broken soul stack, you will recieve"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Broken Souls",
+        "value": "Broken Souls"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Broken Souls last 5 seconds, each stack will not reset the duration.",
+        "value": "Broken Souls last 5 seconds, each stack will not reset the duration."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "When souls expire, you get healed 10% of your maximum health.",
+        "value": "When souls expire, you get healed 10% of your maximum health."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Attacks generate a Broken Soul, but damage you 10% of your health.",
+        "value": " Attacks generate a Broken Soul, but damage you 10% of your health."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Killing an enemy will generate a Broken Soul without damaging you.",
+        "value": " Killing an enemy will generate a Broken Soul without damaging you."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " Ekavar Modifier",
+        "value": " Ekavar Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Weapon modifier",
+        "value": "Weapon modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Weapon modifier",
+        "value": "Weapon modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Cinderstone Artifact",
+        "value": "Cinderstone Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Cinderstone Core",
+        "value": "Cinderstone Core"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has the ability to evolve into something greater when infused with power.",
+        "value": "This staff has the ability to evolve into something greater when infused with power."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Evolved via the Upgrade Tree.",
+        "value": " Evolved via the Upgrade Tree."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Arcane Infusion",
+        "value": "Arcane Infusion"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw power of the Arcane. Known now as Al Na'ir, The Bright Star.",
+        "value": "This staff has evolved with the raw power of the Arcane. Known now as Al Na'ir, The Bright Star."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Fire Infusion",
+        "value": "Fire Infusion"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw power of Fire. Known now as Adassil, The Scorched Tree.",
+        "value": "This staff has evolved with the raw power of Fire. Known now as Adassil, The Scorched Tree."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frost Infusion",
+        "value": "Frost Infusion"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw frozen power. Known now as Khaz'el, The Frozen Destiny",
+        "value": "This staff has evolved with the raw frozen power. Known now as Khaz'el, The Frozen Destiny"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Holy Infusion",
+        "value": "Holy Infusion"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw power of Holy. Known now as Ad'anel, Secret of Ain.",
+        "value": "This staff has evolved with the raw power of Holy. Known now as Ad'anel, Secret of Ain."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Astral Infusion",
+        "value": "Astral Infusion"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw astral powers. Known now as Singularity, A Star's Rebirth.",
+        "value": "This staff has evolved with the raw astral powers. Known now as Singularity, A Star's Rebirth."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Casts Arcane, Fire, Frost and Holy abilities from equipped Spell Book.",
+        "value": "Casts Arcane, Fire, Frost and Holy abilities from equipped Spell Book."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§9+30% §f陋 §9Arcane Power",
+        "value": "§9+30% §f §9Arcane Power"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§9+30% §f縷 §9Fire Power",
+        "value": "§9+30% §f §9Fire Power"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§9+30% §f勒 §9Frost Power",
+        "value": "§9+30% §f §9Frost Power"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§9+30% §f綾 §9Holy Power",
+        "value": "§9+30% §f §9Holy Power"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ekavar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§9+20% §f稜 §9Astral Power",
+        "value": "§9+20% §f §9Astral Power"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frostmourne Frost Modifier",
+        "value": "Frostmourne Frost Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frostmourne Blood Modifier",
+        "value": "Frostmourne Blood Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frostmourne Unholy Modifier",
+        "value": "Frostmourne Unholy Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Runic Artifact",
+        "value": "Runic Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Curse of Agony",
+        "value": "Curse of Agony"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Whoever wields the Frostmourne will become the next Lich King.",
+        "value": "Whoever wields the Frostmourne will become the next Lich King."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Death Knight abilities deal higher damage.",
+        "value": "Death Knight abilities deal higher damage."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Frostmourne",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Casts Death Knight abilities from equipped skill book.",
+        "value": "Casts Death Knight abilities from equipped skill book."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " Fyr'alath Modifier",
+        "value": " Fyr'alath Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Reabsorption Fyr'alath Modifier",
+        "value": "Reabsorption Fyr'alath Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Soulfire Artifact",
+        "value": "Soulfire Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Greater Scorch",
+        "value": "Greater Scorch"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Set in flames your target and give yourself resistance for",
+        "value": "Set in flames your target and give yourself resistance for"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "4 seconds. Attacks have a chance to extend the duration.",
+        "value": "4 seconds. Attacks have a chance to extend the duration."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Greater Laceration",
+        "value": "Greater Laceration"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Swing Fyr'alath rapidly to heat the air and throw flaming",
+        "value": "Swing Fyr'alath rapidly to heat the air and throw flaming"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Greater Meteor",
+        "value": "Greater Meteor"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Invoke a rain of meteors that will fall upon your target",
+        "value": "Invoke a rain of meteors that will fall upon your target"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Fiery Core",
+        "value": "Fiery Core"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Fyr'alath can invoke improved fire spells that have instant",
+        "value": "Fyr'alath can invoke improved fire spells that have instant"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Cosmic Artifact",
+        "value": "Cosmic Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Cosmic Influence",
+        "value": "Cosmic Influence"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Arrows get infused by Orion's cosmic power, increasing their velocity by 25%",
+        "value": "Arrows get infused by Orion's cosmic power, increasing their velocity by 25%"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Pledge to the Stars",
+        "value": "Pledge to the Stars"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Pledge to a star using Orion's Upgrade Tree, unlocking new effects.",
+        "value": "Pledge to a star using Orion's Upgrade Tree, unlocking new effects."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Algjebbah's Gift",
+        "value": "Algjebbah's Gift"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Heal yourself for 5% of your maximum health when you use an ability from any archery spellbook.",
+        "value": "Heal yourself for 5% of your maximum health when you use an ability from any archery spellbook."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Mintaka's Gift",
+        "value": "Mintaka's Gift"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Increase the damage dealt by your abilities from the Mintaka's Fright spellbook.",
+        "value": "Increase the damage dealt by your abilities from the Mintaka's Fright spellbook."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Alnilam's Gift",
+        "value": "Alnilam's Gift"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Increase the damage dealt by your abilities from the Alnilam's Sight spellbook.",
+        "value": "Increase the damage dealt by your abilities from the Alnilam's Sight spellbook."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Alnitak's Gift",
+        "value": "Alnitak's Gift"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Increase the damage dealt by your abilities from the Alnitak's Might spellbook.",
+        "value": "Increase the damage dealt by your abilities from the Alnitak's Might spellbook."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Pledge to the Nebulae",
+        "value": "Pledge to the Nebulae"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Pledge to a Nebula using Orion's Upgrade Tree, unlocking new effects.",
+        "value": "Pledge to a Nebula using Orion's Upgrade Tree, unlocking new effects."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Might of the Horsehead Nebula",
+        "value": "Might of the Horsehead Nebula"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Orion and your bow abilities deal +20% damage while mounted on a Horse or Nightmare mythic mount.",
+        "value": "Orion and your bow abilities deal +20% damage while mounted on a Horse or Nightmare mythic mount."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Strength of the Orion Nebula",
+        "value": "Strength of the Orion Nebula"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Your bond with Orion is strengthened, making the trajectory speed of arrows fired with it be +10% faster, in exchange of -10% slower drawing speed.",
+        "value": "Your bond with Orion is strengthened, making the trajectory speed of arrows fired with it be +10% faster, in exchange of -10% slower drawing speed."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Casper the Friendly Ghost",
+        "value": "Casper the Friendly Ghost"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Orion",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The Focus Zone passive can now also be applied when using the third ability of any archer spellbook.",
+        "value": "The Focus Zone passive can now also be applied when using the third ability of any archer spellbook."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Skillet",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " Granny's Pan Modifier",
+        "value": " Granny's Pan Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Skillet",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Knockback Granny's Pan Modifier",
+        "value": "Knockback Granny's Pan Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Skillet",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Granny's Artifact",
+        "value": "Granny's Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Skillet",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Skillet",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"Looks like a normal pan, but the best foods were cooked on it.\"",
+        "value": "\"Looks like a normal pan, but the best foods were cooked on it.\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Skillet",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Skillet",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Granny's Wrath",
+        "value": "Granny's Wrath"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Skillet",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Attacks burn the target for 5 seconds and fill your hunger by 1.",
+        "value": "Attacks burn the target for 5 seconds and fill your hunger by 1."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " Supernova Modifier",
+        "value": " Supernova Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Cosmic Artifact",
+        "value": "Cosmic Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Astral Burst",
+        "value": "Astral Burst"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Invoke all of the energy of Supernova into a single point,",
+        "value": "Invoke all of the energy of Supernova into a single point,"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Arcane Projection",
+        "value": "Arcane Projection"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Charge your focus in a single target, and then strike with a powerful",
+        "value": "Charge your focus in a single target, and then strike with a powerful"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frost Projection",
+        "value": "Frost Projection"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Channel a rain of iceles to your closest target. If the target dies,",
+        "value": "Channel a rain of iceles to your closest target. If the target dies,"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Fire Projection",
+        "value": "Fire Projection"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Teleport behind a close enemy and strike with a flaming hit,",
+        "value": "Teleport behind a close enemy and strike with a flaming hit,"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "dealing physical and fire damage. Can be channeleed.",
+        "value": "dealing physical and fire damage. Can be channeleed."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Astral Echoing",
+        "value": "Astral Echoing"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Your hits may resonate with extra elemental damage.",
+        "value": "Your hits may resonate with extra elemental damage."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.ThousandFists",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Soulfire Artifact",
+        "value": "Soulfire Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.ThousandFists",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.ThousandFists",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.ThousandFists",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Enraging",
+        "value": "Enraging"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.ThousandFists",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Enrage yourself, imbuing your fists with 500% attack speed",
+        "value": "Enrage yourself, imbuing your fists with 500% attack speed"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.ThousandFists",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "for 2 seconds. While enraged, your attacks may deal extra soulfire damage.",
+        "value": "for 2 seconds. While enraged, your attacks may deal extra soulfire damage."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.ThousandFists",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Requires a Fist of Fury in the off hand.",
+        "value": "Requires a Fist of Fury in the off hand."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.ThousandFists",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " Fury of a Thousand Fists Modifier",
+        "value": " Fury of a Thousand Fists Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
+      "method": "method_7844",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Lightning Thunderwrath Modifier",
+        "value": "Lightning Thunderwrath Modifier"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Emberstorm Artifact",
+        "value": "Emberstorm Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Serkonid Heritage",
+        "value": "Serkonid Heritage"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Attacks have a 25% chance of striking again with ",
+        "value": "Attacks have a 25% chance of striking again with "
+      },
+      {
+        "key": "lightning damage.",
+        "value": "lightning damage."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Being fated to the Warrior's Devotion increases its chance to 35%.",
+        "value": " Being fated to the Warrior's Devotion increases its chance to 35%."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Cinderstone Artifact",
+        "value": "Cinderstone Artifact"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Wall of Flames",
+        "value": "Wall of Flames"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,",
+        "value": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "dealing 3% of your Maximum Health as fire damage to nearby enemies per second.",
+        "value": "dealing 3% of your Maximum Health as fire damage to nearby enemies per second."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Lasts 10 seconds, then goes on cooldown for 15 seconds.",
+        "value": " Lasts 10 seconds, then goes on cooldown for 15 seconds."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Instant Flames",
+        "value": "Instant Flames"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "After shielding with Vaazkar, surround yourself with flames, dealing 3%",
+        "value": "After shielding with Vaazkar, surround yourself with flames, dealing 3%"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "of your Maximum Health as fire damage to nearby enemies per second.",
+        "value": "of your Maximum Health as fire damage to nearby enemies per second."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Enemies get taunted every time they're damaged by it.",
+        "value": "Enemies get taunted every time they're damaged by it."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Lasts up to 10 seconds, then goes on cooldown for 10 seconds.",
+        "value": " Lasts up to 10 seconds, then goes on cooldown for 10 seconds."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Protective Flames",
+        "value": "Protective Flames"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,",
+        "value": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds.",
+        "value": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Firestorm",
+        "value": "Firestorm"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,",
+        "value": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "dealing 5% of your Maximum Health as fire damage to nearby enemies per second.",
+        "value": "dealing 5% of your Maximum Health as fire damage to nearby enemies per second."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds.",
+        "value": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.core.CosmeticArtifact",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Artifact Illusion",
+        "value": "Artifact Illusion"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.core.CosmeticArtifact",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.core.CosmeticArtifact",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "An illusion made to be used on other items with the magic of Transmogrification.",
+        "value": "An illusion made to be used on other items with the magic of Transmogrification."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.core.CosmeticArtifact",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\" Eternal Challenge.",
+        "value": "\" Eternal Challenge."
+      },
+      {
+        "key": "Obtained through the \"Mastery of ",
+        "value": "Obtained through the \"Mastery of "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "露 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "蘆 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Affixes",
+        "value": "Affixes"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": "Mythic ",
+        "value": "Mythic "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Faceless Gift                    ",
+        "value": "Faceless Gift                    "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Aberrations may arise every 30 seconds, helping and",
+        "value": " Aberrations may arise every 30 seconds, helping and"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.transmog.TransmogItem",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Transmog Appearance",
+        "value": "Transmog Appearance"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.transmog.TransmogItem",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "露 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.transmog.TransmogItem",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "An illusion made to be used on other items with the magic of Transmogrification.",
+        "value": "An illusion made to be used on other items with the magic of Transmogrification."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.transmog.TransmogItem",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Dropped by Mythic Challenges with a 5% Drop Chance.",
+        "value": "Dropped by Mythic Challenges with a 5% Drop Chance."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Thunderwrath",
+        "value": "Thunderwrath"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Supernova",
+        "value": "Supernova"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Fury of a Thousand Fists",
+        "value": "Fury of a Thousand Fists"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Frostmourne",
+        "value": "Frostmourne"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "A'zhar",
+        "value": "A'zhar"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Fyr'alath",
+        "value": "Fyr'alath"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Ash",
+        "value": "Ash"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Edar",
+        "value": "Edar"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Ekavar",
+        "value": "Ekavar"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Vaazkar",
+        "value": "Vaazkar"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Orion",
+        "value": "Orion"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Full of hatred and demonic presences.",
+        "value": "Full of hatred and demonic presences."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "A shining light full of concentrated raw power.",
+        "value": "A shining light full of concentrated raw power."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Holds wrathful souls.",
+        "value": "Holds wrathful souls."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can be used to re-roll and repair artifact weapons.",
+        "value": "Can be used to re-roll and repair artifact weapons."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "method_43470",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "A reward from S'kellak for aiding him in defeating the threats of the realms, used to craft useful relics.",
+        "value": "A reward from S'kellak for aiding him in defeating the threats of the realms, used to craft useful relics."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "method_43470",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "- Obtainable as a reward from Campaign Boss Quests",
+        "value": "- Obtainable as a reward from Campaign Boss Quests"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "method_43470",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "- Craftable using Encased Remnants and Greater Mythical Essences",
+        "value": "- Craftable using Encased Remnants and Greater Mythical Essences"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "蘆 Loot from Mythic 10+ Bosses",
+        "value": " Loot from Mythic 10+ Bosses"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ItemRegistry",
+      "method": "getDescription",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "蘆 Loot from Mythic 20+ Bosses",
+        "value": " Loot from Mythic 20+ Bosses"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.ProminentMaterials",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "ARTIFACT",
+        "value": "ARTIFACT"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "蘆 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Mythic Bosses",
+        "value": "Mythic Bosses"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "蘆 ",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Eternal Rewards",
+        "value": "Eternal Rewards"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"Do you really think you can kill me?\"",
+        "value": "\"Do you really think you can kill me?\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"You will be very useful to the new king\"",
+        "value": "\"You will be very useful to the new king\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"But I'll have to kill you first\"",
+        "value": "\"But I'll have to kill you first\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Tip: Activate the waystone for a checkpoint.",
+        "value": "Tip: Activate the waystone for a checkpoint."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"You thought you killed me...\"",
+        "value": "\"You thought you killed me...\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"But the King in Yellow made me reborn stronger\"",
+        "value": "\"But the King in Yellow made me reborn stronger\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5572",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "\"And now, it's your turn,§§ TO REBORN!\"",
+        "value": "\"And now, it's your turn,§§ TO REBORN!\""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5555",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The beacon calls nobody. You cannot use this item yet.",
+        "value": "The beacon calls nobody. You cannot use this item yet."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
+      "method": "method_5555",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This beacon only works in the Overworld.",
+        "value": "This beacon only works in the Overworld."
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev/prominent/text/ICONS",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev/prominent/text/ICONS",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev/prominent/text/ICONS",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev/prominent/text/ICONS",
+      "method": "",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "露",
+        "value": ""
+      }
+    ]
+  }
+]
