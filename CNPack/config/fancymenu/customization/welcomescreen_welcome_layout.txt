@@ -642,7 +642,7 @@ element {
 
 element {
   interactable = true
-  source = 你是火灵裔，是至高造物主%n%斯凯拉克的孩子。%n%%n%这位造物主将你送往了一个未知的世界，%n%并交予你一个任务——阻止虚空对各大境域的入侵。
+  source = 你是火灵裔，是至高造物主%n%斯凯拉克的孩子。%n%%n%这位造物主将你送往了一个%n%未知的世界，并交予你一个%n%任务——阻止虚空对各大境域的入侵。
   source_mode = direct
   shadow = true
   scale = 1.0

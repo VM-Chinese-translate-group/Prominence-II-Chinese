@@ -336,7 +336,7 @@ element {
   anchor_point = bottom-left
   x = 10
   y = -14
-  width = 130
+  width = 300
   height = 11
   stretch_x = false
   stretch_y = false
