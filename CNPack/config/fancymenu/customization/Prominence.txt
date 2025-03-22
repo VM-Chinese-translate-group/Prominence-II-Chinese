@@ -723,7 +723,7 @@ element {
 }
 
 element {
-   = 快来看我<3（译注：全英文）
+   = Read me <3
   _mode = direct
   scale = 0.45
   shadow = true

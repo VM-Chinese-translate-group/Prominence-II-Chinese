@@ -1044,7 +1044,7 @@ element {
 
 element {
   interactable = true
-  source = 游玩建议（译注：全英文）
+  source = 优化建议（译注：全英文）
   source_mode = direct
   shadow = true
   scale = 1.0

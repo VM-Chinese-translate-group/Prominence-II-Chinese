@@ -31,7 +31,7 @@ element {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = 注意！与服务器相比，使用对局域网开放的形式联机会有更高的网络延迟%n%且有可能引发一些潜在的冲突。%n%%n%所以我们更推荐你在Bisect Hosting上租一个服务器（译注：外国租赁服平台）
+  source = 注意！与服务器相比，使用对局域网开放的形式联机会有更高的网络延迟%n%且有可能引发一些潜在的冲突。%n%%n%所以我们更推荐你在Bisect Hosting%n%上租一个服务器（译注：外国租赁服平台）
   text_border = 0
   case_mode = normal
   source_mode = direct
