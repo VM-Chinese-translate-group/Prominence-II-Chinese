@@ -118,7 +118,7 @@
     "spell.prominent.rage.name":"怒不可遏",
     "spell.prominent.supernova.description":"将超新星的所有能量唤集至一点，随后使其猛烈爆发，对周围的所有敌人造成奥秘伤害。",
     "spell.prominent.supernova.name":"星辰爆发",
-    "stat.prominent.hck_ashedar":"Mythic Challenges Completed with Ash'edar",
+    "stat.prominent.hck_ashedar":"用晦朔取得胜利的神话挑战数",
     "stat.prominent.hck_azhar":"Mythic Challenges Completed with A'zhar",
     "stat.prominent.hck_ekavar":"Mythic Challenges Completed with Ekavar",
     "stat.prominent.hck_frostmourne":"Mythic Challenges Completed with Frostmourne",
@@ -126,6 +126,6 @@
     "stat.prominent.hck_fyralath":"Mythic Challenges Completed with Fyr'alath",
     "stat.prominent.hck_orion":"Mythic Challenges Completed with Orion",
     "stat.prominent.hck_supernova":"Mythic Challenges Completed with Supernova",
-    "stat.prominent.hck_thunderwrath":"Mythic Challenges Completed with Thunderwrath",
+    "stat.prominent.hck_thunderwrath":"用雷霆之怒取得胜利的神话挑战数",
     "stat.prominent.mythic_reforges":"Mythic Reforges"
 }
