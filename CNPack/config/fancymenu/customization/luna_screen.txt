@@ -31,7 +31,7 @@ element {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Keep in mind that sharing your world will have more latency %n%and potential performance issues than using a server.%n%%n%So we still recommend to use Bisect Hosting.
+  source = 注意！与服务器相比，使用对局域网开放的形式联机会有更高的网络延迟%n%且有可能引发一些潜在的冲突。%n%%n%所以我们更推荐你在Bisect Hosting上租一个服务器（译注：外国租赁服平台）
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -56,7 +56,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Get 25% OFF with Bisect Hosting
+  label = 以七五折的优惠租赁Bisect Hosting服务器
   navigatable = true
   element_type = custom_button
   instance_identifier = 6b9620e1-3a16-449d-93ab-e44940d57dc41692901824606
@@ -212,7 +212,7 @@ vanilla_button {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Share World
+  label = 对局域网开放
   navigatable = true
   element_type = vanilla_button
   instance_identifier = 345972

@@ -126,7 +126,7 @@ element {
 }
 
 element {
-  source = Made with &c❤ &rby &6ElocinDev
+  source = 这个整合包由&6ElocinDev倾注了满满的&c❤&r制作而成
   source_mode = direct
   shadow = true
   case_mode = normal
@@ -234,7 +234,7 @@ element {
 }
 
 element {
-  source = Modrinth &cdoes not have FTB mods&f.%n%%n%&fDue to licensing issues, we cannot include them in the modpack,%n%&fso in order to play, you have to manually download them and their dependencies%n%%n%&eDownload the mods below and put them under the "mods" folder%n%&efrom your modpack instance. Make sure to restart the modpack afterwards.%n%&7You can click the "Folder" button in the Modrinth launcher to access it!
+  source = （译注：不用Modrinth启动器开游戏的玩家不用看）Modrinth&c里没有FTB系列模组&f。%n%%n%&f由于授权方面的问题，我们也不能把这些模组打包进整合包里，%n%&f所以要想正常游玩这个整合包，你需要手动安装FTB系列模组以及它们的前置%n%%n%&e下载以下这些模组并把它们放在%n%&e你的整合包的“mods”文件夹下，而后重新启动整合包。%n%&7你可以点击Modrinth启动器里的“Folder”选项来直接打开整合包文件夹。
   source_mode = direct
   shadow = true
   case_mode = normal

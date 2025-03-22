@@ -154,7 +154,7 @@ element {
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   description = Get 25% OFF!
-  label = Create Server
+  label = 租赁服务器
   navigatable = true
   widget_active_state_requirement_container_identifier = 789f9fbc-00ab-483f-994d-e63fa0b725d9-1738159556051
   [loading_requirement_container_meta:789f9fbc-00ab-483f-994d-e63fa0b725d9-1738159556051] = [groups:][instances:]
@@ -310,7 +310,7 @@ element {
 }
 
 element {
-  source = Made with &c❤ &rby &6ElocinDev
+  source = 这个整合包由&6ElocinDev倾注了满满的&c❤&r制作而成
   source_mode = direct
   shadow = true
   case_mode = normal
@@ -626,7 +626,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = &e★&r Official Wiki
+  label = &e★&r官方Wiki
   navigatable = true
   widget_active_state_requirement_container_identifier = 538a801d-fc81-422f-80a7-772ac2174c14-1738159556051
   [loading_requirement_container_meta:538a801d-fc81-422f-80a7-772ac2174c14-1738159556051] = [groups:][instances:]
@@ -723,7 +723,7 @@ element {
 }
 
 element {
-  source = Please read me <3
+  source = 快来看我<3（译注：全英文）
   source_mode = direct
   scale = 0.45
   shadow = true
