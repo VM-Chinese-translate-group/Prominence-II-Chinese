@@ -35,7 +35,7 @@ scroll_list_customization {
 
 element {
   interactable = true
-  source = Check out the Official Wiki
+  source = 查看官方Wiki
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -91,7 +91,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Start Journey
+  label = 旅途开始
   navigatable = true
   widget_active_state_requirement_container_identifier = c5c416ec-befb-4c37-b124-8fcead93479f-1738626064205
   [loading_requirement_container_meta:c5c416ec-befb-4c37-b124-8fcead93479f-1738626064205] = [groups:][instances:]
@@ -160,7 +160,7 @@ element {
 
 element {
   interactable = true
-  source = Join our Discord
+  source = 加入我们的Discord论坛
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -433,7 +433,7 @@ element {
 
 element {
   interactable = true
-  source = The Talent Tree
+  source = 技能树
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -513,7 +513,7 @@ element {
 
 element {
   interactable = true
-  source = Keen Eye
+  source = 集中目光
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -593,7 +593,7 @@ element {
 
 element {
   interactable = true
-  source = Quick Roll
+  source = 战术翻滚
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -642,7 +642,7 @@ element {
 
 element {
   interactable = true
-  source = You are a Flameborn, created by S'kellak, the Creator of All Things.%n%%n%You're being sent to the unknown Overworld, with a quest to stop the Void's Invasion in all realms.
+  source = 你是火灵裔，是至高造物主%n%斯凯拉克的孩子。%n%%n%这位造物主将你送往了一个%n%未知的世界，并交予你一个%n%任务——阻止虚空对各大境域的入侵。
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -691,7 +691,7 @@ element {
 
 element {
   interactable = true
-  source = Level up, upgrade your strengths and unlock new abilities.
+  source = 升级、强化你的力量并解锁全新的能力。
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -740,7 +740,7 @@ element {
 
 element {
   interactable = true
-  source = Zoom in your view for a closer look at things.
+  source = 拉近你的视野，使你能够更细致地%n%观察事物。
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -789,7 +789,7 @@ element {
 
 element {
   interactable = true
-  source = Roll out of danger, dodging attacks and getting away from your enemies.
+  source = 你可以利用翻滚从险境中脱身，可以躲避%n%攻击或是甩开敌人。
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -838,7 +838,7 @@ element {
 
 element {
   interactable = true
-  source = Issue Report & Feedback
+  source = 提交报错和反馈
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -956,7 +956,7 @@ element {
 
 element {
   interactable = true
-  source = Listen to the Original Soundtrack
+  source = 欣赏游戏音乐原声带
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -1044,7 +1044,7 @@ element {
 
 element {
   interactable = true
-  source = Performance Guide
+  source = 优化建议（译注：全英文）
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -1083,7 +1083,7 @@ element {
   anchor_point_element = dbad1278-c5b1-41c1-9ddf-0b7c7e358741-1738703232619
   x = 22
   y = 3
-  width = 103
+  width = 120
   height = 20
   stretch_x = false
   stretch_y = false

@@ -42,7 +42,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Continue
+  label = 继续
   navigatable = true
   widget_active_state_requirement_container_identifier = b00231a0-7bf8-4cfb-b015-9ebcc2570e9c-1738705107840
   [loading_requirement_container_meta:b00231a0-7bf8-4cfb-b015-9ebcc2570e9c-1738705107840] = [groups:][instances:]

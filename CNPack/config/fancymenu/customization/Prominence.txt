@@ -153,8 +153,8 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Get 25% OFF!
-  label = Create Server
+  description = 七五折优惠！
+  label = 租赁服务器
   navigatable = true
   widget_active_state_requirement_container_identifier = 789f9fbc-00ab-483f-994d-e63fa0b725d9-1738159556051
   [loading_requirement_container_meta:789f9fbc-00ab-483f-994d-e63fa0b725d9-1738159556051] = [groups:][instances:]
@@ -194,7 +194,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Discord Server
+  description = Discord论坛
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = 003a5acf-43d4-48fa-ae0a-7b2b54890721-1738159556051
@@ -235,7 +235,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = CurseForge Page
+  description = CurseForge官方页面
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = 91a17db2-272b-4500-8499-911d27c569cc-1738159556051
@@ -276,7 +276,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Settings
+  description = 设置
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = d4fa725b-05aa-47f7-ba50-a768860f4b6e-1738159556051
@@ -310,7 +310,7 @@ element {
 }
 
 element {
-  source = Made with &c❤ &rby &6ElocinDev
+  source = 这个整合包由&6ElocinDev倾注了满满的&c❤&r制作而成
   source_mode = direct
   shadow = true
   case_mode = normal
@@ -336,7 +336,7 @@ element {
   anchor_point = bottom-left
   x = 10
   y = -14
-  width = 130
+  width = 300
   height = 11
   stretch_x = false
   stretch_y = false
@@ -354,7 +354,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Quit Game
+  description = 退出游戏
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = dc288466-17a1-4709-99d0-b2bfc440155d-1738159556051
@@ -523,7 +523,7 @@ element {
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   hoverlabel = 
-  description = Boost Your FPS
+  description = 优化建议（译注：全英文）
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = 00e49209-c539-4730-a5cc-8e665abe5cd4-1738159556051
@@ -626,7 +626,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = &e★&r Official Wiki
+  label = &e★&r官方Wiki
   navigatable = true
   widget_active_state_requirement_container_identifier = 538a801d-fc81-422f-80a7-772ac2174c14-1738159556051
   [loading_requirement_container_meta:538a801d-fc81-422f-80a7-772ac2174c14-1738159556051] = [groups:][instances:]
@@ -723,8 +723,8 @@ element {
 }
 
 element {
-  source = Please read me <3
-  source_mode = direct
+   = Read me <3
+  _mode = direct
   scale = 0.45
   shadow = true
   rotation = -15.0
@@ -1141,7 +1141,7 @@ vanilla_button {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Language
+  description = 游戏语言
   navigatable = true
   widget_active_state_requirement_container_identifier = 50ca97c1-3fe9-4d6c-91e3-c8d33009e942-1738159556051
   [loading_requirement_container_meta:50ca97c1-3fe9-4d6c-91e3-c8d33009e942-1738159556051] = [groups:][instances:]

@@ -28,7 +28,7 @@ scroll_list_customization {
 
 element {
   interactable = true
-  source = Please open SteamVR and connect your%n%headset before enabling VR in-game!
+  source = 在启用VR模式前，请先打开SteamVR%n%并连接到你的VR设备！
   source_mode = direct
   shadow = true
   scale = 1.35

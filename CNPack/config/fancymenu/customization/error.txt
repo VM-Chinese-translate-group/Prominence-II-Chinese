@@ -38,7 +38,7 @@ scroll_list_customization {
 }
 
 element {
-  source = You have added a mod that is incompatible with our Modpack! %n%Please remove any extra mods you added to the modpack until this warning disappears.%n%%n%If unsure, ask in discord.gg/lunapixel !
+  source = 你添加了与这个整合包不兼容的模组！%n%请删除你额外添加的模组，直到这条报错信息消失。%n%%n%如果你无法定位到引发冲突的模组，请在discord.gg/lunapixel上反馈！
   source_mode = direct
   shadow = true
   case_mode = normal
