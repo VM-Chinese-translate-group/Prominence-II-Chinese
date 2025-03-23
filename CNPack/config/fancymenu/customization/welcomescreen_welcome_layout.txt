@@ -956,7 +956,7 @@ element {
 
 element {
   interactable = true
-  source = 欣赏游戏音乐原声带
+  source = 欣赏游戏原声带
   source_mode = direct
   shadow = true
   scale = 1.0
