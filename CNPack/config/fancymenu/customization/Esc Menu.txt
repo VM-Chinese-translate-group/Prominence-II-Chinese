@@ -389,7 +389,7 @@ element {
 
 element {
   interactable = true
-  source = **Did you know?**
+  source = **你知道吗？**
   source_mode = direct
   shadow = true
   scale = 1.0
