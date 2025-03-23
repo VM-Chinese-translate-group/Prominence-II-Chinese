@@ -75,7 +75,7 @@
     "item.death_knights.ruby_runeblade":"红宝石符文剑",
     "item.death_knights.runecarved_stone":"符文刻石",
     "item.death_knights.unholy_dk_necklace":"诅咒灵魂之回响",
-    "item.death_knights.unholy_dk_necklace.lore":"被无数人经手，据说所有项链的主人都用灵魂诅咒过这条项链。",
+    "item.death_knights.unholy_dk_necklace.lore":"被无数人经手，据说项链的所有主人都用灵魂诅咒过这条项链。",
     "item.death_knights.unholy_dk_ring":"死印",
     "item.death_knights.unholy_dk_ring.lore":"仔细听…听清困在戒指里的灵魂的痛苦与折磨。",
     "item.death_knights.unholy_spell_book":"亵渎教义之书",
@@ -104,11 +104,11 @@
     "spell.death_knights.lesser_festering_strike.description":"以引发溃烂的攻击打击目标，造成{damage_1}点物理伤害和{damage_2}点亵渎伤害。",
     "spell.death_knights.lesser_festering_strike.name":"溃烂打击",
     "spell.death_knights.lesser_obliterate.description":"以强力的攻击打击目标，造成{damage_1}点物理伤害和{damage_2}点寒冰伤害。",
-    "spell.death_knights.lesser_obliterate.name":"湮灭",
+    "spell.death_knights.lesser_obliterate.name":"摧灭",
     "spell.death_knights.marrowrend.description":"撕裂目标，造成{damage_1}点物理伤害和{damage_2}点鲜血伤害，对施法者施加三层抵抗，每受到伤害会减少一层抵抗，抵抗效果最多叠加4层。",
     "spell.death_knights.marrowrend.name":"摧骨裂髓",
     "spell.death_knights.obliterate.description":"以强力的攻击打击目标，造成{damage_1}点物理伤害和{damage_2}点寒冰伤害。向目标施加2秒冰冻并延长冷酷寒冬和彻骨吐息的持续时间。",
-    "spell.death_knights.obliterate.name":"湮灭",
+    "spell.death_knights.obliterate.name":"摧灭",
     "spell.death_knights.remorseless_winter.description":"无情的寒冬笼罩在你周围，每秒对周围8格范围内的敌人造成寒冰伤害，每次造成伤害有小概率冰冻敌人1秒。",
     "spell.death_knights.remorseless_winter.name":"冷酷寒冬"
 }
