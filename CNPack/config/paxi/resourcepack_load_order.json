@@ -1,0 +1,6 @@
+{
+  "loadOrder": [
+    "Overrides.zip",
+    "vm_translations"
+  ]
+}
