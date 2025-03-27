@@ -4,7 +4,8 @@
     "name": "Prominent-GLOBAL-MC1.20.1-3.9.5.jar extracted",
     "desc": "Use VaultPatcherDuper extracted mods hardcoded text",
     "mods": "Prominent-GLOBAL-MC1.20.1-3.9.5",
-    "dynamic": false
+    "dynamic": false,
+    "i18n": true
   },
   {
     "target_class": {
@@ -15,7 +16,7 @@
     "pairs": [
       {
         "key": "ElocinDev",
-        "value": "ElocinDev"
+        "value": "vp.prominent.prominentloader.1"
       }
     ]
   },
@@ -28,7 +29,7 @@
     "pairs": [
       {
         "key": "Prominence II RPG Hasturian Era",
-        "value": "Prominence II RPG Hasturian Era"
+        "value": "vp.prominent.prominentloader.2"
       }
     ]
   },
@@ -41,7 +42,7 @@
     "pairs": [
       {
         "key": "Hello there! You seem to be using Prominent in a modified version of Prominence (or another pack that isn't Prominence). Keep in mind this is not allowed, both Prominent and Prominence have a strict license that does not allow redistribution or public modification, making this either an illegal reupload of Prominence, or a an illegal redistribution of Prominent, as Prominent is not available through CurseForge, so you're also breaking the license of Prominent by overriding the file within the modpack. ",
-        "value": "Hello there! You seem to be using Prominent in a modified version of Prominence (or another pack that isn't Prominence). Keep in mind this is not allowed, both Prominent and Prominence have a strict license that does not allow redistribution or public modification, making this either an illegal reupload of Prominence, or a an illegal redistribution of Prominent, as Prominent is not available through CurseForge, so you're also breaking the license of Prominent by overriding the file within the modpack. "
+        "value": "vp.prominent.prominentloader.3"
       }
     ]
   },
@@ -54,7 +55,7 @@
     "pairs": [
       {
         "key": "ꦖ §7Unleash the remnant to upgrade your Artifact weapon.",
-        "value": "ꦖ §7Unleash the remnant to upgrade your Artifact weapon."
+        "value": "vp.prominent.artifactupgrader.1"
       }
     ]
   },
@@ -66,12 +67,8 @@
     },
     "pairs": [
       {
-        "key": "§6 +",
-        "value": "§6 +"
-      },
-      {
         "key": " Artifact Power",
-        "value": " Artifact Power"
+        "value": "vp.prominent.artifactupgrader.2"
       }
     ]
   },

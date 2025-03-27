@@ -13,7 +13,7 @@
     "hide_pairs": 7,
     "output_node_debug": false,
     "export_class": false,
-    "use_cache": true,
+    "use_cache": false,
     "missing_warn": true
   }
 }
