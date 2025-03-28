@@ -81,7 +81,7 @@
     "pairs": [
       {
         "key": "Your Artifact is already fully upgraded.",
-        "value": "Your Artifact is already fully upgraded."
+        "value": "vp.prominent.artifactupgrader.1"
       }
     ]
   },
@@ -94,11 +94,11 @@
     "pairs": [
       {
         "key": "The remnant was unleashed and captured by your Artifact Weapon. +",
-        "value": "The remnant was unleashed and captured by your Artifact Weapon. +"
+        "value": "vp.prominent.artifactupgrader.2"
       },
       {
         "key": " Artifact Power Obtained",
-        "value": " Artifact Power Obtained"
+        "value": "vp.prominent.artifactupgrader.3"
       }
     ]
   },
@@ -111,7 +111,7 @@
     "pairs": [
       {
         "key": "Call upon S'kellak's Aid to travel to the city of Vaaz.",
-        "value": "Call upon S'kellak's Aid to travel to the city of Vaaz."
+        "value": "vp.prominent.beaconofhope.1"
       }
     ]
   },
@@ -124,7 +124,7 @@
     "pairs": [
       {
         "key": " Given as quest reward in Chapter I of Hasturian Era.",
-        "value": " Given as quest reward in Chapter I of Hasturian Era."
+        "value": "vp.prominent.beaconofhope.2"
       }
     ]
   },
@@ -137,7 +137,7 @@
     "pairs": [
       {
         "key": "§7Made from the depths of §cVaaz§7 by the creator of all things, §cS'kellak§7.",
-        "value": "§7Made from the depths of §cVaaz§7 by the creator of all things, §cS'kellak§7."
+        "value": "vp.prominent.moltencore.1"
       }
     ]
   },
@@ -150,7 +150,7 @@
     "pairs": [
       {
         "key": "§7Given as a reward to those who have proven themselves worthy by eliminating the threats of the realms.",
-        "value": "§7Given as a reward to those who have proven themselves worthy by eliminating the threats of the realms."
+        "value": "vp.prominent.moltencore.2"
       }
     ]
   },
@@ -163,7 +163,7 @@
     "pairs": [
       {
         "key": "§eComplete Chapter I of Void's Invasion to unlock.",
-        "value": "§eComplete Chapter I of Void's Invasion to unlock."
+        "value": "vp.prominent.moltencore.3"
       }
     ]
   },
@@ -176,7 +176,7 @@
     "pairs": [
       {
         "key": "§8This is a personal soulbound item! Do not try to share or destroy or it will break progression.",
-        "value": "§8This is a personal soulbound item! Do not try to share or destroy or it will break progression."
+        "value": "vp.prominent.moltencore.4"
       }
     ]
   },
@@ -189,7 +189,7 @@
     "pairs": [
       {
         "key": "Your talent tree has been reset.",
-        "value": "Your talent tree has been reset."
+        "value": "vp.prominent.scrollitem.1"
       }
     ]
   },
@@ -202,7 +202,7 @@
     "pairs": [
       {
         "key": "Resets your talent tree knowledge and refunds all points previously spent.",
-        "value": "Resets your talent tree knowledge and refunds all points previously spent."
+        "value": "vp.prominent.scrollitem.2"
       }
     ]
   },
@@ -215,7 +215,7 @@
     "pairs": [
       {
         "key": "Ashedar Fire Modifier",
-        "value": "Ashedar Fire Modifier"
+        "value": "vp.prominent.ashedar.1"
       }
     ]
   },
@@ -228,7 +228,7 @@
     "pairs": [
       {
         "key": "Ashedar Arcane Modifier",
-        "value": "Ashedar Arcane Modifier"
+        "value": "vp.prominent.ashedar.2"
       }
     ]
   },
@@ -241,7 +241,7 @@
     "pairs": [
       {
         "key": "Sunfire",
-        "value": "Sunfire"
+        "value": "vp.prominent.ashedar.3"
       }
     ]
   },
@@ -254,7 +254,7 @@
     "pairs": [
       {
         "key": "Arcane",
-        "value": "Arcane"
+        "value": "vp.prominent.ashedar.4"
       }
     ]
   },
@@ -267,7 +267,7 @@
     "pairs": [
       {
         "key": " Artifact",
-        "value": " Artifact"
+        "value": "vp.prominent.ashedar.5"
       }
     ]
   },
@@ -280,7 +280,7 @@
     "pairs": [
       {
         "key": "Sunstrike",
-        "value": "Sunstrike"
+        "value": "vp.prominent.ashedar.6"
       }
     ]
   },
@@ -293,7 +293,7 @@
     "pairs": [
       {
         "key": "Focus a shockwave of pure solar power, dealing fire damage to all enemies in a frontal cone.",
-        "value": "Focus a shockwave of pure solar power, dealing fire damage to all enemies in a frontal cone."
+        "value": "vp.prominent.ashedar.7"
       }
     ]
   },
@@ -306,7 +306,7 @@
     "pairs": [
       {
         "key": " Deals double damage while affected by Solar Eclipse",
-        "value": " Deals double damage while affected by Solar Eclipse"
+        "value": "vp.prominent.ashedar.8"
       }
     ]
   },
@@ -319,7 +319,7 @@
     "pairs": [
       {
         "key": " Heals you the damaged amount while affected by Lunar Eclipse.",
-        "value": " Heals you the damaged amount while affected by Lunar Eclipse."
+        "value": "vp.prominent.ashedar.9"
       }
     ]
   },
@@ -332,7 +332,7 @@
     "pairs": [
       {
         "key": "Prominence",
-        "value": "Prominence"
+        "value": "vp.prominent.ashedar.10"
       }
     ]
   },
@@ -345,7 +345,7 @@
     "pairs": [
       {
         "key": "Unleash the true power of Ash, erupting fire damage in a large area.",
-        "value": "Unleash the true power of Ash, erupting fire damage in a large area."
+        "value": "vp.prominent.ashedar.11"
       }
     ]
   },
@@ -358,7 +358,7 @@
     "pairs": [
       {
         "key": " Sets targets on fire and blinds them while affected by Solar Eclipse",
-        "value": " Sets targets on fire and blinds them while affected by Solar Eclipse"
+        "value": "vp.prominent.ashedar.12"
       }
     ]
   },
@@ -371,7 +371,7 @@
     "pairs": [
       {
         "key": " Deals double damage to stunned enemies while affected by Lunar Eclipse.",
-        "value": " Deals double damage to stunned enemies while affected by Lunar Eclipse."
+        "value": "vp.prominent.ashedar.13"
       }
     ]
   },
@@ -384,7 +384,7 @@
     "pairs": [
       {
         "key": "Solar Eclipse",
-        "value": "Solar Eclipse"
+        "value": "vp.prominent.ashedar.14"
       }
     ]
   },
@@ -397,7 +397,7 @@
     "pairs": [
       {
         "key": "Increases damage done by Ash'edar by 10%. Applies for 10 seconds.",
-        "value": "Increases damage done by Ash'edar by 10%. Applies for 10 seconds."
+        "value": "vp.prominent.ashedar.15"
       }
     ]
   },
@@ -410,7 +410,7 @@
     "pairs": [
       {
         "key": "Darkening",
-        "value": "Darkening"
+        "value": "vp.prominent.ashedar.16"
       }
     ]
   },
@@ -423,7 +423,7 @@
     "pairs": [
       {
         "key": "Swirls the inner arcane power of Edar, dealing arcane damage all around you.",
-        "value": "Swirls the inner arcane power of Edar, dealing arcane damage all around you."
+        "value": "vp.prominent.ashedar.17"
       }
     ]
   },
@@ -436,7 +436,7 @@
     "pairs": [
       {
         "key": " Extends the duration of your current Eclipse by 2 seconds.",
-        "value": " Extends the duration of your current Eclipse by 2 seconds."
+        "value": "vp.prominent.ashedar.18"
       }
     ]
   },
@@ -449,7 +449,7 @@
     "pairs": [
       {
         "key": " Heals you the damaged amount while affected by Lunar Eclipse.",
-        "value": " Heals you the damaged amount while affected by Lunar Eclipse."
+        "value": "vp.prominent.ashedar.19"
       }
     ]
   },
@@ -462,7 +462,7 @@
     "pairs": [
       {
         "key": "Moonlight Nova",
-        "value": "Moonlight Nova"
+        "value": "vp.prominent.ashedar.20"
       }
     ]
   },
@@ -475,7 +475,7 @@
     "pairs": [
       {
         "key": "Unleash a powerful nova of pure moonlight, damaging and stunning all enemies.",
-        "value": "Unleash a powerful nova of pure moonlight, damaging and stunning all enemies."
+        "value": "vp.prominent.ashedar.21"
       }
     ]
   },
@@ -488,7 +488,7 @@
     "pairs": [
       {
         "key": " Deals double damage while affected by Solar Eclipse",
-        "value": " Deals double damage while affected by Solar Eclipse"
+        "value": "vp.prominent.ashedar.22"
       }
     ]
   },
@@ -501,7 +501,7 @@
     "pairs": [
       {
         "key": " Stun duration is increased while affected by Lunar Eclipse.",
-        "value": " Stun duration is increased while affected by Lunar Eclipse."
+        "value": "vp.prominent.ashedar.23"
       }
     ]
   },
@@ -514,7 +514,7 @@
     "pairs": [
       {
         "key": "Lunar Eclipse",
-        "value": "Lunar Eclipse"
+        "value": "vp.prominent.ashedar.24"
       }
     ]
   },
@@ -527,7 +527,7 @@
     "pairs": [
       {
         "key": "Increases attack and movement speed by 10%. Applies for 10 seconds.",
-        "value": "Increases attack and movement speed by 10%. Applies for 10 seconds."
+        "value": "vp.prominent.ashedar.25"
       }
     ]
   },
@@ -540,7 +540,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.ashedar.26"
       }
     ]
   },
@@ -553,7 +553,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.ashedar.27"
       }
     ]
   },
@@ -566,7 +566,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.ashedar.28"
       }
     ]
   },
@@ -579,7 +579,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.ashedar.29"
       }
     ]
   },
@@ -592,7 +592,7 @@
     "pairs": [
       {
         "key": " Solar and Lunar Eclipses share their cooldown.",
-        "value": " Solar and Lunar Eclipses share their cooldown."
+        "value": "vp.prominent.ashedar.30"
       }
     ]
   },
@@ -605,7 +605,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.ashedar.31"
       }
     ]
   },
@@ -618,7 +618,7 @@
     "pairs": [
       {
         "key": "Astral Attunement",
-        "value": "Astral Attunement"
+        "value": "vp.prominent.ashedar.32"
       }
     ]
   },
@@ -631,7 +631,7 @@
     "pairs": [
       {
         "key": "When dual wielding along with its twin, melee attacks deal double damage.",
-        "value": "When dual wielding along with its twin, melee attacks deal double damage."
+        "value": "vp.prominent.ashedar.33"
       }
     ]
   },
@@ -644,7 +644,7 @@
     "pairs": [
       {
         "key": " Available spells will change depending on which blade is in your main hand.",
-        "value": " Available spells will change depending on which blade is in your main hand."
+        "value": "vp.prominent.ashedar.34"
       }
     ]
   },
@@ -657,7 +657,7 @@
     "pairs": [
       {
         "key": "The Essence of Ash'edar must be on your main hand, and your off hand must be empty.",
-        "value": "The Essence of Ash'edar must be on your main hand, and your off hand must be empty."
+        "value": "vp.prominent.ashedarspawner.1"
       }
     ]
   },
@@ -670,7 +670,7 @@
     "pairs": [
       {
         "key": "Ash'edar, the Cosmic Twins",
-        "value": "Ash'edar, the Cosmic Twins"
+        "value": "vp.prominent.ashedarspawner.2"
       }
     ]
   },
@@ -683,7 +683,7 @@
     "pairs": [
       {
         "key": "Sunfire & Arcane Artifacts",
-        "value": "Sunfire & Arcane Artifacts"
+        "value": "vp.prominent.ashedarspawner.3"
       }
     ]
   },
@@ -696,7 +696,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.ashedarspawner.4"
       }
     ]
   },
@@ -709,7 +709,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.ashedarspawner.5"
       }
     ]
   },
@@ -722,7 +722,7 @@
     "pairs": [
       {
         "key": "Converts the Essence of Ash'edar into its weapon form. Requires a free offhand",
-        "value": "Converts the Essence of Ash'edar into its weapon form. Requires a free offhand"
+        "value": "vp.prominent.ashedarspawner.6"
       }
     ]
   },
@@ -739,7 +739,7 @@
       },
       {
         "key": " A'zhar Modifier",
-        "value": " A'zhar Modifier"
+        "value": "vp.prominent.azhar.1"
       }
     ]
   },
@@ -752,7 +752,7 @@
     "pairs": [
       {
         "key": "Soulfire Artifact",
-        "value": "Soulfire Artifact"
+        "value": "vp.prominent.azhar.2"
       }
     ]
   },
@@ -765,7 +765,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.azhar.3"
       }
     ]
   },
@@ -778,7 +778,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.azhar.4"
       }
     ]
   },
@@ -791,7 +791,7 @@
     "pairs": [
       {
         "key": "Soul Absorption",
-        "value": "Soul Absorption"
+        "value": "vp.prominent.azhar.5"
       }
     ]
   },
@@ -804,7 +804,7 @@
     "pairs": [
       {
         "key": "Absorb all Broken Souls, consuming them and healing 10% of your",
-        "value": "Absorb all Broken Souls, consuming them and healing 10% of your"
+        "value": "vp.prominent.azhar.6"
       }
     ]
   },
@@ -817,7 +817,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.azhar.7"
       }
     ]
   },
@@ -830,7 +830,7 @@
     "pairs": [
       {
         "key": "Breath of A'zhar",
-        "value": "Breath of A'zhar"
+        "value": "vp.prominent.azhar.8"
       }
     ]
   },
@@ -843,7 +843,7 @@
     "pairs": [
       {
         "key": "Unleash the breath of A'zhar, dealing high soulfire damage on a",
-        "value": "Unleash the breath of A'zhar, dealing high soulfire damage on a"
+        "value": "vp.prominent.azhar.9"
       }
     ]
   },
@@ -856,7 +856,7 @@
     "pairs": [
       {
         "key": "large cone. If you don't have a broken soul stack, you will recieve",
-        "value": "large cone. If you don't have a broken soul stack, you will recieve"
+        "value": "vp.prominent.azhar.10"
       }
     ]
   },
@@ -869,7 +869,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.azhar.11"
       }
     ]
   },
@@ -882,7 +882,7 @@
     "pairs": [
       {
         "key": "Broken Souls",
-        "value": "Broken Souls"
+        "value": "vp.prominent.azhar.12"
       }
     ]
   },
@@ -895,7 +895,7 @@
     "pairs": [
       {
         "key": "Broken Souls last 5 seconds, each stack will not reset the duration.",
-        "value": "Broken Souls last 5 seconds, each stack will not reset the duration."
+        "value": "vp.prominent.azhar.13"
       }
     ]
   },
@@ -908,7 +908,7 @@
     "pairs": [
       {
         "key": "When souls expire, you get healed 10% of your maximum health.",
-        "value": "When souls expire, you get healed 10% of your maximum health."
+        "value": "vp.prominent.azhar.14"
       }
     ]
   },
@@ -921,7 +921,7 @@
     "pairs": [
       {
         "key": " Attacks generate a Broken Soul, but damage you 10% of your health.",
-        "value": " Attacks generate a Broken Soul, but damage you 10% of your health."
+        "value": "vp.prominent.azhar.15"
       }
     ]
   },
@@ -934,7 +934,7 @@
     "pairs": [
       {
         "key": " Killing an enemy will generate a Broken Soul without damaging you.",
-        "value": " Killing an enemy will generate a Broken Soul without damaging you."
+        "value": "vp.prominent.azhar.16"
       }
     ]
   },
@@ -951,7 +951,7 @@
       },
       {
         "key": " Ekavar Modifier",
-        "value": " Ekavar Modifier"
+        "value": "vp.prominent.ekavar.1"
       }
     ]
   },
@@ -964,7 +964,7 @@
     "pairs": [
       {
         "key": "Weapon modifier",
-        "value": "Weapon modifier"
+        "value": "vp.prominent.ekavar.2"
       }
     ]
   },
@@ -977,7 +977,7 @@
     "pairs": [
       {
         "key": "Weapon modifier",
-        "value": "Weapon modifier"
+        "value": "vp.prominent.ekavar.3"
       }
     ]
   },
@@ -990,7 +990,7 @@
     "pairs": [
       {
         "key": "Cinderstone Artifact",
-        "value": "Cinderstone Artifact"
+        "value": "vp.prominent.ekavar.4"
       }
     ]
   },
@@ -1003,7 +1003,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.ekavar.5"
       }
     ]
   },
@@ -1016,7 +1016,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.ekavar.6"
       }
     ]
   },
@@ -1029,7 +1029,7 @@
     "pairs": [
       {
         "key": "Cinderstone Core",
-        "value": "Cinderstone Core"
+        "value": "vp.prominent.ekavar.7"
       }
     ]
   },
@@ -1042,7 +1042,7 @@
     "pairs": [
       {
         "key": "This staff has the ability to evolve into something greater when infused with power.",
-        "value": "This staff has the ability to evolve into something greater when infused with power."
+        "value": "vp.prominent.ekavar.8"
       }
     ]
   },
@@ -1055,7 +1055,7 @@
     "pairs": [
       {
         "key": " Evolved via the Upgrade Tree.",
-        "value": " Evolved via the Upgrade Tree."
+        "value": "vp.prominent.ekavar.9"
       }
     ]
   },
@@ -1068,7 +1068,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.ekavar.10"
       }
     ]
   },
@@ -1081,7 +1081,7 @@
     "pairs": [
       {
         "key": "Arcane Infusion",
-        "value": "Arcane Infusion"
+        "value": "vp.prominent.ekavar.11"
       }
     ]
   },
@@ -1094,7 +1094,7 @@
     "pairs": [
       {
         "key": "This staff has evolved with the raw power of the Arcane. Known now as Al Na'ir, The Bright Star.",
-        "value": "This staff has evolved with the raw power of the Arcane. Known now as Al Na'ir, The Bright Star."
+        "value": "vp.prominent.ekavar.12"
       }
     ]
   },
@@ -1107,7 +1107,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.ekavar.13"
       }
     ]
   },
@@ -1120,7 +1120,7 @@
     "pairs": [
       {
         "key": "Fire Infusion",
-        "value": "Fire Infusion"
+        "value": "vp.prominent.ekavar.14"
       }
     ]
   },
@@ -1133,7 +1133,7 @@
     "pairs": [
       {
         "key": "This staff has evolved with the raw power of Fire. Known now as Adassil, The Scorched Tree.",
-        "value": "This staff has evolved with the raw power of Fire. Known now as Adassil, The Scorched Tree."
+        "value": "vp.prominent.ekavar.15"
       }
     ]
   },
@@ -1146,7 +1146,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.ekavar.16"
       }
     ]
   },
@@ -1159,7 +1159,7 @@
     "pairs": [
       {
         "key": "Frost Infusion",
-        "value": "Frost Infusion"
+        "value": "vp.prominent.ekavar.17"
       }
     ]
   },
@@ -1172,7 +1172,7 @@
     "pairs": [
       {
         "key": "This staff has evolved with the raw frozen power. Known now as Khaz'el, The Frozen Destiny",
-        "value": "This staff has evolved with the raw frozen power. Known now as Khaz'el, The Frozen Destiny"
+        "value": "vp.prominent.ekavar.18"
       }
     ]
   },
@@ -1185,7 +1185,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.ekavar.19"
       }
     ]
   },
@@ -1198,7 +1198,7 @@
     "pairs": [
       {
         "key": "Holy Infusion",
-        "value": "Holy Infusion"
+        "value": "vp.prominent.ekavar.20"
       }
     ]
   },
@@ -1211,7 +1211,7 @@
     "pairs": [
       {
         "key": "This staff has evolved with the raw power of Holy. Known now as Ad'anel, Secret of Ain.",
-        "value": "This staff has evolved with the raw power of Holy. Known now as Ad'anel, Secret of Ain."
+        "value": "vp.prominent.ekavar.21"
       }
     ]
   },
@@ -1224,7 +1224,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.ekavar.22"
       }
     ]
   },
@@ -1237,7 +1237,7 @@
     "pairs": [
       {
         "key": "Astral Infusion",
-        "value": "Astral Infusion"
+        "value": "vp.prominent.ekavar.23"
       }
     ]
   },
@@ -1250,7 +1250,7 @@
     "pairs": [
       {
         "key": "This staff has evolved with the raw astral powers. Known now as Singularity, A Star's Rebirth.",
-        "value": "This staff has evolved with the raw astral powers. Known now as Singularity, A Star's Rebirth."
+        "value": "vp.prominent.ekavar.24"
       }
     ]
   },
@@ -1263,7 +1263,7 @@
     "pairs": [
       {
         "key": "Casts Arcane, Fire, Frost and Holy abilities from equipped Spell Book.",
-        "value": "Casts Arcane, Fire, Frost and Holy abilities from equipped Spell Book."
+        "value": "vp.prominent.ekavar.25"
       }
     ]
   },
@@ -1276,7 +1276,7 @@
     "pairs": [
       {
         "key": "§9+30% §f陋 §9Arcane Power",
-        "value": "§9+30% §f §9Arcane Power"
+        "value": "vp.prominent.ekavar.26"
       }
     ]
   },
@@ -1289,7 +1289,7 @@
     "pairs": [
       {
         "key": "§9+30% §f縷 §9Fire Power",
-        "value": "§9+30% §f §9Fire Power"
+        "value": "vp.prominent.ekavar.27"
       }
     ]
   },
@@ -1302,7 +1302,7 @@
     "pairs": [
       {
         "key": "§9+30% §f勒 §9Frost Power",
-        "value": "§9+30% §f §9Frost Power"
+        "value": "vp.prominent.ekavar.28"
       }
     ]
   },
@@ -1315,7 +1315,7 @@
     "pairs": [
       {
         "key": "§9+30% §f綾 §9Holy Power",
-        "value": "§9+30% §f §9Holy Power"
+        "value": "vp.prominent.ekavar.29"
       }
     ]
   },
@@ -1328,7 +1328,7 @@
     "pairs": [
       {
         "key": "§9+20% §f稜 §9Astral Power",
-        "value": "§9+20% §f §9Astral Power"
+        "value": "vp.prominent.ekavar.30"
       }
     ]
   },
@@ -1341,7 +1341,7 @@
     "pairs": [
       {
         "key": "Frostmourne Frost Modifier",
-        "value": "Frostmourne Frost Modifier"
+        "value": "vp.prominent.frostmourne.1"
       }
     ]
   },
@@ -1354,7 +1354,7 @@
     "pairs": [
       {
         "key": "Frostmourne Blood Modifier",
-        "value": "Frostmourne Blood Modifier"
+        "value": "vp.prominent.frostmourne.2"
       }
     ]
   },
@@ -1367,7 +1367,7 @@
     "pairs": [
       {
         "key": "Frostmourne Unholy Modifier",
-        "value": "Frostmourne Unholy Modifier"
+        "value": "vp.prominent.frostmourne.3"
       }
     ]
   },
@@ -1380,7 +1380,7 @@
     "pairs": [
       {
         "key": "Runic Artifact",
-        "value": "Runic Artifact"
+        "value": "vp.prominent.frostmourne.4"
       }
     ]
   },
@@ -1393,7 +1393,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.frostmourne.5"
       }
     ]
   },
@@ -1406,7 +1406,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.frostmourne.6"
       }
     ]
   },
@@ -1419,7 +1419,7 @@
     "pairs": [
       {
         "key": "Curse of Agony",
-        "value": "Curse of Agony"
+        "value": "vp.prominent.frostmourne.7"
       }
     ]
   },
@@ -1432,7 +1432,7 @@
     "pairs": [
       {
         "key": "Whoever wields the Frostmourne will become the next Lich King.",
-        "value": "Whoever wields the Frostmourne will become the next Lich King."
+        "value": "vp.prominent.frostmourne.8"
       }
     ]
   },
@@ -1445,7 +1445,7 @@
     "pairs": [
       {
         "key": "Death Knight abilities deal higher damage.",
-        "value": "Death Knight abilities deal higher damage."
+        "value": "vp.prominent.frostmourne.9"
       }
     ]
   },
@@ -1458,7 +1458,7 @@
     "pairs": [
       {
         "key": "Casts Death Knight abilities from equipped skill book.",
-        "value": "Casts Death Knight abilities from equipped skill book."
+        "value": "vp.prominent.frostmourne.10"
       }
     ]
   },
@@ -1475,7 +1475,7 @@
       },
       {
         "key": " Fyr'alath Modifier",
-        "value": " Fyr'alath Modifier"
+        "value": "vp.prominent.fyralath.1"
       }
     ]
   },
@@ -1488,7 +1488,7 @@
     "pairs": [
       {
         "key": "Reabsorption Fyr'alath Modifier",
-        "value": "Reabsorption Fyr'alath Modifier"
+        "value": "vp.prominent.fyralath.2"
       }
     ]
   },
@@ -1501,7 +1501,7 @@
     "pairs": [
       {
         "key": "Soulfire Artifact",
-        "value": "Soulfire Artifact"
+        "value": "vp.prominent.fyralath.3"
       }
     ]
   },
@@ -1514,7 +1514,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.fyralath.4"
       }
     ]
   },
@@ -1527,7 +1527,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.fyralath.5"
       }
     ]
   },
@@ -1540,7 +1540,7 @@
     "pairs": [
       {
         "key": "Greater Scorch",
-        "value": "Greater Scorch"
+        "value": "vp.prominent.fyralath.6"
       }
     ]
   },
@@ -1553,7 +1553,7 @@
     "pairs": [
       {
         "key": "Set in flames your target and give yourself resistance for",
-        "value": "Set in flames your target and give yourself resistance for"
+        "value": "vp.prominent.fyralath.7"
       }
     ]
   },
@@ -1566,7 +1566,7 @@
     "pairs": [
       {
         "key": "4 seconds. Attacks have a chance to extend the duration.",
-        "value": "4 seconds. Attacks have a chance to extend the duration."
+        "value": "vp.prominent.fyralath.8"
       }
     ]
   },
@@ -1579,7 +1579,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.fyralath.9"
       }
     ]
   },
@@ -1592,7 +1592,7 @@
     "pairs": [
       {
         "key": "Greater Laceration",
-        "value": "Greater Laceration"
+        "value": "vp.prominent.fyralath.10"
       }
     ]
   },
@@ -1605,7 +1605,7 @@
     "pairs": [
       {
         "key": "Swing Fyr'alath rapidly to heat the air and throw flaming",
-        "value": "Swing Fyr'alath rapidly to heat the air and throw flaming"
+        "value": "vp.prominent.fyralath.11"
       }
     ]
   },
@@ -1618,7 +1618,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.fyralath.12"
       }
     ]
   },
@@ -1631,7 +1631,7 @@
     "pairs": [
       {
         "key": "Greater Meteor",
-        "value": "Greater Meteor"
+        "value": "vp.prominent.fyralath.13"
       }
     ]
   },
@@ -1644,7 +1644,7 @@
     "pairs": [
       {
         "key": "Invoke a rain of meteors that will fall upon your target",
-        "value": "Invoke a rain of meteors that will fall upon your target"
+        "value": "vp.prominent.fyralath.14"
       }
     ]
   },
@@ -1657,7 +1657,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.fyralath.15"
       }
     ]
   },
@@ -1670,7 +1670,7 @@
     "pairs": [
       {
         "key": "Fiery Core",
-        "value": "Fiery Core"
+        "value": "vp.prominent.fyralath.16"
       }
     ]
   },
@@ -1683,7 +1683,7 @@
     "pairs": [
       {
         "key": "Fyr'alath can invoke improved fire spells that have instant",
-        "value": "Fyr'alath can invoke improved fire spells that have instant"
+        "value": "vp.prominent.fyralath.17"
       }
     ]
   },
@@ -1696,7 +1696,7 @@
     "pairs": [
       {
         "key": "Cosmic Artifact",
-        "value": "Cosmic Artifact"
+        "value": "vp.prominent.orion.1"
       }
     ]
   },
@@ -1709,7 +1709,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.orion.2"
       }
     ]
   },
@@ -1722,7 +1722,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.orion.3"
       }
     ]
   },
@@ -1735,7 +1735,7 @@
     "pairs": [
       {
         "key": "Cosmic Influence",
-        "value": "Cosmic Influence"
+        "value": "vp.prominent.orion.4"
       }
     ]
   },
@@ -1748,7 +1748,7 @@
     "pairs": [
       {
         "key": "Arrows get infused by Orion's cosmic power, increasing their velocity by 25%",
-        "value": "Arrows get infused by Orion's cosmic power, increasing their velocity by 25%"
+        "value": "vp.prominent.orion.5"
       }
     ]
   },
@@ -1761,7 +1761,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.orion.6"
       }
     ]
   },
@@ -1774,7 +1774,7 @@
     "pairs": [
       {
         "key": "Pledge to the Stars",
-        "value": "Pledge to the Stars"
+        "value": "vp.prominent.orion.7"
       }
     ]
   },
@@ -1787,7 +1787,7 @@
     "pairs": [
       {
         "key": "Pledge to a star using Orion's Upgrade Tree, unlocking new effects.",
-        "value": "Pledge to a star using Orion's Upgrade Tree, unlocking new effects."
+        "value": "vp.prominent.orion.8"
       }
     ]
   },
@@ -1800,7 +1800,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.orion.9"
       }
     ]
   },
@@ -1813,7 +1813,7 @@
     "pairs": [
       {
         "key": "Algjebbah's Gift",
-        "value": "Algjebbah's Gift"
+        "value": "vp.prominent.orion.10"
       }
     ]
   },
@@ -1826,7 +1826,7 @@
     "pairs": [
       {
         "key": "Heal yourself for 5% of your maximum health when you use an ability from any archery spellbook.",
-        "value": "Heal yourself for 5% of your maximum health when you use an ability from any archery spellbook."
+        "value": "vp.prominent.orion.11"
       }
     ]
   },
@@ -1839,7 +1839,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.orion.12"
       }
     ]
   },
@@ -1852,7 +1852,7 @@
     "pairs": [
       {
         "key": "Mintaka's Gift",
-        "value": "Mintaka's Gift"
+        "value": "vp.prominent.orion.13"
       }
     ]
   },
@@ -1865,7 +1865,7 @@
     "pairs": [
       {
         "key": "Increase the damage dealt by your abilities from the Mintaka's Fright spellbook.",
-        "value": "Increase the damage dealt by your abilities from the Mintaka's Fright spellbook."
+        "value": "vp.prominent.orion.14"
       }
     ]
   },
@@ -1878,7 +1878,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.orion.15"
       }
     ]
   },
@@ -1891,7 +1891,7 @@
     "pairs": [
       {
         "key": "Alnilam's Gift",
-        "value": "Alnilam's Gift"
+        "value": "vp.prominent.orion.16"
       }
     ]
   },
@@ -1904,7 +1904,7 @@
     "pairs": [
       {
         "key": "Increase the damage dealt by your abilities from the Alnilam's Sight spellbook.",
-        "value": "Increase the damage dealt by your abilities from the Alnilam's Sight spellbook."
+        "value": "vp.prominent.orion.17"
       }
     ]
   },
@@ -1917,7 +1917,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.orion.18"
       }
     ]
   },
@@ -1930,7 +1930,7 @@
     "pairs": [
       {
         "key": "Alnitak's Gift",
-        "value": "Alnitak's Gift"
+        "value": "vp.prominent.orion.19"
       }
     ]
   },
@@ -1943,7 +1943,7 @@
     "pairs": [
       {
         "key": "Increase the damage dealt by your abilities from the Alnitak's Might spellbook.",
-        "value": "Increase the damage dealt by your abilities from the Alnitak's Might spellbook."
+        "value": "vp.prominent.orion.20"
       }
     ]
   },
@@ -1956,7 +1956,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.orion.21"
       }
     ]
   },
@@ -1969,7 +1969,7 @@
     "pairs": [
       {
         "key": "Pledge to the Nebulae",
-        "value": "Pledge to the Nebulae"
+        "value": "vp.prominent.orion.22"
       }
     ]
   },
@@ -1982,7 +1982,7 @@
     "pairs": [
       {
         "key": "Pledge to a Nebula using Orion's Upgrade Tree, unlocking new effects.",
-        "value": "Pledge to a Nebula using Orion's Upgrade Tree, unlocking new effects."
+        "value": "vp.prominent.orion.23"
       }
     ]
   },
@@ -1995,7 +1995,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.orion.24"
       }
     ]
   },
@@ -2008,7 +2008,7 @@
     "pairs": [
       {
         "key": "Might of the Horsehead Nebula",
-        "value": "Might of the Horsehead Nebula"
+        "value": "vp.prominent.orion.25"
       }
     ]
   },
@@ -2021,7 +2021,7 @@
     "pairs": [
       {
         "key": "Orion and your bow abilities deal +20% damage while mounted on a Horse or Nightmare mythic mount.",
-        "value": "Orion and your bow abilities deal +20% damage while mounted on a Horse or Nightmare mythic mount."
+        "value": "vp.prominent.orion.26"
       }
     ]
   },
@@ -2034,7 +2034,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.orion.27"
       }
     ]
   },
@@ -2047,7 +2047,7 @@
     "pairs": [
       {
         "key": "Strength of the Orion Nebula",
-        "value": "Strength of the Orion Nebula"
+        "value": "vp.prominent.orion.28"
       }
     ]
   },
@@ -2060,7 +2060,7 @@
     "pairs": [
       {
         "key": "Your bond with Orion is strengthened, making the trajectory speed of arrows fired with it be +10% faster, in exchange of -10% slower drawing speed.",
-        "value": "Your bond with Orion is strengthened, making the trajectory speed of arrows fired with it be +10% faster, in exchange of -10% slower drawing speed."
+        "value": "vp.prominent.orion.29"
       }
     ]
   },
@@ -2073,7 +2073,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.orion.30"
       }
     ]
   },
@@ -2086,7 +2086,7 @@
     "pairs": [
       {
         "key": "Casper the Friendly Ghost",
-        "value": "Casper the Friendly Ghost"
+        "value": "vp.prominent.orion.31"
       }
     ]
   },
@@ -2099,7 +2099,7 @@
     "pairs": [
       {
         "key": "The Focus Zone passive can now also be applied when using the third ability of any archer spellbook.",
-        "value": "The Focus Zone passive can now also be applied when using the third ability of any archer spellbook."
+        "value": "vp.prominent.orion.32"
       }
     ]
   },
@@ -2116,7 +2116,7 @@
       },
       {
         "key": " Granny's Pan Modifier",
-        "value": " Granny's Pan Modifier"
+        "value": "vp.prominent.skillet.1"
       }
     ]
   },
@@ -2129,7 +2129,7 @@
     "pairs": [
       {
         "key": "Knockback Granny's Pan Modifier",
-        "value": "Knockback Granny's Pan Modifier"
+        "value": "vp.prominent.skillet.2"
       }
     ]
   },
@@ -2142,7 +2142,7 @@
     "pairs": [
       {
         "key": "Granny's Artifact",
-        "value": "Granny's Artifact"
+        "value": "vp.prominent.skillet.3"
       }
     ]
   },
@@ -2155,7 +2155,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.skillet.4"
       }
     ]
   },
@@ -2168,7 +2168,7 @@
     "pairs": [
       {
         "key": "\"Looks like a normal pan, but the best foods were cooked on it.\"",
-        "value": "\"Looks like a normal pan, but the best foods were cooked on it.\""
+        "value": "vp.prominent.skillet.5"
       }
     ]
   },
@@ -2181,7 +2181,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.skillet.6"
       }
     ]
   },
@@ -2194,7 +2194,7 @@
     "pairs": [
       {
         "key": "Granny's Wrath",
-        "value": "Granny's Wrath"
+        "value": "vp.prominent.skillet.7"
       }
     ]
   },
@@ -2207,7 +2207,7 @@
     "pairs": [
       {
         "key": "Attacks burn the target for 5 seconds and fill your hunger by 1.",
-        "value": "Attacks burn the target for 5 seconds and fill your hunger by 1."
+        "value": "vp.prominent.skillet.8"
       }
     ]
   },
@@ -2224,7 +2224,7 @@
       },
       {
         "key": " Supernova Modifier",
-        "value": " Supernova Modifier"
+        "value": "vp.prominent.supernova.1"
       }
     ]
   },
@@ -2237,7 +2237,7 @@
     "pairs": [
       {
         "key": "Cosmic Artifact",
-        "value": "Cosmic Artifact"
+        "value": "vp.prominent.supernova.2"
       }
     ]
   },
@@ -2250,7 +2250,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.supernova.3"
       }
     ]
   },
@@ -2263,7 +2263,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.supernova.4"
       }
     ]
   },
@@ -2276,7 +2276,7 @@
     "pairs": [
       {
         "key": "Astral Burst",
-        "value": "Astral Burst"
+        "value": "vp.prominent.supernova.5"
       }
     ]
   },
@@ -2289,7 +2289,7 @@
     "pairs": [
       {
         "key": "Invoke all of the energy of Supernova into a single point,",
-        "value": "Invoke all of the energy of Supernova into a single point,"
+        "value": "vp.prominent.supernova.6"
       }
     ]
   },
@@ -2302,7 +2302,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.supernova.7"
       }
     ]
   },
@@ -2315,7 +2315,7 @@
     "pairs": [
       {
         "key": "Arcane Projection",
-        "value": "Arcane Projection"
+        "value": "vp.prominent.supernova.8"
       }
     ]
   },
@@ -2328,7 +2328,7 @@
     "pairs": [
       {
         "key": "Charge your focus in a single target, and then strike with a powerful",
-        "value": "Charge your focus in a single target, and then strike with a powerful"
+        "value": "vp.prominent.supernova.9"
       }
     ]
   },
@@ -2341,7 +2341,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.supernova.10"
       }
     ]
   },
@@ -2354,7 +2354,7 @@
     "pairs": [
       {
         "key": "Frost Projection",
-        "value": "Frost Projection"
+        "value": "vp.prominent.supernova.11"
       }
     ]
   },
@@ -2367,7 +2367,7 @@
     "pairs": [
       {
         "key": "Channel a rain of iceles to your closest target. If the target dies,",
-        "value": "Channel a rain of iceles to your closest target. If the target dies,"
+        "value": "vp.prominent.supernova.12"
       }
     ]
   },
@@ -2380,7 +2380,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.supernova.13"
       }
     ]
   },
@@ -2393,7 +2393,7 @@
     "pairs": [
       {
         "key": "Fire Projection",
-        "value": "Fire Projection"
+        "value": "vp.prominent.supernova.14"
       }
     ]
   },
@@ -2406,7 +2406,7 @@
     "pairs": [
       {
         "key": "Teleport behind a close enemy and strike with a flaming hit,",
-        "value": "Teleport behind a close enemy and strike with a flaming hit,"
+        "value": "vp.prominent.supernova.15"
       }
     ]
   },
@@ -2419,7 +2419,7 @@
     "pairs": [
       {
         "key": "dealing physical and fire damage. Can be channeleed.",
-        "value": "dealing physical and fire damage. Can be channeleed."
+        "value": "vp.prominent.supernova.16"
       }
     ]
   },
@@ -2432,7 +2432,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.supernova.17"
       }
     ]
   },
@@ -2445,7 +2445,7 @@
     "pairs": [
       {
         "key": "Astral Echoing",
-        "value": "Astral Echoing"
+        "value": "vp.prominent.supernova.18"
       }
     ]
   },
@@ -2458,7 +2458,7 @@
     "pairs": [
       {
         "key": "Your hits may resonate with extra elemental damage.",
-        "value": "Your hits may resonate with extra elemental damage."
+        "value": "vp.prominent.supernova.19"
       }
     ]
   },
@@ -2471,7 +2471,7 @@
     "pairs": [
       {
         "key": "Soulfire Artifact",
-        "value": "Soulfire Artifact"
+        "value": "vp.prominent.thousandfists.1"
       }
     ]
   },
@@ -2484,7 +2484,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.thousandfists.2"
       }
     ]
   },
@@ -2497,7 +2497,7 @@
     "pairs": [
       {
         "key": "老 ",
-        "value": " "
+        "value": "vp.prominent.thousandfists.3"
       }
     ]
   },
@@ -2510,7 +2510,7 @@
     "pairs": [
       {
         "key": "Enraging",
-        "value": "Enraging"
+        "value": "vp.prominent.thousandfists.4"
       }
     ]
   },
@@ -2523,7 +2523,7 @@
     "pairs": [
       {
         "key": "Enrage yourself, imbuing your fists with 500% attack speed",
-        "value": "Enrage yourself, imbuing your fists with 500% attack speed"
+        "value": "vp.prominent.thousandfists.5"
       }
     ]
   },
@@ -2536,7 +2536,7 @@
     "pairs": [
       {
         "key": "for 2 seconds. While enraged, your attacks may deal extra soulfire damage.",
-        "value": "for 2 seconds. While enraged, your attacks may deal extra soulfire damage."
+        "value": "vp.prominent.thousandfists.6"
       }
     ]
   },
@@ -2549,7 +2549,7 @@
     "pairs": [
       {
         "key": "Requires a Fist of Fury in the off hand.",
-        "value": "Requires a Fist of Fury in the off hand."
+        "value": "vp.prominent.thousandfists.7"
       }
     ]
   },
@@ -2566,7 +2566,7 @@
       },
       {
         "key": " Fury of a Thousand Fists Modifier",
-        "value": " Fury of a Thousand Fists Modifier"
+        "value": "vp.prominent.thousandfists.8"
       }
     ]
   },
@@ -2579,7 +2579,7 @@
     "pairs": [
       {
         "key": "Lightning Thunderwrath Modifier",
-        "value": "Lightning Thunderwrath Modifier"
+        "value": "vp.prominent.thunderwrath.1"
       }
     ]
   },
@@ -2592,7 +2592,7 @@
     "pairs": [
       {
         "key": "Emberstorm Artifact",
-        "value": "Emberstorm Artifact"
+        "value": "vp.prominent.thunderwrath.2"
       }
     ]
   },
@@ -2605,7 +2605,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.thunderwrath.3"
       }
     ]
   },
@@ -2618,7 +2618,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.thunderwrath.4"
       }
     ]
   },
@@ -2631,7 +2631,7 @@
     "pairs": [
       {
         "key": "Serkonid Heritage",
-        "value": "Serkonid Heritage"
+        "value": "vp.prominent.thunderwrath.5"
       }
     ]
   },
@@ -2644,11 +2644,11 @@
     "pairs": [
       {
         "key": "Attacks have a 25% chance of striking again with ",
-        "value": "Attacks have a 25% chance of striking again with "
+        "value": "vp.prominent.thunderwrath.6"
       },
       {
         "key": "lightning damage.",
-        "value": "lightning damage."
+        "value": "vp.prominent.thunderwrath.7"
       }
     ]
   },
@@ -2661,7 +2661,7 @@
     "pairs": [
       {
         "key": " Being fated to the Warrior's Devotion increases its chance to 35%.",
-        "value": " Being fated to the Warrior's Devotion increases its chance to 35%."
+        "value": "vp.prominent.thunderwrath.8"
       }
     ]
   },
@@ -2674,7 +2674,7 @@
     "pairs": [
       {
         "key": "Cinderstone Artifact",
-        "value": "Cinderstone Artifact"
+        "value": "vp.prominent.vaazkar.1"
       }
     ]
   },
@@ -2687,7 +2687,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.vaazkar.2"
       }
     ]
   },
@@ -2700,7 +2700,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.vaazkar.3"
       }
     ]
   },
@@ -2713,7 +2713,7 @@
     "pairs": [
       {
         "key": "Wall of Flames",
-        "value": "Wall of Flames"
+        "value": "vp.prominent.vaazkar.4"
       }
     ]
   },
@@ -2726,7 +2726,7 @@
     "pairs": [
       {
         "key": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,",
-        "value": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,"
+        "value": "vp.prominent.vaazkar.5"
       }
     ]
   },
@@ -2739,7 +2739,7 @@
     "pairs": [
       {
         "key": "dealing 3% of your Maximum Health as fire damage to nearby enemies per second.",
-        "value": "dealing 3% of your Maximum Health as fire damage to nearby enemies per second."
+        "value": "vp.prominent.vaazkar.6"
       }
     ]
   },
@@ -2752,7 +2752,7 @@
     "pairs": [
       {
         "key": " Lasts 10 seconds, then goes on cooldown for 15 seconds.",
-        "value": " Lasts 10 seconds, then goes on cooldown for 15 seconds."
+        "value": "vp.prominent.vaazkar.7"
       }
     ]
   },
@@ -2765,7 +2765,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.vaazkar.8"
       }
     ]
   },
@@ -2778,7 +2778,7 @@
     "pairs": [
       {
         "key": "Instant Flames",
-        "value": "Instant Flames"
+        "value": "vp.prominent.vaazkar.9"
       }
     ]
   },
@@ -2791,7 +2791,7 @@
     "pairs": [
       {
         "key": "After shielding with Vaazkar, surround yourself with flames, dealing 3%",
-        "value": "After shielding with Vaazkar, surround yourself with flames, dealing 3%"
+        "value": "vp.prominent.vaazkar.10"
       }
     ]
   },
@@ -2804,7 +2804,7 @@
     "pairs": [
       {
         "key": "of your Maximum Health as fire damage to nearby enemies per second.",
-        "value": "of your Maximum Health as fire damage to nearby enemies per second."
+        "value": "vp.prominent.vaazkar.11"
       }
     ]
   },
@@ -2817,7 +2817,7 @@
     "pairs": [
       {
         "key": "Enemies get taunted every time they're damaged by it.",
-        "value": "Enemies get taunted every time they're damaged by it."
+        "value": "vp.prominent.vaazkar.12"
       }
     ]
   },
@@ -2830,7 +2830,7 @@
     "pairs": [
       {
         "key": " Lasts up to 10 seconds, then goes on cooldown for 10 seconds.",
-        "value": " Lasts up to 10 seconds, then goes on cooldown for 10 seconds."
+        "value": "vp.prominent.vaazkar.13"
       }
     ]
   },
@@ -2843,7 +2843,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.vaazkar.14"
       }
     ]
   },
@@ -2856,7 +2856,7 @@
     "pairs": [
       {
         "key": "Protective Flames",
-        "value": "Protective Flames"
+        "value": "vp.prominent.vaazkar.15"
       }
     ]
   },
@@ -2869,7 +2869,7 @@
     "pairs": [
       {
         "key": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,",
-        "value": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,"
+        "value": "vp.prominent.vaazkar.16"
       }
     ]
   },
@@ -2882,7 +2882,7 @@
     "pairs": [
       {
         "key": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds.",
-        "value": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds."
+        "value": "vp.prominent.vaazkar.17"
       }
     ]
   },
@@ -2895,7 +2895,7 @@
     "pairs": [
       {
         "key": "路 ",
-        "value": " "
+        "value": "vp.prominent.vaazkar.18"
       }
     ]
   },
@@ -2908,7 +2908,7 @@
     "pairs": [
       {
         "key": "Firestorm",
-        "value": "Firestorm"
+        "value": "vp.prominent.vaazkar.19"
       }
     ]
   },
@@ -2921,7 +2921,7 @@
     "pairs": [
       {
         "key": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,",
-        "value": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,"
+        "value": "vp.prominent.vaazkar.20"
       }
     ]
   },
@@ -2934,7 +2934,7 @@
     "pairs": [
       {
         "key": "dealing 5% of your Maximum Health as fire damage to nearby enemies per second.",
-        "value": "dealing 5% of your Maximum Health as fire damage to nearby enemies per second."
+        "value": "vp.prominent.vaazkar.21"
       }
     ]
   },
@@ -2947,7 +2947,7 @@
     "pairs": [
       {
         "key": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds.",
-        "value": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds."
+        "value": "vp.prominent.vaazkar.22"
       }
     ]
   },
@@ -2960,7 +2960,7 @@
     "pairs": [
       {
         "key": "Artifact Illusion",
-        "value": "Artifact Illusion"
+        "value": "vp.prominent.cosmeticartifact.1"
       }
     ]
   },
@@ -2973,7 +2973,7 @@
     "pairs": [
       {
         "key": "盧 ",
-        "value": " "
+        "value": "vp.prominent.cosmeticartifact.2"
       }
     ]
   },
@@ -2986,7 +2986,7 @@
     "pairs": [
       {
         "key": "An illusion made to be used on other items with the magic of Transmogrification.",
-        "value": "An illusion made to be used on other items with the magic of Transmogrification."
+        "value": "vp.prominent.cosmeticartifact.3"
       }
     ]
   },
@@ -2999,11 +2999,11 @@
     "pairs": [
       {
         "key": "\" Eternal Challenge.",
-        "value": "\" Eternal Challenge."
+        "value": "vp.prominent.cosmeticartifact.4"
       },
       {
         "key": "Obtained through the \"Mastery of ",
-        "value": "Obtained through the \"Mastery of "
+        "value": "vp.prominent.cosmeticartifact.5"
       }
     ]
   },
@@ -3016,7 +3016,7 @@
     "pairs": [
       {
         "key": "露 ",
-        "value": " "
+        "value": "vp.prominent.mythicsummoner.1"
       }
     ]
   },
@@ -3029,7 +3029,7 @@
     "pairs": [
       {
         "key": "蘆 ",
-        "value": " "
+        "value": "vp.prominent.mythicsummoner.2"
       }
     ]
   },
@@ -3042,7 +3042,7 @@
     "pairs": [
       {
         "key": "Affixes",
-        "value": "Affixes"
+        "value": "vp.prominent.mythicsummoner.3"
       }
     ]
   },
@@ -3059,7 +3059,7 @@
       },
       {
         "key": "Mythic ",
-        "value": "Mythic "
+        "value": "vp.prominent.mythicsummoner.4"
       }
     ]
   },
@@ -3072,7 +3072,7 @@
     "pairs": [
       {
         "key": "Faceless Gift                    ",
-        "value": "Faceless Gift                    "
+        "value": "vp.prominent.mythicsummoner.5"
       }
     ]
   },
@@ -3085,7 +3085,7 @@
     "pairs": [
       {
         "key": " Aberrations may arise every 30 seconds, helping and",
-        "value": " Aberrations may arise every 30 seconds, helping and"
+        "value": "vp.prominent.mythicsummoner.6"
       }
     ]
   },
@@ -3098,7 +3098,7 @@
     "pairs": [
       {
         "key": "Transmog Appearance",
-        "value": "Transmog Appearance"
+        "value": "vp.prominent.transmogitem.1"
       }
     ]
   },
@@ -3111,7 +3111,7 @@
     "pairs": [
       {
         "key": "露 ",
-        "value": " "
+        "value": "vp.prominent.transmogitem.2"
       }
     ]
   },
@@ -3124,7 +3124,7 @@
     "pairs": [
       {
         "key": "An illusion made to be used on other items with the magic of Transmogrification.",
-        "value": "An illusion made to be used on other items with the magic of Transmogrification."
+        "value": "vp.prominent.transmogitem.3"
       }
     ]
   },
@@ -3137,7 +3137,7 @@
     "pairs": [
       {
         "key": "Dropped by Mythic Challenges with a 5% Drop Chance.",
-        "value": "Dropped by Mythic Challenges with a 5% Drop Chance."
+        "value": "vp.prominent.transmogitem.4"
       }
     ]
   },
@@ -3150,7 +3150,7 @@
     "pairs": [
       {
         "key": "Thunderwrath",
-        "value": "Thunderwrath"
+        "value": "vp.prominent.itemregistry.1"
       }
     ]
   },
@@ -3163,7 +3163,7 @@
     "pairs": [
       {
         "key": "Supernova",
-        "value": "Supernova"
+        "value": "vp.prominent.itemregistry.2"
       }
     ]
   },
@@ -3176,7 +3176,7 @@
     "pairs": [
       {
         "key": "Fury of a Thousand Fists",
-        "value": "Fury of a Thousand Fists"
+        "value": "vp.prominent.itemregistry.3"
       }
     ]
   },
@@ -3189,7 +3189,7 @@
     "pairs": [
       {
         "key": "Frostmourne",
-        "value": "Frostmourne"
+        "value": "vp.prominent.itemregistry.4"
       }
     ]
   },
@@ -3202,7 +3202,7 @@
     "pairs": [
       {
         "key": "A'zhar",
-        "value": "A'zhar"
+        "value": "vp.prominent.itemregistry.5"
       }
     ]
   },
@@ -3215,7 +3215,7 @@
     "pairs": [
       {
         "key": "Fyr'alath",
-        "value": "Fyr'alath"
+        "value": "vp.prominent.itemregistry.6"
       }
     ]
   },
@@ -3228,7 +3228,7 @@
     "pairs": [
       {
         "key": "Ash",
-        "value": "Ash"
+        "value": "vp.prominent.itemregistry.7"
       }
     ]
   },
@@ -3241,7 +3241,7 @@
     "pairs": [
       {
         "key": "Edar",
-        "value": "Edar"
+        "value": "vp.prominent.itemregistry.8"
       }
     ]
   },
@@ -3254,7 +3254,7 @@
     "pairs": [
       {
         "key": "Ekavar",
-        "value": "Ekavar"
+        "value": "vp.prominent.itemregistry.9"
       }
     ]
   },
@@ -3267,7 +3267,7 @@
     "pairs": [
       {
         "key": "Vaazkar",
-        "value": "Vaazkar"
+        "value": "vp.prominent.itemregistry.10"
       }
     ]
   },
@@ -3280,7 +3280,7 @@
     "pairs": [
       {
         "key": "Orion",
-        "value": "Orion"
+        "value": "vp.prominent.itemregistry.11"
       }
     ]
   },
@@ -3293,7 +3293,7 @@
     "pairs": [
       {
         "key": "Full of hatred and demonic presences.",
-        "value": "Full of hatred and demonic presences."
+        "value": "vp.prominent.itemregistry.12"
       }
     ]
   },
@@ -3306,7 +3306,7 @@
     "pairs": [
       {
         "key": "A shining light full of concentrated raw power.",
-        "value": "A shining light full of concentrated raw power."
+        "value": "vp.prominent.itemregistry.13"
       }
     ]
   },
@@ -3319,7 +3319,7 @@
     "pairs": [
       {
         "key": "Holds wrathful souls.",
-        "value": "Holds wrathful souls."
+        "value": "vp.prominent.itemregistry.14"
       }
     ]
   },
@@ -3332,7 +3332,7 @@
     "pairs": [
       {
         "key": "Can be used to re-roll and repair artifact weapons.",
-        "value": "Can be used to re-roll and repair artifact weapons."
+        "value": "vp.prominent.itemregistry.15"
       }
     ]
   },
@@ -3345,7 +3345,7 @@
     "pairs": [
       {
         "key": "A reward from S'kellak for aiding him in defeating the threats of the realms, used to craft useful relics.",
-        "value": "A reward from S'kellak for aiding him in defeating the threats of the realms, used to craft useful relics."
+        "value": "vp.prominent.itemregistry.16"
       }
     ]
   },
@@ -3358,7 +3358,7 @@
     "pairs": [
       {
         "key": "- Obtainable as a reward from Campaign Boss Quests",
-        "value": "- Obtainable as a reward from Campaign Boss Quests"
+        "value": "vp.prominent.itemregistry.17"
       }
     ]
   },
@@ -3371,7 +3371,7 @@
     "pairs": [
       {
         "key": "- Craftable using Encased Remnants and Greater Mythical Essences",
-        "value": "- Craftable using Encased Remnants and Greater Mythical Essences"
+        "value": "vp.prominent.itemregistry.18"
       }
     ]
   },
@@ -3384,7 +3384,7 @@
     "pairs": [
       {
         "key": "蘆 Loot from Mythic 10+ Bosses",
-        "value": " Loot from Mythic 10+ Bosses"
+        "value": "vp.prominent.itemregistry.19"
       }
     ]
   },
@@ -3397,7 +3397,7 @@
     "pairs": [
       {
         "key": "蘆 Loot from Mythic 20+ Bosses",
-        "value": " Loot from Mythic 20+ Bosses"
+        "value": "vp.prominent.itemregistry.20"
       }
     ]
   },
@@ -3410,7 +3410,7 @@
     "pairs": [
       {
         "key": "ARTIFACT",
-        "value": "ARTIFACT"
+        "value": "vp.prominent.prominentmaterials.1"
       }
     ]
   },
@@ -3423,7 +3423,7 @@
     "pairs": [
       {
         "key": "蘆 ",
-        "value": " "
+        "value": "vp.prominent.tabregistry.1"
       }
     ]
   },
@@ -3436,7 +3436,7 @@
     "pairs": [
       {
         "key": "Mythic Bosses",
-        "value": "Mythic Bosses"
+        "value": "vp.prominent.tabregistry.2"
       }
     ]
   },
@@ -3449,7 +3449,7 @@
     "pairs": [
       {
         "key": "蘆 ",
-        "value": " "
+        "value": "vp.prominent.tabregistry.3"
       }
     ]
   },
@@ -3462,7 +3462,7 @@
     "pairs": [
       {
         "key": "Eternal Rewards",
-        "value": "Eternal Rewards"
+        "value": "vp.prominent.tabregistry.4"
       }
     ]
   },
@@ -3475,7 +3475,7 @@
     "pairs": [
       {
         "key": "\"Do you really think you can kill me?\"",
-        "value": "\"Do you really think you can kill me?\""
+        "value": "vp.prominent.beaconofhope.3"
       }
     ]
   },
@@ -3488,7 +3488,7 @@
     "pairs": [
       {
         "key": "\"You will be very useful to the new king\"",
-        "value": "\"You will be very useful to the new king\""
+        "value": "vp.prominent.beaconofhope.4"
       }
     ]
   },
@@ -3501,7 +3501,7 @@
     "pairs": [
       {
         "key": "\"But I'll have to kill you first\"",
-        "value": "\"But I'll have to kill you first\""
+        "value": "vp.prominent.beaconofhope.5"
       }
     ]
   },
@@ -3514,7 +3514,7 @@
     "pairs": [
       {
         "key": "Tip: Activate the waystone for a checkpoint.",
-        "value": "Tip: Activate the waystone for a checkpoint."
+        "value": "vp.prominent.beaconofhope.6"
       }
     ]
   },
@@ -3527,7 +3527,7 @@
     "pairs": [
       {
         "key": "\"You thought you killed me...\"",
-        "value": "\"You thought you killed me...\""
+        "value": "vp.prominent.beaconofhope.7"
       }
     ]
   },
@@ -3540,7 +3540,7 @@
     "pairs": [
       {
         "key": "\"But the King in Yellow made me reborn stronger\"",
-        "value": "\"But the King in Yellow made me reborn stronger\""
+        "value": "vp.prominent.beaconofhope.8"
       }
     ]
   },
@@ -3553,7 +3553,7 @@
     "pairs": [
       {
         "key": "\"And now, it's your turn,§§ TO REBORN!\"",
-        "value": "\"And now, it's your turn,§§ TO REBORN!\""
+        "value": "vp.prominent.beaconofhope.9"
       }
     ]
   },
@@ -3566,7 +3566,7 @@
     "pairs": [
       {
         "key": "The beacon calls nobody. You cannot use this item yet.",
-        "value": "The beacon calls nobody. You cannot use this item yet."
+        "value": "vp.prominent.beaconofhope.10"
       }
     ]
   },
@@ -3579,7 +3579,7 @@
     "pairs": [
       {
         "key": "This beacon only works in the Overworld.",
-        "value": "This beacon only works in the Overworld."
+        "value": "vp.prominent.beaconofhope.11"
       }
     ]
   },
@@ -3592,7 +3592,7 @@
     "pairs": [
       {
         "key": "盧",
-        "value": ""
+        "value": "vp.prominent.elocindev/prominent/text/icons.1"
       }
     ]
   },
@@ -3605,7 +3605,7 @@
     "pairs": [
       {
         "key": "老",
-        "value": ""
+        "value": "vp.prominent.elocindev/prominent/text/icons.2"
       }
     ]
   },
@@ -3618,7 +3618,7 @@
     "pairs": [
       {
         "key": "路",
-        "value": ""
+        "value": "vp.prominent.elocindev/prominent/text/icons.3"
       }
     ]
   },
@@ -3631,7 +3631,7 @@
     "pairs": [
       {
         "key": "露",
-        "value": ""
+        "value": "vp.prominent.elocindev/prominent/text/icons.4"
       }
     ]
   }
