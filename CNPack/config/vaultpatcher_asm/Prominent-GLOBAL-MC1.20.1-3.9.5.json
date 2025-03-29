@@ -3634,5 +3634,18 @@
         "value": "vp.prominent.elocindev/prominent/text/icons.4"
       }
     ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.soulbinding.Soulbound",
+      "method": "onCraft",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " is now soulbound to you.",
+        "value": "vp.prominent.soulbinding.1"
+      }
+    ]
   }
 ]
