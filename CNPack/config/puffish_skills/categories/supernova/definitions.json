@@ -1,7 +1,7 @@
 {
     "damage": {
         "title": {
-            "translate": "puffish_skills.categories.damage.title"
+            "translate": "puffish_skills.categories.damage.title.2"
         },
         "frame": {
             "type": "texture",
@@ -33,7 +33,7 @@
     },
     "atkspeed": {
         "title": {
-            "translate": "puffish_skills.categories.atkspeed.title"
+            "translate": "puffish_skills.categories.atkspeed.title.2"
         },
         "frame": {
             "type": "texture",
@@ -65,10 +65,10 @@
     },
     "infusion_etyr": {
         "title": {
-            "translate": "puffish_skills.categories.infusion_etyr.title"
+            "translate": "puffish_skills.categories.infusion_etyr.title.3"
         },
         "description": {
-            "translate": "puffish_skills.categories.infusion_etyr.description"
+            "translate": "puffish_skills.categories.infusion_etyr.description.3"
         },
         "size": 1.5,
         "frame": {
@@ -124,10 +124,10 @@
     },
     "infusion_corruption": {
         "title": {
-            "translate": "puffish_skills.categories.infusion_corruption.title"
+            "translate": "puffish_skills.categories.infusion_corruption.title.5"
         },
         "description": {
-            "translate": "puffish_skills.categories.infusion_corruption.description"
+            "translate": "puffish_skills.categories.infusion_corruption.description.5"
         },
         "size": 1.5,
         "frame": {

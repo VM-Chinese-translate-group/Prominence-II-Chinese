@@ -1,7 +1,7 @@
 {
     "damage": {
         "title": {
-            "translate": "puffish_skills.categories.damage.title"
+            "translate": "puffish_skills.categories.damage.title.1"
         },
         "frame": {
             "type": "texture",
@@ -33,7 +33,7 @@
     },
     "atkspeed": {
         "title": {
-            "translate": "puffish_skills.categories.atkspeed.title"
+            "translate": "puffish_skills.categories.atkspeed.title.1"
         },
         "frame": {
             "type": "texture",
@@ -97,10 +97,10 @@
     },
     "infusion_etyr": {
         "title": {
-            "translate": "puffish_skills.categories.infusion_etyr.title"
+            "translate": "puffish_skills.categories.infusion_etyr.title.1"
         },
         "description": {
-            "translate": "puffish_skills.categories.infusion_etyr.description"
+            "translate": "puffish_skills.categories.infusion_etyr.description.1"
         },
         "size": 1.25,
         "frame": {
@@ -140,10 +140,10 @@
     },
     "infusion_corruption": {
         "title": {
-            "translate": "puffish_skills.categories.infusion_corruption.title"
+            "translate": "puffish_skills.categories.infusion_corruption.title.2"
         },
         "description": {
-            "translate": "puffish_skills.categories.infusion_corruption.description"
+            "translate": "puffish_skills.categories.infusion_corruption.description.2"
         },
         "size": 1.25,
         "frame": {
@@ -183,7 +183,7 @@
     },
     "infusion_corruption_2": {
         "title": {
-            "translate": "puffish_skills.categories.infusion_frost.title"
+            "translate": "puffish_skills.categories.infusion_corruption_2.title"
         },
         "description": {
             "translate": "puffish_skills.categories.infusion_corruption_2.description"

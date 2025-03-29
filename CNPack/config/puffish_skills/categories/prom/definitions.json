@@ -76,7 +76,7 @@
     },
     "luck+0.25": {
         "title": {
-            "translate": "puffish_skills.categories.ranged_damage+3%.title"
+            "translate": "puffish_skills.categories.luck+0.25.title"
         },
         "description": {
             "translate": "puffish_skills.categories.luck+0.25.description"
@@ -942,7 +942,7 @@
     },
     "frost+12%": {
         "title": {
-            "translate": "puffish_skills.categories.fire+12%.title"
+            "translate": "puffish_skills.categories.frost+12%.title"
         },
         "description": {
             "translate": "puffish_skills.categories.frost+12%.description"
@@ -985,7 +985,7 @@
     },
     "arcane+12%": {
         "title": {
-            "translate": "puffish_skills.categories.ranged_damage+3%.title"
+            "translate": "puffish_skills.categories.arcane+12%.title"
         },
         "description": {
             "translate": "puffish_skills.categories.arcane+12%.description"

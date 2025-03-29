@@ -1,7 +1,7 @@
 {
     "fyrdmg+5": {
         "title": {
-            "translate": "puffish_skills.categories.fyrdmg+5.title"
+            "translate": "puffish_skills.categories.fyrdmg+5.title.3"
         },
         "frame": {
             "type": "texture",
@@ -33,7 +33,7 @@
     },
     "maxhealth+5": {
         "title": {
-            "translate": "puffish_skills.categories.maxhealth+5.title"
+            "translate": "puffish_skills.categories.maxhealth+5.title.3"
         },
         "frame": {
             "type": "texture",
@@ -65,10 +65,10 @@
     },
     "infusion_etyr": {
         "title": {
-            "translate": "puffish_skills.categories.infusion_etyr.title"
+            "translate": "puffish_skills.categories.infusion_etyr.title.4"
         },
         "description": {
-            "translate": "puffish_skills.categories.infusion_etyr.description"
+            "translate": "puffish_skills.categories.infusion_etyr.description.4"
         },
         "size": 1.5,
         "frame": {
@@ -116,10 +116,10 @@
     },
     "infusion_corruption": {
         "title": {
-            "translate": "puffish_skills.categories.infusion_corruption.title"
+            "translate": "puffish_skills.categories.infusion_corruption.title.6"
         },
         "description": {
-            "translate": "puffish_skills.categories.infusion_corruption.description"
+            "translate": "puffish_skills.categories.infusion_corruption.description.6"
         },
         "size": 1.5,
         "frame": {
