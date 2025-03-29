@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "prominent:lesser_mythical_essence"
+    },
+    "title": {
+      "translate": "advancement.prominent.void_mythic_1.title"
+    },
+    "description": {
+      "translate": "advancement.prominent.void_mythic_1.description"
+    },
+    "hidden": true,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "loot": [
+      "prominent:lesser_tier_1"
+    ]
+  }
+}

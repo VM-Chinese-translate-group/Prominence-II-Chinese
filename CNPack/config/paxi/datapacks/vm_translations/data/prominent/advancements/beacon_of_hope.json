@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "prominent:beacon_of_hope"
+    },
+    "title": {
+      "translate": "advancement.prominent.beacon_of_hope.title"
+    },
+    "description": {
+      "translate": "advancement.prominent.beacon_of_hope.description"
+    },
+    "hidden": true,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "prominent:molten_core",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "prominent:beacon_of_hope": {
+            "amplifier": 2
+          }
+        }
+      }
+    }
+  }
+}

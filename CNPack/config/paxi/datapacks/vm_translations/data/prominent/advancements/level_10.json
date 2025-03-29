@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "prominent:knowledge_scroll"
+    },
+    "title": {
+      "translate": "advancement.prominent.level_10.title"
+    },
+    "description": {
+      "translate": "advancement.prominent.level_10.description"
+    },
+    "hidden": true,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "prominent:ashedar_essence"
+    },
+    "title": {
+      "translate": "advancement.prominent.ashedar.title"
+    },
+    "description": {
+      "translate": "advancement.prominent.ashedar.description"
+    },
+    "hidden": true,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "prominent:molten_core",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "prominent:ashedar_essence"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

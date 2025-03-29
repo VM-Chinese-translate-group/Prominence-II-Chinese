@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "prominent:molten_core"
+    },
+    "title": {
+      "translate": "advancement.prominent.unlock_mythic_challenges.title"
+    },
+    "description": {
+      "translate": "advancement.prominent.unlock_mythic_challenges.description"
+    },
+    "hidden": true,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "loot": [
+      "prominent:unlockmythic"
+    ]
+  }
+}
