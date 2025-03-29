@@ -1131,7 +1131,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "[\"\",\"Can be found in \",{\"text\":\"The End\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"45D9C9CD7B2568A0\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[]}},\".\"]"
+			subtitle: "{ftbquests.chapter.tech_reborn.quests126.subtitle}"
 			tasks: [
 				{
 					id: "6A1248D8D9D0D60A"
