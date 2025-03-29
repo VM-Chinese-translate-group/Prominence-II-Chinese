@@ -1,0 +1,283 @@
+[
+  {
+    "authors": "VaultPatcherDuper",
+    "name": "Prominent_Talents-FABRIC-2.7.0.jar extracted",
+    "desc": "Use VaultPatcherDuper extracted mods hardcoded text",
+    "mods": "Prominent_Talents-FABRIC-2.7.0",
+    "dynamic": false,
+    "i18n": true
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " (Maximum Level)",
+        "value": "vp.prominent.levelstatindicator.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§7• ",
+        "value": "vp.prominent.levelstatindicator.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Current Level:",
+        "value": "vp.prominent.levelstatindicator.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " ",
+        "value": "vp.prominent.levelstatindicator.4"
+      },
+      {
+        "key": "",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": " XP to reach next level",
+        "value": "vp.prominent.levelstatindicator.5"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " ",
+        "value": "vp.prominent.levelstatindicator.6"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§f牢§7 ",
+        "value": "vp.prominent.levelstatindicator.7"
+      },
+      {
+        "key": " Maximum Health",
+        "value": "vp.prominent.levelstatindicator.8"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§f聾§7 ",
+        "value": "vp.prominent.levelstatindicator.9"
+      },
+      {
+        "key": " Armor",
+        "value": "vp.prominent.levelstatindicator.10"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§f弄§7 ",
+        "value": "vp.prominent.levelstatindicator.11"
+      },
+      {
+        "key": " Physical Damage",
+        "value": "vp.prominent.levelstatindicator.12"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§f凌§7 ",
+        "value": "vp.prominent.levelstatindicator.13"
+      },
+      {
+        "key": " Ranged Damage",
+        "value": "vp.prominent.levelstatindicator.14"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§f陋§7 ",
+        "value": "vp.prominent.levelstatindicator.15"
+      },
+      {
+        "key": " Arcane Power",
+        "value": "vp.prominent.levelstatindicator.16"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§f縷§7 ",
+        "value": "vp.prominent.levelstatindicator.17"
+      },
+      {
+        "key": " Fire Power",
+        "value": "vp.prominent.levelstatindicator.18"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§f勒§7 ",
+        "value": "vp.prominent.levelstatindicator.19"
+      },
+      {
+        "key": " Frost Power",
+        "value": "vp.prominent.levelstatindicator.20"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§f凜§7 ",
+        "value": "vp.prominent.levelstatindicator.21"
+      },
+      {
+        "key": " Unholy Power",
+        "value": "vp.prominent.levelstatindicator.22"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.client.LevelStatIndicator",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "§f肋§7 ",
+        "value": "vp.prominent.levelstatindicator.23"
+      },
+      {
+        "key": " Blood Power",
+        "value": "vp.prominent.levelstatindicator.24"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.util.TalentTree",
+      "method": "triggerLevelUpClient",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Congratulations! You have reached level ",
+        "value": "vp.prominent.talenttree.1"
+      },
+      {
+        "key": "!",
+        "value": "vp.prominent.talenttree.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent_talents.util.TalentTree",
+      "method": "triggerLevelUpClient",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "",
+        "value": ""
+      },
+      {
+        "key": "Level ",
+        "value": "vp.prominent.talenttree.3"
+      }
+    ]
+  }
+]

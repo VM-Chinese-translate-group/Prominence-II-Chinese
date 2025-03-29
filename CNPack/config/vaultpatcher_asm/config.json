@@ -1,6 +1,7 @@
 {
   "mods": [
-    "Prominent-GLOBAL-MC1.20.1-3.9.5"
+    "Prominent-GLOBAL-MC1.20.1-3.9.5",
+    "Prominent_Talents-FABRIC-2.7.0"
   ],
   "classes": [],
   "apply_mods": [],
