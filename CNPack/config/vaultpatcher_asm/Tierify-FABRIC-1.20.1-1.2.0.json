@@ -1,0 +1,23 @@
+[
+  {
+    "authors": "VaultPatcherDuper",
+    "name": "Tierify-FABRIC-1.20.1-1.2.0.jar extracted",
+    "desc": "Use VaultPatcherDuper extracted mods hardcoded text",
+    "mods": "Tierify-FABRIC-1.20.1-1.2.0",
+    "dynamic": false,
+    "i18n": true
+  },
+  {
+    "target_class": {
+      "name": "elocindev.tierify.item.ReforgeAddition",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Reforging Qualities:",
+        "value": "vp.tireify.item.tooltip.1"
+      }
+    ]
+  }
+]

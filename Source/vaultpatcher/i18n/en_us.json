@@ -303,5 +303,6 @@
     "vp.prominent.talenttree.1": "Congratulations! You have reached level ",
     "vp.prominent.talenttree.2": "!",
     "vp.prominent.talenttree.3": "Level ",
-    "vp.prominent.soulbinding.1": " is now soulbound to you."
+    "vp.prominent.soulbinding.1": " is now soulbound to you.",
+    "vp.tireify.item.tooltip.1": "Reforging Qualities:"
 }
