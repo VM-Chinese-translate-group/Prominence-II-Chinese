@@ -1,9 +1,9 @@
 {
-    "attribute.name.ranged_weapon.damage":"Ranged Damage",
-    "attribute.name.ranged_weapon.haste":"Draw Speed",
-    "attribute.name.ranged_weapon.pull_time":"sec Pull Time",
-    "effect.ranged_weapon.damage":"Impact",
-    "effect.ranged_weapon.haste":"Rapid Fire",
-    "item.modifiers.both_hands":"When Held:",
-    "item.ranged_weapon.pull_time":"%1$s sec Pull Time"
+    "attribute.name.ranged_weapon.damage":"远程伤害",
+    "attribute.name.ranged_weapon.haste":"拉弓速度",
+    "attribute.name.ranged_weapon.pull_time":"每秒拉弓速度",
+    "effect.ranged_weapon.damage":"冲击",
+    "effect.ranged_weapon.haste":"快速开火",
+    "item.modifiers.both_hands":"手持时：",
+    "item.ranged_weapon.pull_time":"%1$s的每秒拉弓速度"
 }
