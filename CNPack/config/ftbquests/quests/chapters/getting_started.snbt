@@ -270,13 +270,7 @@
 			]
 			icon: "supplementaries:slice_map"
 			id: "723951CD2A49AEB7"
-			rewards: [
-				{
-					id: "130FE58DD2BBD7D8"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			size: 0.75d
 			subtitle: "{ftbquests.chapter.getting_started.quests6.subtitle}"
 			tasks: [
 				{
@@ -287,7 +281,7 @@
 			]
 			title: "{ftbquests.chapter.getting_started.quests6.title}"
 			x: -1.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["002FC90E5914D9C2"]
@@ -307,6 +301,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.getting_started.quests7.subtitle}"
 			tasks: [
@@ -507,8 +502,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.getting_started.quests13.title}"
-			x: 5.0d
-			y: -2.5d
+			x: 5.0535714285714235d
+			y: -2.6135938668661183d
 		}
 		{
 			dependencies: ["2F5A3E304ABAADF6"]
@@ -535,8 +530,30 @@
 				}
 			]
 			title: "{ftbquests.chapter.getting_started.quests14.title}"
-			x: 5.0d
-			y: -1.5d
+			x: 5.053571428571431d
+			y: -1.6850224382946877d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				"{ftbquests.chapter.getting_started.quests15.description0}"
+				""
+				"{ftbquests.chapter.getting_started.quests15.description2}"
+				""
+				"{ftbquests.chapter.getting_started.quests15.description4}"
+			]
+			icon: "supplementaries:slice_map"
+			id: "239866A8BF58469A"
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.getting_started.quests15.subtitle}"
+			tasks: [{
+				id: "5216CF72CFF2B653"
+				title: "Click to continue!"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.getting_started.quests15.title}"
+			x: -1.482142857142854d
+			y: -3.292165295437549d
 		}
 	]
 	title: "{ftbquests.chapter.getting_started.title}"

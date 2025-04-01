@@ -585,6 +585,7 @@
 					}
 					id: "43DBCF7B9A526165"
 					item: "runes:lightning_stone"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -628,6 +629,7 @@
 					}
 					id: "34B70513418F7A19"
 					item: "runes:soul_stone"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests12.tasks1.title}"
 					type: "item"
 				}
