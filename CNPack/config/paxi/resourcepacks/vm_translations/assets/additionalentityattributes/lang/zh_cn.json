@@ -7,8 +7,8 @@
     "attribute.name.additionalentityattributes.generic.hitbox_scale.desc":"增加碰撞箱整体大小",
     "attribute.name.additionalentityattributes.generic.hitbox_width":"碰撞箱宽度变大",
     "attribute.name.additionalentityattributes.generic.hitbox_width.desc":"增加碰撞箱宽度",
-    "attribute.name.additionalentityattributes.generic.lava_speed":"岩浆急行",
-    "attribute.name.additionalentityattributes.generic.lava_speed.desc":"提升岩浆中移动速度",
+    "attribute.name.additionalentityattributes.generic.lava_speed":"Lava Speed",
+    "attribute.name.additionalentityattributes.generic.lava_speed.desc":"Increases movement speed in Lava",
     "attribute.name.additionalentityattributes.generic.magic_protection":"魔法保护",
     "attribute.name.additionalentityattributes.generic.magic_protection.desc":"减少魔法类型的伤害",
     "attribute.name.additionalentityattributes.generic.mob_detection_range":"生物探测范围",
@@ -33,8 +33,8 @@
     "attribute.name.additionalentityattributes.player.critical_bonus_damage.desc":"增加打出暴击时的伤害",
     "attribute.name.additionalentityattributes.player.dropped_experience":"额外经验",
     "attribute.name.additionalentityattributes.player.dropped_experience.desc":"增加挖掘方块和杀死生物的经验掉落率",
-    "attribute.name.additionalentityattributes.player.lava_visibility":"岩浆视野",
-    "attribute.name.additionalentityattributes.player.lava_visibility.desc":"增加岩浆中的可见范围",
+    "attribute.name.additionalentityattributes.player.lava_visibility":"Lava Vision",
+    "attribute.name.additionalentityattributes.player.lava_visibility.desc":"Increases view range in Lava",
     "attribute.name.additionalentityattributes.player.water_visibility":"水下视野",
     "attribute.name.additionalentityattributes.player.water_visibility.desc":"增加水下可见范围"
 }
