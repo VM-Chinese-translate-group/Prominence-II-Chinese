@@ -816,6 +816,19 @@
     },
     "pairs": [
       {
+        "key": "maximum health per broken soul stack.",
+        "value": "vp.prominent.azhar.6.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
         "key": "老 ",
         "value": "vp.prominent.azhar.7"
       }
@@ -857,6 +870,19 @@
       {
         "key": "large cone. If you don't have a broken soul stack, you will recieve",
         "value": "vp.prominent.azhar.10"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Azhar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "continuous damage while the breath is active.",
+        "value": "vp.prominent.azhar.10.1"
       }
     ]
   },
@@ -1617,6 +1643,19 @@
     },
     "pairs": [
       {
+        "key": "blade-like projectiles at your target.",
+        "value": "vp.prominent.fyralath.11.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
         "key": "老 ",
         "value": "vp.prominent.fyralath.12"
       }
@@ -1656,6 +1695,19 @@
     },
     "pairs": [
       {
+        "key": "and deal fire damage to all close enemies.",
+        "value": "vp.prominent.fyralath.14.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
         "key": "路 ",
         "value": "vp.prominent.fyralath.15"
       }
@@ -1684,6 +1736,19 @@
       {
         "key": "Fyr'alath can invoke improved fire spells that have instant",
         "value": "vp.prominent.fyralath.17"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Fyralath",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "cast times, more damage and improved effects.",
+        "value": "vp.prominent.fyralath.17.1"
       }
     ]
   },
@@ -2301,6 +2366,19 @@
     },
     "pairs": [
       {
+        "key": "exploding in a lethal nova that damages all nearby enemies.",
+        "value": "vp.prominent.supernova.6.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
         "key": "老 ",
         "value": "vp.prominent.supernova.7"
       }
@@ -2340,6 +2418,19 @@
     },
     "pairs": [
       {
+        "key": "sonic attack that deals physical and arcane damage.",
+        "value": "vp.prominent.supernova.9.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
         "key": "老 ",
         "value": "vp.prominent.supernova.10"
       }
@@ -2368,6 +2459,19 @@
       {
         "key": "Channel a rain of iceles to your closest target. If the target dies,",
         "value": "vp.prominent.supernova.12"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Supernova",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "the channeling continues to the next closest target.",
+        "value": "vp.prominent.supernova.12.1"
       }
     ]
   },
@@ -2881,6 +2985,19 @@
     },
     "pairs": [
       {
+        "key": "healing nearby players for 3% of your maximum health every 2 seconds.",
+        "value": "vp.prominent.vaazkar.16.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Vaazkar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
         "key": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds.",
         "value": "vp.prominent.vaazkar.17"
       }
@@ -3086,6 +3203,19 @@
       {
         "key": " Aberrations may arise every 30 seconds, helping and",
         "value": "vp.prominent.mythicsummoner.6"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.mythic_bosses.MythicSummoner",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " inheriting the mythical attributes of their leader.",
+        "value": "vp.prominent.mythicsummoner.7"
       }
     ]
   },
@@ -3645,6 +3775,19 @@
       {
         "key": " is now soulbound to you.",
         "value": "vp.prominent.soulbinding.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.dialogue.Dialogue",
+      "method": "getGumasDialogue",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "a familiar voice whispers",
+        "value": "vp.prominent.dialogue.1"
       }
     ]
   }
