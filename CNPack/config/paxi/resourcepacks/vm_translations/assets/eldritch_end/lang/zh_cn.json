@@ -79,7 +79,7 @@
     "block.eldritch_end.stripped_primordial_log":"去皮原始原木",
     "block.eldritch_end.stripped_primordial_wood":"去皮原始木",
     "block.eldritch_end.suspicious_fronds":"可疑的蕨叶",
-    "death.attack.corruption":"%1$s 成为了腐化的牺牲品。",
+    "death.attack.corruption":"%1$s fell victim to corruption.",
     "death.attack.corruption.player":"%1$s 成为了腐化的牺牲品。",
     "effect.eldritch_end.corruption":"腐化",
     "effect.eldritch_end.hastur_presence":"哈斯塔之存在",
