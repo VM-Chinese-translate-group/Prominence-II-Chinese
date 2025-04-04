@@ -8,7 +8,7 @@ def main():
         translations = json.load(f)
     
     # 读取需要处理的JSON文件
-    json_file = "D:\\mc\\mod\\Prominence-II-Chinese\\CNPack\\config\\vaultpatcher_asm\\Prominent-GLOBAL-MC1.20.1-3.9.5.json"
+    json_file = "D:\\mc\\mod\\Prominence-II-Chinese\\CNPack\\config\\vaultpatcher_asm\\spellbladenext-1.21.3+1.20.1.json"
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
@@ -35,7 +35,7 @@ def main():
                 # 如果不是翻译键,生成新的
                 if not pair["value"].startswith("vp."):
                     text = pair["value"]
-                    key = f"vp.prominent.{class_name}.{class_counters[class_name]}"
+                    key = f"vp.spellbladenext.{class_name}.{class_counters[class_name]}"
                     class_counters[class_name] += 1
                     
                     pair["value"] = key

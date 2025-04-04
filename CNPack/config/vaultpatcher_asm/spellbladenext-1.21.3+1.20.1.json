@@ -1,0 +1,803 @@
+[
+  {
+    "authors": "VaultPatcherDuper",
+    "name": "spellbladenext-1.21.3+1.20.1.jar extracted",
+    "desc": "Use VaultPatcherDuper extracted mods hardcoded text",
+    "mods": "spellbladenext-1.21.3+1.20.1",
+    "dynamic": false,
+    "i18n": true
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Ashes",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Unidentified.",
+        "value": "vp.spellbladenext.ashes.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Ashes",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "A single facet contains the wisdom",
+        "value": "vp.spellbladenext.ashes.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Ashes",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "of countless disintegrated worlds.",
+        "value": "vp.spellbladenext.ashes.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.EviscerateOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Adds Massacre to a tool, and turns it into a spell container, if it isn't already.",
+        "value": "vp.spellbladenext.eviscerateoil.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.EviscerateOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "vp.spellbladenext.eviscerateoil.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.EviscerateOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "vp.spellbladenext.eviscerateoil.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FinalStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Adds Sonic Strike to a tool, and turns it into a spell container, if it isn't already.",
+        "value": "vp.spellbladenext.finalstrikeoil.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FinalStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "vp.spellbladenext.finalstrikeoil.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FinalStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "vp.spellbladenext.finalstrikeoil.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FlickerStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Adds Flicker Strike to a tool, and turns it into a spell container, if it isn't already.",
+        "value": "vp.spellbladenext.flickerstrikeoil.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FlickerStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "vp.spellbladenext.flickerstrikeoil.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.FlickerStrikeOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "vp.spellbladenext.flickerstrikeoil.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Offering",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Keep in inventory to ward away Hex, consuming the item when hexed.",
+        "value": "vp.spellbladenext.offering.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Offering",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Use on a block to summon a friendly Hexblade portal. Consumed when used.",
+        "value": "vp.spellbladenext.offering.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Omni",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Unidentified.",
+        "value": "vp.spellbladenext.omni.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Omni",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "That winter, scorched refugees emerged from the shrine,",
+        "value": "vp.spellbladenext.omni.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Omni",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "speaking only in strange tongues. They prayed to a new",
+        "value": "vp.spellbladenext.omni.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Omni",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "symbol of power, not out of love, but out of fear.",
+        "value": "vp.spellbladenext.omni.4"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Orb",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Orbweaver's Grace",
+        "value": "vp.spellbladenext.orb.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Orb",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Move normally while casting",
+        "value": "vp.spellbladenext.orb.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Magus cannot be summoned outside the Glass Ocean.",
+        "value": "vp.spellbladenext.prismaticeffigy.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Magus' full power is unleashed in the Glass Ocean!",
+        "value": "vp.spellbladenext.prismaticeffigy.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "This dimension seems to diminish Magus' power.",
+        "value": "vp.spellbladenext.prismaticeffigy.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Magus has no room at your location",
+        "value": "vp.spellbladenext.prismaticeffigy.4"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7836",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Magus is already present within 200 blocks.",
+        "value": "vp.spellbladenext.prismaticeffigy.5"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Use to summon Magus, if available.",
+        "value": "vp.spellbladenext.prismaticeffigy.6"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.PrismaticEffigy",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Magus is stronger and drops more stuff in the Glass Ocean.",
+        "value": "vp.spellbladenext.prismaticeffigy.7"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SingularPurpose",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Unidentified.",
+        "value": "vp.spellbladenext.singularpurpose.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SingularPurpose",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The stats of the ",
+        "value": "vp.spellbladenext.singularpurpose.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SingularPurpose",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " used to create this item determines its stats.",
+        "value": "vp.spellbladenext.singularpurpose.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SingularPurpose",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Champion that which you love.",
+        "value": "vp.spellbladenext.singularpurpose.4"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SingularPurpose",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "He who fights for nothing - dies for nothing.",
+        "value": "vp.spellbladenext.singularpurpose.5"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SmiteOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Adds Smite to a tool, and turns it into a spell container, if it isn't already.",
+        "value": "vp.spellbladenext.smiteoil.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SmiteOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "vp.spellbladenext.smiteoil.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SmiteOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "vp.spellbladenext.smiteoil.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SpellOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Allows a tool to cast spells from a spell book. ",
+        "value": "vp.spellbladenext.spelloil.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SpellOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "vp.spellbladenext.spelloil.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.SpellOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "vp.spellbladenext.spelloil.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Starforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Triggers Elemental Novas on hit, with a 1 second base cooldown and a 0.8 coefficient.",
+        "value": "vp.spellbladenext.starforge.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Starforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Requires runes of the right type, or Spell Infinity.",
+        "value": "vp.spellbladenext.starforge.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Starforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The end is written into the beginning.",
+        "value": "vp.spellbladenext.starforge.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TabulaRasa",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "item.spellbladenext.tabula_rasa.desc2",
+        "value": "vp.spellbladenext.tabularasa.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TabulaRasa",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "DISABLED via server config",
+        "value": "vp.spellbladenext.tabularasa.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Unidentified.",
+        "value": "vp.spellbladenext.theavatar.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "The stats of the ",
+        "value": "vp.spellbladenext.theavatar.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " used to create this item determines its stats.",
+        "value": "vp.spellbladenext.theavatar.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Night's promises are dark, for even the stars must be harvested.",
+        "value": "vp.spellbladenext.theavatar.4"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Icy fangs seek tender hulls to sink themselves into.",
+        "value": "vp.spellbladenext.theavatar.5"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheAvatar",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "In my dreams I see a great warrior, his skin scorched black, his fists aflame.",
+        "value": "vp.spellbladenext.theavatar.6"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheSpark",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Spells of non-Arcane Magic Schools",
+        "value": "vp.spellbladenext.thespark.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheSpark",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "use your Arcane Power instead.",
+        "value": "vp.spellbladenext.thespark.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheSpark",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Pure arcana, woven like fabric,",
+        "value": "vp.spellbladenext.thespark.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.TheSpark",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "scalding or freezing to the touch.",
+        "value": "vp.spellbladenext.thespark.4"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.ThesisBook",
+      "method": "method_7864",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Thesis on",
+        "value": "vp.spellbladenext.thesisbook.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Voidforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Triggers Elemental Novas on hit, with a 1 second base cooldown and a 0.8 coefficient.",
+        "value": "vp.spellbladenext.voidforge.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Voidforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Requires runes of the right type, or Spell Infinity.",
+        "value": "vp.spellbladenext.voidforge.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Voidforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "A weapon born of nothingness,",
+        "value": "vp.spellbladenext.voidforge.3"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.Voidforge",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "can only create more nothingness.",
+        "value": "vp.spellbladenext.voidforge.4"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.WhirlwindOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Adds Cyclone to a tool, and turns it into a spell container, if it isn't already.",
+        "value": "vp.spellbladenext.whirlwindoil.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.WhirlwindOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Can only be used on a weapon not already containing a spell.",
+        "value": "vp.spellbladenext.whirlwindoil.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.spellbladenext.items.WhirlwindOil",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Drag over an item and right click to use. IRREVERSIBLE. USE CAREFULLY.",
+        "value": "vp.spellbladenext.whirlwindoil.3"
+      }
+    ]
+  }
+]
