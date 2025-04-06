@@ -55,7 +55,7 @@
     "pairs": [
       {
         "key": "ꦖ §7Unleash the remnant to upgrade your Artifact weapon.",
-        "value": "vp.prominent.artifactupgrader.1"
+        "value": "vp.prominent.artifactupgrader.1.1"
       }
     ]
   },
@@ -68,7 +68,7 @@
     "pairs": [
       {
         "key": " Artifact Power",
-        "value": "vp.prominent.artifactupgrader.2"
+        "value": "vp.prominent.artifactupgrader.1.2"
       }
     ]
   },
