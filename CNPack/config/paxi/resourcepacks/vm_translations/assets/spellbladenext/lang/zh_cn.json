@@ -144,7 +144,7 @@
     "spell.spellbladenext.eldritchblast.description":"向目标所在方向发射冲击波，对一条线上的所有敌人造成 {damage} 点奥秘伤害。施法会消耗所有爆发层数，每有1层爆发，冲击波数量加1。",
     "spell.spellbladenext.eldritchblast.name":"回响音爆",
     "spell.spellbladenext.eviscerate.description":"Become intangible, attacking the nearest enemy five times over a second, dealing {damage_1} physical damage and {damage_2} frost damage. If this kills the enemy before the last hit, these effects continue onto another enemy. Gain 1 Haste and Strength per 4 frost power.",
-    "spell.spellbladenext.eviscerate.name":"屠杀",
+    "spell.spellbladenext.eviscerate.name":"残杀",
     "spell.spellbladenext.finalstrike.description":"Charge up a deadly attack against all enemies in a line, teleporting behind the last one and dealing {damage_1} physical damage plus an additional {damage_2} arcane spell damage. Gain 1 Haste and Strength per 4 arcane power.",
     "spell.spellbladenext.finalstrike.name":"音速斩击",
     "spell.spellbladenext.fireflourish.description":"Spin rapidly, dealing {damage_1} physical damage, plus {damage_2} fire damage. Gain 1 Haste and Strength per 4 fire power.",
