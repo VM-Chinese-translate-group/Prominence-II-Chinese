@@ -100,7 +100,7 @@
     "spell.invoke.power_word_kill.name":"言灵术：灭",
     "spell.invoke.rah.description":"发射一个火球，造成{damage}点火焰伤害。命中时给予施法者一级火焰魔能，最多叠加至3级。",
     "spell.invoke.rah.name":"火焰召唤：Rah",
-    "spell.invoke.runic_invocation.description":"When you cast a spell, you gain a rune of the corresponding element. Cast this spell to spend these runes, invoking a more powerful spell.",
+    "spell.invoke.runic_invocation.description":"每施放一个法术，你获得一个相应的元素符文，施放此法术将消耗所有符文并召唤出更加强大的法术。",
     "spell.invoke.runic_invocation.name":"符文召唤",
     "spell.invoke.scorching_agony.description":"吟唱后灼烧目标一段时间，每秒造成{damage}点火焰法术伤害。",
     "spell.invoke.scorching_agony.name":"苦痛烧灼",
