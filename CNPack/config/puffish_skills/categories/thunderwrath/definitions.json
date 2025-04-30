@@ -116,10 +116,10 @@
     },
     "infusion_corruption": {
         "title": {
-            "translate": "puffish_skills.categories.infusion_corruption.title.6"
+            "translate": "puffish_skills.categories.infusion_corruption.title.7"
         },
         "description": {
-            "translate": "puffish_skills.categories.infusion_corruption.description.6"
+            "translate": "puffish_skills.categories.infusion_corruption.description.7"
         },
         "size": 1.5,
         "frame": {

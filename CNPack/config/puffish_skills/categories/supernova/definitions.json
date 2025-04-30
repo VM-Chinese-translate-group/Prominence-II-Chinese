@@ -1,7 +1,7 @@
 {
     "damage": {
         "title": {
-            "translate": "puffish_skills.categories.damage.title.2"
+            "translate": "puffish_skills.categories.damage.title.3"
         },
         "frame": {
             "type": "texture",
@@ -124,10 +124,10 @@
     },
     "infusion_corruption": {
         "title": {
-            "translate": "puffish_skills.categories.infusion_corruption.title.5"
+            "translate": "puffish_skills.categories.infusion_corruption.title.6"
         },
         "description": {
-            "translate": "puffish_skills.categories.infusion_corruption.description.5"
+            "translate": "puffish_skills.categories.infusion_corruption.description.6"
         },
         "size": 1.5,
         "frame": {
