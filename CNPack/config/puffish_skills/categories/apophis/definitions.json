@@ -1,0 +1,132 @@
+{
+	"holypower": {
+		"title": "§f綾 §6+3%§7 Holy Power",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/magic_type/holy.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"maxhleath": {
+		"title": "§6+5% §7Maximum Health for the wielder of §6Apophis",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/health.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"oath_of_healing": {
+		"title": "§f鹿 §6Oath of Healing",
+		"description": "§7Oath to protect your allies by healing them in battle. \n \n§7After casting Divine Smite, apply a healing over time to allies in a 16 block radius that heals them 15% of their maximum health over 5 seconds.\n \n§f綾 §6+20%§7 Holy Power",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "paladins:textures/item/priest_spell_book.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 0.2,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "p3yfct8acclxc8cs"
+		}
+	},
+	"oath_of_protection": {
+		"title": "§f鹿 §6Oath of Protection",
+		"description": "§7Oath to protect your allies by taking damage for them. \n \n§7After casting Divine Smite, heal yourself for 25% of your maximum health.\n \n§f綾 §6+10%§7 Holy Power\n§f聾 §e+10% §7Armor Efficiency",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "paladins:textures/item/paladin_spell_book.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "p3yfct8acclxc8cs"
+		}
+	}
+}
