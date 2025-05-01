@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "elhasturian_era"
 	group: "3DBADFFDA1FDAD84"
@@ -14,8 +14,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "derelict:item/fancy_cobweb_with_spider_nest"
@@ -27,9 +27,9 @@
 		{
 			click: ""
 			color: 15780692
-			corner: "false"
+			corner: false
 			dependency: "7E7462C4751E0C1B"
-			dev: "false"
+			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
@@ -114,7 +114,7 @@
 				""
 				"{ftbquests.chapter.elhasturian_era.quests1.description22}"
 			]
-			hide: "true"
+			hide: true
 			icon: "ftbquests:book"
 			id: "579138B8DB19724C"
 			shape: "diamond"
@@ -162,7 +162,7 @@
 				""
 				"{ftbquests.chapter.elhasturian_era.quests2.description26}"
 			]
-			hide: "true"
+			hide: true
 			icon: "minecraft:paper"
 			id: "440126C71C47DB94"
 			rewards: [
@@ -208,7 +208,7 @@
 				""
 				"{ftbquests.chapter.elhasturian_era.quests3.description18}"
 			]
-			hide: "true"
+			hide: true
 			id: "2D24C45915E27222"
 			rewards: [
 				{
@@ -315,7 +315,7 @@
 				""
 				"{ftbquests.chapter.elhasturian_era.quests5.description28}"
 			]
-			hide: "true"
+			hide: true
 			id: "34CA824A855AF82F"
 			rewards: [
 				{
@@ -362,7 +362,7 @@
 				"{ftbquests.chapter.elhasturian_era.quests6.description19}"
 				"{ftbquests.chapter.elhasturian_era.quests6.description20}"
 			]
-			hide: "true"
+			hide: true
 			id: "66FA883FD0CBC7E7"
 			rewards: [
 				{
@@ -393,7 +393,7 @@
 				""
 				"{ftbquests.chapter.elhasturian_era.quests7.description4}"
 			]
-			hide: "true"
+			hide: true
 			icon: "prominent:cinderstone_trophy"
 			id: "5E4919750C5CE35D"
 			shape: "hexagon"

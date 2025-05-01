@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "artifact_reforging"
 	group: "3DBADFFDA1FDAD84"
@@ -14,8 +14,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "minecraft:block/campfire_fire"
@@ -26,8 +26,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x_alt"
@@ -38,8 +38,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "ftblibrary:icons/blank"
@@ -373,8 +373,8 @@
 				"36916D6575BB39B7"
 			]
 			description: ["{ftbquests.chapter.artifact_reforging.quests11.description}"]
-			hide: "true"
-			hide_dependency_lines: "true"
+			hide: true
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -383,10 +383,10 @@
 				}
 			}
 			id: "6357A4EEEB4B98EF"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -453,7 +453,7 @@
 				}
 			}
 			id: "6999531248BA0AB3"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					icon: {
@@ -496,7 +496,7 @@
 			dependencies: ["1CE7763C1889255C"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests14.description}"]
 			id: "7E00ACC74ECC5E1D"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "7AB2264D08A2B514"
@@ -531,7 +531,7 @@
 			dependencies: ["50EB37F863EA810B"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests15.description}"]
 			id: "1D001B61D62F0C01"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "6874C841A9DBA8C8"
@@ -566,7 +566,7 @@
 			dependencies: ["6313DD656A95E8C0"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests16.description}"]
 			id: "0B7839A1622323AE"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "7F85E2A737B11837"
@@ -601,7 +601,7 @@
 			dependencies: ["341DB238063321BF"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests17.description}"]
 			id: "0B892A8A2394EB7C"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "37FC16AE87800195"
@@ -636,7 +636,7 @@
 			dependencies: ["211326D6B6C33A25"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests18.description}"]
 			id: "61CEEB526443BFBE"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "5F1AB87437C9214A"
@@ -671,7 +671,7 @@
 			dependencies: ["077B4D52C71E918E"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests19.description}"]
 			id: "78AAA28EC532AD64"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "2D37907A06C8F7C3"
@@ -706,7 +706,7 @@
 			dependencies: ["4C2EFCB93288D047"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests20.description}"]
 			id: "5B27C3D3E677563D"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "532ED5976A9851CC"
@@ -741,7 +741,7 @@
 			dependencies: ["29425DCD7396CE49"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests21.description}"]
 			id: "3310DA8006063D56"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "4CDC2FBE0C91D9E9"
@@ -781,7 +781,7 @@
 			dependencies: ["6D1B83D633AB7558"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests22.description}"]
 			id: "3D8ECB6FDDF81AD9"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "4F2B8D07B90C58EE"
@@ -816,7 +816,7 @@
 			dependencies: ["5D03084D09D2A997"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests23.description}"]
 			id: "5D6E6FEA75B80066"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "2F8ADED4DAA330BE"
@@ -873,7 +873,7 @@
 			dependencies: ["4775EFD3B854946E"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests25.description}"]
 			id: "1E19147A29D45714"
-			invisible: "true"
+			invisible: true
 			shape: "hexagon"
 			size: 0.75d
 			subtitle: "{ftbquests.chapter.artifact_reforging.quests25.subtitle}"
@@ -938,7 +938,7 @@
 			dependencies: ["0ACF3A88C52C2F6E"]
 			description: ["{ftbquests.chapter.artifact_reforging.quests28.description}"]
 			id: "36916D6575BB39B7"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "652ADD700A1DAFCF"

@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tech_reborn"
 	group: "49D52BD6447C5CC0"
@@ -288,7 +288,7 @@
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "580F229A31EACBEB"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					count: 12
@@ -840,7 +840,7 @@
 		}
 		{
 			dependencies: ["4C244A59E076A502"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "1693870F4F722022"
 			rewards: [
 				{
@@ -1164,7 +1164,7 @@
 				"0B606A84A47E6984"
 			]
 			id: "65E79EAA20C0778C"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					id: "1FF224776EB64660"
@@ -1186,7 +1186,7 @@
 		{
 			dependencies: ["2A0E4313C171CC6C"]
 			id: "111C5864D82F7986"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					count: 8
@@ -1271,7 +1271,7 @@
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "7B86674432D514BF"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					id: "285FFEEE947C7397"
@@ -1299,7 +1299,7 @@
 			dependencies: ["0B606A84A47E6984"]
 			icon: "techreborn:industrial_sawmill"
 			id: "40E8EBF7F584D035"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					count: 16
@@ -1983,7 +1983,7 @@
 							fluid: "techreborn:silicon"
 						}
 					}
-					match_nbt: "true"
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -2011,7 +2011,7 @@
 							fluid: "techreborn:beryllium"
 						}
 					}
-					match_nbt: "true"
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -2020,7 +2020,7 @@
 		}
 		{
 			dependencies: ["47F58263B3BC7423"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "56FAF66CFEE8E937"
 			tasks: [
 				{
@@ -2077,7 +2077,7 @@
 			y: 9.5d
 		}
 		{
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "1C8A1CCA830490CB"
 			rewards: [
 				{
@@ -2188,7 +2188,7 @@
 							fluid: "techreborn:mercury"
 						}
 					}
-					match_nbt: "true"
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -2220,7 +2220,7 @@
 			id: "00B093F4B096E8AD"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "55E794C08540EC36"
 					type: "random"
 				}
@@ -2298,7 +2298,7 @@
 		}
 		{
 			dependencies: ["1693870F4F722022"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "572DF2570C4C66DB"
 			rewards: [
 				{
@@ -2320,7 +2320,7 @@
 		}
 		{
 			dependencies: ["1693870F4F722022"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "743284A1B75A8DF4"
 			rewards: [
 				{
@@ -2450,7 +2450,7 @@
 							fluid: "techreborn:lithium"
 						}
 					}
-					match_nbt: "true"
+					match_nbt: true
 					type: "item"
 				}
 			]

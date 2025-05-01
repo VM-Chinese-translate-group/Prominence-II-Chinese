@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_nether"
 	group: "3E586F2160161EEA"
@@ -8,8 +8,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 3.5d
 			hover: [ ]
 			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "5B11DB2289D4F66C"
 			rewards: [
 				{
@@ -86,7 +86,7 @@
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "69872C1F1CCBDEBD"
 			rewards: [
 				{
@@ -120,7 +120,7 @@
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
 			description: [""]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "3963B69A10D95565"
 			shape: "pentagon"
 			subtitle: "{ftbquests.chapter.the_nether.quests3.subtitle}"
@@ -140,7 +140,7 @@
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "4BCD1F2BA84D70D7"
 			rewards: [
 				{
@@ -179,7 +179,7 @@
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
 			description: ["{ftbquests.chapter.the_nether.quests5.description}"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			icon: "soulsweapons:lord_soul_red"
 			id: "2F11604C9E2C0353"
 			rewards: [
@@ -206,7 +206,7 @@
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "6B7553ECE9DF7675"
 			rewards: [
 				{
