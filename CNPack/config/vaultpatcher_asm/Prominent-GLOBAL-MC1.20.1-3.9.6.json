@@ -1,9 +1,9 @@
 [
   {
     "authors": "VaultPatcherDuper",
-    "name": "Prominent-GLOBAL-MC1.20.1-3.9.5.jar extracted",
+    "name": "Prominent-GLOBAL-MC1.20.1-3.9.6.jar extracted",
     "desc": "Use VaultPatcherDuper extracted mods hardcoded text",
-    "mods": "Prominent-GLOBAL-MC1.20.1-3.9.5",
+    "mods": "Prominent-GLOBAL-MC1.20.1-3.9.6",
     "dynamic": false,
     "i18n": true
   },
@@ -2159,6 +2159,71 @@
       {
         "key": "a familiar voice whispers",
         "value": "vp.prominent.dialogue.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Apophis",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": "vp.spellbladenext.apophis.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Apophis",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": "vp.spellbladenext.apophis.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ghaj",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": "vp.spellbladenext.ghaj.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ghaj",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": "vp.spellbladenext.ghaj.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.prominent.item.artifacts.Ghaj",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": "vp.spellbladenext.ghaj.3"
       }
     ]
   }
