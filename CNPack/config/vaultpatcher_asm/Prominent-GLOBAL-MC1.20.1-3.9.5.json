@@ -240,305 +240,6 @@
     },
     "pairs": [
       {
-        "key": "Sunfire",
-        "value": "vp.prominent.ashedar.3"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Arcane",
-        "value": "vp.prominent.ashedar.4"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Artifact",
-        "value": "vp.prominent.ashedar.5"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Sunstrike",
-        "value": "vp.prominent.ashedar.6"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Focus a shockwave of pure solar power, dealing fire damage to all enemies in a frontal cone.",
-        "value": "vp.prominent.ashedar.7"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Deals double damage while affected by Solar Eclipse",
-        "value": "vp.prominent.ashedar.8"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Heals you the damaged amount while affected by Lunar Eclipse.",
-        "value": "vp.prominent.ashedar.9"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Prominence",
-        "value": "vp.prominent.ashedar.10"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Unleash the true power of Ash, erupting fire damage in a large area.",
-        "value": "vp.prominent.ashedar.11"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Sets targets on fire and blinds them while affected by Solar Eclipse",
-        "value": "vp.prominent.ashedar.12"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Deals double damage to stunned enemies while affected by Lunar Eclipse.",
-        "value": "vp.prominent.ashedar.13"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Solar Eclipse",
-        "value": "vp.prominent.ashedar.14"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Increases damage done by Ash'edar by 10%. Applies for 10 seconds.",
-        "value": "vp.prominent.ashedar.15"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Darkening",
-        "value": "vp.prominent.ashedar.16"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Swirls the inner arcane power of Edar, dealing arcane damage all around you.",
-        "value": "vp.prominent.ashedar.17"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Extends the duration of your current Eclipse by 2 seconds.",
-        "value": "vp.prominent.ashedar.18"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Heals you the damaged amount while affected by Lunar Eclipse.",
-        "value": "vp.prominent.ashedar.19"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Moonlight Nova",
-        "value": "vp.prominent.ashedar.20"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Unleash a powerful nova of pure moonlight, damaging and stunning all enemies.",
-        "value": "vp.prominent.ashedar.21"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Deals double damage while affected by Solar Eclipse",
-        "value": "vp.prominent.ashedar.22"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Stun duration is increased while affected by Lunar Eclipse.",
-        "value": "vp.prominent.ashedar.23"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Lunar Eclipse",
-        "value": "vp.prominent.ashedar.24"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Increases attack and movement speed by 10%. Applies for 10 seconds.",
-        "value": "vp.prominent.ashedar.25"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "盧 ",
         "value": "vp.prominent.ashedar.26"
       }
@@ -591,60 +292,8 @@
     },
     "pairs": [
       {
-        "key": " Solar and Lunar Eclipses share their cooldown.",
-        "value": "vp.prominent.ashedar.30"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.ashedar.31"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Astral Attunement",
-        "value": "vp.prominent.ashedar.32"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "When dual wielding along with its twin, melee attacks deal double damage.",
-        "value": "vp.prominent.ashedar.33"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Ashedar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Available spells will change depending on which blade is in your main hand.",
-        "value": "vp.prominent.ashedar.34"
       }
     ]
   },
@@ -751,19 +400,6 @@
     },
     "pairs": [
       {
-        "key": "Soulfire Artifact",
-        "value": "vp.prominent.azhar.2"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "盧 ",
         "value": "vp.prominent.azhar.3"
       }
@@ -790,45 +426,6 @@
     },
     "pairs": [
       {
-        "key": "Soul Absorption",
-        "value": "vp.prominent.azhar.5"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Absorb all Broken Souls, consuming them and healing 10% of your",
-        "value": "vp.prominent.azhar.6"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "maximum health per broken soul stack.",
-        "value": "vp.prominent.azhar.6.1"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "老 ",
         "value": "vp.prominent.azhar.7"
       }
@@ -842,125 +439,8 @@
     },
     "pairs": [
       {
-        "key": "Breath of A'zhar",
-        "value": "vp.prominent.azhar.8"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Unleash the breath of A'zhar, dealing high soulfire damage on a",
-        "value": "vp.prominent.azhar.9"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "large cone. If you don't have a broken soul stack, you will recieve",
-        "value": "vp.prominent.azhar.10"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "continuous damage while the breath is active.",
-        "value": "vp.prominent.azhar.10.1"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.azhar.11"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Broken Souls",
-        "value": "vp.prominent.azhar.12"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Broken Souls last 5 seconds, each stack will not reset the duration.",
-        "value": "vp.prominent.azhar.13"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "When souls expire, you get healed 10% of your maximum health.",
-        "value": "vp.prominent.azhar.14"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Attacks generate a Broken Soul, but damage you 10% of your health.",
-        "value": "vp.prominent.azhar.15"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Azhar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Killing an enemy will generate a Broken Soul without damaging you.",
-        "value": "vp.prominent.azhar.16"
       }
     ]
   },
@@ -1405,19 +885,6 @@
     },
     "pairs": [
       {
-        "key": "Runic Artifact",
-        "value": "vp.prominent.frostmourne.4"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Frostmourne",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "盧 ",
         "value": "vp.prominent.frostmourne.5"
       }
@@ -1433,58 +900,6 @@
       {
         "key": "路 ",
         "value": "vp.prominent.frostmourne.6"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Frostmourne",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Curse of Agony",
-        "value": "vp.prominent.frostmourne.7"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Frostmourne",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Whoever wields the Frostmourne will become the next Lich King.",
-        "value": "vp.prominent.frostmourne.8"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Frostmourne",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Death Knight abilities deal higher damage.",
-        "value": "vp.prominent.frostmourne.9"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Frostmourne",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Casts Death Knight abilities from equipped skill book.",
-        "value": "vp.prominent.frostmourne.10"
       }
     ]
   },
@@ -1526,19 +941,6 @@
     },
     "pairs": [
       {
-        "key": "Soulfire Artifact",
-        "value": "vp.prominent.fyralath.3"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "盧 ",
         "value": "vp.prominent.fyralath.4"
       }
@@ -1565,86 +967,8 @@
     },
     "pairs": [
       {
-        "key": "Greater Scorch",
-        "value": "vp.prominent.fyralath.6"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Set in flames your target and give yourself resistance for",
-        "value": "vp.prominent.fyralath.7"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "4 seconds. Attacks have a chance to extend the duration.",
-        "value": "vp.prominent.fyralath.8"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "老 ",
         "value": "vp.prominent.fyralath.9"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Greater Laceration",
-        "value": "vp.prominent.fyralath.10"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Swing Fyr'alath rapidly to heat the air and throw flaming",
-        "value": "vp.prominent.fyralath.11"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "blade-like projectiles at your target.",
-        "value": "vp.prominent.fyralath.11.1"
       }
     ]
   },
@@ -1669,99 +993,8 @@
     },
     "pairs": [
       {
-        "key": "Greater Meteor",
-        "value": "vp.prominent.fyralath.13"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Invoke a rain of meteors that will fall upon your target",
-        "value": "vp.prominent.fyralath.14"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "and deal fire damage to all close enemies.",
-        "value": "vp.prominent.fyralath.14.1"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.fyralath.15"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Fiery Core",
-        "value": "vp.prominent.fyralath.16"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Fyr'alath can invoke improved fire spells that have instant",
-        "value": "vp.prominent.fyralath.17"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Fyralath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "cast times, more damage and improved effects.",
-        "value": "vp.prominent.fyralath.17.1"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Cosmic Artifact",
-        "value": "vp.prominent.orion.1"
       }
     ]
   },
@@ -1799,60 +1032,8 @@
     },
     "pairs": [
       {
-        "key": "Cosmic Influence",
-        "value": "vp.prominent.orion.4"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Arrows get infused by Orion's cosmic power, increasing their velocity by 25%",
-        "value": "vp.prominent.orion.5"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.orion.6"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Pledge to the Stars",
-        "value": "vp.prominent.orion.7"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Pledge to a star using Orion's Upgrade Tree, unlocking new effects.",
-        "value": "vp.prominent.orion.8"
       }
     ]
   },
@@ -1877,60 +1058,8 @@
     },
     "pairs": [
       {
-        "key": "Algjebbah's Gift",
-        "value": "vp.prominent.orion.10"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Heal yourself for 5% of your maximum health when you use an ability from any archery spellbook.",
-        "value": "vp.prominent.orion.11"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.orion.12"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Mintaka's Gift",
-        "value": "vp.prominent.orion.13"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Increase the damage dealt by your abilities from the Mintaka's Fright spellbook.",
-        "value": "vp.prominent.orion.14"
       }
     ]
   },
@@ -1955,60 +1084,8 @@
     },
     "pairs": [
       {
-        "key": "Alnilam's Gift",
-        "value": "vp.prominent.orion.16"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Increase the damage dealt by your abilities from the Alnilam's Sight spellbook.",
-        "value": "vp.prominent.orion.17"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.orion.18"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Alnitak's Gift",
-        "value": "vp.prominent.orion.19"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Increase the damage dealt by your abilities from the Alnitak's Might spellbook.",
-        "value": "vp.prominent.orion.20"
       }
     ]
   },
@@ -2033,60 +1110,8 @@
     },
     "pairs": [
       {
-        "key": "Pledge to the Nebulae",
-        "value": "vp.prominent.orion.22"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Pledge to a Nebula using Orion's Upgrade Tree, unlocking new effects.",
-        "value": "vp.prominent.orion.23"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.orion.24"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Might of the Horsehead Nebula",
-        "value": "vp.prominent.orion.25"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Orion and your bow abilities deal +20% damage while mounted on a Horse or Nightmare mythic mount.",
-        "value": "vp.prominent.orion.26"
       }
     ]
   },
@@ -2111,60 +1136,8 @@
     },
     "pairs": [
       {
-        "key": "Strength of the Orion Nebula",
-        "value": "vp.prominent.orion.28"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Your bond with Orion is strengthened, making the trajectory speed of arrows fired with it be +10% faster, in exchange of -10% slower drawing speed.",
-        "value": "vp.prominent.orion.29"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.orion.30"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Casper the Friendly Ghost",
-        "value": "vp.prominent.orion.31"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Orion",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "The Focus Zone passive can now also be applied when using the third ability of any archer spellbook.",
-        "value": "vp.prominent.orion.32"
       }
     ]
   },
@@ -2206,34 +1179,8 @@
     },
     "pairs": [
       {
-        "key": "Granny's Artifact",
-        "value": "vp.prominent.skillet.3"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Skillet",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "盧 ",
         "value": "vp.prominent.skillet.4"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Skillet",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "\"Looks like a normal pan, but the best foods were cooked on it.\"",
-        "value": "vp.prominent.skillet.5"
       }
     ]
   },
@@ -2252,32 +1199,6 @@
   },
   {
     "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Skillet",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Granny's Wrath",
-        "value": "vp.prominent.skillet.7"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Skillet",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Attacks burn the target for 5 seconds and fill your hunger by 1.",
-        "value": "vp.prominent.skillet.8"
-      }
-    ]
-  },
-  {
-    "target_class": {
       "name": "elocindev.prominent.item.artifacts.Supernova",
       "method": "method_7844",
       "local": ""
@@ -2290,19 +1211,6 @@
       {
         "key": " Supernova Modifier",
         "value": "vp.prominent.supernova.1"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Cosmic Artifact",
-        "value": "vp.prominent.supernova.2"
       }
     ]
   },
@@ -2340,86 +1248,8 @@
     },
     "pairs": [
       {
-        "key": "Astral Burst",
-        "value": "vp.prominent.supernova.5"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Invoke all of the energy of Supernova into a single point,",
-        "value": "vp.prominent.supernova.6"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "exploding in a lethal nova that damages all nearby enemies.",
-        "value": "vp.prominent.supernova.6.1"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "老 ",
         "value": "vp.prominent.supernova.7"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Arcane Projection",
-        "value": "vp.prominent.supernova.8"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Charge your focus in a single target, and then strike with a powerful",
-        "value": "vp.prominent.supernova.9"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "sonic attack that deals physical and arcane damage.",
-        "value": "vp.prominent.supernova.9.1"
       }
     ]
   },
@@ -2444,45 +1274,6 @@
     },
     "pairs": [
       {
-        "key": "Frost Projection",
-        "value": "vp.prominent.supernova.11"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Channel a rain of iceles to your closest target. If the target dies,",
-        "value": "vp.prominent.supernova.12"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "the channeling continues to the next closest target.",
-        "value": "vp.prominent.supernova.12.1"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "老 ",
         "value": "vp.prominent.supernova.13"
       }
@@ -2496,86 +1287,8 @@
     },
     "pairs": [
       {
-        "key": "Fire Projection",
-        "value": "vp.prominent.supernova.14"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Teleport behind a close enemy and strike with a flaming hit,",
-        "value": "vp.prominent.supernova.15"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "dealing physical and fire damage. Can be channeleed.",
-        "value": "vp.prominent.supernova.16"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.supernova.17"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Astral Echoing",
-        "value": "vp.prominent.supernova.18"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Supernova",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Your hits may resonate with extra elemental damage.",
-        "value": "vp.prominent.supernova.19"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.ThousandFists",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Soulfire Artifact",
-        "value": "vp.prominent.thousandfists.1"
       }
     ]
   },
@@ -2602,58 +1315,6 @@
       {
         "key": "老 ",
         "value": "vp.prominent.thousandfists.3"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.ThousandFists",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Enraging",
-        "value": "vp.prominent.thousandfists.4"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.ThousandFists",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Enrage yourself, imbuing your fists with 500% attack speed",
-        "value": "vp.prominent.thousandfists.5"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.ThousandFists",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "for 2 seconds. While enraged, your attacks may deal extra soulfire damage.",
-        "value": "vp.prominent.thousandfists.6"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.ThousandFists",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Requires a Fist of Fury in the off hand.",
-        "value": "vp.prominent.thousandfists.7"
       }
     ]
   },
@@ -2695,19 +1356,6 @@
     },
     "pairs": [
       {
-        "key": "Emberstorm Artifact",
-        "value": "vp.prominent.thunderwrath.2"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "盧 ",
         "value": "vp.prominent.thunderwrath.3"
       }
@@ -2723,62 +1371,6 @@
       {
         "key": "路 ",
         "value": "vp.prominent.thunderwrath.4"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Serkonid Heritage",
-        "value": "vp.prominent.thunderwrath.5"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Attacks have a 25% chance of striking again with ",
-        "value": "vp.prominent.thunderwrath.6"
-      },
-      {
-        "key": "lightning damage.",
-        "value": "vp.prominent.thunderwrath.7"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Thunderwrath",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Being fated to the Warrior's Devotion increases its chance to 35%.",
-        "value": "vp.prominent.thunderwrath.8"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Cinderstone Artifact",
-        "value": "vp.prominent.vaazkar.1"
       }
     ]
   },
@@ -2816,125 +1408,8 @@
     },
     "pairs": [
       {
-        "key": "Wall of Flames",
-        "value": "vp.prominent.vaazkar.4"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,",
-        "value": "vp.prominent.vaazkar.5"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "dealing 3% of your Maximum Health as fire damage to nearby enemies per second.",
-        "value": "vp.prominent.vaazkar.6"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Lasts 10 seconds, then goes on cooldown for 15 seconds.",
-        "value": "vp.prominent.vaazkar.7"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.vaazkar.8"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Instant Flames",
-        "value": "vp.prominent.vaazkar.9"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "After shielding with Vaazkar, surround yourself with flames, dealing 3%",
-        "value": "vp.prominent.vaazkar.10"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "of your Maximum Health as fire damage to nearby enemies per second.",
-        "value": "vp.prominent.vaazkar.11"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Enemies get taunted every time they're damaged by it.",
-        "value": "vp.prominent.vaazkar.12"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Lasts up to 10 seconds, then goes on cooldown for 10 seconds.",
-        "value": "vp.prominent.vaazkar.13"
       }
     ]
   },
@@ -2959,112 +1434,8 @@
     },
     "pairs": [
       {
-        "key": "Protective Flames",
-        "value": "vp.prominent.vaazkar.15"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,",
-        "value": "vp.prominent.vaazkar.16"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "healing nearby players for 3% of your maximum health every 2 seconds.",
-        "value": "vp.prominent.vaazkar.16.1"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds.",
-        "value": "vp.prominent.vaazkar.17"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "路 ",
         "value": "vp.prominent.vaazkar.18"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Firestorm",
-        "value": "vp.prominent.vaazkar.19"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "After 3 seconds of shielding with Vaazkar, surround yourself with flames,",
-        "value": "vp.prominent.vaazkar.20"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "dealing 5% of your Maximum Health as fire damage to nearby enemies per second.",
-        "value": "vp.prominent.vaazkar.21"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.item.artifacts.Vaazkar",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": " Lasts up to 10 seconds, then goes on cooldown for 15 seconds.",
-        "value": "vp.prominent.vaazkar.22"
       }
     ]
   },

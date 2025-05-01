@@ -546,11 +546,13 @@
 			id: "239866A8BF58469A"
 			size: 0.75d
 			subtitle: "{ftbquests.chapter.getting_started.quests15.subtitle}"
-			tasks: [{
-				id: "5216CF72CFF2B653"
-				title: "Click to continue!"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "5216CF72CFF2B653"
+					title: "{ftbquests.chapter.getting_started.quests15.tasks0.title}"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.getting_started.quests15.title}"
 			x: -1.482142857142854d
 			y: -3.292165295437549d

@@ -369,6 +369,8 @@
 				"7E00ACC74ECC5E1D"
 				"5D6E6FEA75B80066"
 				"5B27C3D3E677563D"
+				"0ACF3A88C52C2F6E"
+				"36916D6575BB39B7"
 			]
 			description: ["{ftbquests.chapter.artifact_reforging.quests11.description}"]
 			hide: "true"
@@ -488,7 +490,7 @@
 				}
 			]
 			x: 0.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1CE7763C1889255C"]
@@ -844,6 +846,128 @@
 			title: "{ftbquests.chapter.artifact_reforging.quests23.title}"
 			x: -3.375d
 			y: 0.75d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [""]
+			id: "4775EFD3B854946E"
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.artifact_reforging.quests24.subtitle}"
+			tasks: [
+				{
+					id: "319EB24C08B33386"
+					item: {
+						Count: 1b
+						id: "prominent:ghaj"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4775EFD3B854946E"]
+			description: ["{ftbquests.chapter.artifact_reforging.quests25.description}"]
+			id: "1E19147A29D45714"
+			invisible: "true"
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.artifact_reforging.quests25.subtitle}"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+						}
+					}
+					id: "6A182FF8D6012B23"
+					stat: "prominent:hck_ghaj"
+					title: "{ftbquests.chapter.artifact_reforging.quests25.tasks0.title}"
+					type: "stat"
+					value: 10
+				}
+			]
+			title: "{ftbquests.chapter.artifact_reforging.quests25.title}"
+			x: 0.0d
+			y: -4.267857142857146d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			id: "1DE119EAC2B8E757"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0EDBBD5EC242CAAA"
+					title: "{ftbquests.chapter.artifact_reforging.quests26.tasks0.title}"
+					type: "custom"
+				}
+			]
+			title: "{ftbquests.chapter.artifact_reforging.quests26.title}"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [""]
+			id: "0ACF3A88C52C2F6E"
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.artifact_reforging.quests27.subtitle}"
+			tasks: [
+				{
+					id: "1E3C6D4ED246A31F"
+					item: {
+						Count: 1b
+						id: "prominent:apophis"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0ACF3A88C52C2F6E"]
+			description: ["{ftbquests.chapter.artifact_reforging.quests28.description}"]
+			id: "36916D6575BB39B7"
+			invisible: "true"
+			rewards: [
+				{
+					id: "652ADD700A1DAFCF"
+					item: "prominent:illusion_of_apophis"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.artifact_reforging.quests28.subtitle}"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+						}
+					}
+					id: "404CB33532E2BFA8"
+					stat: "prominent:hck_apophis"
+					title: "{ftbquests.chapter.artifact_reforging.quests28.tasks0.title}"
+					type: "stat"
+					value: 10
+				}
+			]
+			title: "{ftbquests.chapter.artifact_reforging.quests28.title}"
+			x: -2.857142857142854d
+			y: 2.1964285714285765d
 		}
 	]
 	title: "{ftbquests.chapter.artifact_reforging.title}"
