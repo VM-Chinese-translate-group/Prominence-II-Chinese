@@ -1,6 +1,6 @@
 {
     "item.farmersknives.adamantite_knife":"精金刀",
-    "item.farmersknives.adamantium_knife":"Adamantium Knife",
+    "item.farmersknives.adamantium_knife":"Adamantium Knife",
     "item.farmersknives.aeternium_knife":"太古合金刀",
     "item.farmersknives.amethyst_knife":"紫水晶刀",
     "item.farmersknives.aquarium_knife":"激水刀",
@@ -32,7 +32,7 @@
     "item.farmersknives.metallurgium_knife":"炼金刀",
     "item.farmersknives.mythril_knife":"秘银刀",
     "item.farmersknives.nether_brick_knife":"下界砖刀",
-    "item.farmersknives.nether_gobber_knife":"Nether Knife",
+    "item.farmersknives.nether_gobber_knife":"Nether Knife",
     "item.farmersknives.nether_ruby_knife":"下界红宝石刀",
     "item.farmersknives.netherite_diamond_knife":"钻石·下界合金刀",
     "item.farmersknives.netherite_emerald_knife":"绿宝石·下界合金刀",
@@ -57,8 +57,8 @@
     "item.farmersknives.stormyx_knife":"飓霆刀",
     "item.farmersknives.terminite_knife":"终界铁刀",
     "item.farmersknives.terra_knife":"泰拉钢刀",
-    "item.farmersknives.thallasium_knife":"Thallasium Knife",
+    "item.farmersknives.thallasium_knife":"Thallasium Knife",
     "item.farmersknives.vibranium_knife":"振金刀",
-    "item.farmersknives.warden_knife":"Warden Knife",
-    "itemGroup.farmersknives.group":"Farmers Knives"
+    "item.farmersknives.warden_knife":"Warden Knife",
+    "itemGroup.farmersknives.group":"Farmers Knives"
 }

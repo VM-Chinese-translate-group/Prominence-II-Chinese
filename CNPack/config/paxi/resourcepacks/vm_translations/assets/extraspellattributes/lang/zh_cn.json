@@ -9,16 +9,16 @@
     "attribute.name.extraspellattributes.defi":"伤害减免（存在收益递减）",
     "attribute.name.extraspellattributes.determination":"接下来4秒内，将所受伤害转化为生命值进行恢复",
     "attribute.name.extraspellattributes.endu":"耐力",
-    "attribute.name.extraspellattributes.glancingblow":"受到的伤害有一定几率被减免 35%",
+    "attribute.name.extraspellattributes.glancingblow":"受到的伤害有一定几率被减免 35%",
     "attribute.name.extraspellattributes.reabsorption":"吸收再生",
-    "attribute.name.extraspellattributes.serenity":"已减半的受击法术有一定机率不再造成伤害（最高 75%）",
+    "attribute.name.extraspellattributes.serenity":"已减半的受击法术有一定机率不再造成伤害（最高 75%）",
     "attribute.name.extraspellattributes.spellsuppression":"受到的法术有一定机率造成伤害减半",
     "desc.extraspellattributes.acro":"你的法术破裂几率指的是被压制的法术转而不造成任何伤害的概率。法术破裂几率上限为75%。",
     "desc.extraspellattributes.defi":"你的坚毅值（黄心）会从你所受的总伤害中扣除相应数值。坚毅值的收益会递减。",
-    "desc.extraspellattributes.determination":"你的决心百分比，决定了接下来四秒内，能恢复的已损失生命值的比例。 ",
+    "desc.extraspellattributes.determination":"你的决心百分比，决定了接下来四秒内，能恢复的已损失生命值的比例。 ",
     "desc.extraspellattributes.glance":"一次偏斜打击仅造成65%的伤害。你不会受到非实体造成的伤害（如火和毒）的偏斜打击影响。",
     "desc.extraspellattributes.reabsorption":"在4秒未被击中后，你的伤害吸收（黄心）逐渐恢复（由吸收再生的等级决定）。",
-    "desc.extraspellattributes.supp":"被压制的法术只造成 50% 的伤害。",
+    "desc.extraspellattributes.supp":"被压制的法术只造成 50% 的伤害。",
     "enchantment.extraspellattributes.battlerouse":"战斗激励",
     "enchantment.extraspellattributes.battlerouse.desc":"部分所受伤害会在接下来的四秒内恢复，恢复速度每级+4%。",
     "enchantment.extraspellattributes.defiance":"坚毅",
@@ -41,5 +41,5 @@
     "item.extraspellattributes.nonbelieversamulet":"无信者护身符",
     "item.extraspellattributes.turtlegirdle":"海龟项圈",
     "item.extraspellattributes.undyingsoul":"不朽之魂",
-    "itemGroup.extraspellattributes.general":"额外的 RPG 属性饰品"
+    "itemGroup.extraspellattributes.general":"额外的 RPG 属性饰品"
 }
