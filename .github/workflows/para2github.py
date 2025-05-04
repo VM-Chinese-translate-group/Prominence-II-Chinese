@@ -106,6 +106,10 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
             zh_cn_dict = json.load(f)
     except IOError:
         zh_cn_dict = {}
+
+    # 检查路径是否包含quests
+    is_quest_file = "quests" in str(path)
+
     for key, value in zip(keys, values):
         # 确保替换 \\u00A0 和 \\n
         value = re.sub(r"&#92;", r"\\", value)
@@ -121,15 +125,14 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
                 snbt = snbt.replace("{"+key+"}",other)
             with open("CNPack/config/ftbquests/quests/chapters/"+s[2]+".snbt", "w", encoding='UTF-8') as f1:
                 f1.write(snbt)
+
+        # 对quest文件进行特殊处理
+        if is_quest_file and "image" not in value:
+            value = value.replace(" ", "\u00A0")
+        
         # 保存替换后的值
         zh_cn_dict[key] = value
-        
-    # 特殊处理：ftbquest 文件
-    if "quests" in path.name:
-        zh_cn_dict = {
-            key: value.replace(" ", "\u00A0") if "image" not in value else value
-            for key, value in zip(keys, values)
-        }
+    
     return zh_cn_dict
 
 
