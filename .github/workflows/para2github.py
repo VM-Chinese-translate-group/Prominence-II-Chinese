@@ -3,9 +3,10 @@ import os
 import re
 from pathlib import Path
 from typing import Tuple
+
 import nbtlib
-from nbtlib.tag import Compound, String, Int
 import requests
+from nbtlib.tag import Compound, Int, String
 
 TOKEN: str = os.getenv("API_TOKEN", "")
 GH_TOKEN: str = os.getenv("GH_TOKEN", "")
