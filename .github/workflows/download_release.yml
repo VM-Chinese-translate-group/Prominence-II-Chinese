@@ -2,7 +2,7 @@ name: Paratranz To GitHub
 
 on:
   schedule:
-    # 每天北京时间早上9点和晚上9点运行
+    # 每天北京时间早晚10点左右自动运行
     - cron: "0 1,13 * * *"
   workflow_dispatch:
 
@@ -11,30 +11,45 @@ jobs:
     name: Paratranz To GitHub
     environment: PARATRANZ_ENV
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
     env:
       API_TOKEN: ${{ secrets.API_KEY }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       PROJECT_ID: ${{ vars.ID }}
     outputs:
-      changed: ${{ steps.commit.outputs.changed }} # 定义输出变量
+      changed: ${{ steps.commit.outputs.changed }}
+
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+
+      - name: Cache Python dependencies
+        id: cache-pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}
+          restore-keys: |
+            pip-${{ runner.os }}
+
       - name: Install dependencies
         run: |
-          pip install requests
-          pip install nbtlib
+          pip install requests nbtlib
+
       - name: Configure Git
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "VM[BOT]"
-      - name: Checkout main branch
-        run: git checkout main
+
       - name: Paratranz To GitHub
         run: python .github/workflows/para2github.py
+
       - name: Commit changes
         id: commit
         run: |
@@ -42,42 +57,68 @@ jobs:
             git add .
             git commit -m '从Paratranz同步翻译'
             git push origin main
-            echo "changed=true" >> $GITHUB_OUTPUT # 使用 $GITHUB_OUTPUT 设置输出
-            echo "译文变动，发布release！"
+            echo "changed=true" >> $GITHUB_OUTPUT
           else
-            echo "changed=false" >> $GITHUB_OUTPUT # 使用 $GITHUB_OUTPUT 设置输出
-            echo "译文不变，取消发布release！"
+            echo "changed=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Check FTB Color Characters
+        run: |
+          python .github/workflows/check_ftb_colors.py ./CNPack || true
+
   release:
     name: Create Release
     runs-on: ubuntu-latest
     environment: PARATRANZ_ENV
     needs: paratranz-to-gitHub
     if: ${{ needs.paratranz-to-gitHub.outputs.changed == 'true' }}
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Upload CNPack folder
-        uses: actions/upload-artifact@v4
-        with:
-          name: CNPack
-          path: ./CNPack
+
       - name: Get current datetime for tag
         id: datetime
         run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
+
+      - name: Define Release Body and Assets
+        id: define_release_info
+        run: |
+          REPORT_FILE=""
+          RELEASE_BODY="自动生成的最新汉化补丁"
+          ERROR_MESSAGE=""
+
+          if [ -f error_report.html ]; then
+              REPORT_FILE="error_report.html"
+              ERROR_MESSAGE="注意：发现颜色字符错误，请查看附件中的 error_report.html 文件。"
+          else
+              ERROR_MESSAGE="FTB任务颜色字符合法检测通过。"
+          fi
+
+          echo "RELEASE_BODY<<EOF" >> $GITHUB_ENV
+          echo "$RELEASE_BODY" >> $GITHUB_ENV
+          echo "" >> $GITHUB_ENV # 添加空行
+          echo "$ERROR_MESSAGE" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+          echo "REPORT_ASSET_PATH=$REPORT_FILE" >> $GITHUB_ENV
+        shell: bash
+
       - name: Zip CNPack folder
-        run: zip -r "VM-CNPack-${{ env.datetime }}.zip" ./CNPack
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: "VM-CNPack-${{ env.datetime }}.zip"
-          path: "VM-CNPack-${{ env.datetime }}.zip"
+        id: zip_cnpack
+        run: |
+          ZIP_NAME="VM-CNPack-${{ env.datetime }}.zip"
+          zip -r "$ZIP_NAME" ./CNPack
+          echo "zip_name=$ZIP_NAME" >> $GITHUB_OUTPUT
+        shell: bash
+
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "VM-CNPack-${{ env.datetime }}.zip"
-          tag: "VM-CNPack-Release-${{ env.datetime }}"
-          name: "VM CNPack Release ${{ env.datetime }}"
-          body: "自动生成的最新汉化补丁"
+          artifacts: "${{ steps.zip_cnpack.outputs.zip_name }} ${{ env.REPORT_ASSET_PATH }}"
+          tag: "release-${{ env.datetime }}"
+          name: "测试版构建${{ env.datetime }}"
+          body: ${{ env.RELEASE_BODY }}
           draft: false
           prerelease: true
