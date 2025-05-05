@@ -4,7 +4,7 @@
     "attribute.name.extraspellattributes.convertfromfrost":"攻击伤害转化为冰魔法",
     "attribute.name.extraspellattributes.converttoarcane":"攻击伤害对奥秘法术强度的额外加成",
     "attribute.name.extraspellattributes.converttofire":"攻击伤害转化为火魔法",
-    "attribute.name.extraspellattributes.converttofrost":"将奥术属性转化为攻击伤害",
+    "attribute.name.extraspellattributes.converttofrost":"将寒冰法术强度转化为攻击伤害",
     "attribute.name.extraspellattributes.converttoheal":"攻击伤害转化为治疗效果",
     "attribute.name.extraspellattributes.defi":"伤害减免（存在收益递减）",
     "attribute.name.extraspellattributes.determination":"接下来4秒内，将所受伤害转化为生命值进行恢复",

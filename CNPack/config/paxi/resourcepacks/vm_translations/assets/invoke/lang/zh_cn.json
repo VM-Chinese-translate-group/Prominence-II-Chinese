@@ -66,7 +66,7 @@
     "spell.invoke.greater_combust.name":"烈火焚心",
     "spell.invoke.greater_fireball.description":"向目标方向发射巨型火球，在半径八格范围内造成额外({damage}点)火焰法术伤害。",
     "spell.invoke.greater_fireball.name":"大火球术",
-    "spell.invoke.heo.description":"召唤一个冰块来攻击敌人，造成{damage}点寒冰伤害。命中时给予施法者一级寒冰魔能，最多叠加至3级。",
+    "spell.invoke.heo.description":"召唤一个冰块来攻击敌人，造成{damage}点寒冰伤害。命中时给予施法者一级寒冰法术强度，最多叠加至3级。",
     "spell.invoke.heo.name":"寒冰祈唤：Heo",
     "spell.invoke.hijack.description":"投掷一颗带有目标名字的末影珍珠。",
     "spell.invoke.hijack.name":"操纵",
