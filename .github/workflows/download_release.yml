@@ -20,6 +20,7 @@ jobs:
       PROJECT_ID: ${{ vars.ID }}
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
+      has_errors: ${{ steps.check-colors.outputs.has_errors }}
 
     steps:
       - uses: actions/checkout@v4
@@ -63,13 +64,14 @@ jobs:
           fi
 
       - name: Check FTB Color Characters
+        id: check-colors
         run: |
           python .github/workflows/check_ftb_colors.py ./CNPack
-          # 确保错误报告文件存在
+          # 检查错误报告文件是否存在
           if [ -f "error_report.html" ]; then
-            echo "error_report_exists=true" >> $GITHUB_ENV
+            echo "has_errors=true" >> $GITHUB_OUTPUT
           else
-            echo "error_report_exists=false" >> $GITHUB_ENV
+            echo "has_errors=false" >> $GITHUB_OUTPUT
           fi
 
   release:
@@ -88,41 +90,48 @@ jobs:
         id: datetime
         run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
 
-      - name: Define Release Body and Assets
-        id: define_release_info
+      - name: Verify error report exists
         run: |
-          RELEASE_BODY="自动生成的最新汉化补丁"
-          ERROR_MESSAGE=""
-
+          ls -la
           if [ -f "error_report.html" ]; then
-              ERROR_MESSAGE="注意：发现颜色字符错误，请查看附件中的 error_report.html 文件。"
+            cat error_report.html | head -n 10
           else
-              ERROR_MESSAGE="FTB任务颜色字符合法检测通过。"
+            echo "Error report does NOT exist"
           fi
 
-          echo "RELEASE_BODY<<EOF" >> $GITHUB_ENV
-          echo "$RELEASE_BODY" >> $GITHUB_ENV
-          echo "" >> $GITHUB_ENV
-          echo "$ERROR_MESSAGE" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-
-          if [ -f "error_report.html" ]; then
-              echo "REPORT_ASSET_PATH=error_report.html" >> $GITHUB_ENV
-          else
-              echo "REPORT_ASSET_PATH=" >> $GITHUB_ENV
-          fi
-
-      - name: Zip CNPack folder
-        id: zip_cnpack
+      - name: Prepare release assets
+        id: prepare-assets
         run: |
           ZIP_NAME="VM-CNPack-${{ env.datetime }}.zip"
           zip -r "$ZIP_NAME" ./CNPack
           echo "zip_name=$ZIP_NAME" >> $GITHUB_OUTPUT
+          
+          # 准备发布内容
+          RELEASE_BODY="自动生成的最新汉化补丁"
+          
+          if ${{ needs.paratranz-to-gitHub.outputs.has_errors == 'true' }}; then
+            echo "Adding error report to release"
+            cp error_report.html temp_error_report.html
+            echo "RELEASE_BODY<<EOF" >> $GITHUB_ENV
+            echo "$RELEASE_BODY" >> $GITHUB_ENV
+            echo "" >> $GITHUB_ENV
+            echo "注意：发现颜色字符错误，请查看附件中的 error_report.html 文件。可能有小概率误报" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+            echo "asset_paths=$ZIP_NAME temp_error_report.html" >> $GITHUB_OUTPUT
+          else
+            echo "No errors found"
+            echo "RELEASE_BODY<<EOF" >> $GITHUB_ENV
+            echo "$RELEASE_BODY" >> $GITHUB_ENV
+            echo "" >> $GITHUB_ENV
+            echo "FTB任务颜色字符合法检测通过。" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+            echo "asset_paths=$ZIP_NAME" >> $GITHUB_OUTPUT
+          fi
 
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "${{ steps.zip_cnpack.outputs.zip_name }} ${{ env.REPORT_ASSET_PATH }}"
+          artifacts: "${{ steps.prepare-assets.outputs.asset_paths }}"
           tag: "release-${{ env.datetime }}"
           name: "测试版构建${{ env.datetime }}"
           body: ${{ env.RELEASE_BODY }}
