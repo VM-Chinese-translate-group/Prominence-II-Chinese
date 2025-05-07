@@ -66,12 +66,18 @@ jobs:
       - name: Check FTB Color Characters
         id: check-colors
         run: |
+          # 确保在工作目录生成错误报告
+          cd $GITHUB_WORKSPACE
           python .github/workflows/check_ftb_colors.py ./CNPack
+          
           # 检查错误报告文件是否存在
-          if [ -f "error_report.html" ]; then
+          if [ -f "$GITHUB_WORKSPACE/error_report.html" ]; then
             echo "has_errors=true" >> $GITHUB_OUTPUT
+            echo "Error report found at $GITHUB_WORKSPACE/error_report.html"
+            ls -la $GITHUB_WORKSPACE/
           else
             echo "has_errors=false" >> $GITHUB_OUTPUT
+            echo "No error report found"
           fi
 
   release:
@@ -85,23 +91,31 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Get current datetime for tag
         id: datetime
         run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
 
-      - name: Verify error report exists
+      - name: Verify and prepare error report
+        id: verify-error
         run: |
-          ls -la
+          # 检查错误报告是否存在
           if [ -f "error_report.html" ]; then
-            cat error_report.html | head -n 10
+            echo "Found error_report.html in workspace"
+            echo "has_errors=true" >> $GITHUB_OUTPUT
+            # 确保文件可读
+            cat error_report.html | head -n 5
           else
-            echo "Error report does NOT exist"
+            echo "error_report.html not found in workspace"
+            echo "has_errors=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Prepare release assets
         id: prepare-assets
         run: |
+          # 创建ZIP包
           ZIP_NAME="VM-CNPack-${{ env.datetime }}.zip"
           zip -r "$ZIP_NAME" ./CNPack
           echo "zip_name=$ZIP_NAME" >> $GITHUB_OUTPUT
@@ -109,17 +123,16 @@ jobs:
           # 准备发布内容
           RELEASE_BODY="自动生成的最新汉化补丁"
           
-          if ${{ needs.paratranz-to-gitHub.outputs.has_errors == 'true' }}; then
+          if ${{ needs.paratranz-to-gitHub.outputs.has_errors == 'true' }} && [ -f "error_report.html" ]; then
             echo "Adding error report to release"
-            cp error_report.html temp_error_report.html
             echo "RELEASE_BODY<<EOF" >> $GITHUB_ENV
             echo "$RELEASE_BODY" >> $GITHUB_ENV
             echo "" >> $GITHUB_ENV
             echo "注意：发现颜色字符错误，请查看附件中的 error_report.html 文件。可能有小概率误报" >> $GITHUB_ENV
             echo "EOF" >> $GITHUB_ENV
-            echo "asset_paths=$ZIP_NAME temp_error_report.html" >> $GITHUB_OUTPUT
+            echo "asset_paths=$ZIP_NAME error_report.html" >> $GITHUB_OUTPUT
           else
-            echo "No errors found"
+            echo "No errors found or error report missing"
             echo "RELEASE_BODY<<EOF" >> $GITHUB_ENV
             echo "$RELEASE_BODY" >> $GITHUB_ENV
             echo "" >> $GITHUB_ENV
