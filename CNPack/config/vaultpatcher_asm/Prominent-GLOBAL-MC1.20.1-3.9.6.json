@@ -1788,7 +1788,7 @@
   {
     "target_class": {
       "name": "elocindev.prominent.registry.ItemRegistry",
-      "method": "getDescription",
+      "method": "<clinit>",
       "local": ""
     },
     "pairs": [
@@ -1801,7 +1801,7 @@
   {
     "target_class": {
       "name": "elocindev.prominent.registry.ItemRegistry",
-      "method": "getDescription",
+      "method": "<clinit>",
       "local": ""
     },
     "pairs": [
@@ -1814,7 +1814,7 @@
   {
     "target_class": {
       "name": "elocindev.prominent.registry.ItemRegistry",
-      "method": "getDescription",
+      "method": "<clinit>",
       "local": ""
     },
     "pairs": [
@@ -1827,7 +1827,7 @@
   {
     "target_class": {
       "name": "elocindev.prominent.registry.ItemRegistry",
-      "method": "getDescription",
+      "method": "<clinit>",
       "local": ""
     },
     "pairs": [
@@ -1879,7 +1879,7 @@
   {
     "target_class": {
       "name": "elocindev.prominent.registry.ItemRegistry",
-      "method": "getDescription",
+      "method": "<clinit>",
       "local": ""
     },
     "pairs": [
@@ -1892,7 +1892,7 @@
   {
     "target_class": {
       "name": "elocindev.prominent.registry.ItemRegistry",
-      "method": "getDescription",
+      "method": "<clinit>",
       "local": ""
     },
     "pairs": [
