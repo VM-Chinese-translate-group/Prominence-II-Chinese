@@ -73,7 +73,7 @@
     "spell.archers_expansion.pin_down.name":"钉射",
     "spell.archers_expansion.point_blank_shot.description":"造成{damage}点伤害并击退目标，距施法者距离越近，击退距离越远。",
     "spell.archers_expansion.point_blank_shot.name":"抵近射击",
-    "spell.archers_expansion.smoldering_arrow.description":"被动：命中时在目标处创造小型爆炸，点燃周围的实体并造成伤害。",
+    "spell.archers_expansion.smoldering_arrow.description":"被动：命中时在目标处制造小型爆炸，点燃周围的实体并造成伤害。",
     "spell.archers_expansion.smoldering_arrow.name":"阴燃箭",
     "spell.archers_expansion.trick_shot.description":"发射一支箭，在敌人间弹跳，造成{damage}点伤害。",
     "spell.archers_expansion.trick_shot.name":"技巧射击"
