@@ -87,7 +87,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: error-report
-          path: ./report
+          path: ./
         continue-on-error: true
 
       - name: Get current datetime for tag
@@ -102,7 +102,7 @@ jobs:
         with:
           artifacts: |
             VM-CNPack-${{ env.datetime }}.zip
-            ./report/error_report.html
+            error_report.html
           tag: "VM-CNPack-Release-${{ env.datetime }}"
           name: "VM CNPack Release ${{ env.datetime }}"
           body: |
