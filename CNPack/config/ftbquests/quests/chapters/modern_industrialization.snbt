@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: "rsquare"
 	filename: "modern_industrialization"
 	group: "49D52BD6447C5CC0"
@@ -8,8 +8,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "ftbteams:textures/add.png"

@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "powah"
 	group: "49D52BD6447C5CC0"
@@ -234,7 +234,7 @@
 		}
 		{
 			dependencies: ["5B978E6C5FE55BEB"]
-			hide_text_until_complete: false
+			hide_text_until_complete: "false"
 			id: "22A1CEAE96D66DC5"
 			rewards: [
 				{

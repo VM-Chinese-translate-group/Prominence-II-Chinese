@@ -8,7 +8,7 @@ def main():
         translations = json.load(f)
     
     # 读取需要处理的JSON文件
-    json_file = "D:\\mc\\mod\\Prominence-II-Chinese\\CNPack\\config\\vaultpatcher_asm\\Prominent-GLOBAL-MC1.20.1-3.9.6.json"
+    json_file = "D:\\mc\\mod\\Prominence-II-Chinese\\CNPack\\config\\vaultpatcher_asm\\spellbladenext-1.21.3+1.20.1.json"
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     

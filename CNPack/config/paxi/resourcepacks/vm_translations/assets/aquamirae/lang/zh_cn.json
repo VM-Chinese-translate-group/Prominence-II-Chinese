@@ -1,0 +1,4 @@
+{
+        "ability.aquamirae.abyssal_armor_full_1": "全套效果 > 当你受到致命伤害时，死亡会延迟{#1}。 > 当此效果存在时，你造成的伤害会减少80%。",
+        "ability.aquamirae.terrible_armor_half": "半套效果 > 在水下受到伤害会增加你游速{#1}， > 持续{#2}。"
+}

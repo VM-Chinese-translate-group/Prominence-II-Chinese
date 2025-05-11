@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "reforging"
 	group: "5EA21B61C2E147CB"
@@ -14,8 +14,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 2.0d
 			hover: [ ]
 			image: "tiered:textures/gui/reforge_tab_icon.png"
@@ -26,8 +26,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/common.png"
@@ -38,8 +38,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/uncommon.png"
@@ -50,8 +50,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/rare.png"
@@ -62,8 +62,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/uncommon.png"
@@ -74,8 +74,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/rare.png"
@@ -86,8 +86,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/legendary.png"
@@ -98,8 +98,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/epic.png"
@@ -110,8 +110,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/rare.png"
@@ -122,8 +122,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/epic.png"
@@ -134,8 +134,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/legendary.png"
@@ -146,8 +146,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/mythic.png"
@@ -158,8 +158,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.35d
 			hover: [ ]
 			image: "tiered:textures/plates/epic.png"
@@ -170,9 +170,9 @@
 		}
 		{
 			click: ""
-			corner: false
+			corner: "false"
 			dependency: "014ABD8E6E102E16"
-			dev: false
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "minecraft:block/fire_1"
@@ -183,8 +183,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "ftblibrary:icons/blank"
@@ -354,9 +354,9 @@
 		{
 			dependencies: ["2DE7359A85169236"]
 			description: ["{ftbquests.chapter.reforging.quests4.description}"]
-			hide: true
+			hide: "true"
 			id: "014ABD8E6E102E16"
-			invisible: true
+			invisible: "true"
 			rewards: [
 				{
 					id: "3F13487D35D42A30"
@@ -401,8 +401,8 @@
 				"4D3F0D8217067D24"
 			]
 			description: ["{ftbquests.chapter.reforging.quests5.description}"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -411,10 +411,10 @@
 				}
 			}
 			id: "658C9A0DDEC15431"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
