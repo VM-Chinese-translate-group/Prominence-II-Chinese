@@ -45,29 +45,27 @@ jobs:
         id: check_report_exists
         run: |
           if [ -f error_report.html ]; then
-            git add error_report.html -f
-            echo "report_generated=true" >> $GITHUB_OUTPUT
+            echo "error_report_exists=true" >> $GITHUB_ENV
           else
-            echo "report_generated=false" >> $GITHUB_OUTPUT
+            echo "error_report_exists=false" >> $GITHUB_ENV
           fi
 
-      - name: Commit and Push changes
+      - name: Commit and Push changes (excluding error report)
         id: commit
         run: |
-          # Check if there are any staged or unstaged changes (from sync or error report)
+          git rm --cached error_report.html || true
+          
           if [[ -n $(git status -s) ]]; then
             git add .
             git commit -m '从Paratranz同步翻译'
             git push origin main
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "Changes detected (translations and/or error report), committed and pushed."
           else
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "No changes detected."
           fi
 
       - name: Upload Error Report Artifact
-        if: ${{ steps.check_report_exists.outputs.report_generated == 'true' }}
+        if: ${{ env.error_report_exists == 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: error-report
