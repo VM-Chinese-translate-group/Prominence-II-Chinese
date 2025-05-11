@@ -2,59 +2,62 @@
    <h1>Prominence II 项目简体中文翻译</h1>
 </div>
 
+🔥 全面强化的整合包，战斗、探索、魔法与科技的完美平衡，还有丰富的自定义内容！
+
+无论你喜欢战斗、科技、探索还是魔法，这里都能满足你！
+
 CurseForge|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
-[链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg)|Fabric|1.20.1 v3.1.5|*翻译中*|
+[链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg)|Fabric|1.20.1 v3.1.10|*翻译中*|
 
 ---
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13782)
 
-汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/项目)
-
-项目主管 @[某某](https://github.com/某某)
+汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/prominence2)
 
 译者：[查看贡献者排行榜](https://paratranz.cn/projects/13782/leaderboard)
 
-
 ---
 
-# 整合包介绍
+# 特色
 
-整合包介绍
+🛡️ 海量自定义内容！
 
-# 自动化Paratranz同步教程
+从任务到玩家等级系统，完全自定义的天赋树，强大的独特神器武器及其升级树，专为模组包定制的模组，以及原创配乐！
 
-## 1. 设置环境变量
+📚 通过任务展开的剧情与故事战役。
 
-1. 到仓库顶部导航栏: `Settings -> Environments -> New environment` 新建 `PARATRANZ_ENV`
-2. 添加加密变量（Environment secrets）: 
-   | 名称        | 值                                              |
-   |-------------|-------------------------------------------------|
-   | API_KEY     | 你的Paratranz token，须有上传文件权限         |
-   token可在 <https://paratranz.cn/users/my> 中的设置部分获取。
-3. 添加环境变量（Environment variables）: 
+跟随故事推进模组包的进程，从虚空的入侵到哈斯图里安时代。
 
-   | 名称   | 值                                   |
-   |--------|--------------------------------------|
-   | ID     | Paratranz项目ID，例如 `10719`         |
+✅ 怪物等级随玩家提升。
 
+所有怪物的强度会随你的等级提升，还会根据附近玩家的数量增强！无论有多少人，它们都会带来挑战。
 
-## 2. 开始使用
+🔴 难度可调节。
 
-我们的工作流有两种功能：从Paratranz同步到github仓库和从github仓库同步到Paratranz。
+你可以通过设置难度来决定游戏的挑战性，无论是轻松愉快的冒险（简单模式），还是真正的硬核挑战（困难模式）。
 
-它们全都可以手动启动，操作方法请见下图所示：
+⚔️ 增强的战斗机制，搭配 Better Combat 模组。
 
-![](.github/action.png)
+💛 技能系统，为法师、战士、治疗者等职业提供独特能力！
 
-其中，Paratranz同步到GitHub仓库工作流会在北京时间每天早上9点和晚上9点自动运行。
+🌎 惊艳的世界生成，包含大量可探索的结构！
 
-下载译文至Github功能可自行修改`.github/workflows`文件夹中的`download_release.yml`自动执行时间，格式为[cron表达式](https://blog.csdn.net/Stromboli/article/details/141962560)。
+🔧 自动化一切！
 
-在有译文更改后，工作流会自动生成一个artifact构件，可在action的运行页面找到并下载。
-此外，每有一次译文更改都将自动发布一次标记为预发布的Release。
+使用机械动力、科技复兴甚至现代工业化（MI）等模组！但最终，科技完全是可选的！
 
-注：从github仓库同步到Paratranz的工作流很少使用，故支持手动触发。
+👥 多人游戏友好！
 
-如果项目已经完成，请在仓库设置（`Settings`）中禁用工作流运行。
+可以在自己的服务器上与朋友一起玩，也可以在官方服务器上游玩！
+
+👁️ 内置光影包。
+
+包括 Complementary、Insanity、Pastel 和 Rethinking Voxels！
+
+🏰 超过 1000 个可探索的结构，包含危险的地下城和 Boss！
+
+📖 通过 1200 多个任务引导，这些任务既是指南也是教程！
+
+⚙️ 超过 400 个模组，内容丰富且性能优异。推荐 4GB 内存以上运行。

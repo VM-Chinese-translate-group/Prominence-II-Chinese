@@ -16,68 +16,104 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       PROJECT_ID: ${{ vars.ID }}
     outputs:
-      changed: ${{ steps.commit.outputs.changed }} # 定义输出变量
+      changed: ${{ steps.commit.outputs.changed }} 
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+
       - name: Install dependencies
         run: |
           pip install requests
           pip install nbtlib
+
       - name: Configure Git
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "VM[BOT]"
-      - name: Checkout main branch
-        run: git checkout main
-      - name: Paratranz To GitHub
+
+      - name: Sync translations from Paratranz
         run: python .github/workflows/para2github.py
-      - name: Commit changes
+
+      - name: Run FTB Color Checker Script
+        run: python .github/workflows/check_ftb_colors.py ./CNPack
+        continue-on-error: true
+
+      - name: Check if error_report.html was generated and add to git
+        id: check_report_exists
+        run: |
+          if [ -f error_report.html ]; then
+            echo "Error report exists. Adding to git staging area."
+            git add error_report.html
+            echo "report_generated=true" >> $GITHUB_OUTPUT
+          else
+            echo "No error report (error_report.html) found."
+            echo "report_generated=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and Push changes
         id: commit
         run: |
+          # Check if there are any staged or unstaged changes (from sync or error report)
           if [[ -n $(git status -s) ]]; then
             git add .
             git commit -m '从Paratranz同步翻译'
             git push origin main
-            echo "changed=true" >> $GITHUB_OUTPUT # 使用 $GITHUB_OUTPUT 设置输出
-            echo "译文变动，发布release！"
+            echo "changed=true" >> $GITHUB_OUTPUT # Output 'changed' if anything was committed
+            echo "Changes detected (translations and/or error report), committed and pushed."
           else
-            echo "changed=false" >> $GITHUB_OUTPUT # 使用 $GITHUB_OUTPUT 设置输出
-            echo "译文不变，取消发布release！"
+            echo "changed=false" >> $GITHUB_OUTPUT # Output 'changed' as false if no changes
+            echo "No changes detected."
           fi
+
+      - name: Upload Error Report Artifact (if generated)
+        if: ${{ steps.check_report_exists.outputs.report_generated == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: error-report
+          path: error_report.html
+
   release:
     name: Create Release
     runs-on: ubuntu-latest
     environment: PARATRANZ_ENV
     needs: paratranz-to-gitHub
     if: ${{ needs.paratranz-to-gitHub.outputs.changed == 'true' }}
+
     steps:
-      - name: Checkout
+      - name: Checkout code for Release
         uses: actions/checkout@v4
-      - name: Upload CNPack folder
-        uses: actions/upload-artifact@v4
+
+      - name: Download Error Report Artifact (if available)
+        id: download_error_report
+        uses: actions/download-artifact@v4
         with:
-          name: CNPack
-          path: ./CNPack
+          name: error-report
+          path: ./report
+        continue-on-error: true
+
       - name: Get current datetime for tag
         id: datetime
         run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
+
       - name: Zip CNPack folder
         run: zip -r "VM-CNPack-${{ env.datetime }}.zip" ./CNPack
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: "VM-CNPack-${{ env.datetime }}.zip"
-          path: "VM-CNPack-${{ env.datetime }}.zip"
+
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "VM-CNPack-${{ env.datetime }}.zip"
+
+          artifacts: |
+            VM-CNPack-${{ env.datetime }}.zip
+            ./report/error_report.html
           tag: "VM-CNPack-Release-${{ env.datetime }}"
           name: "VM CNPack Release ${{ env.datetime }}"
-          body: "自动生成的最新汉化补丁"
+          body: |
+            自动生成的最新汉化补丁
+
+            ${{ steps.download_error_report.outcome == 'success' && '注意：本次同步发现了FTB任务颜色字符错误，详细请下载并查看 release 资源中的 error_report.html 文件。可能有小概率误报' || '' }}
           draft: false
           prerelease: true
