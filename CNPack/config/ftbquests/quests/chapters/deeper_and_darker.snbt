@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "deeper_and_darker"
 	group: "3E586F2160161EEA"
@@ -8,8 +8,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 2.0d
 			hover: [ ]
 			image: "prominent:textures/text/the_otherside.png"
@@ -20,8 +20,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "deeperdarker:item/heart_of_the_deep"

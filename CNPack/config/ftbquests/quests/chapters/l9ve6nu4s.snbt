@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "l9ve6nu4s"
 	group: "3E586F2160161EEA"
@@ -86,7 +86,7 @@
 			id: "5B0168CD4BE1EC5A"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "4D2A8D2C46496229"
 					type: "loot"
 				}

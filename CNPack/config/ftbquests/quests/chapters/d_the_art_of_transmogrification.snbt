@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "d_the_art_of_transmogrification"
 	group: "244F516C4853FD2F"
@@ -14,8 +14,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "simplyswords:item/lichblade_eyes"
@@ -26,8 +26,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "botania:block/purple_mystical_flower"

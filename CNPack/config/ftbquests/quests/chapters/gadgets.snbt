@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "gadgets"
 	group: "49D52BD6447C5CC0"
@@ -8,8 +8,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 2.0d
 			hover: [ ]
 			image: "modern_industrialization:block/machines/diesel_generator/overlay_front_active"
@@ -20,8 +20,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "supplementaries:block/cog_block_on"
@@ -32,8 +32,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "supplementaries:block/cog_block_on"
@@ -44,8 +44,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "supplementaries:block/cog_block_on"
@@ -56,8 +56,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "supplementaries:block/cog_block_on"
@@ -154,7 +154,7 @@
 		{
 			dependencies: ["189176286B6E28F4"]
 			id: "26A42453CA1F0F1D"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "2AB1CD986F3F0085"
@@ -256,7 +256,7 @@
 		{
 			dependencies: ["0C91FB5B9F7988B9"]
 			id: "29D70F4BD652022A"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "189E0E15EB2124A2"
@@ -373,7 +373,7 @@
 		{
 			dependencies: ["51186DDE3C82D092"]
 			id: "4C73E9CCD2C8DEFC"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "5C1CE0BD2839DB12"

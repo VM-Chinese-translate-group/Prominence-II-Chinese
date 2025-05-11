@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "botania"
 	group: "244F516C4853FD2F"
