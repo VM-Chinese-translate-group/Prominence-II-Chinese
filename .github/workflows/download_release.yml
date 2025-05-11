@@ -2,7 +2,7 @@ name: Paratranz To GitHub
 
 on:
   schedule:
-    # 每天北京时间早上9点和晚上9点运行
+    # 每天北京时间早晚10点左右运行
     - cron: "0 1,13 * * *"
   workflow_dispatch:
 
@@ -27,8 +27,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests
-          pip install nbtlib
+          pip install requests nbtlib
 
       - name: Configure Git
         run: |
@@ -46,11 +45,9 @@ jobs:
         id: check_report_exists
         run: |
           if [ -f error_report.html ]; then
-            echo "Error report exists. Adding to git staging area."
-            git add error_report.html
+            git add error_report.html -f
             echo "report_generated=true" >> $GITHUB_OUTPUT
           else
-            echo "No error report (error_report.html) found."
             echo "report_generated=false" >> $GITHUB_OUTPUT
           fi
 
@@ -62,14 +59,14 @@ jobs:
             git add .
             git commit -m '从Paratranz同步翻译'
             git push origin main
-            echo "changed=true" >> $GITHUB_OUTPUT # Output 'changed' if anything was committed
+            echo "changed=true" >> $GITHUB_OUTPUT
             echo "Changes detected (translations and/or error report), committed and pushed."
           else
-            echo "changed=false" >> $GITHUB_OUTPUT # Output 'changed' as false if no changes
+            echo "changed=false" >> $GITHUB_OUTPUT
             echo "No changes detected."
           fi
 
-      - name: Upload Error Report Artifact (if generated)
+      - name: Upload Error Report Artifact
         if: ${{ steps.check_report_exists.outputs.report_generated == 'true' }}
         uses: actions/upload-artifact@v4
         with:
@@ -105,7 +102,6 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-
           artifacts: |
             VM-CNPack-${{ env.datetime }}.zip
             ./report/error_report.html
