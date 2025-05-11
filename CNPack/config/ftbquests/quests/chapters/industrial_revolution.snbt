@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "industrial_revolution"
 	group: "49D52BD6447C5CC0"
@@ -630,7 +630,7 @@
 		}
 		{
 			dependencies: ["32DE8281608AE114"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "09E10855340778F7"
 			rewards: [
 				{
@@ -725,7 +725,7 @@
 				"09E10855340778F7"
 			]
 			dependency_requirement: "one_completed"
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "3F0F9ED6CD74A8F7"
 			rewards: [
 				{
@@ -755,7 +755,7 @@
 				"09E10855340778F7"
 			]
 			dependency_requirement: "one_completed"
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "26076501DA60CB75"
 			rewards: [
 				{
@@ -781,7 +781,7 @@
 		}
 		{
 			dependencies: ["32DE8281608AE114"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "7C514B78456F01BF"
 			rewards: [
 				{

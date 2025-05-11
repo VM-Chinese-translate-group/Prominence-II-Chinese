@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "simply_swords"
 	group: "555B69C1AF8C1C7F"
@@ -7,8 +7,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.5d
 			hover: [ ]
 			image: "simplyswords:item/twisted_blade"

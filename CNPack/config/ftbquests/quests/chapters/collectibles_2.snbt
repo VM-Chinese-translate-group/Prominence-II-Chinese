@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "collectibles_2"
 	group: "3E586F2160161EEA"
@@ -2902,7 +2902,7 @@
 		}
 		{
 			id: "497FCDC2AF27836F"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "072154E1C02961C4"

@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "getting_started"
 	group: "5EA21B61C2E147CB"
@@ -8,8 +8,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "prominent:textures/text/the_basics.png"
@@ -20,8 +20,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "prominent:textures/text/storage.png"
@@ -32,8 +32,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 4.0d
 			hover: [ ]
 			image: "prominent:textures/other/prominent_logo.png"
@@ -44,8 +44,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "prominent:textures/text/welcome.png"
@@ -57,8 +57,8 @@
 		{
 			click: ""
 			color: 11250603
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 7.311518324607329d
 			hover: [ ]
 			image: "prominent:textures/text/prominence-desc.png"
@@ -233,7 +233,7 @@
 				""
 				"{ftbquests.chapter.getting_started.quests5.description12}"
 			]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "702ED6D1B159048D"
 			rewards: [
 				{
@@ -546,11 +546,13 @@
 			id: "239866A8BF58469A"
 			size: 0.75d
 			subtitle: "{ftbquests.chapter.getting_started.quests15.subtitle}"
-			tasks: [{
-				id: "5216CF72CFF2B653"
-				title: "Click to continue!"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "5216CF72CFF2B653"
+					title: "{ftbquests.chapter.getting_started.quests15.tasks0.title}"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.getting_started.quests15.title}"
 			x: -1.482142857142854d
 			y: -3.292165295437549d

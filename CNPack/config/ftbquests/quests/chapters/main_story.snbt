@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "main_story"
 	group: "3DBADFFDA1FDAD84"
@@ -14,9 +14,9 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: "false"
+			dev: false
 			height: 2.5d
 			hover: [ ]
 			image: "minecraft:block/campfire_fire"
@@ -27,9 +27,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: "false"
+			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "minecraft:block/cobweb"
@@ -40,9 +40,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: "false"
+			dev: false
 			height: 1.5d
 			hover: [ ]
 			image: "betterend:textures/particle/jungle_spore_1.png"
@@ -53,9 +53,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: "false"
+			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "endrem:block/ancient_portal_frame_top"
@@ -66,9 +66,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: "false"
+			dev: false
 			height: 2.5d
 			hover: [ ]
 			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
@@ -79,9 +79,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: "false"
+			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "betternether:block/blackstone_furnace_front_on"
@@ -92,9 +92,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: "false"
+			dev: false
 			height: 2.5d
 			hover: [ ]
 			image: "minecells:textures/mob_effect/frozen.png"
@@ -105,9 +105,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: "false"
+			dev: false
 			height: 1.4954166666666664d
 			hover: [ ]
 			image: "prominent:textures/text/dimensionalthreats.png"
@@ -118,8 +118,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "prominent:textures/text/the_beginning.png"
@@ -130,9 +130,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "63A18694A9470D66"
-			dev: "false"
+			dev: false
 			height: 1.7d
 			hover: [ ]
 			image: "prominent:textures/other/prominent_logo.png"
@@ -143,9 +143,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: "false"
+			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "endrem:textures/backgrounds/advance_back.png"
@@ -156,8 +156,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "ftbteams:textures/add.png"
@@ -168,9 +168,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "18E337BC1F3F75FD"
-			dev: "false"
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "soulsweapons:item/lord_soul_rose"
@@ -181,9 +181,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "18E337BC1F3F75FD"
-			dev: "false"
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "soulsweapons:item/lord_soul_day_stalker"
@@ -194,9 +194,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "18E337BC1F3F75FD"
-			dev: "false"
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "soulsweapons:item/lord_soul_white"
@@ -207,9 +207,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "18E337BC1F3F75FD"
-			dev: "false"
+			dev: false
 			height: 20.0d
 			hover: [ ]
 			image: "prominent:textures/other/tear_in_space.png"
@@ -220,9 +220,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "245E77F81FB78B58"
-			dev: "false"
+			dev: false
 			height: 4.901960784313726d
 			hover: [ ]
 			image: "eldritch_end:textures/icon/faceless_head.png"
@@ -233,9 +233,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "7CBAFED315D614C3"
-			dev: "false"
+			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "prominent:item/demonic_essence"
@@ -247,9 +247,9 @@
 		{
 			click: ""
 			color: 16711680
-			corner: "false"
+			corner: false
 			dependency: "214E47AB3004E7D3"
-			dev: "false"
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
@@ -367,7 +367,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests1.description24}"
 			]
-			hide: "true"
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -867,7 +867,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests9.description14}"
 			]
-			hide: "true"
+			hide: true
 			icon: "bosses_of_mass_destruction:void_thorn"
 			id: "7AE1542456418BCD"
 			shape: "pentagon"
@@ -902,7 +902,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests10.description12}"
 			]
-			hide: "true"
+			hide: true
 			icon: "ftbquests:book"
 			id: "7CBAFED315D614C3"
 			shape: "diamond"
@@ -940,7 +940,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests11.description15}"
 			]
-			hide: "true"
+			hide: true
 			icon: "prominent:molten_core"
 			id: "63A18694A9470D66"
 			rewards: [
@@ -983,7 +983,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests12.description11}"
 			]
-			hide: "true"
+			hide: true
 			icon: "ftbquests:book"
 			id: "18E337BC1F3F75FD"
 			rewards: [
@@ -1027,7 +1027,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests13.description15}"
 			]
-			hide: "true"
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1066,7 +1066,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests14.description4}"
 			]
-			hide: "true"
+			hide: true
 			icon: "prominent:demon_essence"
 			id: "45A926EF078F465E"
 			rewards: [
@@ -1118,7 +1118,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests15.description11}"
 			]
-			hide: "true"
+			hide: true
 			icon: "prominent:glory_essence"
 			id: "7C7838CB12D2C972"
 			rewards: [
@@ -1169,7 +1169,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests16.description15}"
 			]
-			hide: "true"
+			hide: true
 			icon: "prominent:wrath_essence"
 			id: "569B422A5AE03E53"
 			rewards: [
@@ -1212,7 +1212,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests17.description7}"
 			]
-			hide: "true"
+			hide: true
 			icon: "eldritch_end:abysmal_fronds"
 			id: "601BDBA6DF073CB0"
 			rewards: [
@@ -1255,7 +1255,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests18.description7}"
 			]
-			hide: "true"
+			hide: true
 			icon: "eldritch_end:hasturian_moss"
 			id: "2500331DBBD67515"
 			rewards: [
@@ -1299,7 +1299,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests19.description8}"
 			]
-			hide: "true"
+			hide: true
 			icon: "eldritch_end:aberration_heart"
 			id: "5472D472A72B4DB9"
 			shape: "diamond"
@@ -1375,7 +1375,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests21.description7}"
 			]
-			hide: "true"
+			hide: true
 			id: "40BF64AA85FF6010"
 			rewards: [
 				{
@@ -1418,7 +1418,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests22.description11}"
 			]
-			hide: "true"
+			hide: true
 			id: "4AEBBAD5C5474582"
 			rewards: [
 				{
@@ -1612,7 +1612,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests26.description15}"
 			]
-			hide: "true"
+			hide: true
 			id: "6EEFBD329C02E34A"
 			rewards: [
 				{
@@ -1667,7 +1667,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests27.description11}"
 			]
-			hide: "true"
+			hide: true
 			icon: "ftbquests:book"
 			id: "245E77F81FB78B58"
 			shape: "diamond"
@@ -1778,7 +1778,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "21B6E7DC9CD2B786"
 					table_id: 8008058263494883425L
 					title: "{ftbquests.chapter.main_story.quests29.rewards2.title}"
@@ -2003,7 +2003,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests33.description19}"
 			]
-			hide: "true"
+			hide: true
 			icon: "minecraft:writable_book"
 			id: "04AF2E026BB918AE"
 			rewards: [
@@ -2051,7 +2051,7 @@
 				""
 				"{ftbquests.chapter.main_story.quests34.description13}"
 			]
-			hide: "true"
+			hide: true
 			id: "5B31D4D4029F1891"
 			rewards: [
 				{

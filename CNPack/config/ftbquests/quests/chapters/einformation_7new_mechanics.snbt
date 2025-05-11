@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "einformation_7new_mechanics"
 	group: "5EA21B61C2E147CB"
@@ -14,8 +14,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "simplyswords:item/emberblade_layer"
@@ -26,8 +26,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "ftblibrary:icons/blank"
@@ -38,9 +38,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "5728EF143DC9B7DB"
-			dev: "false"
+			dev: false
 			height: 0.84d
 			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
@@ -51,9 +51,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "080F23071FA8CFC9"
-			dev: "false"
+			dev: false
 			height: 0.84d
 			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
@@ -64,9 +64,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "01F49526727B35F1"
-			dev: "false"
+			dev: false
 			height: 0.84d
 			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
@@ -77,9 +77,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "0DFD6849156C0709"
-			dev: "false"
+			dev: false
 			height: 0.84d
 			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
@@ -90,9 +90,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "1079F098AE98FCF6"
-			dev: "false"
+			dev: false
 			height: 0.84d
 			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
@@ -103,9 +103,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "1F1202929D2C5195"
-			dev: "false"
+			dev: false
 			height: 0.84d
 			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
@@ -116,9 +116,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "53391B7A86496FCB"
-			dev: "false"
+			dev: false
 			height: 0.84d
 			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
@@ -129,9 +129,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "6A594976300D5DCC"
-			dev: "false"
+			dev: false
 			height: 0.84d
 			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
@@ -142,9 +142,9 @@
 		}
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "74BA5C6954FEFCE8"
-			dev: "false"
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "minecraft:block/campfire_fire"
@@ -282,7 +282,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description14}"
 			]
-			hide: "true"
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -344,7 +344,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests5.description2}"
 			]
-			hide: "true"
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -376,7 +376,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests6.description4}"
 			]
-			hide: "true"
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -690,7 +690,7 @@
 				"479F0EDD5681A06D"
 			]
 			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests14.description}"]
-			hide: "true"
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -723,7 +723,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests15.description2}"
 			]
-			hide: "true"
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -757,7 +757,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests16.description4}"
 			]
-			hide: "true"
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -795,7 +795,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests17.description3}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests17.description4}"
 			]
-			hide: "true"
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -927,7 +927,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests21.description2}"
 			]
-			hide: "true"
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1023,8 +1023,8 @@
 				"6A594976300D5DCC"
 				"6B8B4323E13AB3E9"
 			]
-			hide: "true"
-			hide_dependency_lines: "true"
+			hide: true
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -1033,10 +1033,10 @@
 				}
 			}
 			id: "5F2C69EC6928676F"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					icon: {
 						Count: 1b
 						id: "ftbquests:custom_icon"
@@ -1154,19 +1154,19 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3CCC18493C98B5E5"
 					item: "rogues:warrior_spell_book"
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "310BF2BA24D12FC1"
 					item: "paladins:paladin_spell_book"
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1259,7 +1259,7 @@
 				{
 					id: "72B8245645ACDA0E"
 					item: "rogues:warrior_spell_book"
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1271,7 +1271,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1294,7 +1294,7 @@
 			id: "32AF5CAD14B2C8A7"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "3E55BD0560991CA3"
 					table_id: 3850066978152658360L
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests25.rewards0.title}"
@@ -1623,7 +1623,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests28.description6}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests28.description7}"
 			]
-			hide: "true"
+			hide: true
 			id: "09CE7EB3045D5136"
 			rewards: [
 				{
@@ -1681,11 +1681,11 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
-					consume_items: "false"
+					consume_items: false
 					id: "7F63DDEA6A420F6E"
 					item: {
 						Count: 1b
@@ -1694,7 +1694,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1706,7 +1706,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1718,7 +1718,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1730,7 +1730,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1742,7 +1742,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1762,7 +1762,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests29.description6}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests29.description7}"
 			]
-			hide: "true"
+			hide: true
 			id: "2A4B84F063C78B09"
 			rewards: [
 				{
@@ -2008,7 +2008,7 @@
 							]
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests31.tasks7.title}"
 					type: "item"
 				}
@@ -2030,7 +2030,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests32.description4}"
 			]
-			hide: "true"
+			hide: true
 			id: "5814C5C80022A343"
 			min_required_dependencies: 1
 			rewards: [
@@ -2124,7 +2124,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests33.description4}"
 			]
-			hide: "true"
+			hide: true
 			id: "74B7050CA824F281"
 			rewards: [
 				{
@@ -2218,7 +2218,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests34.description4}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests34.description5}"
 			]
-			hide: "true"
+			hide: true
 			id: "0002A96D1F886FB3"
 			rewards: [
 				{
@@ -2298,7 +2298,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests35.description6}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests35.description7}"
 			]
-			hide: "true"
+			hide: true
 			id: "18899F26D6DB2F47"
 			rewards: [
 				{
@@ -2326,7 +2326,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2338,7 +2338,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2402,7 +2402,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests36.description6}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests36.description7}"
 			]
-			hide: "true"
+			hide: true
 			id: "2D18A81E45594603"
 			rewards: [
 				{
@@ -2474,7 +2474,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2486,7 +2486,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2522,7 +2522,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests37.description2}"
 			]
-			hide: "true"
+			hide: true
 			id: "22E0D946A9D81F02"
 			rewards: [
 				{
@@ -2561,7 +2561,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2573,7 +2573,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2598,7 +2598,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests38.description2}"
 			]
-			hide: "true"
+			hide: true
 			id: "43C641771CB69C88"
 			rewards: [
 				{
@@ -2626,7 +2626,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2638,7 +2638,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2667,7 +2667,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests39.description2}"
 			]
-			hide: "true"
+			hide: true
 			id: "3D78B8D241B53C2A"
 			min_required_dependencies: 1
 			rewards: [
@@ -2764,7 +2764,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description7}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description8}"
 			]
-			hide: "true"
+			hide: true
 			id: "1079F098AE98FCF6"
 			min_required_dependencies: 1
 			rewards: [
@@ -2831,19 +2831,19 @@
 				{
 					id: "67E86244246E6A0C"
 					item: "archers_expansion:tundra_hunter_spell_book"
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3E9F222F8A68F062"
 					item: "archers_expansion:deadeye_spell_book"
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "702A8F0BFE4AF1E2"
 					item: "archers_expansion:war_archer_spell_book"
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2860,7 +2860,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests41.description4}"
 			]
-			hide: "true"
+			hide: true
 			id: "4DEDEC176C36CFD0"
 			rewards: [
 				{
@@ -2956,7 +2956,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests42.description7}"
 			]
-			hide: "true"
+			hide: true
 			id: "4B450D0E26363D54"
 			rewards: [
 				{
@@ -3051,7 +3051,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests43.description4}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests43.description5}"
 			]
-			hide: "true"
+			hide: true
 			id: "42068E429EB7B74F"
 			rewards: [
 				{
@@ -3148,7 +3148,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description3}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description4}"
 			]
-			hide: "true"
+			hide: true
 			id: "080F23071FA8CFC9"
 			min_required_dependencies: 1
 			rewards: [
@@ -3215,7 +3215,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests44.tasks4.title}"
 					type: "item"
 				}
@@ -3228,7 +3228,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests44.tasks5.title}"
 					type: "item"
 				}
@@ -3251,7 +3251,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests45.description2}"
 			]
-			hide: "true"
+			hide: true
 			id: "59C45FA337989B0C"
 			min_required_dependencies: 1
 			rewards: [
@@ -3301,7 +3301,7 @@
 			dependencies: ["59C45FA337989B0C"]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests46.description}"]
-			hide: "true"
+			hide: true
 			id: "5728EF143DC9B7DB"
 			min_required_dependencies: 1
 			rewards: [
@@ -3384,7 +3384,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests47.description2}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests47.description3}"
 			]
-			hide: "true"
+			hide: true
 			id: "71EDD24DAB210B44"
 			min_required_dependencies: 1
 			rewards: [
@@ -3439,7 +3439,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests48.description2}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests48.description3}"
 			]
-			hide: "true"
+			hide: true
 			id: "0F83B1AC3CB766C9"
 			min_required_dependencies: 1
 			rewards: [
@@ -3494,7 +3494,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests49.description2}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests49.description3}"
 			]
-			hide: "true"
+			hide: true
 			id: "6399A78B0AF2BCAE"
 			min_required_dependencies: 1
 			rewards: [
@@ -3554,7 +3554,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests50.description6}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests50.description7}"
 			]
-			hide: "true"
+			hide: true
 			id: "0DFD6849156C0709"
 			min_required_dependencies: 1
 			rewards: [
@@ -3621,15 +3621,15 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.tasks4.title}"
 					type: "item"
 				}
 				{
 					id: "390C7D7FD95CDD00"
 					item: "prominent:ashedar_essence"
-					match_nbt: "false"
-					optional_task: "true"
+					match_nbt: false
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.tasks5.title}"
 					type: "item"
 				}
@@ -3642,7 +3642,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.tasks6.title}"
 					type: "item"
 				}
@@ -3655,7 +3655,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.tasks7.title}"
 					type: "item"
 				}
@@ -3689,7 +3689,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests51.description2}"
 			]
-			hide: "true"
+			hide: true
 			id: "01F49526727B35F1"
 			min_required_dependencies: 1
 			rewards: [
@@ -3723,7 +3723,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -3735,7 +3735,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -3747,7 +3747,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -3762,7 +3762,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests52.description2}"
 			]
-			hide: "true"
+			hide: true
 			id: "4898E3ED8141DAFC"
 			rewards: [
 				{
@@ -3817,19 +3817,19 @@
 				{
 					id: "277C70D4B38B811F"
 					item: "spellbladenext:phoenix_spell_book"
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2AFF23EEB391A75B"
 					item: "spellbladenext:runic_echoes_spell_book"
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "28D8605EB4070B4D"
 					item: "spellbladenext:deathchill_spell_book"
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -3846,7 +3846,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests53.description4}"
 			]
-			hide: "true"
+			hide: true
 			id: "0A4309730B50D9FF"
 			rewards: [
 				{
@@ -3890,7 +3890,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests54.description4}"
 			]
-			hide: "true"
+			hide: true
 			id: "5F05B907376828B4"
 			rewards: [
 				{
@@ -3976,7 +3976,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests55.description2}"
 			]
-			hide: "true"
+			hide: true
 			id: "34D8C4E35FD1D7A4"
 			rewards: [
 				{
@@ -4075,7 +4075,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests56.description4}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests56.description5}"
 			]
-			hide: "true"
+			hide: true
 			id: "40C4C4072277E160"
 			rewards: [
 				{
@@ -4095,7 +4095,7 @@
 			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests56.subtitle}"
 			tasks: [
 				{
-					consume_items: "false"
+					consume_items: false
 					id: "19EF118E1C05D21C"
 					item: {
 						Count: 1b
@@ -4105,7 +4105,7 @@
 							archon: { }
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests56.tasks0.title}"
 					type: "item"
 				}
@@ -4137,7 +4137,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests57.description7}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests57.description8}"
 			]
-			hide: "true"
+			hide: true
 			id: "3A72E538D2A5B20C"
 			rewards: [
 				{
@@ -4220,7 +4220,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -4232,7 +4232,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -4249,7 +4249,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests58.description4}"
 			]
-			hide: "true"
+			hide: true
 			id: "75E616FE0AAF9EF5"
 			rewards: [
 				{
@@ -4352,7 +4352,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests59.description4}"
 			]
-			hide: "true"
+			hide: true
 			id: "3B1F2D1CFA02F922"
 			rewards: [
 				{
@@ -4469,7 +4469,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests60.description2}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests60.description3}"
 			]
-			hide: "true"
+			hide: true
 			id: "1F1202929D2C5195"
 			min_required_dependencies: 1
 			rewards: [
@@ -4503,7 +4503,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -4515,7 +4515,7 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -4532,7 +4532,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests61.description4}"
 			]
-			hide: "true"
+			hide: true
 			id: "4CF644BC0920C177"
 			rewards: [
 				{
@@ -4650,7 +4650,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests62.description2}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests62.description3}"
 			]
-			hide: "true"
+			hide: true
 			id: "53391B7A86496FCB"
 			min_required_dependencies: 1
 			rewards: [
@@ -4673,14 +4673,14 @@
 							Damage: 0
 						}
 					}
-					optional_task: "true"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests62.tasks0.title}"
 					type: "item"
 				}
 				{
 					id: "07CAC3E8AAA5C765"
 					item: "prominent:ashedar_essence"
-					optional_task: "true"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests62.tasks1.title}"
 					type: "item"
 				}
@@ -4693,7 +4693,7 @@
 						}
 					}
 					id: "427032B27502390C"
-					optional_task: "true"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests62.tasks2.title}"
 					type: "custom"
 				}
@@ -4757,7 +4757,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests63.description4}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests63.description5}"
 			]
-			hide: "true"
+			hide: true
 			id: "6A594976300D5DCC"
 			min_required_dependencies: 1
 			rewards: [
@@ -4843,8 +4843,8 @@
 				"1079F098AE98FCF6"
 			]
 			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests64.description}"]
-			hide: "true"
-			hide_dependency_lines: "true"
+			hide: true
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
