@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "8the_prision"
 	group: "3E586F2160161EEA"
@@ -8,8 +8,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 3.0d
 			hover: [ ]
 			image: "minecells:item/blood_sword"

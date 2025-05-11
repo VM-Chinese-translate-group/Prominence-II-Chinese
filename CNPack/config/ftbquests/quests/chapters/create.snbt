@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
 	group: "49D52BD6447C5CC0"
@@ -8,9 +8,9 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
+			corner: false
 			dependency: "68ED01D9FDB64432"
-			dev: "false"
+			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "minecraft:block/campfire_fire"
@@ -3046,7 +3046,7 @@
 		}
 		{
 			id: "68ED01D9FDB64432"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
 					id: "571317E7C09367F3"

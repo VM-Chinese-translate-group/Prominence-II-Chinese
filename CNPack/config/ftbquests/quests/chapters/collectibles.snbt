@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "collectibles"
 	group: "3E586F2160161EEA"
@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			hide: "false"
+			hide: false
 			icon: "lootr:lootr_chest"
 			id: "0F7A087CC11FB122"
 			rewards: [

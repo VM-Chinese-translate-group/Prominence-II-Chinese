@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tech_reborn"
 	group: "49D52BD6447C5CC0"
@@ -288,7 +288,7 @@
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "580F229A31EACBEB"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					count: 12
@@ -840,7 +840,7 @@
 		}
 		{
 			dependencies: ["4C244A59E076A502"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "1693870F4F722022"
 			rewards: [
 				{
@@ -1131,7 +1131,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "[\"\",\"可以在 \",{\"text\":\"末地\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"45D9C9CD7B2568A0\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[]}},\"找到。\"]"
+			subtitle: "[\"\",\"Can be found in \",{\"text\":\"The End\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"45D9C9CD7B2568A0\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[]}},\".\"]"
 			tasks: [
 				{
 					id: "6A1248D8D9D0D60A"
@@ -1164,7 +1164,7 @@
 				"0B606A84A47E6984"
 			]
 			id: "65E79EAA20C0778C"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					id: "1FF224776EB64660"
@@ -1186,7 +1186,7 @@
 		{
 			dependencies: ["2A0E4313C171CC6C"]
 			id: "111C5864D82F7986"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					count: 8
@@ -1271,7 +1271,7 @@
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "7B86674432D514BF"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					id: "285FFEEE947C7397"
@@ -1299,7 +1299,7 @@
 			dependencies: ["0B606A84A47E6984"]
 			icon: "techreborn:industrial_sawmill"
 			id: "40E8EBF7F584D035"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					count: 16
@@ -1983,7 +1983,7 @@
 							fluid: "techreborn:silicon"
 						}
 					}
-					match_nbt: "true"
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -2011,7 +2011,7 @@
 							fluid: "techreborn:beryllium"
 						}
 					}
-					match_nbt: "true"
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -2020,7 +2020,7 @@
 		}
 		{
 			dependencies: ["47F58263B3BC7423"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "56FAF66CFEE8E937"
 			tasks: [
 				{
@@ -2077,7 +2077,7 @@
 			y: 9.5d
 		}
 		{
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "1C8A1CCA830490CB"
 			rewards: [
 				{
@@ -2188,7 +2188,7 @@
 							fluid: "techreborn:mercury"
 						}
 					}
-					match_nbt: "true"
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -2220,7 +2220,7 @@
 			id: "00B093F4B096E8AD"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "55E794C08540EC36"
 					type: "random"
 				}
@@ -2298,7 +2298,7 @@
 		}
 		{
 			dependencies: ["1693870F4F722022"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "572DF2570C4C66DB"
 			rewards: [
 				{
@@ -2320,7 +2320,7 @@
 		}
 		{
 			dependencies: ["1693870F4F722022"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			id: "743284A1B75A8DF4"
 			rewards: [
 				{
@@ -2353,7 +2353,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "[\"\",\"对于某些人来说，机器的配置系统可能会让人感到畏惧。但这里为需要的人提供一份简要入门指南。\",\"\n\",\"\n\",\"要打开配置系统，你需要在任何支持该功能的科技重生机器界面左侧点击扳手图标。然后按下你想配置的槽位，这会弹出一个窗口显示该侧当前的配置状态。接着，点击你想配置的侧面以循环切换输入、输出和禁用模式。你还可以勾选自动输入或自动输出选项，让机器从配置侧相邻的物品栏中推送/提取物品。\",\"\n\",\"\n\",\"如果你需要视频形式的指导 \",{\"text\":\" 点击此处 \",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=ZPFeYfYnbZ8\"}},\"观看模组创作者制作的关于该系统的Youtube短视频。\"]"
+			subtitle: "[\"\",\"对于某些人来说，机器的配置系统可能会让人感到畏惧。但这里为需要的人提供一份简要入门指南。\",\"\n\",\"\n\",\"要打开配置系统，你需要在任何支持该功能的科技复兴机器界面左侧点击扳手图标。然后按下你想配置的槽位，这会弹出一个窗口显示该侧当前的配置状态。接着，点击你想配置的侧面以循环切换输入、输出和禁用模式。你还可以勾选自动输入或自动输出选项，让机器从配置侧相邻的物品栏中推送/提取物品。\",\"\n\",\"\n\",\"如果你需要视频形式的指导 \",{\"text\":\" 点击此处 \",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=ZPFeYfYnbZ8\"}},\"观看模组创作者制作的关于该系统的Youtube短视频。\"]"
 			tasks: [
 				{
 					id: "7F660A99AE621E58"
@@ -2450,7 +2450,7 @@
 							fluid: "techreborn:lithium"
 						}
 					}
-					match_nbt: "true"
+					match_nbt: true
 					type: "item"
 				}
 			]
