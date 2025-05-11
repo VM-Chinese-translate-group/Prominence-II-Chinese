@@ -16,7 +16,8 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       PROJECT_ID: ${{ vars.ID }}
     outputs:
-      changed: ${{ steps.commit.outputs.changed }} 
+      changed: ${{ steps.commit.outputs.changed }}
+
     steps:
       - uses: actions/checkout@v4
 
@@ -41,8 +42,8 @@ jobs:
         run: python .github/workflows/check_ftb_colors.py ./CNPack
         continue-on-error: true
 
-      - name: Check if error_report.html was generated and add to git
-        id: check_report_exists
+      - name: Check if error_report.html was generated
+        id: check_report
         run: |
           if [ -f error_report.html ]; then
             echo "error_report_exists=true" >> $GITHUB_ENV
@@ -54,11 +55,10 @@ jobs:
         id: commit
         run: |
           git rm --cached error_report.html || true
-          
           if [[ -n $(git status -s) ]]; then
             git add .
             git commit -m '从Paratranz同步翻译'
-            git push origin main
+            git push
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -74,21 +74,21 @@ jobs:
   release:
     name: Create Release
     runs-on: ubuntu-latest
-    environment: PARATRANZ_ENV
     needs: paratranz-to-gitHub
-    if: ${{ needs.paratranz-to-gitHub.outputs.changed == 'true' }}
+    if: needs.paratranz-to-gitHub.outputs.changed == 'true'
+    environment: PARATRANZ_ENV
 
     steps:
       - name: Checkout code for Release
         uses: actions/checkout@v4
 
-      - name: Download Error Report Artifact (if available)
-        id: download_error_report
+      - name: Download Error Report Artifact (if exists)
+        id: download_error
+        continue-on-error: true
         uses: actions/download-artifact@v4
         with:
           name: error-report
           path: ./
-        continue-on-error: true
 
       - name: Get current datetime for tag
         id: datetime
@@ -100,14 +100,14 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: |
-            VM-CNPack-${{ env.datetime }}.zip
-            error_report.html
           tag: "VM-CNPack-Release-${{ env.datetime }}"
           name: "VM CNPack Release ${{ env.datetime }}"
           body: |
             自动生成的最新汉化补丁
 
-            ${{ steps.download_error_report.outcome == 'success' && '注意：本次同步发现了FTB任务颜色字符错误，详细请下载并查看 release 资源中的 error_report.html 文件。可能有小概率误报' || '' }}
+            ${{ steps.download_error.outcome == 'success' && '⚠ 注意：本次同步检测到 FTB 任务文本颜色可能存在错误，详见 release 附带的 error_report.html。' || '✔ 未发现异常颜色。' }}
+          artifacts: |
+            VM-CNPack-${{ env.datetime }}.zip
+            error_report.html
           draft: false
           prerelease: true
