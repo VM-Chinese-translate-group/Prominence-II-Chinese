@@ -625,18 +625,28 @@
 				""
 				"{ftbquests.chapter.main_story.quests5.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests5.description6}"
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
+				""
+				"{ftbquests.chapter.main_story.quests5.description8}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests5.description9}"
-				""
 				"{ftbquests.chapter.main_story.quests5.description11}"
 				""
 				"{ftbquests.chapter.main_story.quests5.description13}"
 				""
 				"{ftbquests.chapter.main_story.quests5.description15}"
+				""
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
+				""
+				"{ftbquests.chapter.main_story.quests5.description19}"
 			]
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
+				}
+			}
 			id: "0E567E587E669BED"
 			rewards: [
 				{
@@ -649,14 +659,25 @@
 					item: "prominent:infused_molten_remnant"
 					type: "item"
 				}
+				{
+					id: "169BCF5304D7C2A1"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.main_story.quests5.subtitle}"
 			tasks: [
 				{
-					entity: "adventurez:the_eye"
-					icon: "minecraft:ender_eye"
+					entity: "eldritch_end:eye"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
+						}
+					}
 					id: "5A3673477EA57892"
 					title: "{ftbquests.chapter.main_story.quests5.tasks0.title}"
 					type: "kill"
