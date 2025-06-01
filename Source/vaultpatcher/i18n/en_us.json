@@ -257,5 +257,8 @@
     "vp.spellbladenext.apophis.2": "\uE002 ",
     "vp.spellbladenext.ghaj.1": "\uE005 ",
     "vp.spellbladenext.ghaj.2": "\uE005 ",
-    "vp.spellbladenext.ghaj.3": "\uE001 "
+    "vp.spellbladenext.ghaj.3": "\uE001 ",
+    "vp.eldritch_end.tooltip.corruption.1": " Corruption Resistance",
+    "vp.eldritch_end.tooltip.corruption.2": " Corruption",
+    "vp.eldritch_end.tooltip.corruption.3": " Affected Corruption"
 }

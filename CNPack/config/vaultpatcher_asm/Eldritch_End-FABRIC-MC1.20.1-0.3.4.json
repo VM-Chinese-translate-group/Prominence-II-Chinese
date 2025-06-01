@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Eldritch_End-FABRIC-MC1.20.1-0.3.4.jar extracted.",
+    "desc": "Thanks for d0ukesh1",
+    "mods": "Eldritch_End-FABRIC-MC1.20.1-0.3.4",
+    "authors": "d0ukesh1",
+    "dynamic": false,
+    "i18n": true
+  },
+  {
+    "target_class": {
+      "name": "elocindev.eldritch_end.corruption.CorruptionDisplayTooltip",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Corruption Resistance",
+        "value": "vp.eldritch_end.tooltip.corruption.1"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.eldritch_end.corruption.CorruptionDisplayTooltip",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Corruption",
+        "value": "vp.eldritch_end.tooltip.corruption.2"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "elocindev.eldritch_end.corruption.CorruptionDisplayTooltip",
+      "method": "method_7851",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": " Affected Corruption",
+        "value": "vp.eldritch_end.tooltip.corruption.3"
+      }
+    ]
+  }
+]
