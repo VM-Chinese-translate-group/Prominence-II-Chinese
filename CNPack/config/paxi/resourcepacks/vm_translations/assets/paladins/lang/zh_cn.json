@@ -106,6 +106,6 @@
     "spell.paladins.holy_beam.name":"神圣之光",
     "spell.paladins.holy_shock.description":"治疗自身或己方目标{heal}点生命值，重击敌人造成{damage}点法术伤害。",
     "spell.paladins.holy_shock.name":"神圣冲击",
-    "spell.paladins.judgement.description":"攻击目标及其{impact_range}方块范围内的敌人, 造成{damage}点伤害并附加眩晕效果，持续{effect_duration}秒。",
+    "spell.paladins.judgement.description":"攻击目标及其{impact_range}方块范围内的敌人, 造成{damage}点伤害并附加眩晕效果，持续{effect_duration}秒。",
     "spell.paladins.judgement.name":"审判"
 }
