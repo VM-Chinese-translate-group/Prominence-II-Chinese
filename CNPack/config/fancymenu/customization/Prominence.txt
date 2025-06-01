@@ -95,7 +95,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Multiplayer
+  label = 多人游戏
   navigatable = true
   widget_active_state_requirement_container_identifier = 82b4bd8a-163c-4c4d-b747-eb70109c46bc-1748210000086
   [loading_requirement_container_meta:82b4bd8a-163c-4c4d-b747-eb70109c46bc-1748210000086] = [groups:][instances:]
@@ -153,7 +153,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Singleplayer
+  label = 单人游戏
   navigatable = true
   widget_active_state_requirement_container_identifier = 82b4bd8a-163c-4c4d-b747-eb70109c46bc-1748210000086
   [loading_requirement_container_meta:82b4bd8a-163c-4c4d-b747-eb70109c46bc-1748210000086] = [groups:][instances:]
