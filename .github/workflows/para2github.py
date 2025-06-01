@@ -112,7 +112,8 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
         value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
         other = value
         value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
-        value = re.sub(r'\\"','\"',value)
+        value = re.sub(r'\\"','\"', value)
+        value = re.sub(r' ','\u00A0', value)
         if '[\"' in value:
             s = key.split(".")
             with open("CNPack/config/ftbquests/quests/chapters/"+s[2]+".snbt", "r", encoding='UTF-8') as snbt1:
@@ -215,7 +216,7 @@ def main() -> None:
         zh_cn_list.append(zh_cn_dict)
         if "kubejs/assets/quests/lang/" in path:
             ftbquests_dict = ftbquests_dict | zh_cn_dict
-            continue;
+            continue
         save_translation(zh_cn_dict, Path(path))
         print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
     if(len(ftbquests_dict) > 0):
