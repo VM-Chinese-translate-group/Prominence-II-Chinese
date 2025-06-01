@@ -86,7 +86,7 @@
     "vp.prominent.orion.24":" ",
     "vp.prominent.orion.27":" ",
     "vp.prominent.orion.30":" ",
-    "vp.prominent.skillet.1":"奶奶家的平底锅修饰符",
+    "vp.prominent.skillet.1":"奶奶的平底锅修饰符",
     "vp.prominent.skillet.2":"击退奶奶家的平底锅修饰符",
     "vp.prominent.skillet.4":" ",
     "vp.prominent.skillet.6":" ",
@@ -257,5 +257,8 @@
     "vp.spellbladenext.apophis.2":" ",
     "vp.spellbladenext.ghaj.1":" ",
     "vp.spellbladenext.ghaj.2":" ",
-    "vp.spellbladenext.ghaj.3":" "
+    "vp.spellbladenext.ghaj.3":" ",
+    "vp.eldritch_end.tooltip.corruption.1":" 腐化抗性",
+    "vp.eldritch_end.tooltip.corruption.2":" 腐化度",
+    "vp.eldritch_end.tooltip.corruption.3":" 受腐化影响程度"
 }

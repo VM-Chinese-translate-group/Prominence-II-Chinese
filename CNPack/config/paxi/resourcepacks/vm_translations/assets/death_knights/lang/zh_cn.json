@@ -85,7 +85,7 @@
     "spell.death_knights.agonizing_breath.name":"彻骨吐息",
     "spell.death_knights.blood_boil.description":"使周围8格范围内的所有敌人鲜血沸腾，造成{damage}点鲜血伤害并附加血疫。对受到血疫效果影响的敌人造成鲜血伤害时将基于你最大生命值的百分比恢复生命。",
     "spell.death_knights.blood_boil.name":"鲜血沸腾",
-    "spell.death_knights.dark_command.description":"向目标下达戮令并激怒目标，强制其攻击你，被激怒的敌人造成20%更少伤害。",
+    "spell.death_knights.dark_command.description":"向目标下达命令以激怒目标对你发动攻击，被激怒的敌人造成的伤害减少20%。",
     "spell.death_knights.dark_command.name":"深暗戮令",
     "spell.death_knights.death_coil.description":"释放死亡线圈，对目标造成{damage}亵渎伤害，如果目标已被施加疫病，引爆至多4层疫病并对附近未受感染的目标施加1层同种疫病。",
     "spell.death_knights.death_coil.name":"死亡线圈",

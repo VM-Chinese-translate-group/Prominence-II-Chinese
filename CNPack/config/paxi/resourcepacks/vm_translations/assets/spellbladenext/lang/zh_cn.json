@@ -155,7 +155,7 @@
     "spell.spellbladenext.flameslash.name":"裂焰",
     "spell.spellbladenext.flicker_strike.description":"Jump onto nearby enemies equally, dealing {damage_1} physical damage plus an additional {damage_2} fire damage. Focuses on one target if there is only one target. Gain 1 Haste and Strength per 4 fire power.",
     "spell.spellbladenext.flicker_strike.name":"烈焰闪击",
-    "spell.spellbladenext.frostblink.description":"Teleport behind an enemy, dealing {damage_1} physical damage plus an additional {damage_2} arcane damage.",
+    "spell.spellbladenext.frostblink.description":"传送至一名敌人身后，造成{damage_0}点物理伤害与{damage_1}点奥秘法术伤害。",
     "spell.spellbladenext.frostblink.name":"奥秘闪击",
     "spell.spellbladenext.frostbloom0.description":"在周围释放冰霜新星，寒气侵体，敌人亦受其害。对敌人造成 {damage} 点伤害并给予施法者一层寒冰魔能（至多四层；层数越高，伤害范围越大）。",
     "spell.spellbladenext.frostbloom0.name":"寒冰雪莲",
