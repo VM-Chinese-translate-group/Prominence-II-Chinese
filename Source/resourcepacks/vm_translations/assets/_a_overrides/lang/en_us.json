@@ -1,21 +1,21 @@
 {
-    "attribute.name.spell_power.arcane": "§f\uE001§r Arcane Power",
-    "attribute.name.spell_power.fire": "§f\uE002§r Fire Power",
-    "attribute.name.spell_power.frost": "§f\uE003§r Frost Power",
-    "attribute.name.spell_power.healing": "§f\uE004§r Holy Power",
-    "attribute.name.spell_power.lightning": "§f\uE005§r Lightning Power",
-    "attribute.name.spell_power.soul": "§f\uE006§r Soul Power",
+    "attribute.name.spell_power.arcane": "§f\uE018§r Arcane Power",
+    "attribute.name.spell_power.fire": "§f\uE017§r Fire Power",
+    "attribute.name.spell_power.frost": "§f\uE019§r Frost Power",
+    "attribute.name.spell_power.healing": "§f\uE024§r Holy Power",
+    "attribute.name.spell_power.lightning": "§f\uE026§r Lightning Power",
+    "attribute.name.spell_power.soul": "§f\uE025§r Soul Power",
 
-    "attribute.name.death_knights.blood_power": "§f\uE007§r Blood Power",
-    "attribute.name.death_knights.unholy_power": "§f\uE008§r Unholy Power",
-    "attribute.name.death_knights.blood": "§f\uE007§r Blood Power",
-    "attribute.name.death_knights.unholy": "§f\uE008§r Unholy Power", 
+    "attribute.name.death_knights.blood_power": "§f\uE020§r Blood Power",
+    "attribute.name.death_knights.unholy_power": "§f\uE021§r Unholy Power",
+    "attribute.name.death_knights.blood": "§f\uE020§r Blood Power",
+    "attribute.name.death_knights.unholy": "§f\uE021§r Unholy Power", 
 
-    "attribute.name.generic.attack_damage": "§f\uE009§r Physical Damage",
-    "attribute.name.generic.attack_speed": "§f\uE010§r Haste",
-    "attribute.name.generic.max_health": "§f\uE011§r Max Health",
+    "attribute.name.generic.attack_damage": "§f\uE010§r Physical Damage",
+    "attribute.name.generic.attack_speed": "§f\uE011§r Haste",
+    "attribute.name.generic.max_health": "§f\uE013§r Max Health",
     "attribute.name.generic.armor": "§f\uE012§r Armor",
     "attribute.name.generic.armor_toughness": "§b\uE012§r Armor Toughness",
 
-    "attribute.name.extraspellattributes.reabsorption": "§e\uE011§r Reabsorption"
+    "attribute.name.extraspellattributes.reabsorption": "§e\uE013§r Reabsorption"
 }
