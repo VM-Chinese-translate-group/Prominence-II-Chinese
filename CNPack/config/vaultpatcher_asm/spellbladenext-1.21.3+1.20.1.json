@@ -548,19 +548,6 @@
     },
     "pairs": [
       {
-        "key": "item.spellbladenext.tabula_rasa.desc2",
-        "value": "vp.spellbladenext.tabularasa.1"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "com.spellbladenext.items.TabulaRasa",
-      "method": "method_7851",
-      "local": ""
-    },
-    "pairs": [
-      {
         "key": "DISABLED via server config",
         "value": "vp.spellbladenext.tabularasa.2"
       }
