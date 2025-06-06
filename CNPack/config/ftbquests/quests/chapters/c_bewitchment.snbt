@@ -4,7 +4,7 @@
 	filename: "c_bewitchment"
 	group: "244F516C4853FD2F"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "bewitchment:vampiric_poppet"
 		tag: {
 			Damage: 0
@@ -152,7 +152,7 @@
 				{
 					id: "2A7C00C48571951E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:athame"
 						tag: {
 							Damage: 0
@@ -247,7 +247,7 @@
 				{
 					id: "77832168836C5A49"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:voodoo_poppet"
 						tag: {
 							Damage: 0
@@ -427,7 +427,7 @@
 				{
 					id: "77F363FBF7C865B4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:besmirched_hood"
 						tag: {
 							Damage: 0
@@ -438,7 +438,7 @@
 				{
 					id: "347399A4D526C9FE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:besmirched_hat"
 						tag: {
 							Damage: 0
@@ -449,7 +449,7 @@
 				{
 					id: "2DD9C3602717015B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:besmirched_robes"
 						tag: {
 							Damage: 0
@@ -460,7 +460,7 @@
 				{
 					id: "0C3874E73CD3C245"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:besmirched_pants"
 						tag: {
 							Damage: 0
@@ -492,7 +492,7 @@
 				{
 					id: "163035D24392B95B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:alchemist_hood"
 						tag: {
 							Damage: 0
@@ -503,7 +503,7 @@
 				{
 					id: "0D84D3EDAD4AAFC8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:alchemist_hat"
 						tag: {
 							Damage: 0
@@ -514,7 +514,7 @@
 				{
 					id: "3600A6B16769EC50"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:alchemist_robes"
 						tag: {
 							Damage: 0
@@ -525,7 +525,7 @@
 				{
 					id: "59140CB26E08C873"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:alchemist_pants"
 						tag: {
 							Damage: 0
@@ -557,7 +557,7 @@
 				{
 					id: "3CE518B01D80E6AD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:hedgewitch_hood"
 						tag: {
 							Damage: 0
@@ -568,7 +568,7 @@
 				{
 					id: "3B5965EFE8AE5E51"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:hedgewitch_hat"
 						tag: {
 							Damage: 0
@@ -579,7 +579,7 @@
 				{
 					id: "1B632BBEA1FE6207"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:hedgewitch_robes"
 						tag: {
 							Damage: 0
@@ -590,7 +590,7 @@
 				{
 					id: "219A667E66525891"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:hedgewitch_pants"
 						tag: {
 							Damage: 0
@@ -662,7 +662,7 @@
 				{
 					id: "112FD4CB4AE9DDF2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:chalk"
 						tag: {
 							Damage: 0
@@ -673,7 +673,7 @@
 				{
 					id: "40F195965FDBA568"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:golden_chalk"
 						tag: {
 							Damage: 0
@@ -684,7 +684,7 @@
 				{
 					id: "63AB9892FD8F92C0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:fiery_chalk"
 						tag: {
 							Damage: 0
@@ -695,7 +695,7 @@
 				{
 					id: "2BBDFBAD65757222"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bewitchment:eldritch_chalk"
 						tag: {
 							Damage: 0

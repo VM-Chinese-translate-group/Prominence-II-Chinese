@@ -150,7 +150,7 @@ vanilla_button {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Share World
+  label = 开放世界
   navigatable = true
   widget_active_state_requirement_container_identifier = e7e0c492-8302-462b-8124-5326c7edbddb-1748087558319
   [loading_requirement_container_meta:e7e0c492-8302-462b-8124-5326c7edbddb-1748087558319] = [groups:][instances:]

@@ -7,11 +7,7 @@
 	id: "5BB4D2FC1908D3D1"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftbteams:textures/add.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -80,7 +76,7 @@
 				{
 					id: "6302ACABBC6AEA42"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "modern_industrialization:iron_hammer"
 						tag: {
 							Damage: 0
@@ -112,7 +108,7 @@
 					count: 32L
 					id: "393032946BC049BC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "c:bronze_ingots"
@@ -569,7 +565,7 @@
 				{
 					id: "3612549FFBF5E73C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "c:steel_ingots"
@@ -715,7 +711,7 @@
 					count: 4
 					id: "1E9D18D104CA30EC"
 					item: {
-						Count: 4b
+						Count: 4
 						id: "techreborn:steel_plate"
 					}
 					type: "item"
@@ -1543,7 +1539,7 @@
 				{
 					id: "040031047A05E0AE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "c:titanium_ingots"
@@ -1596,7 +1592,7 @@
 				{
 					id: "7103DFB1F1EF3828"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "c:raw_iridium_ores"

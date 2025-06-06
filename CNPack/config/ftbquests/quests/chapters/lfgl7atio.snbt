@@ -180,7 +180,7 @@
 				{
 					id: "641A27A13106F50F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "c:iron_plates"

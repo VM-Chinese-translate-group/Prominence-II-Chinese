@@ -156,7 +156,7 @@
 				{
 					id: "604F0DEC55BB9A81"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:hunter_pistol"
 						tag: {
 							Damage: 0
@@ -190,7 +190,7 @@
 				{
 					id: "09F0E4B368AEA5DB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:blunderbuss"
 						tag: {
 							Damage: 0
@@ -224,7 +224,7 @@
 				{
 					id: "7A38B94629479054"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:hunter_cannon"
 						tag: {
 							Damage: 0
@@ -259,7 +259,7 @@
 				{
 					id: "6002A26D3270EC99"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:gatling_gun"
 						tag: {
 							Damage: 0
@@ -309,7 +309,7 @@
 				{
 					id: "43A7A694636F3248"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:translucent_sword"
 						tag: {
 							Damage: 0
@@ -320,7 +320,7 @@
 				{
 					id: "347FCE8A574D7164"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:translucent_glaive"
 						tag: {
 							Damage: 0
@@ -331,7 +331,7 @@
 				{
 					id: "29F5B7F9F9600D55"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:translucent_double_greatsword"
 						tag: {
 							Damage: 0
@@ -352,7 +352,7 @@
 				{
 					id: "514C65E9419D368B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:moonstone_shovel"
 						tag: {
 							Damage: 0
@@ -363,7 +363,7 @@
 				{
 					id: "6D827E4B76662EB0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:moonstone_pickaxe"
 						tag: {
 							Damage: 0
@@ -374,7 +374,7 @@
 				{
 					id: "7C57C24A8D85201D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:moonstone_axe"
 						tag: {
 							Damage: 0
@@ -385,7 +385,7 @@
 				{
 					id: "139C4D78DD1277AE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:moonstone_hoe"
 						tag: {
 							Damage: 0
@@ -700,7 +700,7 @@
 				{
 					id: "0E4427FFDCF83625"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:moonstone_ring"
 						tag: {
 							Damage: 0
@@ -728,7 +728,7 @@
 				{
 					id: "591AB2A0E90CB276"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:bluemoon_shortsword"
 						tag: {
 							Damage: 0
@@ -739,7 +739,7 @@
 				{
 					id: "2BE931C23BD724AA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:bluemoon_greatsword"
 						tag: {
 							Damage: 0
@@ -767,7 +767,7 @@
 				{
 					id: "48DCD09A0A871EE1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:moonlight_shortsword"
 						tag: {
 							Damage: 0
@@ -778,7 +778,7 @@
 				{
 					id: "31E88B4250AF1603"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:moonlight_greatsword"
 						tag: {
 							Damage: 0
@@ -806,7 +806,7 @@
 				{
 					id: "0EE46D035D5886AF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:pure_moonlight_greatsword"
 						tag: {
 							Damage: 0
@@ -817,7 +817,7 @@
 				{
 					id: "1910E447A65C9C8D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:arkenplate"
 						tag: {
 							Damage: 0
@@ -845,7 +845,7 @@
 				{
 					id: "3330062EEDC11DBF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:sting"
 						tag: {
 							Damage: 0
@@ -873,7 +873,7 @@
 				{
 					id: "6A3CBE5453333526"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:holy_moonlight_sword"
 						tag: {
 							Damage: 0
@@ -910,7 +910,7 @@
 				{
 					id: "5649B5CDF8BB6B50"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:soul_robes_helmet"
 						tag: {
 							Damage: 0
@@ -921,7 +921,7 @@
 				{
 					id: "6A71F59AAFD3935A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:soul_robes_chestplate"
 						tag: {
 							Damage: 0
@@ -932,7 +932,7 @@
 				{
 					id: "641B177AD45121D7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:soul_robes_leggings"
 						tag: {
 							Damage: 0
@@ -943,7 +943,7 @@
 				{
 					id: "7168072F6467F5F5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:soul_robes_boots"
 						tag: {
 							Damage: 0
@@ -965,7 +965,7 @@
 				{
 					id: "63E92BDC88AD4592"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:soul_ingot_helmet"
 						tag: {
 							Damage: 0
@@ -976,7 +976,7 @@
 				{
 					id: "0B459A223EE30EF9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:soul_ingot_chestplate"
 						tag: {
 							Damage: 0
@@ -987,7 +987,7 @@
 				{
 					id: "089071964A13E0AF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:soul_ingot_leggings"
 						tag: {
 							Damage: 0
@@ -998,7 +998,7 @@
 				{
 					id: "5E841A8AF66821B2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:soul_ingot_boots"
 						tag: {
 							Damage: 0
@@ -1108,7 +1108,7 @@
 				{
 					id: "12FCE823DC1B9709"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:soul_reaper"
 						tag: {
 							Damage: 0
@@ -1147,7 +1147,7 @@
 		{
 			dependencies: ["5BBEA076163E9742"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "soulsweapons:forlorn_scythe"
 				tag: {
 					Damage: 0
@@ -1166,7 +1166,7 @@
 				{
 					id: "130983AA27EBCBA4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:forlorn_scythe"
 						tag: {
 							Damage: 0
@@ -1177,7 +1177,7 @@
 				{
 					id: "724E5AF7D3EE0217"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:forlorn_helmet"
 						tag: {
 							Damage: 0
@@ -1188,7 +1188,7 @@
 				{
 					id: "376CD00D16BFDAC0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:forlorn_chestplate"
 						tag: {
 							Damage: 0
@@ -1199,7 +1199,7 @@
 				{
 					id: "1EB5383ADD37BFBB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:forlorn_leggings"
 						tag: {
 							Damage: 0
@@ -1210,7 +1210,7 @@
 				{
 					id: "484B99A403B988F8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:forlorn_boots"
 						tag: {
 							Damage: 0
@@ -1238,7 +1238,7 @@
 				{
 					id: "3C3EA4799654A7C5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:lich_bane"
 						tag: {
 							Damage: 0
@@ -1266,7 +1266,7 @@
 				{
 					id: "26236BC9E760C601"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:comet_spear"
 						tag: {
 							Damage: 0
@@ -1294,7 +1294,7 @@
 				{
 					id: "0BB2566384B8CB65"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:galeforce"
 						tag: {
 							Damage: 0
@@ -1322,7 +1322,7 @@
 				{
 					id: "1FBB3E61F002F6EF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:draugr"
 						tag: {
 							Damage: 0
@@ -1350,7 +1350,7 @@
 				{
 					id: "1AAE21BC4558A2E2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:bloodthirster"
 						tag: {
 							Damage: 0
@@ -1378,7 +1378,7 @@
 				{
 					id: "2A92003A9D6C3D9E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:darkin_blade"
 						tag: {
 							Damage: 0
@@ -1406,7 +1406,7 @@
 				{
 					id: "159C32B1CD284732"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:darkin_scythe_pre"
 						tag: {
 							Damage: 0
@@ -1434,7 +1434,7 @@
 				{
 					id: "441B3B29B090F522"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:leviathan_axe"
 						tag: {
 							Damage: 0
@@ -1462,7 +1462,7 @@
 				{
 					id: "2D0F143F09693BD0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:withered_wabbajack"
 						tag: {
 							Damage: 0
@@ -1490,7 +1490,7 @@
 				{
 					id: "693BD128F78FBEE5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:mjolnir"
 						tag: {
 							Damage: 0
@@ -1518,7 +1518,7 @@
 				{
 					id: "264B1D976D37ADF7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:nightfall"
 						tag: {
 							Damage: 0
@@ -1546,7 +1546,7 @@
 				{
 					id: "2382683DB44BBBD8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:freyr_sword"
 						tag: {
 							Damage: 0
@@ -1574,7 +1574,7 @@
 				{
 					id: "4F1CB2F7656D15FF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:darkin_scythe"
 						tag: {
 							Damage: 0
@@ -1595,7 +1595,7 @@
 				{
 					id: "56FE853A6653238B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:shadow_assassin_scythe"
 						tag: {
 							Damage: 0
@@ -1640,7 +1640,7 @@
 				{
 					id: "6EBA34B797CBB667"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:chaos_crown"
 						tag: {
 							Damage: 0
@@ -1651,7 +1651,7 @@
 				{
 					id: "1C9DDD39F9E3EEC1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:chaos_robes"
 						tag: {
 							Damage: 0

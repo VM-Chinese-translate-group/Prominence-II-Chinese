@@ -7,11 +7,7 @@
 	id: "7539C31213D86E55"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "prominent:textures/text/the_basics.png"
 			rotation: 0.0d
 			width: 2.504166666666667d
@@ -19,11 +15,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "prominent:textures/text/storage.png"
 			rotation: 0.0d
 			width: 2.504166666666667d
@@ -31,11 +23,7 @@
 			y: -4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 4.0d
-			hover: [ ]
 			image: "prominent:textures/other/prominent_logo.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -43,11 +31,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "prominent:textures/text/welcome.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -55,12 +39,8 @@
 			y: 2.0d
 		}
 		{
-			click: ""
 			color: 11250603
-			corner: false
-			dev: false
 			height: 7.311518324607329d
-			hover: [ ]
 			image: "prominent:textures/text/prominence-desc.png"
 			rotation: 0.0d
 			width: 10.5d
@@ -114,7 +94,7 @@
 				{
 					id: "4184344EFBA63388"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "c:crops"
@@ -202,7 +182,7 @@
 				{
 					id: "17209749B99F5873"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "c:chests"
@@ -248,7 +228,7 @@
 				{
 					id: "524D333C37CC1E78"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "travelersbackpack:standard"
 						tag: { }
 					}
@@ -287,7 +267,7 @@
 			dependencies: ["002FC90E5914D9C2"]
 			description: [""]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/other/skellak.png"
@@ -377,7 +357,7 @@
 			dependencies: ["33961F7EE650AA60"]
 			description: ["{ftbquests.chapter.getting_started.quests10.description}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "tiered:textures/gui/anvil_tab_icon.png"
@@ -457,7 +437,7 @@
 				"{ftbquests.chapter.getting_started.quests12.description13}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "simplyskills:textures/mob_effect/undying.png"
@@ -485,7 +465,7 @@
 				"{ftbquests.chapter.getting_started.quests13.description2}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "emi_loot:textures/gui/random_book.png"
@@ -513,7 +493,7 @@
 				"{ftbquests.chapter.getting_started.quests14.description2}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "emi_loot:textures/gui/random_book.png"

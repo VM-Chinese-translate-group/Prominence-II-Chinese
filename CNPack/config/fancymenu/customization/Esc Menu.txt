@@ -280,7 +280,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Teleport to The Timekeep
+  label = 传送到Timekeep
   navigatable = true
   widget_active_state_requirement_container_identifier = b933fe2f-d121-4037-8b3d-a4efb1ef5f9f-1740556345271
   [loading_requirement_container_meta:b933fe2f-d121-4037-8b3d-a4efb1ef5f9f-1740556345271] = [groups:][instances:]
@@ -338,7 +338,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Disconnect
+  label = 断开连接
   navigatable = true
   widget_active_state_requirement_container_identifier = 9fe386dd-67b8-4532-82f3-fa5d14211f90-1740556345271
   [loading_requirement_container_meta:9fe386dd-67b8-4532-82f3-fa5d14211f90-1740556345271] = [groups:][instances:]

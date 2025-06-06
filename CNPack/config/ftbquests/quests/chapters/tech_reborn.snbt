@@ -53,7 +53,7 @@
 				{
 					id: "34D264E11AE94E6E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:treetap"
 						tag: {
 							Damage: 0
@@ -1131,12 +1131,12 @@
 					xp: 100
 				}
 			]
-			subtitle: "[\"\",\"Can be found in \",{\"text\":\"The End\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"45D9C9CD7B2568A0\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[]}},\".\"]"
+			subtitle: "{ftbquests.chapter.tech_reborn.quests45.subtitle}"
 			tasks: [
 				{
 					id: "6A1248D8D9D0D60A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1977,7 +1977,7 @@
 				{
 					id: "5CE6032CC87B34F1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:silicon"
@@ -2005,7 +2005,7 @@
 				{
 					id: "0AF35CD2565EEA8F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:beryllium"
@@ -2093,7 +2093,7 @@
 					icon: "techreborn:iridium_ore"
 					id: "06B0300A6DEE26B1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2182,7 +2182,7 @@
 				{
 					id: "7EB84992550383DB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:mercury"
@@ -2353,7 +2353,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "[\"\",\"对于某些人来说，机器的配置系统可能会让人感到畏惧。但这里为需要的人提供一份简要入门指南。\",\"\n\",\"\n\",\"要打开配置系统，你需要在任何支持该功能的科技复兴机器界面左侧点击扳手图标。然后按下你想配置的槽位，这会弹出一个窗口显示该侧当前的配置状态。接着，点击你想配置的侧面以循环切换输入、输出和禁用模式。你还可以勾选自动输入或自动输出选项，让机器从配置侧相邻的物品栏中推送/提取物品。\",\"\n\",\"\n\",\"如果你需要视频形式的指导 \",{\"text\":\" 点击此处 \",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=ZPFeYfYnbZ8\"}},\"观看模组创作者制作的关于该系统的Youtube短视频。\"]"
+			subtitle: "{ftbquests.chapter.tech_reborn.quests93.subtitle}"
 			tasks: [
 				{
 					id: "7F660A99AE621E58"
@@ -2444,7 +2444,7 @@
 				{
 					id: "5F81C31F20D5C3FF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:lithium"
@@ -2604,7 +2604,7 @@
 				{
 					id: "4A1E3052BA466275"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:helium"
@@ -2624,7 +2624,7 @@
 				{
 					id: "25A4B89E70351DEC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:helium3"
@@ -2924,7 +2924,7 @@
 				{
 					id: "3B3E16367B5812BD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:rock_cutter"
 						tag: {
 							Enchantments: [
@@ -3041,7 +3041,7 @@
 		{
 			dependencies: ["54636677E54B866A"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "techreborn:cell"
 				tag: {
 					fluid: "techreborn:deuterium"
@@ -3066,7 +3066,7 @@
 				{
 					id: "1D57F91C9BB9BDD0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:electrolyzed_water"
@@ -3077,7 +3077,7 @@
 				{
 					id: "3DACC8581655E639"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "indrev:hydrogen_still"
@@ -3088,7 +3088,7 @@
 				{
 					id: "0473DB90779BB954"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:deuterium"
@@ -3116,7 +3116,7 @@
 				{
 					id: "45796A556B155191"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "techreborn:cell"
 						tag: {
 							fluid: "techreborn:tritium"
@@ -3130,7 +3130,7 @@
 		}
 		{
 			id: "458F77D5647A05A9"
-			subtitle: "[\"\",\"可以在 \",{\"text\":\"末地\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"45D9C9CD7B2568A0\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[]}},\"找到。\"]"
+			subtitle: "{ftbquests.chapter.tech_reborn.quests126.subtitle}"
 			tasks: [
 				{
 					id: "1B7DF5ACF6C0B3CE"

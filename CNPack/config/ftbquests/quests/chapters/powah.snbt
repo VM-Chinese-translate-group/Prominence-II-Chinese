@@ -108,7 +108,7 @@
 				{
 					id: "6166A7A7A3D373D3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:wrench"
 						tag: {
 							PowahWrenchNBT: { }
@@ -1469,7 +1469,7 @@
 				{
 					id: "146A5CDD2739CF08"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_starter"
 						tag: { }
 					}
@@ -1493,7 +1493,7 @@
 				{
 					id: "67B6D1008137F05A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_basic"
 						tag: { }
 					}
@@ -1517,7 +1517,7 @@
 				{
 					id: "65832D45AAB4DF40"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_hardened"
 						tag: { }
 					}
@@ -1541,7 +1541,7 @@
 				{
 					id: "6EA847EE93EC17D6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_blazing"
 						tag: { }
 					}
@@ -1565,7 +1565,7 @@
 				{
 					id: "33CB82FECA01089D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_niotic"
 						tag: { }
 					}
@@ -1589,7 +1589,7 @@
 				{
 					id: "7C758E401D832798"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_spirited"
 						tag: { }
 					}
@@ -1613,7 +1613,7 @@
 				{
 					id: "526B44A242E86190"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "powah:battery_nitro"
 						tag: { }
 					}

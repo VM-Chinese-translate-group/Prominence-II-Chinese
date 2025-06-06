@@ -6,11 +6,7 @@
 	id: "75316E8D631F174C"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "simplyswords:item/twisted_blade"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,7 +24,7 @@
 				"{ftbquests.chapter.simply_swords.quests0.description2}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "simplyswords:runic_grimoire"
@@ -139,7 +135,7 @@
 				{
 					id: "5C78E6FA3E4F93CB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:runefused_gem"
 						tag: { }
 					}
@@ -180,7 +176,7 @@
 				{
 					id: "1F673D38D2BBDA24"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:netherfused_gem"
 						tag: { }
 					}
@@ -206,7 +202,7 @@
 				{
 					id: "0D8720163BD20211"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "simplyswords:uniques"
@@ -276,7 +272,7 @@
 				{
 					id: "4084E23C5A3D5F45"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:extended_fire_resistance"
@@ -290,7 +286,7 @@
 				{
 					id: "25E1716F6BED844C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:brimstone_claymore"
 						tag: {
 							Damage: 0
@@ -301,7 +297,7 @@
 				{
 					id: "500FFB155670A2FF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:emberblade"
 						tag: {
 							Damage: 0
@@ -312,7 +308,7 @@
 				{
 					id: "41D22B752B03E087"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:molten_edge"
 						tag: {
 							Damage: 0
@@ -352,7 +348,7 @@
 				{
 					id: "40DF72334515BC94"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:watcher_claymore"
 						tag: {
 							Damage: 0
@@ -363,7 +359,7 @@
 				{
 					id: "686651C9E831A57C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:watching_warglaive"
 						tag: {
 							Damage: 0
@@ -374,7 +370,7 @@
 				{
 					id: "417154DBE628ABFB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:soulrender"
 						tag: {
 							Damage: 0
@@ -385,7 +381,7 @@
 				{
 					id: "7F660EA57A5763F5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:soulstealer"
 						tag: {
 							Damage: 0
@@ -425,7 +421,7 @@
 				{
 					id: "160CA89905A2A539"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:frostfall"
 						tag: {
 							Damage: 0
@@ -436,7 +432,7 @@
 				{
 					id: "68AC2EDC4090A9EC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:icewhisper"
 						tag: {
 							Damage: 0
@@ -447,7 +443,7 @@
 				{
 					id: "515E3D929FD2B507"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:arcanethyst"
 						tag: {
 							Damage: 0
@@ -475,7 +471,7 @@
 				{
 					id: "0F8DD51E27AD3B4A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:dormant_relic"
 						tag: {
 							Damage: 0
@@ -513,7 +509,7 @@
 				{
 					id: "70287F102D2FE077"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:righteous_relic"
 						tag: {
 							Damage: 0
@@ -550,7 +546,7 @@
 				{
 					id: "7B79D2A0339B4CFC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:tainted_relic"
 						tag: {
 							Damage: 0
@@ -592,7 +588,7 @@
 				{
 					id: "1CECDA302A1F41AE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:sunfire"
 						tag: {
 							Damage: 0
@@ -635,7 +631,7 @@
 				{
 					id: "31C29D8D28776CF2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:harbinger"
 						tag: {
 							Damage: 0
@@ -675,7 +671,7 @@
 				{
 					id: "7732EAA92E6455BA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:stormbringer"
 						tag: {
 							Damage: 0
@@ -686,7 +682,7 @@
 				{
 					id: "3FD56B75FF607307"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:thunderbrand"
 						tag: {
 							Damage: 0
@@ -697,7 +693,7 @@
 				{
 					id: "4F9D18F59CA26A5C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:storms_edge"
 						tag: {
 							Damage: 0
@@ -727,7 +723,7 @@
 				{
 					id: "29B2ACA54FE67117"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:strong_warding"
@@ -741,7 +737,7 @@
 				{
 					id: "068033145A55BB5F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:shadowsting"
 						tag: {
 							Damage: 0
@@ -760,7 +756,7 @@
 				{
 					id: "30860BB894D93405"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:lingering_potion"
 						tag: {
 							Potion: "minecraft:long_poison"
@@ -784,7 +780,7 @@
 				{
 					id: "4B5E527B4C808313"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "simplyswords:toxic_longsword"
 						tag: {
 							Damage: 0

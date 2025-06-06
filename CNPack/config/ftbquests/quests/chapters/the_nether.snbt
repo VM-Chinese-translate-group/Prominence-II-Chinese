@@ -7,11 +7,7 @@
 	id: "0D7FF8F037EFF568"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.5d
-			hover: [ ]
 			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
 			rotation: 0.0d
 			width: 3.5d
@@ -33,7 +29,7 @@
 				{
 					id: "40CCAD2EFE886731"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:long_fire_resistance"
@@ -146,7 +142,7 @@
 				{
 					id: "1D8B697841671F20"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "soulsweapons:withered_wabbajack"
 						tag: {
 							Damage: 0

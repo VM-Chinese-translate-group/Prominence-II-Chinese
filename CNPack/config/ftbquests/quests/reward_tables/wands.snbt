@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "wizards:wand_arcane"
 				tag: {
 					Damage: 0
@@ -14,7 +14,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "wizards:wand_fire"
 				tag: {
 					Damage: 0
@@ -23,7 +23,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "wizards:wand_frost"
 				tag: {
 					Damage: 0

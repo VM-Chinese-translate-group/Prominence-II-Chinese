@@ -223,7 +223,7 @@
 				{
 					id: "29C82905199F8FC8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit_helmet"
 						tag: {
 							Damage: 0
@@ -234,7 +234,7 @@
 				{
 					id: "644D71D73E5152F0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit"
 						tag: {
 							BotariumData: { }
@@ -246,7 +246,7 @@
 				{
 					id: "7B67B744B3EE792A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit_pants"
 						tag: {
 							Damage: 0
@@ -257,7 +257,7 @@
 				{
 					id: "79C7891BFF20EA3C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit_boots"
 						tag: {
 							Damage: 0
@@ -322,7 +322,7 @@
 				{
 					id: "33016A1A150998FA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:tier_4_rocket"
 						tag: {
 							BotariumData: { }
@@ -363,7 +363,7 @@
 				"2EC5D59686B97A9F"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ad_astra:oxygen_tank"
 				tag: {
 					BotariumData: { }
@@ -384,7 +384,7 @@
 					count: 8L
 					id: "28B1C0389F298FC6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:oxygen_tank"
 						tag: {
 							BotariumData: { }
@@ -404,7 +404,7 @@
 					count: 2
 					id: "5931AEF125050E20"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:oxygen_tank"
 						tag: {
 							BotariumData: { }

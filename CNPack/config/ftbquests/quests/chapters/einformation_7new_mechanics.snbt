@@ -3,8 +3,10 @@
 	default_quest_shape: ""
 	filename: "einformation_7new_mechanics"
 	group: "5EA21B61C2E147CB"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "tiered:textures/gui/anvil_tab_icon.png"
@@ -13,11 +15,7 @@
 	id: "701CA1F978CFB569"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "simplyswords:item/emberblade_layer"
 			rotation: 0.0d
 			width: 0.016666666666666666d
@@ -25,11 +23,7 @@
 			y: -0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "ftblibrary:icons/blank"
 			rotation: 0.0d
 			width: 0.1d
@@ -37,12 +31,8 @@
 			y: 14.5d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "5728EF143DC9B7DB"
-			dev: false
 			height: 0.84d
-			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
@@ -50,12 +40,8 @@
 			y: 0.142857142857153d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "080F23071FA8CFC9"
-			dev: false
 			height: 0.84d
-			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
@@ -63,12 +49,8 @@
 			y: -1.357142857142847d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "01F49526727B35F1"
-			dev: false
 			height: 0.84d
-			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
@@ -76,12 +58,8 @@
 			y: 6.142857142857153d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "0DFD6849156C0709"
-			dev: false
 			height: 0.84d
-			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
@@ -89,12 +67,8 @@
 			y: 3.285714285714292d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "1079F098AE98FCF6"
-			dev: false
 			height: 0.84d
-			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
@@ -102,12 +76,8 @@
 			y: 0.10714285714286831d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "1F1202929D2C5195"
-			dev: false
 			height: 0.84d
-			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
@@ -115,12 +85,8 @@
 			y: -2.892857142857146d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "53391B7A86496FCB"
-			dev: false
 			height: 0.84d
-			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
@@ -128,12 +94,8 @@
 			y: 1.8571428571428683d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "6A594976300D5DCC"
-			dev: false
 			height: 0.84d
-			hover: [ ]
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
@@ -141,12 +103,8 @@
 			y: -1.6428571428571317d
 		}
 		{
-			click: ""
-			corner: false
 			dependency: "74BA5C6954FEFCE8"
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "minecraft:block/campfire_fire"
 			rotation: 0.0d
 			width: 1.0d
@@ -165,7 +123,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests0.description2}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:shield"
 				tag: {
 					Damage: 0
@@ -204,7 +162,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests1.description6}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:netherite_sword"
 				tag: {
 					Damage: 0
@@ -240,7 +198,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests2.description4}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:icons/info_gray"
@@ -282,9 +240,9 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description14}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "tiered:textures/gui/anvil_tab_icon.png"
@@ -316,7 +274,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests4.description6}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "fwaystones:item/empty_waystone_scroll"
@@ -344,9 +302,9 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests5.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "minecraft:textures/gui/sprites/hud/heart/frozen_hardcore_full.png"
@@ -376,9 +334,9 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests6.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ranged_weapon:textures/mob_effect/damage.png"
@@ -407,7 +365,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests7.description2}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/icon/talent_tree/attack_speed.png"
@@ -436,7 +394,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests8.description2}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/icon/talent_tree/attack.png"
@@ -469,7 +427,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests9.description6}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/icon/talent_tree/defense.png"
@@ -500,7 +458,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests10.description4}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/icon/talent_tree/health.png"
@@ -538,7 +496,7 @@
 			tasks: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "prominent:textures/icon/talent_tree/magic_type/arcane.png"
@@ -551,7 +509,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "prominent:textures/icon/talent_tree/magic_type/fire.png"
@@ -564,7 +522,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "prominent:textures/icon/talent_tree/magic_type/frost.png"
@@ -577,7 +535,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "prominent:textures/icon/talent_tree/magic_type/lightning.png"
@@ -608,7 +566,7 @@
 			tasks: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "prominent:textures/icon/talent_tree/magic_type/holy.png"
@@ -621,7 +579,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "prominent:textures/icon/talent_tree/magic_type/soul.png"
@@ -653,7 +611,7 @@
 			tasks: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "prominent:textures/icon/talent_tree/magic_type/unholy.png"
@@ -666,7 +624,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "prominent:textures/icon/talent_tree/magic_type/blood.png"
@@ -690,9 +648,10 @@
 				"479F0EDD5681A06D"
 			]
 			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests14.description}"]
-			hide: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "simplyskills:textures/mob_effect/magic_circle.png"
@@ -723,9 +682,9 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests15.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/icon/talent_tree/lethality.png"
@@ -757,9 +716,9 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests16.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "simplyskills:icons/prom_compat/rune_of_stars"
@@ -772,7 +731,7 @@
 				{
 					id: "593697F7F7CB984A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:staff_wizard"
 						tag: {
 							Damage: 0
@@ -795,9 +754,9 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests17.description3}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests17.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/icon/talent_tree/supernova/speed.png"
@@ -829,7 +788,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests18.description6}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/icon/talent_tree/archery.png"
@@ -842,7 +801,7 @@
 				{
 					id: "537674E6436DC13B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "archers:auto_fire_hook_attachables"
@@ -868,7 +827,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests19.description6}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/icon/talent_tree/spell_critical.png"
@@ -896,7 +855,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests20.description2}"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "prominent:textures/icon/talent_tree/boot.png"
@@ -927,9 +886,9 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests21.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "bewitchment:textures/mob_effect/enchanted.png"
@@ -1023,10 +982,10 @@
 				"6A594976300D5DCC"
 				"6B8B4323E13AB3E9"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "the_bumblezone:item/essence/knowing"
@@ -1038,7 +997,7 @@
 				{
 					exclude_from_claim_all: true
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "the_bumblezone:item/essence/knowing"
@@ -1087,7 +1046,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1104,7 +1063,7 @@
 				{
 					id: "0FD8935EA9C1F668"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_helmet"
 						tag: {
 							Damage: 0
@@ -1115,7 +1074,7 @@
 				{
 					id: "171B6CE657EE7A18"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_chestplate"
 						tag: {
 							Damage: 0
@@ -1126,7 +1085,7 @@
 				{
 					id: "267A79D48739B564"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_leggings"
 						tag: {
 							Damage: 0
@@ -1137,7 +1096,7 @@
 				{
 					id: "2B0E79F0989DD746"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_boots"
 						tag: {
 							Damage: 0
@@ -1148,7 +1107,7 @@
 				{
 					id: "373563C79A1DDD0E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:diamond_kite_shield"
 						tag: {
 							Damage: 0
@@ -1188,7 +1147,7 @@
 				{
 					id: "00165336640EEECC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_strength"
@@ -1198,7 +1157,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1215,7 +1174,7 @@
 				{
 					id: "0312CC52D893C4BE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:warrior_armor_head"
 						tag: {
 							Damage: 0
@@ -1226,7 +1185,7 @@
 				{
 					id: "7D24437AC6703538"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:warrior_armor_chest"
 						tag: {
 							Damage: 0
@@ -1237,7 +1196,7 @@
 				{
 					id: "768A5105FC2B8FD8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:warrior_armor_legs"
 						tag: {
 							Damage: 0
@@ -1248,7 +1207,7 @@
 				{
 					id: "0471DE5E9038FA84"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:warrior_armor_feet"
 						tag: {
 							Damage: 0
@@ -1265,7 +1224,7 @@
 				{
 					id: "1E21A277D16B449A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_axe"
 						tag: {
 							Damage: 0
@@ -1303,7 +1262,7 @@
 				{
 					auto: "enabled"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1316,7 +1275,7 @@
 				{
 					auto: "enabled"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1333,7 +1292,7 @@
 				{
 					id: "0A2AEE5ACC8E1059"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:wizard_robe_head"
 						tag: {
 							Damage: 0
@@ -1344,7 +1303,7 @@
 				{
 					id: "465444467D38732D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:wizard_robe_chest"
 						tag: {
 							Damage: 0
@@ -1355,7 +1314,7 @@
 				{
 					id: "4FB4C1BD0A49F9E2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:wizard_robe_legs"
 						tag: {
 							Damage: 0
@@ -1366,7 +1325,7 @@
 				{
 					id: "2BCD2493ECE81DD2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:wizard_robe_feet"
 						tag: {
 							Damage: 0
@@ -1377,7 +1336,7 @@
 				{
 					id: "3178F744F0C11E2F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:wand_novice"
 						tag: {
 							Damage: 0
@@ -1408,7 +1367,7 @@
 					count: 3
 					id: "184096CBEA061C50"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:long_poison"
@@ -1419,7 +1378,7 @@
 				{
 					auto: "enabled"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1432,7 +1391,7 @@
 				{
 					auto: "enabled"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1449,7 +1408,7 @@
 				{
 					id: "7FD3F530C813C541"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:diamond_sword"
 						tag: {
 							Damage: 0
@@ -1460,7 +1419,7 @@
 				{
 					id: "39B521BBBA93DDE6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:rogue_armor_head"
 						tag: {
 							Damage: 0
@@ -1471,7 +1430,7 @@
 				{
 					id: "3CC809698CC254EE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:rogue_armor_chest"
 						tag: {
 							Damage: 0
@@ -1482,7 +1441,7 @@
 				{
 					id: "2EFB811C612051F1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:rogue_armor_legs"
 						tag: {
 							Damage: 0
@@ -1493,7 +1452,7 @@
 				{
 					id: "399C7A3B5D5526B7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:rogue_armor_feet"
 						tag: {
 							Damage: 0
@@ -1529,7 +1488,7 @@
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1546,7 +1505,7 @@
 				{
 					id: "16DE019B98CAF8D3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:archer_armor_head"
 						tag: {
 							Damage: 0
@@ -1557,7 +1516,7 @@
 				{
 					id: "793BB7A4760C94DD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:archer_armor_chest"
 						tag: {
 							Damage: 0
@@ -1568,7 +1527,7 @@
 				{
 					id: "6C63C0147F3D6706"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:archer_armor_legs"
 						tag: {
 							Damage: 0
@@ -1579,7 +1538,7 @@
 				{
 					id: "3F824AD15BE13D42"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:archer_armor_feet"
 						tag: {
 							Damage: 0
@@ -1595,7 +1554,7 @@
 				{
 					id: "5157A50DDC652D9F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:mechanic_shortbow"
 						tag: {
 							Damage: 0
@@ -1623,12 +1582,12 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests28.description6}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests28.description7}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "09CE7EB3045D5136"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1675,7 +1634,7 @@
 				{
 					id: "6B00CF76A118782A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:fire_robe_head"
 						tag: {
 							Damage: 0
@@ -1688,7 +1647,7 @@
 					consume_items: false
 					id: "7F63DDEA6A420F6E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:arcane_robe_head"
 						tag: {
 							Damage: 0
@@ -1700,7 +1659,7 @@
 				{
 					id: "7907391AD4491937"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:frost_robe_head"
 						tag: {
 							Damage: 0
@@ -1712,7 +1671,7 @@
 				{
 					id: "7A98B39FF71CA47C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:fire_blade"
 						tag: {
 							Damage: 0
@@ -1724,7 +1683,7 @@
 				{
 					id: "77C1C17602E87F0A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:arcane_blade"
 						tag: {
 							Damage: 0
@@ -1736,7 +1695,7 @@
 				{
 					id: "3197451530F7213B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:frost_blade"
 						tag: {
 							Damage: 0
@@ -1762,12 +1721,12 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests29.description6}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests29.description7}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2A4B84F063C78B09"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1808,7 +1767,7 @@
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1831,7 +1790,7 @@
 				{
 					id: "73D7F38F58340891"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:diamond_holy_staff"
 						tag: {
 							Damage: 0
@@ -1847,7 +1806,7 @@
 				{
 					id: "650032F5E71EC47A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:priest_robe_head"
 						tag: {
 							Damage: 0
@@ -1858,7 +1817,7 @@
 				{
 					id: "7081002E04CCE384"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:priest_robe_chest"
 						tag: {
 							Damage: 0
@@ -1869,7 +1828,7 @@
 				{
 					id: "19808ADC01DD9E2D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:priest_robe_legs"
 						tag: {
 							Damage: 0
@@ -1880,7 +1839,7 @@
 				{
 					id: "191102B94E38E735"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:priest_robe_feet"
 						tag: {
 							Damage: 0
@@ -1916,7 +1875,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -1933,7 +1892,7 @@
 				{
 					id: "0EF87BC5330A4760"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersive_melodies:flute"
 						tag: { }
 					}
@@ -1942,7 +1901,7 @@
 				{
 					id: "5C099415129268AA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersive_melodies:bagpipe"
 						tag: { }
 					}
@@ -1951,7 +1910,7 @@
 				{
 					id: "7F64C7463D5F83C8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersive_melodies:didgeridoo"
 						tag: { }
 					}
@@ -1960,7 +1919,7 @@
 				{
 					id: "796B72159F06686E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersive_melodies:lute"
 						tag: { }
 					}
@@ -1969,7 +1928,7 @@
 				{
 					id: "09D0B07619A6FAC9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersive_melodies:piano"
 						tag: { }
 					}
@@ -1978,7 +1937,7 @@
 				{
 					id: "60A440DEC33D7227"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersive_melodies:triangle"
 						tag: { }
 					}
@@ -1987,7 +1946,7 @@
 				{
 					id: "65A88890B2679DF5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersive_melodies:trumpet"
 						tag: { }
 					}
@@ -1996,7 +1955,7 @@
 				{
 					id: "108EB0F5CA0F59BC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcdw:crossbow_harp_crossbow"
 						tag: {
 							Damage: 0
@@ -2030,13 +1989,13 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests32.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5814C5C80022A343"
 			min_required_dependencies: 1
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -2058,7 +2017,7 @@
 				{
 					id: "4C2AD845F237C2B6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:staff_netherite_frost"
 						tag: {
 							Damage: 0
@@ -2069,7 +2028,7 @@
 				{
 					id: "61E8F8B8CD2AF605"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:frost_robe_head"
 						tag: {
 							Damage: 0
@@ -2080,7 +2039,7 @@
 				{
 					id: "763CB6FE9DE2F74D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:frost_robe_chest"
 						tag: {
 							Damage: 0
@@ -2091,7 +2050,7 @@
 				{
 					id: "334E3B659B2CD4EE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:frost_robe_legs"
 						tag: {
 							Damage: 0
@@ -2102,7 +2061,7 @@
 				{
 					id: "663E2B44F64512D4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:frost_robe_feet"
 						tag: {
 							Damage: 0
@@ -2124,12 +2083,12 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests33.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "74B7050CA824F281"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -2151,7 +2110,7 @@
 				{
 					id: "132ACD232230B79B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:staff_netherite_arcane"
 						tag: {
 							Damage: 0
@@ -2162,7 +2121,7 @@
 				{
 					id: "35767BCFF531FD94"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:arcane_robe_head"
 						tag: {
 							Damage: 0
@@ -2173,7 +2132,7 @@
 				{
 					id: "36E36DE73E38C02A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:arcane_robe_chest"
 						tag: {
 							Damage: 0
@@ -2184,7 +2143,7 @@
 				{
 					id: "61AB07E54E960DB0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:arcane_robe_legs"
 						tag: {
 							Damage: 0
@@ -2195,7 +2154,7 @@
 				{
 					id: "77C619D2734ED9C5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:arcane_robe_feet"
 						tag: {
 							Damage: 0
@@ -2218,12 +2177,12 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests34.description4}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests34.description5}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0002A96D1F886FB3"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -2240,7 +2199,7 @@
 				{
 					id: "6CBFCA994BCDE8F3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:assassin_armor_head"
 						tag: {
 							Damage: 0
@@ -2251,7 +2210,7 @@
 				{
 					id: "60B452A91AB80D2A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:assassin_armor_chest"
 						tag: {
 							Damage: 0
@@ -2262,7 +2221,7 @@
 				{
 					id: "1B3122964C40D5C0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:assassin_armor_legs"
 						tag: {
 							Damage: 0
@@ -2273,7 +2232,7 @@
 				{
 					id: "6554A462C34F2D01"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:assassin_armor_feet"
 						tag: {
 							Damage: 0
@@ -2298,12 +2257,12 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests35.description6}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests35.description7}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "18899F26D6DB2F47"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -2320,7 +2279,7 @@
 				{
 					id: "2313360072A422CA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:netherite_shortbow"
 						tag: {
 							Damage: 0
@@ -2332,7 +2291,7 @@
 				{
 					id: "0E8281191A6CF13A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:netherite_rapid_crossbow"
 						tag: {
 							Damage: 0
@@ -2344,7 +2303,7 @@
 				{
 					id: "00711CCC7DD7B0B7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:ranger_armor_head"
 						tag: {
 							Damage: 0
@@ -2355,7 +2314,7 @@
 				{
 					id: "2CC053A70ECDE946"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:ranger_armor_chest"
 						tag: {
 							Damage: 0
@@ -2366,7 +2325,7 @@
 				{
 					id: "501ADF7426D3B28B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:ranger_armor_legs"
 						tag: {
 							Damage: 0
@@ -2377,7 +2336,7 @@
 				{
 					id: "3E42C1DF6ABAF7D4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:ranger_armor_feet"
 						tag: {
 							Damage: 0
@@ -2402,12 +2361,12 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests36.description6}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests36.description7}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2D18A81E45594603"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -2424,7 +2383,7 @@
 				{
 					id: "19346C903BB29B45"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:ranger_armor_head"
 						tag: {
 							Damage: 0
@@ -2435,7 +2394,7 @@
 				{
 					id: "4B5696718E0BA10E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:ranger_armor_chest"
 						tag: {
 							Damage: 0
@@ -2446,7 +2405,7 @@
 				{
 					id: "29BC538B6D6436F3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:ranger_armor_legs"
 						tag: {
 							Damage: 0
@@ -2457,7 +2416,7 @@
 				{
 					id: "644442AE295ED11E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:ranger_armor_feet"
 						tag: {
 							Damage: 0
@@ -2468,7 +2427,7 @@
 				{
 					id: "1F45D33474D2FC08"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:netherite_longbow"
 						tag: {
 							Damage: 0
@@ -2480,7 +2439,7 @@
 				{
 					id: "11CA4D0FDFF886C8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:netherite_heavy_crossbow"
 						tag: {
 							Damage: 0
@@ -2492,7 +2451,7 @@
 				{
 					id: "459D7828B7778F5A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcdw:crossbow_veiled_crossbow"
 						tag: {
 							Damage: 0
@@ -2522,12 +2481,12 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests37.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "22E0D946A9D81F02"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -2544,7 +2503,7 @@
 				{
 					id: "0A97E4FEECF57F0E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mutantmonsters:mutant_skeleton_chestplate"
 						tag: {
 							Damage: 0
@@ -2555,7 +2514,7 @@
 				{
 					id: "32939CDB080A22B8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:crystal_shortbow"
 						tag: {
 							Damage: 0
@@ -2567,7 +2526,7 @@
 				{
 					id: "585D70DC4C15A36C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:ruby_rapid_crossbow"
 						tag: {
 							Damage: 0
@@ -2598,12 +2557,12 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests38.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "43C641771CB69C88"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -2620,7 +2579,7 @@
 				{
 					id: "3D597CEF74187A82"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:crystal_longbow"
 						tag: {
 							Damage: 0
@@ -2632,7 +2591,7 @@
 				{
 					id: "26453CB050FF0316"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:ruby_heavy_crossbow"
 						tag: {
 							Damage: 0
@@ -2667,13 +2626,13 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests39.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3D78B8D241B53C2A"
 			min_required_dependencies: 1
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -2690,7 +2649,7 @@
 				{
 					id: "65FCDBF3D31E3A54"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:prior_robe_head"
 						tag: {
 							Damage: 0
@@ -2701,7 +2660,7 @@
 				{
 					id: "3578246741F3AF01"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:prior_robe_chest"
 						tag: {
 							Damage: 0
@@ -2712,7 +2671,7 @@
 				{
 					id: "6B9D0760A4DE911C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:prior_robe_legs"
 						tag: {
 							Damage: 0
@@ -2723,7 +2682,7 @@
 				{
 					id: "359D43F1FDCB0A65"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:prior_robe_feet"
 						tag: {
 							Damage: 0
@@ -2734,7 +2693,7 @@
 				{
 					id: "10C3DF770B3C85BE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:netherite_holy_staff"
 						tag: {
 							Damage: 0
@@ -2764,7 +2723,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description7}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description8}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1079F098AE98FCF6"
 			min_required_dependencies: 1
 			rewards: [
@@ -2781,7 +2740,7 @@
 				{
 					id: "1B154C7824A4877A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:netherite_ranger_armor_head"
 						tag: {
 							Damage: 0
@@ -2792,7 +2751,7 @@
 				{
 					id: "543E865FF18CF317"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:netherite_ranger_armor_chest"
 						tag: {
 							Damage: 0
@@ -2803,7 +2762,7 @@
 				{
 					id: "0F344081EA393881"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:netherite_ranger_armor_legs"
 						tag: {
 							Damage: 0
@@ -2814,7 +2773,7 @@
 				{
 					id: "6605EB1DB10EE660"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archers:netherite_ranger_armor_feet"
 						tag: {
 							Damage: 0
@@ -2860,12 +2819,12 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests41.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4DEDEC176C36CFD0"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -2887,7 +2846,7 @@
 				{
 					id: "7C69DACDA816EE79"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:staff_netherite_fire"
 						tag: {
 							Damage: 0
@@ -2898,7 +2857,7 @@
 				{
 					id: "459BBBAB550600AC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:fire_robe_head"
 						tag: {
 							Damage: 0
@@ -2909,7 +2868,7 @@
 				{
 					id: "0D33E13D41AA3314"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:fire_robe_chest"
 						tag: {
 							Damage: 0
@@ -2920,7 +2879,7 @@
 				{
 					id: "3BEED45BC95596FB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:fire_robe_legs"
 						tag: {
 							Damage: 0
@@ -2931,7 +2890,7 @@
 				{
 					id: "38ACB00D4A357F20"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:fire_robe_feet"
 						tag: {
 							Damage: 0
@@ -2956,7 +2915,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests42.description7}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4B450D0E26363D54"
 			rewards: [
 				{
@@ -2967,7 +2926,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -2984,7 +2943,7 @@
 				{
 					id: "0610720EC628217C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:netherite_helmet"
 						tag: {
 							Damage: 0
@@ -2995,7 +2954,7 @@
 				{
 					id: "29535C21FB9F6FC4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:netherite_chestplate"
 						tag: {
 							Damage: 0
@@ -3006,7 +2965,7 @@
 				{
 					id: "6DCC25069B4DF0C6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:netherite_leggings"
 						tag: {
 							Damage: 0
@@ -3017,7 +2976,7 @@
 				{
 					id: "3B1F49743156A5F4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:netherite_boots"
 						tag: {
 							Damage: 0
@@ -3028,7 +2987,7 @@
 				{
 					id: "2837E131ADC9C3C7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:netherite_kite_shield"
 						tag: {
 							Damage: 0
@@ -3051,7 +3010,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests43.description4}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests43.description5}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "42068E429EB7B74F"
 			rewards: [
 				{
@@ -3062,7 +3021,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -3079,7 +3038,7 @@
 				{
 					id: "02099611A2B1A294"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "advancednetherite:netherite_diamond_helmet"
 						tag: {
 							Damage: 0
@@ -3090,7 +3049,7 @@
 				{
 					id: "7D09F2F7F67BB211"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "advancednetherite:netherite_diamond_chestplate"
 						tag: {
 							Damage: 0
@@ -3101,7 +3060,7 @@
 				{
 					id: "1BD3CCF50342D71B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "advancednetherite:netherite_diamond_leggings"
 						tag: {
 							Damage: 0
@@ -3112,7 +3071,7 @@
 				{
 					id: "03FC14F28F5D6914"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "advancednetherite:netherite_diamond_boots"
 						tag: {
 							Damage: 0
@@ -3148,7 +3107,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description3}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "080F23071FA8CFC9"
 			min_required_dependencies: 1
 			rewards: [
@@ -3165,7 +3124,7 @@
 				{
 					id: "3B9A27A979E70E11"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mythicupgrades:sapphire_helmet"
 						tag: {
 							Damage: 0
@@ -3176,7 +3135,7 @@
 				{
 					id: "65443C59FC715DF0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mythicupgrades:sapphire_chestplate"
 						tag: {
 							Damage: 0
@@ -3187,7 +3146,7 @@
 				{
 					id: "31ED630D7CF605E0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mythicupgrades:sapphire_leggings"
 						tag: {
 							Damage: 0
@@ -3198,7 +3157,7 @@
 				{
 					id: "72187D782F7CAD6C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mythicupgrades:sapphire_boots"
 						tag: {
 							Damage: 0
@@ -3209,7 +3168,7 @@
 				{
 					id: "1BDBEBA46642A85A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "prominent:fyralath"
 						tag: {
 							Damage: 0
@@ -3222,7 +3181,7 @@
 				{
 					id: "1519A8729A6F8854"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "prominent:frostmourne"
 						tag: {
 							Damage: 0
@@ -3251,13 +3210,13 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests45.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "59C45FA337989B0C"
 			min_required_dependencies: 1
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -3274,7 +3233,7 @@
 				{
 					id: "0C642D20C079F5C7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:ruby_holy_staff"
 						tag: {
 							Damage: 0
@@ -3301,7 +3260,7 @@
 			dependencies: ["59C45FA337989B0C"]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests46.description}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5728EF143DC9B7DB"
 			min_required_dependencies: 1
 			rewards: [
@@ -3318,7 +3277,7 @@
 				{
 					id: "3D7208463E97F22F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "prominent:ekavar_staff"
 						tag: {
 							Damage: 0
@@ -3329,7 +3288,7 @@
 				{
 					id: "2A22AC684642D5D3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:netherite_prior_robe_head"
 						tag: {
 							Damage: 0
@@ -3340,7 +3299,7 @@
 				{
 					id: "7AACD44289F7CC03"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:netherite_prior_robe_chest"
 						tag: {
 							Damage: 0
@@ -3351,7 +3310,7 @@
 				{
 					id: "5CE5FAEC767F8D97"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:netherite_prior_robe_legs"
 						tag: {
 							Damage: 0
@@ -3362,7 +3321,7 @@
 				{
 					id: "6BD15B397B162AE0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "paladins:netherite_prior_robe_feet"
 						tag: {
 							Damage: 0
@@ -3384,13 +3343,13 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests47.description2}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests47.description3}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "71EDD24DAB210B44"
 			min_required_dependencies: 1
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -3407,7 +3366,7 @@
 				{
 					id: "3ED62E8F96814510"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:staff_smaragdant_frost"
 						tag: {
 							Damage: 0
@@ -3439,13 +3398,13 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests48.description2}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests48.description3}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0F83B1AC3CB766C9"
 			min_required_dependencies: 1
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -3462,7 +3421,7 @@
 				{
 					id: "7BF684560B170F7C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:staff_ruby_fire"
 						tag: {
 							Damage: 0
@@ -3494,13 +3453,13 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests49.description2}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests49.description3}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6399A78B0AF2BCAE"
 			min_required_dependencies: 1
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -3518,7 +3477,7 @@
 				{
 					id: "2ADC7596FC7E13CC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:staff_crystal_arcane"
 						tag: {
 							Damage: 0
@@ -3554,7 +3513,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests50.description6}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests50.description7}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0DFD6849156C0709"
 			min_required_dependencies: 1
 			rewards: [
@@ -3571,7 +3530,7 @@
 				{
 					id: "2BD7D9868A4DE3C5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:magus_head"
 						tag: {
 							Damage: 0
@@ -3582,7 +3541,7 @@
 				{
 					id: "4868CA287BD86545"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:magus_chest"
 						tag: {
 							Damage: 0
@@ -3593,7 +3552,7 @@
 				{
 					id: "5A636C23E9F492B1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:magus_legs"
 						tag: {
 							Damage: 0
@@ -3604,7 +3563,7 @@
 				{
 					id: "5C35C7599985640B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:magus_feet"
 						tag: {
 							Damage: 0
@@ -3615,7 +3574,7 @@
 				{
 					id: "40508F32A11A73AD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "prominent:supernova"
 						tag: {
 							Damage: 0
@@ -3636,7 +3595,7 @@
 				{
 					id: "658142AF4622B6D9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "prominent:azhar"
 						tag: {
 							Damage: 0
@@ -3649,7 +3608,7 @@
 				{
 					id: "68FEBA665489253A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "prominent:frostmourne"
 						tag: {
 							Damage: 0
@@ -3662,7 +3621,7 @@
 				{
 					id: "28C2343C4343EC34"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:frozen_head"
 						tag: {
 							Damage: 0
@@ -3689,7 +3648,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests51.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "01F49526727B35F1"
 			min_required_dependencies: 1
 			rewards: [
@@ -3706,7 +3665,7 @@
 				{
 					id: "5E7CDB8B53AE46A6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "prominent:ekavar_staff"
 						tag: {
 							Damage: 0
@@ -3717,7 +3676,7 @@
 				{
 					id: "02932AA3D096AABA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:netherite_arcane_robe_head"
 						tag: {
 							Damage: 0
@@ -3729,7 +3688,7 @@
 				{
 					id: "79D1A56FFB55E37F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:netherite_fire_robe_head"
 						tag: {
 							Damage: 0
@@ -3741,7 +3700,7 @@
 				{
 					id: "5A5B42DEFF31212E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:netherite_frost_robe_head"
 						tag: {
 							Damage: 0
@@ -3762,12 +3721,12 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests52.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4898E3ED8141DAFC"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -3784,7 +3743,7 @@
 				{
 					id: "39938277BAE69746"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:runegleaming_head"
 						tag: {
 							Damage: 0
@@ -3795,7 +3754,7 @@
 				{
 					id: "388A94E4FC7172E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:runefrosted_head"
 						tag: {
 							Damage: 0
@@ -3806,7 +3765,7 @@
 				{
 					id: "63CB1C58C68ED7B6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:runeblazing_head"
 						tag: {
 							Damage: 0
@@ -3846,12 +3805,12 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests53.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0A4309730B50D9FF"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -3868,7 +3827,7 @@
 				{
 					id: "7A736CD3205D2748"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:staff_wizard"
 						tag: {
 							Damage: 0
@@ -3890,13 +3849,13 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests54.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5F05B907376828B4"
 			rewards: [
 				{
 					id: "238E240A6DF2EAA5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_strength"
@@ -3906,7 +3865,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -3923,7 +3882,7 @@
 				{
 					id: "10858C192A21EF7E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:berserker_armor_head"
 						tag: {
 							Damage: 0
@@ -3934,7 +3893,7 @@
 				{
 					id: "01B796C89163927E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:berserker_armor_chest"
 						tag: {
 							Damage: 0
@@ -3945,7 +3904,7 @@
 				{
 					id: "427A6F6C8E418C1C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:berserker_armor_legs"
 						tag: {
 							Damage: 0
@@ -3956,7 +3915,7 @@
 				{
 					id: "6AC0768320EC60FE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "rogues:berserker_armor_feet"
 						tag: {
 							Damage: 0
@@ -3976,13 +3935,13 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests55.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "34D8C4E35FD1D7A4"
 			rewards: [
 				{
 					id: "387374FEB26537C7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_strength"
@@ -3992,7 +3951,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -4009,7 +3968,7 @@
 				{
 					id: "13FB88C958CFAD8B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:dark_armor_helmet"
 						tag: {
 							Damage: 0
@@ -4020,7 +3979,7 @@
 				{
 					id: "4587A1C14998CCBA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:dark_armor_chestplate"
 						tag: {
 							Damage: 0
@@ -4031,7 +3990,7 @@
 				{
 					id: "5A03A0F74DFE9B50"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:dark_armor_leggings"
 						tag: {
 							Damage: 0
@@ -4042,7 +4001,7 @@
 				{
 					id: "03A675FA7C32C98F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:dark_armor_boots"
 						tag: {
 							Damage: 0
@@ -4075,12 +4034,12 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests56.description4}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests56.description5}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "40C4C4072277E160"
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -4098,7 +4057,7 @@
 					consume_items: false
 					id: "19EF118E1C05D21C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archon:fist_of_fury"
 						tag: {
 							Damage: 0
@@ -4137,13 +4096,13 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests57.description7}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests57.description8}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3A72E538D2A5B20C"
 			rewards: [
 				{
 					id: "0C6B22AE469862B0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_strength"
@@ -4153,7 +4112,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -4170,7 +4129,7 @@
 				{
 					id: "301E199F256584F4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:initiate_armor_head"
 						tag: {
 							Damage: 0
@@ -4181,7 +4140,7 @@
 				{
 					id: "6F19462FB1D6A522"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:initiate_armor_chest"
 						tag: {
 							Damage: 0
@@ -4192,7 +4151,7 @@
 				{
 					id: "33FEFD41EF618745"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:initiate_armor_legs"
 						tag: {
 							Damage: 0
@@ -4203,7 +4162,7 @@
 				{
 					id: "6C498B05ED087681"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:initiate_armor_feet"
 						tag: {
 							Damage: 0
@@ -4214,7 +4173,7 @@
 				{
 					id: "4759AEDE88114156"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:diamond_runeblade"
 						tag: {
 							Damage: 0
@@ -4226,7 +4185,7 @@
 				{
 					id: "33381AFD51B1899E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:great_diamond_runeblade"
 						tag: {
 							Damage: 0
@@ -4249,13 +4208,13 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests58.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "75E616FE0AAF9EF5"
 			rewards: [
 				{
 					id: "03DE2BE0C439DE80"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_strength"
@@ -4265,7 +4224,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -4287,7 +4246,7 @@
 				{
 					id: "1323F85F0824F095"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:plaguebringer_armor_head"
 						tag: {
 							Damage: 0
@@ -4298,7 +4257,7 @@
 				{
 					id: "169E5257AA5DF53C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:plaguebringer_armor_chest"
 						tag: {
 							Damage: 0
@@ -4309,7 +4268,7 @@
 				{
 					id: "3DE453EC1DDD06D4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:plaguebringer_armor_legs"
 						tag: {
 							Damage: 0
@@ -4320,7 +4279,7 @@
 				{
 					id: "4A6E81A0A9254B68"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:plaguebringer_armor_feet"
 						tag: {
 							Damage: 0
@@ -4352,13 +4311,13 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests59.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3B1F2D1CFA02F922"
 			rewards: [
 				{
 					id: "693641A763B1318C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_strength"
@@ -4368,7 +4327,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -4390,7 +4349,7 @@
 				{
 					id: "413979489FB1F99F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:frozen_champion_armor_head"
 						tag: {
 							Damage: 0
@@ -4401,7 +4360,7 @@
 				{
 					id: "438DC5CBDE64E489"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:frozen_champion_armor_chest"
 						tag: {
 							Damage: 0
@@ -4412,7 +4371,7 @@
 				{
 					id: "39356F2DBCA12691"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:frozen_champion_armor_legs"
 						tag: {
 							Damage: 0
@@ -4423,7 +4382,7 @@
 				{
 					id: "1EE0821B7E16CC9C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:frozen_champion_armor_feet"
 						tag: {
 							Damage: 0
@@ -4434,7 +4393,7 @@
 				{
 					id: "05519A6AEB9F52B6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:aeternium_runeblade"
 						tag: {
 							Damage: 0
@@ -4469,7 +4428,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests60.description2}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests60.description3}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1F1202929D2C5195"
 			min_required_dependencies: 1
 			rewards: [
@@ -4486,7 +4445,7 @@
 				{
 					id: "7B49C7D7CEA608F9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "prominent:frostmourne"
 						tag: {
 							Damage: 0
@@ -4497,7 +4456,7 @@
 				{
 					id: "3F860E7A21105E90"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:icebound_knight_armor_head"
 						tag: {
 							Damage: 0
@@ -4509,7 +4468,7 @@
 				{
 					id: "7E0BB9D906AA006A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:plaguebringer_armor_head"
 						tag: {
 							Damage: 0
@@ -4532,7 +4491,7 @@
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests61.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4CF644BC0920C177"
 			rewards: [
 				{
@@ -4543,7 +4502,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ironchests:item/lock"
@@ -4571,7 +4530,7 @@
 				{
 					id: "3817D7122445295D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:great_ruby_runeaxe"
 						tag: {
 							Damage: 0
@@ -4592,7 +4551,7 @@
 				{
 					id: "7F877107BCC2176A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:crimson_knight_armor_head"
 						tag: {
 							Damage: 0
@@ -4603,7 +4562,7 @@
 				{
 					id: "094B106B9F770F30"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:crimson_knight_armor_chest"
 						tag: {
 							Damage: 0
@@ -4614,7 +4573,7 @@
 				{
 					id: "1B86CE99AD823295"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:crimson_knight_armor_legs"
 						tag: {
 							Damage: 0
@@ -4625,7 +4584,7 @@
 				{
 					id: "525C7DEFBB9650A6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "death_knights:crimson_knight_armor_feet"
 						tag: {
 							Damage: 0
@@ -4650,7 +4609,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests62.description2}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests62.description3}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "53391B7A86496FCB"
 			min_required_dependencies: 1
 			rewards: [
@@ -4667,7 +4626,7 @@
 				{
 					id: "6D9D9481130AA919"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "prominent:fury_of_a_thousand_fists"
 						tag: {
 							Damage: 0
@@ -4686,7 +4645,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "accessories:textures/gui/group/unknown.png"
@@ -4700,7 +4659,7 @@
 				{
 					id: "1095B6816693242F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:souldancer_robe_helmet"
 						tag: {
 							Damage: 0
@@ -4711,7 +4670,7 @@
 				{
 					id: "25A44A4646F5754A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:souldancer_robe_chestplate"
 						tag: {
 							Damage: 0
@@ -4722,7 +4681,7 @@
 				{
 					id: "7E986DBE97C6A526"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:souldancer_robe_leggings"
 						tag: {
 							Damage: 0
@@ -4733,7 +4692,7 @@
 				{
 					id: "12F59EBA7E872C0C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:souldancer_robe_boots"
 						tag: {
 							Damage: 0
@@ -4757,7 +4716,7 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests63.description4}"
 				"{ftbquests.chapter.einformation_7new_mechanics.quests63.description5}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6A594976300D5DCC"
 			min_required_dependencies: 1
 			rewards: [
@@ -4774,7 +4733,7 @@
 				{
 					id: "0ADE139E6E4D04D6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "prominent:thunderwrath"
 						tag: {
 							Damage: 0
@@ -4785,7 +4744,7 @@
 				{
 					id: "5057F08B49B2BCD2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:titans_shroud_helmet"
 						tag: {
 							Damage: 0
@@ -4796,7 +4755,7 @@
 				{
 					id: "20F8871AA234CF03"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:titans_shroud_chestplate"
 						tag: {
 							Damage: 0
@@ -4807,7 +4766,7 @@
 				{
 					id: "7F50DDDE1D6F5E08"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:titans_shroud_leggings"
 						tag: {
 							Damage: 0
@@ -4818,7 +4777,7 @@
 				{
 					id: "149F950ED33D3C10"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcda:titans_shroud_boots"
 						tag: {
 							Damage: 0
@@ -4843,20 +4802,21 @@
 				"1079F098AE98FCF6"
 			]
 			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests64.description}"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "emi_loot:textures/gui/sword_diamond.png"
 				}
 			}
 			id: "74BA5C6954FEFCE8"
+			invisible: true
 			rewards: [
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftblibrary:icons/info"
