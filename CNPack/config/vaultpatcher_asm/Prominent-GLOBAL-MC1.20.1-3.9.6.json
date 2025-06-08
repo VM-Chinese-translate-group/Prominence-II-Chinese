@@ -9,45 +9,6 @@
   },
   {
     "target_class": {
-      "name": "elocindev.prominent.ProminentLoader",
-      "method": "isValidManifest",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "ElocinDev",
-        "value": "vp.prominent.prominentloader.1"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.ProminentLoader",
-      "method": "isValidManifest",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Prominence II RPG Hasturian Era",
-        "value": "vp.prominent.prominentloader.2"
-      }
-    ]
-  },
-  {
-    "target_class": {
-      "name": "elocindev.prominent.ProminentLoader",
-      "method": "isValidManifest",
-      "local": ""
-    },
-    "pairs": [
-      {
-        "key": "Hello there! You seem to be using Prominent in a modified version of Prominence (or another pack that isn't Prominence). Keep in mind this is not allowed, both Prominent and Prominence have a strict license that does not allow redistribution or public modification, making this either an illegal reupload of Prominence, or a an illegal redistribution of Prominent, as Prominent is not available through CurseForge, so you're also breaking the license of Prominent by overriding the file within the modpack. ",
-        "value": "vp.prominent.prominentloader.3"
-      }
-    ]
-  },
-  {
-    "target_class": {
       "name": "elocindev.prominent.item.ArtifactUpgrader",
       "method": "method_7851",
       "local": ""
