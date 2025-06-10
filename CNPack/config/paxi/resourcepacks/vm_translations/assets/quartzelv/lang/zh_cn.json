@@ -4,7 +4,7 @@
     "itemGroup.quartzelv.quartz_elevator":"石英电梯",
     "text.autoconfig.quartzelv.option.displayParticles":"显示粒子效果",
     "text.autoconfig.quartzelv.option.isPlayerOnly":"仅限玩家",
-    "text.autoconfig.quartzelv.option.mixTypes":"在不同的电梯之间移动",
+    "text.autoconfig.quartzelv.option.mixTypes":"在不同种类电梯之间移动",
     "text.autoconfig.quartzelv.option.quartzElevatorDistance":"石英电梯的最大距离",
     "text.autoconfig.quartzelv.option.smoothQuartzElevatorDistance":"平滑石英电梯的最大距离",
     "text.autoconfig.quartzelv.title":"石英电梯"

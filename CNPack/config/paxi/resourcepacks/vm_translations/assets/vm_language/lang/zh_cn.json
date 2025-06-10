@@ -107,7 +107,7 @@
     "puffish_skills.categories.infusion_corruption.description.2":"§7将腐化的亵渎符文注入霜之哀伤中。你的腐化度越高，造成的伤害就越高。\n\n§fꦙ §9+20§7腐化度\n§f §2+5§7亵渎法术强度",
     "puffish_skills.categories.infusion_corruption.description.3":"§7当你借灵魂法术打出一拳时，该伤害值随你的腐化度而增加。\n\n§fꦘ §9+20§7 腐化度",
     "puffish_skills.categories.infusion_corruption.description.4":"§7让菲莱拉兹能够施放腐化之力。其持有者被腐化侵蚀越深，攻击伤害就越高。\n\n§fꦘ §9+20§7腐化度",
-    "puffish_skills.categories.infusion_corruption.description.5":"§7Casting Shadowstep will now instantly grant you 5 stacks of Haste, to feed Gh'aj on your next attack.\n \n§fꦘ §9+20§7 Corruption",
+    "puffish_skills.categories.infusion_corruption.description.5":"§7施放“暗影步”后，你会立即获得5层急迫效果，且下次攻击会让盖什噬取你的能量。\n \n§fꦘ §9+20§7 腐化度",
     "puffish_skills.categories.infusion_corruption.description.6":"§7将你的星辰法术能量浓缩为纯粹的腐化奥秘法术能量。你的腐化度越高，神器造成的伤害就越高。\n\n§fꦙ §9+20§7腐化度\n§f §d+30%§7奥秘法术强度",
     "puffish_skills.categories.infusion_corruption.description.7":"§7集中雷霆之怒的雷电之力，使“蛇蝰族传承”被触发时会短暂眩晕目标。\n\n§6+12%§7雷霆之怒的攻击伤害\n§e+30§7雷电法术强度\n§9+30§7腐化度",
     "puffish_skills.categories.infusion_corruption.title":"§f §9拥抱黑夜",
