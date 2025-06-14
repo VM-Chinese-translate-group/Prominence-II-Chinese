@@ -185,6 +185,10 @@
 			description: [
 				"{ftbquests.chapter.e_spell_books.quests7.description0}"
 				"{ftbquests.chapter.e_spell_books.quests7.description1}"
+				"{ftbquests.chapter.e_spell_books.quests7.description2}"
+				"{ftbquests.chapter.e_spell_books.quests7.description3}"
+				"{ftbquests.chapter.e_spell_books.quests7.description4}"
+				"{ftbquests.chapter.e_spell_books.quests7.description5}"
 			]
 			id: "55D2E1055E762E33"
 			shape: "pentagon"
@@ -193,6 +197,16 @@
 				{
 					id: "1B0545C60E16399F"
 					item: "paladins:paladin_spell_book"
+					type: "item"
+				}
+				{
+					id: "4EC5F01ABFBED7BA"
+					item: "spellbladenext:defiance_spell_book"
+					type: "item"
+				}
+				{
+					id: "0F29E2EE6A65CD5B"
+					item: "spellbladenext:vengeance_spell_book"
 					type: "item"
 				}
 			]
