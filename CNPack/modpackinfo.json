@@ -1,11 +1,11 @@
 {
   "modpack": {
     "name": "Prominence II",
-    "version": "v3.1.51",
+    "version": "3.1.51",
     "translation": {
       "url": "https://vmct-cn.top/modpacks/prominence2/",
       "language": "zh_cn",
-      "version": "1.0.0",
+      "version": "3.1.51",
       "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/prominence2.txt",
       "resourcePackName": "VM汉化组模组汉化包1.19及以上"
     }
