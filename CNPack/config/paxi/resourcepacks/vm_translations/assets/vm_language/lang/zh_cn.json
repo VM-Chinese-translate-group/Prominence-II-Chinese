@@ -203,7 +203,7 @@
     "puffish_skills.categories.toughness+20%.title":"§b §3+5%§7盔甲韧性",
     "puffish_skills.categories.warriorSwordfall.description":"§7你在近战攻击时，有概率召唤一把从天而降的熔火之锤，对目标和附近的所有敌人造成火焰法术伤害。\n\n若你选择了命运天赋“战士的虔诚”，此概率翻倍。",
     "puffish_skills.categories.warriorSwordfall.title":"§f §b斯凯拉克的呼唤",
-    "puffish_skills.categories.warriorTwinstrike.description":"§7Master the shadow techniques and become a lethal assassin.\n \n§f §e+35% §7Haste\n \n§9 §9Slice & Dice\n§7Your melee hits have a chance to strike twice.\nThis chance is doubled on one handed weapons.",
+    "puffish_skills.categories.warriorTwinstrike.description":"§7熟习影踪术，成为一名可轻易置人死地的刺客。\n\n§f §e+35%§7攻击速度\n\n§9 §9趁手一掷\n§7你进行近战攻击后，有概率立即再攻击一次。\n若你手持单手武器，此概率翻倍。",
     "puffish_skills.categories.warriorTwinstrike.title":"§b §9影踪术",
     "puffish_skills.categories.wayfarerQuickfire.description":"§7在使用能直接发射弹射物的弓类技能后，进入高度专注状态。\n\n进入专注状态后，你拉弓时的移动速度更加缓慢，且拉满弓所需时间更长，但造成的伤害显著提高。\n\n若使用的是弩，则进入专注状态时改为获得隐匿和劲弓效果。",
     "puffish_skills.categories.wayfarerQuickfire.title":"§f §b绷弦专注",
