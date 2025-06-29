@@ -91,7 +91,7 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "c:brushitems"
+							value: "c:brushes"
 						}
 					}
 					title: "{ftbquests.chapter.collectibles_2.quests4.tasks1.title}"
@@ -1698,8 +1698,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests85.title}"
-			x: -5.5d
-			y: 3.0d
+			x: -14.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2C85CD8FC581F6AD"]
@@ -1720,7 +1720,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests86.title}"
-			x: -14.5d
+			x: -13.5d
 			y: -2.0d
 		}
 		{
@@ -1970,8 +1970,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests97.title}"
-			x: -15.5d
-			y: -2.0d
+			x: -14.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2C85CD8FC581F6AD"]
@@ -2078,7 +2078,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests102.title}"
-			x: -15.5d
+			x: -5.5d
 			y: 3.0d
 		}
 		{
@@ -2121,8 +2121,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests104.title}"
-			x: -14.5d
-			y: 3.0d
+			x: -14.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2C85CD8FC581F6AD"]
@@ -2143,28 +2143,6 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests105.title}"
-			x: -13.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2C85CD8FC581F6AD"]
-			id: "338DC15087012289"
-			rewards: [
-				{
-					id: "4A8616C4C2C01570"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.collectibles_2.quests106.subtitle}"
-			tasks: [
-				{
-					id: "6E8E5AF2A9B06E79"
-					item: "things:broken_watch"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.collectibles_2.quests106.title}"
 			x: -12.5d
 			y: -2.0d
 		}
