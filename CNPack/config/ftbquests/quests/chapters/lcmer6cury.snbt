@@ -94,6 +94,7 @@
 		}
 		{
 			dependencies: ["6E3B8F7F080FA226"]
+			description: ["{ftbquests.chapter.lcmer6cury.quests4.description0}"]
 			id: "5D18309D2D29B509"
 			rewards: [
 				{

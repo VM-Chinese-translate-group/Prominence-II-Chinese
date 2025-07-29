@@ -13,15 +13,14 @@
 			id: "7AF048C0042EFAE9"
 			rewards: [
 				{
-					icon: "vitalize:experience_cubed"
-					id: "019BA3ED0EBFC96A"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
 					id: "72A0C0511EB83457"
 					item: "minecraft:iron_block"
 					type: "item"
+				}
+				{
+					id: "6C3F728E8E3FECFF"
+					type: "xp_levels"
+					xp_levels: 2
 				}
 			]
 			subtitle: "{ftbquests.chapter.l2e3fr37h.quests0.subtitle}"
@@ -47,12 +46,17 @@
 					type: "item"
 				}
 				{
-					id: "159AE5570CC9C6C6"
+					id: "19A78405D4BC8A2D"
 					item: {
 						Count: 1
-						id: "ad_astra:oxygen_tank"
+						id: "ad_astra_giselle_addon:oxygen_can"
 						tag: {
-							BotariumData: { }
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 40500L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
 						}
 					}
 					type: "item"
@@ -79,16 +83,15 @@
 			id: "199092092D21485E"
 			rewards: [
 				{
-					icon: "vitalize:experience_cubed"
-					id: "10D39C505708DB50"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					count: 2
 					id: "01F591407F77D597"
 					item: "ad_astra:steel_block"
 					type: "item"
+				}
+				{
+					id: "1DEE880B5CD30C2B"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "gear"
@@ -236,9 +239,9 @@
 			subtitle: "{ftbquests.chapter.l2e3fr37h.quests6.subtitle}"
 			tasks: [
 				{
-					id: "5FA1A63B000F595E"
-					title: "{ftbquests.chapter.l2e3fr37h.quests6.tasks0.title}"
-					type: "checkmark"
+				dimension: "ad_astra:earth_orbit"
+				id: "0F009658EE91E59B"
+				type: "dimension"
 				}
 			]
 			title: "{ftbquests.chapter.l2e3fr37h.quests6.title}"
@@ -272,15 +275,14 @@
 			id: "670C6423F69F1C9B"
 			rewards: [
 				{
-					icon: "vitalize:experience_cubed"
-					id: "1F6C26BBAB9CFC9D"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "07F8ED2F1DEB90BC"
 					item: "minecraft:iron_block"
 					type: "item"
+				}
+				{
+					id: "2F34A8E99E4ACEC0"
+					type: "xp"
+					xp: 100
 				}
 			]
 			subtitle: "{ftbquests.chapter.l2e3fr37h.quests8.subtitle}"
@@ -306,10 +308,9 @@
 					type: "item"
 				}
 				{
-					icon: "vitalize:experience_cubed"
-					id: "4A6B4B9465E776D5"
-					type: "xp_levels"
-					xp_levels: 3
+					id: "4C7F1C10135DDCCB"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [
@@ -335,10 +336,9 @@
 					type: "item"
 				}
 				{
-					icon: "vitalize:experience_cubed"
-					id: "31AC27B47F3BEA4E"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "0138A95E955B8102"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [
@@ -393,18 +393,20 @@
 		}
 		{
 			dependencies: ["0729E0E98B1F4B93"]
+			description: ["{ftbquests.chapter.l2e3fr37h.quests13.description0}"]
 			id: "20983C3D23B612F3"
+			rewards: [
+				{
+				id: "012704CE4A21EDE5"
+				type: "xp"
+				xp: 100
+				}
+			]
 			tasks: [
 				{
-					id: "2EE2EF27B579AAC7"
-					item: {
-						Count: 1
-						id: "ad_astra:hammer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+				id: "2BC290667A8E6F86"
+				item: "techreborn:compressor"
+				type: "item"
 				}
 			]
 			title: "{ftbquests.chapter.l2e3fr37h.quests13.title}"
@@ -485,18 +487,30 @@
 		{
 			dependencies: ["0FC298D30E5ECCED"]
 			id: "3DA60964C329C153"
+			rewards: [
+				{
+				id: "35C60CF140150771"
+				type: "xp_levels"
+				xp_levels: 5
+				}
+			]
 			tasks: [
 				{
-					count: 2L
-					id: "7F0F6434C64A3BDA"
-					item: {
-						Count: 1
-						id: "ad_astra:oxygen_tank"
-						tag: {
-							BotariumData: { }
+				count: 2L
+				id: "7F8B225E61C23651"
+				item: {
+					Count: 2
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 40500L
+								Fluid: "ad_astra:oxygen"
+							}]
 						}
 					}
-					type: "item"
+				}
+				type: "item"
 				}
 			]
 			x: 10.0d
@@ -517,16 +531,15 @@
 			id: "4368A73BA98E532F"
 			rewards: [
 				{
-					icon: "vitalize:experience_cubed"
-					id: "6F5B0D235B3AF0EC"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					count: 5
 					id: "6845160249D811A8"
 					item: "ad_astra:steel_block"
 					type: "item"
+				}
+				{
+					id: "28879201505E28C8"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			shape: "circle"
@@ -638,6 +651,53 @@
 			title: "{ftbquests.chapter.l2e3fr37h.quests22.title}"
 			x: 1.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["2C786A12D36166AF"]
+			description: ["{ftbquests.chapter.l2e3fr37h.quests23.description0}"]
+			id: "17AB14E88B57FE9B"
+			rewards: [
+				{
+					id: "7DED8BFC93EAAE32"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "5747E913590E5B32"
+					item: "ad_astra:oxygen_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.l2e3fr37h.quests23.subtitle}"
+			tasks: [{
+				id: "6911A41F079A2058"
+				item: {
+					Count: 1
+					id: "ad_astra:zip_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D952DC80615D842"]
+			description: ["{ftbquests.chapter.l2e3fr37h.quests24.description0}"]
+			id: "651D550383356CBF"
+			rewards: [{
+				id: "665C7A2D7A75191F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76127D6F7BF22EC8"
+				item: "ad_astra:radio"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
 		}
 	]
 	title: "{ftbquests.chapter.l2e3fr37h.title}"
