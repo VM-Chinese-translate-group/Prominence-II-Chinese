@@ -24,7 +24,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3
+          python-version: "3"
 
       - name: Install dependencies
         run: |
@@ -111,3 +111,4 @@ jobs:
             error_report.html
           draft: false
           prerelease: true
+
