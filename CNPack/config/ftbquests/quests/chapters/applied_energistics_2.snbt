@@ -1382,6 +1382,11 @@
 					type: "xp_levels"
 					xp_levels: 10
 				}
+				{
+					id: "3657B8A8DCF2CFBC"
+					item: "croptopia:banana"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			tasks: [
@@ -1982,6 +1987,102 @@
 			]
 			x: 9.0d
 			y: 1.0d
+		}
+		{
+			description: ["{ftbquests.chapter.applied_energistics_2.quests81.description}"]
+			id: "3CDD62549F889825"
+			rewards: [
+				{
+					id: "3F9C05B1DDA33360"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "02747441CF9F3548"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "228414D300BB8B5B"
+					item: {
+						Count: 1
+						id: "extendedae:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			description: ["{ftbquests.chapter.applied_energistics_2.quests82.description}"]
+			id: "6C334F83DD405381"
+			rewards: [
+				{
+					id: "5898FDD49A8F25E5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3DE47A03C53306C4"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D22BE939218D105"
+					item: {
+						Count: 1
+						id: "extendedae:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4795979571F1FAEA"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quests83.description}"]
+			id: "42149F10B97E7874"
+			rewards: [
+				{
+					count: 20
+					id: "5E20193D8275DCFC"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "4271832922528BD5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "299E98942127A1FD"
+					item: "ae2:crystal_resonance_generator"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.applied_energistics_2.quests83.title}"
+			x: 0.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.applied_energistics_2.subtitle}"]

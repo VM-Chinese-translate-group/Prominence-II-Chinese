@@ -80,6 +80,7 @@
 				"3A7E9B0ECF32A32B"
 				"7185D67A20B21FFB"
 			]
+			description: ["{ftbquests.chapter.l2e3fr37h.quests2.description}"]
 			id: "199092092D21485E"
 			rewards: [
 				{
@@ -397,9 +398,19 @@
 			id: "20983C3D23B612F3"
 			rewards: [
 				{
-				id: "012704CE4A21EDE5"
-				type: "xp"
-				xp: 100
+					id: "012704CE4A21EDE5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1EEC5357EB7762D0"
+					item: "techreborn:low_voltage_su"
+					type: "item"
+				}
+				{
+					id: "5ED1E5125E91104B"
+					item: "techreborn:solid_fuel_generator"
+					type: "item"
 				}
 			]
 			tasks: [
@@ -447,6 +458,12 @@
 					id: "71D2342FEC2D6092"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "0B1EB454345B160E"
+					item: "techreborn:steel_ingot"
+					type: "item"
 				}
 			]
 			shape: "circle"

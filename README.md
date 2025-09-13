@@ -8,7 +8,7 @@
 
 CurseForge|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
-[链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg)|Fabric|1.20.1 3.1.53hf2|维护中|
+[链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg)|Fabric|1.20.1 3.9.0|维护中|
 
 ---
 

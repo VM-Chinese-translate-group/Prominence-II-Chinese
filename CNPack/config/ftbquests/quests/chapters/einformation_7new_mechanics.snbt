@@ -249,6 +249,20 @@
 				}
 			}
 			id: "61C05AE305488DF5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "317E2316EEFC9AAE"
+					table_id: 3737891217858354553L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44F8556F47340107"
+					table_id: 5228678659320885423L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests3.subtitle}"
 			tasks: [

@@ -1960,14 +1960,17 @@
 					type: "xp"
 					xp: 25
 				}
-			]
-			tasks: [
 				{
-					id: "3CDFABDD807C1515"
-					item: "create:shaft"
+					id: "0836C6687D3C1520"
+					item: "create:andesite_alloy"
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "3CDFABDD807C1515"
+				item: "create:shaft"
+				type: "item"
+			}]
 			x: -3.5d
 			y: -2.0d
 		}

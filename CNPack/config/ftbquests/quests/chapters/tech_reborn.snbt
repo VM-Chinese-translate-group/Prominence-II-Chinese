@@ -1432,6 +1432,11 @@
 					type: "xp"
 					xp: 1000
 				}
+				{
+					id: "1B00B4EF18C0F950"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
 			]
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.tech_reborn.quests55.subtitle}"
@@ -1559,6 +1564,11 @@
 					id: "25521FA4B1BC8EB1"
 					type: "xp"
 					xp: 10000
+				}
+				{
+					id: "6026CF9C2D1DD4C4"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
 				}
 			]
 			size: 1.5d
