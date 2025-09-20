@@ -54,13 +54,19 @@ jobs:
       - name: Commit and Push changes (excluding error report)
         id: commit
         run: |
-          git rm --cached error_report.html || true
-          if [[ -n $(git status -s) ]]; then
+          # 动态创建一个 .gitignore 文件来忽略错误报告
+          # 这是最可靠的方法，可以确保 git add . 不会包含它
+          echo "error_report.html" >> .gitignore
+          
+          # 检查是否存在除 error_report.html 之外的变更
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "检测到翻译文件变更，正在提交..."
             git add .
             git commit -m '从Paratranz同步翻译'
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
           else
+            echo "未检测到翻译文件变更，无需提交。"
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
 
