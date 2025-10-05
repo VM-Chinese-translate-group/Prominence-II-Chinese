@@ -54,11 +54,15 @@ jobs:
       - name: Commit and Push changes (excluding error report)
         id: commit
         run: |
-          # 动态创建一个 .gitignore 文件来忽略错误报告
-          # 这是最可靠的方法，可以确保 git add . 不会包含它
-          echo "error_report.html" >> .gitignore
-          
-          # 检查是否存在除 error_report.html 之外的变更
+          # 检查 .gitignore 文件中是否已存在 "error_report.html"，如果不存在则添加
+          # 使用 grep -qxF 可以精确、安静地进行全行匹配，避免重复添加
+          if ! grep -qxF "error_report.html" .gitignore 2>/dev/null; then
+            echo "将 error_report.html 添加到 .gitignore"
+            echo "error_report.html" >> .gitignore
+          fi
+
+          # 现在 .gitignore 已配置好，可以安全地检查其他文件的变更
+          # 使用 git status --porcelain 可以更精确地捕获变更状态
           if [[ -n $(git status --porcelain) ]]; then
             echo "检测到翻译文件变更，正在提交..."
             git add .
