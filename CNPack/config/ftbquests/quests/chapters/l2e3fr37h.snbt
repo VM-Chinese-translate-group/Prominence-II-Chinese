@@ -452,6 +452,17 @@
 				"670C6423F69F1C9B"
 				"7AF048C0042EFAE9"
 			]
+			description: [
+				"{ftbquests.chapter.l2e3fr37h.quest25.description0}",
+				"",
+				"{ftbquests.chapter.l2e3fr37h.quest25.description2}",
+				"",
+				"{ftbquests.chapter.l2e3fr37h.quest25.description4}",
+				"",
+				"{ftbquests.chapter.l2e3fr37h.quest25.description6}",
+				"",
+				"{ftbquests.chapter.l2e3fr37h.quest25.description8}"
+			]
 			id: "332F08FF38BB4259"
 			rewards: [
 				{

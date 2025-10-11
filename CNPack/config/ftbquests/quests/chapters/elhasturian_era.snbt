@@ -394,13 +394,17 @@
 			hide_until_deps_visible: true
 			icon: "prominent:cinderstone_trophy"
 			id: "5E4919750C5CE35D"
+			rewards: [{
+				id: "698955D6962FE85A"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.elhasturian_era.quests7.subtitle}"
 			tasks: [
 				{
-					id: "539D6D4124775E80"
-					title: "{ftbquests.chapter.elhasturian_era.quests7.tasks0.title}"
-					type: "custom"
+					id: "4E642DE8B7E544A0"
+					type: "checkmark"
 				}
 			]
 			title: "{ftbquests.chapter.elhasturian_era.quests7.title}"
@@ -409,7 +413,8 @@
 		}
 		{
 			dependencies: ["5E4919750C5CE35D"]
-			description: ["https://rpg.prominence.wiki/blog/whats-coming-hasturian-era-v4.0"]
+			description: ["&9https://rpg.prominence.wiki/blog/whats-coming-hasturian-era-v4.0"]
+			icon: "prominent:broken_beacon_of_hope"
 			id: "53E148644BBD5E2F"
 			rewards: [{
 				id: "084B8B62840230CC"
@@ -419,12 +424,13 @@
 			subtitle: "{ftbquests.chapter.elhasturian_era.quests8.description0}"
 			tasks: [{
 				id: "3BD28AF38278E1E3"
-				title: "Blogpost"
+				title: "{ftbquests.chapter.elhasturian_era.quests8.title}"
 				type: "checkmark"
 			}]
+			shape: "octagon"
 			title: "{ftbquests.chapter.elhasturian_era.quests8.title}"
-			x: 7.0d
-			y: 4.0d
+			x: 5.035714285714292d
+			y: 2.6785714285714235d
 		}
 	]
 	title: "{ftbquests.chapter.elhasturian_era.title}"

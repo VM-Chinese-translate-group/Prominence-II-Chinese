@@ -232,6 +232,43 @@
 			x: -7.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			description: [
+				"{ftbquests.chapter.the_nether.quest7.description0}",
+				"",
+				"{ftbquests.chapter.the_nether.quest7.description2}",
+				"",
+				"{ftbquests.chapter.the_nether.quest7.description4}",
+				"",
+				"{ftbquests.chapter.the_nether.quest7.description6}",
+				"{ftbquests.chapter.the_nether.quest7.description7}"
+			]
+			hide_dependency_lines: true
+			id: "1702057B5F68995F"
+			rewards: [
+				{
+					id: "706FFFCC982E2EF4"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "334E39445B57692C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.the_nether.quest7.subtitle}"
+			tasks: [{
+				id: "676A410C4E5D491F"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_nether.quest7.title}"
+			x: -8.0d
+			y: 0.0d
+		}
 	]
 	title: "{ftbquests.chapter.the_nether.title}"
 }
