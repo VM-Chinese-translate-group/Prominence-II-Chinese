@@ -16,15 +16,15 @@
 	quests: [
 		{
 			description: [
-				"&7 To start your Enchanting journey, you know the basics, get an Enchanting Table."
+				"{ftbquests.chapter.eenchanting.quest1.description0}"
 				""
-				"&7 Once using a an enchanting table, will see 3 bars at the bottom of it; Eterna, Quanta and Arcana"
+				"{ftbquests.chapter.eenchanting.quest1.description2}"
 				""
-				"&7 &aEterna&7 - Controls what level your Enchanting Table is at, this changes the cost but also what enchants you can get, EXP level is 2x the Eterna, so 50 Eterna is 100 Lvls needed to enchant."
+				"{ftbquests.chapter.eenchanting.quest1.description4}"
 				""
-				"&7 &4Quanta&7 - Pure chaos, the more you have, the more random everything gets, not recommended to max out."
+				"{ftbquests.chapter.eenchanting.quest1.description6}"
 				""
-				"&7 &5Arcana&7 - This stat changes the rarity, amount of enchants. You dont want max of it to get things like Protection or Sunfire."
+				"{ftbquests.chapter.eenchanting.quest1.description8}"
 			]
 			id: "2F8B1BF5905F954D"
 			rewards: [{
@@ -33,21 +33,21 @@
 				xp_levels: 10
 			}]
 			shape: "pentagon"
-			subtitle: "Further improving your gear"
+			subtitle: "{ftbquests.chapter.eenchanting.quest1.subtitle}"
 			tasks: [{
 				id: "29BBF4C4493B2D31"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			title: "The Enchanting Table"
+			title: "{ftbquests.chapter.eenchanting.quest1.title}"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7To keep going in your journey, your next step is either Seashelves or Hellshelves, This will get you some of your first stats for your Enchanting. You will need 15 in total or a mix of both to get fully started. "
-				"&7Craft a few more of either to infuse them!"
+				"{ftbquests.chapter.eenchanting.quest2.description0}"
+				"{ftbquests.chapter.eenchanting.quest2.description1}"
 			]
 			hide_until_deps_complete: true
 			id: "379C7E6854F4F226"
@@ -56,22 +56,22 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Lets get this started!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest2.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "7CFE22664BFEA884"
 				item: "zenith:seashelf"
 				type: "item"
 			}]
-			title: "Getting Started, Seashelves"
+			title: "{ftbquests.chapter.eenchanting.quest2.title}"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7To keep going in your journey, your next step is either Seashelves or Hellshelves, This will get you some of your first stats for your Enchanting. You will need 15 in total or a mix of both to get fully started. "
-				"&7Craft a few more of either to infuse them!"
+				"{ftbquests.chapter.eenchanting.quest3.description0}"
+				"{ftbquests.chapter.eenchanting.quest3.description1}"
 			]
 			hide_until_deps_complete: true
 			id: "52D4F78DE9C64FF3"
@@ -80,14 +80,14 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Lets get this started!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest3.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "3945BAB14D78B572"
 				item: { Count: 5, id: "zenith:hellshelf" }
 				type: "item"
 			}]
-			title: "Getting Started, Hellshelves"
+			title: "{ftbquests.chapter.eenchanting.quest3.title}"
 			x: 0.5d
 			y: -2.0d
 		}
@@ -97,7 +97,7 @@
 				"379C7E6854F4F226"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&7You're gonna need to make a lot of these too, &45-10&7, though more is always okay, best to overshoot than to not have enough."]
+			description: ["{ftbquests.chapter.eenchanting.quest4.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "2B99DDA42BB7716C"
@@ -106,14 +106,14 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Not as hot as Vaaz"
+			subtitle: "{ftbquests.chapter.eenchanting.quest4.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "44D305E5285AAEE1"
 				item: { Count: 5, id: "zenith:infused_hellshelf" }
 				type: "item"
 			}]
-			title: "Hotter than before"
+			title: "{ftbquests.chapter.eenchanting.quest4.title}"
 			x: 1.0d
 			y: -3.5d
 		}
@@ -123,7 +123,7 @@
 				"379C7E6854F4F226"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&7Craft a couple of these, maybe a couple more for later, &45-10&7 should be enough for the future."]
+			description: ["{ftbquests.chapter.eenchanting.quest5.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "75D6FF466F4DA932"
@@ -132,22 +132,22 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Idk im just the intern"
+			subtitle: "{ftbquests.chapter.eenchanting.quest5.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "4C5147D7218117A8"
 				item: "zenith:infused_seashelf"
 				type: "item"
 			}]
-			title: "Seashelves or Seashells?"
+			title: "{ftbquests.chapter.eenchanting.quest5.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["75D6FF466F4DA932"]
 			description: [
-				"&7You will need at least 2 of any of the following Shelves: Crystaline Seashelves, Heartforged Seashelves, Blazing Hellshelves or Glowing Hellshelves."
-				"&7 This will make 15 Infused Shelves and two of the higher ones, that should get you to 30 Eterna, as long as you followed this"
+				"{ftbquests.chapter.eenchanting.quest6.description0}"
+				"{ftbquests.chapter.eenchanting.quest6.description1}"
 			]
 			id: "55DC0E4792D27682"
 			rewards: [{
@@ -155,7 +155,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Made with love <3"
+			subtitle: "{ftbquests.chapter.eenchanting.quest6.subtitle}"
 			tasks: [{
 				id: "39013B63D1996B34"
 				item: "zenith:heart_seashelf"
@@ -168,8 +168,8 @@
 			dependencies: ["75D6FF466F4DA932"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7You will need at least 2 of any of the following Shelves: Crystaline Seashelves, Heartforged Seashelves, Blazing Hellshelves or Glowing Hellshelves."
-				"&7 This will make 15 Infused Shelves and two of the higher ones, that should get you to 30 Eterna, as long as you followed this"
+				"{ftbquests.chapter.eenchanting.quest7.description0}"
+				"{ftbquests.chapter.eenchanting.quest7.description1}"
 			]
 			id: "4011B9F44111D91E"
 			rewards: [{
@@ -177,7 +177,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Shiny!!!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest7.subtitle}"
 			tasks: [{
 				id: "0250CC346A0DD595"
 				item: "zenith:crystal_seashelf"
@@ -190,8 +190,8 @@
 			dependencies: ["2B99DDA42BB7716C"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7You will need at least 2 of any of the following Shelves: Crystaline Seashelves, Heartforged Seashelves, Blazing Hellshelves or Glowing Hellshelves."
-				"&7 This will make 15 Infused Shelves and two of the higher ones, that should get you to 30 Eterna, as long as you followed this"
+				"{ftbquests.chapter.eenchanting.quest8.description0}"
+				"{ftbquests.chapter.eenchanting.quest8.description1}"
 			]
 			hide_dependent_lines: true
 			id: "760BEB0339ED65A9"
@@ -200,7 +200,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Its getting hot!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest8.subtitle}"
 			tasks: [{
 				id: "15378E2783A5AAB3"
 				item: "zenith:blazing_hellshelf"
@@ -213,8 +213,8 @@
 			dependencies: ["2B99DDA42BB7716C"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7You will need at least 2 of any of the following Shelves: Crystaline Seashelves, Heartforged Seashelves, Blazing Hellshelves or Glowing Hellshelves."
-				"&7 This will make 15 Infused Shelves and two of the higher ones, that should get you to 30 Eterna, as long as you followed this"
+				"{ftbquests.chapter.eenchanting.quest9.description0}"
+				"{ftbquests.chapter.eenchanting.quest9.description1}"
 			]
 			hide_dependent_lines: true
 			id: "7F5414CC388648FC"
@@ -223,7 +223,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "I hope its not Radiation"
+			subtitle: "{ftbquests.chapter.eenchanting.quest9.subtitle}"
 			tasks: [{
 				id: "65876EEF7C4D9EA6"
 				item: "zenith:glowing_hellshelf"
@@ -240,7 +240,7 @@
 				"7F5414CC388648FC"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&7These are your next step, you will learn to hate them, or to love them, depending on if you are still hooked or not. Make sure you take everything from a Ancient city, trust me, you'll need it. Echo shards and will be pretty important in the next step"]
+			description: ["{ftbquests.chapter.eenchanting.quest10.description0}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -250,47 +250,47 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Asleep, but not dead"
+			subtitle: "{ftbquests.chapter.eenchanting.quest10.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "21B4339658E55FEF"
 				item: { Count: 5, id: "zenith:dormant_deepshelf" }
 				type: "item"
 			}]
-			title: "ZZZZZZZZZZZZZZZ"
+			title: "{ftbquests.chapter.eenchanting.quest10.title}"
 			x: 1.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3638B82292E58322"]
-			description: ["&7 Dont worry, they dont bite, they are your next step, mostly used for crafting though, so make as many as you can until you can make about 8!"]
+			description: ["{ftbquests.chapter.eenchanting.quest11.description0}"]
 			id: "181E4D8DC20A161F"
 			rewards: [{
 				id: "1A26975999222863"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "AWOKEN!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest11.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "7DA53A17D1F442CF"
 				item: { Count: 5, id: "zenith:deepshelf" }
 				type: "item"
 			}]
-			title: "The Deeper the Shelf, the deeper your pockets"
+			title: "{ftbquests.chapter.eenchanting.quest11.title}"
 			x: 2.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["181E4D8DC20A161F"]
-			description: ["&7 You will need 8 of these, these and or the other ones to get to where you wanna get, infusions and good enchants. "]
+			description: ["{ftbquests.chapter.eenchanting.quest12.description0}"]
 			id: "14688027AF83AD58"
 			rewards: [{
 				id: "7667E39FE00B63FD"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "A distant sound, as if a heart is pounding somewhere..."
+			subtitle: "{ftbquests.chapter.eenchanting.quest12.subtitle}"
 			tasks: [{
 				id: "415BC1C4DB113498"
 				item: "zenith:echoing_deepshelf"
@@ -301,14 +301,14 @@
 		}
 		{
 			dependencies: ["181E4D8DC20A161F"]
-			description: ["&7 You will need 8 of these, these and or the other ones to get to where you wanna get, infusions and good enchants. "]
+			description: ["{ftbquests.chapter.eenchanting.quest13.description0}"]
 			id: "7BE41C566915CAC0"
 			rewards: [{
 				id: "3C1E9BFF3F769D2E"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "As if it touched something, it shouldn't have..."
+			subtitle: "{ftbquests.chapter.eenchanting.quest13.subtitle}"
 			tasks: [{
 				id: "79ED4BC5C5C5D852"
 				item: "zenith:soul_touched_deepshelf"
@@ -320,11 +320,11 @@
 		{
 			dependencies: ["1B0F69F532F25CED"]
 			description: [
-				"&7A lot of Tomes do a lot of stuff. Here is a short breakdown:"
+				"{ftbquests.chapter.eenchanting.quest14.description0}"
 				""
-				"&7Tomes of scrapping and extraction are mostly used to get enchants off items."
+				"{ftbquests.chapter.eenchanting.quest14.description2}"
 				""
-				"&7The different gear Tomes can be used to get certain enchants only possible on some gearsets or armor pieces, like Featherfalling."
+				"{ftbquests.chapter.eenchanting.quest14.description4}"
 			]
 			id: "3DCC7DFC27102E56"
 			rewards: [
@@ -346,19 +346,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "Tomes"
+			subtitle: "{ftbquests.chapter.eenchanting.quest14.subtitle}"
 			tasks: [{
 				id: "67A155F5E166C842"
 				type: "checkmark"
 			}]
-			title: "What are Tomes?"
+			title: "{ftbquests.chapter.eenchanting.quest14.title}"
 			x: 4.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["5D65F9ABAFC04598"]
 			dependency_requirement: "one_completed"
-			description: ["&7 &4You can infuse Tomes&7, Tomes are great to extract Enchants from gear, splitting them, with, for example a &eAnvil enchanted with Splitting&7, this will make the book split into its components, super handy if you found something cool but the weapon sucks! Make sure to READ them before you use them, some can make you lose the item you are using it on."]
+			description: ["{ftbquests.chapter.eenchanting.quest15.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:enchanting_table"
@@ -369,7 +369,7 @@
 				xp_levels: 20
 			}]
 			shape: "pentagon"
-			subtitle: "Sounds fun, what is that?"
+			subtitle: "{ftbquests.chapter.eenchanting.quest15.subtitle}"
 			tasks: [
 				{
 					count: 3L
@@ -390,33 +390,33 @@
 					type: "item"
 				}
 			]
-			title: "Your First Infusion Setup"
+			title: "{ftbquests.chapter.eenchanting.quest15.title}"
 			x: 4.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["14688027AF83AD58"]
-			description: ["&7Upgrade the Shelves you just made, you will need these for the next step!"]
+			description: ["{ftbquests.chapter.eenchanting.quest16.description0}"]
 			id: "5D65F9ABAFC04598"
 			rewards: [{
 				id: "61E5B6DC54ED44D9"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "A humming..."
+			subtitle: "{ftbquests.chapter.eenchanting.quest16.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "0195AEE90B3A28AD"
 				item: "zenith:echoing_sculkshelf"
 				type: "item"
 			}]
-			title: "The echos from the Deep."
+			title: "{ftbquests.chapter.eenchanting.quest16.title}"
 			x: 3.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
-			description: ["&7Sometimes you encounter items yielding curses, these curses cannot be removed in normal ways, but require a Special Cobweb, otherwise they dont come off."]
+			description: ["{ftbquests.chapter.eenchanting.quest17.description0}"]
 			id: "39501B35F8A9520C"
 			rewards: [
 				{
@@ -431,13 +431,13 @@
 					xp: 100
 				}
 			]
-			subtitle: "Damn it!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest17.subtitle}"
 			tasks: [{
 				id: "1DD01687EDBB66CA"
 				item: "zenith:prismatic_web"
 				type: "item"
 			}]
-			title: "Curses!"
+			title: "{ftbquests.chapter.eenchanting.quest17.title}"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -445,13 +445,13 @@
 			dependencies: ["1B0F69F532F25CED"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7Getting by Dragon's Breath without being a Dentist is hard, there is two ways:"
+				"{ftbquests.chapter.eenchanting.quest18.description0}"
 				""
-				"&7&9Taking it from the dragon during the fight&7. Straightforward, just bring a lot of bottles and capture its breath."
+				"{ftbquests.chapter.eenchanting.quest18.description2}"
 				""
-				"&7&9Alchemist Villagers&7 can sell it aswell, though its a higher Tier trade"
+				"{ftbquests.chapter.eenchanting.quest18.description4}"
 				""
-				"&7A very unreliable way is also looting dungeons, sich as Shiraz, chances are, but never zero."
+				"{ftbquests.chapter.eenchanting.quest18.description6}"
 			]
 			id: "3CC8482AB27413C3"
 			rewards: [{
@@ -459,13 +459,13 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Minty!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest18.subtitle}"
 			tasks: [{
 				id: "306E3015FF1A27CA"
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			title: "Excursion: Dragon's Breath"
+			title: "{ftbquests.chapter.eenchanting.quest18.title}"
 			x: 3.0d
 			y: -10.5d
 		}
@@ -478,14 +478,14 @@
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			subtitle: "EVEN MINTIER"
+			subtitle: "{ftbquests.chapter.eenchanting.quest19.subtitle}"
 			tasks: [{
 				count: 3L
 				id: "0F2CE0A37D163724"
 				item: { Count: 3, id: "zenith:infused_breath" }
 				type: "item"
 			}]
-			title: "Infused Dragon's Breath"
+			title: "{ftbquests.chapter.eenchanting.quest19.title}"
 			x: 3.0d
 			y: -12.0d
 		}
@@ -497,9 +497,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7 This is by far &4the best item&r you can think of for your enchants! &4All enchants, stored&r in one block, even compatible with AE2! What do you want more, just let a Storage bus face it and you will have access to all your favorite Enchants and Curses!"
+				"{ftbquests.chapter.eenchanting.quest20.description0}"
 				""
-				"&7 &4CAN BE MINED&r"
+				"{ftbquests.chapter.eenchanting.quest20.description2}"
 			]
 			hide_dependency_lines: true
 			id: "01683B1B161E67AB"
@@ -518,7 +518,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Holds a lot!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest20.subtitle}"
 			tasks: [{
 				id: "1F1F4DA2AB2D3456"
 				item: "zenith:library"
@@ -529,15 +529,15 @@
 		}
 		{
 			dependencies: ["01683B1B161E67AB"]
-			description: ["&7This does the same, but bigger, fancier too if you ask me."]
+			description: ["{ftbquests.chapter.eenchanting.quest21.description0}"]
 			id: "6E555092C38226CC"
-			subtitle: "And i thought it burned down..."
+			subtitle: "{ftbquests.chapter.eenchanting.quest21.subtitle}"
 			tasks: [{
 				id: "1B100A9D48825486"
 				item: "zenith:ender_library"
 				type: "item"
 			}]
-			title: "The Library of Alexandria"
+			title: "{ftbquests.chapter.eenchanting.quest21.title}"
 			x: 11.5d
 			y: -5.0d
 		}
@@ -547,7 +547,7 @@
 				"5CC063470E38D1AA"
 				"286D2A30B3320935"
 			]
-			description: ["&7You're gonna need this for the Library of Alexandria, most, if not all are also needed for the next step, don't worry."]
+			description: ["{ftbquests.chapter.eenchanting.quest22.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:enchanting_table"
@@ -558,7 +558,7 @@
 				xp_levels: 30
 			}]
 			shape: "pentagon"
-			subtitle: "You're This close to being done!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest22.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -579,7 +579,7 @@
 					type: "item"
 				}
 			]
-			title: "How to enchant *almost* as big as the big guns"
+			title: "{ftbquests.chapter.eenchanting.quest22.title}"
 			x: 11.5d
 			y: -9.0d
 		}
@@ -593,27 +593,27 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Chaotic in nature"
+			subtitle: "{ftbquests.chapter.eenchanting.quest23.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "7CAD7E899B740A3C"
 				item: { Count: 5, id: "zenith:endshelf" }
 				type: "item"
 			}]
-			title: "The last mile - Endshelves"
+			title: "{ftbquests.chapter.eenchanting.quest23.title}"
 			x: 6.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["2684EE4739B501F6"]
-			description: ["&7Similar to the Draconic Endshelves, you will need more of these aswell, best to always make a couple more. End rods can be crafted and found in End Cities, you shouldnt have a issue finding any!"]
+			description: ["{ftbquests.chapter.eenchanting.quest24.description0}"]
 			id: "5CC063470E38D1AA"
 			rewards: [{
 				id: "56673431B588EF62"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Pearly white!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest24.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "168712189D4FFCD1"
@@ -625,46 +625,46 @@
 		}
 		{
 			dependencies: ["2684EE4739B501F6"]
-			description: ["&7Ender Dragon Heads can be found on ships, you will need a couple of these shelves later on, its best if you make about 5-6 if you can spare the heads."]
+			description: ["{ftbquests.chapter.eenchanting.quest25.description0}"]
 			id: "286D2A30B3320935"
 			rewards: [{
 				id: "680672A17BE230CA"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Rawr!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest25.subtitle}"
 			tasks: [{
 				id: "180727F1CD0353E7"
 				item: "zenith:draconic_endshelf"
 				type: "item"
 			}]
-			title: "Draconic Endshelves"
+			title: "{ftbquests.chapter.eenchanting.quest25.title}"
 			x: 9.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["2684EE4739B501F6"]
-			description: ["&7 They are expensive, but you wont get around them, their stats are great and so is their effect. Make a couple aswell if you can spare the resources"]
+			description: ["{ftbquests.chapter.eenchanting.quest26.description0}"]
 			id: "3CBCFFD3B30E10E0"
 			rewards: [{
 				id: "75459C34259B5713"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Bling Bling!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest26.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "79D4CEE65DF64B8D"
 				item: { Count: 2, id: "zenith:treasure_shelf" }
 				type: "item"
 			}]
-			title: "Shiny!"
+			title: "{ftbquests.chapter.eenchanting.quest26.title}"
 			x: 9.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["56C00181CBB95EB0"]
-			description: ["&7Use either setup to infuse charms."]
+			description: ["{ftbquests.chapter.eenchanting.quest27.description0}"]
 			icon: "minecraft:enchanting_table"
 			id: "379E8A63DC6E5A5C"
 			rewards: [{
@@ -672,7 +672,7 @@
 				type: "xp_levels"
 				xp_levels: 20
 			}]
-			subtitle: "Finally!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest27.subtitle}"
 			tasks: [
 				{
 					count: 7L
@@ -698,13 +698,13 @@
 					type: "item"
 				}
 			]
-			title: "Charm Infusion: How to make them Unbreakable I"
+			title: "{ftbquests.chapter.eenchanting.quest27.title}"
 			x: 11.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["56C00181CBB95EB0"]
-			description: ["&7Use either setup to be able to infuse charms!"]
+			description: ["{ftbquests.chapter.eenchanting.quest28.description0}"]
 			icon: "minecraft:enchanting_table"
 			id: "049AF60D64091458"
 			rewards: [{
@@ -712,7 +712,7 @@
 				type: "xp_levels"
 				xp_levels: 20
 			}]
-			subtitle: "Finally!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest28.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -744,13 +744,13 @@
 					type: "item"
 				}
 			]
-			title: "Charm Infusion: How to make them Unbreakable II"
+			title: "{ftbquests.chapter.eenchanting.quest28.title}"
 			x: 13.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["01B622F25CE780AF"]
-			description: ["&7 This is all you need, Max everything. Filter with the Seashelf of Aquatic Filtration, you can have as many as you want, make sure to lower Arcana if you want things like Protection or Class enchants like Sunfire. Its best to bulk enchant and dump everything into a Enchanting Library."]
+			description: ["{ftbquests.chapter.eenchanting.quest29.description0}"]
 			icon: "minecraft:enchanting_table"
 			id: "6D36893D5374B38B"
 			rewards: [
@@ -765,7 +765,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "ENCHANTING MAXIMUM"
+			subtitle: "{ftbquests.chapter.eenchanting.quest29.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -820,13 +820,13 @@
 					type: "item"
 				}
 			]
-			title: "&eTHE MOTHER OF ALL ENCHANTS"
+			title: "{ftbquests.chapter.eenchanting.quest29.title}"
 			x: 15.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["01B622F25CE780AF"]
-			description: ["&7This is the moment you can finally make them unbreakable, like promised before, next two quests show you your best options."]
+			description: ["{ftbquests.chapter.eenchanting.quest30.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "56C00181CBB95EB0"
@@ -836,7 +836,7 @@
 				xp_levels: 5
 			}]
 			shape: "square"
-			subtitle: "Now make them unbreakable!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest30.subtitle}"
 			tasks: [{
 				id: "4D5C7C609F415DBB"
 				item: {
@@ -849,20 +849,20 @@
 				title: "Any #trinkets:hand/charm"
 				type: "item"
 			}]
-			title: "Charms II: Electric Boogaloo"
+			title: "{ftbquests.chapter.eenchanting.quest30.title}"
 			x: 12.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7 Charms are a great way to get longer lasting Potion effects. Keep in mind some are disabled, but most exist. They are always crafted from 3 of the same Potion, they have durability, that means you have a couple options to keep them from breaking:"
+				"{ftbquests.chapter.eenchanting.quest31.description0}"
 				""
-				"&7 - Unbreaking, combined with Mending can make them last quite long."
+				"{ftbquests.chapter.eenchanting.quest31.description2}"
 				""
-				"&7 - Hardening Catalyst, i know there are expensive for you right now, so have one for your charm, choose wisely if you wanna use it on your current one"
+				"{ftbquests.chapter.eenchanting.quest31.description4}"
 				""
-				"&7 - Infusion, you will learn of this at a later point. Follow the Questline a bit more until you are prepared! "
+				"{ftbquests.chapter.eenchanting.quest31.description6}"
 			]
 			id: "0D3EA083E83FE6AF"
 			rewards: [{
@@ -871,7 +871,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Charming!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest31.subtitle}"
 			tasks: [{
 				id: "10EBBFF3F2982BD8"
 				item: {
@@ -884,13 +884,13 @@
 				title: "Any #trinkets:hand/charm"
 				type: "item"
 			}]
-			title: "Charms I"
+			title: "{ftbquests.chapter.eenchanting.quest31.title}"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
-			description: ["&7With the Ender Lead you &4can capture most, if not all passive mobs&r, &ehostiles and other players do not work&7, for that you will need SpatialIO. Use this for your beloved pet, some sheep you wanna bring back to your base or maybe even to fill your Aquarium."]
+			description: ["{ftbquests.chapter.eenchanting.quest32.description0}"]
 			id: "7E791BE2C0D74016"
 			rewards: [{
 				id: "4E675E0EE80B1604"
@@ -904,7 +904,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "This is NOT a Pokeball!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest32.subtitle}"
 			tasks: [{
 				id: "0313B2BB589AD702"
 				item: {
@@ -917,28 +917,28 @@
 				}
 				type: "item"
 			}]
-			title: "Pokeball is trademarked"
+			title: "{ftbquests.chapter.eenchanting.quest32.title}"
 			x: 1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"&7There is a couple items you can use to get more levels, here a list of them:"
+				"{ftbquests.chapter.eenchanting.quest33.description0}"
 				""
-				"&7&9Armor&7: Souldancer, Fully trimmed with Quartz Trim (Random smithing Template + Quartz)."
+				"{ftbquests.chapter.eenchanting.quest33.description2}"
 				""
-				"&7&9Accessories&7: Golden Hook and Superstitious Hat "
+				"{ftbquests.chapter.eenchanting.quest33.description4}"
 				""
-				"&7&9Backpack&7: Lapis Backpack"
+				"{ftbquests.chapter.eenchanting.quest33.description6}"
 				""
-				"&7&9Potion/Charm&7: Ancient Knowledge II"
+				"{ftbquests.chapter.eenchanting.quest33.description8}"
 				""
-				"&7&9Weapon Enchants that help&7: Looting, Scavenger, Soul Devourer and Knowledge of the Ages(THIS ONE CONVERTS ITEMS TO XP, DONT USE ON BOSSES)"
+				"{ftbquests.chapter.eenchanting.quest33.description10}"
 				""
-				"&7&9Armor Enchant&7: Bag of Souls"
+				"{ftbquests.chapter.eenchanting.quest33.description12}"
 				""
-				"&7You do not need all of these, there is other ways to getting XP, you can pick and choose which of these things you can make and will actually need."
+				"{ftbquests.chapter.eenchanting.quest33.description14}"
 			]
 			id: "15AF68754CE02E4A"
 			rewards: [{
@@ -946,7 +946,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "You will need a ton!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest33.subtitle}"
 			tasks: [{
 				id: "09987381BB96DE43"
 				title: "How to get Levels"
@@ -957,52 +957,52 @@
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
-			description: ["&7Anvils can be enchanted with Obliteration and Splitting, the latter is insanely useful for splitting up a bigger enchanted book you got into smaller ones, one of the only ways to extract only some enchants from a weapon or book includes this."]
+			description: ["{ftbquests.chapter.eenchanting.quest34.description0}"]
 			id: "5D62225195633904"
 			rewards: [{
 				id: "59493EE82EBCFA4B"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "CLANK!"
+			subtitle: "{ftbquests.chapter.eenchanting.quest34.subtitle}"
 			tasks: [{
 				id: "31F16606F96454B7"
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			title: "Anvil Enchanting"
+			title: "{ftbquests.chapter.eenchanting.quest34.title}"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2B99DDA42BB7716C"]
-			description: ["&7Ghast Tears can be traded by the Journesman Alchemist, sometimes found in Nether dungeons. Ghasts tend to have a lower spawn rate, so good luck. "]
+			description: ["{ftbquests.chapter.eenchanting.quest35.description0}"]
 			id: "65967FFB6D25BD30"
 			rewards: [{
 				id: "24EA0CB52EC9C2CA"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Why cry?"
+			subtitle: "{ftbquests.chapter.eenchanting.quest35.subtitle}"
 			tasks: [{
 				id: "3EC1DC3EF9D96059"
 				item: "minecraft:ghast_tear"
 				type: "item"
 			}]
-			title: "Obtaining Ghast Tears"
+			title: "{ftbquests.chapter.eenchanting.quest35.title}"
 			x: 3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["75D6FF466F4DA932"]
-			description: ["&7These two can come out of bulk haunting with a encased fan and some way to get some Rotational Force, like a Hand crank, in front of soul fire. This method can also be used to Bulk haunt horses for the Undead Soul."]
+			description: ["{ftbquests.chapter.eenchanting.quest36.description0}"]
 			id: "0AACB9207417BB72"
 			rewards: [{
 				id: "325B504046C091EB"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "When the monument is too far away"
+			subtitle: "{ftbquests.chapter.eenchanting.quest36.subtitle}"
 			tasks: [
 				{
 					id: "1EE29D15B252AEDB"
@@ -1015,10 +1015,10 @@
 					type: "item"
 				}
 			]
-			title: "Prismarine "
+			title: "{ftbquests.chapter.eenchanting.quest36.title}"
 			x: 0.5d
 			y: -6.5d
 		}
 	]
-	title: " &eEnchanting"
+	title: "{ftbquests.chapter.eenchanting.title}"
 }
