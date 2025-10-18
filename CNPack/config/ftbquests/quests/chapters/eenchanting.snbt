@@ -949,7 +949,7 @@
 			subtitle: "{ftbquests.chapter.eenchanting.quest33.subtitle}"
 			tasks: [{
 				id: "09987381BB96DE43"
-				title: "How to get Levels"
+				title: "{ftbquests.chapter.eenchanting.quest33.task1.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
