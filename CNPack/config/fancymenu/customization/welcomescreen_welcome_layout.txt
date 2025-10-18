@@ -838,7 +838,7 @@ element {
 
 element {
   interactable = true
-  source = 报告议题并反馈
+  source = 报告问题并反馈
   source_mode = direct
   shadow = true
   scale = 1.0

@@ -128,7 +128,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = 报告议题
+  description = 报告问题
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = af83bce8-b8ff-44cd-b172-8730f7ac8450-1749087356683
