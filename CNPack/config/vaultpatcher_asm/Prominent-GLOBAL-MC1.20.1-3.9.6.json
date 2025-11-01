@@ -1930,6 +1930,19 @@
   },
   {
     "target_class": {
+      "name": "elocindev.prominent.registry.TabRegistry",
+      "method": "<clinit>",
+      "local": ""
+    },
+    "pairs": [
+      {
+        "key": "Seasonal Items",
+        "value": "vp.prominent.tabregistry.5"
+      }
+    ]
+  },
+  {
+    "target_class": {
       "name": "elocindev.prominent.spells.beacon_of_hope.BeaconOfHope",
       "method": "method_5572",
       "local": ""

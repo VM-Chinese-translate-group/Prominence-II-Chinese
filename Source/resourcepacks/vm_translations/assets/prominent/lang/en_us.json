@@ -341,5 +341,18 @@
     "item.prominent.xmog_unholy_scythe": "Illusion of the Unholy Scythe",
     "item.prominent.xmog_void_touched_blade": "Illusion of the Void-Touched Blade",
     "item.prominent.xmog_void_touched_saber": "Illusion of the Void-Touched Saber",
-    "item.prominent.xmog_void_touched_scythe": "Illusion of the Void-Touched Scythe"
+    "item.prominent.xmog_void_touched_scythe": "Illusion of the Void-Touched Scythe",
+    "item.prominent.xmog_pumpmourne": "Illusion of Pumpmourne, Blade of the Haunted Pumpkin",
+
+    "item.prominent.flameborn_stone": "The Flameborn's Stone",
+    "item.prominent.flameborn_stone.tooltip.1": "Created by the Eternal being of Creation, S'kellak. It holds an eternal connection with The Molten City of Vaaz.",
+    "item.prominent.flameborn_stone.tooltip.2": "Use to teleport to The Molten City of Vaaz.",
+
+    "spell.prominent.flameborn_call.name": "Flameborn's Call",
+    "spell.prominent.flameborn_call.description": "Use the Flameborn's Stone to teleport yourself to the Molten City of Vaaz.",
+
+    "biome.prominent.city_of_vaaz": "Vaaz, The Molten City",
+
+    "item.scarred_night.tooltip": "A fragment of pure darkness, imbued by thousands of harvested souls.",
+    "item.prominent.scarred_night": "Scarred Night"
 }

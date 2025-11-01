@@ -1,4 +1,10 @@
 {
   "item.sbprom.gu_mas_spawn_egg": "Gu'mas Spawn Egg",
-  "entity.sbprom.hasturmagus": "Gu'mas, the Fallen Archmage"
+  "item.sbprom.scarecrow_spawn_egg": "Sir Scar Crow Spawn Egg",
+  "item.sbprom.scarecrow_mythic_spawn_egg": "Mythic Sir Scar Crow Spawn Egg",
+
+  "entity.sbprom.hasturmagus": "Gu'mas, the Fallen Archmage",
+  "entity.sbprom.scarecrow": "Sir Scar Crow",
+  "entity.sbprom.scarecrow_mythic": "Sir Scar Crow (Mythic)"
+
 }

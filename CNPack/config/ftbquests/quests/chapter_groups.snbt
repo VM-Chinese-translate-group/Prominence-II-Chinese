@@ -8,6 +8,10 @@
 			id: "3DBADFFDA1FDAD84"
 			title: "{ftbquests.chapter_groups.chapter_groups.title1}"
 		}
+		{ 
+			id: "1E972F135ACD3687" 
+			title: "{ftbquests.chapter_groups.chapter_groups.title7}" 
+		}
 		{
 			id: "3E586F2160161EEA"
 			title: "{ftbquests.chapter_groups.chapter_groups.title2}"
