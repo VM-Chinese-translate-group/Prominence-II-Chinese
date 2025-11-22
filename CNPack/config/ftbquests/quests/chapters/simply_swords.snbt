@@ -316,9 +316,9 @@
 	quests: [
 		{
 			description: [
-				"&6&lSimply Swords&r &7offers over &a&l15&r &7weapons types for the player to utilize."
+				"{ftbquests.chapter.simply_swords.quests0.description0}"
 				""
-				"&7It also has the unique featureset of &b&n&lRunic Powers&r, &7which can be given to weapons via &n&bsockets&r!"
+				"{ftbquests.chapter.simply_swords.quests0.description2}"
 			]
 			icon: {
 				Count: 1
@@ -348,10 +348,10 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "One of Many Sockets!"
+			subtitle: "{ftbquests.chapter.simply_swords.quests0.subtitle}"
 			tasks: [{
 				id: "6461B5E43F7DF63E"
-				title: "&d&lSimply Swords!"
+				title: "{ftbquests.chapter.simply_swords.quests0.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -10.0d
@@ -360,9 +360,9 @@
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"&c&lEmpowered Remnants&r &7are created by melting down unique weapons."
+				"{ftbquests.chapter.simply_swords.quests1.description0}"
 				""
-				"&7They are used in the creation of &9&lRunefused Gems&r, &7and &6&lNetherfused Gems&r."
+				"{ftbquests.chapter.simply_swords.quests1.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "5AA2A1E358A18B4E"
@@ -385,7 +385,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "A Pain to Make..."
+			subtitle: "{ftbquests.chapter.simply_swords.quests1.subtitle}"
 			tasks: [{
 				id: "5DF612576542C997"
 				item: "simplyswords:empowered_remnant"
@@ -397,9 +397,9 @@
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"&7To make it, combine a &bRunic Tablet&r &7with a &cEmpowered Remnant&r &7in a Smithing Table."
+				"{ftbquests.chapter.simply_swords.quests2.description0}"
 				""
-				"&7Click to identify which power you have rolled."
+				"{ftbquests.chapter.simply_swords.quests2.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "3E5207641E8653DC"
@@ -421,7 +421,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Made with &klol&r"
+			subtitle: "{ftbquests.chapter.simply_swords.quests2.subtitle}"
 			tasks: [{
 				id: "5C78E6FA3E4F93CB"
 				item: {
@@ -437,9 +437,9 @@
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"&7In order to make it, combine a &cEmpowered Remnant&r &7with a &6Netherite Ingot&r &7in a Smithing Table."
+				"{ftbquests.chapter.simply_swords.quests3.description0}"
 				""
-				"&7Click to identify which power you have rolled."
+				"{ftbquests.chapter.simply_swords.quests3.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "47EBDA6516061205"
@@ -461,7 +461,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Made with Ash."
+			subtitle: "{ftbquests.chapter.simply_swords.quests3.subtitle}"
 			tasks: [{
 				id: "1F673D38D2BBDA24"
 				item: {
@@ -477,9 +477,9 @@
 		{
 			dependencies: ["0F426527B63F854D"]
 			description: [
-				"&7This will be the first step in &bdiscovering sockets&r &7and &9runic powers&r!"
+				"{ftbquests.chapter.simply_swords.quests4.description0}"
 				""
-				"&7These Weapons can be found in a lot of places. With enough luck you might have found one already. Tales tell that the Wither and Jean, the Ender Dragon can have them. Some other strong enemies may also still hold onto one from a previous encounter with a Flameborn."
+				"{ftbquests.chapter.simply_swords.quests4.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "574677AD427E33FB"
@@ -488,7 +488,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Unique Indeed."
+			subtitle: "{ftbquests.chapter.simply_swords.quests4.subtitle}"
 			tasks: [{
 				id: "0D8720163BD20211"
 				item: {
@@ -498,7 +498,7 @@
 						value: "simplyswords:uniques"
 					}
 				}
-				title: "Obtain a &6Unique&r Weapon."
+				title: "{ftbquests.chapter.simply_swords.quests4.tasks0.title}"
 				type: "item"
 			}]
 			x: -10.0d
@@ -511,19 +511,19 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&7This is quite the Task. Many of these Weapons will be crucial for your upcoming Battles. The Scriptures are very in depth, but you dont recognize all names just yet."
+				"{ftbquests.chapter.simply_swords.quests5.description0}"
 				""
 				""
-				"You can find these weapons in many ways. After some calculations from the old book you deduct the following Chances:"
-				"&0Wither 20%&r"
-				"&1Ender Dragon 35%&r"
-				"&7Night Lich 30%&r"
-				"&6Nether Gauntlet 25%&r"
-				"&8Obsidilith 40%&r"
-				"&1Magus 27%&r"
-				"&dConjunctivius 15%&r"
-				"&4Decaying King 15%&r"
-				"&5Null 20%&r"
+				"{ftbquests.chapter.simply_swords.quests5.description3}"
+				"{ftbquests.chapter.simply_swords.quests5.description4}"
+				"{ftbquests.chapter.simply_swords.quests5.description5}"
+				"{ftbquests.chapter.simply_swords.quests5.description6}"
+				"{ftbquests.chapter.simply_swords.quests5.description7}"
+				"{ftbquests.chapter.simply_swords.quests5.description8}"
+				"{ftbquests.chapter.simply_swords.quests5.description9}"
+				"{ftbquests.chapter.simply_swords.quests5.description10}"
+				"{ftbquests.chapter.simply_swords.quests5.description11}"
+				"{ftbquests.chapter.simply_swords.quests5.description12}"
 			]
 			hide_details_until_startable: true
 			hide_until_deps_complete: true
@@ -544,26 +544,26 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Collect the Rest of the Uniques!"
+			subtitle: "{ftbquests.chapter.simply_swords.quests5.subtitle}"
 			tasks: [{
 				id: "673BEC88D5083E14"
-				title: "Collect Them All!"
+				title: "{ftbquests.chapter.simply_swords.quests5.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "&l&bRunic Overload..."
+			title: "{ftbquests.chapter.simply_swords.quests5.title}"
 			x: -10.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["07DAFC04179A4DA0"]
-			description: ["&7What will you choose? Will you regret your choices?"]
+			description: ["{ftbquests.chapter.simply_swords.quests6.description0}"]
 			id: "1A59D35015E0BB3F"
 			rewards: [{
 				id: "60CB3191CAB85C48"
 				item: "simplyswords:empowered_remnant"
 				type: "item"
 			}]
-			subtitle: "Dormant Power Lies Beneath..."
+			subtitle: "{ftbquests.chapter.simply_swords.quests6.subtitle}"
 			tasks: [{
 				id: "0F8DD51E27AD3B4A"
 				item: {
@@ -580,7 +580,7 @@
 		}
 		{
 			dependencies: ["1A59D35015E0BB3F"]
-			description: ["&7Look at your righteousness.  If only they could see you now."]
+			description: ["{ftbquests.chapter.simply_swords.quests7.description0}"]
 			hide_until_deps_complete: true
 			id: "1E65DAC37F8D34F9"
 			rewards: [
@@ -601,7 +601,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "All Mighty!"
+			subtitle: "{ftbquests.chapter.simply_swords.quests7.subtitle}"
 			tasks: [{
 				id: "70287F102D2FE077"
 				item: {
@@ -618,7 +618,7 @@
 		}
 		{
 			dependencies: ["1A59D35015E0BB3F"]
-			description: ["&7You were sent to destroy them, not join them!"]
+			description: ["{ftbquests.chapter.simply_swords.quests8.description0}"]
 			hide_until_deps_complete: true
 			id: "10710081934A30C6"
 			rewards: [
@@ -638,7 +638,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Tainted and Twisted."
+			subtitle: "{ftbquests.chapter.simply_swords.quests8.subtitle}"
 			tasks: [{
 				id: "7B79D2A0339B4CFC"
 				item: {
@@ -655,7 +655,7 @@
 		}
 		{
 			dependencies: ["1E65DAC37F8D34F9"]
-			description: ["&7Where there is Light, there is Darkness. Are you sure youre up to the Challenge?"]
+			description: ["{ftbquests.chapter.simply_swords.quests9.description0}"]
 			hide_until_deps_complete: true
 			id: "3B50D775CE678833"
 			rewards: [
@@ -680,7 +680,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Pure Light."
+			subtitle: "{ftbquests.chapter.simply_swords.quests9.subtitle}"
 			tasks: [{
 				id: "1CECDA302A1F41AE"
 				item: {
@@ -697,7 +697,7 @@
 		}
 		{
 			dependencies: ["10710081934A30C6"]
-			description: ["&7He is gone. I am what remains."]
+			description: ["{ftbquests.chapter.simply_swords.quests10.description0}"]
 			hide_until_deps_complete: true
 			id: "3B253027B3A56099"
 			rewards: [
@@ -723,7 +723,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Death Awaits."
+			subtitle: "{ftbquests.chapter.simply_swords.quests10.subtitle}"
 			tasks: [{
 				id: "31C29D8D28776CF2"
 				item: {
@@ -740,7 +740,7 @@
 		}
 		{
 			dependencies: ["6A8665FBC017A00F"]
-			description: ["&7'Cause Man is a Wolf to another Man"]
+			description: ["{ftbquests.chapter.simply_swords.quests11.description0}"]
 			id: "6B35F27EE277F880"
 			rewards: [
 				{
@@ -754,7 +754,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "To slay a Dragon"
+			subtitle: "{ftbquests.chapter.simply_swords.quests11.subtitle}"
 			tasks: [{
 				id: "670A4F7E7CD0C61F"
 				item: {
@@ -771,7 +771,7 @@
 		}
 		{
 			dependencies: ["5209EC117C51D5D5"]
-			description: ["&7This blades stares at you with a sense of a Holy purpose. Something greater than it could even comprehend. "]
+			description: ["{ftbquests.chapter.simply_swords.quests12.description0}"]
 			id: "79714A89BF6B05FC"
 			rewards: [
 				{
@@ -791,7 +791,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7It watched a great Paladin slay a Beast. But he who kills cannot be far from a Beast himself."
+			subtitle: "{ftbquests.chapter.simply_swords.quests12.subtitle}"
 			tasks: [{
 				id: "2FE08DA25699E3CC"
 				item: {
@@ -808,7 +808,7 @@
 		}
 		{
 			dependencies: ["3940465EE60C2554"]
-			description: ["&7Two Storms, chained together by a single Handle. You can feel how volatile it is."]
+			description: ["{ftbquests.chapter.simply_swords.quests13.description0}"]
 			id: "3B1D7C24AC35261C"
 			rewards: [
 				{
@@ -822,7 +822,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "The Storm has no Conscience"
+			subtitle: "{ftbquests.chapter.simply_swords.quests13.subtitle}"
 			tasks: [{
 				id: "0DBABD4BA5458656"
 				item: {
@@ -839,7 +839,7 @@
 		}
 		{
 			dependencies: ["3940465EE60C2554"]
-			description: ["&7Let the Land thunder with my Storm!"]
+			description: ["{ftbquests.chapter.simply_swords.quests14.description0}"]
 			id: "08AEEA46BD870294"
 			rewards: [
 				{
@@ -853,7 +853,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "The first River, was a River of Blood."
+			subtitle: "{ftbquests.chapter.simply_swords.quests14.subtitle}"
 			tasks: [{
 				id: "4C6A2AF592747716"
 				item: {
@@ -870,7 +870,7 @@
 		}
 		{
 			dependencies: ["07DAFC04179A4DA0"]
-			description: ["&7There is a charm about the forbidden that makes it unspeakably desirable."]
+			description: ["{ftbquests.chapter.simply_swords.quests15.description0}"]
 			id: "5B8F694F41090641"
 			rewards: [
 				{
@@ -889,7 +889,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "It stings, just holding it. Wonder what that blade will do."
+			subtitle: "{ftbquests.chapter.simply_swords.quests15.subtitle}"
 			tasks: [{
 				id: "44506CD76C8EF068"
 				item: {
@@ -906,7 +906,7 @@
 		}
 		{
 			dependencies: ["5209EC117C51D5D5"]
-			description: ["&7A delicate pair of Eyes, set on this blade, to forever judge the kills you do with it. Who are you to decide about life or death?"]
+			description: ["{ftbquests.chapter.simply_swords.quests16.description0}"]
 			id: "0C2D472551252C55"
 			rewards: [
 				{
@@ -926,7 +926,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7They will never stop judging your Actions."
+			subtitle: "{ftbquests.chapter.simply_swords.quests16.subtitle}"
 			tasks: [{
 				id: "79FDD6A9D51E6BB8"
 				item: {
@@ -943,7 +943,7 @@
 		}
 		{
 			dependencies: ["5AC50DF4F52A548F"]
-			description: ["&7Whoever wielded this, didnt make it long. How will you fare against yourself? The Blades is as disgusting as it is sharp. The Blade's inscription tells that the Title of Plaguelord was bestowed upon the poor soul that accepted it."]
+			description: ["{ftbquests.chapter.simply_swords.quests17.description0}"]
 			id: "5C6755620140F16B"
 			rewards: [
 				{
@@ -969,7 +969,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Do you feel Diseased?"
+			subtitle: "{ftbquests.chapter.simply_swords.quests17.subtitle}"
 			tasks: [{
 				id: "08D0DBDA73A63933"
 				item: {
@@ -986,7 +986,7 @@
 		}
 		{
 			dependencies: ["18C4F3367A04B882"]
-			description: ["&7Whoever wronged the Wielder shall pay the Price tenfold."]
+			description: ["{ftbquests.chapter.simply_swords.quests18.description0}"]
 			id: "4636BDC0E4B33561"
 			rewards: [
 				{
@@ -1011,7 +1011,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Fire on this Blade is fueled by hate like Gasoline."
+			subtitle: "{ftbquests.chapter.simply_swords.quests18.subtitle}"
 			tasks: [{
 				id: "1D46A25F267B6C7A"
 				item: {
@@ -1028,7 +1028,7 @@
 		}
 		{
 			dependencies: ["6A8665FBC017A00F"]
-			description: ["&7No Evil thinks it is evil. Noone chooses Evil because it is Evil, they only mistake it for the the good one seeks. "]
+			description: ["{ftbquests.chapter.simply_swords.quests19.description0}"]
 			id: "3343B7550C09C341"
 			rewards: [
 				{
@@ -1042,7 +1042,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "This Weapon attracts Fury like a Magnet."
+			subtitle: "{ftbquests.chapter.simply_swords.quests19.subtitle}"
 			tasks: [{
 				id: "1B3C92FDB1ED1136"
 				item: {
@@ -1059,7 +1059,7 @@
 		}
 		{
 			dependencies: ["306AAF14EBD13866"]
-			description: ["&7Too many Beings, not enough Souls."]
+			description: ["{ftbquests.chapter.simply_swords.quests20.description0}"]
 			id: "666D6FFBD5FD2306"
 			rewards: [
 				{
@@ -1073,7 +1073,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "&7If it were stolen, was it ever yours to begin with?"
+			subtitle: "{ftbquests.chapter.simply_swords.quests20.subtitle}"
 			tasks: [{
 				id: "516BDA2662CF6688"
 				item: {
@@ -1090,7 +1090,7 @@
 		}
 		{
 			dependencies: ["07DAFC04179A4DA0"]
-			description: ["&7Any Betrayal you can see, is trivial. Whoever killed with this, did it for the sport or their own gain. Once a Straight Blade, this Weapon now mimicks the twisted mind of its Creator."]
+			description: ["{ftbquests.chapter.simply_swords.quests21.description0}"]
 			id: "32C591A42D8C3C2E"
 			rewards: [
 				{
@@ -1119,7 +1119,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "With a smug grin, he stabbed what they thought was dear to him."
+			subtitle: "{ftbquests.chapter.simply_swords.quests21.subtitle}"
 			tasks: [{
 				id: "651060AA26B81291"
 				item: {
@@ -1136,7 +1136,7 @@
 		}
 		{
 			dependencies: ["306AAF14EBD13866"]
-			description: ["&7This blade reeks of a Betrayal that has changed this Weapon forever. A Betrayal so heartbreaking, it cannot even be forgotten by the ones that don't know it. The Souls in this Weapon ooze guilt."]
+			description: ["{ftbquests.chapter.simply_swords.quests22.description0}"]
 			id: "3CFAA0BF10CBEAFD"
 			rewards: [
 				{
@@ -1156,7 +1156,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7A Blade Lucius would love."
+			subtitle: "{ftbquests.chapter.simply_swords.quests22.subtitle}"
 			tasks: [{
 				id: "1CEF9F877FD65EA2"
 				item: {
@@ -1173,7 +1173,7 @@
 		}
 		{
 			dependencies: ["306AAF14EBD13866"]
-			description: ["&7All Power demands Sacrifice and Pain."]
+			description: ["{ftbquests.chapter.simply_swords.quests23.description0}"]
 			id: "1299DA76794F4557"
 			rewards: [
 				{
@@ -1193,7 +1193,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7I will rend the Flesh, until i stand as a unholy god."
+			subtitle: "{ftbquests.chapter.simply_swords.quests23.subtitle}"
 			tasks: [{
 				id: "469BBDBE0E523BD3"
 				item: {
@@ -1210,7 +1210,7 @@
 		}
 		{
 			dependencies: ["306AAF14EBD13866"]
-			description: ["&7Like a Magnet for Souls. Loves sewing them together as if they were Fabric. "]
+			description: ["{ftbquests.chapter.simply_swords.quests24.description0}"]
 			id: "5B267B7674F91DE8"
 			rewards: [
 				{
@@ -1230,7 +1230,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7An agglomeration of Souls"
+			subtitle: "{ftbquests.chapter.simply_swords.quests24.subtitle}"
 			tasks: [{
 				id: "1A7B5B0CFEE165C6"
 				item: {
@@ -1247,7 +1247,7 @@
 		}
 		{
 			dependencies: ["547DCAE28B3968ED"]
-			description: ["&7Which one do you dread more, the Echo or the answer. Howl your Melancholic Question."]
+			description: ["{ftbquests.chapter.simply_swords.quests25.description0}"]
 			id: "54A18E7973F870B7"
 			rewards: [
 				{
@@ -1261,7 +1261,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Oh tell me Great One"
+			subtitle: "{ftbquests.chapter.simply_swords.quests25.subtitle}"
 			tasks: [{
 				id: "2B17B08CE72BC56D"
 				item: {
@@ -1278,7 +1278,7 @@
 		}
 		{
 			dependencies: ["6A8665FBC017A00F"]
-			description: ["&7You are mesmerized by the flowing Lava on this Blade. It reminds you of something..."]
+			description: ["{ftbquests.chapter.simply_swords.quests26.description0}"]
 			id: "0D8A8981385BAF73"
 			rewards: [
 				{
@@ -1297,7 +1297,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "The Prince"
+			subtitle: "{ftbquests.chapter.simply_swords.quests26.subtitle}"
 			tasks: [{
 				id: "203F635143291359"
 				item: {
@@ -1314,7 +1314,7 @@
 		}
 		{
 			dependencies: ["547DCAE28B3968ED"]
-			description: ["&7Forged out of the remains of a great cold being, you can feel how it fought its last Battle with every swing."]
+			description: ["{ftbquests.chapter.simply_swords.quests27.description0}"]
 			id: "2D894DA57337C966"
 			rewards: [
 				{
@@ -1328,7 +1328,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "He who stares into the Abyss..."
+			subtitle: "{ftbquests.chapter.simply_swords.quests27.subtitle}"
 			tasks: [{
 				id: "4089ACB32C4DD3AF"
 				item: {
@@ -1345,7 +1345,7 @@
 		}
 		{
 			dependencies: ["547DCAE28B3968ED"]
-			description: ["&7There is a Encryption on this Weapon by one of its previous Wielders. You can make out the first two letters. \"Br-\". The handle still oozes with a heat you wouldn't expect from such a oddly cold weapon. While holding it you feel as if someone made a joke a couple hundred times too much."]
+			description: ["{ftbquests.chapter.simply_swords.quests28.description0}"]
 			id: "556C78463DB00269"
 			rewards: [
 				{
@@ -1370,7 +1370,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Some things are enough said once."
+			subtitle: "{ftbquests.chapter.simply_swords.quests28.subtitle}"
 			tasks: [{
 				id: "3CC26FF5DB804069"
 				item: {
@@ -1387,7 +1387,7 @@
 		}
 		{
 			dependencies: ["5209EC117C51D5D5"]
-			description: ["&7Once bestowed by a great Arcane Mage. This Blade has seen more than most."]
+			description: ["{ftbquests.chapter.simply_swords.quests29.description0}"]
 			id: "3A333A884ED801AE"
 			rewards: [
 				{
@@ -1407,7 +1407,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&7You can't lose, you're chosen."
+			subtitle: "{ftbquests.chapter.simply_swords.quests29.subtitle}"
 			tasks: [{
 				id: "2963F96B9A1741FB"
 				item: {
@@ -1424,7 +1424,7 @@
 		}
 		{
 			dependencies: ["5AC50DF4F52A548F"]
-			description: ["&7Even the calmest minds, have a Storm brewing in them. But it is up to the mind to learn when to unleash it."]
+			description: ["{ftbquests.chapter.simply_swords.quests30.description0}"]
 			id: "177CE07DA601DF07"
 			rewards: [
 				{
@@ -1438,7 +1438,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "&7Before the Storm, there is always a certain type of calm."
+			subtitle: "{ftbquests.chapter.simply_swords.quests30.subtitle}"
 			tasks: [{
 				id: "52E9D721F987A254"
 				item: {
@@ -1455,7 +1455,7 @@
 		}
 		{
 			dependencies: ["3940465EE60C2554"]
-			description: ["&7A sign of intelligence is an awareness of one's own ignorance."]
+			description: ["{ftbquests.chapter.simply_swords.quests31.description0}"]
 			id: "17FA5AE32F7A22DD"
 			rewards: [
 				{
@@ -1480,7 +1480,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "A Pain unfelt by the Guilty."
+			subtitle: "{ftbquests.chapter.simply_swords.quests31.subtitle}"
 			tasks: [{
 				id: "162BA6204FED68DF"
 				item: {
@@ -1497,7 +1497,7 @@
 		}
 		{
 			dependencies: ["547DCAE28B3968ED"]
-			description: ["&7You can feel Death when wielding this Weapon. No living or dead creature wants to be near you. You can feel that this Weapon craves something. It wants to wake up."]
+			description: ["{ftbquests.chapter.simply_swords.quests32.description0}"]
 			id: "1C6075524C120092"
 			rewards: [
 				{
@@ -1516,7 +1516,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A certain feeling of Death."
+			subtitle: "{ftbquests.chapter.simply_swords.quests32.subtitle}"
 			tasks: [{
 				id: "45B3A52415EAD3B4"
 				item: {
@@ -1533,7 +1533,7 @@
 		}
 		{
 			dependencies: ["1C6075524C120092"]
-			description: ["&7It has gotten stronger. You can feel that it hasn't reached it's full potential yet. You must keep pushing. Youre far too gone to stop now, right? Cannibalize life."]
+			description: ["{ftbquests.chapter.simply_swords.quests33.description0}"]
 			hide_until_deps_complete: true
 			id: "2629BC0942CC42F6"
 			rewards: [
@@ -1548,7 +1548,7 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "It is becoming awake..."
+			subtitle: "{ftbquests.chapter.simply_swords.quests33.subtitle}"
 			tasks: [{
 				id: "5ECB8411482DF1D5"
 				item: {
@@ -1565,7 +1565,7 @@
 		}
 		{
 			dependencies: ["1C6075524C120092"]
-			description: ["&7The Blade whispers gratitude towards you. Materializing something that will &4be of great use sooner or later&r&7 to you. Long shall be their suffering. Joyous be their pain."]
+			description: ["{ftbquests.chapter.simply_swords.quests34.description0}"]
 			hide_until_deps_complete: true
 			id: "0395861176F7F402"
 			rewards: [
@@ -1586,7 +1586,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "AT FULL POTENTIAL"
+			subtitle: "{ftbquests.chapter.simply_swords.quests34.subtitle}"
 			tasks: [{
 				id: "5332CA7293781217"
 				item: {
@@ -1603,7 +1603,7 @@
 		}
 		{
 			dependencies: ["5AC50DF4F52A548F"]
-			description: ["&7The only thing that will always follow you, is your Shadow."]
+			description: ["{ftbquests.chapter.simply_swords.quests35.description0}"]
 			id: "4DD812D8096B5BB7"
 			rewards: [
 				{
@@ -1617,7 +1617,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "&7Like a Bee made out of the absence of light."
+			subtitle: "{ftbquests.chapter.simply_swords.quests35.subtitle}"
 			tasks: [{
 				id: "690E6BEA291AC460"
 				item: {
@@ -1634,7 +1634,7 @@
 		}
 		{
 			dependencies: ["3940465EE60C2554"]
-			description: ["&7A Thirst that cannot be satiated is a Thirst that you will die of."]
+			description: ["{ftbquests.chapter.simply_swords.quests36.description0}"]
 			id: "7F9DAA4B9D84E3DC"
 			rewards: [
 				{
@@ -1653,7 +1653,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "In the blink of an eye, the easiest war can be lost to Pride."
+			subtitle: "{ftbquests.chapter.simply_swords.quests36.subtitle}"
 			tasks: [{
 				id: "1E7216FDECB3DE63"
 				item: {
@@ -1670,7 +1670,7 @@
 		}
 		{
 			dependencies: ["6A8665FBC017A00F"]
-			description: ["&7To become something higher, is the loneliest Achievement of them all."]
+			description: ["{ftbquests.chapter.simply_swords.quests37.description0}"]
 			id: "3ADBA2BF57A23E05"
 			rewards: [
 				{
@@ -1695,7 +1695,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "A Blade made out of a sharp Fire."
+			subtitle: "{ftbquests.chapter.simply_swords.quests37.subtitle}"
 			tasks: [{
 				id: "3CF35DE6F607C295"
 				item: {
@@ -1712,7 +1712,7 @@
 		}
 		{
 			dependencies: ["18C4F3367A04B882"]
-			description: ["&7Our hearts are monsters. That's why our ribs are cages."]
+			description: ["{ftbquests.chapter.simply_swords.quests38.description0}"]
 			id: "1C33DCFADBD4B13F"
 			rewards: [
 				{
@@ -1731,7 +1731,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Do not ever apologize for the madnesss which made you a Warrior."
+			subtitle: "{ftbquests.chapter.simply_swords.quests38.subtitle}"
 			tasks: [{
 				id: "5D8A324561660A8E"
 				item: {
@@ -1748,7 +1748,7 @@
 		}
 		{
 			dependencies: ["03E7D9E3CD29B32F"]
-			description: ["&7It seems that you are not the only one interested in the weapon. You should not make the Hive angry, or at least give them someone else to be angry about."]
+			description: ["{ftbquests.chapter.simply_swords.quests39.description0}"]
 			id: "34BACF93066559BD"
 			rewards: [
 				{
@@ -1779,7 +1779,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "You can hear a buzzing coming from the weapon itself."
+			subtitle: "{ftbquests.chapter.simply_swords.quests39.subtitle}"
 			tasks: [{
 				id: "48F6A613036C90AF"
 				item: {
@@ -1796,7 +1796,7 @@
 		}
 		{
 			dependencies: ["5209EC117C51D5D5"]
-			description: ["&7Is your Ache known to the Gods?"]
+			description: ["{ftbquests.chapter.simply_swords.quests40.description0}"]
 			id: "7272D65052D97F66"
 			rewards: [
 				{
@@ -1821,7 +1821,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A Blade not from this world."
+			subtitle: "{ftbquests.chapter.simply_swords.quests40.subtitle}"
 			tasks: [{
 				id: "607332E4BD902C6C"
 				item: {
@@ -1838,7 +1838,7 @@
 		}
 		{
 			dependencies: ["18C4F3367A04B882"]
-			description: ["&7You will never be able to escape from your heart. So it's better to listen to what it has to say."]
+			description: ["{ftbquests.chapter.simply_swords.quests41.description0}"]
 			id: "02D16E97B12EEA41"
 			rewards: [
 				{
@@ -1852,7 +1852,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "A burnt Child loves the fire."
+			subtitle: "{ftbquests.chapter.simply_swords.quests41.subtitle}"
 			tasks: [{
 				id: "5822A36162719CDE"
 				item: {
@@ -1869,7 +1869,7 @@
 		}
 		{
 			dependencies: ["18C4F3367A04B882"]
-			description: ["&7Nature knows no Kings and Queens. They all die the same."]
+			description: ["{ftbquests.chapter.simply_swords.quests42.description0}"]
 			id: "222ECAF5058016B3"
 			rewards: [
 				{
@@ -1888,7 +1888,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A Storm so destructive - Who could have started it?"
+			subtitle: "{ftbquests.chapter.simply_swords.quests42.subtitle}"
 			tasks: [{
 				id: "205C61F9FAFED7B8"
 				item: {
@@ -1905,7 +1905,7 @@
 		}
 		{
 			dependencies: ["03E7D9E3CD29B32F"]
-			description: ["&7A Fire only rises as high as its Fuel lets it to."]
+			description: ["{ftbquests.chapter.simply_swords.quests43.description0}"]
 			id: "1E43CA1D1052238D"
 			rewards: [
 				{
@@ -1925,7 +1925,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "In order to understand, he destroyed himself."
+			subtitle: "{ftbquests.chapter.simply_swords.quests43.subtitle}"
 			tasks: [{
 				id: "5EC4FBD1DC595DC8"
 				item: {
@@ -1943,13 +1943,13 @@
 		{
 			dependencies: ["03E7D9E3CD29B32F"]
 			description: [
-				"&7The inscription, in a rusty, bloody paint says:"
-				"&4I bind myself to you tonight,&r"
-				"&4No matter the shift of the knife,&r"
-				"&4Through blood and bone,&r"
-				"&4Flesh and Heart,&r"
-				"&4Death may come,&r"
-				"&4But we shall not part.&r"
+				"{ftbquests.chapter.simply_swords.quests44.description0}"
+				"{ftbquests.chapter.simply_swords.quests44.description1}"
+				"{ftbquests.chapter.simply_swords.quests44.description2}"
+				"{ftbquests.chapter.simply_swords.quests44.description3}"
+				"{ftbquests.chapter.simply_swords.quests44.description4}"
+				"{ftbquests.chapter.simply_swords.quests44.description5}"
+				"{ftbquests.chapter.simply_swords.quests44.description6}"
 			]
 			id: "4602FD0E33DD4D5E"
 			rewards: [
@@ -1981,7 +1981,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Death Oath"
+			subtitle: "{ftbquests.chapter.simply_swords.quests44.subtitle}"
 			tasks: [{
 				id: "74D75A057911D425"
 				item: {
@@ -1998,7 +1998,7 @@
 		}
 		{
 			dependencies: ["574677AD427E33FB"]
-			description: ["&7How much do you have to lose to be new? How much makes you you?"]
+			description: ["{ftbquests.chapter.simply_swords.quests45.description0}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "2B21952A37C6B9A9"
@@ -2017,7 +2017,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Once a Noble Weapon, now barely a Relic"
+			subtitle: "{ftbquests.chapter.simply_swords.quests45.subtitle}"
 			tasks: [{
 				id: "4A0FB4F0B04D5E98"
 				item: {
@@ -2034,7 +2034,7 @@
 		}
 		{
 			dependencies: ["574677AD427E33FB"]
-			description: ["&7To go against what you know is to invent. But will that Reward be high enough?"]
+			description: ["{ftbquests.chapter.simply_swords.quests46.description0}"]
 			hide_dependency_lines: true
 			id: "372B6EB1F66455B8"
 			invisible: true
@@ -2057,7 +2057,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Heresy."
+			subtitle: "{ftbquests.chapter.simply_swords.quests46.subtitle}"
 			tasks: [{
 				id: "06C634A2A7DB7ACF"
 				item: {
@@ -2074,7 +2074,7 @@
 		}
 		{
 			dependencies: ["574677AD427E33FB"]
-			description: ["&7A Question never asked, will always be never answered."]
+			description: ["{ftbquests.chapter.simply_swords.quests47.description0}"]
 			hide_dependency_lines: true
 			id: "730BC7042CFC5627"
 			invisible: true
@@ -2097,7 +2097,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Knowledge is Power."
+			subtitle: "{ftbquests.chapter.simply_swords.quests47.subtitle}"
 			tasks: [{
 				id: "51616656C5CA7D35"
 				item: {
@@ -2114,7 +2114,7 @@
 		}
 		{
 			dependencies: ["574677AD427E33FB"]
-			description: ["&7This Weapon has seen the Rise of the Deep Dark. It gives off a pulse of Joy when it sees its Home."]
+			description: ["{ftbquests.chapter.simply_swords.quests48.description0}"]
 			hide_dependency_lines: true
 			id: "46EE656C1F9E5CD5"
 			invisible: true
@@ -2137,7 +2137,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "A Blade that has been taught hundreds of techniques."
+			subtitle: "{ftbquests.chapter.simply_swords.quests48.subtitle}"
 			tasks: [{
 				id: "5CED8201A8C06FC1"
 				item: {
@@ -2154,7 +2154,7 @@
 		}
 		{
 			dependencies: ["5AC50DF4F52A548F"]
-			description: ["&7Forever Cursed and Blessed to walk two Realms, one might only pity these poor Souls."]
+			description: ["{ftbquests.chapter.simply_swords.quests49.description0}"]
 			id: "0E959953F768C259"
 			rewards: [
 				{
@@ -2168,7 +2168,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "&7Between two Realms, yet home in none."
+			subtitle: "{ftbquests.chapter.simply_swords.quests49.subtitle}"
 			tasks: [{
 				id: "6322CA3B700CAFB4"
 				item: {
@@ -2187,14 +2187,14 @@
 			dependencies: ["771507AA08194DE6"]
 			dependency_requirement: "one_started"
 			description: [
-				"&7Walls have ears."
-				"&7Doors have eyes."
-				"&7Trees have voices."
-				"&7Beasts tell lies."
-				"&7Beware the rain."
-				"&7Beware the snow."
-				"&7Beware the man."
-				"&7You think you know."
+				"{ftbquests.chapter.simply_swords.quests50.description0}"
+				"{ftbquests.chapter.simply_swords.quests50.description1}"
+				"{ftbquests.chapter.simply_swords.quests50.description2}"
+				"{ftbquests.chapter.simply_swords.quests50.description3}"
+				"{ftbquests.chapter.simply_swords.quests50.description4}"
+				"{ftbquests.chapter.simply_swords.quests50.description5}"
+				"{ftbquests.chapter.simply_swords.quests50.description6}"
+				"{ftbquests.chapter.simply_swords.quests50.description7}"
 			]
 			hide_until_deps_complete: true
 			id: "547DCAE28B3968ED"
@@ -2204,10 +2204,10 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Guilt can consume you from within."
+			subtitle: "{ftbquests.chapter.simply_swords.quests50.subtitle}"
 			tasks: [{
 				id: "022387F0E924D4E6"
-				title: "Frozen Past"
+				title: "{ftbquests.chapter.simply_swords.quests50.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -12.5d
@@ -2225,7 +2225,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "5AE9AAEE101CE4C8"
-				title: "Approaching Storm"
+				title: "{ftbquests.chapter.simply_swords.quests51.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -16.0d
@@ -2233,7 +2233,7 @@
 		}
 		{
 			dependencies: ["771507AA08194DE6"]
-			description: ["&7You wear vengeance like armor, but it corrodes from within. You will become what you destroy."]
+			description: ["{ftbquests.chapter.simply_swords.quests52.description0}"]
 			hide_until_deps_complete: true
 			id: "18C4F3367A04B882"
 			rewards: [{
@@ -2242,10 +2242,10 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Wrath is a Sin that corrodes from within."
+			subtitle: "{ftbquests.chapter.simply_swords.quests52.subtitle}"
 			tasks: [{
 				id: "1384362E58602E2F"
-				title: "Everlasting Cinders"
+				title: "{ftbquests.chapter.simply_swords.quests52.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -2253,7 +2253,7 @@
 		}
 		{
 			dependencies: ["771507AA08194DE6"]
-			description: ["&7Some say that the Soul is the most important part. Some say all you are is a mess of Hormones and impulses. What if you are neither and both at the same time?"]
+			description: ["{ftbquests.chapter.simply_swords.quests53.description0}"]
 			hide_until_deps_complete: true
 			id: "306AAF14EBD13866"
 			rewards: [{
@@ -2262,10 +2262,10 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "It's the Eyes. It's always the Eyes."
+			subtitle: "{ftbquests.chapter.simply_swords.quests53.subtitle}"
 			tasks: [{
 				id: "4E8294EF91FA3E90"
-				title: "Stolen Souls"
+				title: "{ftbquests.chapter.simply_swords.quests53.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -2273,7 +2273,7 @@
 		}
 		{
 			dependencies: ["771507AA08194DE6"]
-			description: ["&7Ever so learning. Ever so studying. All these things knew was taught. Their only instinct was to learn."]
+			description: ["{ftbquests.chapter.simply_swords.quests54.description0}"]
 			hide_until_deps_complete: true
 			id: "5209EC117C51D5D5"
 			rewards: [{
@@ -2282,10 +2282,10 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "&7They werent many. But their Eyes were."
+			subtitle: "{ftbquests.chapter.simply_swords.quests54.subtitle}"
 			tasks: [{
 				id: "39F7EC8B735A21FC"
-				title: "Blades of the Watchers"
+				title: "{ftbquests.chapter.simply_swords.quests54.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -2293,7 +2293,7 @@
 		}
 		{
 			dependencies: ["771507AA08194DE6"]
-			description: ["&7The more you take, the less you'll have. You will starve surrounded by Gold."]
+			description: ["{ftbquests.chapter.simply_swords.quests55.description0}"]
 			hide_until_deps_complete: true
 			id: "07DAFC04179A4DA0"
 			rewards: [{
@@ -2302,10 +2302,10 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Greed - how insatiable..."
+			subtitle: "{ftbquests.chapter.simply_swords.quests55.subtitle}"
 			tasks: [{
 				id: "5C0B0ECEF7BA052B"
-				title: "Sins of the Lost"
+				title: "{ftbquests.chapter.simply_swords.quests55.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -20.0d
@@ -2313,7 +2313,7 @@
 		}
 		{
 			dependencies: ["771507AA08194DE6"]
-			description: ["&7The records were well kept, but the nature of these weapons makes everything decay with time. Noone really knows where these came from or who made them, what we know is that when you see someone wield these, they are most likely doomed to fail."]
+			description: ["{ftbquests.chapter.simply_swords.quests56.description0}"]
 			hide_until_deps_complete: true
 			id: "5AC50DF4F52A548F"
 			rewards: [{
@@ -2322,10 +2322,10 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "&7They came flying from a sky we couldnt even percieve."
+			subtitle: "{ftbquests.chapter.simply_swords.quests56.subtitle}"
 			tasks: [{
 				id: "0353504AABDB41D8"
-				title: "Pests of the Sky"
+				title: "{ftbquests.chapter.simply_swords.quests56.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -2333,7 +2333,7 @@
 		}
 		{
 			dependencies: ["771507AA08194DE6"]
-			description: ["&7A Promise broken is a stab in the Heart. A Guarantee broken is a stab in the Brain. A Heart broken is a stab in the Soul."]
+			description: ["{ftbquests.chapter.simply_swords.quests57.description0}"]
 			hide_until_deps_complete: true
 			id: "03E7D9E3CD29B32F"
 			rewards: [{
@@ -2342,10 +2342,10 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "To not be forgotten, is to not be forgiven."
+			subtitle: "{ftbquests.chapter.simply_swords.quests57.subtitle}"
 			tasks: [{
 				id: "4D666B006F72F537"
-				title: "Forgotten, not forgiven"
+				title: "{ftbquests.chapter.simply_swords.quests57.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -15.5d
@@ -2353,7 +2353,7 @@
 		}
 		{
 			dependencies: ["771507AA08194DE6"]
-			description: ["&7Forever is a dangerous word. How can a Mortal offer Eternity?"]
+			description: ["{ftbquests.chapter.simply_swords.quests58.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "6A8665FBC017A00F"
@@ -2363,10 +2363,10 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Some things dont end with Death."
+			subtitle: "{ftbquests.chapter.simply_swords.quests58.subtitle}"
 			tasks: [{
 				id: "241FA414889A2308"
-				title: "Everlasting Flames of regret"
+				title: "{ftbquests.chapter.simply_swords.quests58.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -10.0d
@@ -2374,7 +2374,7 @@
 		}
 		{
 			dependencies: ["03E7D9E3CD29B32F"]
-			description: ["&7Guess what? It stabs a bit further than just wielding it. Hope the Stick doesnt break. Disgrace."]
+			description: ["{ftbquests.chapter.simply_swords.quests59.description0}"]
 			id: "45163F8A6463C455"
 			rewards: [
 				{
@@ -2404,7 +2404,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "This is literally just a Sword on a stick."
+			subtitle: "{ftbquests.chapter.simply_swords.quests59.subtitle}"
 			tasks: [{
 				id: "7808F25B17D75A31"
 				item: {
@@ -2421,7 +2421,7 @@
 		}
 		{
 			dependencies: ["0D8A8981385BAF73"]
-			description: ["&7Feed it."]
+			description: ["{ftbquests.chapter.simply_swords.quests60.description0}"]
 			hide_text_until_complete: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2451,7 +2451,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "It wants something from you. Something as molten as itself. Something that gets more but also less."
+			subtitle: "{ftbquests.chapter.simply_swords.quests60.subtitle}"
 			tasks: [{
 				entity: "minecraft:magma_cube"
 				icon: {
@@ -2462,7 +2462,7 @@
 					}
 				}
 				id: "3B2A79DA51FD5FBB"
-				title: "The Weapons needs Food. Feed it what it wants."
+				title: "{ftbquests.chapter.simply_swords.quests60.tasks0.title}"
 				type: "kill"
 				value: 200L
 			}]
@@ -2471,7 +2471,7 @@
 		}
 		{
 			dependencies: ["7272D65052D97F66"]
-			description: ["&7Do you really want a night without any confirmation that you're not alone? Fine. Have it your way."]
+			description: ["{ftbquests.chapter.simply_swords.quests61.description0}"]
 			id: "508A68D4C7383920"
 			invisible: true
 			rewards: [
@@ -2487,7 +2487,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "To kill the stars."
+			subtitle: "{ftbquests.chapter.simply_swords.quests61.subtitle}"
 			tasks: [{
 				entity: "ad_astra:star_crawler"
 				icon: "minecraft:nether_star"
@@ -2504,7 +2504,7 @@
 				"0C2D472551252C55"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&7Kill what you hold dear. Kill what sees you. Do you see your reflection in your own doing?"]
+			description: ["{ftbquests.chapter.simply_swords.quests62.description0}"]
 			id: "17B5281769381237"
 			invisible: true
 			rewards: [
@@ -2520,7 +2520,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "THE EYES, OH GOD NOT THE EYES"
+			subtitle: "{ftbquests.chapter.simply_swords.quests62.subtitle}"
 			tasks: [{
 				entity: "eldritch_end:ominous_eye"
 				id: "22B61AA183603949"
@@ -2547,7 +2547,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "These Items tend to be harder to get, as they require an Runic Tablet and a Netherite weapon. Forge one."
+			subtitle: "{ftbquests.chapter.simply_swords.quests63.subtitle}"
 			tasks: [{
 				id: "10EC2EEDE202DA9B"
 				item: {
@@ -2557,16 +2557,16 @@
 						value: "simplyswords:runic_gear"
 					}
 				}
-				title: "Any #simplyswords:runic_gear"
+				title: "{ftbquests.chapter.simply_swords.quests63.tasks0.title}"
 				type: "item"
 			}]
-			title: "Runic Gear"
+			title: "{ftbquests.chapter.simply_swords.quests63.title}"
 			x: -7.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
-			description: ["&7This thing will be of some use, best to keep it with you while you explore the World!"]
+			description: ["{ftbquests.chapter.simply_swords.quests64.description0}"]
 			hide_until_deps_complete: true
 			id: "127BAE862AB60CFB"
 			rewards: [
@@ -2586,7 +2586,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "What will it turn into?"
+			subtitle: "{ftbquests.chapter.simply_swords.quests64.subtitle}"
 			tasks: [{
 				id: "13C58BA33809D669"
 				item: "simplyswords:contained_remnant"
@@ -2596,5 +2596,5 @@
 			y: 5.5d
 		}
 	]
-	title: " &dUnique Weaponry"
+	title: "{ftbquests.chapter.simply_swords.title}"
 }
