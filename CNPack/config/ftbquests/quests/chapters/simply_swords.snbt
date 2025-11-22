@@ -6,12 +6,309 @@
 	id: "75316E8D631F174C"
 	images: [
 		{
+			dependency: "07DAFC04179A4DA0"
 			height: 1.5d
 			image: "simplyswords:item/twisted_blade"
 			rotation: 0.0d
 			width: 1.5d
+			x: -23.0d
+			y: -5.0d
+		}
+		{
+			dependency: "547DCAE28B3968ED"
+			height: 3.0d
+			image: "simplyswords:item/livyatan"
+			rotation: 0.0d
+			width: 3.0d
+			x: -13.5d
+			y: -15.0d
+		}
+		{
+			dependency: "306AAF14EBD13866"
+			height: 2.0d
+			image: "simplyswords:item/soulpyre"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependency: "03E7D9E3CD29B32F"
+			height: 1.0d
+			image: "simplyswords:item/ribboncleaver_anim_01"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			dependency: "771507AA08194DE6"
+			height: 1.0d
+			image: "simplyswords:item/tampered_remnant_outer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependency: "5209EC117C51D5D5"
+			height: 2.0d
+			image: "simplyswords:item/watching_warglaive"
+			rotation: 45.0d
+			width: 2.0d
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependency: "771507AA08194DE6"
+			height: 1.0d
+			image: "simplyswords:item/runic_tablet"
+			rotation: 0.0d
+			width: 1.0d
 			x: -10.0d
-			y: -13.0d
+			y: -9.5d
+		}
+		{
+			dependency: "1C6075524C120092"
+			height: 3.0d
+			image: "simplyswords:item/lichblade"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: -18.0d
+		}
+		{
+			dependency: "6A8665FBC017A00F"
+			height: 2.0d
+			image: "decorative_blocks:block/bonfire_x_alt"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependency: "6A8665FBC017A00F"
+			height: 2.0d
+			image: "graveyard:item/fire_brazier_item"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependency: "5AC50DF4F52A548F"
+			height: 1.0d
+			image: "simplyskills:icons/alternate_reduced/rogue_bladestorm"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependency: "5209EC117C51D5D5"
+			height: 2.0d
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependency: "5209EC117C51D5D5"
+			height: 2.0d
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependency: "0A5F7ABD54251511"
+			height: 1.0d
+			image: "eldritch_end:textures/mob_effect/corruption.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependency: "547DCAE28B3968ED"
+			height: 2.0d
+			image: "simplyswords:item/icewhisper"
+			rotation: 45.0d
+			width: 2.0d
+			x: -16.5d
+			y: -13.5d
+		}
+		{
+			dependency: "18C4F3367A04B882"
+			height: 1.5d
+			image: "simplyswords:item/tempest_anim_01"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -15.0d
+		}
+		{
+			dependency: "6A8665FBC017A00F"
+			height: 2.0d
+			image: "simplyswords:item/hearthflame"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependency: "3940465EE60C2554"
+			height: 3.0d
+			image: "simplyswords:item/stormbringer"
+			rotation: 45.0d
+			width: 3.0d
+			x: -17.5d
+			y: -11.0d
+		}
+		{
+			dependency: "10710081934A30C6"
+			height: 2.0d
+			image: "simplyswords:item/unique_longsword_tainted_whole_32x32"
+			rotation: 0.0d
+			width: 2.0d
+			x: -22.0d
+			y: 3.0d
+		}
+		{
+			dependency: "306AAF14EBD13866"
+			height: 2.0d
+			image: "simplyswords:item/soulpyre_anim_01"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependency: "18C4F3367A04B882"
+			height: 1.5d
+			image: "simplyswords:item/tempest_anim_01_e"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -15.0d
+		}
+		{
+			dependency: "3940465EE60C2554"
+			height: 2.0d
+			image: "simplyswords:item/storms_edge"
+			rotation: 45.0d
+			width: 2.0d
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			dependency: "3940465EE60C2554"
+			height: 2.0d
+			image: "simplyswords:item/storms_edge_layer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			dependency: "730BC7042CFC5627"
+			height: 2.0d
+			image: "simplyswords:item/enigma_base"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependency: "46EE656C1F9E5CD5"
+			height: 2.0d
+			image: "simplyswords:item/magiblade_base"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependency: "46EE656C1F9E5CD5"
+			height: 2.0d
+			image: "simplyswords:item/magiblade_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependency: "372B6EB1F66455B8"
+			height: 3.0d
+			image: "simplyswords:item/magiscythe"
+			rotation: 45.0d
+			width: 3.0d
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependency: "2B21952A37C6B9A9"
+			height: 2.0d
+			image: "simplyswords:item/decaying_relic"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: -9.5d
+		}
+		{
+			dependency: "03E7D9E3CD29B32F"
+			height: 2.0d
+			image: "simplyswords:item/sword_on_a_stick"
+			rotation: 0.0d
+			width: 2.0d
+			x: -16.5d
+			y: 1.5d
+		}
+		{
+			dependency: "1E65DAC37F8D34F9"
+			height: 3.0d
+			image: "simplyswords:item/unique_longsword_holy"
+			rotation: 45.0d
+			width: 3.0d
+			x: -25.0d
+			y: -1.5d
+		}
+		{
+			dependency: "556C78463DB00269"
+			height: 2.0d
+			image: "simplyswords:item/icewhisper_layer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -16.5d
+			y: -13.5d
+		}
+		{
+			dependency: "5B8F694F41090641"
+			height: 3.0d
+			image: "simplyswords:item/bramblethorn"
+			rotation: 0.0d
+			width: 3.0d
+			x: -23.0d
+			y: -3.0d
+		}
+		{
+			dependency: "1E65DAC37F8D34F9"
+			height: 1.7d
+			image: "simplyswords:item/bramblethorn_layer"
+			rotation: 0.0d
+			width: 1.7d
+			x: -23.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -30.5d
+			y: 34.0d
 		}
 	]
 	order_index: 0
@@ -19,9 +316,9 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.simply_swords.quests0.description0}"
+				"&6&lSimply Swords&r &7offers over &a&l15&r &7weapons types for the player to utilize."
 				""
-				"{ftbquests.chapter.simply_swords.quests0.description2}"
+				"&7It also has the unique featureset of &b&n&lRunic Powers&r, &7which can be given to weapons via &n&bsockets&r!"
 			]
 			icon: {
 				Count: 1
@@ -51,29 +348,23 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.simply_swords.quests0.subtitle}"
-			tasks: [
-				{
-					id: "6461B5E43F7DF63E"
-					title: "{ftbquests.chapter.simply_swords.quests0.tasks0.title}"
-					type: "checkmark"
-				}
-				{
-					id: "6DB4A88379161C44"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
+			subtitle: "One of Many Sockets!"
+			tasks: [{
+				id: "6461B5E43F7DF63E"
+				title: "&d&lSimply Swords!"
+				type: "checkmark"
+			}]
 			x: -10.0d
-			y: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"{ftbquests.chapter.simply_swords.quests1.description0}"
+				"&c&lEmpowered Remnants&r &7are created by melting down unique weapons."
 				""
-				"{ftbquests.chapter.simply_swords.quests1.description2}"
+				"&7They are used in the creation of &9&lRunefused Gems&r, &7and &6&lNetherfused Gems&r."
 			]
+			hide_until_deps_complete: true
 			id: "5AA2A1E358A18B4E"
 			rewards: [
 				{
@@ -87,30 +378,30 @@
 					xp_levels: 5
 				}
 				{
-					count: 4
-					id: "3AD57D6DAA2392B8"
-					item: "minecraft:golden_apple"
+					count: 14
+					id: "6D9E42997C065579"
+					item: "minecells:health_flask"
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests1.subtitle}"
-			tasks: [
-				{
-					id: "5DF612576542C997"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-			]
+			shape: "hexagon"
+			subtitle: "A Pain to Make..."
+			tasks: [{
+				id: "5DF612576542C997"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
 			x: -10.0d
-			y: -1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"{ftbquests.chapter.simply_swords.quests2.description0}"
+				"&7To make it, combine a &bRunic Tablet&r &7with a &cEmpowered Remnant&r &7in a Smithing Table."
 				""
-				"{ftbquests.chapter.simply_swords.quests2.description2}"
+				"&7Click to identify which power you have rolled."
 			]
+			hide_until_deps_complete: true
 			id: "3E5207641E8653DC"
 			rewards: [
 				{
@@ -130,28 +421,27 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests2.subtitle}"
-			tasks: [
-				{
-					id: "5C78E6FA3E4F93CB"
-					item: {
-						Count: 1
-						id: "simplyswords:runefused_gem"
-						tag: { }
-					}
-					type: "item"
+			subtitle: "Made with &klol&r"
+			tasks: [{
+				id: "5C78E6FA3E4F93CB"
+				item: {
+					Count: 1
+					id: "simplyswords:runefused_gem"
+					tag: { }
 				}
-			]
-			x: -11.0d
-			y: -3.0d
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"{ftbquests.chapter.simply_swords.quests3.description0}"
+				"&7In order to make it, combine a &cEmpowered Remnant&r &7with a &6Netherite Ingot&r &7in a Smithing Table."
 				""
-				"{ftbquests.chapter.simply_swords.quests3.description2}"
+				"&7Click to identify which power you have rolled."
 			]
+			hide_until_deps_complete: true
 			id: "47EBDA6516061205"
 			rewards: [
 				{
@@ -171,320 +461,127 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests3.subtitle}"
-			tasks: [
-				{
-					id: "1F673D38D2BBDA24"
-					item: {
-						Count: 1
-						id: "simplyswords:netherfused_gem"
-						tag: { }
-					}
-					type: "item"
+			subtitle: "Made with Ash."
+			tasks: [{
+				id: "1F673D38D2BBDA24"
+				item: {
+					Count: 1
+					id: "simplyswords:netherfused_gem"
+					tag: { }
 				}
-			]
-			x: -9.0d
-			y: -3.0d
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0F426527B63F854D"]
-			description: ["{ftbquests.chapter.simply_swords.quests4.description}"]
+			description: [
+				"&7This will be the first step in &bdiscovering sockets&r &7and &9runic powers&r!"
+				""
+				"&7These Weapons can be found in a lot of places. With enough luck you might have found one already. Tales tell that the Wither and Jean, the Ender Dragon can have them. Some other strong enemies may also still hold onto one from a previous encounter with a Flameborn."
+			]
+			hide_until_deps_complete: true
 			id: "574677AD427E33FB"
-			rewards: [
-				{
-					id: "4614B78F16F62367"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests4.subtitle}"
-			tasks: [
-				{
-					id: "0D8720163BD20211"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "simplyswords:uniques"
-						}
+			rewards: [{
+				id: "4614B78F16F62367"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Unique Indeed."
+			tasks: [{
+				id: "0D8720163BD20211"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "simplyswords:uniques"
 					}
-					title: "{ftbquests.chapter.simply_swords.quests4.tasks0.title}"
-					type: "item"
 				}
-			]
+				title: "Obtain a &6Unique&r Weapon."
+				type: "item"
+			}]
 			x: -10.0d
-			y: 0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"47EBDA6516061205"
 				"3E5207641E8653DC"
 			]
-			description: [""]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7This is quite the Task. Many of these Weapons will be crucial for your upcoming Battles. The Scriptures are very in depth, but you dont recognize all names just yet."
+				""
+				""
+				"You can find these weapons in many ways. After some calculations from the old book you deduct the following Chances:"
+				"&0Wither 20%&r"
+				"&1Ender Dragon 35%&r"
+				"&7Night Lich 30%&r"
+				"&6Nether Gauntlet 25%&r"
+				"&8Obsidilith 40%&r"
+				"&1Magus 27%&r"
+				"&dConjunctivius 15%&r"
+				"&4Decaying King 15%&r"
+				"&5Null 20%&r"
+			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "simplyswords:empowered_remnant"
 			id: "771507AA08194DE6"
 			rewards: [
-				{
-					count: 5
-					id: "6D591FC77216444F"
-					item: "minecraft:golden_apple"
-					type: "item"
-				}
 				{
 					id: "7DB2BBD0F8B74E53"
 					type: "xp_levels"
 					xp_levels: 5
 				}
-			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests5.subtitle}"
-			tasks: [
 				{
-					id: "673BEC88D5083E14"
-					title: "{ftbquests.chapter.simply_swords.quests5.tasks0.title}"
-					type: "checkmark"
+					count: 16
+					id: "0984AA8BA3E05436"
+					item: "minecells:health_flask"
+					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.simply_swords.quests5.title}"
+			shape: "hexagon"
+			subtitle: "Collect the Rest of the Uniques!"
+			tasks: [{
+				id: "673BEC88D5083E14"
+				title: "Collect Them All!"
+				type: "checkmark"
+			}]
+			title: "&l&bRunic Overload..."
 			x: -10.0d
 			y: -6.5d
 		}
 		{
-			dependencies: ["771507AA08194DE6"]
-			id: "5B27AA1CCE537327"
-			rewards: [
-				{
-					count: 3
-					id: "453DD074D7E9068B"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "29BE710AE7221493"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-				{
-					id: "45A8A5308D96050F"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "4084E23C5A3D5F45"
-					item: {
-						Count: 1
-						id: "minecraft:splash_potion"
-						tag: {
-							Potion: "minecraft:extended_fire_resistance"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests6.subtitle}"
-			tasks: [
-				{
-					id: "25E1716F6BED844C"
-					item: {
-						Count: 1
-						id: "simplyswords:brimstone_claymore"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "500FFB155670A2FF"
-					item: {
-						Count: 1
-						id: "simplyswords:emberblade"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "41D22B752B03E087"
-					item: {
-						Count: 1
-						id: "simplyswords:molten_edge"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.simply_swords.quests6.title}"
-			x: -11.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["771507AA08194DE6"]
-			id: "0AD5B94945CAFEA5"
-			rewards: [
-				{
-					count: 4
-					id: "515015C4CAFCC8AC"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "74309BC4878251AA"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-				{
-					id: "191E898B3CC7B7CA"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests7.subtitle}"
-			tasks: [
-				{
-					id: "40DF72334515BC94"
-					item: {
-						Count: 1
-						id: "simplyswords:watcher_claymore"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "686651C9E831A57C"
-					item: {
-						Count: 1
-						id: "simplyswords:watching_warglaive"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "417154DBE628ABFB"
-					item: {
-						Count: 1
-						id: "simplyswords:soulrender"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7F660EA57A5763F5"
-					item: {
-						Count: 1
-						id: "simplyswords:soulstealer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.simply_swords.quests7.title}"
-			x: -8.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["771507AA08194DE6"]
-			id: "498F2AE0D31869F5"
-			rewards: [
-				{
-					count: 3
-					id: "6EDDBA000BF169D6"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6132DBF8560F08F4"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-				{
-					id: "078C810D710BC5A9"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests8.subtitle}"
-			tasks: [
-				{
-					id: "160CA89905A2A539"
-					item: {
-						Count: 1
-						id: "simplyswords:frostfall"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "68AC2EDC4090A9EC"
-					item: {
-						Count: 1
-						id: "simplyswords:icewhisper"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "515E3D929FD2B507"
-					item: {
-						Count: 1
-						id: "simplyswords:arcanethyst"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.simply_swords.quests8.title}"
-			x: -11.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["771507AA08194DE6"]
+			dependencies: ["07DAFC04179A4DA0"]
+			description: ["&7What will you choose? Will you regret your choices?"]
 			id: "1A59D35015E0BB3F"
-			rewards: [
-				{
-					id: "60CB3191CAB85C48"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests9.subtitle}"
-			tasks: [
-				{
-					id: "0F8DD51E27AD3B4A"
-					item: {
-						Count: 1
-						id: "simplyswords:dormant_relic"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "60CB3191CAB85C48"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			subtitle: "Dormant Power Lies Beneath..."
+			tasks: [{
+				id: "0F8DD51E27AD3B4A"
+				item: {
+					Count: 1
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			x: -10.0d
-			y: -8.5d
+				type: "item"
+			}]
+			x: -20.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1A59D35015E0BB3F"]
+			description: ["&7Look at your righteousness.  If only they could see you now."]
+			hide_until_deps_complete: true
 			id: "1E65DAC37F8D34F9"
 			rewards: [
 				{
@@ -504,25 +601,25 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests10.subtitle}"
-			tasks: [
-				{
-					id: "70287F102D2FE077"
-					item: {
-						Count: 1
-						id: "simplyswords:righteous_relic"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "All Mighty!"
+			tasks: [{
+				id: "70287F102D2FE077"
+				item: {
+					Count: 1
+					id: "simplyswords:righteous_relic"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			x: -11.0d
-			y: -9.5d
+				type: "item"
+			}]
+			x: -22.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1A59D35015E0BB3F"]
+			description: ["&7You were sent to destroy them, not join them!"]
+			hide_until_deps_complete: true
 			id: "10710081934A30C6"
 			rewards: [
 				{
@@ -541,25 +638,25 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests11.subtitle}"
-			tasks: [
-				{
-					id: "7B79D2A0339B4CFC"
-					item: {
-						Count: 1
-						id: "simplyswords:tainted_relic"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "Tainted and Twisted."
+			tasks: [{
+				id: "7B79D2A0339B4CFC"
+				item: {
+					Count: 1
+					id: "simplyswords:tainted_relic"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			x: -9.0d
-			y: -9.5d
+				type: "item"
+			}]
+			x: -20.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1E65DAC37F8D34F9"]
+			description: ["&7Where there is Light, there is Darkness. Are you sure youre up to the Challenge?"]
+			hide_until_deps_complete: true
 			id: "3B50D775CE678833"
 			rewards: [
 				{
@@ -583,25 +680,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests12.subtitle}"
-			tasks: [
-				{
-					id: "1CECDA302A1F41AE"
-					item: {
-						Count: 1
-						id: "simplyswords:sunfire"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "Pure Light."
+			tasks: [{
+				id: "1CECDA302A1F41AE"
+				item: {
+					Count: 1
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			x: -11.5d
-			y: -11.0d
+				type: "item"
+			}]
+			x: -23.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["10710081934A30C6"]
+			description: ["&7He is gone. I am what remains."]
+			hide_until_deps_complete: true
 			id: "3B253027B3A56099"
 			rewards: [
 				{
@@ -626,13 +723,287 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests13.subtitle}"
-			tasks: [
+			subtitle: "Death Awaits."
+			tasks: [{
+				id: "31C29D8D28776CF2"
+				item: {
+					Count: 1
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A8665FBC017A00F"]
+			description: ["&7'Cause Man is a Wolf to another Man"]
+			id: "6B35F27EE277F880"
+			rewards: [
 				{
-					id: "31C29D8D28776CF2"
+					id: "005F041EA24F4CB7"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "3A96FC98FC13BACC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "To slay a Dragon"
+			tasks: [{
+				id: "670A4F7E7CD0C61F"
+				item: {
+					Count: 1
+					id: "simplyswords:brimstone_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5209EC117C51D5D5"]
+			description: ["&7This blades stares at you with a sense of a Holy purpose. Something greater than it could even comprehend. "]
+			id: "79714A89BF6B05FC"
+			rewards: [
+				{
+					id: "6C7FD8BA81BE9E19"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "5995365469963A94"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "673D2C60ED97162A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			subtitle: "&7It watched a great Paladin slay a Beast. But he who kills cannot be far from a Beast himself."
+			tasks: [{
+				id: "2FE08DA25699E3CC"
+				item: {
+					Count: 1
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3940465EE60C2554"]
+			description: ["&7Two Storms, chained together by a single Handle. You can feel how volatile it is."]
+			id: "3B1D7C24AC35261C"
+			rewards: [
+				{
+					id: "0298CD0BBCED3984"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0D69378D411D96C5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "The Storm has no Conscience"
+			tasks: [{
+				id: "0DBABD4BA5458656"
+				item: {
+					Count: 1
+					id: "simplyswords:storms_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3940465EE60C2554"]
+			description: ["&7Let the Land thunder with my Storm!"]
+			id: "08AEEA46BD870294"
+			rewards: [
+				{
+					id: "5B11306FD5E55A3E"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "4B25BFEC2CA42630"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "The first River, was a River of Blood."
+			tasks: [{
+				id: "4C6A2AF592747716"
+				item: {
+					Count: 1
+					id: "simplyswords:stormbringer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["07DAFC04179A4DA0"]
+			description: ["&7There is a charm about the forbidden that makes it unspeakably desirable."]
+			id: "5B8F694F41090641"
+			rewards: [
+				{
+					id: "6F28C0BD03A7FA08"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "655E006D3CC2E51B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "039E8A56A668874F"
+					item: "bosses_of_mass_destruction:void_thorn"
+					type: "item"
+				}
+			]
+			subtitle: "It stings, just holding it. Wonder what that blade will do."
+			tasks: [{
+				id: "44506CD76C8EF068"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5209EC117C51D5D5"]
+			description: ["&7A delicate pair of Eyes, set on this blade, to forever judge the kills you do with it. Who are you to decide about life or death?"]
+			id: "0C2D472551252C55"
+			rewards: [
+				{
+					id: "689442E51202D595"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "2B799C93BE7452AD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "59B23FFF8F221524"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			subtitle: "&7They will never stop judging your Actions."
+			tasks: [{
+				id: "79FDD6A9D51E6BB8"
+				item: {
+					Count: 1
+					id: "simplyswords:watching_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5AC50DF4F52A548F"]
+			description: ["&7Whoever wielded this, didnt make it long. How will you fare against yourself? The Blades is as disgusting as it is sharp. The Blade's inscription tells that the Title of Plaguelord was bestowed upon the poor soul that accepted it."]
+			id: "5C6755620140F16B"
+			rewards: [
+				{
+					id: "2B3A7C576CAB6B8F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "003597A68F41F3F7"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					count: 13
+					id: "090776BE188D956E"
+					item: "minecells:infected_flesh"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "734399421D933E9C"
+					item: "minecells:guts"
+					type: "item"
+				}
+			]
+			subtitle: "Do you feel Diseased?"
+			tasks: [{
+				id: "08D0DBDA73A63933"
+				item: {
+					Count: 1
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18C4F3367A04B882"]
+			description: ["&7Whoever wronged the Wielder shall pay the Price tenfold."]
+			id: "4636BDC0E4B33561"
+			rewards: [
+				{
+					id: "0349D4930FE2716C"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "3419EB4B92F19088"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1B63BFE12DDA6E97"
 					item: {
 						Count: 1
-						id: "simplyswords:harbinger"
+						id: "minecells:flint"
 						tag: {
 							Damage: 0
 						}
@@ -640,158 +1011,1590 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: -11.0d
+			subtitle: "The Fire on this Blade is fueled by hate like Gasoline."
+			tasks: [{
+				id: "1D46A25F267B6C7A"
+				item: {
+					Count: 1
+					id: "simplyswords:emberblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -13.5d
 		}
 		{
-			dependencies: ["771507AA08194DE6"]
-			description: [""]
-			id: "6B432D872586D91D"
+			dependencies: ["6A8665FBC017A00F"]
+			description: ["&7No Evil thinks it is evil. Noone chooses Evil because it is Evil, they only mistake it for the the good one seeks. "]
+			id: "3343B7550C09C341"
 			rewards: [
 				{
-					count: 3
-					id: "3979DE74450E5C93"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "4CF86E1EA3BF8D37"
+					id: "33727DAF742AD337"
 					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 				{
-					id: "4849AF6911FF02F2"
+					id: "1DCFD398B0D2C847"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "This Weapon attracts Fury like a Magnet."
+			tasks: [{
+				id: "1B3C92FDB1ED1136"
+				item: {
+					Count: 1
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["306AAF14EBD13866"]
+			description: ["&7Too many Beings, not enough Souls."]
+			id: "666D6FFBD5FD2306"
+			rewards: [
+				{
+					id: "5367E26F90AEDC7B"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0A389E1D8C3CF715"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7If it were stolen, was it ever yours to begin with?"
+			tasks: [{
+				id: "516BDA2662CF6688"
+				item: {
+					Count: 1
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["07DAFC04179A4DA0"]
+			description: ["&7Any Betrayal you can see, is trivial. Whoever killed with this, did it for the sport or their own gain. Once a Straight Blade, this Weapon now mimicks the twisted mind of its Creator."]
+			id: "32C591A42D8C3C2E"
+			rewards: [
+				{
+					id: "5A9BA4F62BFC1508"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "64BA52BDF9582236"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5A0C0B169C58FAA6"
+					item: {
+						Count: 1
+						id: "mcdw:dagger_backstabber"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "mcdw:ambush"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "With a smug grin, he stabbed what they thought was dear to him."
+			tasks: [{
+				id: "651060AA26B81291"
+				item: {
+					Count: 1
+					id: "simplyswords:twisted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["306AAF14EBD13866"]
+			description: ["&7This blade reeks of a Betrayal that has changed this Weapon forever. A Betrayal so heartbreaking, it cannot even be forgotten by the ones that don't know it. The Souls in this Weapon ooze guilt."]
+			id: "3CFAA0BF10CBEAFD"
+			rewards: [
+				{
+					id: "71BEF04500B967B2"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "1F6F8ECC3A0F1E58"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "50A4F161FF765299"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+			]
+			subtitle: "&7A Blade Lucius would love."
+			tasks: [{
+				id: "1CEF9F877FD65EA2"
+				item: {
+					Count: 1
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["306AAF14EBD13866"]
+			description: ["&7All Power demands Sacrifice and Pain."]
+			id: "1299DA76794F4557"
+			rewards: [
+				{
+					id: "4D3A277A3257DCA2"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "444113DE6D5287DD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "36FE5CBEF99BA682"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+			]
+			subtitle: "&7I will rend the Flesh, until i stand as a unholy god."
+			tasks: [{
+				id: "469BBDBE0E523BD3"
+				item: {
+					Count: 1
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["306AAF14EBD13866"]
+			description: ["&7Like a Magnet for Souls. Loves sewing them together as if they were Fabric. "]
+			id: "5B267B7674F91DE8"
+			rewards: [
+				{
+					id: "4A0007451F10953C"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "55BE7070B24C1D9A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 13
+					id: "5ACEF1E001129AFA"
+					item: "soulsweapons:lost_soul"
+					type: "item"
+				}
+			]
+			subtitle: "&7An agglomeration of Souls"
+			tasks: [{
+				id: "1A7B5B0CFEE165C6"
+				item: {
+					Count: 1
+					id: "simplyswords:soulpyre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["547DCAE28B3968ED"]
+			description: ["&7Which one do you dread more, the Echo or the answer. Howl your Melancholic Question."]
+			id: "54A18E7973F870B7"
+			rewards: [
+				{
+					id: "5FEE61C702315FE3"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "1EB86F56416E9166"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Oh tell me Great One"
+			tasks: [{
+				id: "2B17B08CE72BC56D"
+				item: {
+					Count: 1
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6A8665FBC017A00F"]
+			description: ["&7You are mesmerized by the flowing Lava on this Blade. It reminds you of something..."]
+			id: "0D8A8981385BAF73"
+			rewards: [
+				{
+					id: "34E944EA6E631A23"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "635BD704C131B043"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0C41BD7ACCE940E1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "The Prince"
+			tasks: [{
+				id: "203F635143291359"
+				item: {
+					Count: 1
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["547DCAE28B3968ED"]
+			description: ["&7Forged out of the remains of a great cold being, you can feel how it fought its last Battle with every swing."]
+			id: "2D894DA57337C966"
+			rewards: [
+				{
+					id: "7A80C0B7A921176B"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "5E16DB494AE2E4BA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "He who stares into the Abyss..."
+			tasks: [{
+				id: "4089ACB32C4DD3AF"
+				item: {
+					Count: 1
+					id: "simplyswords:livyatan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["547DCAE28B3968ED"]
+			description: ["&7There is a Encryption on this Weapon by one of its previous Wielders. You can make out the first two letters. \"Br-\". The handle still oozes with a heat you wouldn't expect from such a oddly cold weapon. While holding it you feel as if someone made a joke a couple hundred times too much."]
+			id: "556C78463DB00269"
+			rewards: [
+				{
+					id: "0F780297BE506C56"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "4F45CB30F9903329"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3F930FDF14A1D26A"
+					item: {
+						Count: 1
+						id: "farmersknives:cryomarble_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Some things are enough said once."
+			tasks: [{
+				id: "3CC26FF5DB804069"
+				item: {
+					Count: 1
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5209EC117C51D5D5"]
+			description: ["&7Once bestowed by a great Arcane Mage. This Blade has seen more than most."]
+			id: "3A333A884ED801AE"
+			rewards: [
+				{
+					id: "780E03AC70E79C92"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "6008A08FF4E4E2EE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "6BC7DBD4DB04B35C"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			subtitle: "&7You can't lose, you're chosen."
+			tasks: [{
+				id: "2963F96B9A1741FB"
+				item: {
+					Count: 1
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5AC50DF4F52A548F"]
+			description: ["&7Even the calmest minds, have a Storm brewing in them. But it is up to the mind to learn when to unleash it."]
+			id: "177CE07DA601DF07"
+			rewards: [
+				{
+					id: "502B2E3E9567D131"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "5DA1243189E88294"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Before the Storm, there is always a certain type of calm."
+			tasks: [{
+				id: "52E9D721F987A254"
+				item: {
+					Count: 1
+					id: "simplyswords:thunderbrand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3940465EE60C2554"]
+			description: ["&7A sign of intelligence is an awareness of one's own ignorance."]
+			id: "17FA5AE32F7A22DD"
+			rewards: [
+				{
+					id: "0CDE8305A455A493"
+					item: {
+						Count: 1
+						id: "minecells:lightning_bolt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37DE6EB8190BF512"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "636E61C4B523265F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "A Pain unfelt by the Guilty."
+			tasks: [{
+				id: "162BA6204FED68DF"
+				item: {
+					Count: 1
+					id: "simplyswords:mjolnir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["547DCAE28B3968ED"]
+			description: ["&7You can feel Death when wielding this Weapon. No living or dead creature wants to be near you. You can feel that this Weapon craves something. It wants to wake up."]
+			id: "1C6075524C120092"
+			rewards: [
+				{
+					id: "715CF5A88EA04F44"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0D8FDA20E414D2BD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5CE32BBD775090B2"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			subtitle: "A certain feeling of Death."
+			tasks: [{
+				id: "45B3A52415EAD3B4"
+				item: {
+					Count: 1
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1C6075524C120092"]
+			description: ["&7It has gotten stronger. You can feel that it hasn't reached it's full potential yet. You must keep pushing. Youre far too gone to stop now, right? Cannibalize life."]
+			hide_until_deps_complete: true
+			id: "2629BC0942CC42F6"
+			rewards: [
+				{
+					id: "0477E13CFD9EEC4E"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "20442D710C59F698"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "It is becoming awake..."
+			tasks: [{
+				id: "5ECB8411482DF1D5"
+				item: {
+					Count: 1
+					id: "simplyswords:waking_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["1C6075524C120092"]
+			description: ["&7The Blade whispers gratitude towards you. Materializing something that will &4be of great use sooner or later&r&7 to you. Long shall be their suffering. Joyous be their pain."]
+			hide_until_deps_complete: true
+			id: "0395861176F7F402"
+			rewards: [
+				{
+					id: "51CE52336784BA50"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "58E74C7A157CE8F2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "486CF177C76F28D0"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "AT FULL POTENTIAL"
+			tasks: [{
+				id: "5332CA7293781217"
+				item: {
+					Count: 1
+					id: "simplyswords:awakened_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["5AC50DF4F52A548F"]
+			description: ["&7The only thing that will always follow you, is your Shadow."]
+			id: "4DD812D8096B5BB7"
+			rewards: [
+				{
+					id: "03013ABAA866E36B"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "1D741D3134DD852A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Like a Bee made out of the absence of light."
+			tasks: [{
+				id: "690E6BEA291AC460"
+				item: {
+					Count: 1
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3940465EE60C2554"]
+			description: ["&7A Thirst that cannot be satiated is a Thirst that you will die of."]
+			id: "7F9DAA4B9D84E3DC"
+			rewards: [
+				{
+					id: "22516A5A9C6CD07F"
+					item: "windchimes:iron_chime"
+					type: "item"
+				}
+				{
+					id: "2FC6F7D280C6C453"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "137971C5D3CF055A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "In the blink of an eye, the easiest war can be lost to Pride."
+			tasks: [{
+				id: "1E7216FDECB3DE63"
+				item: {
+					Count: 1
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6A8665FBC017A00F"]
+			description: ["&7To become something higher, is the loneliest Achievement of them all."]
+			id: "3ADBA2BF57A23E05"
+			rewards: [
+				{
+					id: "3B9891E3219B5FEB"
+					item: {
+						Count: 1
+						id: "minecells:assassins_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73FE375523FE7679"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "51C5AAFCA477DDF4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "A Blade made out of a sharp Fire."
+			tasks: [{
+				id: "3CF35DE6F607C295"
+				item: {
+					Count: 1
+					id: "simplyswords:emberlash"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18C4F3367A04B882"]
+			description: ["&7Our hearts are monsters. That's why our ribs are cages."]
+			id: "1C33DCFADBD4B13F"
+			rewards: [
+				{
+					id: "4E22649CB10625ED"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "68D290123288D492"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0A1E95C54EB699CF"
+					item: "minecraft:candle"
+					type: "item"
+				}
+			]
+			subtitle: "Do not ever apologize for the madnesss which made you a Warrior."
+			tasks: [{
+				id: "5D8A324561660A8E"
+				item: {
+					Count: 1
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["03E7D9E3CD29B32F"]
+			description: ["&7It seems that you are not the only one interested in the weapon. You should not make the Hive angry, or at least give them someone else to be angry about."]
+			id: "34BACF93066559BD"
+			rewards: [
+				{
+					id: "3E949534EFA0284B"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					id: "0D6AA1F62ACE04B0"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "3F6EDD61CCFC5E5A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "2BF6E06C900DCF0B"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "35A7FD509D3A393A"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			subtitle: "You can hear a buzzing coming from the weapon itself."
+			tasks: [{
+				id: "48F6A613036C90AF"
+				item: {
+					Count: 1
+					id: "simplyswords:hiveheart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5209EC117C51D5D5"]
+			description: ["&7Is your Ache known to the Gods?"]
+			id: "7272D65052D97F66"
+			rewards: [
+				{
+					id: "33D110BFAA7F0AF3"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "4FF94DD24E0C9AB8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "41C047607D8135EC"
+					item: {
+						Count: 1
+						id: "botania:star_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A Blade not from this world."
+			tasks: [{
+				id: "607332E4BD902C6C"
+				item: {
+					Count: 1
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18C4F3367A04B882"]
+			description: ["&7You will never be able to escape from your heart. So it's better to listen to what it has to say."]
+			id: "02D16E97B12EEA41"
+			rewards: [
+				{
+					id: "638A5B38F952B3C0"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "5E18A7052CA9F22F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "A burnt Child loves the fire."
+			tasks: [{
+				id: "5822A36162719CDE"
+				item: {
+					Count: 1
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["18C4F3367A04B882"]
+			description: ["&7Nature knows no Kings and Queens. They all die the same."]
+			id: "222ECAF5058016B3"
+			rewards: [
+				{
+					id: "4F348CEF057BF3FB"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "2DE0AD99F9970669"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "39A3C05DAA3B2652"
+					item: "convenientdecor:iron_weather_vane"
+					type: "item"
+				}
+			]
+			subtitle: "A Storm so destructive - Who could have started it?"
+			tasks: [{
+				id: "205C61F9FAFED7B8"
+				item: {
+					Count: 1
+					id: "simplyswords:tempest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["03E7D9E3CD29B32F"]
+			description: ["&7A Fire only rises as high as its Fuel lets it to."]
+			id: "1E43CA1D1052238D"
+			rewards: [
+				{
+					id: "5F90B61FDB8B0956"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "13337D4C7A62CCFD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "00732A4FF0D1F92D"
+					item: "minecells:firebrands"
+					type: "item"
+				}
+			]
+			subtitle: "In order to understand, he destroyed himself."
+			tasks: [{
+				id: "5EC4FBD1DC595DC8"
+				item: {
+					Count: 1
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03E7D9E3CD29B32F"]
+			description: [
+				"&7The inscription, in a rusty, bloody paint says:"
+				"&4I bind myself to you tonight,&r"
+				"&4No matter the shift of the knife,&r"
+				"&4Through blood and bone,&r"
+				"&4Flesh and Heart,&r"
+				"&4Death may come,&r"
+				"&4But we shall not part.&r"
+			]
+			id: "4602FD0E33DD4D5E"
+			rewards: [
+				{
+					id: "7C894521FF9CE68C"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "392C05E1E444F694"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "5CE749C89990F901"
+					item: "minecells:blood_bottle"
+					type: "item"
+				}
+				{
+					id: "1075F212D25C0615"
+					item: {
+						Count: 1
+						id: "minecells:blood_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The Death Oath"
+			tasks: [{
+				id: "74D75A057911D425"
+				item: {
+					Count: 1
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: ["&7How much do you have to lose to be new? How much makes you you?"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2B21952A37C6B9A9"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "7220D6722F3F0F2F"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "7326499D2C110CE1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Once a Noble Weapon, now barely a Relic"
+			tasks: [{
+				id: "4A0FB4F0B04D5E98"
+				item: {
+					Count: 1
+					id: "simplyswords:decaying_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: ["&7To go against what you know is to invent. But will that Reward be high enough?"]
+			hide_dependency_lines: true
+			id: "372B6EB1F66455B8"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "755406D4A473AF86"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "5DA52B66226C3904"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "399593BCFA78E856"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Heresy."
+			tasks: [{
+				id: "06C634A2A7DB7ACF"
+				item: {
+					Count: 1
+					id: "simplyswords:magiscythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: ["&7A Question never asked, will always be never answered."]
+			hide_dependency_lines: true
+			id: "730BC7042CFC5627"
+			invisible: true
+			rewards: [
+				{
+					id: "052B6585C641EB07"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "7B096AEA1DE20E40"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "7B4D605504586B8F"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Knowledge is Power."
+			tasks: [{
+				id: "51616656C5CA7D35"
+				item: {
+					Count: 1
+					id: "simplyswords:enigma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: ["&7This Weapon has seen the Rise of the Deep Dark. It gives off a pulse of Joy when it sees its Home."]
+			hide_dependency_lines: true
+			id: "46EE656C1F9E5CD5"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "272F11E499A8D6E1"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "142239EE47E0F109"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "1DA6FCCB6C2EC1D3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "pentagon"
+			subtitle: "A Blade that has been taught hundreds of techniques."
+			tasks: [{
+				id: "5CED8201A8C06FC1"
+				item: {
+					Count: 1
+					id: "simplyswords:magiblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5AC50DF4F52A548F"]
+			description: ["&7Forever Cursed and Blessed to walk two Realms, one might only pity these poor Souls."]
+			id: "0E959953F768C259"
+			rewards: [
+				{
+					id: "4D2CA70F1689BE78"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "491AF23A26DC7365"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&7Between two Realms, yet home in none."
+			tasks: [{
+				id: "6322CA3B700CAFB4"
+				item: {
+					Count: 1
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			dependency_requirement: "one_started"
+			description: [
+				"&7Walls have ears."
+				"&7Doors have eyes."
+				"&7Trees have voices."
+				"&7Beasts tell lies."
+				"&7Beware the rain."
+				"&7Beware the snow."
+				"&7Beware the man."
+				"&7You think you know."
+			]
+			hide_until_deps_complete: true
+			id: "547DCAE28B3968ED"
+			rewards: [{
+				id: "79DDDF28B3B0C256"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Guilt can consume you from within."
+			tasks: [{
+				id: "022387F0E924D4E6"
+				title: "Frozen Past"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			hide_until_deps_complete: true
+			id: "3940465EE60C2554"
+			rewards: [{
+				id: "47FC973EA720CF3A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5AE9AAEE101CE4C8"
+				title: "Approaching Storm"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7You wear vengeance like armor, but it corrodes from within. You will become what you destroy."]
+			hide_until_deps_complete: true
+			id: "18C4F3367A04B882"
+			rewards: [{
+				id: "25C49131267201A3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Wrath is a Sin that corrodes from within."
+			tasks: [{
+				id: "1384362E58602E2F"
+				title: "Everlasting Cinders"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7Some say that the Soul is the most important part. Some say all you are is a mess of Hormones and impulses. What if you are neither and both at the same time?"]
+			hide_until_deps_complete: true
+			id: "306AAF14EBD13866"
+			rewards: [{
+				id: "6246061A51A439A5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "It's the Eyes. It's always the Eyes."
+			tasks: [{
+				id: "4E8294EF91FA3E90"
+				title: "Stolen Souls"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7Ever so learning. Ever so studying. All these things knew was taught. Their only instinct was to learn."]
+			hide_until_deps_complete: true
+			id: "5209EC117C51D5D5"
+			rewards: [{
+				id: "4FB84C8755CC323A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "&7They werent many. But their Eyes were."
+			tasks: [{
+				id: "39F7EC8B735A21FC"
+				title: "Blades of the Watchers"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7The more you take, the less you'll have. You will starve surrounded by Gold."]
+			hide_until_deps_complete: true
+			id: "07DAFC04179A4DA0"
+			rewards: [{
+				id: "0547E37D366146EE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Greed - how insatiable..."
+			tasks: [{
+				id: "5C0B0ECEF7BA052B"
+				title: "Sins of the Lost"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7The records were well kept, but the nature of these weapons makes everything decay with time. Noone really knows where these came from or who made them, what we know is that when you see someone wield these, they are most likely doomed to fail."]
+			hide_until_deps_complete: true
+			id: "5AC50DF4F52A548F"
+			rewards: [{
+				id: "5D46399357181290"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "&7They came flying from a sky we couldnt even percieve."
+			tasks: [{
+				id: "0353504AABDB41D8"
+				title: "Pests of the Sky"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7A Promise broken is a stab in the Heart. A Guarantee broken is a stab in the Brain. A Heart broken is a stab in the Soul."]
+			hide_until_deps_complete: true
+			id: "03E7D9E3CD29B32F"
+			rewards: [{
+				id: "45569995F674458F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "To not be forgotten, is to not be forgiven."
+			tasks: [{
+				id: "4D666B006F72F537"
+				title: "Forgotten, not forgiven"
+				type: "checkmark"
+			}]
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["771507AA08194DE6"]
+			description: ["&7Forever is a dangerous word. How can a Mortal offer Eternity?"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "6A8665FBC017A00F"
+			rewards: [{
+				id: "0CBEDBFE548D341E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Some things dont end with Death."
+			tasks: [{
+				id: "241FA414889A2308"
+				title: "Everlasting Flames of regret"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03E7D9E3CD29B32F"]
+			description: ["&7Guess what? It stabs a bit further than just wielding it. Hope the Stick doesnt break. Disgrace."]
+			id: "45163F8A6463C455"
+			rewards: [
+				{
+					id: "52BBDA85B350C531"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "40EFCB3A87E814C6"
+					item: {
+						Count: 1
+						id: "simplyswords:iron_longsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3210E38988C762F9"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "4EEDE273BE3D5D27"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "This is literally just a Sword on a stick."
+			tasks: [{
+				id: "7808F25B17D75A31"
+				item: {
+					Count: 1
+					id: "simplyswords:sword_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D8A8981385BAF73"]
+			description: ["&7Feed it."]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2FE74D0698201078"
+			invisible: true
+			rewards: [
+				{
+					id: "29A9EBB3D8B6221A"
+					item: {
+						Count: 1
+						id: "simplyswords:molten_edge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06842229DFE46DF2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "261C7A3E10BB4E87"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "It wants something from you. Something as molten as itself. Something that gets more but also less."
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3B2A79DA51FD5FBB"
+				title: "The Weapons needs Food. Feed it what it wants."
+				type: "kill"
+				value: 200L
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7272D65052D97F66"]
+			description: ["&7Do you really want a night without any confirmation that you're not alone? Fine. Have it your way."]
+			id: "508A68D4C7383920"
+			invisible: true
+			rewards: [
+				{
+					id: "25705C3F3FEBA3D3"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "77B4213C8D570BE6"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests14.subtitle}"
-			tasks: [
-				{
-					id: "7732EAA92E6455BA"
-					item: {
-						Count: 1
-						id: "simplyswords:stormbringer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3FD56B75FF607307"
-					item: {
-						Count: 1
-						id: "simplyswords:thunderbrand"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4F9D18F59CA26A5C"
-					item: {
-						Count: 1
-						id: "simplyswords:storms_edge"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.simply_swords.quests14.title}"
-			x: -8.5d
-			y: -5.5d
+			shape: "octagon"
+			subtitle: "To kill the stars."
+			tasks: [{
+				entity: "ad_astra:star_crawler"
+				icon: "minecraft:nether_star"
+				id: "2A166F07ACC01399"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["771507AA08194DE6"]
-			id: "27B045439DB314E7"
+			dependencies: [
+				"79714A89BF6B05FC"
+				"0C2D472551252C55"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&7Kill what you hold dear. Kill what sees you. Do you see your reflection in your own doing?"]
+			id: "17B5281769381237"
+			invisible: true
 			rewards: [
 				{
-					id: "2F26C125769F6427"
-					item: "simplyswords:empowered_remnant"
+					id: "1242B25F048F5F7F"
+					item: "prominent:infused_molten_remnant"
 					type: "item"
 				}
 				{
-					id: "71583AAFB44BE803"
+					id: "737FB61FDAC8971B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			subtitle: "THE EYES, OH GOD NOT THE EYES"
+			tasks: [{
+				entity: "eldritch_end:ominous_eye"
+				id: "22B61AA183603949"
+				type: "kill"
+				value: 120L
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5AA2A1E358A18B4E"]
+			hide_until_deps_complete: true
+			id: "392E27D0C5EB8965"
+			rewards: [
+				{
+					count: 4
+					id: "23B5A5D5BF2BC3EB"
 					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 				{
-					id: "29B2ACA54FE67117"
-					item: {
-						Count: 1
-						id: "minecraft:splash_potion"
-						tag: {
-							Potion: "minecraft:strong_warding"
-						}
-					}
-					type: "item"
+					id: "2A0DE51B8DFA6602"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests15.subtitle}"
-			tasks: [
-				{
-					id: "068033145A55BB5F"
-					item: {
-						Count: 1
-						id: "simplyswords:shadowsting"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "These Items tend to be harder to get, as they require an Runic Tablet and a Netherite weapon. Forge one."
+			tasks: [{
+				id: "10EC2EEDE202DA9B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "simplyswords:runic_gear"
 					}
-					type: "item"
 				}
-			]
-			x: -8.0d
-			y: -6.5d
+				title: "Any #simplyswords:runic_gear"
+				type: "item"
+			}]
+			title: "Runic Gear"
+			x: -7.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["771507AA08194DE6"]
-			id: "123C703D6049E87A"
+			dependencies: ["5AA2A1E358A18B4E"]
+			description: ["&7This thing will be of some use, best to keep it with you while you explore the World!"]
+			hide_until_deps_complete: true
+			id: "127BAE862AB60CFB"
 			rewards: [
 				{
-					id: "30860BB894D93405"
-					item: {
-						Count: 1
-						id: "minecraft:lingering_potion"
-						tag: {
-							Potion: "minecraft:long_poison"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "15C06B39E5F6380A"
+					id: "7412E2C513BEF79F"
 					item: "simplyswords:empowered_remnant"
 					type: "item"
 				}
 				{
-					id: "2660FECCE50B6789"
+					id: "2C54B3F7D8ED5122"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "64842451B7FA943A"
 					item: "simplyswords:runic_tablet"
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.simply_swords.quests16.subtitle}"
-			tasks: [
-				{
-					id: "4B5E527B4C808313"
-					item: {
-						Count: 1
-						id: "simplyswords:toxic_longsword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -12.0d
-			y: -6.5d
+			subtitle: "What will it turn into?"
+			tasks: [{
+				id: "13C58BA33809D669"
+				item: "simplyswords:contained_remnant"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
 		}
 	]
-	title: "{ftbquests.chapter.simply_swords.title}"
+	title: " &dUnique Weaponry"
 }
