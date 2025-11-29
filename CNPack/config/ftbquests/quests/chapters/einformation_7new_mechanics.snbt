@@ -3116,10 +3116,6 @@
 			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description0}"
-				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description2}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description3}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description4}"
 			]
 			hide_until_deps_visible: true
 			id: "080F23071FA8CFC9"
@@ -3208,6 +3204,7 @@
 				{
 					id: "60B3A4B08E3A36A6"
 					item: "prominent:vaazkar"
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests44.tasks6.title}"
 					type: "item"
 				}
@@ -3641,6 +3638,7 @@
 							Damage: 0
 						}
 					}
+					optional_task: true
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.tasks8.title}"
 					type: "item"
 				}
@@ -4658,19 +4656,6 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "accessories:textures/gui/group/unknown.png"
-						}
-					}
-					id: "427032B27502390C"
-					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests62.tasks2.title}"
-					type: "custom"
-				}
-				{
 					id: "1095B6816693242F"
 					item: {
 						Count: 1
@@ -4712,6 +4697,18 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "71B2A84EC7CC961B"
+					item: {
+						Count: 1
+						id: "prominent:ghaj"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
 					type: "item"
 				}
 			]

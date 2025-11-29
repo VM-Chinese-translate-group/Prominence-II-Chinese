@@ -326,7 +326,6 @@
 			subtitle: "{ftbquests.chapter.main_story.quests1.subtitle}"
 			tasks: [
 				{
-					count: 4L
 					id: "3B40E2130DDD7AD3"
 					item: "bosses_of_mass_destruction:soul_star"
 					title: "{ftbquests.chapter.main_story.quests1.tasks0.title}"
@@ -1840,7 +1839,11 @@
 			y: 10.714285714285708d
 		}
 		{
-			dependencies: ["3A8C4B633BAF1EFF"]
+			dependencies: [
+				"3A8C4B633BAF1EFF"
+				"34479B95BF592101"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.main_story.quests31.description0}"
 				""
@@ -2090,6 +2093,50 @@
 			x: -10.5d
 			y: -4.5d
 		}
+        {
+            dependencies: ["3A8C4B633BAF1EFF"]
+            description: ["{ftbquests.chapter.main_story.quests36.description0}"]
+            hide_until_deps_complete: true
+            icon: "eldritch_end:aberration_spawn_egg"
+            id: "34479B95BF592101"
+            rewards: [
+                {
+                    count: 4
+                    id: "6E55BC85931576DC"
+                    item: {
+                        Count: 1
+                        id: "eldritch_end:ominous_eye"
+                        tag: { }
+                    }
+                    type: "item"
+                }
+                {
+                    id: "09CFD9FF34E4A082"
+                    type: "xp_levels"
+                    xp_levels: 5
+                }
+            ]
+            subtitle: "{ftbquests.chapter.main_story.quests36.subtitle}"
+            tasks: [
+                {
+                    biome: "eldritch_end:primordial_abyss"
+                    id: "602D20630E252EC0"
+                    optional_task: true
+                    title: "{ftbquests.chapter.main_story.quests36.tasks0.title}"
+                    type: "biome"
+                }
+                {
+                    entity: "eldritch_end:aberration"
+                    id: "36BF1A161A1782FC"
+                    title: "{ftbquests.chapter.main_story.quests36.tasks1.title}"
+                    type: "kill"
+                    value: 500L
+                }
+            ]
+            title: "{ftbquests.chapter.main_story.quests36.title}"
+            x: -11.0d
+            y: 12.5d
+        }
 	]
 	title: "{ftbquests.chapter.main_story.title}"
 }
