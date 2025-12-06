@@ -1,0 +1,16 @@
+{
+	id: "1A0D92B05EBAF8AF"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "jewelry:unique_tank_ring" }
+		{ item: "jewelry:unique_dex_ring" }
+		{ item: "jewelry:unique_attack_ring" }
+		{ item: "jewelry:unique_archer_ring" }
+		{ item: "jewelry:unique_arcane_ring" }
+		{ item: "jewelry:unique_fire_ring" }
+		{ item: "jewelry:unique_frost_ring" }
+		{ item: "jewelry:unique_healing_ring" }
+	]
+	title: "{ftbquests.reward_tables.tier4rings.title}"
+}

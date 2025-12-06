@@ -932,8 +932,6 @@
 				""
 				"{ftbquests.chapter.eenchanting.quest33.description6}"
 				""
-				"{ftbquests.chapter.eenchanting.quest33.description8}"
-				""
 				"{ftbquests.chapter.eenchanting.quest33.description10}"
 				""
 				"{ftbquests.chapter.eenchanting.quest33.description12}"
@@ -952,8 +950,8 @@
 				title: "{ftbquests.chapter.eenchanting.quest33.task1.title}"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
