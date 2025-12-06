@@ -72,9 +72,40 @@ def extract_strings_from_list(list_content):
 def process_quest(quest_block, quest_idx, translations):
     base_key = f"ftbquests.chapter.to_the_end.quests{quest_idx}"
     
-    # 1. Replace Title (Strict regex)
+    # STEP 1: Extract and mask tasks/rewards blocks to avoid replacing titles inside them
+    # when we process quest-level title
+    
+    tasks_placeholder = "___TASKS_PLACEHOLDER___"
+    rewards_placeholder = "___REWARDS_PLACEHOLDER___"
+    
+    tasks_block_original = None
+    rewards_block_original = None
+    
+    # Extract tasks block
+    tasks_match = re.search(r'(?<!\w)tasks:\s*\[', quest_block)
+    if tasks_match:
+        start_idx = tasks_match.start()
+        content_inside, end_idx = parse_snbt_list(quest_block, start_idx)
+        if content_inside is not None:
+            list_start_char = quest_block.find('[', start_idx)
+            tasks_block_original = quest_block[start_idx:end_idx+1]
+            quest_block = quest_block[:start_idx] + tasks_placeholder + quest_block[end_idx+1:]
+    
+    # Extract rewards block
+    rewards_match = re.search(r'(?<!\w)rewards:\s*\[', quest_block)
+    if rewards_match:
+        start_idx = rewards_match.start()
+        content_inside, end_idx = parse_snbt_list(quest_block, start_idx)
+        if content_inside is not None:
+            rewards_block_original = quest_block[start_idx:end_idx+1]
+            quest_block = quest_block[:start_idx] + rewards_placeholder + quest_block[end_idx+1:]
+    
+    # STEP 2: Now process quest-level title (won't affect tasks/rewards)
     def replace_title(match):
         val = match.group(1)
+        # Skip if already a translation key reference
+        if val.startswith('{') and val.endswith('}'):
+            return match.group(0)
         key = f"{base_key}.title"
         translations[key] = val
         return f'title: "{{{key}}}"'
@@ -82,16 +113,19 @@ def process_quest(quest_block, quest_idx, translations):
     # (?<!\w) ensures we don't match "subtitle" as "title"
     quest_block = re.sub(r'(?<!\w)title:\s*"((?:[^"\\]|\\.)*)"', replace_title, quest_block)
 
-    # 2. Replace Subtitle (Strict regex)
+    # STEP 3: Replace Subtitle (at quest level)
     def replace_subtitle(match):
         val = match.group(1)
+        # Skip if already a translation key reference
+        if val.startswith('{') and val.endswith('}'):
+            return match.group(0)
         key = f"{base_key}.subtitle"
         translations[key] = val
         return f'subtitle: "{{{key}}}"'
     
     quest_block = re.sub(r'(?<!\w)subtitle:\s*"((?:[^"\\]|\\.)*)"', replace_subtitle, quest_block)
 
-    # 3. Replace Description
+    # STEP 4: Replace Description
     desc_match = re.search(r'(?<!\w)description:\s*\[', quest_block)
     if desc_match:
         start_idx = desc_match.start()
@@ -102,6 +136,9 @@ def process_quest(quest_block, quest_idx, translations):
             for idx, (val, s, e) in enumerate(reversed(strs)):
                 real_idx = len(strs) - 1 - idx
                 if val.strip() == "": continue
+                # Skip if already a translation key reference
+                if val.startswith('{') and val.endswith('}'):
+                    continue
                 key = f"{base_key}.description{real_idx}"
                 translations[key] = val
                 new_list_content = new_list_content[:s] + f'"{{{key}}}"' + new_list_content[e:]
@@ -109,37 +146,49 @@ def process_quest(quest_block, quest_idx, translations):
             list_start_char = quest_block.find('[', start_idx)
             quest_block = quest_block[:list_start_char+1] + new_list_content + quest_block[end_idx:]
 
-    # 4. Replace Tasks
-    tasks_match = re.search(r'(?<!\w)tasks:\s*\[', quest_block)
-    if tasks_match:
-        start_idx = tasks_match.start()
-        content_inside, end_idx = parse_snbt_list(quest_block, start_idx)
-        if content_inside is not None:
-            new_tasks_content = ""
-            cursor = 0
-            task_idx = 0
-            while True:
-                obj_str, obj_end = get_balanced_braces(content_inside, cursor)
-                if obj_str is None:
-                    new_tasks_content += content_inside[cursor:]
-                    break
-                obj_start = content_inside.find('{', cursor)
-                new_tasks_content += content_inside[cursor:obj_start]
+    # STEP 5: Process tasks block separately
+    if tasks_block_original is not None:
+        # Parse tasks: [ ... ]
+        tasks_inner_match = re.search(r'tasks:\s*\[', tasks_block_original)
+        if tasks_inner_match:
+            inner_start = tasks_inner_match.start()
+            content_inside, inner_end = parse_snbt_list(tasks_block_original, inner_start)
+            if content_inside is not None:
+                new_tasks_content = ""
+                cursor = 0
+                task_idx = 0
+                while True:
+                    obj_str, obj_end = get_balanced_braces(content_inside, cursor)
+                    if obj_str is None:
+                        new_tasks_content += content_inside[cursor:]
+                        break
+                    obj_start = content_inside.find('{', cursor)
+                    new_tasks_content += content_inside[cursor:obj_start]
+                    
+                    task_key_base = f"{base_key}.tasks{task_idx}"
+                    def replace_task_title(match, tkb=task_key_base):
+                        val = match.group(1)
+                        # Skip if already a translation key reference
+                        if val.startswith('{') and val.endswith('}'):
+                            return match.group(0)
+                        key = f"{tkb}.title"
+                        translations[key] = val
+                        return f'title: "{{{key}}}"'
+                    
+                    new_obj_str = re.sub(r'(?<!\w)title:\s*"((?:[^"\\]|\\.)*)"', replace_task_title, obj_str)
+                    new_tasks_content += new_obj_str
+                    cursor = obj_end + 1
+                    task_idx += 1
                 
-                task_key_base = f"{base_key}.tasks{task_idx}"
-                def replace_task_title(match):
-                    val = match.group(1)
-                    key = f"{task_key_base}.title"
-                    translations[key] = val
-                    return f'title: "{{{key}}}"'
-                
-                new_obj_str = re.sub(r'(?<!\w)title:\s*"((?:[^"\\]|\\.)*)"', replace_task_title, obj_str)
-                new_tasks_content += new_obj_str
-                cursor = obj_end + 1
-                task_idx += 1
-            
-            list_start_char = quest_block.find('[', start_idx)
-            quest_block = quest_block[:list_start_char+1] + new_tasks_content + quest_block[end_idx:]
+                list_start_char = tasks_block_original.find('[', inner_start)
+                tasks_block_original = tasks_block_original[:list_start_char+1] + new_tasks_content + tasks_block_original[inner_end:]
+        
+        # Put tasks block back
+        quest_block = quest_block.replace(tasks_placeholder, tasks_block_original)
+    
+    # STEP 6: Put rewards block back (no processing needed for rewards)
+    if rewards_block_original is not None:
+        quest_block = quest_block.replace(rewards_placeholder, rewards_block_original)
 
     return quest_block
 

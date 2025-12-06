@@ -624,15 +624,15 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&eEnter The End Portal using twelve of the unique eyes."
+			subtitle: "{ftbquests.chapter.to_the_end.quests0.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:ender_eye"
 				id: "126F26CCB046CD5D"
-				title: "Entering The End"
+				title: "{ftbquests.chapter.to_the_end.quests0.tasks0.title}"
 				type: "dimension"
 			}]
-			title: "&dThe End?"
+			title: "{ftbquests.chapter.to_the_end.quests0.title}"
 			x: 0.0d
 			y: -6.25d
 		}
@@ -648,7 +648,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Dropped by Elder Guardians (33%)"
+			subtitle: "{ftbquests.chapter.to_the_end.quests1.subtitle}"
 			tasks: [{
 				id: "2B0F03865A9E31B9"
 				item: "endrem:guardian_eye"
@@ -669,7 +669,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Dropped by Evokers (5%)"
+			subtitle: "{ftbquests.chapter.to_the_end.quests2.subtitle}"
 			tasks: [{
 				id: "5B03491401B0489E"
 				item: "endrem:magical_eye"
@@ -690,7 +690,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Dropped by the Wither."
+			subtitle: "{ftbquests.chapter.to_the_end.quests3.subtitle}"
 			tasks: [{
 				id: "51D9182AB02AE780"
 				item: "endrem:wither_eye"
@@ -711,7 +711,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Crafted using the Witch Pupil"
+			subtitle: "{ftbquests.chapter.to_the_end.quests4.subtitle}"
 			tasks: [{
 				id: "3E473BEA23E8C1FE"
 				item: "endrem:witch_eye"
@@ -732,7 +732,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Created using an Undead Soul."
+			subtitle: "{ftbquests.chapter.to_the_end.quests5.subtitle}"
 			tasks: [{
 				id: "278B4A1FD0493FD0"
 				item: "endrem:undead_eye"
@@ -753,7 +753,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Crafted using acuatic items"
+			subtitle: "{ftbquests.chapter.to_the_end.quests6.subtitle}"
 			tasks: [{
 				id: "788EEC3D5D81C3AF"
 				item: "endrem:exotic_eye"
@@ -774,7 +774,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Found in Buried Chests"
+			subtitle: "{ftbquests.chapter.to_the_end.quests7.subtitle}"
 			tasks: [{
 				id: "1F9EF219BAB85A92"
 				item: "endrem:black_eye"
@@ -795,7 +795,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Found in Igloos."
+			subtitle: "{ftbquests.chapter.to_the_end.quests8.subtitle}"
 			tasks: [{
 				id: "2CC6D9A1017107EB"
 				item: "endrem:cold_eye"
@@ -816,7 +816,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Found in Pillager Outposts"
+			subtitle: "{ftbquests.chapter.to_the_end.quests9.subtitle}"
 			tasks: [{
 				id: "6D325AC3E295E65A"
 				item: "endrem:corrupted_eye"
@@ -837,7 +837,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Found in Mineshafts."
+			subtitle: "{ftbquests.chapter.to_the_end.quests10.subtitle}"
 			tasks: [{
 				id: "25DDD301B747C01E"
 				item: "endrem:lost_eye"
@@ -858,7 +858,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Found in Nether Fortresses"
+			subtitle: "{ftbquests.chapter.to_the_end.quests11.subtitle}"
 			tasks: [{
 				id: "1C3BD6942EC2E46D"
 				item: "endrem:nether_eye"
@@ -879,7 +879,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Found in Desert Pyramids. "
+			subtitle: "{ftbquests.chapter.to_the_end.quests12.subtitle}"
 			tasks: [{
 				id: "1628A0166F3301FF"
 				item: "endrem:old_eye"
@@ -901,7 +901,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Found in Jungle Pyramids"
+			subtitle: "{ftbquests.chapter.to_the_end.quests13.subtitle}"
 			tasks: [{
 				id: "1239D763D441A4BF"
 				item: "endrem:rogue_eye"
@@ -912,7 +912,7 @@
 		}
 		{
 			dependencies: ["37525863A9E5509D"]
-			description: ["&eOnce the trade is unlocked, it will not have stock until a day passes."]
+			description: ["{ftbquests.chapter.to_the_end.quests14.description0}"]
 			hide_lock_icon: true
 			hide_until_deps_complete: true
 			id: "1B9101B42DCED261"
@@ -923,7 +923,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Bought from a master Cleric."
+			subtitle: "{ftbquests.chapter.to_the_end.quests14.subtitle}"
 			tasks: [{
 				id: "7B812622B4A52172"
 				item: "endrem:evil_eye"
@@ -944,7 +944,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Found in Bastions"
+			subtitle: "{ftbquests.chapter.to_the_end.quests15.subtitle}"
 			tasks: [{
 				id: "04E8914428590507"
 				item: "endrem:cursed_eye"
@@ -965,7 +965,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "&7Infusable in an Enchanting Table."
+			subtitle: "{ftbquests.chapter.to_the_end.quests16.subtitle}"
 			tasks: [{
 				id: "685E4965B8364BEC"
 				item: "endrem:cryptic_eye"
@@ -976,9 +976,9 @@
 		}
 		{
 			description: [
-				"&7Getting to the End is not as easy as you may think it is. You must traverse the World, find and kill specific Places and Monsters. "
+				"{ftbquests.chapter.to_the_end.quests17.description0}"
 				""
-				"&7How many eyes you need really depends on the luck you have when finding the Stronghold. You will need to find 12 at most."
+				"{ftbquests.chapter.to_the_end.quests17.description2}"
 			]
 			hide_lock_icon: true
 			hide_until_deps_complete: false
@@ -992,20 +992,20 @@
 			}]
 			shape: "circle"
 			size: 2.0d
-			subtitle: "&e[Click for more info]"
+			subtitle: "{ftbquests.chapter.to_the_end.quests17.subtitle}"
 			tasks: [{
 				id: "50D87658349E58FB"
-				title: "Getting to the End"
+				title: "{ftbquests.chapter.to_the_end.quests17.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "&d Getting to the End"
+			title: "{ftbquests.chapter.to_the_end.quests17.title}"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["37525863A9E5509D"]
-			description: ["&7Normal Eye of Enders do not work. You need specific Eyes, that can either be found, or traded for here. There is no guarantee you will get the eye you want."]
+			description: ["{ftbquests.chapter.to_the_end.quests18.description0}"]
 			hide_dependency_lines: true
 			hide_lock_icon: true
 			hide_until_deps_complete: true
@@ -1018,7 +1018,7 @@
 				table_id: 1263016139763888054L
 				type: "random"
 			}]
-			subtitle: "[Click For more Info]"
+			subtitle: "{ftbquests.chapter.to_the_end.quests18.subtitle}"
 			tasks: [
 				{
 					id: "669D5B86D3F9A3DB"
@@ -1037,7 +1037,7 @@
 					type: "item"
 				}
 			]
-			title: "Eye Trading"
+			title: "{ftbquests.chapter.to_the_end.quests18.title}"
 			x: 2.5d
 			y: 6.0d
 		}
@@ -1057,14 +1057,14 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "Kill the Dragon and Free the End of its reign."
+			subtitle: "{ftbquests.chapter.to_the_end.quests19.subtitle}"
 			tasks: [{
 				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
 				id: "686E70E87F34DCAD"
 				type: "advancement"
 			}]
-			title: "&dFree the End!"
+			title: "{ftbquests.chapter.to_the_end.quests19.title}"
 			x: 0.0d
 			y: -13.5d
 		}
@@ -1081,10 +1081,10 @@
 				biome: "betterend:blossoming_spires"
 				icon: "betterend:blossom_berry"
 				id: "733BD5D23591BE9B"
-				title: "Visit the Blossoming Spires"
+				title: "{ftbquests.chapter.to_the_end.quests20.tasks0.title}"
 				type: "biome"
 			}]
-			title: "Visit the Blossoming Spires"
+			title: "{ftbquests.chapter.to_the_end.quests20.title}"
 			x: -5.5d
 			y: -17.5d
 		}
@@ -1105,10 +1105,10 @@
 				biome: "eldritch_end:hasturian_wastes"
 				icon: "eldritch_end:hasturian_moss"
 				id: "4F2CAACD7E949134"
-				title: "Visit the Hasturian Wastes"
+				title: "{ftbquests.chapter.to_the_end.quests21.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Hasturian Wastes"
+			title: "{ftbquests.chapter.to_the_end.quests21.title}"
 			x: 6.0d
 			y: -18.5d
 		}
@@ -1125,10 +1125,10 @@
 				biome: "#promenade:dark_amaranth_forests"
 				icon: "promenade:dark_amaranth_fungus"
 				id: "6785D7C68E20E9F5"
-				title: "Visit the Dark Amaranth Forests"
+				title: "{ftbquests.chapter.to_the_end.quests22.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Dark Amaranth Forests"
+			title: "{ftbquests.chapter.to_the_end.quests22.title}"
 			x: -5.5d
 			y: -19.5d
 		}
@@ -1140,21 +1140,21 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "You feel watched."
+			subtitle: "{ftbquests.chapter.to_the_end.quests23.subtitle}"
 			tasks: [{
 				biome: "betterend:shadow_forest"
 				icon: "betterend:shadow_grass"
 				id: "60BFD684913B8FE1"
-				title: "Visit the Shadow Forest"
+				title: "{ftbquests.chapter.to_the_end.quests23.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Shadow Forest"
+			title: "{ftbquests.chapter.to_the_end.quests23.title}"
 			x: 5.5d
 			y: -19.5d
 		}
 		{
 			dependencies: ["7D82D37287E1AE9A"]
-			description: ["&7You can feel the Shadows watching you. This place isnt made for you to stay. Something is following you. Bring light into this forsaken Place."]
+			description: ["{ftbquests.chapter.to_the_end.quests24.description0}"]
 			hide_until_deps_complete: true
 			id: "7BA9CD493FB66021"
 			rewards: [{
@@ -1162,14 +1162,14 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "Even Shadows can be deadly"
+			subtitle: "{ftbquests.chapter.to_the_end.quests24.subtitle}"
 			tasks: [{
 				entity: "betterend:shadow_walker"
 				id: "189FCBA68A345E94"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Kill Shadow Walkers"
+			title: "{ftbquests.chapter.to_the_end.quests24.title}"
 			x: 7.5d
 			y: -20.0d
 		}
@@ -1182,15 +1182,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "You wonder what they Shielf you from"
+			subtitle: "{ftbquests.chapter.to_the_end.quests25.subtitle}"
 			tasks: [{
 				biome: "betterend:umbrella_jungle"
 				icon: "betterend:umbrella_tree_sapling"
 				id: "28F1D0353F646410"
-				title: "Visit the Umbrella Jungle"
+				title: "{ftbquests.chapter.to_the_end.quests25.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Umbrella Jungle"
+			title: "{ftbquests.chapter.to_the_end.quests25.title}"
 			x: -4.5d
 			y: -21.5d
 		}
@@ -1218,7 +1218,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Kill End Slimes"
+			title: "{ftbquests.chapter.to_the_end.quests26.title}"
 			x: -6.5d
 			y: -15.5d
 		}
@@ -1238,10 +1238,10 @@
 				biome: "eldritch_end:primordial_abyss"
 				icon: "eldritch_end:aberration_heart"
 				id: "0583D9EE2E7FD1E5"
-				title: "Visit the Primordial Abyss"
+				title: "{ftbquests.chapter.to_the_end.quests27.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Primordial Abyss"
+			title: "{ftbquests.chapter.to_the_end.quests27.title}"
 			x: -5.0d
 			y: -20.5d
 		}
@@ -1258,16 +1258,16 @@
 				biome: "betterend:crystal_mountains"
 				icon: "betterend:crystal_moss"
 				id: "382AF43DB3D24391"
-				title: "Visit the Crystal Mountains"
+				title: "{ftbquests.chapter.to_the_end.quests28.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Crystal Mountains"
+			title: "{ftbquests.chapter.to_the_end.quests28.title}"
 			x: 5.0d
 			y: -20.5d
 		}
 		{
 			dependencies: ["34830F8A8A4C01E3"]
-			description: ["&7Collect some Aurora Crystals. For some Classes this is a very vital Resource."]
+			description: ["{ftbquests.chapter.to_the_end.quests29.description0}"]
 			hide_until_deps_complete: true
 			id: "03C8A562B7B085BC"
 			rewards: [{
@@ -1285,7 +1285,7 @@
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["&7This is a great Place to farm Chorus Fruit. You will need Chorus to make Galena, the &5best Material to reforge Items.&r"]
+			description: ["{ftbquests.chapter.to_the_end.quests30.description0}"]
 			id: "21DB9F756402FE99"
 			rewards: [{
 				id: "5710B3059F24EF5E"
@@ -1296,10 +1296,10 @@
 				biome: "betterend:chorus_forest"
 				icon: "minecraft:chorus_flower"
 				id: "6E9A40E1208E5A3F"
-				title: "Visit the Chorus Forest"
+				title: "{ftbquests.chapter.to_the_end.quests30.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Chorus Forest"
+			title: "{ftbquests.chapter.to_the_end.quests30.title}"
 			x: 4.5d
 			y: -21.5d
 		}
@@ -1312,15 +1312,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "Don't Fall!"
+			subtitle: "{ftbquests.chapter.to_the_end.quests31.subtitle}"
 			tasks: [{
 				biome: "betterend:ice_starfield"
 				icon: "betterend:emerald_ice"
 				id: "745694612177C611"
-				title: "Visit the Ice Starfield"
+				title: "{ftbquests.chapter.to_the_end.quests31.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Ice Starfield"
+			title: "{ftbquests.chapter.to_the_end.quests31.title}"
 			x: -4.0d
 			y: -22.5d
 		}
@@ -1344,7 +1344,7 @@
 				count: 32L
 				id: "2341CA8951B8587B"
 				item: "betterend:ancient_emerald_ice"
-				title: "Collect some Ancient Emerald Ice"
+				title: "{ftbquests.chapter.to_the_end.quests32.tasks0.title}"
 				type: "item"
 			}]
 			x: -5.0d
@@ -1367,7 +1367,7 @@
 				structure: "bosses_of_mass_destruction:obsidilith_arena"
 				type: "structure"
 			}]
-			title: "&dObsidilith's Arena"
+			title: "{ftbquests.chapter.to_the_end.quests33.title}"
 			x: 5.5d
 			y: -17.5d
 		}
@@ -1376,7 +1376,7 @@
 				"402B764F72A6E30D"
 				"103203350DABF6BB"
 			]
-			description: ["&7Kill it."]
+			description: ["{ftbquests.chapter.to_the_end.quests34.description0}"]
 			hide_until_deps_complete: true
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "065D169B3FC3AFC8"
@@ -1397,22 +1397,22 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Creature made of Rock and Hate, be released once more."
+			subtitle: "{ftbquests.chapter.to_the_end.quests34.subtitle}"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "bosses_of_mass_destruction:obsidian_heart"
 				id: "5F40E1B871CECC17"
-				title: "Kill the Obsidilith"
+				title: "{ftbquests.chapter.to_the_end.quests34.tasks0.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the &dObsidilith"
+			title: "{ftbquests.chapter.to_the_end.quests34.title}"
 			x: 7.0d
 			y: -17.0d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["&7No Bees or Dogs allowed."]
+			description: ["{ftbquests.chapter.to_the_end.quests35.description0}"]
 			icon: "betterend:amber_moss"
 			id: "2D897C539190F312"
 			rewards: [{
@@ -1420,15 +1420,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "Have you Heard of this one made of Amber?"
+			subtitle: "{ftbquests.chapter.to_the_end.quests35.subtitle}"
 			tasks: [{
 				biome: "betterend:amber_land"
 				icon: "betterend:amber_gem"
 				id: "0B1F29254E47C522"
-				title: "Visit the Amber Lands"
+				title: "{ftbquests.chapter.to_the_end.quests35.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Amber Land"
+			title: "{ftbquests.chapter.to_the_end.quests35.title}"
 			x: 4.0d
 			y: -22.5d
 		}
@@ -1453,10 +1453,10 @@
 				biome: "betterend:sulphur_springs"
 				icon: "betterend:crystalline_sulphur"
 				id: "544BAAEF870F2724"
-				title: "Visit the Sulphur Springs"
+				title: "{ftbquests.chapter.to_the_end.quests36.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Sulphur Springs"
+			title: "{ftbquests.chapter.to_the_end.quests36.title}"
 			x: -6.0d
 			y: -18.5d
 		}
@@ -1469,15 +1469,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "Like a Star in the Sky"
+			subtitle: "{ftbquests.chapter.to_the_end.quests37.subtitle}"
 			tasks: [{
 				biome: "betterend:lantern_woods"
 				icon: "betterend:flavolite_lantern"
 				id: "69EB70E436621C9F"
-				title: "Visit the Lantern Woods"
+				title: "{ftbquests.chapter.to_the_end.quests37.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Lantern Woods"
+			title: "{ftbquests.chapter.to_the_end.quests37.title}"
 			x: 3.0d
 			y: -23.0d
 		}
@@ -1494,10 +1494,10 @@
 				biome: "minecraft:end_highlands"
 				icon: "minecraft:end_stone"
 				id: "28F81956E29537E4"
-				title: "Visit the End Highlands"
+				title: "{ftbquests.chapter.to_the_end.quests38.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The End Highlands"
+			title: "{ftbquests.chapter.to_the_end.quests38.title}"
 			x: 1.5d
 			y: -23.5d
 		}
@@ -1529,10 +1529,10 @@
 				icon: "minecraft:purpur_pillar"
 				id: "554D1ECC11FE60D5"
 				structure: "minecraft:end_city"
-				title: "Visit an End City!"
+				title: "{ftbquests.chapter.to_the_end.quests39.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Find an &dEnd City!"
+			title: "{ftbquests.chapter.to_the_end.quests39.title}"
 			x: 0.0d
 			y: -24.0d
 		}
@@ -1545,15 +1545,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "Glowing!"
+			subtitle: "{ftbquests.chapter.to_the_end.quests40.subtitle}"
 			tasks: [{
 				biome: "betterend:glowing_grasslands"
 				icon: "betterend:end_moss"
 				id: "718F9608C09FF1E0"
-				title: "Visit the Glowing Grasslands"
+				title: "{ftbquests.chapter.to_the_end.quests40.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Glowing Grasslands"
+			title: "{ftbquests.chapter.to_the_end.quests40.title}"
 			x: -3.0d
 			y: -23.0d
 		}
@@ -1577,7 +1577,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Kill Dendlers"
+			title: "{ftbquests.chapter.to_the_end.quests41.title}"
 			x: 7.5d
 			y: -18.5d
 		}
@@ -1594,16 +1594,16 @@
 				biome: "betterend:megalake_grove"
 				icon: "betterend:lacugrove_sapling"
 				id: "0392A2E1458AA1E6"
-				title: "Visit the Megalake Grove"
+				title: "{ftbquests.chapter.to_the_end.quests42.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Megalake Grove"
+			title: "{ftbquests.chapter.to_the_end.quests42.title}"
 			x: -5.0d
 			y: -16.5d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["&7This Region has been abandoned not too long ago, you can still see some marks in the Rock."]
+			description: ["{ftbquests.chapter.to_the_end.quests43.description0}"]
 			icon: "betterend:umbralith"
 			id: "05A1A7ABDA3ACD3F"
 			rewards: [{
@@ -1611,15 +1611,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "Once populated by a race of Pigs"
+			subtitle: "{ftbquests.chapter.to_the_end.quests43.subtitle}"
 			tasks: [{
 				biome: "betterend:umbra_valley"
 				icon: "betterend:umbralith"
 				id: "2CFE72212E6641DF"
-				title: "Visit the Umbra Valley"
+				title: "{ftbquests.chapter.to_the_end.quests43.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Umbra Valley"
+			title: "{ftbquests.chapter.to_the_end.quests43.title}"
 			x: 5.0d
 			y: -16.5d
 		}
@@ -1636,16 +1636,16 @@
 				icon: "betternether:obsidian_tile"
 				id: "465F6B80085E0837"
 				structure: "philipsruins:end_gate_fortress"
-				title: "Visit the End Gate Fortress"
+				title: "{ftbquests.chapter.to_the_end.quests44.tasks0.title}"
 				type: "structure"
 			}]
-			title: "The End Gate Fortress"
+			title: "{ftbquests.chapter.to_the_end.quests44.title}"
 			x: -4.0d
 			y: -15.5d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["&7These Shipwrecks have similar Loot as End Cities, worth exploring for sure!"]
+			description: ["{ftbquests.chapter.to_the_end.quests45.description0}"]
 			icon: "eldritch_end:primordial_boat"
 			id: "5CCC87B841CF1BCB"
 			rewards: [{
@@ -1653,21 +1653,21 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "What came first, the Ship or the Wreck?"
+			subtitle: "{ftbquests.chapter.to_the_end.quests45.subtitle}"
 			tasks: [{
 				icon: "eldritch_end:primordial_chest_boat"
 				id: "608E524DE00DB966"
 				structure: "explorify:end_shipwreck"
-				title: "Find a Shipwreck"
+				title: "{ftbquests.chapter.to_the_end.quests45.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Shipwrecks."
+			title: "{ftbquests.chapter.to_the_end.quests45.title}"
 			x: 3.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["&7These Villages tend to contain a ton of Ender Pearls, Smithing templates and the occasional Ingot. "]
+			description: ["{ftbquests.chapter.to_the_end.quests46.description0}"]
 			icon: "betterend:shadow_berry_jelly"
 			id: "481A46B1A8D7DEBF"
 			rewards: [{
@@ -1675,15 +1675,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "Who would have thought there is Villages here?"
+			subtitle: "{ftbquests.chapter.to_the_end.quests46.subtitle}"
 			tasks: [{
 				icon: "betterend:mossy_glowshroom_door"
 				id: "3B9FFF6B7E6B0502"
 				structure: "betterend:end_village"
-				title: "Visit an End Village"
+				title: "{ftbquests.chapter.to_the_end.quests46.tasks0.title}"
 				type: "structure"
 			}]
-			title: "The End Village"
+			title: "{ftbquests.chapter.to_the_end.quests46.title}"
 			x: -3.0d
 			y: -14.5d
 		}
@@ -1700,10 +1700,10 @@
 				biome: "betterend:painted_mountains"
 				icon: "betterend:violecite"
 				id: "1DF13FE507E86B64"
-				title: "Visit the Painted Mountains"
+				title: "{ftbquests.chapter.to_the_end.quests47.tasks0.title}"
 				type: "biome"
 			}]
-			title: "The Painted Mountains"
+			title: "{ftbquests.chapter.to_the_end.quests47.title}"
 			x: -1.5d
 			y: -23.5d
 		}
@@ -1723,13 +1723,13 @@
 				item: "betterend:violecite"
 				type: "item"
 			}]
-			title: "Picasso couldnt have made these"
+			title: "{ftbquests.chapter.to_the_end.quests48.title}"
 			x: -2.5d
 			y: -25.0d
 		}
 		{
 			dependencies: ["4B1BEDBB8D2DB24C"]
-			description: ["&7So annoying, yet so useful..."]
+			description: ["{ftbquests.chapter.to_the_end.quests49.description0}"]
 			hide_until_deps_complete: true
 			icon: "minecraft:shulker_box"
 			id: "41922BF8A10343B3"
@@ -1754,7 +1754,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "End the &eShulkers!"
+			title: "{ftbquests.chapter.to_the_end.quests49.title}"
 			x: -1.5d
 			y: -28.5d
 		}
@@ -1767,21 +1767,21 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "Where will it lead? Who made it?"
+			subtitle: "{ftbquests.chapter.to_the_end.quests50.subtitle}"
 			tasks: [{
 				icon: "betterend:flavolite_runed_eternal"
 				id: "28F3F489D39A4E67"
 				structure: "betterend:eternal_portal"
-				title: "Find an Eternal Portal"
+				title: "{ftbquests.chapter.to_the_end.quests50.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Find the Eternal Portal"
+			title: "{ftbquests.chapter.to_the_end.quests50.title}"
 			x: 4.0d
 			y: -15.5d
 		}
 		{
 			dependencies: ["400CF2A570FC3814"]
-			description: ["&7You did it! Not many undertake in the Restoration of this ancient Artifact. "]
+			description: ["{ftbquests.chapter.to_the_end.quests51.description0}"]
 			hide_until_deps_complete: true
 			id: "3BA590EA7252CD1F"
 			rewards: [
@@ -1803,13 +1803,13 @@
 				id: "6417952D9BD8442B"
 				type: "advancement"
 			}]
-			title: "The Eternal Light"
+			title: "{ftbquests.chapter.to_the_end.quests51.title}"
 			x: 7.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["624C916A1347DBB7"]
-			description: ["&7To open the Portal again, you will need to restore it first. Once you have restored the Portal to its old shape, find the six Pedestals around it. Place all of the Crystals on them."]
+			description: ["{ftbquests.chapter.to_the_end.quests52.description0}"]
 			hide_until_deps_complete: true
 			icon: "betterend:eternal_pedestal"
 			id: "400CF2A570FC3814"
@@ -1818,20 +1818,20 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "[Click for more Info]"
+			subtitle: "{ftbquests.chapter.to_the_end.quests52.subtitle}"
 			tasks: [{
 				count: 6L
 				id: "4788FB875074D5FD"
 				item: { Count: 6, id: "betterend:eternal_crystal" }
 				type: "item"
 			}]
-			title: "Collect Eternal Crystals"
+			title: "{ftbquests.chapter.to_the_end.quests52.title}"
 			x: 5.5d
 			y: -14.0d
 		}
 		{
 			dependencies: ["422E507CE6A53B7C"]
-			description: ["&7There is a Ton of things to find in the End that can be of use. Whether its rare Ores or Trinkets, finding a End City should be your main Priority."]
+			description: ["{ftbquests.chapter.to_the_end.quests53.description0}"]
 			hide_lock_icon: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1843,19 +1843,19 @@
 			}]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "[Click for more info]"
+			subtitle: "{ftbquests.chapter.to_the_end.quests53.subtitle}"
 			tasks: [{
 				id: "31763D7165AA4BA0"
-				title: "Explore the End!"
+				title: "{ftbquests.chapter.to_the_end.quests53.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "&dExplore the End "
+			title: "{ftbquests.chapter.to_the_end.quests53.title}"
 			x: 0.0d
 			y: -18.5d
 		}
 		{
 			dependencies: ["4A46A563FE486A35"]
-			description: ["&7These weird Logs Mesmerize you in a weird way. You want them."]
+			description: ["{ftbquests.chapter.to_the_end.quests54.description0}"]
 			hide_until_deps_complete: true
 			id: "74409F6413DCA7DC"
 			rewards: [{
@@ -1869,13 +1869,13 @@
 				item: { Count: 32, id: "betterend:tenanea_log" }
 				type: "item"
 			}]
-			title: "The inside looks like a Berry"
+			title: "{ftbquests.chapter.to_the_end.quests54.title}"
 			x: -7.0d
 			y: -17.0d
 		}
 		{
 			dependencies: ["45E85B95F4D8B7AB"]
-			description: ["&7I'd be careful with keeping these, they reek of Sulfur."]
+			description: ["{ftbquests.chapter.to_the_end.quests55.description0}"]
 			hide_until_deps_complete: true
 			id: "686AF3C40B2C2830"
 			rewards: [{
@@ -1889,13 +1889,13 @@
 				item: { Count: 32, id: "betterend:brimstone" }
 				type: "item"
 			}]
-			title: "Does it smell like Rotten eggs in here?"
+			title: "{ftbquests.chapter.to_the_end.quests55.title}"
 			x: -7.5d
 			y: -18.5d
 		}
 		{
 			dependencies: ["1C087F6048B1D89F"]
-			description: ["&7This place is just dreadful, get some of its things and don't go here again. Damn Spiders."]
+			description: ["{ftbquests.chapter.to_the_end.quests56.description0}"]
 			hide_until_deps_complete: true
 			icon: "promenade:dark_amaranth_stem"
 			id: "23735EF40AE7D130"
@@ -1918,7 +1918,7 @@
 					type: "item"
 				}
 			]
-			title: "A very shady Place"
+			title: "{ftbquests.chapter.to_the_end.quests56.title}"
 			x: -7.5d
 			y: -20.0d
 		}
@@ -1948,7 +1948,7 @@
 				type: "kill"
 				value: 400L
 			}]
-			title: "Kill Aberrations"
+			title: "{ftbquests.chapter.to_the_end.quests57.title}"
 			x: -7.0d
 			y: -21.5d
 		}
@@ -1974,13 +1974,13 @@
 				item: { Count: 64, id: "betterend:umbrella_tree_log" }
 				type: "item"
 			}]
-			title: "Can't make an Umbrella out of this."
+			title: "{ftbquests.chapter.to_the_end.quests58.title}"
 			x: -6.0d
 			y: -22.5d
 		}
 		{
 			dependencies: ["05A1A7ABDA3ACD3F"]
-			description: ["&7Collect some Umbralith as a keepsake and possible scientific Usage. Where have these Pigs gone?"]
+			description: ["{ftbquests.chapter.to_the_end.quests59.description0}"]
 			hide_until_deps_complete: true
 			id: "642B50C17F82E65F"
 			rewards: [{
@@ -1994,13 +1994,13 @@
 				item: { Count: 64, id: "betterend:umbralith" }
 				type: "item"
 			}]
-			title: "Collect some Umbralith"
+			title: "{ftbquests.chapter.to_the_end.quests59.title}"
 			x: 6.5d
 			y: -15.5d
 		}
 		{
 			dependencies: ["46EDABE48D816A5B"]
-			description: ["&7Not really made for Popcorn, not like you wanna glow, right?"]
+			description: ["{ftbquests.chapter.to_the_end.quests60.description0}"]
 			hide_until_deps_complete: true
 			id: "4760AE66CBC29443"
 			rewards: [{
@@ -2012,7 +2012,7 @@
 				count: 128L
 				id: "2DC28575B34DF35C"
 				item: "betterend:lumecorn_rod"
-				title: "Collect some Lumecorn!"
+				title: "{ftbquests.chapter.to_the_end.quests60.tasks0.title}"
 				type: "item"
 			}]
 			x: -4.0d
@@ -2077,7 +2077,7 @@
 					type: "item"
 				}
 			]
-			title: "Collect some neat things from the Village!"
+			title: "{ftbquests.chapter.to_the_end.quests62.title}"
 			x: -4.5d
 			y: -13.0d
 		}
@@ -2115,17 +2115,17 @@
 				entity: "minecraft:enderman"
 				icon: "supplementaries:enderman_head"
 				id: "215E768581A66485"
-				title: "Kill Endermen"
+				title: "{ftbquests.chapter.to_the_end.quests63.tasks0.title}"
 				type: "kill"
 				value: 400L
 			}]
-			title: "End the Endermen"
+			title: "{ftbquests.chapter.to_the_end.quests63.title}"
 			x: 1.5d
 			y: -28.5d
 		}
 		{
 			dependencies: ["52B8FFA8E721BE05"]
-			description: ["&7Kill this wretched Abomination before it becomes any trouble to you."]
+			description: ["{ftbquests.chapter.to_the_end.quests64.description0}"]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -2157,14 +2157,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Burn the Heretic, Purge the Unclean"
+			subtitle: "{ftbquests.chapter.to_the_end.quests64.subtitle}"
 			tasks: [{
 				entity: "mutantmonsters:mutant_enderman"
 				id: "45CB521DB95B822E"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the Mutant"
+			title: "{ftbquests.chapter.to_the_end.quests64.title}"
 			x: 0.0d
 			y: -30.5d
 		}
@@ -2189,13 +2189,13 @@
 			tasks: [
 				{
 					id: "3A5448F49C30E41D"
-					title: "Tier 4 Trinkets"
+					title: "{ftbquests.chapter.to_the_end.quests65.tasks0.title}"
 					type: "checkmark"
 				}
 				{
 					entity: "minecraft:shulker"
 					id: "1D83887F1C94C8C1"
-					title: "Kill a Shulker"
+					title: "{ftbquests.chapter.to_the_end.quests65.tasks1.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -2208,11 +2208,11 @@
 							value: "rpg_series:tier_3_accessories"
 						}
 					}
-					title: "Get any Tier IV trinkets"
+					title: "{ftbquests.chapter.to_the_end.quests65.tasks2.title}"
 					type: "item"
 				}
 			]
-			title: "&dTier 4 Trinkets"
+			title: "{ftbquests.chapter.to_the_end.quests65.title}"
 			x: 2.0d
 			y: -26.5d
 		}
@@ -2230,7 +2230,7 @@
 				structure: "dungeons_arise:heavenly_rider"
 				type: "structure"
 			}]
-			title: "&dHeavenly Rider"
+			title: "{ftbquests.chapter.to_the_end.quests66.title}"
 			x: 2.0d
 			y: -13.5d
 		}
@@ -2243,15 +2243,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "Undefeated for Centuries"
+			subtitle: "{ftbquests.chapter.to_the_end.quests67.subtitle}"
 			tasks: [{
 				icon: "icarus:white_mechanical_feathered_wings"
 				id: "53217031F6A5172A"
 				structure: "dungeons_arise:heavenly_challenger"
-				title: "Visit the Heavenly Challenger"
+				title: "{ftbquests.chapter.to_the_end.quests67.tasks0.title}"
 				type: "structure"
 			}]
-			title: "&dHeavenly Challenger"
+			title: "{ftbquests.chapter.to_the_end.quests67.title}"
 			x: -2.0d
 			y: -13.5d
 		}
@@ -2268,11 +2268,11 @@
 				entity: "minecraft:phantom"
 				icon: "handcrafted:phantom_trophy"
 				id: "01A084B598672A74"
-				title: "Kill Phantoms"
+				title: "{ftbquests.chapter.to_the_end.quests68.tasks0.title}"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Kill these Pests"
+			title: "{ftbquests.chapter.to_the_end.quests68.title}"
 			x: 3.5d
 			y: -12.0d
 		}
@@ -2290,17 +2290,17 @@
 				entity: "minecraft:phantom"
 				icon: "handcrafted:phantom_trophy"
 				id: "15E1B531AFBB2583"
-				title: "Kill Phantoms"
+				title: "{ftbquests.chapter.to_the_end.quests69.tasks0.title}"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Kill these Pests"
+			title: "{ftbquests.chapter.to_the_end.quests69.title}"
 			x: -3.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["5CCC87B841CF1BCB"]
-			description: ["&7These can come in handy, not just for building but also if you wanna do Tech. Its best if you collect some and keep them."]
+			description: ["{ftbquests.chapter.to_the_end.quests70.description0}"]
 			hide_until_deps_complete: true
 			id: "0DF7D1A42CF5C386"
 			rewards: [{
@@ -2314,7 +2314,7 @@
 				item: { Count: 16, id: "minecraft:purpur_block" }
 				type: "item"
 			}]
-			title: "Collect some Purpur Blocks"
+			title: "{ftbquests.chapter.to_the_end.quests70.title}"
 			x: 4.5d
 			y: -13.0d
 		}
@@ -2333,13 +2333,13 @@
 				item: "minecraft:chorus_fruit"
 				type: "item"
 			}]
-			title: "Collect some &dChorus Fruit!"
+			title: "{ftbquests.chapter.to_the_end.quests71.title}"
 			x: 6.5d
 			y: -22.5d
 		}
 		{
 			dependencies: ["3AF0AAB04A784FE2"]
-			description: ["&7Galena Chunks have the highest chance of getting a &4Mythic Roll&r &7on your Weapons, Tools and Armors! You will need a ton of these to get everything to Mythic."]
+			description: ["{ftbquests.chapter.to_the_end.quests72.description0}"]
 			hide_until_deps_complete: true
 			id: "7D339BE12B3D500A"
 			rewards: [
@@ -2361,7 +2361,7 @@
 				item: { Count: 64, id: "tiered:galena_chunk" }
 				type: "item"
 			}]
-			title: "&dGalena Chunks"
+			title: "{ftbquests.chapter.to_the_end.quests72.title}"
 			x: 8.5d
 			y: -23.5d
 		}
@@ -2380,13 +2380,13 @@
 				item: { Count: 32, id: "betterend:lacugrove_log" }
 				type: "item"
 			}]
-			title: "Collect some Logs"
+			title: "{ftbquests.chapter.to_the_end.quests73.title}"
 			x: 5.5d
 			y: -23.5d
 		}
 		{
 			dependencies: ["5122BBD24637C17B"]
-			description: ["&7These Logs do great for Decoration, you should for sure get some."]
+			description: ["{ftbquests.chapter.to_the_end.quests74.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "55A99787ABAF18D9"
@@ -2401,13 +2401,13 @@
 				item: { Count: 64, id: "betterend:lucernia_log" }
 				type: "item"
 			}]
-			title: "Collect some Logs"
+			title: "{ftbquests.chapter.to_the_end.quests74.title}"
 			x: 4.0d
 			y: -24.5d
 		}
 		{
 			dependencies: ["67F94147E6403F5F"]
-			description: ["&7This sometimes pesky Rock can maybe have some use later."]
+			description: ["{ftbquests.chapter.to_the_end.quests75.description0}"]
 			hide_until_deps_complete: true
 			id: "15C0C0463C99F485"
 			rewards: [{
@@ -2421,13 +2421,13 @@
 				item: "betterend:flavolite"
 				type: "item"
 			}]
-			title: "Like End Stone but more annoying."
+			title: "{ftbquests.chapter.to_the_end.quests75.title}"
 			x: 2.5d
 			y: -25.0d
 		}
 		{
 			dependencies: ["4B1BEDBB8D2DB24C"]
-			description: ["&7Killing Monsters in the End with a Knife can Yield valueable Ingredients for Cooking incredibly powerful Foods."]
+			description: ["{ftbquests.chapter.to_the_end.quests76.description0}"]
 			hide_until_deps_complete: true
 			icon: "ends_delight:dragon_leg"
 			id: "725105B81E806A55"
@@ -2452,10 +2452,10 @@
 						value: "c:tools/knives"
 					}
 				}
-				title: "Any #c:tools/knives"
+				title: "{ftbquests.chapter.to_the_end.quests76.tasks0.title}"
 				type: "item"
 			}]
-			title: "End's Delights!"
+			title: "{ftbquests.chapter.to_the_end.quests76.title}"
 			x: -2.0d
 			y: -26.5d
 		}
@@ -2466,9 +2466,9 @@
 			]
 			dependency_requirement: "all_started"
 			description: [
-				"&7Icarus Wings are like an Elytra, but just better. They don't have Durability and go onto the Cape Slot. They &5don't even need&r &7Fireworks!! "
-				"&7Whatever Wings you make, &5&nthey are all the same.&r&r"
-				"&7The ones crafted with an &5Nether Star&r &7do &5not take any Saturation or Hunger&r &7from you."
+				"{ftbquests.chapter.to_the_end.quests77.description0}"
+				"{ftbquests.chapter.to_the_end.quests77.description1}"
+				"{ftbquests.chapter.to_the_end.quests77.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -2479,7 +2479,7 @@
 				xp_levels: 1
 			}]
 			shape: "pentagon"
-			subtitle: "[Click for more Info]"
+			subtitle: "{ftbquests.chapter.to_the_end.quests77.subtitle}"
 			tasks: [{
 				id: "5A3A11C6A327797B"
 				item: {
@@ -2489,16 +2489,16 @@
 						value: "icarus:wings"
 					}
 				}
-				title: "Craft any of the Wings"
+				title: "{ftbquests.chapter.to_the_end.quests77.tasks0.title}"
 				type: "item"
 			}]
-			title: "Oh poor &eIcarus..."
+			title: "{ftbquests.chapter.to_the_end.quests77.title}"
 			x: 0.0d
 			y: -27.5d
 		}
 		{
 			dependencies: ["37525863A9E5509D"]
-			description: ["&7This Compass, even though its gonna set you back a bunch of Trophies, is the best Thing to make as it makes finding Structures incredibly easy and saves you hours."]
+			description: ["{ftbquests.chapter.to_the_end.quests78.description0}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2509,7 +2509,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "The handiest Tool for a Flameborn!"
+			subtitle: "{ftbquests.chapter.to_the_end.quests78.subtitle}"
 			tasks: [
 				{
 					id: "4ADC0ECC8611C3A1"
@@ -2526,10 +2526,10 @@
 					type: "checkmark"
 				}
 			]
-			title: "The Explorers Compass"
+			title: "{ftbquests.chapter.to_the_end.quests78.title}"
 			x: -2.5d
 			y: 6.0d
 		}
 	]
-	title: " &dThe End"
+	title: "{ftbquests.chapter.to_the_end.title}"
 }
