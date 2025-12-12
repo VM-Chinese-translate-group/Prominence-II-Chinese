@@ -1,7 +1,7 @@
 {
   "modpack": {
     "name": "Prominence II",
-    "version": "3.9.9",
+    "version": "test",
     "translation": {
       "id": "prominence2",
       "url": "https://vmct-cn.top/modpacks/prominence2/",
@@ -10,4 +10,5 @@
       "resourcePackName": "VM汉化组模组汉化包1.19及以上"
     }
   }
+
 }
