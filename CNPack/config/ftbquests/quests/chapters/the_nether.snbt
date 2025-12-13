@@ -1229,10 +1229,10 @@
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
 				id: "7FC5892104C0744C"
-				title: "Enter the Nether"
+				title: "{ftbquests.chapter.the_nether.quests0.tasks0.title}"
 				type: "dimension"
 			}]
-			title: "Enter &cThe Nether"
+			title: "{ftbquests.chapter.the_nether.quests0.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -1253,16 +1253,16 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Spawns next to &6Blaze Spawners &7in &4nether fortresses &7but can also appear in &4Nether Wastes."
+			subtitle: "{ftbquests.chapter.the_nether.quests1.subtitle}"
 			tasks: [{
 				entity: "adventurez:blaze_guardian"
 				icon: "minecraft:blaze_rod"
 				id: "4DBABAE3AE00C903"
-				title: "Kill a Blaze Guardian"
+				title: "{ftbquests.chapter.the_nether.quests1.tasks0.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the &6Blaze Guardian"
+			title: "{ftbquests.chapter.the_nether.quests1.title}"
 			x: 1.5d
 			y: -11.5d
 		}
@@ -1283,16 +1283,16 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Spawns in &4Nether Fortresses&r."
+			subtitle: "{ftbquests.chapter.the_nether.quests2.subtitle}"
 			tasks: [{
 				entity: "adventurez:necromancer"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "745C505DC4DF253C"
-				title: "Kill a Necromancer"
+				title: "{ftbquests.chapter.the_nether.quests2.tasks0.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill &8The Necromancer"
+			title: "{ftbquests.chapter.the_nether.quests2.title}"
 			x: -1.5d
 			y: -11.5d
 		}
@@ -1315,22 +1315,22 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&8The Stone Golem &rcan only be summoned with a &6Golem Ritual&r  while being in &4The Nether"
+			subtitle: "{ftbquests.chapter.the_nether.quests3.subtitle}"
 			tasks: [{
 				entity: "adventurez:blackstone_golem"
 				icon: "adventurez:blackstone_golem_heart"
 				id: "27D27F2750D953BC"
-				title: "Kill the Blackstone Golem"
+				title: "{ftbquests.chapter.the_nether.quests3.tasks0.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the &8Blackstone Golem"
+			title: "{ftbquests.chapter.the_nether.quests3.title}"
 			x: -2.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]
-			description: ["&7You will need to kill these Creatures if you wanna Resummon the Decaying King again. Simply Smelt their Hearts into &4Demonite Chunks.&r"]
+			description: ["{ftbquests.chapter.the_nether.quests4.description0}"]
 			icon: "soulsweapons:withered_demon_heart"
 			id: "4BCD1F2BA84D70D7"
 			rewards: [{
@@ -1339,13 +1339,13 @@
 				xp_levels: 6
 			}]
 			shape: "diamond"
-			subtitle: "Spawns in Crimson Forests in &4The Nether&r."
+			subtitle: "{ftbquests.chapter.the_nether.quests4.subtitle}"
 			tasks: [
 				{
 					entity: "soulsweapons:withered_demon"
 					icon: "soulsweapons:withered_demon_heart"
 					id: "239ACDE3872515BB"
-					title: "Kill a Withered Demon"
+					title: "{ftbquests.chapter.the_nether.quests4.tasks0.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1353,17 +1353,17 @@
 					biome: "minecraft:crimson_forest"
 					icon: "minecraft:crimson_fungus"
 					id: "691C9F1FD61C9432"
-					title: "Visit the Crimson Forest"
+					title: "{ftbquests.chapter.the_nether.quests4.tasks1.title}"
 					type: "biome"
 				}
 			]
-			title: "Kill &8The Withered Demon"
+			title: "{ftbquests.chapter.the_nether.quests4.title}"
 			x: -3.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["50EA81AA3B7714E9"]
-			description: ["The Decaying King spawns in the remnants of the Decaying Kingdom in the nether. This cursed monstrosity wields The Darkin Blade, and has many deadly attacks to look out for. Killing it makes it drop the Darkin Blade, a Lord Soul and the Withered Demon Heart."]
+			description: ["{ftbquests.chapter.the_nether.quests5.description0}"]
 			icon: "soulsweapons:lord_soul_red"
 			id: "2F11604C9E2C0353"
 			rewards: [
@@ -1380,12 +1380,12 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Spawns in &4The Remnants of The Decaying Kingdom&r."
+			subtitle: "{ftbquests.chapter.the_nether.quests5.subtitle}"
 			tasks: [{
 				entity: "soulsweapons:accursed_lord_boss"
 				icon: "soulsweapons:lord_soul_red"
 				id: "2137D80B50F2DCCB"
-				title: "Kill &4The Decaying King"
+				title: "{ftbquests.chapter.the_nether.quests5.tasks0.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1409,12 +1409,12 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Soul Reaper spawns in the &bsoul sand valley&r with its mount, The Nightmare."
+			subtitle: "{ftbquests.chapter.the_nether.quests6.subtitle}"
 			tasks: [{
 				entity: "adventurez:soul_reaper"
 				icon: "soulsweapons:lord_soul_void"
 				id: "09CA256D27D0482F"
-				title: "Kill &8The Soul Reaper"
+				title: "{ftbquests.chapter.the_nether.quests6.tasks0.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1424,14 +1424,14 @@
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"You are playing modded Minecraft, thus, there is &1no need to mine for hours&r in the Nether to get some scraps."
+				"{ftbquests.chapter.the_nether.quests7.description0}"
 				""
-				"&4Finding a Nether City.&r These Cities yield blocks of Netherite and a ton of other good gear that can help you on your journey. &eThe City is mostly made out of Quartz and Cinnasite.&r"
+				"{ftbquests.chapter.the_nether.quests7.description2}"
 				""
-				"&4Finding a Black Spiral in the Nether&r. These have tons of Piglins and tons of valueables. Make sure to dig down into the Towers. The Structure is mostly made of Blackstone and looks like many Towers connected to one another."
+				"{ftbquests.chapter.the_nether.quests7.description4}"
 				""
-				"&4Tech.&r If you already wasted your time mining or got Ancient Debris in another way, there is many ways to make more of what you have. You can reach up to a 8 times yield with the right setup."
-				"Of course, you can always use &9UU Matter&r from Tech Reborn to make an nigh infinite supply of Netherite."
+				"{ftbquests.chapter.the_nether.quests7.description6}"
+				"{ftbquests.chapter.the_nether.quests7.description7}"
 			]
 			id: "1702057B5F68995F"
 			rewards: [
@@ -1446,19 +1446,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "Ancient in nature"
+			subtitle: "{ftbquests.chapter.the_nether.quests7.subtitle}"
 			tasks: [{
 				id: "676A410C4E5D491F"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			title: "Netherite"
+			title: "{ftbquests.chapter.the_nether.quests7.title}"
 			x: -9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
-			description: ["&7There is plenty of Bosses you can fight in the Nether, some lesser, some more of a Threat."]
+			description: ["{ftbquests.chapter.the_nether.quests8.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "6DFEDDFC27B1708C"
@@ -1469,10 +1469,10 @@
 			}]
 			tasks: [{
 				id: "617FA660C1E4E06A"
-				title: "Bosses"
+				title: "{ftbquests.chapter.the_nether.quests8.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "&5Bosses in the Nether"
+			title: "{ftbquests.chapter.the_nether.quests8.title}"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -1482,21 +1482,21 @@
 				"759AA6DD39277704"
 			]
 			description: [
-				"&7You will need a Platform made out of &4vanilla Blackstone Blocks&r. The Pedestals have to be one out from the 9x9 Platform"
-				"&7The Pedestals have to be &4on the same level&r &7as the rest of the 9x9 Area. A rough Floor plan can be seen here:"
+				"{ftbquests.chapter.the_nether.quests9.description0}"
+				"{ftbquests.chapter.the_nether.quests9.description1}"
 				""
 				""
-				"              ☐"
-				"    ☐☐☐☐☐☐☐☐☐"
-				"    ☐☐☐☐☐☐☐☐☐"
-				"    ☐☐☐☐☐☐☐☐☐"
-				"    ☐☐☐☐☐☐☐☐☐"
-				"&8i&r ☐☐☐☐☐☐☐☐☐☐☐"
-				"    ☐☐☐☐☐☐☐☐☐"
-				"    ☐☐☐☐☐☐☐☐☐"
-				"    ☐☐☐☐☐☐☐☐☐"
-				"    ☐☐☐☐☐☐☐☐☐"
-				"              ☐"
+				"{ftbquests.chapter.the_nether.quests9.description4}"
+				"{ftbquests.chapter.the_nether.quests9.description5}"
+				"{ftbquests.chapter.the_nether.quests9.description6}"
+				"{ftbquests.chapter.the_nether.quests9.description7}"
+				"{ftbquests.chapter.the_nether.quests9.description8}"
+				"{ftbquests.chapter.the_nether.quests9.description9}"
+				"{ftbquests.chapter.the_nether.quests9.description10}"
+				"{ftbquests.chapter.the_nether.quests9.description11}"
+				"{ftbquests.chapter.the_nether.quests9.description12}"
+				"{ftbquests.chapter.the_nether.quests9.description13}"
+				"{ftbquests.chapter.the_nether.quests9.description14}"
 			]
 			icon: "adventurez:gilded_blackstone_shard"
 			id: "5C67FB6AB484E924"
@@ -1505,22 +1505,22 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "[Click for more Info]"
+			subtitle: "{ftbquests.chapter.the_nether.quests9.subtitle}"
 			tasks: [
 				{
 					id: "75EA2905DFCCB778"
-					title: "Prepare the Ritual"
+					title: "{ftbquests.chapter.the_nether.quests9.tasks0.title}"
 					type: "checkmark"
 				}
 				{
 					id: "6A8925C881E20BBE"
 					item: "adventurez:gilded_blackstone_shard"
 					optional_task: true
-					title: "Collect 4 Gilded Blackstone Shards"
+					title: "{ftbquests.chapter.the_nether.quests9.tasks1.title}"
 					type: "item"
 				}
 			]
-			title: "&4The Blackstone Golem's Ritual"
+			title: "{ftbquests.chapter.the_nether.quests9.title}"
 			x: -1.5d
 			y: -9.0d
 		}
@@ -1533,13 +1533,13 @@
 				id: "3ACD2A8DD6A81D08"
 				type: "checkmark"
 			}]
-			title: "&5Ores in the Nether"
+			title: "{ftbquests.chapter.the_nether.quests10.title}"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["&ePyrite&r &7is one of the most important Ores in Prominence. You will need Pyrite to reforge your items to a better Tier. Be sure to mine as much as you can."]
+			description: ["{ftbquests.chapter.the_nether.quests11.description0}"]
 			id: "106CC409603CF580"
 			rewards: [
 				{
@@ -1554,19 +1554,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "Essence of the Legendary"
+			subtitle: "{ftbquests.chapter.the_nether.quests11.subtitle}"
 			tasks: [{
 				id: "65712D20901D5430"
 				item: "techreborn:pyrite_dust"
 				type: "item"
 			}]
-			title: "Pyrite"
+			title: "{ftbquests.chapter.the_nether.quests11.title}"
 			x: -8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["&7Cinnabar is a crucial Component to most Aspiring Engineers and Network Designers."]
+			description: ["{ftbquests.chapter.the_nether.quests12.description0}"]
 			id: "2BC22D85AC835C6D"
 			rewards: [{
 				count: 32
@@ -1598,7 +1598,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Ol' Reliable"
+			subtitle: "{ftbquests.chapter.the_nether.quests13.subtitle}"
 			tasks: [{
 				id: "4CAE630026F76194"
 				item: "minecraft:quartz"
@@ -1609,7 +1609,7 @@
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["&7Though Lapis can be found in the Nether, its Reserves are quite limited, you find out."]
+			description: ["{ftbquests.chapter.the_nether.quests14.description0}"]
 			id: "24799CCC326B5B68"
 			rewards: [
 				{
@@ -1624,19 +1624,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "Talk about low hanging Fruit"
+			subtitle: "{ftbquests.chapter.the_nether.quests14.subtitle}"
 			tasks: [{
 				id: "52AD925B0DC9A43C"
 				item: "betternether:lapis_pile"
 				type: "item"
 			}]
-			title: "Really?"
+			title: "{ftbquests.chapter.the_nether.quests14.title}"
 			x: -7.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["&7You know what this is, you know what you use it for."]
+			description: ["{ftbquests.chapter.the_nether.quests15.description0}"]
 			id: "6AE07BBF58A0BE64"
 			rewards: [{
 				count: 16
@@ -1649,13 +1649,13 @@
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			title: "&3Radioactive? no"
+			title: "{ftbquests.chapter.the_nether.quests15.title}"
 			x: -6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["&7You feel like you've seen this Material before, a long time ago, you dont know where it is from or what it does, but you do feel some sort of Nostalgia when touching it. It warms your Meart in an odd way."]
+			description: ["{ftbquests.chapter.the_nether.quests16.description0}"]
 			id: "5D07AE294BBFED13"
 			rewards: [
 				{
@@ -1670,19 +1670,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "Warm to the touch"
+			subtitle: "{ftbquests.chapter.the_nether.quests16.subtitle}"
 			tasks: [{
 				id: "6397BA7693A49A90"
 				item: "betternether:nether_ruby"
 				type: "item"
 			}]
-			title: "&4Nether Ruby "
+			title: "{ftbquests.chapter.the_nether.quests16.title}"
 			x: -6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["&7Sphalerite is a Ore containing Zinc and Sulfur, great for both, the stench is horrible though."]
+			description: ["{ftbquests.chapter.the_nether.quests17.description0}"]
 			id: "16DB148BA3164A6C"
 			rewards: [
 				{
@@ -1697,7 +1697,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Does anyone else smell rotten eggs?"
+			subtitle: "{ftbquests.chapter.the_nether.quests17.subtitle}"
 			tasks: [{
 				id: "1175A33C92547D32"
 				item: "techreborn:sphalerite_dust"
@@ -1708,7 +1708,7 @@
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["&7This Metal can be used just like Iron, it also has some own special uses."]
+			description: ["{ftbquests.chapter.the_nether.quests18.description0}"]
 			id: "6C2351611B49C31B"
 			rewards: [
 				{
@@ -1728,13 +1728,13 @@
 				item: "betternether:cincinnasite"
 				type: "item"
 			}]
-			title: "&6Like Iron, but not quite"
+			title: "{ftbquests.chapter.the_nether.quests18.title}"
 			x: -4.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
-			description: ["&7This Assortment of Towers holds great Treasures inside for you to loot. Though, its current residents would disagree on who the Owner of that loot is."]
+			description: ["{ftbquests.chapter.the_nether.quests19.description0}"]
 			icon: "minecraft:polished_blackstone_bricks"
 			id: "4ADF894FEEDD93E4"
 			rewards: [
@@ -1755,23 +1755,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Rich in Axes, Rich in Gold"
+			subtitle: "{ftbquests.chapter.the_nether.quests19.subtitle}"
 			tasks: [{
 				icon: "minecraft:polished_blackstone_brick_stairs"
 				id: "6F89853A8250D357"
 				structure: "explorify:black_spiral"
-				title: "Visit a Black Spiral"
+				title: "{ftbquests.chapter.the_nether.quests19.tasks0.title}"
 				type: "structure"
 			}]
-			title: "&4Visit a Black Spiral"
+			title: "{ftbquests.chapter.the_nether.quests19.title}"
 			x: 6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
 			description: [
-				"&7These Cities can be found in Lava lakes. The Nether City is one of the most dangerous Dungeons you'll encounter. Stakes are high. There can be Netherite Blocks in the chests and Drawers, be sure to check everything."
-				"&7The Spawners are also great for a Farm... "
+				"{ftbquests.chapter.the_nether.quests20.description0}"
+				"{ftbquests.chapter.the_nether.quests20.description1}"
 			]
 			id: "74AA7DBEE6E05A64"
 			rewards: [
@@ -1793,15 +1793,15 @@
 					type: "item"
 				}
 			]
-			subtitle: "The people who lived here did so long ago"
+			subtitle: "{ftbquests.chapter.the_nether.quests20.subtitle}"
 			tasks: [{
 				icon: "betternether:cincinnasite_fire_bowl"
 				id: "5F7CAEE65A105DB8"
 				structure: "betternether:nether_city"
-				title: "Visit a Nether City"
+				title: "{ftbquests.chapter.the_nether.quests20.tasks0.title}"
 				type: "structure"
 			}]
-			title: "&4Find a Nether City!"
+			title: "{ftbquests.chapter.the_nether.quests20.title}"
 			x: 7.5d
 			y: -2.5d
 		}
@@ -1822,21 +1822,21 @@
 					xp: 100
 				}
 			]
-			subtitle: "Just like the good old days!"
+			subtitle: "{ftbquests.chapter.the_nether.quests21.subtitle}"
 			tasks: [{
 				icon: "minecraft:nether_brick_fence"
 				id: "41D68972BBAABF64"
 				structure: "betterfortresses:fortress"
-				title: "Visit a Nether Fortress"
+				title: "{ftbquests.chapter.the_nether.quests21.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Visit a Nether Fortress"
+			title: "{ftbquests.chapter.the_nether.quests21.title}"
 			x: 8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0108C54E8DFF4373"]
-			description: ["&7Too annoying to barter? Just rob them, not just of their Gold but also of their life!"]
+			description: ["{ftbquests.chapter.the_nether.quests22.description0}"]
 			id: "05BDE171AC03527B"
 			rewards: [
 				{
@@ -1871,7 +1871,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "It's not theft if they arent alive anymore, right?"
+			subtitle: "{ftbquests.chapter.the_nether.quests22.subtitle}"
 			tasks: [{
 				entity: "minecraft:piglin"
 				icon: {
@@ -1882,11 +1882,11 @@
 					}
 				}
 				id: "5058495951C4E7C7"
-				title: "Kill Piglins"
+				title: "{ftbquests.chapter.the_nether.quests22.tasks0.title}"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Kill Piglins"
+			title: "{ftbquests.chapter.the_nether.quests22.title}"
 			x: 4.0d
 			y: -4.5d
 		}
@@ -1916,16 +1916,16 @@
 				icon: "adventurez:chiseled_polished_blackstone_holder"
 				id: "515C1D2A5BBED444"
 				structure: "#minecraft:bastion_remnant"
-				title: "Visit a Bastion Remnant"
+				title: "{ftbquests.chapter.the_nether.quests23.tasks0.title}"
 				type: "structure"
 			}]
-			title: "&4Visit a Bastion Remnant"
+			title: "{ftbquests.chapter.the_nether.quests23.title}"
 			x: 4.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4ADF894FEEDD93E4"]
-			description: ["&7Kill as many as you can, some of these may have the Gilded Blackstone shards you need."]
+			description: ["{ftbquests.chapter.the_nether.quests24.description0}"]
 			icon: {
 				Count: 1
 				id: "minecraft:golden_axe"
@@ -1957,11 +1957,11 @@
 					}
 				}
 				id: "7D62CF43A5538CDC"
-				title: "Kill Piglin Brutes"
+				title: "{ftbquests.chapter.the_nether.quests24.tasks0.title}"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Kill Brutes"
+			title: "{ftbquests.chapter.the_nether.quests24.title}"
 			x: 6.0d
 			y: -5.0d
 		}
@@ -1997,11 +1997,11 @@
 					}
 				}
 				id: "7FD09032C10128BF"
-				title: "Kill Wither Skeletons"
+				title: "{ftbquests.chapter.the_nether.quests25.tasks0.title}"
 				type: "kill"
 				value: 300L
 			}]
-			title: "&2Kill Wither Skeletons"
+			title: "{ftbquests.chapter.the_nether.quests25.title}"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -2037,11 +2037,11 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "283E7CACE7EBF7DA"
-				title: "Kill Blazes"
+				title: "{ftbquests.chapter.the_nether.quests26.tasks0.title}"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Thy Flame needs to be extinguished"
+			title: "{ftbquests.chapter.the_nether.quests26.title}"
 			x: 10.0d
 			y: -3.0d
 		}
@@ -2061,43 +2061,43 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Found in its own &4Arena"
+			subtitle: "{ftbquests.chapter.the_nether.quests27.subtitle}"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: "artifacts:power_glove"
 				id: "71780E465DB4A8A1"
-				title: "Kill the Nether gauntlet"
+				title: "{ftbquests.chapter.the_nether.quests27.tasks0.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the &8Nether Gauntlet"
+			title: "{ftbquests.chapter.the_nether.quests27.title}"
 			x: 0.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]
-			description: ["&7To find the Arena, simply explore the Nether near the Lava level."]
+			description: ["{ftbquests.chapter.the_nether.quests28.description0}"]
 			id: "26115F67C5E799DF"
 			rewards: [{
 				id: "3FE5F1F498A4720F"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "[Click for more Info]"
+			subtitle: "{ftbquests.chapter.the_nether.quests28.subtitle}"
 			tasks: [{
 				icon: "minecraft:blackstone"
 				id: "19DFB8AC0825D0D7"
 				structure: "bosses_of_mass_destruction:gauntlet_arena"
-				title: "Find the Gauntlet Arena somewhere in the End"
+				title: "{ftbquests.chapter.the_nether.quests28.tasks0.title}"
 				type: "structure"
 			}]
-			title: "&4Find the Gauntlet Arena"
+			title: "{ftbquests.chapter.the_nether.quests28.title}"
 			x: 0.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]
-			description: ["&7The Decaying Kingdom spawns in any Nether Biome. Use a Moonstone Compass to locate him!"]
+			description: ["{ftbquests.chapter.the_nether.quests29.description0}"]
 			icon: "soulsweapons:boss_compass"
 			id: "50EA81AA3B7714E9"
 			rewards: [
@@ -2112,30 +2112,30 @@
 					type: "item"
 				}
 			]
-			subtitle: "[Click for more Info]"
+			subtitle: "{ftbquests.chapter.the_nether.quests29.subtitle}"
 			tasks: [
 				{
 					icon: "soulsweapons:demon_chunk"
 					id: "38053E4D88E9E641"
 					structure: "#soulsweapons:decaying_kingdom"
-					title: "Find the Decaying Kingdom"
+					title: "{ftbquests.chapter.the_nether.quests29.tasks0.title}"
 					type: "structure"
 				}
 				{
 					id: "3446403850927734"
 					item: "soulsweapons:boss_compass"
 					optional_task: true
-					title: "Use an Moonstone Compass!"
+					title: "{ftbquests.chapter.the_nether.quests29.tasks1.title}"
 					type: "item"
 				}
 			]
-			title: "Find the &4Decaying Kingdom"
+			title: "{ftbquests.chapter.the_nether.quests29.title}"
 			x: 1.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["0108C54E8DFF4373"]
-			description: ["&7Blood Trinkets can be found in Bastion Remnants, these Trinkets are Vital for any Tank or Blood Death Knight and anything inbetween."]
+			description: ["{ftbquests.chapter.the_nether.quests30.description0}"]
 			id: "5D08172CBB91A031"
 			rewards: [
 				{
@@ -2154,13 +2154,13 @@
 				item: "death_knights:blood_dk_ring"
 				type: "item"
 			}]
-			title: "&4Blood Trinkets"
+			title: "{ftbquests.chapter.the_nether.quests30.title}"
 			x: 2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
-			description: ["&7You've seen them all, thats it, book a better Tour guide next time! There is still much to find and explore!"]
+			description: ["{ftbquests.chapter.the_nether.quests31.description0}"]
 			id: "4A50D2B7B078220F"
 			rewards: [
 				{
@@ -2175,15 +2175,15 @@
 					type: "item"
 				}
 			]
-			subtitle: "Why would you go on a Vacation here??"
+			subtitle: "{ftbquests.chapter.the_nether.quests31.subtitle}"
 			tasks: [{
 				advancement: "minecraft:nether/explore_nether"
 				criterion: ""
 				id: "1942D79A88515A69"
-				title: "Visit all biomes"
+				title: "{ftbquests.chapter.the_nether.quests31.tasks0.title}"
 				type: "advancement"
 			}]
-			title: "A very hot Vacation"
+			title: "{ftbquests.chapter.the_nether.quests31.title}"
 			x: 8.5d
 			y: 1.5d
 		}
@@ -2213,10 +2213,10 @@
 				icon: "minecraft:ghast_tear"
 				id: "281E4AEA987B8EF4"
 				structure: "betternether:ghast_hive"
-				title: "Visit a Ghast hive and kill these wretched things"
+				title: "{ftbquests.chapter.the_nether.quests32.tasks0.title}"
 				type: "structure"
 			}]
-			title: "&8Defeat a Ghast Hive"
+			title: "{ftbquests.chapter.the_nether.quests32.title}"
 			x: 7.5d
 			y: 2.5d
 		}
@@ -2241,16 +2241,16 @@
 				icon: "minecraft:red_nether_bricks"
 				id: "46C68F2AFA7FA1DA"
 				structure: "friendsandfoes:citadel"
-				title: "Visit the Citadel"
+				title: "{ftbquests.chapter.the_nether.quests33.tasks0.title}"
 				type: "structure"
 			}]
-			title: "&4The Citadel"
+			title: "{ftbquests.chapter.the_nether.quests33.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
-			description: ["&7Did Aliens build these?"]
+			description: ["{ftbquests.chapter.the_nether.quests34.description0}"]
 			icon: "minecraft:netherrack"
 			id: "08CB4E635F213187"
 			rewards: [
@@ -2270,10 +2270,10 @@
 				icon: "minecraft:nether_bricks"
 				id: "43CE52A5A6AD7517"
 				structure: "betternether:pyramid"
-				title: "Visit a Nether Pyramid"
+				title: "{ftbquests.chapter.the_nether.quests34.tasks0.title}"
 				type: "structure"
 			}]
-			title: "&4Visit a Nether Pyramid"
+			title: "{ftbquests.chapter.the_nether.quests34.title}"
 			x: 4.5d
 			y: 2.5d
 		}
@@ -2285,13 +2285,13 @@
 				item: "mythicupgrades:ruby"
 				type: "item"
 			}]
-			title: "&4Ore Sniffer"
+			title: "{ftbquests.chapter.the_nether.quests35.title}"
 			x: -3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["&7These Gems are essential for any Tank Player. They give off an Aura as if it reflects your touch."]
+			description: ["{ftbquests.chapter.the_nether.quests36.description0}"]
 			id: "6117CFB58B0046FA"
 			rewards: [
 				{
@@ -2311,13 +2311,13 @@
 				item: "mythicupgrades:sapphire"
 				type: "item"
 			}]
-			title: "&5The Tanks best friend"
+			title: "{ftbquests.chapter.the_nether.quests36.title}"
 			x: -3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
-			description: ["&7There is plenty of Structures you can find that are fun to explore and can yield a lot of Resources. Try to find them all!"]
+			description: ["{ftbquests.chapter.the_nether.quests37.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5C9B685683F1F505"
@@ -2330,13 +2330,13 @@
 				id: "0ADF4A630BFDAD6E"
 				type: "checkmark"
 			}]
-			title: "&5Explore the Nether!"
+			title: "{ftbquests.chapter.the_nether.quests37.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
-			description: ["&7An old Warrior, long past his Peak lays here. Best to not disturb. Or... is it?"]
+			description: ["{ftbquests.chapter.the_nether.quests38.description0}"]
 			icon: "graveyard:lying_wither_skeleton"
 			id: "6B6F6C7F9DCDF904"
 			rewards: [
@@ -2355,10 +2355,10 @@
 				icon: "archon:fire_essence"
 				id: "1B2DC6C9F91AE837"
 				structure: "archon:wither_tomb"
-				title: "Visit a Wither Tomb"
+				title: "{ftbquests.chapter.the_nether.quests38.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Something has been buried here"
+			title: "{ftbquests.chapter.the_nether.quests38.title}"
 			x: 3.5d
 			y: 1.5d
 		}
@@ -2379,7 +2379,7 @@
 				id: "7F1D61D86951821E"
 				type: "checkmark"
 			}]
-			title: "&5Magmators"
+			title: "{ftbquests.chapter.the_nether.quests39.title}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -2391,13 +2391,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Have an infinite Lava source in the Nether"
+			subtitle: "{ftbquests.chapter.the_nether.quests40.subtitle}"
 			tasks: [{
 				advancement: "create:hose_pulley_lava"
 				criterion: ""
 				icon: "create:hose_pulley"
 				id: "413425FEA72470C8"
-				title: "Tap the Mantle!"
+				title: "{ftbquests.chapter.the_nether.quests40.tasks0.title}"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -2406,10 +2406,10 @@
 		{
 			dependencies: ["3E63250DCB35FA89"]
 			description: [
-				"&7To get Lava out of the Nether, you are going to need an entire functioning Quantum Ring in the Nether and in the Overworld."
+				"{ftbquests.chapter.the_nether.quests41.description0}"
 				""
 				""
-				"&7Hook a Hose Pulley up to a Storage Bus and connect that Storage bus to the Quantum Ring in the Nether. Once everything is properly paired and connected, you can enjoy the spoils of infinite Lava in your own Home! Hope that Heating Bill goes down."
+				"{ftbquests.chapter.the_nether.quests41.description3}"
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:lava_bucket"
@@ -2419,7 +2419,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "If you're cold, so is the Lava, bring it home with you"
+			subtitle: "{ftbquests.chapter.the_nether.quests41.subtitle}"
 			tasks: [
 				{
 					id: "1AC5E4EE46479478"
@@ -2432,13 +2432,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "&9Getting Lava into the overworld"
+			title: "{ftbquests.chapter.the_nether.quests41.title}"
 			x: 2.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["3E63250DCB35FA89"]
-			description: ["&7What do you need this for? Power???? "]
+			description: ["{ftbquests.chapter.the_nether.quests42.description0}"]
 			id: "37471F11BB69BA89"
 			rewards: [
 				{
@@ -2457,7 +2457,7 @@
 				item: "powah:magmator_nitro"
 				type: "item"
 			}]
-			title: "&9MAXIMUM POWER"
+			title: "{ftbquests.chapter.the_nether.quests42.title}"
 			x: -2.5d
 			y: 8.0d
 		}
@@ -2477,21 +2477,21 @@
 					xp: 100
 				}
 			]
-			subtitle: "Why would you ever go here?"
+			subtitle: "{ftbquests.chapter.the_nether.quests43.subtitle}"
 			tasks: [{
 				biome: "betternether:nether_jungle"
 				icon: "betternether:jungle_moss"
 				id: "56A1E9ED5C2ECDBA"
-				title: "Visit the Nether Jungle"
+				title: "{ftbquests.chapter.the_nether.quests43.tasks0.title}"
 				type: "biome"
 			}]
-			title: "&3Leave this place"
+			title: "{ftbquests.chapter.the_nether.quests43.title}"
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["08A63F0788D096E5"]
-			description: ["&7They spit at you, just how Llamas are, weird... maybe some distant Cousin."]
+			description: ["{ftbquests.chapter.the_nether.quests44.description0}"]
 			id: "2D5AA976A898764D"
 			rewards: [
 				{
@@ -2505,12 +2505,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bone Llamas"
+			subtitle: "{ftbquests.chapter.the_nether.quests44.subtitle}"
 			tasks: [{
 				entity: "betternether:naga"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "34BE683ABB1D6CDD"
-				title: "Kill Nagas"
+				title: "{ftbquests.chapter.the_nether.quests44.tasks0.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -2518,5 +2518,5 @@
 			y: 0.0d
 		}
 	]
-	title: " &cThe Nether"
+	title: "{ftbquests.chapter.the_nether.title}"
 }
