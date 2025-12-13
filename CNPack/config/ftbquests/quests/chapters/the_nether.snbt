@@ -1,4 +1,5 @@
 {
+	autofocus_id: "46D0AAEEB69E28B3"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_nether"
@@ -11,8 +12,1192 @@
 			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
 			rotation: 0.0d
 			width: 3.5d
-			x: -5.0d
+			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.3d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecells:block/colored_torch/promenade"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecells:block/colored_torch/promenade"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecells:block/colored_torch/promenade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecells:block/colored_torch/promenade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.3d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.3d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependency: "6DFEDDFC27B1708C"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependency: "7E1C1CEE751827EF"
+			height: 1.3d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependency: "37471F11BB69BA89"
+			height: 2.0d
+			image: "powah:block/magmator_face_lit"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependency: "42C1B494F003A1A4"
+			height: 2.0d
+			image: "minecraft:block/lava_flow"
+			rotation: 45.0d
+			width: 2.0d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependency: "6117CFB58B0046FA"
+			height: 1.0d
+			image: "mythicupgrades:block/sapphire_crystal_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependency: "6117CFB58B0046FA"
+			height: 1.0d
+			image: "mythicupgrades:block/sapphire_crystal_cluster"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.65d
+		}
+		{
+			dependency: "6117CFB58B0046FA"
+			height: 1.0d
+			image: "mythicupgrades:block/sapphire_crystal_cluster"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.2d
+			y: 2.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependency: "6AE07BBF58A0BE64"
+			height: 1.15d
+			image: "minecraft:block/glowstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "betternether:block/nether_lapis_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "betternether:block/nether_lapis_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "betternether:block/nether_lapis_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/nether_quartz_ore1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/nether_quartz_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependency: "4CCF58C57DA46BA3"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/netherite_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/ancient_debris_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/ancient_debris_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "techreborn:block/ore/pyrite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "techreborn:block/ore/pyrite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "techreborn:block/ore/pyrite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependency: "1702057B5F68995F"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.15d
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependency: "106CC409603CF580"
+			height: 1.15d
+			image: "minecraft:block/netherrack1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/netherrack1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "techreborn:block/ore/cinnabar_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "techreborn:block/ore/cinnabar_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "techreborn:block/ore/cinnabar_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependency: "0259F3EAA2AAE635"
+			height: 2.5d
+			image: "prominent:textures/boss_icons/guantlet.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependency: "3963B69A10D95565"
+			height: 1.0d
+			image: "prominent:textures/boss_icons/blackstone_golem.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -12.0d
+		}
+		{
+			dependency: "2F11604C9E2C0353"
+			height: 1.0d
+			image: "soulsweapons:item/withered_demon_heart"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependency: "4C570FA09FFFB747"
+			height: 2.0d
+			image: "minecraft:item/golden_axe"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependency: "136DD633F7293AD7"
+			height: 2.0d
+			image: "minecraft:item/blaze_rod"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependency: "08A63F0788D096E5"
+			height: 2.0d
+			image: "adventurez:textures/misc/withered.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependency: "2E2780EDD5B76B92"
+			height: 2.0d
+			image: "moretotems:item/ghastly_totem_of_undying"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependency: "05BDE171AC03527B"
+			height: 3.0d
+			image: "mcdw:item/crossbows/pride_of_the_piglins"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependency: "5D08172CBB91A031"
+			height: 2.0d
+			image: "death_knights:item/runes/blood_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependency: "2C7EFCB0E8AB1FEB"
+			height: 1.15d
+			image: "minecraft:block/netherrack4"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependency: "2C7EFCB0E8AB1FEB"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependency: "16DB148BA3164A6C"
+			height: 1.15d
+			image: "techreborn:block/ore/sphalerite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/netherrack1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "betternether:block/nether_ruby_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "betternether:block/nether_ruby_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependency: "16DB148BA3164A6C"
+			height: 1.15d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependency: "16DB148BA3164A6C"
+			height: 1.15d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependency: "16DB148BA3164A6C"
+			height: 1.15d
+			image: "techreborn:block/ore/sphalerite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/bedrock1"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "betternether:block/nether_ruby_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/bedrock2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependency: "16DB148BA3164A6C"
+			height: 1.15d
+			image: "minecraft:block/bedrock2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependency: "2C7EFCB0E8AB1FEB"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependency: "2C7EFCB0E8AB1FEB"
+			height: 1.15d
+			image: "mythicupgrades:block/ruby_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependency: "2C7EFCB0E8AB1FEB"
+			height: 1.15d
+			image: "mythicupgrades:block/ruby_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependency: "6C2351611B49C31B"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependency: "6C2351611B49C31B"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependency: "6C2351611B49C31B"
+			height: 1.15d
+			image: "betternether:block/cincinnasite_ore"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependency: "6C2351611B49C31B"
+			height: 1.15d
+			image: "minecraft:block/netherrack2"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependency: "24799CCC326B5B68"
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependency: "5D07AE294BBFED13"
+			height: 1.15d
+			image: "chipped:block/pointed_dripstone/netherrack_pointed_dripstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependency: "08CB4E635F213187"
+			height: 1.5d
+			image: "netherdepthsupgrade:block/crimson_seagrass"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependency: "08CB4E635F213187"
+			height: 1.5d
+			image: "minecraft:block/netherrack3"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: 5.8d
+		}
+		{
+			dependency: "4C570FA09FFFB747"
+			height: 1.0d
+			image: "endrem:item/nether_eye"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependency: "6B6F6C7F9DCDF904"
+			height: 3.0d
+			image: "archon:item/soul_scythe"
+			rotation: 45.0d
+			width: 3.0d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependency: "56D3A3CFEF28BF91"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependency: "5C9B685683F1F505"
+			height: 1.4d
+			image: "betternether:block/cincinnasite_tiles_small"
+			rotation: 45.0d
+			width: 1.4d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependency: "2BC22D85AC835C6D"
+			height: 1.15d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.15d
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependency: "5D08172CBB91A031"
+			height: 1.0d
+			image: "prominent:textures/icon/talent_tree/magic_type/blood.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -5.0d
 		}
 	]
 	order_index: 4
@@ -40,22 +1225,19 @@
 			]
 			shape: "circle"
 			size: 2.0d
-			tasks: [
-				{
-					dimension: "minecraft:the_nether"
-					icon: "minecraft:netherrack"
-					id: "7FC5892104C0744C"
-					title: "{ftbquests.chapter.the_nether.quests0.tasks0.title}"
-					type: "dimension"
-				}
-			]
-			title: "{ftbquests.chapter.the_nether.quests0.title}"
-			x: -5.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "7FC5892104C0744C"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Enter &cThe Nether"
+			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: true
+			dependencies: ["6DFEDDFC27B1708C"]
 			id: "5B11DB2289D4F66C"
 			rewards: [
 				{
@@ -63,26 +1245,29 @@
 					type: "xp_levels"
 					xp_levels: 3
 				}
-			]
-			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.the_nether.quests1.subtitle}"
-			tasks: [
 				{
-					entity: "adventurez:blaze_guardian"
-					icon: "minecraft:blaze_rod"
-					id: "4DBABAE3AE00C903"
-					title: "{ftbquests.chapter.the_nether.quests1.tasks0.title}"
-					type: "kill"
-					value: 1L
+					count: 8
+					id: "77A437E1D0272106"
+					item: "minecraft:blaze_rod"
+					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.the_nether.quests1.title}"
-			x: -7.5d
-			y: -2.0d
+			shape: "diamond"
+			subtitle: "Spawns next to &6Blaze Spawners &7in &4nether fortresses &7but can also appear in &4Nether Wastes."
+			tasks: [{
+				entity: "adventurez:blaze_guardian"
+				icon: "minecraft:blaze_rod"
+				id: "4DBABAE3AE00C903"
+				title: "Kill a Blaze Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the &6Blaze Guardian"
+			x: 1.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: true
+			dependencies: ["6DFEDDFC27B1708C"]
 			id: "69872C1F1CCBDEBD"
 			rewards: [
 				{
@@ -97,85 +1282,88 @@
 					type: "item"
 				}
 			]
-			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.the_nether.quests2.subtitle}"
-			tasks: [
-				{
-					entity: "adventurez:necromancer"
-					icon: "minecraft:wither_skeleton_skull"
-					id: "745C505DC4DF253C"
-					title: "{ftbquests.chapter.the_nether.quests2.tasks0.title}"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "{ftbquests.chapter.the_nether.quests2.title}"
-			x: -2.5d
-			y: -2.0d
+			shape: "diamond"
+			subtitle: "Spawns in &4Nether Fortresses&r."
+			tasks: [{
+				entity: "adventurez:necromancer"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "745C505DC4DF253C"
+				title: "Kill a Necromancer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill &8The Necromancer"
+			x: -1.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
+			dependencies: ["5C67FB6AB484E924"]
 			description: [""]
-			hide_dependency_lines: true
+			hide_lock_icon: true
 			id: "3963B69A10D95565"
-			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.the_nether.quests3.subtitle}"
-			tasks: [
-				{
-					entity: "adventurez:blackstone_golem"
-					icon: "adventurez:blackstone_golem_heart"
-					id: "27D27F2750D953BC"
-					title: "{ftbquests.chapter.the_nether.quests3.tasks0.title}"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "{ftbquests.chapter.the_nether.quests3.title}"
-			x: -5.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: true
-			id: "4BCD1F2BA84D70D7"
 			rewards: [
 				{
-					id: "1D8B697841671F20"
-					item: {
-						Count: 1
-						id: "soulsweapons:withered_wabbajack"
-						tag: {
-							Damage: 0
-						}
-					}
+					count: 6
+					id: "7A7026A63C884D5E"
+					item: "minecraft:ancient_debris"
 					type: "item"
 				}
 				{
-					id: "4682C347018D1DDC"
+					id: "335188DF651A3969"
 					type: "xp_levels"
-					xp_levels: 6
+					xp_levels: 5
 				}
 			]
-			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.the_nether.quests4.subtitle}"
+			shape: "diamond"
+			subtitle: "&8The Stone Golem &rcan only be summoned with a &6Golem Ritual&r  while being in &4The Nether"
+			tasks: [{
+				entity: "adventurez:blackstone_golem"
+				icon: "adventurez:blackstone_golem_heart"
+				id: "27D27F2750D953BC"
+				title: "Kill the Blackstone Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the &8Blackstone Golem"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6DFEDDFC27B1708C"]
+			description: ["&7You will need to kill these Creatures if you wanna Resummon the Decaying King again. Simply Smelt their Hearts into &4Demonite Chunks.&r"]
+			icon: "soulsweapons:withered_demon_heart"
+			id: "4BCD1F2BA84D70D7"
+			rewards: [{
+				id: "4682C347018D1DDC"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "diamond"
+			subtitle: "Spawns in Crimson Forests in &4The Nether&r."
 			tasks: [
 				{
 					entity: "soulsweapons:withered_demon"
 					icon: "soulsweapons:withered_demon_heart"
 					id: "239ACDE3872515BB"
-					title: "{ftbquests.chapter.the_nether.quests4.tasks0.title}"
+					title: "Kill a Withered Demon"
 					type: "kill"
 					value: 1L
 				}
+				{
+					biome: "minecraft:crimson_forest"
+					icon: "minecraft:crimson_fungus"
+					id: "691C9F1FD61C9432"
+					title: "Visit the Crimson Forest"
+					type: "biome"
+				}
 			]
-			title: "{ftbquests.chapter.the_nether.quests4.title}"
-			x: -5.0d
-			y: 3.0d
+			title: "Kill &8The Withered Demon"
+			x: -3.5d
+			y: -9.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			description: ["{ftbquests.chapter.the_nether.quests5.description}"]
-			hide_dependency_lines: true
+			dependencies: ["50EA81AA3B7714E9"]
+			description: ["The Decaying King spawns in the remnants of the Decaying Kingdom in the nether. This cursed monstrosity wields The Darkin Blade, and has many deadly attacks to look out for. Killing it makes it drop the Darkin Blade, a Lord Soul and the Withered Demon Heart."]
 			icon: "soulsweapons:lord_soul_red"
 			id: "2F11604C9E2C0353"
 			rewards: [
@@ -184,25 +1372,28 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
-			]
-			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.the_nether.quests5.subtitle}"
-			tasks: [
 				{
-					entity: "soulsweapons:accursed_lord_boss"
-					icon: "soulsweapons:lord_soul_red"
-					id: "2137D80B50F2DCCB"
-					title: "{ftbquests.chapter.the_nether.quests5.tasks0.title}"
-					type: "kill"
-					value: 1L
+					count: 3
+					id: "65EA697E7601BE34"
+					item: "soulsweapons:molten_demon_heart"
+					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 2.0d
+			shape: "diamond"
+			subtitle: "Spawns in &4The Remnants of The Decaying Kingdom&r."
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: "soulsweapons:lord_soul_red"
+				id: "2137D80B50F2DCCB"
+				title: "Kill &4The Decaying King"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -10.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			hide_dependency_lines: true
+			dependencies: ["6DFEDDFC27B1708C"]
 			id: "6B7553ECE9DF7675"
 			rewards: [
 				{
@@ -217,34 +1408,31 @@
 					type: "item"
 				}
 			]
-			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.the_nether.quests6.subtitle}"
-			tasks: [
-				{
-					entity: "adventurez:soul_reaper"
-					icon: "soulsweapons:lord_soul_void"
-					id: "09CA256D27D0482F"
-					title: "{ftbquests.chapter.the_nether.quests6.tasks0.title}"
-					type: "kill"
-					value: 1L
-				}
-			]
-			x: -7.5d
-			y: 2.0d
+			shape: "diamond"
+			subtitle: "The Soul Reaper spawns in the &bsoul sand valley&r with its mount, The Nightmare."
+			tasks: [{
+				entity: "adventurez:soul_reaper"
+				icon: "soulsweapons:lord_soul_void"
+				id: "09CA256D27D0482F"
+				title: "Kill &8The Soul Reaper"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -9.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
+			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"{ftbquests.chapter.the_nether.quest7.description0}",
-				"",
-				"{ftbquests.chapter.the_nether.quest7.description2}",
-				"",
-				"{ftbquests.chapter.the_nether.quest7.description4}",
-				"",
-				"{ftbquests.chapter.the_nether.quest7.description6}",
-				"{ftbquests.chapter.the_nether.quest7.description7}"
+				"You are playing modded Minecraft, thus, there is &1no need to mine for hours&r in the Nether to get some scraps."
+				""
+				"&4Finding a Nether City.&r These Cities yield blocks of Netherite and a ton of other good gear that can help you on your journey. &eThe City is mostly made out of Quartz and Cinnasite.&r"
+				""
+				"&4Finding a Black Spiral in the Nether&r. These have tons of Piglins and tons of valueables. Make sure to dig down into the Towers. The Structure is mostly made of Blackstone and looks like many Towers connected to one another."
+				""
+				"&4Tech.&r If you already wasted your time mining or got Ancient Debris in another way, there is many ways to make more of what you have. You can reach up to a 8 times yield with the right setup."
+				"Of course, you can always use &9UU Matter&r from Tech Reborn to make an nigh infinite supply of Netherite."
 			]
-			hide_dependency_lines: true
 			id: "1702057B5F68995F"
 			rewards: [
 				{
@@ -258,17 +1446,1077 @@
 					xp: 100
 				}
 			]
-			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.the_nether.quest7.subtitle}"
+			subtitle: "Ancient in nature"
 			tasks: [{
 				id: "676A410C4E5D491F"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quest7.title}"
-			x: -8.0d
+			title: "Netherite"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			description: ["&7There is plenty of Bosses you can fight in the Nether, some lesser, some more of a Threat."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "6DFEDDFC27B1708C"
+			rewards: [{
+				id: "179C23D230FCD993"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "617FA660C1E4E06A"
+				title: "Bosses"
+				type: "checkmark"
+			}]
+			title: "&5Bosses in the Nether"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6DFEDDFC27B1708C"
+				"759AA6DD39277704"
+			]
+			description: [
+				"&7You will need a Platform made out of &4vanilla Blackstone Blocks&r. The Pedestals have to be one out from the 9x9 Platform"
+				"&7The Pedestals have to be &4on the same level&r &7as the rest of the 9x9 Area. A rough Floor plan can be seen here:"
+				""
+				""
+				"              ☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"&8i&r ☐☐☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"    ☐☐☐☐☐☐☐☐☐"
+				"              ☐"
+			]
+			icon: "adventurez:gilded_blackstone_shard"
+			id: "5C67FB6AB484E924"
+			rewards: [{
+				id: "1501F054D1DD6B48"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "[Click for more Info]"
+			tasks: [
+				{
+					id: "75EA2905DFCCB778"
+					title: "Prepare the Ritual"
+					type: "checkmark"
+				}
+				{
+					id: "6A8925C881E20BBE"
+					item: "adventurez:gilded_blackstone_shard"
+					optional_task: true
+					title: "Collect 4 Gilded Blackstone Shards"
+					type: "item"
+				}
+			]
+			title: "&4The Blackstone Golem's Ritual"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "56D3A3CFEF28BF91"
+			tasks: [{
+				id: "3ACD2A8DD6A81D08"
+				type: "checkmark"
+			}]
+			title: "&5Ores in the Nether"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&ePyrite&r &7is one of the most important Ores in Prominence. You will need Pyrite to reforge your items to a better Tier. Be sure to mine as much as you can."]
+			id: "106CC409603CF580"
+			rewards: [
+				{
+					count: 16
+					id: "3A611EDCC8351D5B"
+					item: "tiered:pyrite_chunk"
+					type: "item"
+				}
+				{
+					id: "16226E725EC16ACE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Essence of the Legendary"
+			tasks: [{
+				id: "65712D20901D5430"
+				item: "techreborn:pyrite_dust"
+				type: "item"
+			}]
+			title: "Pyrite"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7Cinnabar is a crucial Component to most Aspiring Engineers and Network Designers."]
+			id: "2BC22D85AC835C6D"
+			rewards: [{
+				count: 32
+				id: "26C45FD0870B8330"
+				item: "techreborn:cinnabar_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FE8D787D3A76E89"
+				item: "techreborn:cinnabar_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			id: "4CCF58C57DA46BA3"
+			rewards: [
+				{
+					count: 16
+					id: "050E890F362AA47B"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					id: "6F5F53F578BE6B8E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ol' Reliable"
+			tasks: [{
+				id: "4CAE630026F76194"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7Though Lapis can be found in the Nether, its Reserves are quite limited, you find out."]
+			id: "24799CCC326B5B68"
+			rewards: [
+				{
+					count: 16
+					id: "0897D39FAC0137E5"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "4C8DAE60317B28B0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Talk about low hanging Fruit"
+			tasks: [{
+				id: "52AD925B0DC9A43C"
+				item: "betternether:lapis_pile"
+				type: "item"
+			}]
+			title: "Really?"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7You know what this is, you know what you use it for."]
+			id: "6AE07BBF58A0BE64"
+			rewards: [{
+				count: 16
+				id: "69B567155409733C"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B1C572634753DCF"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			title: "&3Radioactive? no"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7You feel like you've seen this Material before, a long time ago, you dont know where it is from or what it does, but you do feel some sort of Nostalgia when touching it. It warms your Meart in an odd way."]
+			id: "5D07AE294BBFED13"
+			rewards: [
+				{
+					count: 12
+					id: "0BBA30DE9D9176AA"
+					item: "betternether:nether_ruby"
+					type: "item"
+				}
+				{
+					id: "08DED57F37A9E5FD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Warm to the touch"
+			tasks: [{
+				id: "6397BA7693A49A90"
+				item: "betternether:nether_ruby"
+				type: "item"
+			}]
+			title: "&4Nether Ruby "
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7Sphalerite is a Ore containing Zinc and Sulfur, great for both, the stench is horrible though."]
+			id: "16DB148BA3164A6C"
+			rewards: [
+				{
+					count: 16
+					id: "16C493D1367D36C9"
+					item: "techreborn:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "32BC480BCC9B1C98"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Does anyone else smell rotten eggs?"
+			tasks: [{
+				id: "1175A33C92547D32"
+				item: "techreborn:sphalerite_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7This Metal can be used just like Iron, it also has some own special uses."]
+			id: "6C2351611B49C31B"
+			rewards: [
+				{
+					id: "406D77FAD30531D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "1ED4E2711BC4803B"
+					item: "betternether:cincinnasite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5DA7ABE643272753"
+				item: "betternether:cincinnasite"
+				type: "item"
+			}]
+			title: "&6Like Iron, but not quite"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			description: ["&7This Assortment of Towers holds great Treasures inside for you to loot. Though, its current residents would disagree on who the Owner of that loot is."]
+			icon: "minecraft:polished_blackstone_bricks"
+			id: "4ADF894FEEDD93E4"
+			rewards: [
+				{
+					id: "3CF628EDC4739DE6"
+					item: "adventurez:gilded_blackstone_shard"
+					type: "item"
+				}
+				{
+					id: "461AA258D3E1FAD4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "0FFC75EC9AD5B8CC"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			subtitle: "Rich in Axes, Rich in Gold"
+			tasks: [{
+				icon: "minecraft:polished_blackstone_brick_stairs"
+				id: "6F89853A8250D357"
+				structure: "explorify:black_spiral"
+				title: "Visit a Black Spiral"
+				type: "structure"
+			}]
+			title: "&4Visit a Black Spiral"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			description: [
+				"&7These Cities can be found in Lava lakes. The Nether City is one of the most dangerous Dungeons you'll encounter. Stakes are high. There can be Netherite Blocks in the chests and Drawers, be sure to check everything."
+				"&7The Spawners are also great for a Farm... "
+			]
+			id: "74AA7DBEE6E05A64"
+			rewards: [
+				{
+					id: "2BCA53B28DEF86CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "1273DC1E34CE9320"
+					item: "betternether:cincinnasite_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2AB82EF3F28F169C"
+					item: "betternether:cincinnasite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "The people who lived here did so long ago"
+			tasks: [{
+				icon: "betternether:cincinnasite_fire_bowl"
+				id: "5F7CAEE65A105DB8"
+				structure: "betternether:nether_city"
+				title: "Visit a Nether City"
+				type: "structure"
+			}]
+			title: "&4Find a Nether City!"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			icon: "minecraft:nether_brick_fence"
+			id: "1E03641058773DC2"
+			rewards: [
+				{
+					count: 16
+					id: "6DDB9D253730DF44"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					id: "6810A50C71B9E1BD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Just like the good old days!"
+			tasks: [{
+				icon: "minecraft:nether_brick_fence"
+				id: "41D68972BBAABF64"
+				structure: "betterfortresses:fortress"
+				title: "Visit a Nether Fortress"
+				type: "structure"
+			}]
+			title: "Visit a Nether Fortress"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0108C54E8DFF4373"]
+			description: ["&7Too annoying to barter? Just rob them, not just of their Gold but also of their life!"]
+			id: "05BDE171AC03527B"
+			rewards: [
+				{
+					id: "118CEC7AE47D4120"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "3D8FF8E333846A90"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "76BF4372F05D6895"
+					item: {
+						Count: 1
+						id: "mcdw:crossbow_pride_of_the_piglins"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:piercing"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "162F8B35D1281F25"
+					item: "minecraft:piglin_head"
+					type: "item"
+				}
+			]
+			subtitle: "It's not theft if they arent alive anymore, right?"
+			tasks: [{
+				entity: "minecraft:piglin"
+				icon: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5058495951C4E7C7"
+				title: "Kill Piglins"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Piglins"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			icon: "minecraft:cracked_polished_blackstone_bricks"
+			id: "0108C54E8DFF4373"
+			rewards: [
+				{
+					id: "013B9918E96B471F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0D0CCEE6C0667CF3"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "52F85E42D0B9DC66"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "adventurez:chiseled_polished_blackstone_holder"
+				id: "515C1D2A5BBED444"
+				structure: "#minecraft:bastion_remnant"
+				title: "Visit a Bastion Remnant"
+				type: "structure"
+			}]
+			title: "&4Visit a Bastion Remnant"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4ADF894FEEDD93E4"]
+			description: ["&7Kill as many as you can, some of these may have the Gilded Blackstone shards you need."]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C570FA09FFFB747"
+			rewards: [
+				{
+					count: 3
+					id: "2980ED139E58F787"
+					item: "adventurez:gilded_blackstone_shard"
+					type: "item"
+				}
+				{
+					id: "61A1169C9D9134A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: {
+					Count: 1
+					id: "minecraft:golden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7D62CF43A5538CDC"
+				title: "Kill Piglin Brutes"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill Brutes"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			id: "08A63F0788D096E5"
+			rewards: [
+				{
+					id: "4301374371B0802B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "3F763BF547F0575D"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6549DF18B7E0D616"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					Count: 1
+					id: "mcda:wither_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7FD09032C10128BF"
+				title: "Kill Wither Skeletons"
+				type: "kill"
+				value: 300L
+			}]
+			title: "&2Kill Wither Skeletons"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E03641058773DC2"]
+			icon: "minecraft:blaze_rod"
+			id: "136DD633F7293AD7"
+			rewards: [
+				{
+					id: "669C1CC8D11A7D66"
+					item: "handcrafted:blaze_trophy"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "658746D1BCA892B1"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "78BFAD8C64058CE2"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "7FF9D08400A94D6A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
+				id: "283E7CACE7EBF7DA"
+				title: "Kill Blazes"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Thy Flame needs to be extinguished"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26115F67C5E799DF"]
+			id: "0259F3EAA2AAE635"
+			rewards: [
+				{
+					id: "49BC51C81E9340E8"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "27BE53EC9D435C24"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "diamond"
+			subtitle: "Found in its own &4Arena"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "artifacts:power_glove"
+				id: "71780E465DB4A8A1"
+				title: "Kill the Nether gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the &8Nether Gauntlet"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6DFEDDFC27B1708C"]
+			description: ["&7To find the Arena, simply explore the Nether near the Lava level."]
+			id: "26115F67C5E799DF"
+			rewards: [{
+				id: "3FE5F1F498A4720F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "[Click for more Info]"
+			tasks: [{
+				icon: "minecraft:blackstone"
+				id: "19DFB8AC0825D0D7"
+				structure: "bosses_of_mass_destruction:gauntlet_arena"
+				title: "Find the Gauntlet Arena somewhere in the End"
+				type: "structure"
+			}]
+			title: "&4Find the Gauntlet Arena"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6DFEDDFC27B1708C"]
+			description: ["&7The Decaying Kingdom spawns in any Nether Biome. Use a Moonstone Compass to locate him!"]
+			icon: "soulsweapons:boss_compass"
+			id: "50EA81AA3B7714E9"
+			rewards: [
+				{
+					id: "2DD2908407165D1C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07766B6B0251691C"
+					item: "soulsweapons:molten_demon_heart"
+					type: "item"
+				}
+			]
+			subtitle: "[Click for more Info]"
+			tasks: [
+				{
+					icon: "soulsweapons:demon_chunk"
+					id: "38053E4D88E9E641"
+					structure: "#soulsweapons:decaying_kingdom"
+					title: "Find the Decaying Kingdom"
+					type: "structure"
+				}
+				{
+					id: "3446403850927734"
+					item: "soulsweapons:boss_compass"
+					optional_task: true
+					title: "Use an Moonstone Compass!"
+					type: "item"
+				}
+			]
+			title: "Find the &4Decaying Kingdom"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0108C54E8DFF4373"]
+			description: ["&7Blood Trinkets can be found in Bastion Remnants, these Trinkets are Vital for any Tank or Blood Death Knight and anything inbetween."]
+			id: "5D08172CBB91A031"
+			rewards: [
+				{
+					id: "271B64A0CCDF212B"
+					item: "death_knights:blood_dk_necklace"
+					type: "item"
+				}
+				{
+					id: "778EEBCA7BFF8A5F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "6E90DCB87AF7683C"
+				item: "death_knights:blood_dk_ring"
+				type: "item"
+			}]
+			title: "&4Blood Trinkets"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			description: ["&7You've seen them all, thats it, book a better Tour guide next time! There is still much to find and explore!"]
+			id: "4A50D2B7B078220F"
+			rewards: [
+				{
+					id: "22FBAD649A112F5E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "118C79268BA516A4"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Why would you go on a Vacation here??"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "1942D79A88515A69"
+				title: "Visit all biomes"
+				type: "advancement"
+			}]
+			title: "A very hot Vacation"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			icon: "minecraft:ghast_tear"
+			id: "2E2780EDD5B76B92"
+			rewards: [
+				{
+					id: "43C5C7E1AD8F86AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "41505320AC03A671"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "793772E7C40695C7"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:ghast_tear"
+				id: "281E4AEA987B8EF4"
+				structure: "betternether:ghast_hive"
+				title: "Visit a Ghast hive and kill these wretched things"
+				type: "structure"
+			}]
+			title: "&8Defeat a Ghast Hive"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			icon: "minecraft:red_nether_bricks"
+			id: "780F749348123E68"
+			rewards: [
+				{
+					id: "1A6C52E677A6B526"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "218B3E441349D360"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:red_nether_bricks"
+				id: "46C68F2AFA7FA1DA"
+				structure: "friendsandfoes:citadel"
+				title: "Visit the Citadel"
+				type: "structure"
+			}]
+			title: "&4The Citadel"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			description: ["&7Did Aliens build these?"]
+			icon: "minecraft:netherrack"
+			id: "08CB4E635F213187"
+			rewards: [
+				{
+					id: "5D943C3B3798833E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "607AB155203DB728"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "43CE52A5A6AD7517"
+				structure: "betternether:pyramid"
+				title: "Visit a Nether Pyramid"
+				type: "structure"
+			}]
+			title: "&4Visit a Nether Pyramid"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			id: "2C7EFCB0E8AB1FEB"
+			tasks: [{
+				id: "491ECF5CBFC1CFC9"
+				item: "mythicupgrades:ruby"
+				type: "item"
+			}]
+			title: "&4Ore Sniffer"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56D3A3CFEF28BF91"]
+			description: ["&7These Gems are essential for any Tank Player. They give off an Aura as if it reflects your touch."]
+			id: "6117CFB58B0046FA"
+			rewards: [
+				{
+					count: 6
+					id: "77214FFFFFCB4EB0"
+					item: "mythicupgrades:sapphire"
+					type: "item"
+				}
+				{
+					id: "0711C6AF86097A29"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6DAB38C943FA7432"
+				item: "mythicupgrades:sapphire"
+				type: "item"
+			}]
+			title: "&5The Tanks best friend"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			description: ["&7There is plenty of Structures you can find that are fun to explore and can yield a lot of Resources. Try to find them all!"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5C9B685683F1F505"
+			rewards: [{
+				id: "5EE0CC6AA87B699E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0ADF4A630BFDAD6E"
+				type: "checkmark"
+			}]
+			title: "&5Explore the Nether!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			description: ["&7An old Warrior, long past his Peak lays here. Best to not disturb. Or... is it?"]
+			icon: "graveyard:lying_wither_skeleton"
+			id: "6B6F6C7F9DCDF904"
+			rewards: [
+				{
+					id: "53E9ACF7E943B51A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "001C33A1E881AB49"
+					item: "graveyard:wither_bone_remains"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "archon:fire_essence"
+				id: "1B2DC6C9F91AE837"
+				structure: "archon:wither_tomb"
+				title: "Visit a Wither Tomb"
+				type: "structure"
+			}]
+			title: "Something has been buried here"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"46D0AAEEB69E28B3"
+				"2CE2E7816C6866AF"
+			]
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			id: "7E1C1CEE751827EF"
+			rewards: [{
+				id: "7AB80EDB1EB4A1C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F1D61D86951821E"
+				type: "checkmark"
+			}]
+			title: "&5Magmators"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E1C1CEE751827EF"]
+			id: "3E63250DCB35FA89"
+			rewards: [{
+				id: "1C98881A7C87755F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Have an infinite Lava source in the Nether"
+			tasks: [{
+				advancement: "create:hose_pulley_lava"
+				criterion: ""
+				icon: "create:hose_pulley"
+				id: "413425FEA72470C8"
+				title: "Tap the Mantle!"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3E63250DCB35FA89"]
+			description: [
+				"&7To get Lava out of the Nether, you are going to need an entire functioning Quantum Ring in the Nether and in the Overworld."
+				""
+				""
+				"&7Hook a Hose Pulley up to a Storage Bus and connect that Storage bus to the Quantum Ring in the Nether. Once everything is properly paired and connected, you can enjoy the spoils of infinite Lava in your own Home! Hope that Heating Bill goes down."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:lava_bucket"
+			id: "42C1B494F003A1A4"
+			rewards: [{
+				id: "37DEF907AE6C997E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "If you're cold, so is the Lava, bring it home with you"
+			tasks: [
+				{
+					id: "1AC5E4EE46479478"
+					item: "ae2:quantum_link"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6FB457C8F05D1D5F"
+					type: "checkmark"
+				}
+			]
+			title: "&9Getting Lava into the overworld"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E63250DCB35FA89"]
+			description: ["&7What do you need this for? Power???? "]
+			id: "37471F11BB69BA89"
+			rewards: [
+				{
+					id: "4D2DBDFE797EEAE2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7A2722D755673B49"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53A6F8420015CF29"
+				item: "powah:magmator_nitro"
+				type: "item"
+			}]
+			title: "&9MAXIMUM POWER"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5C9B685683F1F505"]
+			id: "60B975506401FDF1"
+			rewards: [
+				{
+					count: 4
+					id: "1E09CE291B0DD5F4"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "5D29F95CCDA0EC7D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Why would you ever go here?"
+			tasks: [{
+				biome: "betternether:nether_jungle"
+				icon: "betternether:jungle_moss"
+				id: "56A1E9ED5C2ECDBA"
+				title: "Visit the Nether Jungle"
+				type: "biome"
+			}]
+			title: "&3Leave this place"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08A63F0788D096E5"]
+			description: ["&7They spit at you, just how Llamas are, weird... maybe some distant Cousin."]
+			id: "2D5AA976A898764D"
+			rewards: [
+				{
+					id: "3DF8B5FC6B6E34B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "76F95229CE9B8BDC"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+			]
+			subtitle: "Bone Llamas"
+			tasks: [{
+				entity: "betternether:naga"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "34BE683ABB1D6CDD"
+				title: "Kill Nagas"
+				type: "kill"
+				value: 100L
+			}]
+			x: 11.0d
 			y: 0.0d
 		}
 	]
-	title: "{ftbquests.chapter.the_nether.title}"
+	title: " &cThe Nether"
 }

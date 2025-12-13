@@ -2,8 +2,12 @@ import re
 import json
 import os
 
-snbt_path = r"d:\mc\mod\Prominence-II-Chinese\CNPack\config\ftbquests\quests\chapters\to_the_end.snbt"
+snbt_path = r"d:\mc\mod\Prominence-II-Chinese\CNPack\config\ftbquests\quests\chapters\the_nether.snbt"
 json_path = r"d:\mc\mod\Prominence-II-Chinese\Source\resourcepacks\vm_translations\assets\quests\lang\en_us.json"
+
+# 从snbt文件名动态提取章节名，生成翻译键前缀
+_chapter_name = os.path.basename(snbt_path).replace('.snbt', '')
+CHAPTER_PREFIX = f"ftbquests.chapter.{_chapter_name}"
 
 def parse_snbt_list(content, start_index):
     depth = 0
@@ -70,7 +74,7 @@ def extract_strings_from_list(list_content):
     return results
 
 def process_quest(quest_block, quest_idx, translations):
-    base_key = f"ftbquests.chapter.to_the_end.quests{quest_idx}"
+    base_key = f"{CHAPTER_PREFIX}.quests{quest_idx}"
     
     # STEP 1: Extract and mask tasks/rewards blocks to avoid replacing titles inside them
     # when we process quest-level title
@@ -194,7 +198,7 @@ def process_quest(quest_block, quest_idx, translations):
 
 def process_chapter_properties(content, translations):
     # Process top-level title and subtitle
-    base_key = "ftbquests.chapter.to_the_end"
+    base_key = CHAPTER_PREFIX
     
     def replace_title(match):
         val = match.group(1)
@@ -266,7 +270,7 @@ def main():
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
         
-    keys_to_remove = [k for k in data if k.startswith("ftbquests.chapter.to_the_end")]
+    keys_to_remove = [k for k in data if k.startswith(CHAPTER_PREFIX)]
     for k in keys_to_remove:
         del data[k]
         
