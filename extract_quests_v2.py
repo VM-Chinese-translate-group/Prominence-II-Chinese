@@ -2,7 +2,7 @@ import re
 import json
 import os
 
-snbt_path = r"d:\mc\mod\Prominence-II-Chinese\CNPack\config\ftbquests\quests\chapters\the_nether.snbt"
+snbt_path = r"d:\mc\mod\Prominence-II-Chinese\CNPack\config\ftbquests\quests\chapters\a_jolly_christmas.snbt"
 json_path = r"d:\mc\mod\Prominence-II-Chinese\Source\resourcepacks\vm_translations\assets\quests\lang\en_us.json"
 
 # 从snbt文件名动态提取章节名，生成翻译键前缀

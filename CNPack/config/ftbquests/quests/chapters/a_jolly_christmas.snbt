@@ -161,12 +161,12 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Defeat one of the first Two bosses to claim this!"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests0.subtitle}"
 			tasks: [{
 				id: "3BC1A9AB1165C568"
 				type: "checkmark"
 			}]
-			title: "Christmas Present - First Bossfight"
+			title: "{ftbquests.chapter.a_jolly_christmas.quests0.title}"
 			x: 2.5d
 			y: -0.5d
 		}
@@ -194,12 +194,12 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Merry Christmas!"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests1.subtitle}"
 			tasks: [{
 				id: "2B4FC802B9F0E823"
 				type: "checkmark"
 			}]
-			title: "Christmas Present - Beginners Hope"
+			title: "{ftbquests.chapter.a_jolly_christmas.quests1.title}"
 			x: 2.0d
 			y: 0.5d
 		}
@@ -208,7 +208,7 @@
 				"1307A8EF388ECDB3"
 				"3A8C4B633BAF1EFF"
 			]
-			description: ["&7Hope you dont have a nut allergy!"]
+			description: ["{ftbquests.chapter.a_jolly_christmas.quests2.description0}"]
 			hide_dependency_lines: true
 			icon: "supplementaries:present_green"
 			id: "61AAC3E69CD1C096"
@@ -244,12 +244,12 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Defeat Magus to claim this Gift"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests2.subtitle}"
 			tasks: [{
 				id: "35D609ABCCAEB350"
 				type: "checkmark"
 			}]
-			title: "Christmas Present - Merry Magus"
+			title: "{ftbquests.chapter.a_jolly_christmas.quests2.title}"
 			x: 2.5d
 			y: -2.0d
 		}
@@ -285,18 +285,18 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Defeat Gu'mas to claim this Gift!"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests3.subtitle}"
 			tasks: [{
 				id: "1BBC6832D5CBE2AC"
 				type: "checkmark"
 			}]
-			title: "Christmas Present - Gu'mas 'n' Gingerbread"
+			title: "{ftbquests.chapter.a_jolly_christmas.quests3.title}"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6284194862D6FBA9"]
-			description: ["&7The Prominence Team thanks you for playing the Pack. We wish you a Merry Christmas and a great end of the Year!"]
+			description: ["{ftbquests.chapter.a_jolly_christmas.quests4.description0}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: "minecraft:nether_star"
@@ -332,12 +332,12 @@
 				}
 			]
 			shape: "none"
-			subtitle: "You earned this, bud!"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests4.subtitle}"
 			tasks: [{
 				id: "2FB46A1BD3F500C6"
 				type: "checkmark"
 			}]
-			title: "Christmas Molten Star"
+			title: "{ftbquests.chapter.a_jolly_christmas.quests4.title}"
 			x: 2.0d
 			y: -4.5d
 		}
@@ -370,15 +370,15 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Defeat Conjunctivius to claim this Present!"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests5.subtitle}"
 			tasks: [{
 				id: "7947BD6F5B48F47C"
-				title: "Christmas Present - Under the Tentacle Twig"
+				title: "{ftbquests.chapter.a_jolly_christmas.quests5.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
 			y: -1.5d
 		}
 	]
-	title: " &bA Jolly Christmas!"
+	title: "{ftbquests.chapter.a_jolly_christmas.title}"
 }

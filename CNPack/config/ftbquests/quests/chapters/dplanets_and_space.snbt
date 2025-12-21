@@ -107,7 +107,7 @@
 	quests: [
 		{
 			dependencies: ["42FC53378D56597B"]
-			description: ["&7To get Oxygen into Oxygen Tanks, you will need to make an Oxygen Loader (or blow really hard into the Oxygen tank)."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests0.description0}"]
 			id: "53B4836305AC0168"
 			rewards: [
 				{
@@ -132,7 +132,7 @@
 		}
 		{
 			dependencies: ["747BCE95831AF745"]
-			description: ["&7Space is a very Hostile place to be. To be safe and to be able to breathe, you will need a Space Suit. This space suit can later be upgraded to even have a Jet Propulsion system, handy!"]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests1.description0}"]
 			id: "3C29BA7613157D20"
 			rewards: [{
 				id: "319BC89EC3932E07"
@@ -186,7 +186,7 @@
 					type: "item"
 				}
 			]
-			title: "Surviving Space"
+			title: "{ftbquests.chapter.dplanets_and_space.quests1.title}"
 			x: -4.5d
 			y: -15.0d
 		}
@@ -196,7 +196,7 @@
 				"2012F2D2C2F62460"
 				"3C29BA7613157D20"
 			]
-			description: ["&7Congrats on making your first rocket! This thing will bring you into Orbit and to the moon if you want to. Any planet has an orbit so you can make a Space Station in any of them. To make a Space Station, simply bring enough steel, ostrum or desh with you. Different Space Stations above different planets need different amounts of Resources."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests2.description0}"]
 			id: "646AB33B769E10F0"
 			rewards: [{
 				id: "0E754DF514384978"
@@ -212,13 +212,13 @@
 				}
 				type: "item"
 			}]
-			title: "&2Tier 1 Rockets"
+			title: "{ftbquests.chapter.dplanets_and_space.quests2.title}"
 			x: -3.0d
 			y: -18.5d
 		}
 		{
 			dependencies: ["747BCE95831AF745"]
-			description: ["&7This neat and handy helper can load Rockets with fuel so you dont have to!"]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests3.description0}"]
 			id: "21BC243BF1FABADD"
 			rewards: [
 				{
@@ -233,13 +233,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Why do it yourself?"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests3.subtitle}"
 			tasks: [{
 				id: "65903124F155A443"
 				item: "ad_astra_giselle_addon:fuel_loader"
 				type: "item"
 			}]
-			title: "Fuel Loader"
+			title: "{ftbquests.chapter.dplanets_and_space.quests3.title}"
 			x: -5.5d
 			y: -14.0d
 		}
@@ -251,32 +251,32 @@
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			title: "Launch Pad"
+			title: "{ftbquests.chapter.dplanets_and_space.quests4.title}"
 			x: -1.5d
 			y: -15.0d
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
-			description: ["&7The Nasa Workbench is used to craft Rockets. All Rockets use the same Recipe Layout, the only thing that changes is the level of material."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests5.description0}"]
 			id: "367AFF3976F8FB3B"
 			rewards: [{
 				id: "42F2D5F398173BB2"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Still looking for a Nasa Collab"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests5.subtitle}"
 			tasks: [{
 				id: "2E2CB531EDBD4424"
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			title: "Nasa Workbench"
+			title: "{ftbquests.chapter.dplanets_and_space.quests5.title}"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4C291EE69F12BEE7"]
-			description: ["&7You will need a ton of these things. They are used for nearly all Recipes."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests6.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "1ACCF86D17FF8A56"
@@ -286,7 +286,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "Sturdy"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests6.subtitle}"
 			tasks: [{
 				count: 26L
 				icon: "techreborn:steel_plate"
@@ -298,15 +298,15 @@
 						value: "c:steel_plates"
 					}
 				}
-				title: "Any #c:steel_plates"
+				title: "{ftbquests.chapter.dplanets_and_space.quests6.tasks0.title}"
 				type: "item"
 			}]
-			title: "Craft Steel Plates"
+			title: "{ftbquests.chapter.dplanets_and_space.quests6.title}"
 			x: -3.5d
 			y: -3.5d
 		}
 		{
-			description: ["&7Well you're already here, right?"]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests7.description0}"]
 			id: "60526E15B6F891CB"
 			rewards: [{
 				id: "1C105076D7FCAB36"
@@ -317,7 +317,7 @@
 				dimension: "minecraft:overworld"
 				icon: "ad_astra:earth_globe"
 				id: "392449710877E412"
-				title: "Visit the Overworld!"
+				title: "{ftbquests.chapter.dplanets_and_space.quests7.tasks0.title}"
 				type: "dimension"
 			}]
 			x: -8.5d
@@ -325,7 +325,7 @@
 		}
 		{
 			dependencies: ["60526E15B6F891CB"]
-			description: ["&7Find an Earth Globe"]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests8.description0}"]
 			id: "64A24BA1CE6EBC76"
 			rewards: [{
 				id: "3D63815DFC6F744D"
@@ -342,7 +342,7 @@
 		}
 		{
 			dependencies: ["60526E15B6F891CB"]
-			description: ["&7Ah Oil, this sticky liquid is used to make Fuels of many kinds, you will need a lot of this to reach all the Planets."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests9.description0}"]
 			id: "7A1306391AFACB4A"
 			rewards: [
 				{
@@ -361,7 +361,7 @@
 				icon: "techreborn:oil_bucket"
 				id: "1506C2F7565E3AFA"
 				structure: "ad_astra:oil_well"
-				title: "Find an Oil Well"
+				title: "{ftbquests.chapter.dplanets_and_space.quests9.tasks0.title}"
 				type: "structure"
 			}]
 			x: -11.0d
@@ -378,7 +378,7 @@
 			}]
 			tasks: [{
 				id: "4AC29B83C61F5822"
-				title: "To the Stars!"
+				title: "{ftbquests.chapter.dplanets_and_space.quests10.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -386,7 +386,7 @@
 		}
 		{
 			dependencies: ["379855C491135950"]
-			description: ["&7There is many ways of getting Iron and Steel Compressed. Best one is using the Tech Reborn Compressor, as you can overclock it to ludicrous speeds."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests11.description0}"]
 			hide_until_deps_complete: true
 			id: "4C291EE69F12BEE7"
 			rewards: [
@@ -428,7 +428,7 @@
 					type: "item"
 				}
 			]
-			title: "The Art of Compressing"
+			title: "{ftbquests.chapter.dplanets_and_space.quests11.title}"
 			x: -4.5d
 			y: -2.0d
 		}
@@ -453,16 +453,16 @@
 						value: "ad_astra:steel_ingots"
 					}
 				}
-				title: "Obtain Steel"
+				title: "{ftbquests.chapter.dplanets_and_space.quests12.tasks0.title}"
 				type: "item"
 			}]
-			title: "Obtain your first Steel!"
+			title: "{ftbquests.chapter.dplanets_and_space.quests12.title}"
 			x: -7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
-			description: ["&7Similar to its thicker Counterpart, these are essential Components to your progression."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests13.description0}"]
 			hide_until_deps_complete: true
 			icon: "modern_industrialization:steel_rod"
 			id: "236CCB0ADACB8818"
@@ -471,7 +471,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Insert Steel pipe hitting the ground sound effect"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests13.subtitle}"
 			tasks: [{
 				count: 16L
 				icon: "modern_industrialization:steel_rod"
@@ -483,16 +483,16 @@
 						value: "ad_astra:steel_rods"
 					}
 				}
-				title: "Craft Steel Rods"
+				title: "{ftbquests.chapter.dplanets_and_space.quests13.tasks0.title}"
 				type: "item"
 			}]
-			title: "Craft Steel Rods"
+			title: "{ftbquests.chapter.dplanets_and_space.quests13.title}"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4C291EE69F12BEE7"]
-			description: ["&7You can Obtain Steel by smelting Iron in a Blast Furnace. There is other ways but this is the best way by far as its cheap and easy."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests14.description0}"]
 			id: "72493396FD36826B"
 			rewards: [{
 				id: "75A757016DF6E33D"
@@ -504,13 +504,13 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
-			title: "Obtaining Steel"
+			title: "{ftbquests.chapter.dplanets_and_space.quests14.title}"
 			x: -6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["379855C491135950"]
-			description: ["&7Getting Power can be a tricky endeavor. Start with a Coal Generator."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests15.description0}"]
 			id: "72CB4FBC4005E9EE"
 			rewards: [
 				{
@@ -530,13 +530,13 @@
 				item: "ad_astra:coal_generator"
 				type: "item"
 			}]
-			title: "Getting Power"
+			title: "{ftbquests.chapter.dplanets_and_space.quests15.title}"
 			x: -4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["379855C491135950"]
-			description: ["&7Ad Astra Machines work with any Power from any other Mod. You do not have to rely on Ad Astra's Power generation. Best Cables for you to use are Tech Reborn's, preferably their Glass Fiber Cables "]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests16.description0}"]
 			icon: "create:electron_tube"
 			id: "52DA21D7B8633C9F"
 			rewards: [{
@@ -555,13 +555,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "Powering Ad Astra Machines"
+			title: "{ftbquests.chapter.dplanets_and_space.quests16.title}"
 			x: -6.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
-			description: ["&7To use all of that Oil you got, you will need to make a Fuel Refinery. Make sure to make quite a lot as you will need it later."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests17.description0}"]
 			id: "25C25B9F2A214DF5"
 			rewards: [
 				{
@@ -576,13 +576,13 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Damn Gas prices!"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests17.subtitle}"
 			tasks: [{
 				id: "2DED8306653AEEB9"
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			title: "Fuel Refinery"
+			title: "{ftbquests.chapter.dplanets_and_space.quests17.title}"
 			x: -4.5d
 			y: -6.0d
 		}
@@ -606,10 +606,10 @@
 						value: "ad_astra:iron_plates"
 					}
 				}
-				title: "Obtain Iron plates"
+				title: "{ftbquests.chapter.dplanets_and_space.quests18.tasks0.title}"
 				type: "item"
 			}]
-			title: "Your first Iron Plates"
+			title: "{ftbquests.chapter.dplanets_and_space.quests18.title}"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -633,16 +633,16 @@
 						value: "ad_astra:iron_rods"
 					}
 				}
-				title: "Craft Steel Rods"
+				title: "{ftbquests.chapter.dplanets_and_space.quests19.tasks0.title}"
 				type: "item"
 			}]
-			title: "Craft your first Iron Rods"
+			title: "{ftbquests.chapter.dplanets_and_space.quests19.title}"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["23AAC569624355D8"]
-			description: ["&7These things hold gases, not so great for liquids though."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests20.description0}"]
 			id: "1DC44922FC0C2FB0"
 			rewards: [{
 				id: "641A34AFF38225E6"
@@ -659,7 +659,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft 2 Gas tanks"
+			title: "{ftbquests.chapter.dplanets_and_space.quests20.title}"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -676,7 +676,7 @@
 		}
 		{
 			dependencies: ["23AAC569624355D8"]
-			description: ["&7The problem with other Planets is that they don't have Oxygen, i know, shocker - this is why you will need Oxygen Tanks, they supply you with the needed Oygen to be able to explore the planetss"]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests22.description0}"]
 			id: "540BFBB8E54C128D"
 			rewards: [{
 				id: "33FF7D4A4B90DB94"
@@ -693,7 +693,7 @@
 				}
 				type: "item"
 			}]
-			title: "Oxygen"
+			title: "{ftbquests.chapter.dplanets_and_space.quests22.title}"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -710,7 +710,7 @@
 			}]
 			tasks: [{
 				id: "5222BD82C0D3EF54"
-				title: "Flameborn Space Program"
+				title: "{ftbquests.chapter.dplanets_and_space.quests23.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -732,7 +732,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Souvenir from home"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests24.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "48ACA9BE0E31106A"
@@ -748,16 +748,16 @@
 						}
 					}
 				}
-				title: "Craft 5 Oxygen Cans and fill them with Oxygen"
+				title: "{ftbquests.chapter.dplanets_and_space.quests24.tasks0.title}"
 				type: "item"
 			}]
-			title: "Oxygen needed!"
+			title: "{ftbquests.chapter.dplanets_and_space.quests24.title}"
 			x: -3.0d
 			y: -16.5d
 		}
 		{
 			dependencies: ["236CCB0ADACB8818"]
-			description: ["&7Fans will become more useful once you have visited your first Celestial Body. Two of them will do for now."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests25.description0}"]
 			id: "42FC53378D56597B"
 			rewards: [
 				{
@@ -778,26 +778,26 @@
 				item: { Count: 2, id: "ad_astra:fan" }
 				type: "item"
 			}]
-			title: "Only - Fans"
+			title: "{ftbquests.chapter.dplanets_and_space.quests25.title}"
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["236CCB0ADACB8818"]
-			description: ["&7The Engine Frame is the main component for the Steel Engine, make sure to make a couple engine frames."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests26.description0}"]
 			id: "410B3889B1ABF0C6"
 			rewards: [{
 				id: "6AF9BF9EA696CEAB"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Vroom Vroom"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests26.subtitle}"
 			tasks: [{
 				id: "31504DE6CA2FCB63"
 				item: "ad_astra:engine_frame"
 				type: "item"
 			}]
-			title: "Engine Frame"
+			title: "{ftbquests.chapter.dplanets_and_space.quests26.title}"
 			x: -3.0d
 			y: -6.5d
 		}
@@ -809,19 +809,19 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "How much horsepower?"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests27.subtitle}"
 			tasks: [{
 				id: "64DCECDF1E9081CB"
 				item: "ad_astra:steel_engine"
 				type: "item"
 			}]
-			title: "Steel Engine"
+			title: "{ftbquests.chapter.dplanets_and_space.quests27.title}"
 			x: -3.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
-			description: ["&7Every Rocket requires 4 Fins - that makes 16 Fins for all 4 Rocket Tiers."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests28.description0}"]
 			id: "24B07E71BD4FEF9E"
 			rewards: [{
 				id: "32FB5AC1B480E6AB"
@@ -834,13 +834,13 @@
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			title: "Rocket Fins"
+			title: "{ftbquests.chapter.dplanets_and_space.quests28.title}"
 			x: -6.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
-			description: ["&7This is an integral part of all Rockets. You will need a total of 4 - one for each Tier of Rocket."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests29.description0}"]
 			id: "255F7DB992A1A107"
 			rewards: [{
 				id: "691807D59D828758"
@@ -852,13 +852,13 @@
 				item: "ad_astra:rocket_nose_cone"
 				type: "item"
 			}]
-			title: "Like Rudolph but a bit harder"
+			title: "{ftbquests.chapter.dplanets_and_space.quests29.title}"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["747BCE95831AF745"]
-			description: ["&7Storing large quantities of Gas can be annoying as it would take multiple buckets. This item solves that issue."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests30.description0}"]
 			id: "5490F24ED175C3FC"
 			rewards: [{
 				id: "1E14948C108BF0F7"
@@ -879,14 +879,14 @@
 		}
 		{
 			dependencies: ["747BCE95831AF745"]
-			description: ["&7Whilst we live in a World full of Technology, there is also the power of magic. There is no need to fly every time when you can just bring a waystone."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests31.description0}"]
 			id: "75C444F1E41D68C0"
 			rewards: [{
 				id: "13A41FFA0971B79B"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "No rockets needed!"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests31.subtitle}"
 			tasks: [{
 				icon: "fwaystones:waystone"
 				id: "53B5FD3381A9917F"
@@ -897,16 +897,16 @@
 						value: "fwaystones:waystones"
 					}
 				}
-				title: "Craft any waystone"
+				title: "{ftbquests.chapter.dplanets_and_space.quests31.tasks0.title}"
 				type: "item"
 			}]
-			title: "Going back and forth"
+			title: "{ftbquests.chapter.dplanets_and_space.quests31.title}"
 			x: -6.5d
 			y: -13.0d
 		}
 		{
 			dependencies: ["747BCE95831AF745"]
-			description: ["&7If you wanna be the first one to the moon, you also gotta be the one to bring a flag. Otherwise noone would believe you. "]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests32.description0}"]
 			id: "7D60EFCB85D1FEEE"
 			rewards: [{
 				id: "76612CCA7C937B02"
@@ -922,16 +922,16 @@
 						value: "ad_astra:flags"
 					}
 				}
-				title: "Craft any Flag color!"
+				title: "{ftbquests.chapter.dplanets_and_space.quests32.tasks0.title}"
 				type: "item"
 			}]
-			title: "The stars were made for us to conquer"
+			title: "{ftbquests.chapter.dplanets_and_space.quests32.title}"
 			x: 0.5d
 			y: -13.0d
 		}
 		{
 			dependencies: ["646AB33B769E10F0"]
-			description: ["&7Always has been."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests33.description0}"]
 			icon: "ad_astra:moon_globe"
 			id: "0F91CAABA5D00AF7"
 			rewards: [
@@ -964,15 +964,15 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Its all cheese?"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests33.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				icon: "ad_astra:moon_globe"
 				id: "2DED2E9C85EDB356"
-				title: "Visit the Moon"
+				title: "{ftbquests.chapter.dplanets_and_space.quests33.tasks0.title}"
 				type: "dimension"
 			}]
-			title: "&4To The Moon!"
+			title: "{ftbquests.chapter.dplanets_and_space.quests33.title}"
 			x: -3.0d
 			y: -20.0d
 		}
@@ -989,17 +989,17 @@
 				entity: "ad_astra:star_crawler"
 				icon: "croptopia:starfruit"
 				id: "2147CF75AA0636EE"
-				title: "Kill Star Crawlers"
+				title: "{ftbquests.chapter.dplanets_and_space.quests34.tasks0.title}"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Killing stars"
+			title: "{ftbquests.chapter.dplanets_and_space.quests34.title}"
 			x: 0.0d
 			y: -19.0d
 		}
 		{
 			dependencies: ["0F91CAABA5D00AF7"]
-			description: ["&7Just like the Villagers in the Overworld, something like a plague must have corrupted these beings. This \"Infection\" seems a bit more Eldritch in nature, best to not get close and pick them off from a distance."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests35.description0}"]
 			icon: {
 				Count: 1
 				id: "ae2:fluix_sword"
@@ -1031,17 +1031,17 @@
 					}
 				}
 				id: "4517337950A5799C"
-				title: "Kill Corrupted Lunarians"
+				title: "{ftbquests.chapter.dplanets_and_space.quests35.tasks0.title}"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Kill Corrupted Lunarians"
+			title: "{ftbquests.chapter.dplanets_and_space.quests35.title}"
 			x: -0.5d
 			y: -20.5d
 		}
 		{
 			dependencies: ["0F91CAABA5D00AF7"]
-			description: ["&7There is the proof that Cheese exists on the moon! And they called you a luna-tic..."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests36.description0}"]
 			icon: "ad_astra:moon_cheese_ore"
 			id: "3AA20BECA0A67EFF"
 			rewards: [
@@ -1062,17 +1062,17 @@
 				id: "700D04774BD6826A"
 				observe_type: 0
 				timer: 0L
-				title: "Find Cheese"
+				title: "{ftbquests.chapter.dplanets_and_space.quests36.tasks0.title}"
 				to_observe: "ad_astra:moon_cheese_ore"
 				type: "observation"
 			}]
-			title: "Mhmmmm Cheese"
+			title: "{ftbquests.chapter.dplanets_and_space.quests36.title}"
 			x: -1.5d
 			y: -21.5d
 		}
 		{
 			dependencies: ["0F91CAABA5D00AF7"]
-			description: ["&7Desh can only be found on the Moon. It is a crucial Resource needed to get Tier 2 Rockets."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests37.description0}"]
 			id: "73CD8E75D73EBF77"
 			rewards: [
 				{
@@ -1092,7 +1092,7 @@
 				item: "ad_astra:raw_desh"
 				type: "item"
 			}]
-			title: "Desh"
+			title: "{ftbquests.chapter.dplanets_and_space.quests37.title}"
 			x: -3.0d
 			y: -22.0d
 		}
@@ -1119,7 +1119,7 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			title: "Desh ingots"
+			title: "{ftbquests.chapter.dplanets_and_space.quests38.title}"
 			x: -3.0d
 			y: -23.5d
 		}
@@ -1133,7 +1133,7 @@
 				item: "ad_astra:desh_plate"
 				type: "item"
 			}]
-			title: "Desh Plates"
+			title: "{ftbquests.chapter.dplanets_and_space.quests39.title}"
 			x: -3.0d
 			y: -25.0d
 		}
@@ -1156,17 +1156,17 @@
 		{
 			dependencies: ["783EBE7797C50794"]
 			description: [
-				"&7This is my wrench. There are many like it, but this one is mine."
+				"{ftbquests.chapter.dplanets_and_space.quests41.description0}"
 				""
-				"&7My wrench is my best friend. It is my life. I must master it as I must master my life."
+				"{ftbquests.chapter.dplanets_and_space.quests41.description2}"
 				""
-				"&7Without me, my wrench is useless. Without my wrench I am useless. I must use my wrench true. I must fix connections before they cause a backlog. "
+				"{ftbquests.chapter.dplanets_and_space.quests41.description4}"
 				""
-				"&7My wrench and I know that what counts in tech progression is not the machines we build, the noise of the machines, nor the smoke they make. We know that it is the efficiency that counts."
+				"{ftbquests.chapter.dplanets_and_space.quests41.description6}"
 				""
-				"&7My wrench is flameborn even as I am flameborn, because it is my life. Thus, I will learn it as a brother. I will learn its weaknesses, its strength, its parts, its accessories, its metal and its size I will ever guard it against the ravages of weather and damage as I will ever guard my legs, my arms, my eyes and my heart against damage. I will keep my wrench clean and ready. We will become part of each other. "
+				"{ftbquests.chapter.dplanets_and_space.quests41.description8}"
 				""
-				"&7Before S'kellak I swear this creed. My wrench and I are the defenders of Vaaz. We are the masters of our machines. We are the saviors of my tech progression."
+				"{ftbquests.chapter.dplanets_and_space.quests41.description10}"
 			]
 			id: "5CB39BB4679C0166"
 			rewards: [{
@@ -1184,7 +1184,7 @@
 		}
 		{
 			dependencies: ["1ACCF86D17FF8A56"]
-			description: ["&7This Radio can actually play live music, great for ambience or a Party!"]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests42.description0}"]
 			id: "4384A653D6DB590A"
 			rewards: [{
 				id: "0D06FFFD97D0E449"
@@ -1221,7 +1221,7 @@
 				item: { Count: 6, id: "ad_astra:desh_block" }
 				type: "item"
 			}]
-			title: "Desh Blocks"
+			title: "{ftbquests.chapter.dplanets_and_space.quests43.title}"
 			x: -1.0d
 			y: -27.5d
 		}
@@ -1247,7 +1247,7 @@
 				item: { Count: 2, id: "ad_astra:desh_tank" }
 				type: "item"
 			}]
-			title: "Desh Tanks"
+			title: "{ftbquests.chapter.dplanets_and_space.quests44.title}"
 			x: -5.0d
 			y: -27.5d
 		}
@@ -1291,7 +1291,7 @@
 				}
 				type: "item"
 			}]
-			title: "&3Tier 2 Rockets"
+			title: "{ftbquests.chapter.dplanets_and_space.quests46.title}"
 			x: -3.0d
 			y: -30.5d
 		}
@@ -1309,10 +1309,10 @@
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
 				id: "63E4CA6FFE330CD3"
-				title: "Visit the red planet"
+				title: "{ftbquests.chapter.dplanets_and_space.quests47.tasks0.title}"
 				type: "dimension"
 			}]
-			title: "&5Fly to Mars!"
+			title: "{ftbquests.chapter.dplanets_and_space.quests47.title}"
 			x: -3.0d
 			y: -33.0d
 		}
@@ -1344,10 +1344,10 @@
 				icon: "ad_astra:glowing_iron_pillar"
 				id: "3C9D6AE758C51C22"
 				structure: "ad_astra:lunar_tower"
-				title: "Visit a Lunar Tower"
+				title: "{ftbquests.chapter.dplanets_and_space.quests49.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Visit a Lunar Tower"
+			title: "{ftbquests.chapter.dplanets_and_space.quests49.title}"
 			x: -4.5d
 			y: -21.5d
 		}
@@ -1367,15 +1367,15 @@
 					type: "item"
 				}
 			]
-			subtitle: "And you thought their head couldn't get any bigger"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests50.subtitle}"
 			tasks: [{
 				icon: "artifacts:villager_hat"
 				id: "6A5143BED5345B93"
 				structure: "ad_astra:lunarian_village"
-				title: "Visit a Lunarian Vilage"
+				title: "{ftbquests.chapter.dplanets_and_space.quests50.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Visit a Lunarian Village"
+			title: "{ftbquests.chapter.dplanets_and_space.quests50.title}"
 			x: -5.5d
 			y: -20.5d
 		}
@@ -1392,10 +1392,10 @@
 				icon: "minecraft:spawner"
 				id: "3C5F5A32D2CACBD6"
 				structure: "ad_astra:moon_dungeon"
-				title: "Find a Moon Dungeon"
+				title: "{ftbquests.chapter.dplanets_and_space.quests51.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Find a Moon dungeon!"
+			title: "{ftbquests.chapter.dplanets_and_space.quests51.title}"
 			x: -6.0d
 			y: -19.0d
 		}
@@ -1418,12 +1418,12 @@
 				type: "xp"
 				xp: 300
 			}]
-			subtitle: "Visit the Ice caps on Mars"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests53.subtitle}"
 			tasks: [{
 				biome: "ad_astra:martian_polar_caps"
 				icon: "promenade:snowy_spruce_leaves"
 				id: "545D49B974B796F8"
-				title: "Water on Mars?"
+				title: "{ftbquests.chapter.dplanets_and_space.quests53.tasks0.title}"
 				type: "biome"
 			}]
 			x: -0.5d
@@ -1441,10 +1441,10 @@
 				biome: "ad_astra:martian_canyon_creek"
 				icon: "ad_astra:mars_stone"
 				id: "31EB2A083B3E5A44"
-				title: "Visit the Canyon Creek"
+				title: "{ftbquests.chapter.dplanets_and_space.quests54.tasks0.title}"
 				type: "biome"
 			}]
-			title: "Visit the Canyon on Mars"
+			title: "{ftbquests.chapter.dplanets_and_space.quests54.title}"
 			x: -5.5d
 			y: -35.0d
 		}
@@ -1460,7 +1460,7 @@
 				entity: "ad_astra:martian_raptor"
 				icon: "artifacts:digging_claws"
 				id: "15B82A2A548A876F"
-				title: "Kill Martian Raptors"
+				title: "{ftbquests.chapter.dplanets_and_space.quests55.tasks0.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -1481,7 +1481,7 @@
 				item: "ad_astra:raw_ostrum"
 				type: "item"
 			}]
-			title: "Raw Ostrum"
+			title: "{ftbquests.chapter.dplanets_and_space.quests56.title}"
 			x: -3.0d
 			y: -36.0d
 		}
@@ -1491,7 +1491,7 @@
 				"434CEEF75CA0F9DD"
 				"0E82BE6796216A9B"
 			]
-			description: ["&7This Tier of Rocket will enable you to go to Mercury and to Venus, whilst Mercury is quite uneventful, Venus holds a lot of riches."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests57.description0}"]
 			id: "142DA24413D40E4E"
 			rewards: [{
 				id: "3A389C7F2F79A50E"
@@ -1507,7 +1507,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4Tier 3 Rockets"
+			title: "{ftbquests.chapter.dplanets_and_space.quests57.title}"
 			x: -3.0d
 			y: -45.0d
 		}
@@ -1557,7 +1557,7 @@
 				item: { Count: 2, id: "ad_astra:ostrum_tank" }
 				type: "item"
 			}]
-			title: "Ostrum Tanks"
+			title: "{ftbquests.chapter.dplanets_and_space.quests59.title}"
 			x: -3.0d
 			y: -42.5d
 		}
@@ -1583,7 +1583,7 @@
 				item: { Count: 6, id: "ad_astra:ostrum_block" }
 				type: "item"
 			}]
-			title: "Ostrum Blocks"
+			title: "{ftbquests.chapter.dplanets_and_space.quests60.title}"
 			x: -1.0d
 			y: -42.5d
 		}
@@ -1595,15 +1595,15 @@
 				type: "xp"
 				xp: 600
 			}]
-			subtitle: "Calorite ofcourse"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests61.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
 				id: "7E03DF242B6E6C94"
-				title: "Visit Venus"
+				title: "{ftbquests.chapter.dplanets_and_space.quests61.tasks0.title}"
 				type: "dimension"
 			}]
-			title: "&3To Venus to get"
+			title: "{ftbquests.chapter.dplanets_and_space.quests61.title}"
 			x: -5.0d
 			y: -46.5d
 		}
@@ -1619,7 +1619,7 @@
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
 				id: "307AC38BAE7E2009"
-				title: "&eVisit Mercury"
+				title: "{ftbquests.chapter.dplanets_and_space.quests62.tasks0.title}"
 				type: "dimension"
 			}]
 			x: -1.0d
@@ -1651,7 +1651,7 @@
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_block"
 				id: "07F3AA320674988E"
-				title: "Kill Magma Cubes"
+				title: "{ftbquests.chapter.dplanets_and_space.quests63.tasks0.title}"
 				type: "kill"
 				value: 600L
 			}]
@@ -1679,7 +1679,7 @@
 				item: "ad_astra:raw_calorite"
 				type: "item"
 			}]
-			title: "Raw Calorite"
+			title: "{ftbquests.chapter.dplanets_and_space.quests64.title}"
 			x: -7.0d
 			y: -48.5d
 		}
@@ -1706,7 +1706,7 @@
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
-			title: "Calorite Ingots"
+			title: "{ftbquests.chapter.dplanets_and_space.quests65.title}"
 			x: -7.0d
 			y: -50.5d
 		}
@@ -1733,7 +1733,7 @@
 				item: "ad_astra:calorite_plate"
 				type: "item"
 			}]
-			title: "Calorite Plates"
+			title: "{ftbquests.chapter.dplanets_and_space.quests66.title}"
 			x: -7.0d
 			y: -52.5d
 		}
@@ -1767,7 +1767,7 @@
 				item: { Count: 2, id: "ad_astra:calorite_tank" }
 				type: "item"
 			}]
-			title: "Calorite Tanks"
+			title: "{ftbquests.chapter.dplanets_and_space.quests68.title}"
 			x: -7.0d
 			y: -55.0d
 		}
@@ -1785,7 +1785,7 @@
 				item: { Count: 6, id: "ad_astra:calorite_block" }
 				type: "item"
 			}]
-			title: "Calorite Blocks"
+			title: "{ftbquests.chapter.dplanets_and_space.quests69.title}"
 			x: -5.0d
 			y: -55.0d
 		}
@@ -1795,7 +1795,7 @@
 				"696BFCF82A1548B3"
 				"643C958E7FDE2566"
 			]
-			description: ["&7This is the last tier of Rocket. With this thing, you can visit other Solar Systems."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests70.description0}"]
 			id: "78329681F2A34FE3"
 			rewards: [{
 				id: "211D75BEA9B1C990"
@@ -1811,13 +1811,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6Tier 4 Rockets"
+			title: "{ftbquests.chapter.dplanets_and_space.quests70.title}"
 			x: -7.0d
 			y: -57.5d
 		}
 		{
 			dependencies: ["78329681F2A34FE3"]
-			description: ["&7This System features a quite unique Sun."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests71.description0}"]
 			icon: "ad_astra:glacio_globe"
 			id: "1EE01E51C7059707"
 			rewards: [{
@@ -1825,15 +1825,15 @@
 				type: "xp"
 				xp: 600
 			}]
-			subtitle: "Out of this System!"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests71.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:glacio"
 				icon: "ad_astra:glacio_globe"
 				id: "6A9E8883EF3D8226"
-				title: "Visit Glacio"
+				title: "{ftbquests.chapter.dplanets_and_space.quests71.tasks0.title}"
 				type: "dimension"
 			}]
-			title: "&8Visit Glacio"
+			title: "{ftbquests.chapter.dplanets_and_space.quests71.title}"
 			x: -7.0d
 			y: -59.5d
 		}
@@ -1857,7 +1857,7 @@
 				entity: "ad_astra:pygro"
 				icon: "botania:third_eye"
 				id: "0EB82623B0927D5E"
-				title: "Kill Pygros"
+				title: "{ftbquests.chapter.dplanets_and_space.quests72.tasks0.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -1877,10 +1877,10 @@
 				icon: "ad_astra:calorite_pillar"
 				id: "715F440897394627"
 				structure: "ad_astra:pygro_tower"
-				title: "Visit a Pygro Tower"
+				title: "{ftbquests.chapter.dplanets_and_space.quests73.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Visit a Pygro Tower "
+			title: "{ftbquests.chapter.dplanets_and_space.quests73.title}"
 			x: -7.0d
 			y: -45.5d
 		}
@@ -1897,10 +1897,10 @@
 				icon: "soulsweapons:silver_bullet"
 				id: "32370421BC3523C7"
 				structure: "ad_astra:venus_bullet"
-				title: "Visit a Venus Bullet"
+				title: "{ftbquests.chapter.dplanets_and_space.quests74.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Find a Venus Bullet"
+			title: "{ftbquests.chapter.dplanets_and_space.quests74.title}"
 			x: -3.5d
 			y: -48.0d
 		}
@@ -1919,15 +1919,15 @@
 				type: "xp"
 				xp: 600
 			}]
-			subtitle: "Like Piglins but weird"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests75.subtitle}"
 			tasks: [{
 				icon: "minecraft:piglin_head"
 				id: "3ECFDB7288CD1F43"
 				structure: "ad_astra:pygro_village"
-				title: "Visit a Pygro Village"
+				title: "{ftbquests.chapter.dplanets_and_space.quests75.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Find a Pygro Village"
+			title: "{ftbquests.chapter.dplanets_and_space.quests75.title}"
 			x: -5.0d
 			y: -49.0d
 		}
@@ -1947,7 +1947,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mogged"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests76.subtitle}"
 			tasks: [{
 				entity: "ad_astra:mogler"
 				icon: {
@@ -1958,7 +1958,7 @@
 					}
 				}
 				id: "2B7653E47E341D9E"
-				title: "Kill Moglers"
+				title: "{ftbquests.chapter.dplanets_and_space.quests76.tasks0.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -1980,14 +1980,14 @@
 				type: "xp"
 				xp: 600
 			}]
-			subtitle: "Monster..."
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests77.subtitle}"
 			tasks: [{
 				entity: "ad_astra:glacian_ram"
 				id: "51C2482E5D85E3FF"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Kill Glacian Ram"
+			title: "{ftbquests.chapter.dplanets_and_space.quests77.title}"
 			x: -7.0d
 			y: -61.5d
 		}
@@ -2002,7 +2002,7 @@
 			tasks: [{
 				id: "24B19029810B14BC"
 				item: "minecraft:milk_bucket"
-				title: "Milk a Glacian Ram"
+				title: "{ftbquests.chapter.dplanets_and_space.quests78.tasks0.title}"
 				type: "item"
 			}]
 			x: -5.0d
@@ -2021,13 +2021,13 @@
 				item: "ad_astra:ice_shard"
 				type: "item"
 			}]
-			title: "Collect Ice Shards"
+			title: "{ftbquests.chapter.dplanets_and_space.quests79.title}"
 			x: -9.0d
 			y: -60.0d
 		}
 		{
 			dependencies: ["5DA393D255FB9F2F"]
-			description: ["&7This Set of Armor gives you flight! its one of two Armors that do so. "]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests80.description0}"]
 			icon: {
 				Count: 1
 				id: "ad_astra:jet_suit_helmet"
@@ -2088,7 +2088,7 @@
 					type: "item"
 				}
 			]
-			title: "&5Wanna Fly?"
+			title: "{ftbquests.chapter.dplanets_and_space.quests80.title}"
 			x: -10.5d
 			y: -52.5d
 		}
@@ -2115,7 +2115,7 @@
 				item: "ad_astra:ostrum_plate"
 				type: "item"
 			}]
-			title: "Ostrum Plates"
+			title: "{ftbquests.chapter.dplanets_and_space.quests81.title}"
 			x: -3.0d
 			y: -40.0d
 		}
@@ -2213,7 +2213,7 @@
 					icon: "ad_astra:iron_pillar"
 					id: "22A5801FDE0A6ACA"
 					optional_task: true
-					title: "Make a Space Station in a Orbit"
+					title: "{ftbquests.chapter.dplanets_and_space.quests83.tasks0.title}"
 					type: "dimension"
 				}
 				{
@@ -2221,7 +2221,7 @@
 					icon: "ad_astra:iron_pillar"
 					id: "564184294F1993B9"
 					optional_task: true
-					title: "Make a Space Station in a Orbit"
+					title: "{ftbquests.chapter.dplanets_and_space.quests83.tasks1.title}"
 					type: "dimension"
 				}
 				{
@@ -2229,7 +2229,7 @@
 					icon: "ad_astra:iron_pillar"
 					id: "789EE3EDD3C34EDD"
 					optional_task: true
-					title: "Make a Space Station in a Orbit"
+					title: "{ftbquests.chapter.dplanets_and_space.quests83.tasks2.title}"
 					type: "dimension"
 				}
 				{
@@ -2237,7 +2237,7 @@
 					icon: "ad_astra:iron_pillar"
 					id: "3BE806352757CFF6"
 					optional_task: true
-					title: "Make a Space Station in a Orbit"
+					title: "{ftbquests.chapter.dplanets_and_space.quests83.tasks3.title}"
 					type: "dimension"
 				}
 				{
@@ -2245,7 +2245,7 @@
 					icon: "ad_astra:iron_pillar"
 					id: "66E1821D4A5703BF"
 					optional_task: true
-					title: "Make a Space Station in a Orbit"
+					title: "{ftbquests.chapter.dplanets_and_space.quests83.tasks4.title}"
 					type: "dimension"
 				}
 				{
@@ -2253,25 +2253,25 @@
 					icon: "ad_astra:iron_pillar"
 					id: "1455ECC1B7795580"
 					optional_task: true
-					title: "Make a Space Station in a Orbit"
+					title: "{ftbquests.chapter.dplanets_and_space.quests83.tasks5.title}"
 					type: "dimension"
 				}
 			]
-			title: "Build a Space Station!"
+			title: "{ftbquests.chapter.dplanets_and_space.quests83.title}"
 			x: 2.5d
 			y: -16.0d
 		}
 		{
 			dependencies: ["37B1A85BBE83CE80"]
 			dependency_requirement: "all_started"
-			description: ["&7The Zip gun can be filled with Oxygen to propel you through places where gravity is a bit less than 1g, like orbit."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests84.description0}"]
 			id: "19D7523D237BCCE9"
 			rewards: [{
 				id: "0676B41D49B28D4A"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Does not Kill"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests84.subtitle}"
 			tasks: [{
 				id: "5B00456AE025E193"
 				item: {
@@ -2281,13 +2281,13 @@
 				}
 				type: "item"
 			}]
-			title: "Zip Gun"
+			title: "{ftbquests.chapter.dplanets_and_space.quests84.title}"
 			x: 4.0d
 			y: -17.5d
 		}
 		{
 			dependencies: ["646AB33B769E10F0"]
-			description: ["&7You can Make a space Station in any Orbit around any Celestial body. Simply bring the proper ingredients with you on the flight. Once there, feel free to build whatever you want. Keep in mind that water freezes there."]
+			description: ["{ftbquests.chapter.dplanets_and_space.quests85.description0}"]
 			hide_dependency_lines: true
 			icon: "ad_astra:glowing_steel_pillar"
 			id: "37B1A85BBE83CE80"
@@ -2308,7 +2308,7 @@
 				id: "58BAD23C56A07301"
 				type: "checkmark"
 			}]
-			title: "Your own Space Station"
+			title: "{ftbquests.chapter.dplanets_and_space.quests85.title}"
 			x: 2.5d
 			y: -17.5d
 		}
@@ -2342,7 +2342,7 @@
 			tasks: [{
 				id: "300CA43CBD7B9587"
 				item: "ad_astra:oxygen_distributor"
-				title: "Craft a &bOxygen Distributor"
+				title: "{ftbquests.chapter.dplanets_and_space.quests86.tasks0.title}"
 				type: "item"
 			}]
 			x: 0.5d
@@ -2368,11 +2368,11 @@
 					xp: 300
 				}
 			]
-			subtitle: "&6Fuel&r is hard to get; it &arequires venturing out&r to the ocean, looking for &boil spouts&r. The &3Cryo Freezer&r introduces a new way to obtain a better fuel &3Cryo Fuel&r. &3Cryo Fuel&r is much more efficient than &arefined fuel&r, allowing you to launch a rocket with just one &9bucket&r."
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests87.subtitle}"
 			tasks: [{
 				id: "672A1B3159A82E2B"
 				item: "ad_astra:cryo_freezer"
-				title: "Craft a &4Cryo Freezer"
+				title: "{ftbquests.chapter.dplanets_and_space.quests87.tasks0.title}"
 				type: "item"
 			}]
 			x: -6.0d
@@ -2400,7 +2400,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "vrom vroom"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests88.subtitle}"
 			tasks: [{
 				id: "47E1D3173BE3B4D2"
 				item: {
@@ -2410,7 +2410,7 @@
 				}
 				type: "item"
 			}]
-			title: "Rover"
+			title: "{ftbquests.chapter.dplanets_and_space.quests88.title}"
 			x: 0.5d
 			y: -26.0d
 		}
@@ -2422,11 +2422,11 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "The &bwater pump&r is essential for keeping the &boxygen distributor&r running infinitely. To use it, place an &binfinite water source&r below, then place the &bwater pump&r above one of the water blocks, and then place the &boxygen distributor&r adjacent to it. Make sure to supply both the &bwater pump&r and the &boxygen distributor&r with sufficient &cpower&r.&r"
+			subtitle: "{ftbquests.chapter.dplanets_and_space.quests89.subtitle}"
 			tasks: [{
 				id: "37F586D82E8329C2"
 				item: "ad_astra:water_pump"
-				title: "Craft a &bWater Pump"
+				title: "{ftbquests.chapter.dplanets_and_space.quests89.tasks0.title}"
 				type: "item"
 			}]
 			x: -6.5d
@@ -2478,13 +2478,13 @@
 				icon: "ad_astra:mars_sand"
 				id: "41CC0291410AF99B"
 				structure: "ad_astra:mars_temple"
-				title: "Find the &4Mars temple"
+				title: "{ftbquests.chapter.dplanets_and_space.quests91.tasks0.title}"
 				type: "structure"
 			}]
-			title: "Find the Mars Temple"
+			title: "{ftbquests.chapter.dplanets_and_space.quests91.title}"
 			x: -5.5d
 			y: -32.5d
 		}
 	]
-	title: " &dThe Astral Realm"
+	title: "{ftbquests.chapter.dplanets_and_space.title}"
 }
