@@ -55,10 +55,12 @@ async def main():
         
         tasks = []
         for file in files:
-            # 统一路径分隔符并提取相对路径
-            rel_path = file.split("Source")[1].replace("\\", "/")
-            # path 是目录路径，例如 '/path/to/'
-            path = rel_path.replace(os.path.basename(file), "")
+            # 使用 relpath 获取相对于 Source 的路径，避免开头的 /
+            rel_path = os.path.relpath(file, "./Source").replace("\\", "/")
+            # filename 是文件名，例如 'en_us.json'
+            filename = os.path.basename(file)
+            # path 是目录路径，例如 'path/to/'，如果是在根目录则为空字符串
+            path = rel_path.replace(filename, "")
             
             tasks.append(upload_file(api_instance, project_id, path, file, existing_files))
 
