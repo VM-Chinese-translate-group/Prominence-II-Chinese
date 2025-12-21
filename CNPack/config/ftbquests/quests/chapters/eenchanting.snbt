@@ -973,7 +973,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2B99DDA42BB7716C"]
+			dependencies: ["52D4F78DE9C64FF3"]
+			dependency_requirement: "one_started"
 			description: ["{ftbquests.chapter.eenchanting.quest35.description0}"]
 			id: "65967FFB6D25BD30"
 			rewards: [{
@@ -988,11 +989,12 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.eenchanting.quest35.title}"
-			x: 3.0d
-			y: -5.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["75D6FF466F4DA932"]
+			dependencies: ["379C7E6854F4F226"]
+			dependency_requirement: "all_started"
 			description: ["{ftbquests.chapter.eenchanting.quest36.description0}"]
 			id: "0AACB9207417BB72"
 			rewards: [{
@@ -1014,8 +1016,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.eenchanting.quest36.title}"
-			x: 0.5d
-			y: -6.5d
+			x: -2.0d
+			y: -3.5d
 		}
 	]
 	title: "{ftbquests.chapter.eenchanting.title}"

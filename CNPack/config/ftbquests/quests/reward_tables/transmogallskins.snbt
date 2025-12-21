@@ -1,0 +1,45 @@
+{
+	id: "07F1940EE28DEBBE"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "prominent:xmog_unholy_scythe" }
+		{ item: "prominent:xmog_terra_blade" }
+		{ item: "prominent:xmog_sunbreak" }
+		{ item: "prominent:xmog_stop_sign" }
+		{ item: "prominent:xmog_soul_edge" }
+		{ item: "prominent:xmog_soul_devourer" }
+		{ item: "prominent:xmog_soul_collector" }
+		{ item: "prominent:xmog_soul_claws" }
+		{ item: "prominent:xmog_silverine_blade" }
+		{ item: "prominent:xmog_sentinels_will" }
+		{ item: "prominent:xmog_sculk_sword" }
+		{ item: "prominent:xmog_sculk_scythe" }
+		{ item: "prominent:xmog_sculk_cleaver" }
+		{ item: "prominent:xmog_sacred_tree_blade" }
+		{ item: "prominent:xmog_ruby_blade" }
+		{ item: "prominent:xmog_royal_chakram" }
+		{ item: "prominent:xmog_pheonix_grace" }
+		{ item: "prominent:xmog_pharaohs_treasure" }
+		{ item: "prominent:xmog_mystical_spellblade" }
+		{ item: "prominent:xmog_molten_sword" }
+		{ item: "prominent:xmog_jade_halberd" }
+		{ item: "prominent:xmog_forest_guardian_glaive" }
+		{ item: "prominent:xmog_excalibur" }
+		{ item: "prominent:xmog_divine_reaper" }
+		{ item: "prominent:xmog_divine_punisher" }
+		{ item: "prominent:xmog_divine_justice" }
+		{ item: "prominent:xmog_divine_great_axe" }
+		{ item: "prominent:xmog_demonic_blade" }
+		{ item: "prominent:xmog_cyber_sword" }
+		{ item: "prominent:xmog_cybernetic_dagger" }
+		{ item: "prominent:xmog_cyber_scythe" }
+		{ item: "prominent:xmog_creationsplitter" }
+		{ item: "prominent:xmog_chrono_blade" }
+		{ item: "prominent:xmog_bloodydeath" }
+		{ item: "prominent:xmog_aquatic_trident" }
+		{ item: "prominent:xmog_aquatic_sacred_blade" }
+		{ item: "prominent:xmog_ancient_royal_great_sword" }
+	]
+	title: "{ftbquests.reward_tables.transmogallskins.title}"
+}

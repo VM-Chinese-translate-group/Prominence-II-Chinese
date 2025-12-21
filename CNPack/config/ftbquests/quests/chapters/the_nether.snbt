@@ -1989,13 +1989,7 @@
 			]
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
-				icon: {
-					Count: 1
-					id: "mcda:wither_armor_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
+				icon: "graveyard:leaning_wither_skeleton"
 				id: "7FD09032C10128BF"
 				title: "{ftbquests.chapter.the_nether.quests25.tasks0.title}"
 				type: "kill"
