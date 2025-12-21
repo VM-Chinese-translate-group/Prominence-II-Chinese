@@ -9,29 +9,32 @@ configuration = paratranz_client.Configuration(host="https://paratranz.cn/api")
 configuration.api_key["Token"] = os.environ["API_TOKEN"]
 
 
-async def upload_file(api_instance, project_id, path, file, existing_files):
+async def upload_file(api_instance, project_id, path, file, existing_files, semaphore):
     filename = os.path.basename(file)
-    # 构造远程文件的完整路径，用于匹配 existing_files
     remote_full_path = path + filename
-    
-    # 查找是否已存在
     existing_file = next((f for f in existing_files if f.name == remote_full_path), None)
 
-    try:
-        if existing_file:
-            print(f"Updating {remote_full_path} (ID: {existing_file.id})")
-            await api_instance.update_file(project_id, file_id=existing_file.id, file=file)
-            print(f"文件已更新！文件路径为：{existing_file.name}")
-        else:
-            print(f"Creating {remote_full_path} in {path}")
-            api_response = await api_instance.create_file(
-                project_id, file=file, path=path
-            )
-            pprint(api_response)
-    except Exception as e:
-        print(f"处理文件 {file} 时出错: {e}")
-        if hasattr(e, 'body'):
-            print(f"Error body: {e.body}")
+    async with semaphore:
+        for attempt in range(3):  # 最多重试 3 次
+            try:
+                if existing_file:
+                    print(f"Updating {remote_full_path} (ID: {existing_file.id}) - Attempt {attempt + 1}")
+                    await api_instance.update_file(project_id, file_id=existing_file.id, file=file)
+                    print(f"文件已更新！文件路径为：{existing_file.name}")
+                else:
+                    print(f"Creating {remote_full_path} in {path} - Attempt {attempt + 1}")
+                    api_response = await api_instance.create_file(project_id, file=file, path=path)
+                    pprint(api_response)
+                return  # 成功后退出重试循环
+            except Exception as e:
+                print(f"处理文件 {file} 时出错 (尝试 {attempt + 1}/3): {e}")
+                if attempt < 2:
+                    wait_time = (attempt + 1) * 2
+                    print(f"等待 {wait_time} 秒后重试...")
+                    await asyncio.sleep(wait_time)
+                else:
+                    if hasattr(e, 'body'):
+                        print(f"Error body: {e.body}")
 
 
 def get_filelist(dir_path):
@@ -53,6 +56,9 @@ async def main():
         print("正在获取项目文件列表...")
         existing_files = await api_instance.get_files(project_id)
         
+        # 限制并发数为 3，避免触发服务器超时或频率限制
+        semaphore = asyncio.Semaphore(3)
+        
         tasks = []
         for file in files:
             # 使用 relpath 获取相对于 Source 的路径，避免开头的 /
@@ -62,7 +68,7 @@ async def main():
             # path 是目录路径，例如 'path/to/'，如果是在根目录则为空字符串
             path = rel_path.replace(filename, "")
             
-            tasks.append(upload_file(api_instance, project_id, path, file, existing_files))
+            tasks.append(upload_file(api_instance, project_id, path, file, existing_files, semaphore))
 
         await asyncio.gather(*tasks)
 
