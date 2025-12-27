@@ -2016,6 +2016,7 @@
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
+			icon: "soulsweapons:withered_demon_heart"
 			id: "5B31D4D4029F1891"
 			rewards: [
 				{
@@ -2048,6 +2049,13 @@
 					title: "{ftbquests.chapter.main_story.quests34.tasks0.title}"
 					type: "kill"
 					value: 1L
+				}
+				{
+					id: "0132A0C646879E11"
+					item: "soulsweapons:boss_compass"
+					optional_task: true
+					title: "{ftbquests.chapter.main_story.quests34.tasks1.title}"
+					type: "item"
 				}
 			]
 			title: "{ftbquests.chapter.main_story.quests34.title}"
@@ -2095,6 +2103,7 @@
 			y: -4.5d
 		}
         {
+			can_repeat: true
             dependencies: ["3A8C4B633BAF1EFF"]
             description: ["{ftbquests.chapter.main_story.quests36.description0}"]
             hide_until_deps_complete: true
@@ -2112,6 +2121,7 @@
                     type: "item"
                 }
                 {
+					auto: "enabled"
                     id: "09CFD9FF34E4A082"
                     type: "xp_levels"
                     xp_levels: 5

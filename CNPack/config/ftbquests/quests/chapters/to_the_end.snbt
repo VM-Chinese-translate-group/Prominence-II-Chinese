@@ -1871,7 +1871,14 @@
 			tasks: [{
 				count: 32L
 				id: "0A8611416AE83925"
-				item: { Count: 32, id: "betterend:tenanea_log" }
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "betterend:tenanea_logs"
+					}
+				}
+				title: "{ftbquests.chapter.to_the_end.quests54.tasks0.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.to_the_end.quests54.title}"
@@ -1911,9 +1918,15 @@
 			}]
 			tasks: [
 				{
-					count: 32L
 					id: "2141C9AAA95F6EA7"
-					item: "promenade:dark_amaranth_stem"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "promenade:dark_amaranth_stems"
+						}
+					}
+					title: "{ftbquests.chapter.to_the_end.quests56.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -1976,7 +1989,14 @@
 			tasks: [{
 				count: 64L
 				id: "41C472F9CBB4AE14"
-				item: { Count: 64, id: "betterend:umbrella_tree_log" }
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "betterend:umbrella_tree_logs"
+					}
+				}
+				title: "{ftbquests.chapter.to_the_end.quests58.tasks0.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.to_the_end.quests58.title}"
@@ -2382,7 +2402,14 @@
 			tasks: [{
 				count: 32L
 				id: "4BC8B1A5C984D169"
-				item: { Count: 32, id: "betterend:lacugrove_log" }
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "betterend:helix_tree_logs"
+					}
+				}
+				title: "{ftbquests.chapter.to_the_end.quests73.tasks0.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.to_the_end.quests73.title}"
@@ -2403,7 +2430,14 @@
 			tasks: [{
 				count: 64L
 				id: "2B1B3396C929C6CD"
-				item: { Count: 64, id: "betterend:lucernia_log" }
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "betterend:lucernia_logs"
+					}
+				}
+				title: "{ftbquests.chapter.to_the_end.quests74.tasks0.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.to_the_end.quests74.title}"

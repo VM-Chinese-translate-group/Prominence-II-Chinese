@@ -2472,13 +2472,7 @@
 			subtitle: "{ftbquests.chapter.simply_swords.quests60.subtitle}"
 			tasks: [{
 				entity: "minecraft:magma_cube"
-				icon: {
-					Count: 1
-					id: "minecraft:diamond_sword"
-					tag: {
-						Damage: 0
-					}
-				}
+				icon: "minecraft:magma_cream"
 				id: "3B2A79DA51FD5FBB"
 				title: "{ftbquests.chapter.simply_swords.quests60.tasks0.title}"
 				type: "kill"

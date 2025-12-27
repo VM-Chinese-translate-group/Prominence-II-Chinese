@@ -31,6 +31,38 @@
 			x: 3.0089285714285623d
 			y: 3.7857142857142847d
 		}
+		{
+			click: "https://rpg.prominence.wiki/blog"
+			dependency: "53E148644BBD5E2F"
+			height: 1.0d
+			hover: ["{ftbquests.chapter.elhasturian_era.images2.hover}"]
+			image: "eldritch_end:textures/mob_effect/hastur_presence.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependency: "53E148644BBD5E2F"
+			height: 1.0d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			click: "https://youtu.be/QIwFXTVn-5o"
+			dependency: "53E148644BBD5E2F"
+			height: 1.0d
+			hover: ["{ftbquests.chapter.elhasturian_era.images4.hover}"]
+			image: "prominent:textures/text/skellak_highres.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -253,6 +285,7 @@
 				""
 				"{ftbquests.chapter.elhasturian_era.quests4.description6}"
 			]
+			hide_until_deps_complete: true
 			icon: "prominent:beacon_of_hope"
 			id: "7E7462C4751E0C1B"
 			rewards: [
@@ -414,7 +447,7 @@
 		}
 		{
 			dependencies: ["5E4919750C5CE35D"]
-			description: ["&9https://rpg.prominence.wiki/blog/whats-coming-hasturian-era-v4.0"]
+			description: [""]
 			icon: "prominent:broken_beacon_of_hope"
 			id: "53E148644BBD5E2F"
 			rewards: [{

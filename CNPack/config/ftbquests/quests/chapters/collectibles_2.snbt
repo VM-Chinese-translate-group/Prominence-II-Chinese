@@ -121,7 +121,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests5.title}"
-			x: -1.5d
+			x: -0.5d
 			y: -7.0d
 		}
 		{
@@ -163,8 +163,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests7.title}"
-			x: -3.5d
-			y: -5.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["14BF4DDBBD36DC9E"]
@@ -184,7 +184,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests8.title}"
-			x: -4.5d
+			x: -5.0d
 			y: -6.0d
 		}
 		{
@@ -227,7 +227,7 @@
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests10.title}"
 			x: -3.0d
-			y: -12.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["14BF4DDBBD36DC9E"]
@@ -247,7 +247,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests11.title}"
-			x: -1.5d
+			x: -0.5d
 			y: -9.0d
 		}
 		{
@@ -268,7 +268,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests12.title}"
-			x: -4.5d
+			x: -5.5d
 			y: -7.0d
 		}
 		{
@@ -289,7 +289,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests13.title}"
-			x: -1.5d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
@@ -331,7 +331,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests15.title}"
-			x: -1.5d
+			x: -1.0d
 			y: -10.0d
 		}
 		{
@@ -352,7 +352,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests16.title}"
-			x: -4.5d
+			x: -6.0d
 			y: -8.0d
 		}
 		{
@@ -394,7 +394,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests18.title}"
-			x: -4.5d
+			x: -5.0d
 			y: -10.0d
 		}
 		{
@@ -415,7 +415,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests19.title}"
-			x: -4.5d
+			x: -5.5d
 			y: -9.0d
 		}
 		{
@@ -480,8 +480,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.0d
-			y: -9.0d
+			x: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -501,8 +501,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests23.title}"
-			x: 4.5d
-			y: -7.0d
+			x: 7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -522,29 +522,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests24.title}"
-			x: 3.5d
-			y: -14.0d
-		}
-		{
-			dependencies: ["1F3B9ECF26B84A71"]
-			id: "3F2B59DEF8CA9E35"
-			rewards: [
-				{
-					id: "5A4BD5436CDA34A6"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "6C18AEDDFDA74663"
-					item: "beachparty:overgrown_disc"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.collectibles_2.quests25.title}"
-			x: 2.5d
-			y: -14.0d
+			x: 6.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -564,8 +543,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests26.title}"
-			x: 4.5d
-			y: -6.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -585,8 +564,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests27.title}"
-			x: 1.5d
-			y: -6.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -606,8 +585,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests28.title}"
-			x: 3.0d
-			y: -5.0d
+			x: 3.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -627,8 +606,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests29.title}"
-			x: 1.5d
-			y: -8.0d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -648,8 +627,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests30.title}"
-			x: 1.5d
-			y: -8.0d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -669,29 +648,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests31.title}"
-			x: 4.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["1F3B9ECF26B84A71"]
-			id: "601724D8A30251E4"
-			rewards: [
-				{
-					id: "2ED8F85957A9A14C"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "7371A65B5E8009E6"
-					item: "beachparty:music_disc_wild_veins"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.collectibles_2.quests32.title}"
-			x: 1.5d
-			y: -9.0d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -711,8 +669,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests38.title}"
-			x: 1.5d
-			y: -10.0d
+			x: 3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -732,8 +690,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests39.title}"
-			x: 4.5d
-			y: -10.0d
+			x: 9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -753,8 +711,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests40.title}"
-			x: 4.5d
-			y: -9.0d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -774,8 +732,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests41.title}"
-			x: 1.5d
-			y: -11.0d
+			x: 3.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -795,8 +753,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests42.title}"
-			x: 1.5d
-			y: -12.0d
+			x: 4.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -816,8 +774,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests43.title}"
-			x: 4.5d
-			y: -11.0d
+			x: 8.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -837,8 +795,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests44.title}"
-			x: 4.5d
-			y: -12.0d
+			x: 8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -858,8 +816,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests45.title}"
-			x: 1.5d
-			y: -13.0d
+			x: 4.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -879,8 +837,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests46.title}"
-			x: 4.5d
-			y: -13.0d
+			x: 7.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -900,8 +858,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests47.title}"
-			x: 1.5d
-			y: -14.0d
+			x: 5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1F3B9ECF26B84A71"]
@@ -921,8 +879,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles_2.quests48.title}"
-			x: 4.5d
-			y: -14.0d
+			x: 7.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4A01B44240D7BE4A"]
