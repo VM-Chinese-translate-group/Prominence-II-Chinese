@@ -1,0 +1,80 @@
+{
+	"3wblid6mdbp6h4bw": {
+		"definition": "health+5",
+		"x": -3.5355339059327378,
+		"y": 108.72792206135786,
+		"root": true
+	},
+	"bv0v9sc1chsrzfc5": {
+		"definition": "dmg+5",
+		"x": -118.10050506338834,
+		"y": 173.61522368914976,
+		"root": false
+	},
+	"3bnzmp486ydox40i": {
+		"definition": "health+5",
+		"x": 113.1507575950825,
+		"y": 175.7365440327094,
+		"root": false
+	},
+	"1d2bwum8rzmaxjh7": {
+		"definition": "health+5",
+		"x": 103.25126265847085,
+		"y": 34.648232278140824,
+		"root": false
+	},
+	"s189psk1q7fza2te": {
+		"definition": "dmg+5",
+		"x": -102.5441558772843,
+		"y": 34.64823227814083,
+		"root": false
+	},
+	"mj23f066fnx718xl": {
+		"definition": "phase+bruiser",
+		"x": 0,
+		"y": 32,
+		"root": false
+	},
+	"ci33ktq75shvn4p7": {
+		"definition": "phase+support",
+		"x": 64,
+		"y": -128,
+		"root": false
+	},
+	"g330usg65cwlu8p7": {
+		"definition": "phase+tank",
+		"x": -64,
+		"y": -128,
+		"root": false
+	},
+	"8e3zwxgzpma5sh5s": {
+		"definition": "health+5",
+		"x": 0,
+		"y": -192,
+		"root": false
+	},
+	"ttbe1xlgmisfwk8s": {
+		"definition": "dmg+5",
+		"x": 106.07968978321703,
+		"y": -84.15937956643405,
+		"root": false
+	},
+	"zs8xga6831jgo6yv": {
+		"definition": "health+5",
+		"x": 69.65685424949238,
+		"y": -213.3933982822018,
+		"root": false
+	},
+	"lkwx9zgistk5fmqj": {
+		"definition": "dmg+5",
+		"x": -71.07106781186548,
+		"y": -213.3933982822018,
+		"root": false
+	},
+	"nu5te7vgxgj01u5f": {
+		"definition": "health+5",
+		"x": -104.66547622084393,
+		"y": -82.74516600406095,
+		"root": false
+	}
+}

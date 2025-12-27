@@ -1,0 +1,74 @@
+{
+	"141ilpowt5glbhp1": {
+		"definition": "holypower",
+		"x": 2.0573406139317747,
+		"y": 158.2161893274959,
+		"root": true
+	},
+	"wu2zc7xcpwjp7ewa": {
+		"definition": "oath_of_protection",
+		"x": 40.53957293696449,
+		"y": -126.58999371799436,
+		"root": false
+	},
+	"2r6gwuy3rfi0qhvg": {
+		"definition": "maxhleath",
+		"x": 1.8965090447120985,
+		"y": -88.11462459676618,
+		"root": false
+	},
+	"eon2d0g9geekepri": {
+		"definition": "maxhleath",
+		"x": -13.668078640464868,
+		"y": -45.17288039955212,
+		"root": false
+	},
+	"sgcbg3rzuu9wun78": {
+		"definition": "holypower",
+		"x": 16.335402965348504,
+		"y": -45.34015985860816,
+		"root": false
+	},
+	"wqkmrcibelxl413m": {
+		"definition": "maxhleath",
+		"x": 71.39381294333148,
+		"y": -147.8175606167583,
+		"root": false
+	},
+	"9k0pkn4u5cnt32ag": {
+		"definition": "maxhleath",
+		"x": 98.72756099964477,
+		"y": -122.15157064468315,
+		"root": false
+	},
+	"8g0m9yrel63lkfda": {
+		"definition": "holypower",
+		"x": -67.95395973518876,
+		"y": -149.4272566174016,
+		"root": false
+	},
+	"fu25k9i4opgsty9s": {
+		"definition": "maxhleath",
+		"x": -98.64932421249497,
+		"y": -131.6531275835903,
+		"root": false
+	},
+	"wzhyg0e77zk694yd": {
+		"definition": "holypower",
+		"x": -71.69865355587503,
+		"y": -105.60248271645197,
+		"root": false
+	},
+	"j70itpcax27y0q2u": {
+		"definition": "holypower",
+		"x": 63.59920025689952,
+		"y": -100.81041182662719,
+		"root": false
+	},
+	"ycuaeh8l8tdc7tm4": {
+		"definition": "oath_of_healing",
+		"x": -36.537482329318664,
+		"y": -127.3294055234271,
+		"root": false
+	}
+}

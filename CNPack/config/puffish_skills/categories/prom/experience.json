@@ -1,0 +1,66 @@
+{
+	"enabled": true,
+	"level_limit": 32,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "220 * 1.125 ^ (level)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:shared_kill_entity",
+			"data": {
+				"variables": {
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					},
+					"max_health": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
+					},
+					"is_armor_stand": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "minecraft:armor_stand"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_armor_stand",
+						"expression": "0"
+					},
+					{
+						"expression": "(dropped_xp / 9 + max_health / 3)"
+					}
+				],
+				"anti_farming": {
+					"enabled": true,
+					"limit_per_chunk": 25,
+					"reset_after_seconds": 43200
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,116 @@
+{
+	"k28mfu48kg8tm1qd": {
+		"definition": "pledge+mintaka",
+		"x": -123.5,
+		"y": 45.99999999999999,
+		"root": true
+	},
+	"ur3x5or9zzjsotki": {
+		"definition": "pledge+alnitak",
+		"x": -22.606601717798224,
+		"y": 120.97487373415292,
+		"root": true
+	},
+	"y5vyfb3p3x5wbabs": {
+		"definition": "nebula-horsehead",
+		"x": 9.464466094067252,
+		"y": 89.66726188957801,
+		"root": true
+	},
+	"o4ekzbckv5jc1exj": {
+		"definition": "nebula-orion",
+		"x": 104.41421356237312,
+		"y": 21.56675682618971,
+		"root": true
+	},
+	"pkx19yrgnprxfvd1": {
+		"definition": "pledge+algjebbah",
+		"x": -48.5,
+		"y": -59.00000000000001,
+		"root": true
+	},
+	"50u7u2eaj67vwaso": {
+		"definition": "oriondamage",
+		"x": -160,
+		"y": -128,
+		"root": true
+	},
+	"agyecn5s76jn3amd": {
+		"definition": "oriondamage",
+		"x": 128,
+		"y": -128,
+		"root": true
+	},
+	"2v7lh2bera4po2e2": {
+		"definition": "oriondamage",
+		"x": 0,
+		"y": -192,
+		"root": true
+	},
+	"ikjiynzf0yt5nrf0": {
+		"definition": "oriondamage",
+		"x": 192,
+		"y": 0,
+		"root": true
+	},
+	"3ziz4pbygtfniqdw": {
+		"definition": "oriondamage",
+		"x": -256,
+		"y": 64,
+		"root": true
+	},
+	"ltgstx4t1v4bf8jf": {
+		"definition": "oriondamage",
+		"x": 0,
+		"y": 224,
+		"root": true
+	},
+	"nn3idptjeh71hsbx": {
+		"definition": "drawspeed",
+		"x": -128,
+		"y": 160,
+		"root": true
+	},
+	"kbvpx8vub9vcfb0y": {
+		"definition": "drawspeed",
+		"x": -192,
+		"y": 0,
+		"root": true
+	},
+	"jhhjeu2pvmfof312": {
+		"definition": "drawspeed",
+		"x": 0,
+		"y": -96,
+		"root": true
+	},
+	"t6931ena1423po4t": {
+		"definition": "drawspeed",
+		"x": 160,
+		"y": 96,
+		"root": true
+	},
+	"mn5nm2uk1ko0n2i4": {
+		"definition": "drawspeed",
+		"x": 224,
+		"y": 224,
+		"root": true
+	},
+	"nihtaj84w8lsl63v": {
+		"definition": "drawspeed",
+		"x": -224,
+		"y": 320,
+		"root": true
+	},
+	"jy2scqsbwbcw9aah": {
+		"definition": "pledge+alnilam",
+		"x": -73.89949493661166,
+		"y": 81.40380592228745,
+		"root": true
+	},
+	"3zjkcgloj307n355": {
+		"definition": "nebula-casper",
+		"x": -108.0208152801713,
+		"y": 212.68629150101523,
+		"root": true
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"141ilpowt5glbhp1": {
+		"definition": "damage",
+		"x": -170.99999999999994,
+		"y": 52.000000000000014,
+		"root": true
+	},
+	"03uw1se43yuutps2": {
+		"definition": "infusion_corruption",
+		"x": 61.36358566101483,
+		"y": -5.56862546612003,
+		"root": false
+	},
+	"2r6gwuy3rfi0qhvg": {
+		"definition": "attackspeed",
+		"x": 23.78381067250408,
+		"y": 4.946035575013623,
+		"root": false
+	},
+	"eon2d0g9geekepri": {
+		"definition": "attackspeed",
+		"x": -51.613961030678915,
+		"y": -9.43261184457486,
+		"root": false
+	},
+	"sgcbg3rzuu9wun78": {
+		"definition": "damage",
+		"x": 0.7365440327094284,
+		"y": 48.94974746830579,
+		"root": false
+	},
+	"wqkmrcibelxl413m": {
+		"definition": "attackspeed",
+		"x": 182.35330559107427,
+		"y": -26.371387146292104,
+		"root": false
+	},
+	"9k0pkn4u5cnt32ag": {
+		"definition": "attackspeed",
+		"x": 109.75420954618936,
+		"y": -2.5848716935368117,
+		"root": false
+	},
+	"8g0m9yrel63lkfda": {
+		"definition": "damage",
+		"x": 103.57323002869593,
+		"y": -35.96822737746689,
+		"root": false
+	},
+	"fu25k9i4opgsty9s": {
+		"definition": "attackspeed",
+		"x": 146.79486028712108,
+		"y": -50.007402898779745,
+		"root": false
+	},
+	"wzhyg0e77zk694yd": {
+		"definition": "damage",
+		"x": 185.0196715859686,
+		"y": -58.10400092035303,
+		"root": false
+	},
+	"j70itpcax27y0q2u": {
+		"definition": "damage",
+		"x": 144.43843630522065,
+		"y": -13.472696020605293,
+		"root": false
+	}
+}

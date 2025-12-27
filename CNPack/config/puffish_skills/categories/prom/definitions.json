@@ -1,2095 +1,1958 @@
 {
-    "health+10%": {
-        "title": {
-            "translate": "puffish_skills.categories.health+10%.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/health.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.max_health",
-                    "value": 0.025,
-                    "operation": "multiply_base"
-                }
-            }
-        ],
-        "editor-color": "#ff00a6",
-        "metadata": {
-            "icon": "7pb0tmzh3a2xteus"
-        }
-    },
-    "ranged_damage+3%": {
-        "title": {
-            "translate": "puffish_skills.categories.ranged_damage+3%.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.ranged_damage+3%.description"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/dodge_greater.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "combatroll:distance",
-                    "value": 0.08,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "combatroll:recharge",
-                    "value": 0.05,
-                    "operation": "multiply_base"
-                }
-            }
-        ],
-        "editor-color": "#639c85",
-        "metadata": {
-            "icon": "9f88jakd7r5i4181"
-        }
-    },
-    "luck+0.25": {
-        "title": {
-            "translate": "puffish_skills.categories.luck+0.25.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.luck+0.25.description"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/dodge_greater.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "combatroll:distance",
-                    "value": 0.04,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "combatroll:recharge",
-                    "value": 0.02,
-                    "operation": "multiply_base"
-                }
-            }
-        ],
-        "editor-color": "#00ff9f",
-        "metadata": {
-            "icon": "npxf3a8d02l1ropw"
-        }
-    },
-    "luck+4": {
-        "title": {
-            "translate": "puffish_skills.categories.luck+4.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.luck+4.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/wayfarer_sneak.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "combatroll:count",
-                    "value": 2,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "editor-color": "#60fe01",
-        "metadata": {
-            "icon": "hto0vin9i9ptqzse"
-        }
-    },
-    "jump+8%": {
-        "title": {
-            "translate": "puffish_skills.categories.jump+8%.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/jump.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "puffish_skills:player.jump",
-                    "value": 0.04,
-                    "operation": "multiply_base"
-                }
-            }
-        ],
-        "editor-color": "#0031ff",
-        "metadata": {
-            "icon": "1hrwee7u81tpie3b"
-        }
-    },
-    "hothead": {
-        "title": {
-            "translate": "puffish_skills.categories.hothead.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.hothead.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/fire_archmage.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:fire",
-                    "value": 6,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "ranged_weapon:damage",
-                    "value": -0.2,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:critical_chance",
-                    "value": 0.1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:frost",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:arcane",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#00ffe4",
-        "metadata": {
-            "icon": "jlvstamh3i7o5ias"
-        }
-    },
-    "donoharm": {
-        "title": {
-            "translate": "puffish_skills.categories.donoharm.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.donoharm.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/cleric_path.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:healing",
-                    "value": 10,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_damage",
-                    "value": -0.6,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#9d00ff",
-        "metadata": {
-            "icon": "47p35zypvlpzrd0x"
-        }
-    },
-    "armor+20%": {
-        "title": {
-            "translate": "puffish_skills.categories.armor+20%.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/armor.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.armor",
-                    "value": 0.08,
-                    "operation": "multiply_base"
-                }
-            }
-        ],
-        "editor-color": "#474ab8",
-        "metadata": {
-            "icon": "ke3ib6o83u4rmshd"
-        }
-    },
-    "toughness+20%": {
-        "title": {
-            "translate": "puffish_skills.categories.toughness+20%.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/toughness.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.armor_toughness",
-                    "value": 0.05,
-                    "operation": "multiply_base"
-                }
-            }
-        ],
-        "editor-color": "#30ff00",
-        "metadata": {
-            "icon": "7iymm263ogvwi0mx"
-        }
-    },
-    "melee_damage+12%": {
-        "title": {
-            "translate": "puffish_skills.categories.melee_damage+12%.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/attack.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_damage",
-                    "value": 0.035,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#00efff",
-        "metadata": {
-            "icon": "0t1l4wesv67w4zpo"
-        }
-    },
-    "omnivamp": {
-        "title": {
-            "translate": "puffish_skills.categories.omnivamp.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/omnivamp.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "zenith_attributes:life_steal",
-                    "value": 0.08,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#00efff",
-        "metadata": {
-            "icon": "4fe9gmscb3uy2jyk"
-        }
-    },
-    "lethality": {
-        "title": {
-            "translate": "puffish_skills.categories.lethality.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/lethality.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "obscure_api:penetration",
-                    "value": 0.08,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#00efff",
-        "metadata": {
-            "icon": "4fe9gmscb3uy2jyk"
-        }
-    },
-    "magicpen": {
-        "title": {
-            "translate": "puffish_skills.categories.magicpen.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/magic_pen.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "obscure_api:penetration",
-                    "value": 0.05,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#00efff",
-        "metadata": {
-            "icon": "4fe9gmscb3uy2jyk"
-        }
-    },
-    "path_archer": {
-        "title": {
-            "translate": "puffish_skills.categories.path_archer.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.path_archer.description"
-        },
-        "size": 1.3,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
-                "available": "prominent_talents:textures/frames/circle.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/ranger_path.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "ranged_weapon:damage",
-                    "value": 0.05,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#669968",
-        "metadata": {
-            "icon": "0jhcxsny2y0mruvz"
-        }
-    },
-    "path_rogue": {
-        "title": {
-            "translate": "puffish_skills.categories.path_rogue.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.path_rogue.description"
-        },
-        "size": 1.3,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
-                "available": "prominent_talents:textures/frames/circle.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/rogue_path.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.movement_speed",
-                    "value": 0.05,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_damage",
-                    "value": 1,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "editor-color": "#669968",
-        "metadata": {
-            "icon": "0jhcxsny2y0mruvz"
-        }
-    },
-    "path_fire": {
-        "title": {
-            "translate": "puffish_skills.categories.path_fire.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.path_fire.description"
-        },
-        "size": 1.3,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
-                "available": "prominent_talents:textures/frames/circle.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/path_fire.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:fire",
-                    "value": 1,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "editor-color": "#669968",
-        "metadata": {
-            "icon": "0jhcxsny2y0mruvz"
-        }
-    },
-    "path_arcane": {
-        "title": {
-            "translate": "puffish_skills.categories.path_arcane.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.path_arcane.description"
-        },
-        "size": 1.3,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
-                "available": "prominent_talents:textures/frames/circle.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/path_arcane.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:arcane",
-                    "value": 1,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "editor-color": "#669968",
-        "metadata": {
-            "icon": "0jhcxsny2y0mruvz"
-        }
-    },
-    "path_frost": {
-        "title": {
-            "translate": "puffish_skills.categories.path_frost.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.path_frost.description"
-        },
-        "size": 1.3,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
-                "available": "prominent_talents:textures/frames/circle.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/path_frost.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:frost",
-                    "value": 1,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "editor-color": "#669968",
-        "metadata": {
-            "icon": "0jhcxsny2y0mruvz"
-        }
-    },
-    "path_protector": {
-        "title": {
-            "translate": "puffish_skills.categories.path_protector.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.path_protector.description"
-        },
-        "size": 1.3,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
-                "available": "prominent_talents:textures/frames/circle.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/path_protector.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.max_health",
-                    "value": 0.025,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "puffish_skills:player.healing",
-                    "value": 0.1,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:healing",
-                    "value": 1,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "editor-color": "#669968",
-        "metadata": {
-            "icon": "0jhcxsny2y0mruvz"
-        }
-    },
-    "ranged_damage+12%": {
-        "title": {
-            "translate": "puffish_skills.categories.ranged_damage+12%.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/ranged.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "ranged_weapon:damage",
-                    "value": 0.03,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#669968",
-        "metadata": {
-            "icon": "0jhcxsny2y0mruvz"
-        }
-    },
-    "attack_speed+6%": {
-        "title": {
-            "translate": "puffish_skills.categories.attack_speed+6%.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/attack_speed.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_speed",
-                    "value": 0.02,
-                    "operation": "multiply_base"
-                }
-            }
-        ],
-        "editor-color": "#ffe500",
-        "metadata": {
-            "icon": "zxactenjj1ajaqye"
-        }
-    },
-    "movement_speed+6%": {
-        "title": {
-            "translate": "puffish_skills.categories.movement_speed+6%.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/move_speed.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.movement_speed",
-                    "value": 0.03,
-                    "operation": "multiply_base"
-                }
-            }
-        ],
-        "editor-color": "#5aa758",
-        "metadata": {
-            "icon": "545voaik7uzcf3mh"
-        }
-    },
-    "healing+12%": {
-        "title": {
-            "translate": "puffish_skills.categories.healing+12%.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/healing.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "puffish_skills:player.healing",
-                    "value": 0.03,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:healing",
-                    "value": 0.03,
-                    "operation": "multiply_base"
-                }
-            }
-        ],
-        "editor-color": "#7f7f7f",
-        "metadata": {
-            "icon": "m8nd3t327jsczqnb"
-        }
-    },
-    "stamina+8%": {
-        "title": {
-            "translate": "puffish_skills.categories.stamina+8%.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/stamina.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "puffish_skills:player.stamina",
-                    "value": 0.1,
-                    "operation": "multiply_base"
-                }
-            }
-        ],
-        "editor-color": "#ff5300",
-        "metadata": {
-            "icon": "k1xeqvyw9djsf58e"
-        }
-    },
-    "fire+12%": {
-        "title": {
-            "translate": "puffish_skills.categories.fire+12%.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.fire+12%.description"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/fire.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:fire",
-                    "value": 0.03,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:critical_chance",
-                    "value": 0.01,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#d3622c",
-        "metadata": {
-            "icon": "k8moz0bep6poeume"
-        }
-    },
-    "frost+12%": {
-        "title": {
-            "translate": "puffish_skills.categories.frost+12%.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.frost+12%.description"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/frost.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:frost",
-                    "value": 0.03,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:haste",
-                    "value": 0.01,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#00ffff",
-        "metadata": {
-            "icon": "gf315xif2stdqahr"
-        }
-    },
-    "arcane+12%": {
-        "title": {
-            "translate": "puffish_skills.categories.arcane+12%.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.arcane+12%.description"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/arcane.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:arcane",
-                    "value": 0.03,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:critical_damage",
-                    "value": 0.01,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#dc23ce",
-        "metadata": {
-            "icon": "3fcigw6fsrjushua"
-        }
-    },
-    "eldritch": {
-        "title": {
-            "translate": "puffish_skills.categories.eldritch.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.eldritch.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/arcane_archmage.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:arcane",
-                    "value": 6,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:critical_damage",
-                    "value": 0.25,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "ranged_weapon:damage",
-                    "value": -0.2,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:fire",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:frost",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#00ffe4",
-        "metadata": {
-            "icon": "u230reltjteb5x59"
-        }
-    },
-    "flurryofblows": {
-        "title": {
-            "translate": "puffish_skills.categories.flurryofblows.title"
-        },
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "fishing_rod"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_speed",
-                    "value": 3,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_speed",
-                    "value": -0.5,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_damage",
-                    "value": 16,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_damage",
-                    "value": -0.5,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#9d00ff",
-        "metadata": {
-            "icon": "ad1gmexjy6yl7q20"
-        }
-    },
-    "larry": {
-        "title": {
-            "translate": "puffish_skills.categories.larry.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.larry.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/berserker_path.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_damage",
-                    "value": 10,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:arcane",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:fire",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:frost",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "extraspellattributes:converttoarcane",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "extraspellattributes:converttofire",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "extraspellattributes:converttofrost",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#3d72c2",
-        "metadata": {
-            "icon": "hlv0lga5owd0czjk"
-        }
-    },
-    "decayingdevotion": {
-        "title": {
-            "translate": "puffish_skills.categories.decayingdevotion.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.decayingdevotion.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "death_knights:textures/icon/prom_compat/decaying_devotion.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_damage",
-                    "value": 5,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "eternal_attributes:unholy",
-                    "value": 10,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "eternal_attributes:blood",
-                    "value": 10,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:arcane",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:fire",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#3d72c2",
-        "metadata": {
-            "icon": "hlv0lga5owd0czjk"
-        }
-    },
-    "grace": {
-        "title": {
-            "translate": "puffish_skills.categories.grace.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.grace.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/legolas_legacy.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.knockback_resistance",
-                    "value": -1,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "ranged_weapon:damage",
-                    "value": 0.1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "ranged_weapon:damage",
-                    "value": 5,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "zenith_attributes:draw_speed",
-                    "value": 2,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.armor",
-                    "value": -0.5,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "d2mbxjlg2z4ggye3"
-        }
-    },
-    "stalwart": {
-        "title": {
-            "translate": "puffish_skills.categories.stalwart.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.stalwart.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/berserker_ignore_pain.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.max_health",
-                    "value": 100,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "puffish_skills:player.resistance",
-                    "value": 0.3,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.armor",
-                    "value": -0.3,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.armor_toughness",
-                    "value": -0.3,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#30ff00",
-        "metadata": {
-            "icon": "97dunb1b5x5x8231"
-        }
-    },
-    "iceking": {
-        "title": {
-            "translate": "puffish_skills.categories.iceking.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.iceking.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/frost_archmage.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:frost",
-                    "value": 6,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:critical_chance",
-                    "value": 0.05,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "ranged_weapon:damage",
-                    "value": -0.2,
-                    "operation": "multiply_base"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:critical_damage",
-                    "value": 0.2,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:fire",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:arcane",
-                    "value": -1,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "editor-color": "#00ffe4",
-        "metadata": {
-            "icon": "sp922cna5stkq2gh"
-        }
-    },
-    "ascendancyCyclonicCleave": {
-        "title": {
-            "translate": "puffish_skills.categories.ascendancyCyclonicCleave.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.ascendancyCyclonicCleave.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/square_selected.png",
-                "available": "prominent_talents:textures/frames/square.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_cyclonic_cleave.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "ascendancyCyclonicCleave"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "udrj1ku6qqe174zs"
-        }
-    },
-    "ascendancyCataclysm": {
-        "title": {
-            "translate": "puffish_skills.categories.ascendancyCataclysm.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.ascendancyCataclysm.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/square_selected.png",
-                "available": "prominent_talents:textures/frames/square.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_cataclysm.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "ascendancyCataclysm"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "gzln8dz1ob7tivtc"
-        }
-    },
-    "ascendancyRapidfire": {
-        "title": {
-            "translate": "puffish_skills.categories.ascendancyRapidfire.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.ascendancyRapidfire.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/square_selected.png",
-                "available": "prominent_talents:textures/frames/square.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_rapidfire.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "ascendancyRapidire"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "5rutvm8ojup6xc0r"
-        }
-    },
-    "ascendancySkywardSunder": {
-        "title": {
-            "translate": "puffish_skills.categories.ascendancySkywardSunder.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.ascendancySkywardSunder.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/square_selected.png",
-                "available": "prominent_talents:textures/frames/square.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_skyward_sunder.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "ascendancySkywardSunder"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "u8gmcq8ggpks4zh1"
-        }
-    },
-    "ascendancyRighteousHammers": {
-        "title": {
-            "translate": "puffish_skills.categories.ascendancyRighteousHammers.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.ascendancyRighteousHammers.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/square_selected.png",
-                "available": "prominent_talents:textures/frames/square.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_righteous_hammers.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "ascendancyRighteousHammers"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "qxln5dje97r09xoc"
-        }
-    },
-    "ascendancyRighteousShield": {
-        "title": {
-            "translate": "puffish_skills.categories.ascendancyRighteousShield.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.ascendancyRighteousShield.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/square_selected.png",
-                "available": "prominent_talents:textures/frames/square.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_righteous_shield.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "ascendancyRighteousShield"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "nrxbkbzylt7mn1by"
-        }
-    },
-    "ascendancyBoneArmor": {
-        "title": {
-            "translate": "puffish_skills.categories.ascendancyBoneArmor.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.ascendancyBoneArmor.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/square_selected.png",
-                "available": "prominent_talents:textures/frames/square.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_bone_armor.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "ascendancyBoneArmor"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "9tq64hk9w5c6l1w3"
-        }
-    },
-    "warriorTwinstrike": {
-        "title": {
-            "translate": "puffish_skills.categories.warriorTwinstrike.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.warriorTwinstrike.description"
-        },
-        "size": 1.2,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/warrior_twinstrike.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "warriorTwinstrike"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "generic.attack_speed",
-                    "value": 0.35,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "37nn7ezqyjfn7qpm"
-        }
-    },
-    "warriorSwordfall": {
-        "title": {
-            "translate": "puffish_skills.categories.warriorSwordfall.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.warriorSwordfall.description"
-        },
-        "size": 1.2,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/warrior_swordfall.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "warriorSwordfall"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "g2lsa11wk5y948of"
-        }
-    },
-    "wayfarerQuickfire": {
-        "title": {
-            "translate": "puffish_skills.categories.wayfarerQuickfire.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.wayfarerQuickfire.description"
-        },
-        "size": 1.2,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/focus.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "wayfarerQuickfire"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "y2rp2hw2nwsuq5bm"
-        }
-    },
-    "initiateEmpower": {
-        "title": {
-            "translate": "puffish_skills.categories.initiateEmpower.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.initiateEmpower.description"
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/initiate_empower.png"
-            }
-        },
-        "size": 1.2,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "initiateEmpower"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "3iehr8ovagq80w7t"
-        }
-    },
-    "initiateGambit": {
-        "title": {
-            "translate": "puffish_skills.categories.initiateGambit.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.initiateGambit.description"
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/initiate_gambit.png"
-            }
-        },
-        "size": 1.2,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
-                "available": "prominent_talents:textures/frames/diamond.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:critical_damage",
-                    "value": 0.75,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:soul",
-                    "value": -0.25,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:healing",
-                    "value": -0.25,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:fire",
-                    "value": -0.25,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:frost",
-                    "value": -0.25,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:lightning",
-                    "value": -0.25,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:arcane",
-                    "value": -0.25,
-                    "operation": "multiply_total"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "uebktod6deas5vfs"
-        }
-    },
-    "Elementalist": {
-        "title": {
-            "translate": "puffish_skills.categories.Elementalist.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.Elementalist.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/rune_of_stars.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:critical_chance",
-                    "value": 0.08,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:critical_damage",
-                    "value": 0.15,
-                    "operation": "multiply_total"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:fire",
-                    "value": 3,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:arcane",
-                    "value": 3,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:frost",
-                    "value": 3,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "7xdv4qj6p7ub866s"
-        }
-    },
-    "bardPassive": {
-        "title": {
-            "translate": "puffish_skills.categories.bardPassive.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.bardPassive.description"
-        },
-        "size": 1.2,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
-                "available": "prominent_talents:textures/frames/fate.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/melody.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "bardPassive"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "9zmmgyyh97ol8a13"
-        }
-    },
-    "bardActive": {
-        "title": {
-            "translate": "puffish_skills.categories.bardActive.title"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.bardActive.description"
-        },
-        "size": 1.4,
-        "frame": {
-            "type": "texture",
-            "data": {
-                "unlocked": "prominent_talents:textures/frames/square_selected.png",
-                "available": "prominent_talents:textures/frames/square.png"
-            }
-        },
-        "icon": {
-            "type": "texture",
-            "data": {
-                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_chainbreaker.png"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "bardActive"
-                }
-            }
-        ],
-        "metadata": {
-            "icon": "3srmy9kzgdyct1a2"
-        }
-    }
+	"health+10%": {
+		"title": "",
+		"description": "§f牢 §c+2.5% §7Maximum Health",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/health.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "7pb0tmzh3a2xteus"
+		}
+	},
+	"ranged_damage+3%": {
+		"title": "",
+		"description": "§f牢 §3+8% §7Rolling Distance\n§f牢 §3-5% §7Roll Cooldown\n",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/dodge_greater.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:distance",
+					"value": 0.08,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#639c85",
+		"metadata": {
+			"icon": "9f88jakd7r5i4181"
+		}
+	},
+	"luck+0.25": {
+		"title": "",
+		"description": "§f牢 §3+4% §7Rolling Distance\n§f牢 §3-2% §7Roll Cooldown\n",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/dodge_greater.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:distance",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#00ff9f",
+		"metadata": {
+			"icon": "npxf3a8d02l1ropw"
+		}
+	},
+	"jump+8%": {
+		"title": "",
+		"description": "§f牢 §3+4% §7Jump Height",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/jump.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#0031ff",
+		"metadata": {
+			"icon": "1hrwee7u81tpie3b"
+		}
+	},
+	"hothead": {
+		"title": "§e壟 §cFire Archmage",
+		"description": "§7Devote yourself to the art of the dangerous fire magic, but abandon the knowledge on the rest of the elements.\n \n§f縷 §6+6 §7Fire Power\n§f雷 §d+10% §7Spell Critical Chance\n凌 §2-20% §7Ranged Damage\n \n§f鹿 §cFire Devotion\n§7Abandon all knowledge on other types of magic.",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/fire_archmage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:damage",
+					"value": -0.2,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_chance",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttofrost",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttoarcane",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ffe4",
+		"metadata": {
+			"icon": "jlvstamh3i7o5ias"
+		}
+	},
+	"donoharm": {
+		"title": "壟 §6High Priest",
+		"description": "§7Turn yourself into the light, becoming a wielder of pure holy power that will heal your allies, but lose damage in exchange.\n \n§f牢 §c+10 §7Healing Power\n§f弄 §6-60% §7Physical Damage",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/cleric_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": -0.6,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#9d00ff",
+		"metadata": {
+			"icon": "47p35zypvlpzrd0x"
+		}
+	},
+	"armor+20%": {
+		"title": "",
+		"description": "§f聾 §e+8% §7Armor Efficiency",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/armor.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.08,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#474ab8",
+		"metadata": {
+			"icon": "ke3ib6o83u4rmshd"
+		}
+	},
+	"toughness+20%": {
+		"title": "",
+		"description": "§b聾 §3+5% §7Armor Toughness",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/toughness.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#30ff00",
+		"metadata": {
+			"icon": "7iymm263ogvwi0mx"
+		}
+	},
+	"melee_damage+12%": {
+		"title": "",
+		"description": "§f弄 §6+3.5% §7Physical Damage",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/attack.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.035,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00efff",
+		"metadata": {
+			"icon": "0t1l4wesv67w4zpo"
+		}
+	},
+	"omnivamp": {
+		"title": "§f鹿 §bOmnivampirism",
+		"description": "§7Grants lifesteal, which procs on each melee, ranged or magic hit. \n \n§4磊 +2% §7Lifesteal ",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/omnivamp.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#00efff",
+		"metadata": {
+			"icon": "4fe9gmscb3uy2jyk"
+		}
+	},
+	"lethality": {
+		"title": "",
+		"description": "§f磊 §c+3.5% §7Lethality",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/lethality.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "obscure_api:penetration",
+					"value": 0.035,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#00efff",
+		"metadata": {
+			"icon": "4fe9gmscb3uy2jyk"
+		}
+	},
+	"magicpen": {
+		"title": "",
+		"description": "§b雷 §b+5% §7Magic Resistance",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/magic_pen.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:resistance.generic",
+					"value": 6.667,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#00efff",
+		"metadata": {
+			"icon": "4fe9gmscb3uy2jyk"
+		}
+	},
+	"path_archer": {
+		"title": "§f凌 §bRanger's Path",
+		"description": "§7A focused survivor, gain extra damage when using bows and crossbows.\n \n§f凌 §2+5% §7Ranged Damage",
+		"size": 1.3,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/ranger_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#669968",
+		"metadata": {
+			"icon": "0jhcxsny2y0mruvz"
+		}
+	},
+	"path_rogue": {
+		"title": "§f籠 §cRogue's Path",
+		"description": "§7Proficent in weapons, obtain a small amount of Physical Damage and Haste.\n \n§f弄 §6+1 §7Physical Damage\n§f籠 §e+5% §7Haste",
+		"size": 1.3,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/rogue_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#669968",
+		"metadata": {
+			"icon": "0jhcxsny2y0mruvz"
+		}
+	},
+	"path_fire": {
+		"title": "§f縷 §cPyrotechnic Knowledge",
+		"description": "§7The chaotic fire knowledge runs through your veins.\n \n§f縷 §6+1 §7Fire Power",
+		"size": 1.3,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/path_fire.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#669968",
+		"metadata": {
+			"icon": "0jhcxsny2y0mruvz"
+		}
+	},
+	"path_arcane": {
+		"title": "§f陋 §dEnigmatic Knowledge",
+		"description": "§7The powerful enigmatic knowledge runs through your veins.\n \n§f陋 §d+1 §7Arcane Power",
+		"size": 1.3,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/path_arcane.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#669968",
+		"metadata": {
+			"icon": "0jhcxsny2y0mruvz"
+		}
+	},
+	"path_frost": {
+		"title": "§f勒 §bFrozen Knowledge",
+		"description": "§7The lethal knowledge of the frozen magic runs through your veins.\n \n§f勒 §b+1 §7Frost Power",
+		"size": 1.3,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/path_frost.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#669968",
+		"metadata": {
+			"icon": "0jhcxsny2y0mruvz"
+		}
+	},
+	"path_protector": {
+		"title": "§f聾 §6Protector's Path",
+		"description": "§7Born to protect, gain Max Health and some Healing Power.\n \n§f牢 §c+2.5% §7Maximum Health\n§f牢 §c+1 §7Healing Power\n§f牢 §c+10% §7Self Healing",
+		"size": 1.3,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/path_protector.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#669968",
+		"metadata": {
+			"icon": "0jhcxsny2y0mruvz"
+		}
+	},
+	"ranged_damage+12%": {
+		"title": "",
+		"description": "§f凌 §2+3% §7Ranged Damage",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/ranged.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#669968",
+		"metadata": {
+			"icon": "0jhcxsny2y0mruvz"
+		}
+	},
+	"attack_speed+6%": {
+		"title": "",
+		"description": "§f籠 §e+2% §7Haste",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/attack_speed.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ffe500",
+		"metadata": {
+			"icon": "zxactenjj1ajaqye"
+		}
+	},
+	"movement_speed+6%": {
+		"title": "",
+		"description": "§f牢 §2+3% §7Movement Speed",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/move_speed.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#5aa758",
+		"metadata": {
+			"icon": "545voaik7uzcf3mh"
+		}
+	},
+	"healing+12%": {
+		"title": "",
+		"description": "§f牢 §c+3% §7Healing Power\n§f牢 §c+3% §7Self Healing",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/healing.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#7f7f7f",
+		"metadata": {
+			"icon": "m8nd3t327jsczqnb"
+		}
+	},
+	"stamina+8%": {
+		"title": "",
+		"description": "牢 §e+10% §7Stamina",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/stamina.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff5300",
+		"metadata": {
+			"icon": "k1xeqvyw9djsf58e"
+		}
+	},
+	"fire+12%": {
+        "title": "",
+		"description": "§f縷 §6+3% §7Fire Power\n§f雷 §d+1% §7Spell Critical Chance",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/fire.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_chance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c",
+		"metadata": {
+			"icon": "k8moz0bep6poeume"
+		}
+	},
+	"frost+12%": {
+		"title": "",
+		"description": "§f勒 §b+3% §7Frost Power\n§f賂 §b+1% §7Spell Haste",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/frost.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:haste",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ffff",
+		"metadata": {
+			"icon": "gf315xif2stdqahr"
+		}
+	},
+	"arcane+12%": {
+		"title": "",
+		"description": "§f陋 §d+3% §7Arcane Power\n§c雷 §c+1% §7Spell Critical Damage",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/arcane.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_damage",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#dc23ce",
+		"metadata": {
+			"icon": "3fcigw6fsrjushua"
+		}
+	},
+	"eldritch": {
+		"title": "壟 §dArcane Archmage",
+		"description": "§7Devote yourself to the art of the enigmatic arcane magic, but abandon the knowledge on the rest of the elements.\n \n陋 §d+6 §7Arcane Power\n§c雷 §c+25% §7Spell Critical Damage\n凌 §2-20% §7Ranged Damage\n \n§f鹿 §dArcane Devotion\n§7Abandon all knowledge on other types of magic.",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/arcane_archmage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_damage",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:damage",
+					"value": -0.2,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttofire",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttofrost",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ffe4",
+		"metadata": {
+			"icon": "u230reltjteb5x59"
+		}
+	},
+	"larry": {
+		"title": "§e壟 §6Warrior's Devotion",
+		"description": "§7Greatly increase your damage while wielding two handed weapons at the cost of your elemental magic knowledge.\n \n§f弄 §6+10 §7Physical Damage\n \n§f鹿 §6Titan's Grip\n§7While wielding a two handed weapon:\n§f弄 §6+80% §7Physical Damage\n§f籠 §e-55% §7Haste",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/berserker_path.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttoarcane",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttofire",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttofrost",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#3d72c2",
+		"metadata": {
+			"icon": "hlv0lga5owd0czjk"
+		}
+	},
+	"decayingdevotion": {
+		"title": "§e壟 §cDecaying Devotion",
+		"description": "§7A devotion to death. Abandon Arcane and Fire powers to learn the decaying magics of the Blood and Unholy.\n \n§f弄 §6+5 §7Physical Damage\n§f\uF954 §2+10 §7Unholy Power\n§f肋 §c+10 §7Blood Power\n \n§f鹿 §cRider of Apocalypse\n§7Death Knight abilities and runeblade attacks deal +50% more damage while riding a horse mount.",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "death_knights:textures/icon/prom_compat/decaying_devotion.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eternal_attributes:unholy",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eternal_attributes:blood",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttoarcane",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttofire",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#3d72c2",
+		"metadata": {
+			"icon": "hlv0lga5owd0czjk"
+		}
+	},
+	"grace": {
+		"title": "壟 §bSin'dorei Heritage",
+		"description": "§7Become the master of ranged weapons, increasing your draw speed, and making your projectiles more lethal, at the cost of making your armor less efficent.\n \n凌 §2+5 §7Ranged Damage\n凌 §2+10% §7Ranged Damage\n凌 §2+200% §7Ranged Weapon Handling\n§f聾 §e-50% §7Armor Efficiency",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/legolas_legacy.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": -1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:damage",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:damage",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:draw_speed",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -0.5,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d2mbxjlg2z4ggye3"
+		}
+	},
+	"stalwart": {
+		"title": "壟 §eS'kellak's Blessing",
+		"description": "§7Blesses you and your armor, exchanging 30% of armor into true damage mitigation and heavily increasing your maximum health.\n \n牢 §c+100 §7Maximum Health\n§a聾 §e+30% §7Damage Mitigation\n§f聾 §e-30% §7Armor Efficiency",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/berserker_ignore_pain.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": -0.3,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#30ff00",
+		"metadata": {
+			"icon": "97dunb1b5x5x8231"
+		}
+	},
+	"iceking": {
+		"title": "壟 §bFrost Archmage",
+		"description": "§7Devote yourself to the art of the frozen magic, but abandon the knowledge on the rest of the elements.\n \n§f勒 §b+6 §7Frost Power\n§f雷 §d+5% §7Spell Critical Chance\n§c雷 §c+20% §7Spell Critical Damage\n凌 §2-20% §7Ranged Damage\n \n§f鹿 §bFrozen Devotion\n§7Abandon all knowledge on other types of magic.",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/frost_archmage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_chance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:damage",
+					"value": -0.2,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_damage",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttofire",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:converttoarcane",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ffe4",
+		"metadata": {
+			"icon": "sp922cna5stkq2gh"
+		}
+	},
+	"ascendancyCyclonicCleave": {
+		"title": "§f論 §6Cyclonic Cleave",
+		"description": "§7\nViolently swing your weapon around yourself while moving forward, dealing damage to nearby enemies.\nThis attack scales with Physical Damage and Haste.\n \n§fꦘ §9Corruption Effects§7\nIncreases ability damage every 1 Corruption.\n \n§fꦙ §938+ Corruption Effect§7\nCyclonic Cleave now pulls enemies it hits toward you.\n \n§6賂 §8§n25s Cooldown§7",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/square_selected.png",
+				"available": "prominent_talents:textures/frames/square.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/ascendancy_cyclonic_cleave.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "ascendancyCyclonicCleave"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "udrj1ku6qqe174zs"
+		}
+	},
+	"ascendancyCataclysm": {
+		"title": "§f論 §6Cataclysm",
+		"description": "§7Lock yourself in place to channel a powerful spell that causes several comets to descend along a line in front of you.\n\nScales with the highest of your Frost or Fire spell power attributes.\nLasts 3.5s.\n \n§fꦘ §9Corruption Effects§7\nIncreases comet frequency, allowing for more comets per cast.\n \n§fꦙ §938+ Corruption Effect§7\nFor every comet summoned, gain a stack of Spellforged.\n \n§6賂 §8§n70s Cooldown§7",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/square_selected.png",
+				"available": "prominent_talents:textures/frames/square.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/ascendancy_cataclysm.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "ascendancyCataclysm"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "gzln8dz1ob7tivtc"
+		}
+	},
+	"ascendancyRapidfire": {
+		"title": "§f論 §6Rapidfire",
+		"description": "§7Enter a firing stance and let loose a flurry of arrows.\nYou can move freely while in this stance, but you cannot take other actions.\nRequires a Bow or Crossbow in mainhand.\nLasts 6s.\n \n§fꦘ §9Corruption Effects§7\nIncreases effect duration.\n \n§fꦙ §938+ Corruption Effect§7\nEvery third arrow fired now grants you a stack of Marksmanship.\n \n§6賂 §8§n30s Cooldown§7",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/square_selected.png",
+				"available": "prominent_talents:textures/frames/square.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/ascendancy_rapidfire.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "ascendancyRapidire"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "5rutvm8ojup6xc0r"
+		}
+	},
+	"ascendancySkywardSunder": {
+		"title": "§f論 §6Skyward Sunder",
+		"description": "§7\nGain a stack of Barrier per stack of Might on you and charge forward, knocking back enemies and performing an upward strike, launching both you and your targets into the air before slamming them back into the ground.\nThis attack scales with the highest of your attack, ranged, or spell attributes.\nLasts 3.0s.\n \n§fꦘ §9Corruption Effects§7\nIncreases ability damage.\n \n§fꦙ §938+ Corruption Effect§7\nSkyward Sunder now inflicts enemies hit during the charging phase with Deathmark.\n \n§6賂 §8§n16s Cooldown§7",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/square_selected.png",
+				"available": "prominent_talents:textures/frames/square.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/ascendancy_skyward_sunder.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "ascendancySkywardSunder"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "u8gmcq8ggpks4zh1"
+		}
+	},
+	"ascendancyRighteousHammers": {
+		"title": "§f論 §6Righteous Hammers",
+		"description": "§7Summon hammers that orbit you for a duration, dealing melee damage to nearby enemies and granting you 2% increased melee attack per hammer.\n \n§fꦘ §9Corruption Effects§7\nSummon an additional hammer for every 10 corruption.\n \n§fꦙ §938+ Corruption Effect§7\nPeriodically create additional hammers that seek out and strike nearby targets.\n \n§6賂 §8§n60s Cooldown§7",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/square_selected.png",
+				"available": "prominent_talents:textures/frames/square.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/ascendancy_righteous_hammers.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "ascendancyRighteousHammers"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "qxln5dje97r09xoc"
+		}
+	},
+	"ascendancyRighteousShield": {
+		"title": "§f論 §6Righteous Shield",
+		"description": "§7While this ability is slotted, you generate a stack of §6Golden Aegis§7 whenever you block an attack. Golden Aegis increases Healing Spell Power, Armor, and Armor Toughness by 1% per stack. Max 15 stacks.\n \nActivating this ability consumes all stacks of Golden Aegis to manifest a shield of holy energy that can be thrown for a variety of effects depending on the stacks consumed.\n \n§7§6Less than 5 stacks:§7 The shield deals damage to enemies and ricochets 2 times.\n§65 Stacks:§7 The shield deals increased damage to enemies and ricochets 5 times.\n§610 Stacks:§7 The shield no longer damages enemies or ricochets and instead pierces and heals allies it passes through.\n§615 Stacks:§7 The shield is larger, deals significantly more damage, and inflicts Death Mark, but it no longer ricochets.§7\n \n§fꦘ §9Corruption Effects§7\nIncreases the maximum stacks of §6Golden Aegis§7 by 1 per 10 corruption.\n \n§fꦙ §938+ Corruption Effect§7\nWhile slotted, this ability now passively generates stacks of §aGolden Aegis§7.\nDamage scales with Healing Spell Power.\n \n§6賂 §8§n6s Cooldown§7",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/square_selected.png",
+				"available": "prominent_talents:textures/frames/square.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/ascendancy_righteous_shield.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "ascendancyRighteousShield"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nrxbkbzylt7mn1by"
+		}
+	},
+	"ascendancyBoneArmor": {
+		"title": "§f論 §6Bone Armor",
+		"description": "§7\nTaunt nearby enemies and shield yourself in a layer of bones, gaining an additional layer for each enemy taunted, up to a maximum of 6.\nTaking damage removes a layer.\n \n§f肋 §c+1 §7Blood Power §8(Per Stack)\n \n§fꦘ §9Corruption Effects§7\nExtend the duration of the Taunt.\n \n§fꦙ §938+ Corruption Effect§7\nIn addition to taunting nearby enemies, you also inflict them with Weakness.\n \n§6賂 §8§n40s Cooldown§7",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/square_selected.png",
+				"available": "prominent_talents:textures/frames/square.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/ascendancy_bone_armor.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "ascendancyBoneArmor"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "9tq64hk9w5c6l1w3"
+		}
+	},
+	"warriorTwinstrike": {
+		"title": "§b壟 §9Shadow Techniques",
+		"description": "§7Master the shadow techniques and become a lethal assassin.\n \n§f籠 §e+35% §7Haste\n \n§9鹿 §9Slice & Dice\n§7Your melee hits have a chance to strike twice.\nThis chance is doubled on one handed weapons.",
+		"size": 1.2,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/warrior_twinstrike.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "warriorTwinstrike"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.35,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "37nn7ezqyjfn7qpm"
+		}
+	},
+	"warriorSwordfall": {
+		"title": "§f鹿 §bS'kellak's Call",
+		"description": "§7Your melee hits have a chance to call down a molten hammer from the sky, dealing fire damage to your target and all nearby enemies.\n \nThis chance is doubled for those fated to the Warrior's Devotion§7.",
+		"size": 1.2,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/warrior_swordfall.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "warriorSwordfall"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "g2lsa11wk5y948of"
+		}
+	},
+	"wayfarerQuickfire": {
+		"title": "§f鹿 §bFocus Zone",
+		"description": "§7After using the Barrage bow ability, enter a state of intense focus.\n\nWhile focused, you move slower while drawing your bow and it takes longer to fully draw, but it deals significantly more damage.\n \nIf using a crossbow, immediately gain Stealth & Marksmanship instead.",
+		"size": 1.2,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/focus.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "wayfarerQuickfire"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "y2rp2hw2nwsuq5bm"
+		}
+	},
+	"initiateEmpower": {
+		"title": "§f鹿 §bEmpower",
+		"description": "§7Chance on spell cast to gain a stack of Attunement.\n \n§f鹿 §bAttunement§7\nIncreases spell damage for a specific school of magic by +2% per stack.",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/initiate_empower.png"
+			}
+		},
+		"size": 1.2,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "initiateEmpower"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "3iehr8ovagq80w7t"
+		}
+	},
+	"initiateGambit": {
+		"title": "§f鹿 §bCritical Thinking",
+		"description": "§7Reduces your §b雷§7 Spell Damage by -25%, but increases your §c雷§7 Spell Critical Damage by +75%.",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/initiate_gambit.png"
+			}
+		},
+		"size": 1.2,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_damage",
+					"value": 0.75,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:soul",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:lightning",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eternal_attributes:decaying",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eternal_attributes:blood",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eternal_attributes:unholy",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uebktod6deas5vfs"
+		}
+	},
+	"Elementalist": {
+		"title": "壟 §dKnowledge Of Runes & Stars",
+		"description": "§7Become an astral sorcerer and gain astral power that empowers all elemental spells.\n \n§f稜 §d+3 §7Astral Power\n§f雷 §d+8% §7Spell Critical Chance\n§c雷 §c+15% §7Spell Critical Damage\n凌 §2-20% §7Ranged Damage\n \n§f鹿 §dAstral Power\n§7Learn to harness the power of the runes and stars to empower your spells, unlocking Astral Power, which increases the power of all elemental spells.",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/rune_of_stars.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_chance",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_damage",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ranged_weapon:damage",
+					"value": -0.2,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "7xdv4qj6p7ub866s"
+		}
+	},
+	"bardPassive": {
+		"title": "§b壟 §9A Bard's Tale",
+		"description": "§7While playing instruments, you now provide buffs to nearby players from your party (or allied parties)\n\nThe type of instrument determines the types of buffs provided:\n \n§6Trumpet & Bagpipe:§e Melody of War\n§7  - Increases damage dealt by +10% and grants Regeneration.\n \n§6Didgeridoo:§e Melody of Protection\n§7  - Reduces damage taken by 10% and grants Strength.\n \n§6Flute: §eMelody of Swiftness\n§7  - Increases Movement Speed by +30% and grants Dolphin's Grace.\n \n§6Lute: §eMelody of Safety\n§7  - Heals 10% of the Maximum Health every second.\n \n§6Triangle: §eMelody of Bloodlust\n§7  - Increases Haste by +20% and damage dealt by +5%\n \n§6Piano: §eMelody of Concentration\n§7  - Increases Haste by +20% and Movement Speed by +10%",
+		"size": 1.2,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/melody.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "bardPassive"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "9zmmgyyh97ol8a13"
+		}
+	},
+	"bardActive": {
+		"title": "§f論 §6Dissonance",
+		"description": "§7Release a disruptive sound, stunning nearby enemies and inflicting them with negative effects depending on your active melodies.\n \n§fꦘ §9Corruption Effects§7\nEach point of corruption extends the effect duration.\n \n§6賂 §8§n40s Cooldown§7",
+		"size": 1.4,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/square_selected.png",
+				"available": "prominent_talents:textures/frames/square.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/ascendancy_chainbreaker.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:passive_skill",
+				"data": {
+					"passive_skill": "bardActive"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "3srmy9kzgdyct1a2"
+		}
+	}
 }
