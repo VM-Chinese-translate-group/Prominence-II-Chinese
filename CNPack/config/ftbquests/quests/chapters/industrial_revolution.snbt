@@ -6,6 +6,15 @@
 	group: "49D52BD6447C5CC0"
 	icon: "indrev:mining_rig_mk4"
 	id: "7DBBF6BCE6FF4D19"
+	images: [{
+		height: 2.0d
+		hover: ["ftbquests.chapter.industrial_revolution.images0.hover0"]
+		image: "ftblibrary:icons/info"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.5d
+		y: 0.0d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -2469,6 +2478,104 @@
 			]
 			x: -13.0d
 			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "0A9ED4CA6047FCE6"
+			rewards: [{
+				id: "366E76F1B7ED9198"
+				item: "techreborn:glassfiber_cable"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6FB1D9D8633616C3"
+				item: "indrev:cable_mk4"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "457ADFA0628B7EE9"
+			rewards: [{
+				id: "48B70167C61FC42B"
+				item: "techreborn:glassfiber_cable"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4AA2442EB0412377"
+				item: "indrev:cable_mk3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "3ED05078B30409E4"
+			rewards: [{
+				id: "0074617720639DCA"
+				item: "techreborn:insulated_gold_cable"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5C26D6038679F5E1"
+				item: "indrev:cable_mk1"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "660D44EEB0A6C147"
+			rewards: [{
+				id: "0C7124662EE7A19B"
+				item: "techreborn:insulated_hv_cable"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4646714488FAFF14"
+				item: "indrev:cable_mk2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.industrial_revolution.quests104.description0}"
+				""
+				""
+				"{ftbquests.chapter.industrial_revolution.quests104.description3}"
+				""
+				"{ftbquests.chapter.industrial_revolution.quests104.description5}"
+				""
+				"{ftbquests.chapter.industrial_revolution.quests104.description7}"
+				""
+				"{ftbquests.chapter.industrial_revolution.quests104.description9}"
+				""
+				"{ftbquests.chapter.industrial_revolution.quests104.description11}"
+			]
+			id: "493019770C273D5E"
+			rewards: [{
+				id: "5FFF2A5C81A8D7EE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.industrial_revolution.quests104.subtitle}"
+			tasks: [{
+				id: "0B1C7D7CC932659C"
+				title: "{ftbquests.chapter.industrial_revolution.quests104.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.5d
 		}
 	]
 	title: "{ftbquests.chapter.industrial_revolution.title}"

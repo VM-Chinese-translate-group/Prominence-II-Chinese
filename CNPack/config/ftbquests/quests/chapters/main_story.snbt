@@ -1485,6 +1485,8 @@
 		{
 			dependencies: ["173314BDF690683E"]
 			description: [
+				"{ftbquests.chapter.main_story.quests25.description5}"
+				""
 				"{ftbquests.chapter.main_story.quests25.description0}"
 				""
 				"{ftbquests.chapter.main_story.quests25.description2}"
@@ -1492,6 +1494,8 @@
 				"{ftbquests.chapter.main_story.quests25.description4}"
 				""
 				"{@pagebreak}"
+				"{ftbquests.chapter.main_story.quests25.description6}"
+				""
 				"{ftbquests.chapter.main_story.quests25.description7}"
 				""
 				"{ftbquests.chapter.main_story.quests25.description9}"
