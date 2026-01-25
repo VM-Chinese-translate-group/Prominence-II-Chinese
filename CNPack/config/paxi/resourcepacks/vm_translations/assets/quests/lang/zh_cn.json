@@ -2871,7 +2871,7 @@
     "ftbquests.chapter.tech_reborn.quests39.subtitle":"当硝基柴油或燃油作为燃料时产生20E/t。",
     "ftbquests.chapter.tech_reborn.quests4.subtitle":"一个可以用能源运行而不是煤炭的升级版熔炉。",
     "ftbquests.chapter.tech_reborn.quests40.subtitle":"当消耗液态等离子氦作为燃料时500E/t。",
-    "ftbquests.chapter.tech_reborn.quests41.subtitle":"Generates 10 E/t per side touching water.",
+    "ftbquests.chapter.tech_reborn.quests41.subtitle":"该机器每多一面接触水，能量产出增加10E/t。",
     "ftbquests.chapter.tech_reborn.quests42.subtitle":"Generates 15 E/t (x5 E/t during thunderstorms), needs to be placed above y: 64.",
     "ftbquests.chapter.tech_reborn.quests44.subtitle":"在游戏后期，你需要大量的钨。一种获得它的方法是离心熔岩或末地石粉。",
     "ftbquests.chapter.tech_reborn.quests45.subtitle":"[\"\",\"可以在 \",{\"text\":\"末地\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"45D9C9CD7B2568A0\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[]}},\"找到。\"]",
