@@ -3021,9 +3021,6 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests43.description0}"
 				""
 				"{ftbquests.chapter.einformation_7new_mechanics.quests43.description2}"
-				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests43.description4}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests43.description5}"
 			]
 			hide_until_deps_visible: true
 			id: "42068E429EB7B74F"
@@ -3106,8 +3103,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests43.title}"
-			x: 3.375d
-			y: -0.375d
+			x: 3.75d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -3211,8 +3208,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests44.title}"
-			x: 4.0d
-			y: -1.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3D78B8D241B53C2A"]
@@ -4496,7 +4493,8 @@
 			y: -2.5357142857142705d
 		}
 		{
-			dependencies: ["4B450D0E26363D54"]
+			dependencies: ["06DFB0682D1B98E9"]
+			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.einformation_7new_mechanics.quests61.description0}"
 				""
@@ -4506,6 +4504,7 @@
 			]
 			hide_until_deps_visible: true
 			id: "4CF644BC0920C177"
+			min_required_dependencies: 1
 			rewards: [
 				{
 					count: 16
@@ -4535,11 +4534,6 @@
 			size: 0.75d
 			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests61.subtitle}"
 			tasks: [
-				{
-					id: "6355C1049705E699"
-					item: "death_knights:blood_spell_book"
-					type: "item"
-				}
 				{
 					id: "3817D7122445295D"
 					item: {
@@ -4607,8 +4601,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests61.title}"
-			x: 3.0d
-			y: -1.125d
+			x: 3.375d
+			y: -1.875d
 		}
 		{
 			dependencies: [
@@ -4852,6 +4846,102 @@
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests64.title}"
 			x: 3.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["57B71888F2B87995"]
+			description: [
+				"{ftbquests.chapter.einformation_7new_mechanics.quests65.description0}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quests65.description2}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quests65.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quests65.description5}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quests65.description7}"
+			]
+			id: "06DFB0682D1B98E9"
+			rewards: [
+				{
+					count: 16
+					id: "2140EBAD5929B496"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: "ironchests:lock"
+					id: "016312526BD448A4"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quests65.rewards1.title}"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests65.subtitle}"
+			tasks: [
+				{
+					id: "49E7A57B77B185B6"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DD2959FC883993B"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B49D14C702B088C"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6383255663BF0F3B"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_guard_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04287363FA4D6838"
+					item: {
+						Count: 1
+						id: "death_knights:great_diamond_runeaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "384805A50AF85B1F"
+					item: "death_knights:blood_spell_book"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quests65.title}"
+			x: 2.25d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.einformation_7new_mechanics.title}"

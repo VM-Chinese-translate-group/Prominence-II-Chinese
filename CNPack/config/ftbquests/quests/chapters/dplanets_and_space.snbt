@@ -306,6 +306,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["6E9F5146EA3F505F"]
 			description: ["{ftbquests.chapter.dplanets_and_space.quests7.description0}"]
 			id: "60526E15B6F891CB"
 			rewards: [{

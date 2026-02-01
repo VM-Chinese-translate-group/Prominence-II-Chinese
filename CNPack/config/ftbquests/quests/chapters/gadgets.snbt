@@ -1,9 +1,9 @@
 {
+	autofocus_id: "01BF1397DC5B4906"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "gadgets"
 	group: "49D52BD6447C5CC0"
-	icon: "kibe:cobblestone_generator_mk3"
 	id: "5E6450E48F6FFE86"
 	images: [
 		{
@@ -11,40 +11,64 @@
 			image: "modern_industrialization:block/machines/diesel_generator/overlay_front_active"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.5d
-			y: 0.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			height: 1.2d
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			height: 1.2d
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			height: 1.2d
+			image: "supplementaries:block/cog_block_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "modern_industrialization:block/machines/diesel_generator/overlay_top_active"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			image: "kibe:item/brown_glider"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			height: 1.0d
-			image: "supplementaries:block/cog_block_on"
+			image: "fancymenu:textures/contextmenu/icons/measure.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.10714285714286831d
-			y: 4.125d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cog_block_on"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.9642857142857295d
-			y: 4.982142857142861d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cog_block_on"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.9642857142857224d
-			y: 4.125d
-		}
-		{
-			height: 1.0d
-			image: "supplementaries:block/cog_block_on"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.10714285714286831d
-			y: 3.267857142857146d
+			x: 2.0d
+			y: 9.0d
 		}
 	]
 	order_index: 0
@@ -53,428 +77,643 @@
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			id: "272B5685646C522E"
-			rewards: [
-				{
-					id: "749ED8232EC8098B"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			subtitle: "{ftbquests.chapter.gadgets.quests0.subtitle}"
-			tasks: [
-				{
-					id: "019C6F0E4943EE76"
-					item: "kibe:cobblestone_generator_mk1"
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: 1.0d
+			rewards: [{
+				id: "749ED8232EC8098B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Single-block Generator for Cobblestone!"
+			tasks: [{
+				id: "019C6F0E4943EE76"
+				item: "kibe:cobblestone_generator_mk1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["272B5685646C522E"]
 			id: "202A89A44FC39203"
-			rewards: [
-				{
-					id: "3049ED4D2C5AD6F6"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			tasks: [
-				{
-					id: "5FB32FCE41AB16B6"
-					item: "kibe:cobblestone_generator_mk2"
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: -0.5d
+			rewards: [{
+				id: "3049ED4D2C5AD6F6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5FB32FCE41AB16B6"
+				item: "kibe:cobblestone_generator_mk2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["202A89A44FC39203"]
 			id: "57FE6A61042C4F26"
-			rewards: [
-				{
-					id: "34A8D49CB123E3D2"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			tasks: [
-				{
-					id: "47012DB3FC46AD60"
-					item: "kibe:cobblestone_generator_mk3"
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: -2.0d
+			rewards: [{
+				id: "34A8D49CB123E3D2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "47012DB3FC46AD60"
+				item: "kibe:cobblestone_generator_mk3"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["57FE6A61042C4F26"]
 			id: "189176286B6E28F4"
-			rewards: [
-				{
-					id: "3B7B306453132E15"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
-			tasks: [
-				{
-					id: "1E00797F8B97E26A"
-					item: "kibe:cobblestone_generator_mk4"
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: -3.5d
+			rewards: [{
+				id: "3B7B306453132E15"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "1E00797F8B97E26A"
+				item: "kibe:cobblestone_generator_mk4"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["189176286B6E28F4"]
 			id: "26A42453CA1F0F1D"
 			optional: true
-			rewards: [
-				{
-					id: "2AB1CD986F3F0085"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [
-				{
-					id: "4409F5E6147284FB"
-					item: "kibe:cobblestone_generator_mk5"
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: -5.0d
+			rewards: [{
+				id: "2AB1CD986F3F0085"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4409F5E6147284FB"
+				item: "kibe:cobblestone_generator_mk5"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			id: "698C1D52BBCFA71D"
-			rewards: [
-				{
-					id: "532424C32E3953EB"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			subtitle: "{ftbquests.chapter.gadgets.quests5.subtitle}"
-			tasks: [
-				{
-					id: "7FE15890CCD21465"
-					item: "kibe:basalt_generator_mk1"
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 1.0d
+			rewards: [{
+				id: "532424C32E3953EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Single-block Generator for Basalt!"
+			tasks: [{
+				id: "7FE15890CCD21465"
+				item: "kibe:basalt_generator_mk1"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["698C1D52BBCFA71D"]
 			id: "362CF5CFE6362C52"
-			rewards: [
-				{
-					id: "2D891D924489EED5"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			tasks: [
-				{
-					id: "0A5B24964DC3B830"
-					item: "kibe:basalt_generator_mk2"
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -0.5d
+			rewards: [{
+				id: "2D891D924489EED5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0A5B24964DC3B830"
+				item: "kibe:basalt_generator_mk2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["362CF5CFE6362C52"]
 			id: "754D9CEEDB384336"
-			rewards: [
-				{
-					id: "4EE4358F690003E8"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			tasks: [
-				{
-					id: "4B67A4E6A158D66B"
-					item: "kibe:basalt_generator_mk3"
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -2.0d
+			rewards: [{
+				id: "4EE4358F690003E8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4B67A4E6A158D66B"
+				item: "kibe:basalt_generator_mk3"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["754D9CEEDB384336"]
 			id: "0C91FB5B9F7988B9"
-			rewards: [
-				{
-					id: "2ECDE0733CEF8AE8"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
-			tasks: [
-				{
-					id: "5D72B7CADC9514DA"
-					item: "kibe:basalt_generator_mk4"
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -3.5d
+			rewards: [{
+				id: "2ECDE0733CEF8AE8"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "5D72B7CADC9514DA"
+				item: "kibe:basalt_generator_mk4"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0C91FB5B9F7988B9"]
 			id: "29D70F4BD652022A"
 			optional: true
-			rewards: [
-				{
-					id: "189E0E15EB2124A2"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [
-				{
-					id: "43A8DECB43CA54B4"
-					item: "kibe:basalt_generator_mk5"
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -5.0d
+			rewards: [{
+				id: "189E0E15EB2124A2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "43A8DECB43CA54B4"
+				item: "kibe:basalt_generator_mk5"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
 		}
 		{
+			icon: "mobs_of_mythology:gear"
 			id: "01BF1397DC5B4906"
-			shape: "rsquare"
-			size: 1.25d
-			subtitle: "{ftbquests.chapter.gadgets.quests10.subtitle}"
-			tasks: [
-				{
-					id: "3EE7C97623ACE6EA"
-					title: "{ftbquests.chapter.gadgets.quests10.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			x: 0.625d
-			y: 3.75d
+			shape: "gear"
+			size: 1.0d
+			subtitle: "This quest line is about discovering the unique and quirky items/blocks in Prominence, which could even help with some of the tech mods!"
+			tasks: [{
+				id: "3EE7C97623ACE6EA"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			id: "33C2B1CC10CF07D1"
-			rewards: [
-				{
-					id: "785B286B5BCEB11A"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.gadgets.quests11.subtitle}"
-			tasks: [
-				{
-					id: "1A0EDE59F7165D1D"
-					item: "darkutils:blank_plate"
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 2.5d
+			rewards: [{
+				id: "785B286B5BCEB11A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Blank Plates are the basis towards Effect Plates. Stepping on an Effect Plate will give you the designated effect."
+			tasks: [{
+				id: "1A0EDE59F7165D1D"
+				item: "darkutils:blank_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["33C2B1CC10CF07D1"]
 			id: "682198412A038176"
-			rewards: [
-				{
-					id: "7E9DEF92BB22995C"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "146EA13F09C298E1"
-					item: "darkutils:vector_plate"
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 1.0d
+			rewards: [{
+				id: "7E9DEF92BB22995C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "146EA13F09C298E1"
+				item: "darkutils:vector_plate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["682198412A038176"]
 			id: "222E128CF7D132DA"
-			rewards: [
-				{
-					id: "7E6279A9A6BC947C"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "274A29FA7DBE0A56"
-					item: "darkutils:vector_plate_fast"
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -0.5d
+			rewards: [{
+				id: "7E6279A9A6BC947C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "274A29FA7DBE0A56"
+				item: "darkutils:vector_plate_fast"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["222E128CF7D132DA"]
 			id: "51186DDE3C82D092"
-			rewards: [
-				{
-					id: "330A7BAE15169F3D"
-					type: "xp"
-					xp: 150
-				}
-			]
-			tasks: [
-				{
-					id: "43CBEBF90FD1C4BC"
-					item: "darkutils:vector_plate_extreme"
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -2.0d
+			rewards: [{
+				id: "330A7BAE15169F3D"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "43CBEBF90FD1C4BC"
+				item: "darkutils:vector_plate_extreme"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["51186DDE3C82D092"]
+			description: ["&7These Plates can me made by striking them with Lightning."]
 			id: "4C73E9CCD2C8DEFC"
 			optional: true
-			rewards: [
-				{
-					id: "5C1CE0BD2839DB12"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [
-				{
-					id: "294BD2C76A8E2DD5"
-					item: "darkutils:vector_plate_ultra"
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -3.5d
+			rewards: [{
+				id: "5C1CE0BD2839DB12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "294BD2C76A8E2DD5"
+				item: "darkutils:vector_plate_ultra"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["33C2B1CC10CF07D1"]
 			id: "22E7D110891A35CE"
-			rewards: [
-				{
-					id: "3AD057C78A190708"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "35C1195647FCD6F7"
-					item: "darkutils:damage_plate"
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 1.0d
+			rewards: [{
+				id: "3AD057C78A190708"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "35C1195647FCD6F7"
+				item: "darkutils:damage_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["22E7D110891A35CE"]
 			id: "42480A1A38796A11"
-			rewards: [
-				{
-					id: "12E9C09815F34173"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "3E5E44A38ACC27EB"
-					item: "darkutils:damage_plate_player"
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: -0.5d
+			rewards: [{
+				id: "12E9C09815F34173"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E5E44A38ACC27EB"
+				item: "darkutils:damage_plate_player"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests18.description}"]
+			description: ["(there's more than just Player filters)"]
 			id: "105CE0D106AEF623"
-			rewards: [
-				{
-					id: "27D2B1FEDF40CD34"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.gadgets.quests18.subtitle}"
-			tasks: [
-				{
-					id: "16497AA38411B191"
-					item: "darkutils:filter_player"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "27D2B1FEDF40CD34"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Mob Filters are blocks that only a select few entities can go through."
+			tasks: [{
+				id: "16497AA38411B191"
+				item: "darkutils:filter_player"
+				type: "item"
+			}]
 			x: 4.5d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			id: "643A54B52DA18CD9"
-			rewards: [
-				{
-					id: "3A6C563676D74C02"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.gadgets.quests19.subtitle}"
-			tasks: [
-				{
-					id: "2F7AA5CAC5265F1A"
-					item: "oxidized:copper_pan"
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 6.5d
+			rewards: [{
+				id: "3A6C563676D74C02"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Copper pans are an earlygame alternative to ore farms commonly found in tech mods like Create. When putting sand/gravel underneath and water above, they will rarely generate ore nuggets, gravel, emeralds, and a few other miscellaneous items."
+			tasks: [{
+				id: "2F7AA5CAC5265F1A"
+				item: "oxidized:copper_pan"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
 			id: "55EF78F7FBC33FDB"
-			rewards: [
-				{
-					id: "294AC68BFCAC531E"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.gadgets.quests20.subtitle}"
-			tasks: [
-				{
-					id: "1C16C5D041D713A7"
-					item: "supplementaries:cog_block"
-					type: "item"
-				}
-			]
-			x: -2.0d
+			rewards: [{
+				id: "294AC68BFCAC531E"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Cog Blocks are pretty much just redstone but they can be placed in the air."
+			tasks: [{
+				id: "1C16C5D041D713A7"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			x: -3.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["33C2B1CC10CF07D1"]
+			description: ["&7Plates do not apply Enchants, but your Weapon does. This Plate damages mobs until they have 1 HP left, perfect for that Looting 4 Sword."]
+			id: "218B8D291E7E03CC"
+			rewards: [{
+				id: "7927BE89AEDD31D4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "For when you wanna Hurt Mobs, but kill them yourself"
+			tasks: [{
+				id: "049FC1F5C63F58BC"
+				item: "darkutils:damage_plate_maim"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Don't Like hand feeding your animals? Thing Trough will take that work off you."]
+			id: "0752F260D9482517"
+			rewards: [{
+				id: "6E683934287BA0D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CBC9BE18BF77487"
+				item: "animal_feeding_trough:feeding_trough"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Great way to find out if that wall is 1 block too long 2 hours too late."]
+			id: "76126702A53ACAD5"
+			rewards: [{
+				id: "392BA00E8D746CC7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "I know what youre thinking."
+			tasks: [{
+				id: "1A3E7383C61AC7C9"
+				item: "kibe:measuring_tape"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Gliders are one of the best ways to fly before going to the End. These things are affordable and incredibly useful for traversing large areas of land."]
+			icon: {
+				Count: 1
+				id: "kibe:white_glider"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "536478FBB30EBDD1"
+			rewards: [{
+				id: "580E10A1022CBB4C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Not quite flying, not quite falling"
+			tasks: [{
+				id: "6CD8FAD59A12D810"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "the_bumblezone:bee_queen/dedicated_trade_tags/modded/kibe_gliders"
+					}
+				}
+				title: "Craft a glider!"
+				type: "item"
+			}]
+			title: "Gliders"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7The Trash Can is the Apex Predator of an Unorganized Base. Don't need 4000 Stone Swords? Trashy will enjoy the meal!"]
+			id: "32C20FDE9BB4F43C"
+			rewards: [{
+				count: 8
+				id: "365BAA91260E92D9"
+				item: "techreborn:scrap"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3648B9DDC2E1A172"
+				item: "kibe:trash_can"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7This Staff can be used to Wax certain blocks, instead of doing it manually."]
+			id: "47AD2D244D3DB9AC"
+			rewards: [{
+				id: "6A753B70D6DAC757"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Sticky!"
+			tasks: [{
+				id: "099916A3C850E989"
+				item: "derelict:waxing_staff"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			id: "5A378CE869D256FB"
+			rewards: [{
+				id: "224D5645926832E1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Feeling older already?"
+			tasks: [{
+				id: "5BB5450E3CBFF848"
+				item: "derelict:aging_staff"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			id: "72873ACC7B56E3CA"
+			rewards: [{
+				id: "2F3E8D08E3CDAB8A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Tired of mobs?"
+			tasks: [{
+				id: "3CC03DEB8ADEDD54"
+				item: "bosses_of_mass_destruction:mob_ward"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7This block gives a very limited Area of Creative flight. Other Alternatives are the Flügel Tiara and Gravichestplate."]
+			id: "69EE5CD66CD38E4E"
+			rewards: [{
+				id: "6233CE0A71094D28"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2782E171A67DF31F"
+				item: "bosses_of_mass_destruction:levitation_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Ever Wanted to go through a wall without hurting your head for once? This item is just perfect for you!"]
+			id: "0E280434A6732E11"
+			rewards: [{
+				id: "664CA45146FC92A5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "74B64782E2F603AF"
+				item: {
+					Count: 1
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7Are you an Archer who doesn't know where to put your Arrows? This Quiver is great for Storing tons of arrows."]
+			id: "58469ECD7976AB8A"
+			rewards: [{
+				count: 20
+				id: "1B55E1BF76A7483B"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52E3B903DDC670B9"
+				item: {
+					Count: 1
+					id: "supplementaries:quiver"
+					tag: {
+						SelectedSlot: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["32C20FDE9BB4F43C"]
+			description: ["&7No Trash Slot in your inventory or backpack? Just carry a comically large Trash Can in your hand, for some reason Don't Question it too long."]
+			id: "15BB544C1D7D5ACC"
+			rewards: [{
+				id: "48F33A2C317BCD19"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A3E3C90C051C316"
+				item: "kibe:pocket_trash_can"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01BF1397DC5B4906"]
+			description: ["&7This Torch can stop any Hostile Spawns in a large area. Great for your base."]
+			id: "3A0D1D453519DE78"
+			rewards: [
+				{
+					id: "09BF5EFC3E57CDF7"
+					item: "magnumtorch:diamond_magnum_torch"
+					type: "item"
+				}
+				{
+					id: "74928E78780B4EE6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "49CA26E1459F7649"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A0D1D453519DE78"]
+			description: ["&7Don't like Animals spawning? Just use this torch. You monster."]
+			id: "5B7E6F6DD11B7606"
+			rewards: [{
+				id: "1388398AC64935FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B2FF9E3AE9028B7"
+				item: "magnumtorch:emerald_magnum_torch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A0D1D453519DE78"]
+			description: ["&7This Torch will stop fish and other Aquatic animals from spawning, not sure why but this would be a great for a Trident farm."]
+			id: "5E7B9EA964BBE5A5"
+			rewards: [{
+				id: "2C838CA28329B54E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19A2BCBBABC33D07"
+				item: "magnumtorch:amethyst_magnum_torch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
 	]
-	title: "{ftbquests.chapter.gadgets.title}"
+	title: " &eGadgets"
 }
