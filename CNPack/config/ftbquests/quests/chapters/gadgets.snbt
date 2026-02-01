@@ -82,7 +82,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Single-block Generator for Cobblestone!"
+			subtitle: "{ftbquests.chapter.gadgets.quests0.subtitle}"
 			tasks: [{
 				id: "019C6F0E4943EE76"
 				item: "kibe:cobblestone_generator_mk1"
@@ -164,7 +164,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Single-block Generator for Basalt!"
+			subtitle: "{ftbquests.chapter.gadgets.quests5.subtitle}"
 			tasks: [{
 				id: "7FE15890CCD21465"
 				item: "kibe:basalt_generator_mk1"
@@ -243,10 +243,10 @@
 			id: "01BF1397DC5B4906"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "This quest line is about discovering the unique and quirky items/blocks in Prominence, which could even help with some of the tech mods!"
+			subtitle: "{ftbquests.chapter.gadgets.quests10.subtitle}"
 			tasks: [{
 				id: "3EE7C97623ACE6EA"
-				title: "Welcome!"
+				title: "{ftbquests.chapter.gadgets.quests10.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -260,7 +260,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Blank Plates are the basis towards Effect Plates. Stepping on an Effect Plate will give you the designated effect."
+			subtitle: "{ftbquests.chapter.gadgets.quests11.subtitle}"
 			tasks: [{
 				id: "1A0EDE59F7165D1D"
 				item: "darkutils:blank_plate"
@@ -319,7 +319,7 @@
 		}
 		{
 			dependencies: ["51186DDE3C82D092"]
-			description: ["&7These Plates can me made by striking them with Lightning."]
+			description: ["{ftbquests.chapter.gadgets.quests15.description0}"]
 			id: "4C73E9CCD2C8DEFC"
 			optional: true
 			rewards: [{
@@ -369,14 +369,14 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["(there's more than just Player filters)"]
+			description: ["{ftbquests.chapter.gadgets.quests18.description0}"]
 			id: "105CE0D106AEF623"
 			rewards: [{
 				id: "27D2B1FEDF40CD34"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Mob Filters are blocks that only a select few entities can go through."
+			subtitle: "{ftbquests.chapter.gadgets.quests18.subtitle}"
 			tasks: [{
 				id: "16497AA38411B191"
 				item: "darkutils:filter_player"
@@ -393,7 +393,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Copper pans are an earlygame alternative to ore farms commonly found in tech mods like Create. When putting sand/gravel underneath and water above, they will rarely generate ore nuggets, gravel, emeralds, and a few other miscellaneous items."
+			subtitle: "{ftbquests.chapter.gadgets.quests19.subtitle}"
 			tasks: [{
 				id: "2F7AA5CAC5265F1A"
 				item: "oxidized:copper_pan"
@@ -410,7 +410,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Cog Blocks are pretty much just redstone but they can be placed in the air."
+			subtitle: "{ftbquests.chapter.gadgets.quests20.subtitle}"
 			tasks: [{
 				id: "1C16C5D041D713A7"
 				item: "supplementaries:cog_block"
@@ -421,14 +421,14 @@
 		}
 		{
 			dependencies: ["33C2B1CC10CF07D1"]
-			description: ["&7Plates do not apply Enchants, but your Weapon does. This Plate damages mobs until they have 1 HP left, perfect for that Looting 4 Sword."]
+			description: ["{ftbquests.chapter.gadgets.quests21.description0}"]
 			id: "218B8D291E7E03CC"
 			rewards: [{
 				id: "7927BE89AEDD31D4"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "For when you wanna Hurt Mobs, but kill them yourself"
+			subtitle: "{ftbquests.chapter.gadgets.quests21.subtitle}"
 			tasks: [{
 				id: "049FC1F5C63F58BC"
 				item: "darkutils:damage_plate_maim"
@@ -439,7 +439,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["&7Don't Like hand feeding your animals? Thing Trough will take that work off you."]
+			description: ["{ftbquests.chapter.gadgets.quests22.description0}"]
 			id: "0752F260D9482517"
 			rewards: [{
 				id: "6E683934287BA0D9"
@@ -456,14 +456,14 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["&7Great way to find out if that wall is 1 block too long 2 hours too late."]
+			description: ["{ftbquests.chapter.gadgets.quests23.description0}"]
 			id: "76126702A53ACAD5"
 			rewards: [{
 				id: "392BA00E8D746CC7"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "I know what youre thinking."
+			subtitle: "{ftbquests.chapter.gadgets.quests23.subtitle}"
 			tasks: [{
 				id: "1A3E7383C61AC7C9"
 				item: "kibe:measuring_tape"
@@ -474,7 +474,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["&7Gliders are one of the best ways to fly before going to the End. These things are affordable and incredibly useful for traversing large areas of land."]
+			description: ["{ftbquests.chapter.gadgets.quests24.description0}"]
 			icon: {
 				Count: 1
 				id: "kibe:white_glider"
@@ -488,7 +488,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Not quite flying, not quite falling"
+			subtitle: "{ftbquests.chapter.gadgets.quests24.subtitle}"
 			tasks: [{
 				id: "6CD8FAD59A12D810"
 				item: {
@@ -498,16 +498,16 @@
 						value: "the_bumblezone:bee_queen/dedicated_trade_tags/modded/kibe_gliders"
 					}
 				}
-				title: "Craft a glider!"
+				title: "{ftbquests.chapter.gadgets.quests24.tasks0.title}"
 				type: "item"
 			}]
-			title: "Gliders"
+			title: "{ftbquests.chapter.gadgets.quests24.title}"
 			x: 2.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["&7The Trash Can is the Apex Predator of an Unorganized Base. Don't need 4000 Stone Swords? Trashy will enjoy the meal!"]
+			description: ["{ftbquests.chapter.gadgets.quests25.description0}"]
 			id: "32C20FDE9BB4F43C"
 			rewards: [{
 				count: 8
@@ -525,14 +525,14 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["&7This Staff can be used to Wax certain blocks, instead of doing it manually."]
+			description: ["{ftbquests.chapter.gadgets.quests26.description0}"]
 			id: "47AD2D244D3DB9AC"
 			rewards: [{
 				id: "6A753B70D6DAC757"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Sticky!"
+			subtitle: "{ftbquests.chapter.gadgets.quests26.subtitle}"
 			tasks: [{
 				id: "099916A3C850E989"
 				item: "derelict:waxing_staff"
@@ -549,7 +549,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Feeling older already?"
+			subtitle: "{ftbquests.chapter.gadgets.quests27.subtitle}"
 			tasks: [{
 				id: "5BB5450E3CBFF848"
 				item: "derelict:aging_staff"
@@ -566,7 +566,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Tired of mobs?"
+			subtitle: "{ftbquests.chapter.gadgets.quests28.subtitle}"
 			tasks: [{
 				id: "3CC03DEB8ADEDD54"
 				item: "bosses_of_mass_destruction:mob_ward"
@@ -577,7 +577,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["&7This block gives a very limited Area of Creative flight. Other Alternatives are the Flügel Tiara and Gravichestplate."]
+			description: ["{ftbquests.chapter.gadgets.quests29.description0}"]
 			id: "69EE5CD66CD38E4E"
 			rewards: [{
 				id: "6233CE0A71094D28"
@@ -594,7 +594,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["&7Ever Wanted to go through a wall without hurting your head for once? This item is just perfect for you!"]
+			description: ["{ftbquests.chapter.gadgets.quests30.description0}"]
 			id: "0E280434A6732E11"
 			rewards: [{
 				id: "664CA45146FC92A5"
@@ -617,7 +617,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["&7Are you an Archer who doesn't know where to put your Arrows? This Quiver is great for Storing tons of arrows."]
+			description: ["{ftbquests.chapter.gadgets.quests31.description0}"]
 			id: "58469ECD7976AB8A"
 			rewards: [{
 				count: 20
@@ -641,7 +641,7 @@
 		}
 		{
 			dependencies: ["32C20FDE9BB4F43C"]
-			description: ["&7No Trash Slot in your inventory or backpack? Just carry a comically large Trash Can in your hand, for some reason Don't Question it too long."]
+			description: ["{ftbquests.chapter.gadgets.quests32.description0}"]
 			id: "15BB544C1D7D5ACC"
 			rewards: [{
 				id: "48F33A2C317BCD19"
@@ -658,7 +658,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["&7This Torch can stop any Hostile Spawns in a large area. Great for your base."]
+			description: ["{ftbquests.chapter.gadgets.quests33.description0}"]
 			id: "3A0D1D453519DE78"
 			rewards: [
 				{
@@ -682,7 +682,7 @@
 		}
 		{
 			dependencies: ["3A0D1D453519DE78"]
-			description: ["&7Don't like Animals spawning? Just use this torch. You monster."]
+			description: ["{ftbquests.chapter.gadgets.quests34.description0}"]
 			id: "5B7E6F6DD11B7606"
 			rewards: [{
 				id: "1388398AC64935FB"
@@ -699,7 +699,7 @@
 		}
 		{
 			dependencies: ["3A0D1D453519DE78"]
-			description: ["&7This Torch will stop fish and other Aquatic animals from spawning, not sure why but this would be a great for a Trident farm."]
+			description: ["{ftbquests.chapter.gadgets.quests35.description0}"]
 			id: "5E7B9EA964BBE5A5"
 			rewards: [{
 				id: "2C838CA28329B54E"
@@ -715,5 +715,5 @@
 			y: -2.0d
 		}
 	]
-	title: " &eGadgets"
+	title: "{ftbquests.chapter.gadgets.title}"
 }

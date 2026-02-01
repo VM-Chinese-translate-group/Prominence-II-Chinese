@@ -174,7 +174,7 @@
 				"1E53C2B640C2CED4"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&7These Trophies can be obtained from completing Quests in the storyline. If you see this, you have gotten your first one already! Congrats!"]
+			description: ["{ftbquests.chapter.4trophy_collection.quests0.description0}"]
 			id: "5675731BD892A014"
 			min_required_dependencies: 1
 			rewards: [{
@@ -184,22 +184,22 @@
 			}]
 			shape: "none"
 			size: 2.0d
-			subtitle: "Warm to the touch"
+			subtitle: "{ftbquests.chapter.4trophy_collection.quests0.subtitle}"
 			tasks: [{
 				id: "6E03DE713402299C"
 				item: "prominent:cinderstone_trophy"
 				type: "item"
 			}]
-			title: "&4Cinderstone Trophies"
+			title: "{ftbquests.chapter.4trophy_collection.quests0.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5675731BD892A014"]
 			description: [
-				"&7You have used the other Recipe, didn't you."
+				"{ftbquests.chapter.4trophy_collection.quests1.description0}"
 				""
-				"&7This is Largely a utility Item used to only place blocks. It cannot break Blocks. This Wand can be used to fill large holes your friends dont bother with or construct massive Walls so your friends stay out."
+				"{ftbquests.chapter.4trophy_collection.quests1.description2}"
 			]
 			id: "34C3284620E16342"
 			rewards: [{
@@ -224,7 +224,7 @@
 		}
 		{
 			dependencies: ["34C3284620E16342"]
-			description: ["&7Same as the Previous, this one does a larger Area than the Stone wand."]
+			description: ["{ftbquests.chapter.4trophy_collection.quests2.description0}"]
 			id: "0953F58E223F0EC2"
 			rewards: [{
 				id: "1ED060F027F0097A"
@@ -248,7 +248,7 @@
 		}
 		{
 			dependencies: ["0953F58E223F0EC2"]
-			description: ["&7Expensive yet useful. Not recommended if you haven't gotten the Explorer's Compass, at least one Spell book, Nature's Compass and the Pocket Wormhole."]
+			description: ["{ftbquests.chapter.4trophy_collection.quests3.description0}"]
 			id: "29B862369BADE58F"
 			rewards: [{
 				id: "6D62913A039497A6"
@@ -286,7 +286,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "Overkill"
+			subtitle: "{ftbquests.chapter.4trophy_collection.quests4.subtitle}"
 			tasks: [{
 				id: "53AC21665C4F8B7C"
 				item: {
@@ -303,7 +303,7 @@
 		}
 		{
 			dependencies: ["5675731BD892A014"]
-			description: ["&7Whilst this item offers massive Comfort, one should not forget that early on you may miss out on incredibly useful items because of it. Recommended to craft after the End."]
+			description: ["{ftbquests.chapter.4trophy_collection.quests5.description0}"]
 			id: "0C1FBFE401C27A26"
 			rewards: [{
 				id: "10ED516AC70B477D"
@@ -321,7 +321,7 @@
 		}
 		{
 			dependencies: ["5675731BD892A014"]
-			description: ["&7This is the Best item to make with Trophies that gives you a lot of utility. Massively Recommended as soon as you can craft it. It will save you hours of searching."]
+			description: ["{ftbquests.chapter.4trophy_collection.quests6.description0}"]
 			id: "7AAD2112843038CC"
 			rewards: [{
 				id: "71E2C2DBDEC1385B"
@@ -343,7 +343,7 @@
 		}
 		{
 			dependencies: ["5675731BD892A014"]
-			description: ["&7This Compass offers many opportunities, yet you can still find most of the biomes if you know your way around Structures via the Explorer's Compass. Highly recommended after the End."]
+			description: ["{ftbquests.chapter.4trophy_collection.quests7.description0}"]
 			id: "0419784E7F5972C4"
 			rewards: [{
 				id: "6954CF31496B37F6"
@@ -365,7 +365,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["&7This book has it all. Because it has it all, you would almost need a Spreadsheet just to keep track of what you wanna do. Scales with Arcane, Fire and Ice, depending on the Spell combination you use."]
+			description: ["{ftbquests.chapter.4trophy_collection.quests8.description0}"]
 			id: "7F5B54924F643B6E"
 			rewards: [{
 				id: "287BA6F62DDD1653"
@@ -383,7 +383,7 @@
 		}
 		{
 			dependencies: ["5675731BD892A014"]
-			description: ["&7Are you seriously too lazy for these?"]
+			description: ["{ftbquests.chapter.4trophy_collection.quests9.description0}"]
 			id: "0DADFB6B16AB9487"
 			rewards: [
 				{
@@ -409,7 +409,7 @@
 		}
 		{
 			dependencies: ["5675731BD892A014"]
-			description: ["&7These Spellbooks are alternatives to the existing Spell books you make at the Spell binding table. &4This means, they aren't better just because you made them with a Trophy! &r"]
+			description: ["{ftbquests.chapter.4trophy_collection.quests10.description0}"]
 			id: "5DE2E0B229B61145"
 			rewards: [{
 				id: "7B8FE63E47E02E80"
@@ -422,13 +422,13 @@
 				item: "spell_engine:spell_binding"
 				type: "item"
 			}]
-			title: "&3Higher Tier Spellbooks"
+			title: "{ftbquests.chapter.4trophy_collection.quests10.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["&7This Archer Book mainly focuses around Fire Spell Power and Ranged Damage, Explosions Explosions Explosions!"]
+			description: ["{ftbquests.chapter.4trophy_collection.quests11.description0}"]
 			id: "5054E7B9A58D6083"
 			rewards: [{
 				id: "45185BD2745E3B94"
@@ -446,7 +446,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["&7Why need guns when you can shoot like one? This Archer Spellbook focuses around Shooting fast and being gone before you know it."]
+			description: ["{ftbquests.chapter.4trophy_collection.quests12.description0}"]
 			id: "1EF07D2D14739FE5"
 			rewards: [{
 				id: "3A84A546EB4A4CE9"
@@ -464,7 +464,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["&7This Archer Book is great for any Frost Archer that needs to cool down their Enemies. With a Freeze stack passive and a lot of slowing, if annoying is what you wanna do, this book has it all."]
+			description: ["{ftbquests.chapter.4trophy_collection.quests13.description0}"]
 			id: "5486690E098C2A0C"
 			rewards: [{
 				id: "5A066164C342697E"
@@ -482,7 +482,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["&7Cold, a bit too cold for most. Scales with Frost."]
+			description: ["{ftbquests.chapter.4trophy_collection.quests14.description0}"]
 			id: "43065A117F31048C"
 			rewards: [{
 				id: "0D41456D1CAE47F0"
@@ -500,7 +500,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["&7Sometimes you want to make your Opponent think: Hasn't he cast this spell just a second ago? Then you will need this Arcane Spell Book"]
+			description: ["{ftbquests.chapter.4trophy_collection.quests15.description0}"]
 			id: "5149EC6B04496896"
 			rewards: [{
 				id: "76CA1C0F96557603"
@@ -518,7 +518,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["&7As Graceful as a Phoenix and as cool as one. Scales with Fire Spell Power."]
+			description: ["{ftbquests.chapter.4trophy_collection.quests16.description0}"]
 			id: "06E0A1DB549D9720"
 			rewards: [{
 				id: "7DB59185FDC9A711"
@@ -535,5 +535,5 @@
 			y: 2.5d
 		}
 	]
-	title: "&6&l Trophy Collection"
+	title: "{ftbquests.chapter.4trophy_collection.title}"
 }
