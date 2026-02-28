@@ -102,7 +102,7 @@
     "puffish_skills.categories.magicpen.title": "",
     "puffish_skills.categories.magicpen.description": "§b\uE016 §b+5% §7Magic Resistance",
     "puffish_skills.categories.path_archer.title": "§f\uE022 §bRanger's Path",
-    "puffish_skills.categories.path_archer.description": "§7A focused survivor, gain extra damage when using bows and crossbows.\n \n§f\uE022 §2+5% §7Ranged Damage",
+    "puffish_skills.categories.path_archer.description": "§7A focused survivor, gain extra damage when using bows, crossbows and guns.\n \n§f凌 §2+1 §7Ranged Damage",
     "puffish_skills.categories.path_rogue.title": "§f\uE011 §cRogue's Path",
     "puffish_skills.categories.path_rogue.description": "§7Proficent in weapons, obtain a small amount of Physical Damage and Haste.\n \n§f\uE010 §6+1 §7Physical Damage\n§f\uE011 §e+5% §7Haste",
     "puffish_skills.categories.path_fire.title": "§f\uE017 §cPyrotechnic Knowledge",
