@@ -46,8 +46,8 @@
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
-			x: 4.017857142857139d
-			y: -1.357142857142847d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependency: "01F49526727B35F1"
@@ -64,8 +64,8 @@
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
-			x: -4.124999999999993d
-			y: 3.285714285714292d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
 			dependency: "1079F098AE98FCF6"
@@ -109,8 +109,161 @@
 			image: "minecraft:block/campfire_fire"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5107142857142932d
-			y: 2.3214285714285694d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependency: "59C45FA337989B0C"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependency: "059B370119A41869"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependency: "42068E429EB7B74F"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.98d
+			y: -1.32d
+		}
+		{
+			dependency: "4898E3ED8141DAFC"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 3.75d
+		}
+		{
+			dependency: "40C4C4072277E160"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.98d
+			y: 2.17d
+		}
+		{
+			dependency: "22E0D946A9D81F02"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependency: "34D8C4E35FD1D7A4"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.98d
+			y: -1.32d
+		}
+		{
+			dependency: "3B1F2D1CFA02F922"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.12d
+			y: -2.53d
+		}
+		{
+			dependency: "0F83B1AC3CB766C9"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "43C641771CB69C88"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependency: "4898E3ED8141DAFC"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.98d
+			y: 2.17d
+		}
+		{
+			dependency: "75E616FE0AAF9EF5"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -4.12d
+			y: -2.53d
+		}
+		{
+			dependency: "4CF644BC0920C177"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.98d
+			y: -1.32d
+		}
+		{
+			dependency: "2A4B84F063C78B09"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "6399A78B0AF2BCAE"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "71EDD24DAB210B44"
+			height: 1.1d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependency: "51595E88AF1F475E"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 0.5d
 		}
 	]
 	order_index: 2
@@ -264,7 +417,7 @@
 					type: "choice"
 				}
 			]
-			shape: "hexagon"
+			shape: "none"
 			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests3.subtitle}"
 			tasks: [
 				{
@@ -1160,17 +1313,6 @@
 			id: "36B7ACAA73589366"
 			rewards: [
 				{
-					id: "00165336640EEECC"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_strength"
-						}
-					}
-					type: "item"
-				}
-				{
 					icon: {
 						Count: 1
 						id: "ftbquests:custom_icon"
@@ -1181,6 +1323,12 @@
 					id: "46C8B41599DEEF3A"
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests24.rewards1.title}"
 					type: "custom"
+				}
+				{
+					count: 16
+					id: "69AB60577E3BE252"
+					item: "minecells:health_flask"
+					type: "item"
 				}
 			]
 			size: 0.75d
@@ -1379,18 +1527,6 @@
 			id: "4250485195720E02"
 			rewards: [
 				{
-					count: 3
-					id: "184096CBEA061C50"
-					item: {
-						Count: 1
-						id: "minecraft:splash_potion"
-						tag: {
-							Potion: "minecraft:long_poison"
-						}
-					}
-					type: "item"
-				}
-				{
 					auto: "enabled"
 					icon: {
 						Count: 1
@@ -1415,6 +1551,12 @@
 					id: "36E9C272253470BC"
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests26.rewards2.title}"
 					type: "custom"
+				}
+				{
+					count: 16
+					id: "2F110B9AD6FAAC11"
+					item: "minecells:health_flask"
+					type: "item"
 				}
 			]
 			size: 0.75d
@@ -1512,6 +1654,12 @@
 					id: "7562B7F450DBA5BA"
 					title: "{ftbquests.chapter.einformation_7new_mechanics.quests27.rewards0.title}"
 					type: "custom"
+				}
+				{
+					count: 16
+					id: "477222A9321415FE"
+					item: "minecells:health_flask"
+					type: "item"
 				}
 			]
 			size: 0.75d
@@ -2719,7 +2867,7 @@
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests39.title}"
 			x: 3.0d
-			y: 0.5d
+			y: 1.12d
 		}
 		{
 			dependencies: [
@@ -2739,6 +2887,13 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description8}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:orion"
+				tag: {
+					nebula: { }
+				}
+			}
 			id: "1079F098AE98FCF6"
 			min_required_dependencies: 1
 			rewards: [
@@ -3012,8 +3167,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests42.title}"
-			x: 2.5d
-			y: -0.5d
+			x: 2.62d
+			y: -0.75d
 		}
 		{
 			dependencies: ["4B450D0E26363D54"]
@@ -3103,7 +3258,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests43.title}"
-			x: 3.75d
+			x: 4.12d
 			y: -0.75d
 		}
 		{
@@ -3114,8 +3269,17 @@
 			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description0}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description2}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "paladins:iron_kite_shield"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "080F23071FA8CFC9"
 			min_required_dependencies: 1
 			rewards: [
@@ -3125,7 +3289,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "none"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests44.subtitle}"
 			tasks: [
@@ -3208,8 +3372,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests44.title}"
-			x: 5.0d
-			y: -1.5d
+			x: 4.98d
+			y: -1.32d
 		}
 		{
 			dependencies: ["3D78B8D241B53C2A"]
@@ -3262,14 +3426,22 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests45.title}"
-			x: 4.0d
-			y: 0.5d
+			x: 4.125d
+			y: 1.12d
 		}
 		{
 			dependencies: ["59C45FA337989B0C"]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests46.description}"]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:ekavar_staff"
+				tag: {
+					Damage: 0
+					Phase: 4
+				}
+			}
 			id: "5728EF143DC9B7DB"
 			min_required_dependencies: 1
 			rewards: [
@@ -3279,7 +3451,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "none"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests46.subtitle}"
 			tasks: [
@@ -3341,7 +3513,7 @@
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests46.title}"
 			x: 5.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5814C5C80022A343"]
@@ -3642,8 +3814,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.title}"
-			x: -4.132142857142867d
-			y: 3.642857142857139d
+			x: -5.0d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -4439,6 +4611,13 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests60.description3}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:frostmourne"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1F1202929D2C5195"
 			min_required_dependencies: 1
 			rewards: [
@@ -4601,7 +4780,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests61.title}"
-			x: 3.375d
+			x: 4.125d
 			y: -1.875d
 		}
 		{
@@ -4723,6 +4902,13 @@
 				"{ftbquests.chapter.einformation_7new_mechanics.quests63.description5}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:thunderwrath"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6A594976300D5DCC"
 			min_required_dependencies: 1
 			rewards: [
@@ -4844,8 +5030,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests64.title}"
-			x: 3.5d
-			y: 3.0d
+			x: 4.05d
+			y: 2.7d
 		}
 		{
 			dependencies: ["57B71888F2B87995"]
@@ -4940,8 +5126,346 @@
 				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests65.title}"
-			x: 2.25d
-			y: -1.5d
+			x: 2.625d
+			y: -1.875d
+		}
+		{
+			dependencies: ["059B370119A41869"]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests66.description0}"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:apophis"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "184216BC651DD776"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "2AC17FEC5841708A"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests66.subtitle}"
+			tasks: [
+				{
+					id: "383F53B47A78DF4C"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42B669ADB0E7015A"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E93A17FDFB6FC65"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3927CECE44F35C79"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24D7C6E87A43679F"
+					item: {
+						Count: 1
+						id: "prominent:apophis"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quests66.title}"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F92D56DE42A2FA5"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.einformation_7new_mechanics.quests67.description0}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quests67.description2}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quests67.description4}"
+			]
+			hide_until_deps_visible: true
+			id: "059B370119A41869"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "0DC4C5038A0F23FA"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quests67.rewards0.title}"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests67.subtitle}"
+			tasks: [
+				{
+					id: "0948F01AB38DBC5A"
+					item: {
+						Count: 1
+						id: "paladins:ruby_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "323AB15B1CCE6F37"
+					item: {
+						Count: 1
+						id: "paladins:ruby_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77849519557423FE"
+					item: {
+						Count: 1
+						id: "paladins:ruby_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F5AE48ED23DD5D0"
+					item: "spellbladenext:defiance_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E855830CCDD98EB"
+					item: "spellbladenext:vengeance_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quests67.title}"
+			x: 4.125d
+			y: 0.0d
+		}
+		{
+			dependencies: ["073F2420FA2EF9B1"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.einformation_7new_mechanics.quests68.description0}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quests68.description2}"
+			]
+			hide_until_deps_visible: true
+			id: "4F92D56DE42A2FA5"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "47563093D39D5F31"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quests68.rewards0.title}"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests68.subtitle}"
+			tasks: [
+				{
+					id: "1C99146A1626A363"
+					item: {
+						Count: 1
+						id: "paladins:netherite_great_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3053898D6DFE8CC0"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "115372EFAEC1965E"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54091523B8C1FC01"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B0E0656078C84AD"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53BD83ECEAE2725C"
+					item: "paladins:paladin_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quests68.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2D18A81E45594603"
+				"18899F26D6DB2F47"
+			]
+			description: [
+				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description0}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description2}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description4}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description8}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description9}"
+			]
+			icon_scale: 1.3d
+			id: "6C01A4BB169520D8"
+			rewards: [{
+				count: 44
+				id: "6746F744F7640193"
+				item: "soulsweapons:silver_bullet"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests69.subtitle}"
+			tasks: [
+				{
+					id: "6444EA3BD07D133D"
+					item: {
+						Count: 1
+						id: "soulsweapons:gatling_gun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "067536C866F28003"
+					item: {
+						Count: 1
+						id: "soulsweapons:blunderbuss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C0E4C3F75661E25"
+					item: {
+						Count: 1
+						id: "soulsweapons:hunter_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B60E694546E4F44"
+					item: {
+						Count: 1
+						id: "soulsweapons:hunter_pistol"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quests69.title}"
+			x: -3.5d
+			y: 0.5d
 		}
 	]
 	title: "{ftbquests.chapter.einformation_7new_mechanics.title}"

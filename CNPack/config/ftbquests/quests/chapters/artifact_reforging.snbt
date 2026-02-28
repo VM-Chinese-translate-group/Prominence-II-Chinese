@@ -39,6 +39,22 @@
 			x: 0.0d
 			y: 17.0d
 		}
+		{
+			height: 2.0d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "prominent_talents:textures/frames/diamond_selected.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -67,7 +83,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "none"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.artifact_reforging.quests0.subtitle}"
 			tasks: [
@@ -315,7 +331,7 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "none"
 			size: 1.65d
 			subtitle: "{ftbquests.chapter.artifact_reforging.quests10.subtitle}"
 			tasks: [

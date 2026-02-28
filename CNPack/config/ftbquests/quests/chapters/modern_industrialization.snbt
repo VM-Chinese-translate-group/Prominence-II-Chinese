@@ -581,30 +581,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6F6196A606D3A8EF"]
-			id: "0D10B5E838DF9196"
-			rewards: [
-				{
-					count: 8
-					id: "468AFB6AC11BDA99"
-					item: "modern_industrialization:lignite_coal_block"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests17.subtitle}"
-			tasks: [
-				{
-					count: 64L
-					id: "5B8A314E5014ADA6"
-					item: "modern_industrialization:lignite_coal"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests17.title}"
-			x: -11.5d
-			y: -11.0d
-		}
-		{
 			dependencies: ["7C5C1CA5A7954896"]
 			id: "6F4AE13DA520109C"
 			rewards: [
