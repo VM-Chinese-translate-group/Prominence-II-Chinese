@@ -5462,6 +5462,28 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5C4E66C81B58133B"
+					item: {
+						Count: 1
+						id: "ae2:matter_cannon"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F529BCDC1C8632D"
+					item: {
+						Count: 1
+						id: "create:potato_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "{ftbquests.chapter.einformation_7new_mechanics.quests69.title}"
 			x: -3.5d
