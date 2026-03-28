@@ -2506,6 +2506,7 @@
 			dependency_requirement: "all_started"
 			description: [
 				"{ftbquests.chapter.to_the_end.quests77.description0}"
+				"{ftbquests.chapter.to_the_end.quests77.description3}"
 				"{ftbquests.chapter.to_the_end.quests77.description1}"
 				"{ftbquests.chapter.to_the_end.quests77.description2}"
 			]

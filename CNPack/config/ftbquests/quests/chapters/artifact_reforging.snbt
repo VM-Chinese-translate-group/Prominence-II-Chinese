@@ -881,6 +881,11 @@
 			description: ["{ftbquests.chapter.artifact_reforging.quests25.description}"]
 			id: "1E19147A29D45714"
 			invisible: true
+			rewards: [{
+				id: "6B472DCCE8D7F329"
+				item: "prominent:illusion_of_ghaj"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
 			subtitle: "{ftbquests.chapter.artifact_reforging.quests25.subtitle}"

@@ -794,45 +794,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["6FFB1706571FEA29"]
-			id: "21911ABACED7FFA1"
-			rewards: [
-				{
-					id: "4762BADCEF179F28"
-					type: "xp"
-					xp: 60
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests24.subtitle}"
-			tasks: [
-				{
-					id: "0EE46D035D5886AF"
-					item: {
-						Count: 1
-						id: "soulsweapons:pure_moonlight_greatsword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1910E447A65C9C8D"
-					item: {
-						Count: 1
-						id: "soulsweapons:arkenplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests24.title}"
-			x: -5.5d
-			y: 7.5d
-		}
-		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "7CF8A1A229D73A92"
 			rewards: [
