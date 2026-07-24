@@ -1,11 +1,19 @@
 import json
 import os
 import re
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from typing import Tuple
 import nbtlib
 from nbtlib.tag import Compound, String, Int
 import requests
+
+from paratranz_json_split import (
+    is_legacy_split_source,
+    load_paratranz_config,
+    merge_split_translations,
+    redirect_path,
+    split_for_remote_path,
+)
 
 TOKEN: str = os.getenv("API_TOKEN", "")
 GH_TOKEN: str = os.getenv("GH_TOKEN", "")
@@ -64,19 +72,19 @@ def get_files() -> None:
         file_path_list.append(file["name"])
 
 
-def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
+def save_translation(zh_cn_dict: dict[str, str], path: Path, redirects=None) -> None:
     """
     保存翻译内容到指定的 JSON 文件
 
     :param zh_cn_dict: 翻译内容的字典
     :param path: 原始文件路径
     """
-    dir_path = Path("CNPack") / path.parent
-    if "resourcepacks" in str(dir_path):
-        dir_path = Path(str(dir_path).replace("resourcepacks","config/paxi/resourcepacks"))
+    source_relative_path = PurePosixPath(path.as_posix())
+    output_relative_path = redirect_path(source_relative_path, redirects or [])
+    dir_path = Path("CNPack") / Path(*output_relative_path.parent.parts)
     dir_path.mkdir(parents=True, exist_ok=True)
-    file_path = dir_path / "zh_cn.json"
-    source_path = str(file_path).replace("zh_cn.json", "en_us.json").replace("CNPack", "Source")
+    file_path = dir_path / output_relative_path.name.replace("en_us", "zh_cn")
+    source_path = Path("Source") / path
     with open(file_path, "w", encoding="UTF-8") as f:
         try:
             with open(source_path, "r", encoding="UTF-8") as f1:
@@ -90,7 +98,9 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
             json.dump(zh_cn_dict, f, ensure_ascii=False, indent=4, separators=(",", ":"), sort_keys=True)
 
 
-def process_translation(file_id: int, path: Path) -> dict[str, str]:
+def process_translation(
+    file_id: int, path: Path, translated_only: bool = False
+) -> dict[str, str]:
     """
     处理单个文件的翻译，返回翻译字典
 
@@ -131,6 +141,8 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
             key: value.replace(" ", "\u00A0") if "image" not in value else value
             for key, value in zip(keys, values)
         }
+    if translated_only:
+        return {key: zh_cn_dict[key] for key in keys}
     return zh_cn_dict
 
 
@@ -208,17 +220,38 @@ def normal_json2_ftb_desc(origin_en_us):
 
 def main() -> None:
     get_files()
+    split_configs, path_redirects = load_paratranz_config()
+    split_parts = {config: [] for config in split_configs}
     ftbquests_dict = {}
     for file_id, path in zip(file_id_list, file_path_list):
         if "TM" in path:  # 跳过 TM 文件
             continue
+        remote_path = PurePosixPath(path.replace("\\", "/"))
+        split_config = split_for_remote_path(remote_path, split_configs)
+        if split_config:
+            source_path = Path(*split_config.path.parts)
+            split_parts[split_config].append(
+                process_translation(file_id, source_path, translated_only=True)
+            )
+            continue
+        if is_legacy_split_source(remote_path, split_configs):
+            print(f"忽略已由 JSON 分片配置接管的旧文件：{path}")
+            continue
+
         zh_cn_dict = process_translation(file_id, Path(path))
         zh_cn_list.append(zh_cn_dict)
         if "kubejs/assets/quests/lang/" in path:
             ftbquests_dict = ftbquests_dict | zh_cn_dict
             continue
-        save_translation(zh_cn_dict, Path(path))
+        save_translation(zh_cn_dict, Path(path), path_redirects)
         print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
+
+    for config, parts in split_parts.items():
+        merged = merge_split_translations(Path("Source"), config, parts)
+        source_path = Path(*config.path.parts)
+        save_translation(merged, source_path, path_redirects)
+        print(f"已合并 Paratranz JSON 分片：{config.path.as_posix()}")
+
     if(len(ftbquests_dict) > 0):
         snbt_dict = normal_json2_ftb_desc(ftbquests_dict)
 

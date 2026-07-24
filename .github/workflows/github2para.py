@@ -1,9 +1,20 @@
 import asyncio
 import os
 import json
+from pathlib import Path, PurePosixPath
 from pprint import pprint
+from tempfile import TemporaryDirectory
+
 import paratranz_client
 from pydantic import ValidationError
+
+from paratranz_json_split import (
+    UploadFile,
+    create_split_uploads,
+    is_legacy_split_source,
+    load_paratranz_config,
+    split_for_remote_path,
+)
 
 configuration = paratranz_client.Configuration(host="https://paratranz.cn/api")
 configuration.api_key["Token"] = os.environ["API_TOKEN"]
@@ -35,6 +46,22 @@ async def upload_file(api_instance, project_id, path, file, existing_files, sema
                 else:
                     if hasattr(e, 'body'):
                         print(f"Error body: {e.body}")
+                    raise
+
+
+async def delete_file(api_instance, project_id, remote_file, semaphore):
+    async with semaphore:
+        for attempt in range(3):
+            try:
+                await api_instance.delete_file(project_id, file_id=remote_file.id)
+                print(f"已清理 Paratranz 旧分片：{remote_file.name}")
+                return
+            except Exception as e:
+                print(f"删除 {remote_file.name} 时出错 (尝试 {attempt + 1}/3): {e}")
+                if attempt < 2:
+                    await asyncio.sleep((attempt + 1) * 2)
+                else:
+                    raise
 
 
 def get_filelist(dir_path):
@@ -48,7 +75,15 @@ def get_filelist(dir_path):
 
 async def main():
     project_id = int(os.environ["PROJECT_ID"])
-    files = get_filelist("./Source")
+    split_configs, _ = load_paratranz_config()
+    split_sources = {
+        Path("Source") / Path(*config.path.parts) for config in split_configs
+    }
+    files = [
+        Path(file)
+        for file in get_filelist("./Source")
+        if Path(file) not in split_sources
+    ]
     
     async with paratranz_client.ApiClient(configuration) as api_client:
         api_instance = paratranz_client.FilesApi(api_client)
@@ -59,18 +94,50 @@ async def main():
         # 限制并发数为 3，避免触发服务器超时或频率限制
         semaphore = asyncio.Semaphore(3)
         
-        tasks = []
-        for file in files:
-            # 使用 relpath 获取相对于 Source 的路径，避免开头的 /
-            rel_path = os.path.relpath(file, "./Source").replace("\\", "/")
-            # filename 是文件名，例如 'en_us.json'
-            filename = os.path.basename(file)
-            # path 是目录路径，例如 'path/to/'，如果是在根目录则为空字符串
-            path = rel_path.replace(filename, "")
-            
-            tasks.append(upload_file(api_instance, project_id, path, file, existing_files, semaphore))
+        with TemporaryDirectory(prefix="paratranz-json-split-") as temporary_dir:
+            uploads = [
+                UploadFile(
+                    file,
+                    PurePosixPath(os.path.relpath(file, "./Source").replace("\\", "/")),
+                )
+                for file in files
+            ]
+            for config in split_configs:
+                uploads.extend(
+                    create_split_uploads(Path("Source"), config, Path(temporary_dir))
+                )
 
-        await asyncio.gather(*tasks)
+            tasks = []
+            for upload in uploads:
+                remote_parent = upload.remote_path.parent
+                path = "" if remote_parent == PurePosixPath(".") else f"{remote_parent.as_posix()}/"
+                tasks.append(
+                    upload_file(
+                        api_instance,
+                        project_id,
+                        path,
+                        str(upload.local_path),
+                        existing_files,
+                        semaphore,
+                    )
+                )
+            await asyncio.gather(*tasks)
+
+            desired_paths = {upload.remote_path.as_posix() for upload in uploads}
+            stale_files = []
+            for remote_file in existing_files:
+                remote_path = PurePosixPath(remote_file.name.replace("\\", "/"))
+                managed = split_for_remote_path(remote_path, split_configs) is not None
+                legacy = is_legacy_split_source(remote_path, split_configs)
+                if (managed or legacy) and remote_path.as_posix() not in desired_paths:
+                    stale_files.append(remote_file)
+
+            await asyncio.gather(
+                *(
+                    delete_file(api_instance, project_id, remote_file, semaphore)
+                    for remote_file in stale_files
+                )
+            )
 
 
 if __name__ == "__main__":

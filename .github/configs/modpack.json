@@ -1,0 +1,20 @@
+{
+  "paratranz": {
+    "jsonSplits": [
+      {
+        "path": "resourcepacks/vm_translations/assets/quests/lang/en_us.json",
+        "groupPatterns": [
+          "^ftbquests\\.chapter\\.([^.]+)\\.",
+          "^ftbquests\\.([^.]+)\\."
+        ],
+        "fallbackGroup": "general"
+      }
+    ],
+    "pathRedirects": [
+      {
+        "from": "resourcepacks",
+        "to": "config/paxi/resourcepacks"
+      }
+    ]
+  }
+}
