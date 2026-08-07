@@ -1,2 +1,5 @@
 *.zip
 error_report.html
+
+__pycache__/
+*.pyc
