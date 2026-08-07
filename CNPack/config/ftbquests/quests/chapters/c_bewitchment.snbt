@@ -3,981 +3,2028 @@
 	default_quest_shape: ""
 	filename: "c_bewitchment"
 	group: "244F516C4853FD2F"
-	icon: {
-		Count: 1
-		id: "bewitchment:vampiric_poppet"
-		tag: {
-			Damage: 0
-		}
-	}
+	icon: "enchanted:broom"
 	id: "32706AAC8420562C"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.c_bewitchment.quests0.description}"]
+			description: [""]
 			id: "5B558DB5BB091F2C"
-			rewards: [
-				{
-					id: "518D1A14BCD227DE"
-					item: "bewitchment:mandrake_seeds"
-					type: "item"
-				}
-				{
-					id: "49863A89B88AF9F3"
-					item: "bewitchment:belladonna_seeds"
-					type: "item"
-				}
-				{
-					id: "641B2892C8C1F694"
-					item: "bewitchment:aconite_seeds"
-					type: "item"
-				}
-				{
-					id: "0EF2193F34905B62"
-					item: "bewitchment:garlic"
-					type: "item"
-				}
-				{
-					id: "75088B7167B9EB65"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests0.subtitle}"
+			rewards: [{
+				id: "75088B7167B9EB65"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.5B558DB5BB091F2C.subtitle}"
 			tasks: [
 				{
 					id: "705D52A6E5A9E57E"
-					item: "bewitchment:book_of_shadows"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:herbology"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "143CA94353FC1979"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:getting_started"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "482D0EF651A5CED7"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:brewing"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4503454C1E2F382B"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:extraction"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "422CE04F182B4F71"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:circle_magic"
+						}
+					}
+					optional_task: true
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.c_bewitchment.quests0.title}"
+			title: "{ftbquests.chapter.c_bewitchment.quest.5B558DB5BB091F2C.title}"
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5B558DB5BB091F2C"]
-			id: "040B557895367AF3"
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests1.subtitle}"
-			tasks: [
+			description: ["{ftbquests.chapter.c_bewitchment.quest.7B9DEDD5472F5240.description0}"]
+			icon: "enchanted:blood_poppy"
+			id: "7B9DEDD5472F5240"
+			rewards: [{
+				id: "651575BAA35093B3"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.7B9DEDD5472F5240.subtitle}"
+			tasks: [{
+				id: "589BBF09A4FADEE1"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.7B9DEDD5472F5240.title}"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B9DEDD5472F5240"]
+			id: "7953668FC30DDF15"
+			rewards: [
 				{
-					id: "6D8C5B0EEA1541D1"
-					item: "bewitchment:dragons_blood_sapling"
+					count: 12
+					id: "3C99B9851A5D7B00"
+					item: "enchanted:mutandis"
+					type: "item"
+				}
+				{
+					id: "7A47AC8EFE3939AA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.7953668FC30DDF15.subtitle}"
+			tasks: [{
+				id: "044A383CDD4FD1C4"
+				item: "enchanted:mutandis"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			id: "47188F51BCACC1BF"
+			rewards: [
+				{
+					count: 8
+					id: "4761ACD37FD5619A"
+					item: "enchanted:mutandis_extremis"
+					type: "item"
+				}
+				{
+					id: "7C6C537832926494"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4388E45CAD017CA8"
+					item: "enchanted:alder_sapling"
+					type: "item"
+				}
+				{
+					id: "262720F48F37D6C7"
+					item: "enchanted:hawthorn_sapling"
+					type: "item"
+				}
+				{
+					id: "1764C9066249E363"
+					item: "enchanted:rowan_sapling"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.c_bewitchment.quests1.title}"
-			x: 1.0d
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.47188F51BCACC1BF.subtitle}"
+			tasks: [{
+				id: "49A421C71F872205"
+				item: "enchanted:mutandis_extremis"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.3B5BECDABF168BA6.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.3B5BECDABF168BA6.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.3B5BECDABF168BA6.description3}"
+			]
+			id: "3B5BECDABF168BA6"
+			rewards: [{
+				id: "267B3A1953B6F86A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.3B5BECDABF168BA6.subtitle}"
+			tasks: [{
+				id: "42D9A73AF29CFC74"
+				item: "enchanted:alder_sapling"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.3B5BECDABF168BA6.title}"
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.0B7A3A692D34298F.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.0B7A3A692D34298F.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.0B7A3A692D34298F.description3}"
+			]
+			id: "0B7A3A692D34298F"
+			rewards: [{
+				id: "04AFD5AFEB442FFC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.0B7A3A692D34298F.subtitle}"
+			tasks: [{
+				id: "7997B1FBC590913C"
+				item: "enchanted:ember_moss"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.78088E0E6C70AB0D.description0}"
+				"{ftbquests.chapter.c_bewitchment.quest.78088E0E6C70AB0D.description1}"
+			]
+			id: "78088E0E6C70AB0D"
+			rewards: [
+				{
+					id: "490A0818EFBE147B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50819114BE76C118"
+					item: "minecraft:torchflower_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.78088E0E6C70AB0D.subtitle}"
+			tasks: [{
+				id: "78F618CF09E921D4"
+				item: "enchanted:glint_weed"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.64CE422A3FB3E4C7.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.64CE422A3FB3E4C7.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.64CE422A3FB3E4C7.description3}"
+			]
+			id: "64CE422A3FB3E4C7"
+			rewards: [
+				{
+					id: "6DFA2EA4ED2A59F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4343D3D6EBD86CFB"
+					item: "artifacts:vampiric_glove"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.64CE422A3FB3E4C7.subtitle}"
+			tasks: [{
+				id: "6C823A185E0710F4"
+				item: "enchanted:hawthorn_sapling"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.64CE422A3FB3E4C7.title}"
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.24F9EC15BD6C2AFC.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.24F9EC15BD6C2AFC.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.24F9EC15BD6C2AFC.description3}"
+			]
+			id: "24F9EC15BD6C2AFC"
+			rewards: [{
+				id: "0F5F948040B79AD9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.24F9EC15BD6C2AFC.subtitle}"
+			tasks: [{
+				id: "45CEC951C13EA80B"
+				item: "enchanted:rowan_sapling"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.24F9EC15BD6C2AFC.title}"
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.15688C158805AD1F.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.15688C158805AD1F.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.15688C158805AD1F.description3}"
+			]
+			id: "15688C158805AD1F"
+			rewards: [{
+				id: "0121EB9F9DFFA03D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.15688C158805AD1F.subtitle}"
+			tasks: [{
+				id: "1E960FCE2F8D4248"
+				item: "enchanted:spanish_moss"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.407EE1D1BD1B2BB0.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.407EE1D1BD1B2BB0.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.407EE1D1BD1B2BB0.description3}"
+			]
+			id: "407EE1D1BD1B2BB0"
+			rewards: [{
+				id: "4F252258F105F64D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.407EE1D1BD1B2BB0.subtitle}"
+			tasks: [{
+				id: "6DA16BB9D8B57784"
+				item: "enchanted:belladonna_flower"
+				type: "item"
+			}]
+			x: -8.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["5B558DB5BB091F2C"]
-			id: "7B9DEDD5472F5240"
-			rewards: [
-				{
-					id: "651575BAA35093B3"
-					type: "xp"
-					xp: 10
-				}
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.462D241038E5C828.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.462D241038E5C828.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.462D241038E5C828.description3}"
 			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests2.subtitle}"
-			tasks: [
-				{
-					id: "650A616FA6E8AAE3"
-					item: "bewitchment:elder_sapling"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests2.title}"
-			x: -2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5B558DB5BB091F2C"]
-			id: "4C39BD55DFDFF106"
-			rewards: [
-				{
-					id: "505C361A74092723"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests3.subtitle}"
-			tasks: [
-				{
-					id: "04C1299FBCB9B22B"
-					item: "bewitchment:cypress_sapling"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests3.title}"
-			x: -2.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5B558DB5BB091F2C"]
-			id: "27EAE01A96DEFAF1"
-			rewards: [
-				{
-					id: "6E010F38B5683ED0"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests4.subtitle}"
-			tasks: [
-				{
-					id: "08E08EB8164D241D"
-					item: "bewitchment:juniper_sapling"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests4.title}"
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5B558DB5BB091F2C"]
-			id: "5E08698700AC507D"
-			rewards: [
-				{
-					id: "5FC6443EB91FD81F"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests5.subtitle}"
-			tasks: [
-				{
-					id: "2A7C00C48571951E"
-					item: {
-						Count: 1
-						id: "bewitchment:athame"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests5.title}"
-			x: -0.5d
+			id: "462D241038E5C828"
+			rewards: [{
+				id: "1C8FEC7C8613E71C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.462D241038E5C828.subtitle}"
+			tasks: [{
+				id: "68C253ADEA629309"
+				item: "enchanted:garlic"
+				type: "item"
+			}]
+			x: -6.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["5E08698700AC507D"]
-			id: "5B2A9ECAD626489A"
-			rewards: [
-				{
-					id: "0801A3772D7F3F03"
-					type: "xp"
-					xp: 15
-				}
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.5586FE7D31809086.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.5586FE7D31809086.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.5586FE7D31809086.description3}"
 			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests6.subtitle}"
-			tasks: [
-				{
-					id: "30EC959F71E75DFE"
-					item: "bewitchment:taglock"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests6.title}"
-			x: -1.5d
-			y: 5.5d
+			id: "5586FE7D31809086"
+			rewards: [{
+				id: "2615CE3766884E80"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.5586FE7D31809086.subtitle}"
+			tasks: [{
+				id: "64AE42BE4D6BEE60"
+				item: "enchanted:mandrake_root"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["5E08698700AC507D"]
-			id: "0A7DAD09DE18D900"
-			rewards: [
-				{
-					id: "2EEA924F7004CBCA"
-					type: "xp"
-					xp: 15
-				}
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.682938FA8F7A0F93.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.682938FA8F7A0F93.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.682938FA8F7A0F93.description3}"
 			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests7.subtitle}"
-			tasks: [
-				{
-					count: 5L
-					id: "655625747D981397"
-					item: "bewitchment:ectoplasm"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests7.title}"
-			x: 2.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5E08698700AC507D"]
-			id: "64AB1B23081484C5"
-			rewards: [
-				{
-					id: "25555DC80280FA5D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests8.subtitle}"
-			tasks: [
-				{
-					id: "1FE7146F2C6B8B4A"
-					item: "bewitchment:white_coffin"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests8.title}"
-			x: -3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["130301A697C767CA"]
-			id: "7F47845CE40F71B6"
-			rewards: [
-				{
-					id: "00FC379D2BCAC873"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests9.subtitle}"
-			tasks: [
-				{
-					id: "77832168836C5A49"
-					item: {
-						Count: 1
-						id: "bewitchment:voodoo_poppet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0A7DAD09DE18D900"]
-			id: "7B42BCEB958500A1"
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests10.subtitle}"
-			tasks: [
-				{
-					id: "5AC910BBD1EBCFB3"
-					item: "bewitchment:oak_poppet_shelf"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests10.title}"
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			id: "130301A697C767CA"
-			rewards: [
-				{
-					id: "526018AB0E68F119"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests11.subtitle}"
-			tasks: [
-				{
-					id: "071299DA2B65D59D"
-					item: "bewitchment:demon_heart"
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["5E08698700AC507D"]
-			id: "1C0D3F45968E5610"
-			rewards: [
-				{
-					id: "2B9F2E1875D35D44"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests12.subtitle}"
-			tasks: [
-				{
-					id: "7BE8B29B6762BB65"
-					item: "bewitchment:witch_cauldron"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests12.title}"
-			x: -0.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["5E08698700AC507D"]
-			id: "16078474EDD60052"
-			tasks: [
-				{
-					id: "664ACF3E41A2F923"
-					item: "bewitchment:bottle_of_blood"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests13.title}"
-			x: 0.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1C0D3F45968E5610"]
-			id: "40DA06BA210A7F4F"
-			tasks: [
-				{
-					id: "5FFAA614E1EEC274"
-					item: "bewitchment:fiery_serum"
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["1C0D3F45968E5610"]
-			id: "0C32BEA3E2E932F0"
-			tasks: [
-				{
-					id: "0BD514A3150D59B3"
-					item: "bewitchment:cleansing_balm"
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["1C0D3F45968E5610"]
-			id: "13E6C2121AC06E4D"
-			tasks: [
-				{
-					id: "22BCA2EA0790D040"
-					item: "bewitchment:grim_elixir"
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1C0D3F45968E5610"]
-			id: "1705C4BCC0877881"
-			tasks: [
-				{
-					id: "33F8F2CF372C2822"
-					item: "bewitchment:aqua_cerate"
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["1C0D3F45968E5610"]
-			id: "497F772433CCD604"
-			tasks: [
-				{
-					id: "6D7B4E47C0B3D4CE"
-					item: "bewitchment:earth_ichor"
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["1C0D3F45968E5610"]
-			id: "2C772382F591E206"
-			tasks: [
-				{
-					id: "1DB8390DD1DD958D"
-					item: "bewitchment:heaven_extract"
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"40DA06BA210A7F4F"
-				"13E6C2121AC06E4D"
-			]
-			icon: "bewitchment:besmirched_wool"
-			id: "206BECFC110495D8"
-			rewards: [
-				{
-					id: "043E16C42E24F81C"
-					type: "xp"
-					xp: 35
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests20.subtitle}"
-			tasks: [
-				{
-					id: "77F363FBF7C865B4"
-					item: {
-						Count: 1
-						id: "bewitchment:besmirched_hood"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "347399A4D526C9FE"
-					item: {
-						Count: 1
-						id: "bewitchment:besmirched_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2DD9C3602717015B"
-					item: {
-						Count: 1
-						id: "bewitchment:besmirched_robes"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0C3874E73CD3C245"
-					item: {
-						Count: 1
-						id: "bewitchment:besmirched_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests20.title}"
-			x: -4.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"1705C4BCC0877881"
-				"2C772382F591E206"
-			]
-			icon: "bewitchment:alchemist_wool"
-			id: "7ADC365739E399AF"
-			rewards: [
-				{
-					id: "1D20581D30C5F435"
-					type: "xp"
-					xp: 35
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests21.subtitle}"
-			tasks: [
-				{
-					id: "163035D24392B95B"
-					item: {
-						Count: 1
-						id: "bewitchment:alchemist_hood"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0D84D3EDAD4AAFC8"
-					item: {
-						Count: 1
-						id: "bewitchment:alchemist_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3600A6B16769EC50"
-					item: {
-						Count: 1
-						id: "bewitchment:alchemist_robes"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "59140CB26E08C873"
-					item: {
-						Count: 1
-						id: "bewitchment:alchemist_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests21.title}"
-			x: 3.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"497F772433CCD604"
-				"0C32BEA3E2E932F0"
-			]
-			icon: "bewitchment:hedgewitch_wool"
-			id: "6239CFEDE3B3D0EC"
-			rewards: [
-				{
-					id: "5C8AD762EAD703C3"
-					type: "xp"
-					xp: 35
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests22.subtitle}"
-			tasks: [
-				{
-					id: "3CE518B01D80E6AD"
-					item: {
-						Count: 1
-						id: "bewitchment:hedgewitch_hood"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3B5965EFE8AE5E51"
-					item: {
-						Count: 1
-						id: "bewitchment:hedgewitch_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1B632BBEA1FE6207"
-					item: {
-						Count: 1
-						id: "bewitchment:hedgewitch_robes"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "219A667E66525891"
-					item: {
-						Count: 1
-						id: "bewitchment:hedgewitch_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests22.title}"
-			x: -0.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["5E08698700AC507D"]
-			id: "5F847E4D1CC154C9"
-			rewards: [
-				{
-					id: "69AEB0B2C1AB061D"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests23.subtitle}"
-			tasks: [
-				{
-					id: "0C483FD414E64354"
-					item: "bewitchment:stone_witch_altar"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests23.title}"
-			x: 2.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5F847E4D1CC154C9"]
-			id: "1577D6D2BA74ADE1"
-			rewards: [
-				{
-					id: "61546F56C5B5B4D3"
-					type: "xp"
-					xp: 15
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests24.subtitle}"
-			tasks: [
-				{
-					id: "1B7523FDC014B527"
-					item: "bewitchment:brazier"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests24.title}"
-			x: 3.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5F847E4D1CC154C9"]
-			id: "35DBF08CC1F62458"
-			rewards: [
-				{
-					id: "53DD63A89A90FF42"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests25.subtitle}"
-			tasks: [
-				{
-					id: "112FD4CB4AE9DDF2"
-					item: {
-						Count: 1
-						id: "bewitchment:chalk"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "40F195965FDBA568"
-					item: {
-						Count: 1
-						id: "bewitchment:golden_chalk"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "63AB9892FD8F92C0"
-					item: {
-						Count: 1
-						id: "bewitchment:fiery_chalk"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2BBDFBAD65757222"
-					item: {
-						Count: 1
-						id: "bewitchment:eldritch_chalk"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests25.title}"
-			x: 3.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["5B558DB5BB091F2C"]
-			id: "3AD9313AFAEB7BAC"
-			rewards: [
-				{
-					id: "46474BDC6DBDB38C"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests26.subtitle}"
-			tasks: [
-				{
-					id: "394C5E4C34E67F3A"
-					item: "bewitchment:salt"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests26.title}"
-			x: -0.5d
+			id: "682938FA8F7A0F93"
+			rewards: [{
+				id: "2791D3D69C5E9FBA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.682938FA8F7A0F93.subtitle}"
+			tasks: [{
+				id: "0706E7704BF50B87"
+				item: "enchanted:icy_needle"
+				type: "item"
+			}]
+			x: -6.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["5B558DB5BB091F2C"]
-			id: "6B084C88BBDB74B8"
-			rewards: [
-				{
-					id: "5051995466309063"
-					type: "xp"
-					xp: 10
-				}
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.01DD5096739C4677.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.01DD5096739C4677.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.01DD5096739C4677.description3}"
 			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests27.subtitle}"
-			tasks: [
-				{
-					id: "13DD560CDE2751B0"
-					item: "bewitchment:garlic_bread"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests27.title}"
-			x: 1.0d
+			id: "01DD5096739C4677"
+			rewards: [{
+				id: "0C64C246B42D98ED"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.01DD5096739C4677.subtitle}"
+			tasks: [{
+				id: "2B10D99EA849646E"
+				item: "enchanted:water_artichoke"
+				type: "item"
+			}]
+			x: -5.0d
 			y: -1.5d
 		}
 		{
-			id: "312E441051273F07"
-			rewards: [
-				{
-					id: "0A27B606DFD265C4"
-					type: "xp"
-					xp: 20
-				}
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.7BEE0527AEE2AC44.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.7BEE0527AEE2AC44.description2}"
+				"{ftbquests.chapter.c_bewitchment.quest.7BEE0527AEE2AC44.description3}"
 			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests28.subtitle}"
-			tasks: [
-				{
-					id: "733D85357179B9B2"
-					item: "bewitchment:demon_horn"
-					type: "item"
-				}
-				{
-					id: "03D78D78886AEA2E"
-					item: "bewitchment:snake_tongue"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests28.title}"
-			x: 4.0d
-			y: -0.5d
+			id: "7BEE0527AEE2AC44"
+			rewards: [{
+				id: "7A923952D05BFF85"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.7BEE0527AEE2AC44.subtitle}"
+			tasks: [{
+				id: "29BEC42688BEC47B"
+				item: "enchanted:wolfsbane_flower"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["312E441051273F07"]
-			id: "0F99480AF49C90B9"
-			rewards: [
-				{
-					id: "08F657B6FCB818AB"
-					type: "xp"
-					xp: 30
-				}
+			dependencies: ["5B558DB5BB091F2C"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.7B3281DC9A740D84.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.7B3281DC9A740D84.description2}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.7B3281DC9A740D84.description4}"
 			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests29.subtitle}"
-			tasks: [
-				{
-					id: "2E37E9880EA11D4C"
-					item: "bewitchment:hellish_bauble"
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: -0.5d
+			id: "7B3281DC9A740D84"
+			rewards: [{
+				id: "073DDE52E4A9D5DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 6L
+				id: "7FEA63764EB1F799"
+				item: "enchanted:altar"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.7B3281DC9A740D84.title}"
+			x: -0.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["0C32BEA3E2E932F0"]
-			id: "1AC8A7B786C0D443"
-			rewards: [
-				{
-					id: "0D5D93C5030CB3AA"
-					type: "xp"
-					xp: 20
-				}
+			dependencies: ["7B3281DC9A740D84"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.0321B60943223211.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.0321B60943223211.description2}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.0321B60943223211.description4}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.0321B60943223211.description6}"
 			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests30.subtitle}"
-			tasks: [
-				{
-					id: "7E0C9FFE8A4F16CF"
-					item: "bewitchment:glowing_bramble"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests30.title}"
-			x: -2.0d
-			y: 9.5d
+			id: "0321B60943223211"
+			rewards: [{
+				id: "681EE296AF031D85"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FF38B5E9654BF32"
+				item: "enchanted:chalice"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.0321B60943223211.title}"
+			x: -0.5d
+			y: -6.5d
 		}
 		{
-			dependencies: ["13E6C2121AC06E4D"]
-			id: "399185DBAC205280"
-			rewards: [
-				{
-					id: "443D9ED4C06A0363"
-					type: "xp"
-					xp: 20
-				}
+			dependencies: ["7B3281DC9A740D84"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.5F98B1EBB30C263F.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.5F98B1EBB30C263F.description2}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.5F98B1EBB30C263F.description4}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.5F98B1EBB30C263F.description6}"
 			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests31.subtitle}"
-			tasks: [
-				{
-					id: "59613A7AA45623A6"
-					item: "bewitchment:ender_bramble"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests31.title}"
-			x: -3.0d
-			y: 6.5d
+			icon: "minecraft:skeleton_skull"
+			id: "5F98B1EBB30C263F"
+			rewards: [{
+				id: "72F0E85DBF75C4A1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "39B70BDA8BF4A464"
+				item: "minecraft:skeleton_skull"
+				title: "{ftbquests.chapter.c_bewitchment.quest.5F98B1EBB30C263F.task.39B70BDA8BF4A464.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.5F98B1EBB30C263F.title}"
+			x: 1.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["1705C4BCC0877881"]
-			id: "25D9B2CA3A60C643"
-			rewards: [
-				{
-					id: "3D163E5C8F076D84"
-					type: "xp"
-					xp: 20
-				}
+			dependencies: ["7B3281DC9A740D84"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.7EB2177127EDF7B9.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.7EB2177127EDF7B9.description2}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.7EB2177127EDF7B9.description4}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.7EB2177127EDF7B9.description6}"
 			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests32.subtitle}"
-			tasks: [
-				{
-					id: "222520A5F47C0EB4"
-					item: "bewitchment:fruiting_bramble"
-					type: "item"
+			id: "7EB2177127EDF7B9"
+			rewards: [{
+				id: "6F49BC20DEB47E9E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "37662D05CAC46968"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:candles"
+					}
 				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests32.title}"
-			x: 2.0d
-			y: 9.5d
+				title: "{ftbquests.chapter.c_bewitchment.quest.7EB2177127EDF7B9.task.37662D05CAC46968.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.7EB2177127EDF7B9.title}"
+			x: -2.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["497F772433CCD604"]
-			id: "6B4DFDBED1932929"
-			rewards: [
-				{
-					id: "1F19DDBB551ECFDA"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests33.subtitle}"
-			tasks: [
-				{
-					id: "636E535F031DDD36"
-					item: "bewitchment:thick_bramble"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests33.title}"
-			x: 1.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["2C772382F591E206"]
-			id: "34974FD493DCDB71"
-			rewards: [
-				{
-					id: "2E620C0D9DF1A0B1"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests34.subtitle}"
-			tasks: [
-				{
-					id: "1EC1EC2052EA4713"
-					item: "bewitchment:fleeting_bramble"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests34.title}"
-			x: 2.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["40DA06BA210A7F4F"]
-			id: "5974E6F54D4E94B7"
-			rewards: [
-				{
-					id: "6615962E9D17E3E1"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests35.subtitle}"
-			tasks: [
-				{
-					id: "13822D8C28661F37"
-					item: "bewitchment:scorched_bramble"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.c_bewitchment.quests35.title}"
-			x: -3.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["25D9B2CA3A60C643"]
-			id: "3F11B040CEECD604"
-			rewards: [
-				{
-					id: "61DC222D6B591D8F"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.c_bewitchment.quests36.subtitle}"
-			tasks: [
-				{
-					id: "2D70BA17F299C0C9"
-					item: "bewitchment:witchberry"
-					type: "item"
-				}
-			]
+			dependencies: ["5B558DB5BB091F2C"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.522A912346A57666.description0}"]
+			icon: "enchanted:witch_cauldron"
+			id: "522A912346A57666"
+			rewards: [{
+				id: "285B413085A95B84"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14084A191229D0C1"
+				title: "{ftbquests.chapter.c_bewitchment.quest.522A912346A57666.task.14084A191229D0C1.title}"
+				type: "checkmark"
+			}]
 			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["522A912346A57666"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.03960BA1D1F04078.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.03960BA1D1F04078.description2}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.03960BA1D1F04078.description4}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.03960BA1D1F04078.description6}"
+			]
+			id: "03960BA1D1F04078"
+			rewards: [
+				{
+					id: "37762A2BC570B0DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "5AC5E6FEA7A69ABA"
+					item: "enchanted:attuned_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4013089B39C00FE0"
+				item: "enchanted:kettle"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["10852CA14BB38CE4"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.23C2C4580B40658E.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.23C2C4580B40658E.description2}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.23C2C4580B40658E.description4}"
+			]
+			id: "23C2C4580B40658E"
+			rewards: [{
+				id: "4F344BBA299C5F70"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "249AABF1BF8F8DE7"
+				item: "enchanted:witch_cauldron"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.24DE04A86FFBCD7F.description0}"]
+			icon: "enchanted:distillery"
+			id: "24DE04A86FFBCD7F"
+			tasks: [{
+				id: "131341E6B2C23C76"
+				title: "{ftbquests.chapter.c_bewitchment.quest.24DE04A86FFBCD7F.task.131341E6B2C23C76.title}"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.6DB688073F8B6A2B.description0}"]
+			id: "6DB688073F8B6A2B"
+			rewards: [{
+				id: "20A9FE2C77E61E05"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C90A207AEDEC050"
+				item: "enchanted:brew_of_love"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.6DB688073F8B6A2B.title}"
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.1CAA0EB4954DA383.description0}"]
+			id: "1CAA0EB4954DA383"
+			rewards: [{
+				id: "0F25D540D98FB94B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "45D4DDE96537E89D"
+				item: "enchanted:brew_of_sprouting"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.262A5DB9C87A0854.description0}"]
+			id: "262A5DB9C87A0854"
+			rewards: [{
+				id: "5FBA15EAE0F14791"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "78A5A3E07EC69928"
+				item: "enchanted:brew_of_the_depths"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.2A0DA391E309349D.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.2A0DA391E309349D.description2}"
+			]
+			id: "2A0DA391E309349D"
+			rewards: [{
+				id: "46DAC6E7BC307714"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BA623809B83AFD3"
+				item: "enchanted:brew_of_the_grotesque"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.2A0DA391E309349D.title}"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.6A61EAA567B225F7.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.6A61EAA567B225F7.description2}"
+			]
+			id: "6A61EAA567B225F7"
+			rewards: [{
+				id: "27390792CCCC7021"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.6A61EAA567B225F7.subtitle}"
+			tasks: [{
+				id: "7FD4E337254FE263"
+				item: "enchanted:flying_ointment"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.7525C57B0FD6C5A6.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.7525C57B0FD6C5A6.description2}"
+			]
+			id: "7525C57B0FD6C5A6"
+			rewards: [{
+				id: "4602BF41E0ABADB3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A4B9128C123B3DE"
+				item: "enchanted:happenstance_oil"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.67FC67E1E5581EEE.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.67FC67E1E5581EEE.description2}"
+			]
+			id: "67FC67E1E5581EEE"
+			rewards: [{
+				id: "2924DE6D0CE8703B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5384EC55BAA94CE0"
+				item: "enchanted:mystic_unguent"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.11FA7F7B0F3EDD81.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.11FA7F7B0F3EDD81.description2}"
+			]
+			id: "11FA7F7B0F3EDD81"
+			rewards: [{
+				id: "44858AF6C942ABD7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A475F37DA95457F"
+				item: "enchanted:redstone_soup"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.593DAD1F132CB7E0.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.593DAD1F132CB7E0.description2}"
+			]
+			id: "593DAD1F132CB7E0"
+			rewards: [{
+				id: "08C70A7FF0DA97CE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E12F1FB56B41EE9"
+				item: "enchanted:soul_of_the_world"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.192ED68195347AC4.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.192ED68195347AC4.description2}"
+			]
+			id: "192ED68195347AC4"
+			tasks: [{
+				id: "1A33CA9CB9448720"
+				item: "enchanted:spirit_of_otherwhere"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			id: "056AAAB76704C89A"
+			rewards: [
+				{
+					count: 12
+					id: "1048D2FCD3AF0559"
+					item: "enchanted:mutandis"
+					type: "item"
+				}
+				{
+					id: "0A0DC18AC813055D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.056AAAB76704C89A.subtitle}"
+			tasks: [{
+				id: "04FBF755F0AB3D0F"
+				item: "enchanted:mutandis"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.056AAAB76704C89A.title}"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["056AAAB76704C89A"]
+			id: "080718302F9FE88D"
+			rewards: [
+				{
+					count: 8
+					id: "6BAA0E054F7A5443"
+					item: "enchanted:mutandis_extremis"
+					type: "item"
+				}
+				{
+					id: "7D22A8BD306D86E5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.080718302F9FE88D.subtitle}"
+			tasks: [{
+				id: "747AE4CB3B4A79BE"
+				item: "enchanted:mutandis_extremis"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.080718302F9FE88D.title}"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["522A912346A57666"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.10852CA14BB38CE4.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.10852CA14BB38CE4.description2}"
+			]
+			id: "10852CA14BB38CE4"
+			rewards: [{
+				id: "714E366F60FE7A04"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.10852CA14BB38CE4.subtitle}"
+			tasks: [{
+				id: "5BCFD9BF955B698F"
+				item: "enchanted:anointing_paste"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.3d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.1A3DC0166A287963.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.1A3DC0166A287963.description2}"
+			]
+			id: "1A3DC0166A287963"
+			rewards: [{
+				id: "37DCE109337A400C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "minecraft:beef"
+				id: "51CFAD0DB46C23C2"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.1A3DC0166A287963.title}"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.017FC45D6B891C91.description0}"]
+			id: "017FC45D6B891C91"
+			rewards: [
+				{
+					id: "5647B73FE03C86E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5DB16C82CF209E3B"
+					item: "things:luck_of_the_irish"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30969EFEFCE859C3"
+				item: "enchanted:drop_of_luck"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.13423182590A5B84.description0}"]
+			id: "13423182590A5B84"
+			rewards: [{
+				id: "661D441624FDB75D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D50369B255B5A1E"
+				item: {
+					Count: 1
+					id: "enchanted:golden_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.40B9DEF0584606C4.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.40B9DEF0584606C4.description2}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.40B9DEF0584606C4.description4}"
+			]
+			id: "40B9DEF0584606C4"
+			rewards: [
+				{
+					id: "65F33494EF2BEF00"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0A6DEA348D5C4C1E"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BFAB73EAA7916C4"
+				item: {
+					Count: 1
+					id: "enchanted:nether_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.43A1C4B1FF991ADE.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.43A1C4B1FF991ADE.description2}"
+			]
+			id: "43A1C4B1FF991ADE"
+			rewards: [{
+				id: "108B806C59E0F2E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7313940081164A8C"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.43A1C4B1FF991ADE.title}"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.1B8AC63851FE70A2.description0}"]
+			id: "1B8AC63851FE70A2"
+			rewards: [{
+				id: "3977C7C7C9DF4FBD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "773FCD0ABF116B34"
+				item: {
+					Count: 1
+					id: "enchanted:otherwhere_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24DE04A86FFBCD7F"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.156FC17E34F3328E.description0}"]
+			icon: "enchanted:fume_funnel"
+			id: "156FC17E34F3328E"
+			rewards: [
+				{
+					id: "1E976AC4DDDC03B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1AAD83C9E1F28DFA"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "175F9E502A4298B2"
+				title: "{ftbquests.chapter.c_bewitchment.quest.156FC17E34F3328E.task.175F9E502A4298B2.title}"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["156FC17E34F3328E"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.50C40DFDA5D0FDFF.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.50C40DFDA5D0FDFF.description2}"
+			]
+			id: "50C40DFDA5D0FDFF"
+			rewards: [
+				{
+					count: 12
+					id: "1D424EA0AB1EBC99"
+					item: "enchanted:clay_jar"
+					type: "item"
+				}
+				{
+					id: "78F77CAA96D87D1E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.50C40DFDA5D0FDFF.subtitle}"
+			tasks: [{
+				id: "13DF225D60A7006B"
+				item: "enchanted:witch_oven"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.1BFA28FC4984B705.description0}"]
+			id: "1BFA28FC4984B705"
+			rewards: [{
+				id: "2BDC5522410F081B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5DB38E2306E53D47"
+				item: "enchanted:breath_of_the_goddess"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.2BB14A1E75713B7F.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.2BB14A1E75713B7F.description2}"
+			]
+			id: "2BB14A1E75713B7F"
+			rewards: [{
+				id: "5D4CE1B9DD9FE507"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C750EBCD887ED78"
+				item: "enchanted:exhale_of_the_horned_one"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.2CF066B6BB9E8EEB.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.2CF066B6BB9E8EEB.description2}"
+			]
+			id: "2CF066B6BB9E8EEB"
+			rewards: [{
+				id: "03BD574E4183C663"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.2CF066B6BB9E8EEB.subtitle}"
+			tasks: [{
+				id: "054F0876F774FD49"
+				item: "enchanted:foul_fume"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.08F4ECBF7A7821E6.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.08F4ECBF7A7821E6.description2}"
+			]
+			id: "08F4ECBF7A7821E6"
+			rewards: [
+				{
+					id: "5AD681888CC2EDB7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "70CBE50BF3A407A8"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FC5BE1D63B51037"
+				item: "enchanted:hint_of_rebirth"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.0E6DF5CEDADDB050.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.0E6DF5CEDADDB050.description2}"
+			]
+			id: "0E6DF5CEDADDB050"
+			rewards: [{
+				id: "22B5EAC404F96C8A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "769417EA15359519"
+				item: "enchanted:odour_of_purity"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.007B5E4FE8428B09.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.007B5E4FE8428B09.description2}"
+			]
+			id: "007B5E4FE8428B09"
+			rewards: [{
+				id: "241C0B82A4B84F84"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "123FA8F41BFB1A47"
+				item: "enchanted:reek_of_misfortune"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.58A247BFBAB9DC76.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.58A247BFBAB9DC76.description2}"
+			]
+			id: "58A247BFBAB9DC76"
+			rewards: [{
+				id: "75C09BAF0E4E13DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5043E1409551C194"
+				item: "enchanted:whiff_of_magic"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["24DE04A86FFBCD7F"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.392DD827C1A89426.description0}"]
+			id: "392DD827C1A89426"
+			rewards: [
+				{
+					id: "64613FCF91E58238"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 12
+					id: "4DEB29809A3DFC84"
+					item: "enchanted:clay_jar"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D1065A5D6DD8FAC"
+				item: "enchanted:distillery"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "036FCBF7425889C1"
+			rewards: [{
+				id: "2C727F43CD858D59"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "316ADD3E4ED6D6C9"
+				item: "enchanted:demonic_blood"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "09BF6E4F6D1A3B5E"
+			rewards: [{
+				id: "56861B8DD6BC8793"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6905834A08C7A8DE"
+				item: "enchanted:diamond_vapour"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "2F6AB0640E4CD002"
+			rewards: [{
+				id: "23024B5009A91617"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E875F7610179987"
+				item: "enchanted:ender_dew"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.297896F8CC866077.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.297896F8CC866077.description2}"
+			]
+			id: "297896F8CC866077"
+			rewards: [
+				{
+					id: "4A22FCB1A0775A9E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "16930BEC0B8B24E4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.297896F8CC866077.subtitle}"
+			tasks: [{
+				id: "63D30E6C5F7A6DE0"
+				item: "enchanted:foul_fume"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.19C640D645BCCFF5.description0}"]
+			id: "19C640D645BCCFF5"
+			rewards: [{
+				id: "6E496702CC1E0EC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75233B0D3FC4AE85"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "1A845919E54304AB"
+			rewards: [{
+				id: "105DA9C20FFB6A5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "282314E2915BB903"
+				item: "enchanted:gypsum"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.7C9053AAA7862F35.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.7C9053AAA7862F35.description2}"
+			]
+			id: "7C9053AAA7862F35"
+			rewards: [{
+				id: "245EC48693887513"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "696CB80D91260773"
+				item: "enchanted:odour_of_purity"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "2257E0A4E1C8AC7B"
+			rewards: [{
+				id: "4D040AFE80F9227C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "391D63D35FE88B49"
+				item: "enchanted:oil_of_vitriol"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.7C4046654A263CE3.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.7C4046654A263CE3.description2}"
+			]
+			id: "7C4046654A263CE3"
+			rewards: [
+				{
+					id: "244F258BF1C3A039"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6AB7F7FACE672667"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "093C614C5C7EE372"
+				item: "enchanted:reek_of_misfortune"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "1277E8AD25A2DA0E"
+			rewards: [{
+				id: "76642400050CA0B5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "576FE4C3FEBF0618"
+				item: "enchanted:refined_evil"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "5F163AF0E7E7E28A"
+			rewards: [{
+				id: "1720556DFAEB61EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FAAFD6C1D682F73"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "6049A73E67B739DB"
+			rewards: [{
+				id: "36171ABC286461BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11EFE26C7F76D1BA"
+				item: "enchanted:tear_of_the_goddess"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.40DD1AFB0E6B8DB0.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.40DD1AFB0E6B8DB0.description2}"
+			]
+			id: "40DD1AFB0E6B8DB0"
+			rewards: [
+				{
+					id: "0E7AB31FEDA1EED3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "314259AFABF09695"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3C5A0898FA9785E8"
+				item: "enchanted:whiff_of_magic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3B45C160EDC3E1D7"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.75E4EA90D9D93054.description0}"]
+			icon: {
+				Count: 1
+				id: "enchanted:golden_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "75E4EA90D9D93054"
+			rewards: [{
+				id: "77FB3A57F8CC7B96"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D7A3CAB9E56A3A2"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.75E4EA90D9D93054.title}"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.3B45C160EDC3E1D7.description0}"]
+			icon: {
+				Count: 1
+				id: "enchanted:circle_talisman"
+				tag: {
+					circle_magic_shape_map: {
+						"enchanted:large_circle": "enchanted:otherwhere_chalk"
+					}
+				}
+			}
+			id: "3B45C160EDC3E1D7"
+			rewards: [{
+				id: "5C27158D9EC63B76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7D0EA479EF342453"
+					item: {
+						Count: 1
+						id: "enchanted:golden_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50EA884405F9A7DF"
+					item: {
+						Count: 1
+						id: "enchanted:ritual_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.c_bewitchment.quest.3B45C160EDC3E1D7.title}"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75E4EA90D9D93054"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.4596FE789462F045.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.4596FE789462F045.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "enchanted:ritual_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4596FE789462F045"
+			rewards: [{
+				id: "0A8E7E5A04B82196"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "25CE06FD5EF7B9BD"
+				title: "{ftbquests.chapter.c_bewitchment.quest.4596FE789462F045.task.25CE06FD5EF7B9BD.title}"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.307C0DD2A98811B5.description0}"]
+			icon: "minecraft:chain"
+			id: "307C0DD2A98811B5"
+			rewards: [{
+				id: "57E4C1C551F34E95"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28377B55EA61C219"
+				title: "{ftbquests.chapter.c_bewitchment.quest.307C0DD2A98811B5.task.28377B55EA61C219.title}"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["307C0DD2A98811B5"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.401928D63E6BD7DB.description0}"]
+			icon: {
+				Count: 1
+				id: "enchanted:arthana"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "401928D63E6BD7DB"
+			tasks: [{
+				id: "73302424688C8C1E"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.401928D63E6BD7DB.title}"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["307C0DD2A98811B5"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.0C06A9C24B21904F.description0}"]
+			icon: "enchanted:circle_talisman"
+			id: "0C06A9C24B21904F"
+			rewards: [{
+				id: "6795044522B666F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41DFD5955F637C83"
+				title: "{ftbquests.chapter.c_bewitchment.quest.0C06A9C24B21904F.task.41DFD5955F637C83.title}"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.41D1D201D61A0913.description0}"]
+			icon: "enchanted:attuned_stone"
+			id: "41D1D201D61A0913"
+			rewards: [{
+				id: "5676307D3B743E1D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "773D34772AD1F014"
+				title: "{ftbquests.chapter.c_bewitchment.quest.41D1D201D61A0913.task.773D34772AD1F014.title}"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41D1D201D61A0913"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.07F0EF02D2614E5D.description0}"]
+			id: "07F0EF02D2614E5D"
+			rewards: [
+				{
+					id: "1D6AF98A29A3C060"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "15BFC703BB5250ED"
+					item: "enchanted:attuned_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B4636800B47B00D"
+				item: "enchanted:attuned_stone_charged"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.1597CAC3E8A7377E.description0}"]
+			icon: "minecraft:bat_spawn_egg"
+			id: "1597CAC3E8A7377E"
+			rewards: [{
+				id: "2C27ACBAC366747D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.c_bewitchment.quest.1597CAC3E8A7377E.subtitle}"
+			tasks: [{
+				id: "37FB522891AF016D"
+				title: "{ftbquests.chapter.c_bewitchment.quest.1597CAC3E8A7377E.task.37FB522891AF016D.title}"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1597CAC3E8A7377E"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.30FE56434A7AFF73.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.30FE56434A7AFF73.description2}"
+			]
+			icon: "minecraft:iron_bars"
+			id: "30FE56434A7AFF73"
+			tasks: [{
+				id: "64728E32408D18C9"
+				title: "{ftbquests.chapter.c_bewitchment.quest.30FE56434A7AFF73.task.64728E32408D18C9.title}"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1597CAC3E8A7377E"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.45A7D8038588E461.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.45A7D8038588E461.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "paladins:iron_kite_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "45A7D8038588E461"
+			tasks: [{
+				id: "1F838F16FED0BA1F"
+				title: "{ftbquests.chapter.c_bewitchment.quest.45A7D8038588E461.task.1F838F16FED0BA1F.title}"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1597CAC3E8A7377E"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.379078E43DD9DFE3.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.379078E43DD9DFE3.description2}"
+			]
+			icon: "minecraft:feather"
+			id: "379078E43DD9DFE3"
+			rewards: [{
+				id: "38D77EEC8610CB9D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1EEB48E2483538FE"
+				title: "{ftbquests.chapter.c_bewitchment.quest.379078E43DD9DFE3.task.1EEB48E2483538FE.title}"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.51E951EE8CE87653.description0}"]
+			icon: "endrem:cursed_eye"
+			id: "51E951EE8CE87653"
+			rewards: [{
+				id: "0F2F068E7610B72B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "061A84CE3F8F91EE"
+				title: "{ftbquests.chapter.c_bewitchment.quest.51E951EE8CE87653.task.061A84CE3F8F91EE.title}"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["51E951EE8CE87653"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.279BB02B704D8149.description0}"]
+			icon: "minecraft:skeleton_skull"
+			id: "279BB02B704D8149"
+			rewards: [{
+				id: "46EF4291BB72D857"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D5B4A95C324AD08"
+				title: "{ftbquests.chapter.c_bewitchment.quest.279BB02B704D8149.task.1D5B4A95C324AD08.title}"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["51E951EE8CE87653"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.14301CB90C114A3A.description0}"]
+			icon: "betterarcheology:creeper_fossil_head"
+			id: "14301CB90C114A3A"
+			rewards: [{
+				id: "661EC0E4DE7DFD2F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7DB89947819B57A2"
+				title: "{ftbquests.chapter.c_bewitchment.quest.14301CB90C114A3A.task.7DB89947819B57A2.title}"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.5C6FEDC36F9CDCA3.description0}"]
+			icon: "soulsweapons:infused_blackstone"
+			id: "5C6FEDC36F9CDCA3"
+			rewards: [{
+				id: "1607E7F0B3D59624"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "503EFA6E02738B5D"
+				title: "{ftbquests.chapter.c_bewitchment.quest.5C6FEDC36F9CDCA3.task.503EFA6E02738B5D.title}"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5C6FEDC36F9CDCA3"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.46690325565C8E97.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.46690325565C8E97.description2}"
+			]
+			id: "46690325565C8E97"
+			rewards: [{
+				id: "68F96FD23D954500"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "513F79C3DDBA9597"
+				item: "enchanted:enchanted_broomstick"
+				type: "item"
+			}]
+			x: -2.5d
 			y: 9.5d
 		}
 		{
-			dependencies: ["3F11B040CEECD604"]
-			id: "0093445D83A733ED"
+			dependencies: ["1597CAC3E8A7377E"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.40DC2AD2DDB5CB21.description0}"]
+			icon: "mcwholidays:cat_wall_deco_1"
+			id: "40DC2AD2DDB5CB21"
+			rewards: [{
+				id: "3599D51352218EA1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A6926C04AA50CEA"
+				title: "{ftbquests.chapter.c_bewitchment.quest.40DC2AD2DDB5CB21.task.0A6926C04AA50CEA.title}"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.7ECECF07C599F6CD.description0}"]
+			icon: {
+				Count: 1
+				id: "enchanted:otherwhere_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7ECECF07C599F6CD"
+			rewards: [{
+				id: "3AB6613B4E9B9873"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6886F59A86B6DC58"
+				title: "{ftbquests.chapter.c_bewitchment.quest.7ECECF07C599F6CD.task.6886F59A86B6DC58.title}"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7ECECF07C599F6CD"]
+			description: ["{ftbquests.chapter.c_bewitchment.quest.748177D51D81616D.description0}"]
+			icon: "minecraft:raw_iron"
+			id: "748177D51D81616D"
 			rewards: [
 				{
-					id: "4F4505D4D169DF2D"
+					count: 32
+					id: "5493F12F910EBEB4"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "25A4084CD3E0E320"
 					type: "xp"
-					xp: 30
+					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "59E6811404E5AB82"
-					item: "bewitchment:witchberry_cookie"
-					type: "item"
-				}
-				{
-					id: "49758753A4D3318C"
-					item: "bewitchment:witchberry_pie"
-					type: "item"
-				}
+			tasks: [{
+				id: "375DA6E02368FEEA"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.748177D51D81616D.title}"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: [
+				"{ftbquests.chapter.c_bewitchment.quest.4EC000B13E071D0A.description0}"
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.4EC000B13E071D0A.description2}"
+				""
+				""
+				"{ftbquests.chapter.c_bewitchment.quest.4EC000B13E071D0A.description5}"
 			]
-			title: "{ftbquests.chapter.c_bewitchment.quests37.title}"
-			x: 5.0d
-			y: 9.5d
+			icon: "minecraft:oak_sapling"
+			id: "4EC000B13E071D0A"
+			rewards: [{
+				id: "6AA7F1992F16322C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4C7D19F20F2CC49A"
+				title: "{ftbquests.chapter.c_bewitchment.quest.4EC000B13E071D0A.task.4C7D19F20F2CC49A.title}"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 11.0d
 		}
 	]
+	subtitle: ["{ftbquests.chapter.c_bewitchment.subtitle0}"]
 	title: "{ftbquests.chapter.c_bewitchment.title}"
 }

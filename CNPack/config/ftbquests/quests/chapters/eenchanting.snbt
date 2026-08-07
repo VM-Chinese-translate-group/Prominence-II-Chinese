@@ -11,20 +11,28 @@
 		}
 	}
 	id: "472AF31E92BAA1CC"
+	images: [{
+		height: 1.0d
+		image: "quark:textures/attribute/staff_damage.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -18.0d
+		y: 11.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.eenchanting.quest1.description0}"
+				"{ftbquests.chapter.eenchanting.quest.2F8B1BF5905F954D.description0}"
 				""
-				"{ftbquests.chapter.eenchanting.quest1.description2}"
+				"{ftbquests.chapter.eenchanting.quest.2F8B1BF5905F954D.description2}"
 				""
-				"{ftbquests.chapter.eenchanting.quest1.description4}"
+				"{ftbquests.chapter.eenchanting.quest.2F8B1BF5905F954D.description4}"
 				""
-				"{ftbquests.chapter.eenchanting.quest1.description6}"
+				"{ftbquests.chapter.eenchanting.quest.2F8B1BF5905F954D.description6}"
 				""
-				"{ftbquests.chapter.eenchanting.quest1.description8}"
+				"{ftbquests.chapter.eenchanting.quest.2F8B1BF5905F954D.description8}"
 			]
 			id: "2F8B1BF5905F954D"
 			rewards: [{
@@ -33,21 +41,22 @@
 				xp_levels: 10
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.eenchanting.quest1.subtitle}"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.eenchanting.quest.2F8B1BF5905F954D.subtitle}"
 			tasks: [{
 				id: "29BBF4C4493B2D31"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest1.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.2F8B1BF5905F954D.title}"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"{ftbquests.chapter.eenchanting.quest2.description0}"
-				"{ftbquests.chapter.eenchanting.quest2.description1}"
+				"{ftbquests.chapter.eenchanting.quest.379C7E6854F4F226.description0}"
+				"{ftbquests.chapter.eenchanting.quest.379C7E6854F4F226.description1}"
 			]
 			hide_until_deps_complete: true
 			id: "379C7E6854F4F226"
@@ -56,22 +65,22 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest2.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.379C7E6854F4F226.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "7CFE22664BFEA884"
 				item: "zenith:seashelf"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest2.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.379C7E6854F4F226.title}"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"{ftbquests.chapter.eenchanting.quest3.description0}"
-				"{ftbquests.chapter.eenchanting.quest3.description1}"
+				"{ftbquests.chapter.eenchanting.quest.52D4F78DE9C64FF3.description0}"
+				"{ftbquests.chapter.eenchanting.quest.52D4F78DE9C64FF3.description1}"
 			]
 			hide_until_deps_complete: true
 			id: "52D4F78DE9C64FF3"
@@ -80,14 +89,14 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest3.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.52D4F78DE9C64FF3.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "3945BAB14D78B572"
 				item: { Count: 5, id: "zenith:hellshelf" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest3.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.52D4F78DE9C64FF3.title}"
 			x: 0.5d
 			y: -2.0d
 		}
@@ -97,7 +106,7 @@
 				"379C7E6854F4F226"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.eenchanting.quest4.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.2B99DDA42BB7716C.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "2B99DDA42BB7716C"
@@ -106,14 +115,14 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest4.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.2B99DDA42BB7716C.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "44D305E5285AAEE1"
 				item: { Count: 5, id: "zenith:infused_hellshelf" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest4.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.2B99DDA42BB7716C.title}"
 			x: 1.0d
 			y: -3.5d
 		}
@@ -123,7 +132,7 @@
 				"379C7E6854F4F226"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.eenchanting.quest5.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.75D6FF466F4DA932.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "75D6FF466F4DA932"
@@ -132,22 +141,22 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest5.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.75D6FF466F4DA932.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "4C5147D7218117A8"
 				item: "zenith:infused_seashelf"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest5.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.75D6FF466F4DA932.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["75D6FF466F4DA932"]
 			description: [
-				"{ftbquests.chapter.eenchanting.quest6.description0}"
-				"{ftbquests.chapter.eenchanting.quest6.description1}"
+				"{ftbquests.chapter.eenchanting.quest.55DC0E4792D27682.description0}"
+				"{ftbquests.chapter.eenchanting.quest.55DC0E4792D27682.description1}"
 			]
 			id: "55DC0E4792D27682"
 			rewards: [{
@@ -155,7 +164,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest6.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.55DC0E4792D27682.subtitle}"
 			tasks: [{
 				id: "39013B63D1996B34"
 				item: "zenith:heart_seashelf"
@@ -168,8 +177,8 @@
 			dependencies: ["75D6FF466F4DA932"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.eenchanting.quest7.description0}"
-				"{ftbquests.chapter.eenchanting.quest7.description1}"
+				"{ftbquests.chapter.eenchanting.quest.4011B9F44111D91E.description0}"
+				"{ftbquests.chapter.eenchanting.quest.4011B9F44111D91E.description1}"
 			]
 			id: "4011B9F44111D91E"
 			rewards: [{
@@ -177,7 +186,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest7.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.4011B9F44111D91E.subtitle}"
 			tasks: [{
 				id: "0250CC346A0DD595"
 				item: "zenith:crystal_seashelf"
@@ -190,8 +199,8 @@
 			dependencies: ["2B99DDA42BB7716C"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.eenchanting.quest8.description0}"
-				"{ftbquests.chapter.eenchanting.quest8.description1}"
+				"{ftbquests.chapter.eenchanting.quest.760BEB0339ED65A9.description0}"
+				"{ftbquests.chapter.eenchanting.quest.760BEB0339ED65A9.description1}"
 			]
 			hide_dependent_lines: true
 			id: "760BEB0339ED65A9"
@@ -200,7 +209,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest8.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.760BEB0339ED65A9.subtitle}"
 			tasks: [{
 				id: "15378E2783A5AAB3"
 				item: "zenith:blazing_hellshelf"
@@ -213,8 +222,8 @@
 			dependencies: ["2B99DDA42BB7716C"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.eenchanting.quest9.description0}"
-				"{ftbquests.chapter.eenchanting.quest9.description1}"
+				"{ftbquests.chapter.eenchanting.quest.7F5414CC388648FC.description0}"
+				"{ftbquests.chapter.eenchanting.quest.7F5414CC388648FC.description1}"
 			]
 			hide_dependent_lines: true
 			id: "7F5414CC388648FC"
@@ -223,7 +232,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest9.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.7F5414CC388648FC.subtitle}"
 			tasks: [{
 				id: "65876EEF7C4D9EA6"
 				item: "zenith:glowing_hellshelf"
@@ -239,8 +248,8 @@
 				"760BEB0339ED65A9"
 				"7F5414CC388648FC"
 			]
-			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.eenchanting.quest10.description0}"]
+			dependency_requirement: "one_started"
+			description: ["{ftbquests.chapter.eenchanting.quest.3638B82292E58322.description0}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -250,47 +259,47 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest10.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.3638B82292E58322.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "21B4339658E55FEF"
 				item: { Count: 5, id: "zenith:dormant_deepshelf" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest10.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.3638B82292E58322.title}"
 			x: 1.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3638B82292E58322"]
-			description: ["{ftbquests.chapter.eenchanting.quest11.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.181E4D8DC20A161F.description0}"]
 			id: "181E4D8DC20A161F"
 			rewards: [{
 				id: "1A26975999222863"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest11.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.181E4D8DC20A161F.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "7DA53A17D1F442CF"
 				item: { Count: 5, id: "zenith:deepshelf" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest11.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.181E4D8DC20A161F.title}"
 			x: 2.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["181E4D8DC20A161F"]
-			description: ["{ftbquests.chapter.eenchanting.quest12.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.14688027AF83AD58.description0}"]
 			id: "14688027AF83AD58"
 			rewards: [{
 				id: "7667E39FE00B63FD"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest12.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.14688027AF83AD58.subtitle}"
 			tasks: [{
 				id: "415BC1C4DB113498"
 				item: "zenith:echoing_deepshelf"
@@ -301,14 +310,14 @@
 		}
 		{
 			dependencies: ["181E4D8DC20A161F"]
-			description: ["{ftbquests.chapter.eenchanting.quest13.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.7BE41C566915CAC0.description0}"]
 			id: "7BE41C566915CAC0"
 			rewards: [{
 				id: "3C1E9BFF3F769D2E"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest13.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.7BE41C566915CAC0.subtitle}"
 			tasks: [{
 				id: "79ED4BC5C5C5D852"
 				item: "zenith:soul_touched_deepshelf"
@@ -320,11 +329,11 @@
 		{
 			dependencies: ["1B0F69F532F25CED"]
 			description: [
-				"{ftbquests.chapter.eenchanting.quest14.description0}"
+				"{ftbquests.chapter.eenchanting.quest.3DCC7DFC27102E56.description0}"
 				""
-				"{ftbquests.chapter.eenchanting.quest14.description2}"
+				"{ftbquests.chapter.eenchanting.quest.3DCC7DFC27102E56.description2}"
 				""
-				"{ftbquests.chapter.eenchanting.quest14.description4}"
+				"{ftbquests.chapter.eenchanting.quest.3DCC7DFC27102E56.description4}"
 			]
 			id: "3DCC7DFC27102E56"
 			rewards: [
@@ -346,19 +355,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.eenchanting.quest14.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.3DCC7DFC27102E56.subtitle}"
 			tasks: [{
 				id: "67A155F5E166C842"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest14.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.3DCC7DFC27102E56.title}"
 			x: 4.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["5D65F9ABAFC04598"]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.eenchanting.quest15.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.1B0F69F532F25CED.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:enchanting_table"
@@ -369,7 +378,8 @@
 				xp_levels: 20
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.eenchanting.quest15.subtitle}"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.eenchanting.quest.1B0F69F532F25CED.subtitle}"
 			tasks: [
 				{
 					count: 3L
@@ -390,33 +400,33 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.eenchanting.quest15.title}"
-			x: 4.5d
+			title: "{ftbquests.chapter.eenchanting.quest.1B0F69F532F25CED.title}"
+			x: 5.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["14688027AF83AD58"]
-			description: ["{ftbquests.chapter.eenchanting.quest16.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.5D65F9ABAFC04598.description0}"]
 			id: "5D65F9ABAFC04598"
 			rewards: [{
 				id: "61E5B6DC54ED44D9"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest16.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.5D65F9ABAFC04598.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "0195AEE90B3A28AD"
 				item: "zenith:echoing_sculkshelf"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest16.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.5D65F9ABAFC04598.title}"
 			x: 3.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
-			description: ["{ftbquests.chapter.eenchanting.quest17.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.39501B35F8A9520C.description0}"]
 			id: "39501B35F8A9520C"
 			rewards: [
 				{
@@ -431,13 +441,13 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.eenchanting.quest17.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.39501B35F8A9520C.subtitle}"
 			tasks: [{
 				id: "1DD01687EDBB66CA"
 				item: "zenith:prismatic_web"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest17.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.39501B35F8A9520C.title}"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -445,13 +455,13 @@
 			dependencies: ["1B0F69F532F25CED"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.eenchanting.quest18.description0}"
+				"{ftbquests.chapter.eenchanting.quest.3CC8482AB27413C3.description0}"
 				""
-				"{ftbquests.chapter.eenchanting.quest18.description2}"
+				"{ftbquests.chapter.eenchanting.quest.3CC8482AB27413C3.description2}"
 				""
-				"{ftbquests.chapter.eenchanting.quest18.description4}"
+				"{ftbquests.chapter.eenchanting.quest.3CC8482AB27413C3.description4}"
 				""
-				"{ftbquests.chapter.eenchanting.quest18.description6}"
+				"{ftbquests.chapter.eenchanting.quest.3CC8482AB27413C3.description6}"
 			]
 			id: "3CC8482AB27413C3"
 			rewards: [{
@@ -459,13 +469,13 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest18.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.3CC8482AB27413C3.subtitle}"
 			tasks: [{
 				id: "306E3015FF1A27CA"
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest18.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.3CC8482AB27413C3.title}"
 			x: 3.0d
 			y: -10.5d
 		}
@@ -478,14 +488,14 @@
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest19.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.6D97D1472D47E236.subtitle}"
 			tasks: [{
 				count: 3L
 				id: "0F2CE0A37D163724"
 				item: { Count: 3, id: "zenith:infused_breath" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest19.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.6D97D1472D47E236.title}"
 			x: 3.0d
 			y: -12.0d
 		}
@@ -497,9 +507,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.eenchanting.quest20.description0}"
+				"{ftbquests.chapter.eenchanting.quest.01683B1B161E67AB.description0}"
 				""
-				"{ftbquests.chapter.eenchanting.quest20.description2}"
+				"{ftbquests.chapter.eenchanting.quest.01683B1B161E67AB.description2}"
 			]
 			hide_dependency_lines: true
 			id: "01683B1B161E67AB"
@@ -518,7 +528,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest20.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.01683B1B161E67AB.subtitle}"
 			tasks: [{
 				id: "1F1F4DA2AB2D3456"
 				item: "zenith:library"
@@ -529,15 +539,15 @@
 		}
 		{
 			dependencies: ["01683B1B161E67AB"]
-			description: ["{ftbquests.chapter.eenchanting.quest21.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.6E555092C38226CC.description0}"]
 			id: "6E555092C38226CC"
-			subtitle: "{ftbquests.chapter.eenchanting.quest21.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.6E555092C38226CC.subtitle}"
 			tasks: [{
 				id: "1B100A9D48825486"
 				item: "zenith:ender_library"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest21.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.6E555092C38226CC.title}"
 			x: 11.5d
 			y: -5.0d
 		}
@@ -547,7 +557,7 @@
 				"5CC063470E38D1AA"
 				"286D2A30B3320935"
 			]
-			description: ["{ftbquests.chapter.eenchanting.quest22.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.01B622F25CE780AF.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "minecraft:enchanting_table"
@@ -558,7 +568,7 @@
 				xp_levels: 30
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.eenchanting.quest22.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.01B622F25CE780AF.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -579,8 +589,8 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.eenchanting.quest22.title}"
-			x: 11.5d
+			title: "{ftbquests.chapter.eenchanting.quest.01B622F25CE780AF.title}"
+			x: 11.0d
 			y: -9.0d
 		}
 		{
@@ -593,27 +603,27 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest23.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.2684EE4739B501F6.subtitle}"
 			tasks: [{
 				count: 5L
 				id: "7CAD7E899B740A3C"
 				item: { Count: 5, id: "zenith:endshelf" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest23.title}"
-			x: 6.5d
+			title: "{ftbquests.chapter.eenchanting.quest.2684EE4739B501F6.title}"
+			x: 7.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["2684EE4739B501F6"]
-			description: ["{ftbquests.chapter.eenchanting.quest24.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.5CC063470E38D1AA.description0}"]
 			id: "5CC063470E38D1AA"
 			rewards: [{
 				id: "56673431B588EF62"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest24.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.5CC063470E38D1AA.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "168712189D4FFCD1"
@@ -625,46 +635,46 @@
 		}
 		{
 			dependencies: ["2684EE4739B501F6"]
-			description: ["{ftbquests.chapter.eenchanting.quest25.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.286D2A30B3320935.description0}"]
 			id: "286D2A30B3320935"
 			rewards: [{
 				id: "680672A17BE230CA"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest25.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.286D2A30B3320935.subtitle}"
 			tasks: [{
 				id: "180727F1CD0353E7"
 				item: "zenith:draconic_endshelf"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest25.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.286D2A30B3320935.title}"
 			x: 9.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["2684EE4739B501F6"]
-			description: ["{ftbquests.chapter.eenchanting.quest26.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.3CBCFFD3B30E10E0.description0}"]
 			id: "3CBCFFD3B30E10E0"
 			rewards: [{
 				id: "75459C34259B5713"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest26.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.3CBCFFD3B30E10E0.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "79D4CEE65DF64B8D"
 				item: { Count: 2, id: "zenith:treasure_shelf" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest26.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.3CBCFFD3B30E10E0.title}"
 			x: 9.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["56C00181CBB95EB0"]
-			description: ["{ftbquests.chapter.eenchanting.quest27.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.379E8A63DC6E5A5C.description0}"]
 			icon: "minecraft:enchanting_table"
 			id: "379E8A63DC6E5A5C"
 			rewards: [{
@@ -672,7 +682,7 @@
 				type: "xp_levels"
 				xp_levels: 20
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest27.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.379E8A63DC6E5A5C.subtitle}"
 			tasks: [
 				{
 					count: 7L
@@ -698,13 +708,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.eenchanting.quest27.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.379E8A63DC6E5A5C.title}"
 			x: 11.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["56C00181CBB95EB0"]
-			description: ["{ftbquests.chapter.eenchanting.quest28.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.049AF60D64091458.description0}"]
 			icon: "minecraft:enchanting_table"
 			id: "049AF60D64091458"
 			rewards: [{
@@ -712,7 +722,7 @@
 				type: "xp_levels"
 				xp_levels: 20
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest28.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.049AF60D64091458.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -740,17 +750,17 @@
 							value: "minecraft:candles"
 						}
 					}
-					title: "Any #minecraft:candles"
+					title: "{ftbquests.chapter.eenchanting.quest.049AF60D64091458.task.4CEA3A10F9008019.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.eenchanting.quest28.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.049AF60D64091458.title}"
 			x: 13.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["01B622F25CE780AF"]
-			description: ["{ftbquests.chapter.eenchanting.quest29.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.6D36893D5374B38B.description0}"]
 			icon: "minecraft:enchanting_table"
 			id: "6D36893D5374B38B"
 			rewards: [
@@ -765,7 +775,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.eenchanting.quest29.subtitle}"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.eenchanting.quest.6D36893D5374B38B.subtitle}"
 			tasks: [
 				{
 					count: 5L
@@ -799,7 +810,7 @@
 							value: "minecraft:candles"
 						}
 					}
-					title: "Any #minecraft:candles"
+					title: "{ftbquests.chapter.eenchanting.quest.6D36893D5374B38B.task.08F4523E38C248C7.title}"
 					type: "item"
 				}
 				{
@@ -820,13 +831,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.eenchanting.quest29.title}"
-			x: 15.5d
-			y: -9.0d
+			title: "{ftbquests.chapter.eenchanting.quest.6D36893D5374B38B.title}"
+			x: 14.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["01B622F25CE780AF"]
-			description: ["{ftbquests.chapter.eenchanting.quest30.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.56C00181CBB95EB0.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "56C00181CBB95EB0"
@@ -836,7 +847,7 @@
 				xp_levels: 5
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.eenchanting.quest30.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.56C00181CBB95EB0.subtitle}"
 			tasks: [{
 				id: "4D5C7C609F415DBB"
 				item: {
@@ -846,23 +857,23 @@
 						value: "trinkets:hand/charm"
 					}
 				}
-				title: "Any #trinkets:hand/charm"
+				title: "{ftbquests.chapter.eenchanting.quest.56C00181CBB95EB0.task.4D5C7C609F415DBB.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest30.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.56C00181CBB95EB0.title}"
 			x: 12.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"{ftbquests.chapter.eenchanting.quest31.description0}"
+				"{ftbquests.chapter.eenchanting.quest.0D3EA083E83FE6AF.description0}"
 				""
-				"{ftbquests.chapter.eenchanting.quest31.description2}"
+				"{ftbquests.chapter.eenchanting.quest.0D3EA083E83FE6AF.description2}"
 				""
-				"{ftbquests.chapter.eenchanting.quest31.description4}"
+				"{ftbquests.chapter.eenchanting.quest.0D3EA083E83FE6AF.description4}"
 				""
-				"{ftbquests.chapter.eenchanting.quest31.description6}"
+				"{ftbquests.chapter.eenchanting.quest.0D3EA083E83FE6AF.description6}"
 			]
 			id: "0D3EA083E83FE6AF"
 			rewards: [{
@@ -871,7 +882,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.eenchanting.quest31.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.0D3EA083E83FE6AF.subtitle}"
 			tasks: [{
 				id: "10EBBFF3F2982BD8"
 				item: {
@@ -881,16 +892,16 @@
 						value: "trinkets:hand/charm"
 					}
 				}
-				title: "Any #trinkets:hand/charm"
+				title: "{ftbquests.chapter.eenchanting.quest.0D3EA083E83FE6AF.task.10EBBFF3F2982BD8.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest31.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.0D3EA083E83FE6AF.title}"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
-			description: ["{ftbquests.chapter.eenchanting.quest32.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.7E791BE2C0D74016.description0}"]
 			id: "7E791BE2C0D74016"
 			rewards: [{
 				id: "4E675E0EE80B1604"
@@ -904,7 +915,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest32.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.7E791BE2C0D74016.subtitle}"
 			tasks: [{
 				id: "0313B2BB589AD702"
 				item: {
@@ -917,37 +928,38 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest32.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.7E791BE2C0D74016.title}"
 			x: 1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
 			description: [
-				"{ftbquests.chapter.eenchanting.quest33.description0}"
+				"{ftbquests.chapter.eenchanting.quest.15AF68754CE02E4A.description0}"
 				""
-				"{ftbquests.chapter.eenchanting.quest33.description2}"
+				"{ftbquests.chapter.eenchanting.quest.15AF68754CE02E4A.description2}"
 				""
-				"{ftbquests.chapter.eenchanting.quest33.description4}"
+				"{ftbquests.chapter.eenchanting.quest.15AF68754CE02E4A.description4}"
 				""
-				"{ftbquests.chapter.eenchanting.quest33.description6}"
+				"{ftbquests.chapter.eenchanting.quest.15AF68754CE02E4A.description6}"
 				""
-				"{ftbquests.chapter.eenchanting.quest33.description10}"
+				"{ftbquests.chapter.eenchanting.quest.15AF68754CE02E4A.description8}"
 				""
-				"{ftbquests.chapter.eenchanting.quest33.description12}"
+				"{ftbquests.chapter.eenchanting.quest.15AF68754CE02E4A.description10}"
 				""
-				"{ftbquests.chapter.eenchanting.quest33.description14}"
+				"{ftbquests.chapter.eenchanting.quest.15AF68754CE02E4A.description12}"
 			]
+			icon: "minecraft:experience_bottle"
 			id: "15AF68754CE02E4A"
 			rewards: [{
 				id: "5D49BC2EC790F43C"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest33.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.15AF68754CE02E4A.subtitle}"
 			tasks: [{
 				id: "09987381BB96DE43"
-				title: "{ftbquests.chapter.eenchanting.quest33.task1.title}"
+				title: "{ftbquests.chapter.eenchanting.quest.15AF68754CE02E4A.task.09987381BB96DE43.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -955,54 +967,55 @@
 		}
 		{
 			dependencies: ["2F8B1BF5905F954D"]
-			description: ["{ftbquests.chapter.eenchanting.quest34.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.5D62225195633904.description0}"]
 			id: "5D62225195633904"
 			rewards: [{
 				id: "59493EE82EBCFA4B"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest34.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.5D62225195633904.subtitle}"
 			tasks: [{
 				id: "31F16606F96454B7"
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest34.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.5D62225195633904.title}"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["52D4F78DE9C64FF3"]
 			dependency_requirement: "one_started"
-			description: ["{ftbquests.chapter.eenchanting.quest35.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.65967FFB6D25BD30.description0}"]
 			id: "65967FFB6D25BD30"
 			rewards: [{
 				id: "24EA0CB52EC9C2CA"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest35.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.65967FFB6D25BD30.subtitle}"
 			tasks: [{
 				id: "3EC1DC3EF9D96059"
 				item: "minecraft:ghast_tear"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.eenchanting.quest35.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.65967FFB6D25BD30.title}"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["379C7E6854F4F226"]
 			dependency_requirement: "all_started"
-			description: ["{ftbquests.chapter.eenchanting.quest36.description0}"]
+			description: ["{ftbquests.chapter.eenchanting.quest.0AACB9207417BB72.description0}"]
+			icon: "minecraft:prismarine_shard"
 			id: "0AACB9207417BB72"
 			rewards: [{
 				id: "325B504046C091EB"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.eenchanting.quest36.subtitle}"
+			subtitle: "{ftbquests.chapter.eenchanting.quest.0AACB9207417BB72.subtitle}"
 			tasks: [
 				{
 					id: "1EE29D15B252AEDB"
@@ -1015,7 +1028,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.eenchanting.quest36.title}"
+			title: "{ftbquests.chapter.eenchanting.quest.0AACB9207417BB72.title}"
 			x: -2.0d
 			y: -3.5d
 		}

@@ -761,7 +761,7 @@
 		{
 			dependency: "2E2780EDD5B76B92"
 			height: 2.0d
-			image: "moretotems:item/ghastly_totem_of_undying"
+			image: "minecraft:item/totem_of_undying"
 			rotation: 0.0d
 			width: 2.0d
 			x: 11.0d
@@ -1049,7 +1049,7 @@
 		{
 			dependency: "08CB4E635F213187"
 			height: 1.5d
-			image: "netherdepthsupgrade:block/crimson_seagrass"
+			image: "betternether:block/agave_leaf_02"
 			rotation: 0.0d
 			width: 1.5d
 			x: 6.5d
@@ -1199,6 +1199,15 @@
 			x: 2.5d
 			y: -5.0d
 		}
+		{
+			dependency: "4A50D2B7B078220F"
+			height: 1.0d
+			image: "betternether:item/pig_statue_01"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -1229,10 +1238,10 @@
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
 				id: "7FC5892104C0744C"
-				title: "{ftbquests.chapter.the_nether.quests0.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.46D0AAEEB69E28B3.task.7FC5892104C0744C.title}"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests0.title}"
+			title: "{ftbquests.chapter.the_nether.quest.46D0AAEEB69E28B3.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -1253,16 +1262,16 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.the_nether.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.5B11DB2289D4F66C.subtitle}"
 			tasks: [{
 				entity: "adventurez:blaze_guardian"
 				icon: "minecraft:blaze_rod"
 				id: "4DBABAE3AE00C903"
-				title: "{ftbquests.chapter.the_nether.quests1.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.5B11DB2289D4F66C.task.4DBABAE3AE00C903.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.the_nether.quests1.title}"
+			title: "{ftbquests.chapter.the_nether.quest.5B11DB2289D4F66C.title}"
 			x: 1.5d
 			y: -11.5d
 		}
@@ -1283,16 +1292,16 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.the_nether.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.69872C1F1CCBDEBD.subtitle}"
 			tasks: [{
 				entity: "adventurez:necromancer"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "745C505DC4DF253C"
-				title: "{ftbquests.chapter.the_nether.quests2.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.69872C1F1CCBDEBD.task.745C505DC4DF253C.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.the_nether.quests2.title}"
+			title: "{ftbquests.chapter.the_nether.quest.69872C1F1CCBDEBD.title}"
 			x: -1.5d
 			y: -11.5d
 		}
@@ -1315,22 +1324,22 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.the_nether.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.3963B69A10D95565.subtitle}"
 			tasks: [{
 				entity: "adventurez:blackstone_golem"
 				icon: "adventurez:blackstone_golem_heart"
 				id: "27D27F2750D953BC"
-				title: "{ftbquests.chapter.the_nether.quests3.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.3963B69A10D95565.task.27D27F2750D953BC.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.the_nether.quests3.title}"
+			title: "{ftbquests.chapter.the_nether.quest.3963B69A10D95565.title}"
 			x: -2.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]
-			description: ["{ftbquests.chapter.the_nether.quests4.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.4BCD1F2BA84D70D7.description0}"]
 			icon: "soulsweapons:withered_demon_heart"
 			id: "4BCD1F2BA84D70D7"
 			rewards: [{
@@ -1339,13 +1348,13 @@
 				xp_levels: 6
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.the_nether.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.4BCD1F2BA84D70D7.subtitle}"
 			tasks: [
 				{
 					entity: "soulsweapons:withered_demon"
 					icon: "soulsweapons:withered_demon_heart"
 					id: "239ACDE3872515BB"
-					title: "{ftbquests.chapter.the_nether.quests4.tasks0.title}"
+					title: "{ftbquests.chapter.the_nether.quest.4BCD1F2BA84D70D7.task.239ACDE3872515BB.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1353,20 +1362,20 @@
 					biome: "minecraft:crimson_forest"
 					icon: "minecraft:crimson_fungus"
 					id: "691C9F1FD61C9432"
-					title: "{ftbquests.chapter.the_nether.quests4.tasks1.title}"
+					title: "{ftbquests.chapter.the_nether.quest.4BCD1F2BA84D70D7.task.691C9F1FD61C9432.title}"
 					type: "biome"
 				}
 			]
-			title: "{ftbquests.chapter.the_nether.quests4.title}"
+			title: "{ftbquests.chapter.the_nether.quest.4BCD1F2BA84D70D7.title}"
 			x: -3.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["50EA81AA3B7714E9"]
 			description: [
-				"{ftbquests.chapter.the_nether.quests5.description0}"
+				"{ftbquests.chapter.the_nether.quest.2F11604C9E2C0353.description0}"
 				""
-				"{ftbquests.chapter.the_nether.quests5.description2}"
+				"{ftbquests.chapter.the_nether.quest.2F11604C9E2C0353.description2}"
 			]
 			icon: "soulsweapons:lord_soul_red"
 			id: "2F11604C9E2C0353"
@@ -1384,12 +1393,12 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.the_nether.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.2F11604C9E2C0353.subtitle}"
 			tasks: [{
 				entity: "soulsweapons:accursed_lord_boss"
 				icon: "soulsweapons:lord_soul_red"
 				id: "2137D80B50F2DCCB"
-				title: "{ftbquests.chapter.the_nether.quests5.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.2F11604C9E2C0353.task.2137D80B50F2DCCB.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1413,12 +1422,12 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.the_nether.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.6B7553ECE9DF7675.subtitle}"
 			tasks: [{
 				entity: "adventurez:soul_reaper"
 				icon: "soulsweapons:lord_soul_void"
 				id: "09CA256D27D0482F"
-				title: "{ftbquests.chapter.the_nether.quests6.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.6B7553ECE9DF7675.task.09CA256D27D0482F.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1428,14 +1437,14 @@
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
-				"{ftbquests.chapter.the_nether.quests7.description0}"
+				"{ftbquests.chapter.the_nether.quest.1702057B5F68995F.description0}"
 				""
-				"{ftbquests.chapter.the_nether.quests7.description2}"
+				"{ftbquests.chapter.the_nether.quest.1702057B5F68995F.description2}"
 				""
-				"{ftbquests.chapter.the_nether.quests7.description4}"
+				"{ftbquests.chapter.the_nether.quest.1702057B5F68995F.description4}"
 				""
-				"{ftbquests.chapter.the_nether.quests7.description6}"
-				"{ftbquests.chapter.the_nether.quests7.description7}"
+				"{ftbquests.chapter.the_nether.quest.1702057B5F68995F.description6}"
+				"{ftbquests.chapter.the_nether.quest.1702057B5F68995F.description7}"
 			]
 			id: "1702057B5F68995F"
 			rewards: [
@@ -1450,19 +1459,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.1702057B5F68995F.subtitle}"
 			tasks: [{
 				id: "676A410C4E5D491F"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests7.title}"
+			title: "{ftbquests.chapter.the_nether.quest.1702057B5F68995F.title}"
 			x: -9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
-			description: ["{ftbquests.chapter.the_nether.quests8.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.6DFEDDFC27B1708C.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "6DFEDDFC27B1708C"
@@ -1473,10 +1482,10 @@
 			}]
 			tasks: [{
 				id: "617FA660C1E4E06A"
-				title: "{ftbquests.chapter.the_nether.quests8.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.6DFEDDFC27B1708C.task.617FA660C1E4E06A.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests8.title}"
+			title: "{ftbquests.chapter.the_nether.quest.6DFEDDFC27B1708C.title}"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -1486,21 +1495,21 @@
 				"48AADA398DC4E940"
 			]
 			description: [
-				"{ftbquests.chapter.the_nether.quests9.description0}"
-				"{ftbquests.chapter.the_nether.quests9.description1}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description0}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description1}"
 				""
 				""
-				"{ftbquests.chapter.the_nether.quests9.description4}"
-				"{ftbquests.chapter.the_nether.quests9.description5}"
-				"{ftbquests.chapter.the_nether.quests9.description6}"
-				"{ftbquests.chapter.the_nether.quests9.description7}"
-				"{ftbquests.chapter.the_nether.quests9.description8}"
-				"{ftbquests.chapter.the_nether.quests9.description9}"
-				"{ftbquests.chapter.the_nether.quests9.description10}"
-				"{ftbquests.chapter.the_nether.quests9.description11}"
-				"{ftbquests.chapter.the_nether.quests9.description12}"
-				"{ftbquests.chapter.the_nether.quests9.description13}"
-				"{ftbquests.chapter.the_nether.quests9.description14}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description4}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description5}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description6}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description7}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description8}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description9}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description10}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description11}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description12}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description13}"
+				"{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.description14}"
 			]
 			icon: "adventurez:gilded_blackstone_shard"
 			id: "5C67FB6AB484E924"
@@ -1509,22 +1518,22 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.the_nether.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.subtitle}"
 			tasks: [
 				{
 					id: "75EA2905DFCCB778"
-					title: "{ftbquests.chapter.the_nether.quests9.tasks0.title}"
+					title: "{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.task.75EA2905DFCCB778.title}"
 					type: "checkmark"
 				}
 				{
 					id: "6A8925C881E20BBE"
 					item: "adventurez:gilded_blackstone_shard"
 					optional_task: true
-					title: "{ftbquests.chapter.the_nether.quests9.tasks1.title}"
+					title: "{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.task.6A8925C881E20BBE.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.the_nether.quests9.title}"
+			title: "{ftbquests.chapter.the_nether.quest.5C67FB6AB484E924.title}"
 			x: -1.5d
 			y: -9.0d
 		}
@@ -1537,13 +1546,13 @@
 				id: "3ACD2A8DD6A81D08"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests10.title}"
+			title: "{ftbquests.chapter.the_nether.quest.56D3A3CFEF28BF91.title}"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["{ftbquests.chapter.the_nether.quests11.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.106CC409603CF580.description0}"]
 			id: "106CC409603CF580"
 			rewards: [
 				{
@@ -1558,19 +1567,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.106CC409603CF580.subtitle}"
 			tasks: [{
 				id: "65712D20901D5430"
 				item: "techreborn:pyrite_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests11.title}"
+			title: "{ftbquests.chapter.the_nether.quest.106CC409603CF580.title}"
 			x: -8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["{ftbquests.chapter.the_nether.quests12.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.2BC22D85AC835C6D.description0}"]
 			id: "2BC22D85AC835C6D"
 			rewards: [{
 				count: 32
@@ -1602,7 +1611,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.4CCF58C57DA46BA3.subtitle}"
 			tasks: [{
 				id: "4CAE630026F76194"
 				item: "minecraft:quartz"
@@ -1613,7 +1622,7 @@
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["{ftbquests.chapter.the_nether.quests14.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.24799CCC326B5B68.description0}"]
 			id: "24799CCC326B5B68"
 			rewards: [
 				{
@@ -1628,19 +1637,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.24799CCC326B5B68.subtitle}"
 			tasks: [{
 				id: "52AD925B0DC9A43C"
 				item: "betternether:lapis_pile"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests14.title}"
+			title: "{ftbquests.chapter.the_nether.quest.24799CCC326B5B68.title}"
 			x: -7.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["{ftbquests.chapter.the_nether.quests15.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.6AE07BBF58A0BE64.description0}"]
 			id: "6AE07BBF58A0BE64"
 			rewards: [{
 				count: 16
@@ -1653,13 +1662,13 @@
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests15.title}"
+			title: "{ftbquests.chapter.the_nether.quest.6AE07BBF58A0BE64.title}"
 			x: -6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["{ftbquests.chapter.the_nether.quests16.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.5D07AE294BBFED13.description0}"]
 			id: "5D07AE294BBFED13"
 			rewards: [
 				{
@@ -1674,19 +1683,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.5D07AE294BBFED13.subtitle}"
 			tasks: [{
 				id: "6397BA7693A49A90"
 				item: "betternether:nether_ruby"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests16.title}"
+			title: "{ftbquests.chapter.the_nether.quest.5D07AE294BBFED13.title}"
 			x: -6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["{ftbquests.chapter.the_nether.quests17.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.16DB148BA3164A6C.description0}"]
 			id: "16DB148BA3164A6C"
 			rewards: [
 				{
@@ -1701,7 +1710,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.16DB148BA3164A6C.subtitle}"
 			tasks: [{
 				id: "1175A33C92547D32"
 				item: "techreborn:sphalerite_dust"
@@ -1712,7 +1721,7 @@
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["{ftbquests.chapter.the_nether.quests18.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.6C2351611B49C31B.description0}"]
 			id: "6C2351611B49C31B"
 			rewards: [
 				{
@@ -1732,13 +1741,13 @@
 				item: "betternether:cincinnasite"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests18.title}"
+			title: "{ftbquests.chapter.the_nether.quest.6C2351611B49C31B.title}"
 			x: -4.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
-			description: ["{ftbquests.chapter.the_nether.quests19.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.4ADF894FEEDD93E4.description0}"]
 			icon: "minecraft:polished_blackstone_bricks"
 			id: "4ADF894FEEDD93E4"
 			rewards: [
@@ -1759,23 +1768,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.4ADF894FEEDD93E4.subtitle}"
 			tasks: [{
 				icon: "minecraft:polished_blackstone_brick_stairs"
 				id: "6F89853A8250D357"
 				structure: "explorify:black_spiral"
-				title: "{ftbquests.chapter.the_nether.quests19.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.4ADF894FEEDD93E4.task.6F89853A8250D357.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests19.title}"
+			title: "{ftbquests.chapter.the_nether.quest.4ADF894FEEDD93E4.title}"
 			x: 6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
 			description: [
-				"{ftbquests.chapter.the_nether.quests20.description0}"
-				"{ftbquests.chapter.the_nether.quests20.description1}"
+				"{ftbquests.chapter.the_nether.quest.74AA7DBEE6E05A64.description0}"
+				"{ftbquests.chapter.the_nether.quest.74AA7DBEE6E05A64.description1}"
 			]
 			id: "74AA7DBEE6E05A64"
 			rewards: [
@@ -1797,15 +1806,15 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests20.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.74AA7DBEE6E05A64.subtitle}"
 			tasks: [{
 				icon: "betternether:cincinnasite_fire_bowl"
 				id: "5F7CAEE65A105DB8"
 				structure: "betternether:nether_city"
-				title: "{ftbquests.chapter.the_nether.quests20.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.74AA7DBEE6E05A64.task.5F7CAEE65A105DB8.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests20.title}"
+			title: "{ftbquests.chapter.the_nether.quest.74AA7DBEE6E05A64.title}"
 			x: 7.5d
 			y: -2.5d
 		}
@@ -1826,21 +1835,21 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests21.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.1E03641058773DC2.subtitle}"
 			tasks: [{
 				icon: "minecraft:nether_brick_fence"
 				id: "41D68972BBAABF64"
 				structure: "betterfortresses:fortress"
-				title: "{ftbquests.chapter.the_nether.quests21.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.1E03641058773DC2.task.41D68972BBAABF64.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests21.title}"
+			title: "{ftbquests.chapter.the_nether.quest.1E03641058773DC2.title}"
 			x: 8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0108C54E8DFF4373"]
-			description: ["{ftbquests.chapter.the_nether.quests22.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.05BDE171AC03527B.description0}"]
 			id: "05BDE171AC03527B"
 			rewards: [
 				{
@@ -1875,7 +1884,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests22.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.05BDE171AC03527B.subtitle}"
 			tasks: [{
 				entity: "minecraft:piglin"
 				icon: {
@@ -1886,11 +1895,11 @@
 					}
 				}
 				id: "5058495951C4E7C7"
-				title: "{ftbquests.chapter.the_nether.quests22.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.05BDE171AC03527B.task.5058495951C4E7C7.title}"
 				type: "kill"
 				value: 100L
 			}]
-			title: "{ftbquests.chapter.the_nether.quests22.title}"
+			title: "{ftbquests.chapter.the_nether.quest.05BDE171AC03527B.title}"
 			x: 4.0d
 			y: -4.5d
 		}
@@ -1920,16 +1929,16 @@
 				icon: "adventurez:chiseled_polished_blackstone_holder"
 				id: "515C1D2A5BBED444"
 				structure: "#minecraft:bastion_remnant"
-				title: "{ftbquests.chapter.the_nether.quests23.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.0108C54E8DFF4373.task.515C1D2A5BBED444.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests23.title}"
+			title: "{ftbquests.chapter.the_nether.quest.0108C54E8DFF4373.title}"
 			x: 4.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4ADF894FEEDD93E4"]
-			description: ["{ftbquests.chapter.the_nether.quests24.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.4C570FA09FFFB747.description0}"]
 			icon: {
 				Count: 1
 				id: "minecraft:golden_axe"
@@ -1961,11 +1970,11 @@
 					}
 				}
 				id: "7D62CF43A5538CDC"
-				title: "{ftbquests.chapter.the_nether.quests24.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.4C570FA09FFFB747.task.7D62CF43A5538CDC.title}"
 				type: "kill"
 				value: 100L
 			}]
-			title: "{ftbquests.chapter.the_nether.quests24.title}"
+			title: "{ftbquests.chapter.the_nether.quest.4C570FA09FFFB747.title}"
 			x: 6.0d
 			y: -5.0d
 		}
@@ -1995,11 +2004,11 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "graveyard:leaning_wither_skeleton"
 				id: "7FD09032C10128BF"
-				title: "{ftbquests.chapter.the_nether.quests25.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.08A63F0788D096E5.task.7FD09032C10128BF.title}"
 				type: "kill"
 				value: 300L
 			}]
-			title: "{ftbquests.chapter.the_nether.quests25.title}"
+			title: "{ftbquests.chapter.the_nether.quest.08A63F0788D096E5.title}"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -2035,11 +2044,11 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "283E7CACE7EBF7DA"
-				title: "{ftbquests.chapter.the_nether.quests26.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.136DD633F7293AD7.task.283E7CACE7EBF7DA.title}"
 				type: "kill"
 				value: 100L
 			}]
-			title: "{ftbquests.chapter.the_nether.quests26.title}"
+			title: "{ftbquests.chapter.the_nether.quest.136DD633F7293AD7.title}"
 			x: 10.0d
 			y: -3.0d
 		}
@@ -2059,43 +2068,43 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.the_nether.quests27.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.0259F3EAA2AAE635.subtitle}"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: "artifacts:power_glove"
 				id: "71780E465DB4A8A1"
-				title: "{ftbquests.chapter.the_nether.quests27.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.0259F3EAA2AAE635.task.71780E465DB4A8A1.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.the_nether.quests27.title}"
+			title: "{ftbquests.chapter.the_nether.quest.0259F3EAA2AAE635.title}"
 			x: 0.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]
-			description: ["{ftbquests.chapter.the_nether.quests28.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.26115F67C5E799DF.description0}"]
 			id: "26115F67C5E799DF"
 			rewards: [{
 				id: "3FE5F1F498A4720F"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.the_nether.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.26115F67C5E799DF.subtitle}"
 			tasks: [{
 				icon: "minecraft:blackstone"
 				id: "19DFB8AC0825D0D7"
 				structure: "bosses_of_mass_destruction:gauntlet_arena"
-				title: "{ftbquests.chapter.the_nether.quests28.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.26115F67C5E799DF.task.19DFB8AC0825D0D7.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests28.title}"
+			title: "{ftbquests.chapter.the_nether.quest.26115F67C5E799DF.title}"
 			x: 0.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]
-			description: ["{ftbquests.chapter.the_nether.quests29.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.50EA81AA3B7714E9.description0}"]
 			icon: "soulsweapons:boss_compass"
 			id: "50EA81AA3B7714E9"
 			rewards: [
@@ -2110,30 +2119,30 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.50EA81AA3B7714E9.subtitle}"
 			tasks: [
 				{
 					icon: "soulsweapons:demon_chunk"
 					id: "38053E4D88E9E641"
 					structure: "#soulsweapons:decaying_kingdom"
-					title: "{ftbquests.chapter.the_nether.quests29.tasks0.title}"
+					title: "{ftbquests.chapter.the_nether.quest.50EA81AA3B7714E9.task.38053E4D88E9E641.title}"
 					type: "structure"
 				}
 				{
 					id: "3446403850927734"
 					item: "soulsweapons:boss_compass"
 					optional_task: true
-					title: "{ftbquests.chapter.the_nether.quests29.tasks1.title}"
+					title: "{ftbquests.chapter.the_nether.quest.50EA81AA3B7714E9.task.3446403850927734.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.the_nether.quests29.title}"
+			title: "{ftbquests.chapter.the_nether.quest.50EA81AA3B7714E9.title}"
 			x: 1.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["0108C54E8DFF4373"]
-			description: ["{ftbquests.chapter.the_nether.quests30.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.5D08172CBB91A031.description0}"]
 			id: "5D08172CBB91A031"
 			rewards: [
 				{
@@ -2152,13 +2161,13 @@
 				item: "death_knights:blood_dk_ring"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests30.title}"
+			title: "{ftbquests.chapter.the_nether.quest.5D08172CBB91A031.title}"
 			x: 2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
-			description: ["{ftbquests.chapter.the_nether.quests31.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.4A50D2B7B078220F.description0}"]
 			id: "4A50D2B7B078220F"
 			rewards: [
 				{
@@ -2173,15 +2182,15 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.4A50D2B7B078220F.subtitle}"
 			tasks: [{
 				advancement: "minecraft:nether/explore_nether"
 				criterion: ""
 				id: "1942D79A88515A69"
-				title: "{ftbquests.chapter.the_nether.quests31.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.4A50D2B7B078220F.task.1942D79A88515A69.title}"
 				type: "advancement"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests31.title}"
+			title: "{ftbquests.chapter.the_nether.quest.4A50D2B7B078220F.title}"
 			x: 8.5d
 			y: 1.5d
 		}
@@ -2211,10 +2220,10 @@
 				icon: "minecraft:ghast_tear"
 				id: "281E4AEA987B8EF4"
 				structure: "betternether:ghast_hive"
-				title: "{ftbquests.chapter.the_nether.quests32.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.2E2780EDD5B76B92.task.281E4AEA987B8EF4.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests32.title}"
+			title: "{ftbquests.chapter.the_nether.quest.2E2780EDD5B76B92.title}"
 			x: 7.5d
 			y: 2.5d
 		}
@@ -2239,16 +2248,16 @@
 				icon: "minecraft:red_nether_bricks"
 				id: "46C68F2AFA7FA1DA"
 				structure: "friendsandfoes:citadel"
-				title: "{ftbquests.chapter.the_nether.quests33.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.780F749348123E68.task.46C68F2AFA7FA1DA.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests33.title}"
+			title: "{ftbquests.chapter.the_nether.quest.780F749348123E68.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
-			description: ["{ftbquests.chapter.the_nether.quests34.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.08CB4E635F213187.description0}"]
 			icon: "minecraft:netherrack"
 			id: "08CB4E635F213187"
 			rewards: [
@@ -2268,10 +2277,10 @@
 				icon: "minecraft:nether_bricks"
 				id: "43CE52A5A6AD7517"
 				structure: "betternether:pyramid"
-				title: "{ftbquests.chapter.the_nether.quests34.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.08CB4E635F213187.task.43CE52A5A6AD7517.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests34.title}"
+			title: "{ftbquests.chapter.the_nether.quest.08CB4E635F213187.title}"
 			x: 4.5d
 			y: 2.5d
 		}
@@ -2283,13 +2292,13 @@
 				item: "mythicupgrades:ruby"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests35.title}"
+			title: "{ftbquests.chapter.the_nether.quest.2C7EFCB0E8AB1FEB.title}"
 			x: -3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["56D3A3CFEF28BF91"]
-			description: ["{ftbquests.chapter.the_nether.quests36.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.6117CFB58B0046FA.description0}"]
 			id: "6117CFB58B0046FA"
 			rewards: [
 				{
@@ -2309,13 +2318,13 @@
 				item: "mythicupgrades:sapphire"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests36.title}"
+			title: "{ftbquests.chapter.the_nether.quest.6117CFB58B0046FA.title}"
 			x: -3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
-			description: ["{ftbquests.chapter.the_nether.quests37.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.5C9B685683F1F505.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5C9B685683F1F505"
@@ -2328,13 +2337,13 @@
 				id: "0ADF4A630BFDAD6E"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests37.title}"
+			title: "{ftbquests.chapter.the_nether.quest.5C9B685683F1F505.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C9B685683F1F505"]
-			description: ["{ftbquests.chapter.the_nether.quests38.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.6B6F6C7F9DCDF904.description0}"]
 			icon: "graveyard:lying_wither_skeleton"
 			id: "6B6F6C7F9DCDF904"
 			rewards: [
@@ -2353,10 +2362,10 @@
 				icon: "archon:fire_essence"
 				id: "1B2DC6C9F91AE837"
 				structure: "archon:wither_tomb"
-				title: "{ftbquests.chapter.the_nether.quests38.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.6B6F6C7F9DCDF904.task.1B2DC6C9F91AE837.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests38.title}"
+			title: "{ftbquests.chapter.the_nether.quest.6B6F6C7F9DCDF904.title}"
 			x: 3.5d
 			y: 1.5d
 		}
@@ -2377,7 +2386,7 @@
 				id: "7F1D61D86951821E"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests39.title}"
+			title: "{ftbquests.chapter.the_nether.quest.7E1C1CEE751827EF.title}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -2389,13 +2398,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.the_nether.quests40.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.3E63250DCB35FA89.subtitle}"
 			tasks: [{
 				advancement: "create:hose_pulley_lava"
 				criterion: ""
 				icon: "create:hose_pulley"
 				id: "413425FEA72470C8"
-				title: "{ftbquests.chapter.the_nether.quests40.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.3E63250DCB35FA89.task.413425FEA72470C8.title}"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -2404,10 +2413,10 @@
 		{
 			dependencies: ["3E63250DCB35FA89"]
 			description: [
-				"{ftbquests.chapter.the_nether.quests41.description0}"
+				"{ftbquests.chapter.the_nether.quest.42C1B494F003A1A4.description0}"
 				""
 				""
-				"{ftbquests.chapter.the_nether.quests41.description3}"
+				"{ftbquests.chapter.the_nether.quest.42C1B494F003A1A4.description3}"
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:lava_bucket"
@@ -2417,7 +2426,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.the_nether.quests41.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.42C1B494F003A1A4.subtitle}"
 			tasks: [
 				{
 					id: "1AC5E4EE46479478"
@@ -2430,13 +2439,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.the_nether.quests41.title}"
+			title: "{ftbquests.chapter.the_nether.quest.42C1B494F003A1A4.title}"
 			x: 2.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["3E63250DCB35FA89"]
-			description: ["{ftbquests.chapter.the_nether.quests42.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.37471F11BB69BA89.description0}"]
 			id: "37471F11BB69BA89"
 			rewards: [
 				{
@@ -2455,7 +2464,7 @@
 				item: "powah:magmator_nitro"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests42.title}"
+			title: "{ftbquests.chapter.the_nether.quest.37471F11BB69BA89.title}"
 			x: -2.5d
 			y: 8.0d
 		}
@@ -2475,21 +2484,21 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests43.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.60B975506401FDF1.subtitle}"
 			tasks: [{
 				biome: "betternether:nether_jungle"
 				icon: "betternether:jungle_moss"
 				id: "56A1E9ED5C2ECDBA"
-				title: "{ftbquests.chapter.the_nether.quests43.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.60B975506401FDF1.task.56A1E9ED5C2ECDBA.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.the_nether.quests43.title}"
+			title: "{ftbquests.chapter.the_nether.quest.60B975506401FDF1.title}"
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["08A63F0788D096E5"]
-			description: ["{ftbquests.chapter.the_nether.quests44.description0}"]
+			description: ["{ftbquests.chapter.the_nether.quest.2D5AA976A898764D.description0}"]
 			id: "2D5AA976A898764D"
 			rewards: [
 				{
@@ -2503,12 +2512,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_nether.quests44.subtitle}"
+			subtitle: "{ftbquests.chapter.the_nether.quest.2D5AA976A898764D.subtitle}"
 			tasks: [{
 				entity: "betternether:naga"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "34BE683ABB1D6CDD"
-				title: "{ftbquests.chapter.the_nether.quests44.tasks0.title}"
+				title: "{ftbquests.chapter.the_nether.quest.2D5AA976A898764D.task.34BE683ABB1D6CDD.title}"
 				type: "kill"
 				value: 100L
 			}]

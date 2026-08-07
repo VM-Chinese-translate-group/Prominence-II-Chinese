@@ -170,11 +170,9 @@
 			dependencies: [
 				"5B31D4D4029F1891"
 				"49C9DC2F3D131A14"
-				"1F9BB747D54F1CD1"
-				"1E53C2B640C2CED4"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.4trophy_collection.quests0.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.5675731BD892A014.description0}"]
 			id: "5675731BD892A014"
 			min_required_dependencies: 1
 			rewards: [{
@@ -184,22 +182,22 @@
 			}]
 			shape: "none"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.4trophy_collection.quests0.subtitle}"
+			subtitle: "{ftbquests.chapter.4trophy_collection.quest.5675731BD892A014.subtitle}"
 			tasks: [{
 				id: "6E03DE713402299C"
 				item: "prominent:cinderstone_trophy"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.4trophy_collection.quests0.title}"
+			title: "{ftbquests.chapter.4trophy_collection.quest.5675731BD892A014.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5675731BD892A014"]
 			description: [
-				"{ftbquests.chapter.4trophy_collection.quests1.description0}"
+				"{ftbquests.chapter.4trophy_collection.quest.34C3284620E16342.description0}"
 				""
-				"{ftbquests.chapter.4trophy_collection.quests1.description2}"
+				"{ftbquests.chapter.4trophy_collection.quest.34C3284620E16342.description2}"
 			]
 			id: "34C3284620E16342"
 			rewards: [{
@@ -224,7 +222,7 @@
 		}
 		{
 			dependencies: ["34C3284620E16342"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests2.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.0953F58E223F0EC2.description0}"]
 			id: "0953F58E223F0EC2"
 			rewards: [{
 				id: "1ED060F027F0097A"
@@ -248,7 +246,7 @@
 		}
 		{
 			dependencies: ["0953F58E223F0EC2"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests3.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.29B862369BADE58F.description0}"]
 			id: "29B862369BADE58F"
 			rewards: [{
 				id: "6D62913A039497A6"
@@ -286,7 +284,7 @@
 				}
 			]
 			shape: "none"
-			subtitle: "{ftbquests.chapter.4trophy_collection.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.4trophy_collection.quest.7826A4281EAAB27E.subtitle}"
 			tasks: [{
 				id: "53AC21665C4F8B7C"
 				item: {
@@ -303,7 +301,7 @@
 		}
 		{
 			dependencies: ["5675731BD892A014"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests5.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.0C1FBFE401C27A26.description0}"]
 			id: "0C1FBFE401C27A26"
 			rewards: [{
 				id: "10ED516AC70B477D"
@@ -321,7 +319,7 @@
 		}
 		{
 			dependencies: ["5675731BD892A014"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests6.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.7AAD2112843038CC.description0}"]
 			id: "7AAD2112843038CC"
 			rewards: [{
 				id: "71E2C2DBDEC1385B"
@@ -343,7 +341,7 @@
 		}
 		{
 			dependencies: ["5675731BD892A014"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests7.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.0419784E7F5972C4.description0}"]
 			id: "0419784E7F5972C4"
 			rewards: [{
 				id: "6954CF31496B37F6"
@@ -365,7 +363,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests8.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.7F5B54924F643B6E.description0}"]
 			id: "7F5B54924F643B6E"
 			rewards: [{
 				id: "287BA6F62DDD1653"
@@ -383,7 +381,7 @@
 		}
 		{
 			dependencies: ["5675731BD892A014"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests9.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.0DADFB6B16AB9487.description0}"]
 			id: "0DADFB6B16AB9487"
 			rewards: [
 				{
@@ -409,7 +407,7 @@
 		}
 		{
 			dependencies: ["5675731BD892A014"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests10.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.5DE2E0B229B61145.description0}"]
 			id: "5DE2E0B229B61145"
 			rewards: [{
 				id: "7B8FE63E47E02E80"
@@ -422,13 +420,13 @@
 				item: "spell_engine:spell_binding"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.4trophy_collection.quests10.title}"
+			title: "{ftbquests.chapter.4trophy_collection.quest.5DE2E0B229B61145.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests11.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.5054E7B9A58D6083.description0}"]
 			id: "5054E7B9A58D6083"
 			rewards: [{
 				id: "45185BD2745E3B94"
@@ -446,7 +444,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests12.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.1EF07D2D14739FE5.description0}"]
 			id: "1EF07D2D14739FE5"
 			rewards: [{
 				id: "3A84A546EB4A4CE9"
@@ -464,7 +462,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests13.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.5486690E098C2A0C.description0}"]
 			id: "5486690E098C2A0C"
 			rewards: [{
 				id: "5A066164C342697E"
@@ -482,7 +480,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests14.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.43065A117F31048C.description0}"]
 			id: "43065A117F31048C"
 			rewards: [{
 				id: "0D41456D1CAE47F0"
@@ -500,7 +498,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests15.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.5149EC6B04496896.description0}"]
 			id: "5149EC6B04496896"
 			rewards: [{
 				id: "76CA1C0F96557603"
@@ -518,7 +516,7 @@
 		}
 		{
 			dependencies: ["5DE2E0B229B61145"]
-			description: ["{ftbquests.chapter.4trophy_collection.quests16.description0}"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.06E0A1DB549D9720.description0}"]
 			id: "06E0A1DB549D9720"
 			rewards: [{
 				id: "7DB59185FDC9A711"

@@ -41,5 +41,5 @@
 		{ item: "prominent:xmog_aquatic_sacred_blade" }
 		{ item: "prominent:xmog_ancient_royal_great_sword" }
 	]
-	title: "{ftbquests.reward_tables.transmogallskins.title}"
+	title: "{ftbquests.reward_table.transmogallskins.title}"
 }

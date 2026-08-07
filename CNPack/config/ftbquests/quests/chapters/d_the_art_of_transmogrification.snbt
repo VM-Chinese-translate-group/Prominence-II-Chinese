@@ -35,20 +35,18 @@
 		{
 			description: [
 				""
-				"{ftbquests.chapter.d_the_art_of_transmogrification.quests0.description1}"
+				"{ftbquests.chapter.d_the_art_of_transmogrification.quest.1F3A415DDF6355EE.description1}"
 			]
 			icon: "minecraft:amethyst_cluster"
 			id: "1F3A415DDF6355EE"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.d_the_art_of_transmogrification.quests0.subtitle}"
-			tasks: [
-				{
-					id: "138402A5BE9F444A"
-					title: "{ftbquests.chapter.d_the_art_of_transmogrification.quests0.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.d_the_art_of_transmogrification.quests0.title}"
+			subtitle: "{ftbquests.chapter.d_the_art_of_transmogrification.quest.1F3A415DDF6355EE.subtitle}"
+			tasks: [{
+				id: "138402A5BE9F444A"
+				title: "{ftbquests.chapter.d_the_art_of_transmogrification.quest.1F3A415DDF6355EE.task.138402A5BE9F444A.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.d_the_art_of_transmogrification.quest.1F3A415DDF6355EE.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -56,56 +54,48 @@
 			dependencies: ["1F3A415DDF6355EE"]
 			description: [
 				""
-				"{ftbquests.chapter.d_the_art_of_transmogrification.quests1.description1}"
+				"{ftbquests.chapter.d_the_art_of_transmogrification.quest.09C318161E20A39E.description1}"
 				""
-				"{ftbquests.chapter.d_the_art_of_transmogrification.quests1.description3}"
+				"{ftbquests.chapter.d_the_art_of_transmogrification.quest.09C318161E20A39E.description3}"
 			]
 			id: "09C318161E20A39E"
-			rewards: [
-				{
-					id: "5E60EBADBFED48BC"
-					type: "xp"
-					xp: 90
-				}
-			]
+			rewards: [{
+				id: "5E60EBADBFED48BC"
+				type: "xp"
+				xp: 90
+			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.d_the_art_of_transmogrification.quests1.subtitle}"
-			tasks: [
-				{
-					id: "07DDEFBFD93B4F74"
-					item: "transmog:transmogrification_table"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.d_the_art_of_transmogrification.quests1.title}"
+			subtitle: "{ftbquests.chapter.d_the_art_of_transmogrification.quest.09C318161E20A39E.subtitle}"
+			tasks: [{
+				id: "07DDEFBFD93B4F74"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.d_the_art_of_transmogrification.quest.09C318161E20A39E.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["09C318161E20A39E"]
 			description: [
-				"{ftbquests.chapter.d_the_art_of_transmogrification.quests2.description0}"
+				"{ftbquests.chapter.d_the_art_of_transmogrification.quest.6A69BEA7C1E7E1FD.description0}"
 				""
-				"{ftbquests.chapter.d_the_art_of_transmogrification.quests2.description2}"
+				"{ftbquests.chapter.d_the_art_of_transmogrification.quest.6A69BEA7C1E7E1FD.description2}"
 			]
 			id: "6A69BEA7C1E7E1FD"
-			rewards: [
-				{
-					id: "0778651DAD1A18EA"
-					type: "xp"
-					xp: 120
-				}
-			]
+			rewards: [{
+				id: "0778651DAD1A18EA"
+				type: "xp"
+				xp: 120
+			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.d_the_art_of_transmogrification.quests2.subtitle}"
-			tasks: [
-				{
-					id: "0D1D91DEF701EFDA"
-					item: "transmog:void_fragment"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.d_the_art_of_transmogrification.quests2.title}"
+			subtitle: "{ftbquests.chapter.d_the_art_of_transmogrification.quest.6A69BEA7C1E7E1FD.subtitle}"
+			tasks: [{
+				id: "0D1D91DEF701EFDA"
+				item: "transmog:void_fragment"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.d_the_art_of_transmogrification.quest.6A69BEA7C1E7E1FD.title}"
 			x: 0.0d
 			y: -3.0d
 		}

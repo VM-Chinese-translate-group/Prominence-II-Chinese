@@ -11,20 +11,16 @@
 	quests: [
 		{
 			id: "4C244A59E076A502"
-			rewards: [
-				{
-					id: "549B6A7BC52F7B2E"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests0.subtitle}"
-			tasks: [
-				{
-					id: "2A8A14E3AE26CD95"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "549B6A7BC52F7B2E"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.4C244A59E076A502.subtitle}"
+			tasks: [{
+				id: "2A8A14E3AE26CD95"
+				type: "checkmark"
+			}]
 			x: 1.5d
 			y: 2.5d
 		}
@@ -49,34 +45,30 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests1.subtitle}"
-			tasks: [
-				{
-					id: "34D264E11AE94E6E"
-					item: {
-						Count: 1
-						id: "techreborn:treetap"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.0FECC424EA9A9500.subtitle}"
+			tasks: [{
+				id: "34D264E11AE94E6E"
+				item: {
+					Count: 1
+					id: "techreborn:treetap"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 1.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4C244A59E076A502"]
 			id: "4B8D34860B127B5C"
-			subtitle: "{ftbquests.chapter.tech_reborn.quests2.subtitle}"
-			tasks: [
-				{
-					id: "1C5A76594ECF949E"
-					item: "techreborn:refined_iron_ingot"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.4B8D34860B127B5C.subtitle}"
+			tasks: [{
+				id: "1C5A76594ECF949E"
+				item: "techreborn:refined_iron_ingot"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 3.5d
 		}
@@ -85,16 +77,15 @@
 				"0FECC424EA9A9500"
 				"4B8D34860B127B5C"
 			]
+			icon: "techreborn:electronic_circuit"
 			id: "0B606A84A47E6984"
-			rewards: [
-				{
-					id: "7155552E71BDD134"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "7155552E71BDD134"
+				type: "xp"
+				xp: 100
+			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.tech_reborn.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.0B606A84A47E6984.subtitle}"
 			tasks: [
 				{
 					id: "5D724882A1DB66C7"
@@ -107,7 +98,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tech_reborn.quests3.title}"
+			title: "{ftbquests.chapter.tech_reborn.quest.0B606A84A47E6984.title}"
 			x: 1.5d
 			y: 7.5d
 		}
@@ -127,56 +118,46 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests4.subtitle}"
-			tasks: [
-				{
-					id: "51B12088B713C89C"
-					item: "techreborn:electric_furnace"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.321F9684523A91C8.subtitle}"
+			tasks: [{
+				id: "51B12088B713C89C"
+				item: "techreborn:electric_furnace"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1DD5BD434117A8DE"]
 			id: "7C20055475FCD3E8"
-			rewards: [
-				{
-					id: "690F2F8FBD84705C"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests5.subtitle}"
-			tasks: [
-				{
-					id: "6679518F4EA446D9"
-					item: "techreborn:iron_alloy_furnace"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "690F2F8FBD84705C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.7C20055475FCD3E8.subtitle}"
+			tasks: [{
+				id: "6679518F4EA446D9"
+				item: "techreborn:iron_alloy_furnace"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "0530526EE1A4901E"
-			rewards: [
-				{
-					id: "7AE1271713CBDC76"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests6.subtitle}"
-			tasks: [
-				{
-					id: "5E3E493E895A8172"
-					item: "techreborn:alloy_smelter"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7AE1271713CBDC76"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.0530526EE1A4901E.subtitle}"
+			tasks: [{
+				id: "5E3E493E895A8172"
+				item: "techreborn:alloy_smelter"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 5.5d
 		}
@@ -206,34 +187,28 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "71F14AE612B0B094"
-					item: "techreborn:grinder"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "71F14AE612B0B094"
+				item: "techreborn:grinder"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "184C7C8DE8D3C466"
-			rewards: [
-				{
-					id: "0018F185E344814B"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests8.subtitle}"
-			tasks: [
-				{
-					id: "07F8124CD1DA92EA"
-					item: "techreborn:compressor"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0018F185E344814B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.184C7C8DE8D3C466.subtitle}"
+			tasks: [{
+				id: "07F8124CD1DA92EA"
+				item: "techreborn:compressor"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 12.5d
 		}
@@ -253,36 +228,30 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests9.subtitle}"
-			tasks: [
-				{
-					id: "5A06A00223C86F71"
-					item: "techreborn:extractor"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1494D4D023A96CB4.subtitle}"
+			tasks: [{
+				id: "5A06A00223C86F71"
+				item: "techreborn:extractor"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "2A0E4313C171CC6C"
-			rewards: [
-				{
-					count: 32
-					id: "644E1F0CA62D2ACF"
-					item: "techreborn:scrap"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests10.subtitle}"
-			tasks: [
-				{
-					id: "2AA8BB537CAED9E3"
-					item: "techreborn:recycler"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "644E1F0CA62D2ACF"
+				item: "techreborn:scrap"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.2A0E4313C171CC6C.subtitle}"
+			tasks: [{
+				id: "2AA8BB537CAED9E3"
+				item: "techreborn:recycler"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 8.5d
 		}
@@ -303,20 +272,18 @@
 					xp: 50
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests11.subtitle}"
-			tasks: [
-				{
-					id: "380703B271FC9EC6"
-					item: "techreborn:wire_mill"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.580F229A31EACBEB.subtitle}"
+			tasks: [{
+				id: "380703B271FC9EC6"
+				item: "techreborn:wire_mill"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["4B8D34860B127B5C"]
-			description: ["{ftbquests.chapter.tech_reborn.quests12.description}"]
+			description: ["{ftbquests.chapter.tech_reborn.quest.1DD5BD434117A8DE.description0}"]
 			id: "1DD5BD434117A8DE"
 			rewards: [
 				{
@@ -331,14 +298,12 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests12.subtitle}"
-			tasks: [
-				{
-					id: "3684F1DBE604A0D2"
-					item: "techreborn:iron_furnace"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1DD5BD434117A8DE.subtitle}"
+			tasks: [{
+				id: "3684F1DBE604A0D2"
+				item: "techreborn:iron_furnace"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 3.5d
 		}
@@ -349,13 +314,11 @@
 			]
 			icon: "techreborn:carbon_plate"
 			id: "1D20EBA7D1490E46"
-			rewards: [
-				{
-					id: "6712D49AB5CF2A0C"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "6712D49AB5CF2A0C"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [
 				{
 					count: 16L
@@ -389,13 +352,11 @@
 			dependencies: ["184C7C8DE8D3C466"]
 			icon: "techreborn:advanced_alloy_plate"
 			id: "2B0A6AFE90C8D59C"
-			rewards: [
-				{
-					id: "4D026D395893986F"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "4D026D395893986F"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [
 				{
 					count: 2L
@@ -438,7 +399,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.tech_reborn.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1293EEC801BC50DB.subtitle}"
 			tasks: [
 				{
 					id: "2D038516235AF2D5"
@@ -470,14 +431,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.tech_reborn.quests16.subtitle}"
-			tasks: [
-				{
-					id: "4C6928017A7FB3DD"
-					item: "techreborn:industrial_centrifuge"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.54636677E54B866A.subtitle}"
+			tasks: [{
+				id: "4C6928017A7FB3DD"
+				item: "techreborn:industrial_centrifuge"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 18.0d
 		}
@@ -541,13 +500,11 @@
 		{
 			dependencies: ["1293EEC801BC50DB"]
 			id: "4E77F0C6FFEC6105"
-			tasks: [
-				{
-					id: "72224FA916E2AAF7"
-					item: "techreborn:industrial_electrolyzer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "72224FA916E2AAF7"
+				item: "techreborn:industrial_electrolyzer"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 16.5d
 		}
@@ -569,119 +526,97 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests20.subtitle}"
-			tasks: [
-				{
-					id: "02A3EB332C1AB3EA"
-					item: "techreborn:aluminum_dust"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.798A2936F8F101CE.subtitle}"
+			tasks: [{
+				id: "02A3EB332C1AB3EA"
+				item: "techreborn:aluminum_dust"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["7C20055475FCD3E8"]
 			id: "04F3AC097C350502"
-			rewards: [
-				{
-					id: "3905E75A63425523"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests21.subtitle}"
-			tasks: [
-				{
-					id: "3C5858080E818E4B"
-					item: "techreborn:invar_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3905E75A63425523"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.04F3AC097C350502.subtitle}"
+			tasks: [{
+				id: "3C5858080E818E4B"
+				item: "techreborn:invar_ingot"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7C20055475FCD3E8"]
 			id: "0E82BECAC4A8AEAC"
-			rewards: [
-				{
-					id: "0D27D050609A6F83"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests22.subtitle}"
-			tasks: [
-				{
-					id: "3A9DB76F105E8215"
-					item: "techreborn:electrum_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0D27D050609A6F83"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.0E82BECAC4A8AEAC.subtitle}"
+			tasks: [{
+				id: "3A9DB76F105E8215"
+				item: "techreborn:electrum_ingot"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7C20055475FCD3E8"]
 			id: "12D83CB0796A933C"
-			rewards: [
-				{
-					id: "1A3B26DDD7A2744D"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests23.subtitle}"
-			tasks: [
-				{
-					id: "5ABBEECED68127B8"
-					item: "techreborn:bronze_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1A3B26DDD7A2744D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.12D83CB0796A933C.subtitle}"
+			tasks: [{
+				id: "5ABBEECED68127B8"
+				item: "techreborn:bronze_ingot"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2D78300F936E7A0C"]
 			id: "6C9B0FDA7EE4B25D"
-			rewards: [
-				{
-					id: "7A20330E38BA86DE"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests24.subtitle}"
-			tasks: [
-				{
-					id: "11F128742A956CB1"
-					item: "techreborn:aluminum_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7A20330E38BA86DE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.6C9B0FDA7EE4B25D.subtitle}"
+			tasks: [{
+				id: "11F128742A956CB1"
+				item: "techreborn:aluminum_ingot"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 22.0d
 		}
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "092DCB6155BE06E0"
-			rewards: [
-				{
-					id: "1E2EEAF93F7B7190"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests25.subtitle}"
-			tasks: [
-				{
-					id: "3812CF7D67D80458"
-					item: "techreborn:overclocker_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1E2EEAF93F7B7190"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.092DCB6155BE06E0.subtitle}"
+			tasks: [{
+				id: "3812CF7D67D80458"
+				item: "techreborn:overclocker_upgrade"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 7.5d
 		}
@@ -689,62 +624,50 @@
 			dependencies: ["0B606A84A47E6984"]
 			icon: "techreborn:transformer_upgrade"
 			id: "65503022D5B1F4E8"
-			rewards: [
-				{
-					id: "7365B40CFA455252"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests26.subtitle}"
-			tasks: [
-				{
-					id: "2180E191F6508826"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "7365B40CFA455252"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.65503022D5B1F4E8.subtitle}"
+			tasks: [{
+				id: "2180E191F6508826"
+				type: "checkmark"
+			}]
 			x: 9.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "35C85EA3FCAA00F7"
-			rewards: [
-				{
-					id: "6F7E927090141567"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests27.subtitle}"
-			tasks: [
-				{
-					id: "24742AD588296FAE"
-					item: "techreborn:energy_storage_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6F7E927090141567"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.35C85EA3FCAA00F7.subtitle}"
+			tasks: [{
+				id: "24742AD588296FAE"
+				item: "techreborn:energy_storage_upgrade"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "0AEB03456EB0F57B"
-			rewards: [
-				{
-					id: "6EB6DEDAB55765BF"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests28.subtitle}"
-			tasks: [
-				{
-					id: "23342907C2834700"
-					item: "techreborn:muffler_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6EB6DEDAB55765BF"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.0AEB03456EB0F57B.subtitle}"
+			tasks: [{
+				id: "23342907C2834700"
+				item: "techreborn:muffler_upgrade"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 7.5d
 		}
@@ -765,7 +688,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.269B6488664B348B.subtitle}"
 			tasks: [
 				{
 					id: "70D989DE9F7D5219"
@@ -791,21 +714,17 @@
 		{
 			dependencies: ["2D78300F936E7A0C"]
 			id: "295E413CB213B957"
-			rewards: [
-				{
-					id: "4609F3E5198F6C2D"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests30.subtitle}"
-			tasks: [
-				{
-					id: "6D9CA529DA493EA3"
-					item: "techreborn:hot_tungstensteel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4609F3E5198F6C2D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.295E413CB213B957.subtitle}"
+			tasks: [{
+				id: "6D9CA529DA493EA3"
+				item: "techreborn:hot_tungstensteel_ingot"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 21.0d
 		}
@@ -816,14 +735,12 @@
 			]
 			icon: "techreborn:tungstensteel_plate"
 			id: "4B1A6E2F469AAE0B"
-			rewards: [
-				{
-					id: "0670C327D57DEC90"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests31.subtitle}"
+			rewards: [{
+				id: "0670C327D57DEC90"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.4B1A6E2F469AAE0B.subtitle}"
 			tasks: [
 				{
 					id: "02E0F3E0C75AC21D"
@@ -855,265 +772,215 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests32.subtitle}"
-			tasks: [
-				{
-					id: "4552BEF1B44EFC04"
-					item: "techreborn:solid_fuel_generator"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1693870F4F722022.subtitle}"
+			tasks: [{
+				id: "4552BEF1B44EFC04"
+				item: "techreborn:solid_fuel_generator"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "51A9F4178437FD07"
-			rewards: [
-				{
-					id: "1613A8E14E54B31A"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests33.subtitle}"
-			tasks: [
-				{
-					id: "165EF8ADBDF06081"
-					item: "techreborn:thermal_generator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1613A8E14E54B31A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.51A9F4178437FD07.subtitle}"
+			tasks: [{
+				id: "165EF8ADBDF06081"
+				item: "techreborn:thermal_generator"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "04B3A406760469E3"
-			rewards: [
-				{
-					id: "7F8E4B51EDFE4EA3"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests34.subtitle}"
-			tasks: [
-				{
-					id: "4A0FE367C19C4AAB"
-					item: "techreborn:basic_solar_panel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7F8E4B51EDFE4EA3"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.04B3A406760469E3.subtitle}"
+			tasks: [{
+				id: "4A0FE367C19C4AAB"
+				item: "techreborn:basic_solar_panel"
+				type: "item"
+			}]
 			x: 1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "431ED7C239E9EAAD"
-			rewards: [
-				{
-					id: "1B0706006E67E948"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests35.subtitle}"
-			tasks: [
-				{
-					id: "2091EDF29176543C"
-					item: "techreborn:industrial_solar_panel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1B0706006E67E948"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.431ED7C239E9EAAD.subtitle}"
+			tasks: [{
+				id: "2091EDF29176543C"
+				item: "techreborn:industrial_solar_panel"
+				type: "item"
+			}]
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "1FFD224FD482EF52"
-			rewards: [
-				{
-					id: "06008E4BD97EB4A1"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests36.subtitle}"
-			tasks: [
-				{
-					id: "16B83920347F3C2E"
-					item: "techreborn:advanced_solar_panel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "06008E4BD97EB4A1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1FFD224FD482EF52.subtitle}"
+			tasks: [{
+				id: "16B83920347F3C2E"
+				item: "techreborn:advanced_solar_panel"
+				type: "item"
+			}]
 			x: 1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "5D007FE75F9D49CD"
-			rewards: [
-				{
-					id: "7DC2FE3B0460E59C"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests37.subtitle}"
-			tasks: [
-				{
-					id: "45F8A9240ED24AC2"
-					item: "techreborn:ultimate_solar_panel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7DC2FE3B0460E59C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.5D007FE75F9D49CD.subtitle}"
+			tasks: [{
+				id: "45F8A9240ED24AC2"
+				item: "techreborn:ultimate_solar_panel"
+				type: "item"
+			}]
 			x: 1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "3D1AAE6D95AE2CD1"
-			rewards: [
-				{
-					id: "350F93D6450616AE"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests38.subtitle}"
-			tasks: [
-				{
-					id: "5F8EC4A4168E505D"
-					item: "techreborn:quantum_solar_panel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "350F93D6450616AE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.3D1AAE6D95AE2CD1.subtitle}"
+			tasks: [{
+				id: "5F8EC4A4168E505D"
+				item: "techreborn:quantum_solar_panel"
+				type: "item"
+			}]
 			x: 1.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "155DDD4B9922FA5E"
-			rewards: [
-				{
-					id: "380683C595DC06CE"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests39.subtitle}"
-			tasks: [
-				{
-					id: "4CE7501F33BC237A"
-					item: "techreborn:diesel_generator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "380683C595DC06CE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.155DDD4B9922FA5E.subtitle}"
+			tasks: [{
+				id: "4CE7501F33BC237A"
+				item: "techreborn:diesel_generator"
+				type: "item"
+			}]
 			x: 0.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "7312551AD8A0A859"
-			rewards: [
-				{
-					id: "1CF785E7E3A1265B"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests40.subtitle}"
-			tasks: [
-				{
-					id: "520114AF319D3149"
-					item: "techreborn:plasma_generator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1CF785E7E3A1265B"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.7312551AD8A0A859.subtitle}"
+			tasks: [{
+				id: "520114AF319D3149"
+				item: "techreborn:plasma_generator"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "45A0A55BF2CA1F2B"
-			rewards: [
-				{
-					id: "0EA293B3691B5943"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests41.subtitle}"
-			tasks: [
-				{
-					id: "1BBBC06411C8F9A5"
-					item: "techreborn:water_mill"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0EA293B3691B5943"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.45A0A55BF2CA1F2B.subtitle}"
+			tasks: [{
+				id: "1BBBC06411C8F9A5"
+				item: "techreborn:water_mill"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "02382BFB96614F9C"
-			rewards: [
-				{
-					id: "62577B37711241DE"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests42.subtitle}"
-			tasks: [
-				{
-					id: "542F567D4B904633"
-					item: "techreborn:wind_mill"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "62577B37711241DE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.02382BFB96614F9C.subtitle}"
+			tasks: [{
+				id: "542F567D4B904633"
+				item: "techreborn:wind_mill"
+				type: "item"
+			}]
 			x: 0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "58AAB586CA993879"
-			rewards: [
-				{
-					id: "2947DA3D896CBA29"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "3CE21F50680EA782"
-					item: "techreborn:semi_fluid_generator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2947DA3D896CBA29"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3CE21F50680EA782"
+				item: "techreborn:semi_fluid_generator"
+				type: "item"
+			}]
 			x: 3.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["54636677E54B866A"]
 			id: "70132A3A1D58A70B"
-			rewards: [
-				{
-					id: "347AD0396E500841"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests44.subtitle}"
-			tasks: [
-				{
-					id: "589E6DF494C9899A"
-					item: "techreborn:tungsten_small_dust"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "347AD0396E500841"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.70132A3A1D58A70B.subtitle}"
+			tasks: [{
+				id: "589E6DF494C9899A"
+				item: "techreborn:tungsten_small_dust"
+				type: "item"
+			}]
 			x: -9.0d
 			y: 17.5d
 		}
@@ -1132,30 +999,28 @@
 					xp: 100
 				}
 			]
-			subtitle: "[\"\",\"可以在 \",{\"text\":\"末地\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"45D9C9CD7B2568A0\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[]}},\"找到。\"]"
-			tasks: [
-				{
-					id: "6A1248D8D9D0D60A"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "techreborn:tungsten_ore"
-								}
-								{
-									Count: 1b
-									id: "oreclumps:raw_tungsten"
-								}
-							]
-						}
+			subtitle: "[\"\",{\"translate\":\"ftbquests.chapter.tech_reborn.quest.2C0BD10615F7ECCA.subtitle.text0\"},{\"translate\":\"ftbquests.chapter.tech_reborn.quest.2C0BD10615F7ECCA.subtitle.text1\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"45D9C9CD7B2568A0\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[]}},{\"translate\":\"ftbquests.chapter.tech_reborn.quest.2C0BD10615F7ECCA.subtitle.text2\"}]"
+			tasks: [{
+				id: "6A1248D8D9D0D60A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "techreborn:tungsten_ore"
+							}
+							{
+								Count: 1b
+								id: "oreclumps:raw_tungsten"
+							}
+						]
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.tech_reborn.quests45.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tech_reborn.quest.2C0BD10615F7ECCA.title}"
 			x: -1.5d
 			y: 2.5d
 		}
@@ -1166,21 +1031,17 @@
 			]
 			id: "65E79EAA20C0778C"
 			optional: true
-			rewards: [
-				{
-					id: "1FF224776EB64660"
-					type: "xp"
-					xp: 200
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests46.subtitle}"
-			tasks: [
-				{
-					id: "291D48EFB3135E0D"
-					item: "techreborn:scrapboxinator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1FF224776EB64660"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.65E79EAA20C0778C.subtitle}"
+			tasks: [{
+				id: "291D48EFB3135E0D"
+				item: "techreborn:scrapboxinator"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 9.5d
 		}
@@ -1188,23 +1049,19 @@
 			dependencies: ["2A0E4313C171CC6C"]
 			id: "111C5864D82F7986"
 			optional: true
-			rewards: [
-				{
-					count: 8
-					id: "1F8E6EBAC4A39984"
-					item: "techreborn:scrap_box"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests47.subtitle}"
-			tasks: [
-				{
-					id: "4EDB2AB05D681D47"
-					item: "techreborn:scrap_box"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.tech_reborn.quests47.title}"
+			rewards: [{
+				count: 8
+				id: "1F8E6EBAC4A39984"
+				item: "techreborn:scrap_box"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.111C5864D82F7986.subtitle}"
+			tasks: [{
+				id: "4EDB2AB05D681D47"
+				item: "techreborn:scrap_box"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tech_reborn.quest.111C5864D82F7986.title}"
 			x: -1.5d
 			y: 9.5d
 		}
@@ -1224,14 +1081,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests48.subtitle}"
-			tasks: [
-				{
-					id: "61A585395D8A4B9D"
-					item: "techreborn:chemical_reactor"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.3B94C5DE174F2129.subtitle}"
+			tasks: [{
+				id: "61A585395D8A4B9D"
+				item: "techreborn:chemical_reactor"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 9.5d
 		}
@@ -1252,7 +1107,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests49.subtitle}"
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.021AE38A81AD9FAC.subtitle}"
 			tasks: [
 				{
 					id: "3A1046333BFC28A7"
@@ -1285,14 +1140,12 @@
 					xp: 200
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests50.subtitle}"
-			tasks: [
-				{
-					id: "78C15C1B7EE47356"
-					item: "techreborn:assembly_machine"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.7B86674432D514BF.subtitle}"
+			tasks: [{
+				id: "78C15C1B7EE47356"
+				item: "techreborn:assembly_machine"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 8.5d
 		}
@@ -1314,7 +1167,7 @@
 					xp: 125
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests51.subtitle}"
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.40E8EBF7F584D035.subtitle}"
 			tasks: [
 				{
 					id: "42F4868A18350546"
@@ -1357,35 +1210,29 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests52.subtitle}"
-			tasks: [
-				{
-					id: "61EB29D2429158AB"
-					item: "techreborn:rolling_machine"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1C6065E1743B9C52.subtitle}"
+			tasks: [{
+				id: "61EB29D2429158AB"
+				item: "techreborn:rolling_machine"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["1693870F4F722022"]
 			id: "5531416A72A727DD"
-			rewards: [
-				{
-					id: "3EF3E3AC8E313DE4"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests53.subtitle}"
-			tasks: [
-				{
-					id: "5F7EAFB0DA50BA3D"
-					item: "techreborn:gas_turbine"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3EF3E3AC8E313DE4"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.5531416A72A727DD.subtitle}"
+			tasks: [{
+				id: "5F7EAFB0DA50BA3D"
+				item: "techreborn:gas_turbine"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -3.0d
 		}
@@ -1395,22 +1242,18 @@
 				"57706419A89EA464"
 			]
 			id: "5C320307CEC5B785"
-			rewards: [
-				{
-					id: "7D4B408C552F1B4E"
-					type: "xp"
-					xp: 250
-				}
-			]
+			rewards: [{
+				id: "7D4B408C552F1B4E"
+				type: "xp"
+				xp: 250
+			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.tech_reborn.quests54.subtitle}"
-			tasks: [
-				{
-					id: "47F1A5E80CBC5BDB"
-					item: "techreborn:industrial_machine_frame"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.5C320307CEC5B785.subtitle}"
+			tasks: [{
+				id: "47F1A5E80CBC5BDB"
+				item: "techreborn:industrial_machine_frame"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 26.0d
 		}
@@ -1440,14 +1283,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.tech_reborn.quests55.subtitle}"
-			tasks: [
-				{
-					id: "1BBA400588034739"
-					item: "techreborn:matter_fabricator"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.5158324CF1B1D4B6.subtitle}"
+			tasks: [{
+				id: "1BBA400588034739"
+				item: "techreborn:matter_fabricator"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 28.5d
 		}
@@ -1467,35 +1308,29 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests56.subtitle}"
-			tasks: [
-				{
-					id: "0BBF4D7C215F638C"
-					item: "techreborn:uu_matter"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.6270F1A6D37F24CD.subtitle}"
+			tasks: [{
+				id: "0BBF4D7C215F638C"
+				item: "techreborn:uu_matter"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 28.5d
 		}
 		{
 			dependencies: ["6FB5FA2FACF2C776"]
 			id: "1975556CF28F04D1"
-			rewards: [
-				{
-					id: "67A45204F840430F"
-					type: "xp"
-					xp: 500
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests57.subtitle}"
-			tasks: [
-				{
-					id: "3ECBC4143FC5A363"
-					item: "techreborn:energy_flow_chip"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "67A45204F840430F"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1975556CF28F04D1.subtitle}"
+			tasks: [{
+				id: "3ECBC4143FC5A363"
+				item: "techreborn:energy_flow_chip"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 28.5d
 		}
@@ -1505,22 +1340,18 @@
 				"1C0835381B14085C"
 			]
 			id: "6FB5FA2FACF2C776"
-			rewards: [
-				{
-					count: 2
-					id: "2B9168ECE7151CE9"
-					item: "techreborn:industrial_circuit"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests58.subtitle}"
-			tasks: [
-				{
-					id: "45E5F8FC569EE84B"
-					item: "techreborn:lapotron_crystal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "2B9168ECE7151CE9"
+				item: "techreborn:industrial_circuit"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.6FB5FA2FACF2C776.subtitle}"
+			tasks: [{
+				id: "45E5F8FC569EE84B"
+				item: "techreborn:lapotron_crystal"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 23.5d
 		}
@@ -1540,14 +1371,12 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests59.subtitle}"
-			tasks: [
-				{
-					id: "5F242A10C40929D6"
-					item: "techreborn:lapotronic_orb"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.17F560332DD3CF3D.subtitle}"
+			tasks: [{
+				id: "5F242A10C40929D6"
+				item: "techreborn:lapotronic_orb"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 26.0d
 		}
@@ -1573,7 +1402,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.tech_reborn.quests60.subtitle}"
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.2567CBAC31932921.subtitle}"
 			tasks: [
 				{
 					id: "51219F8329031846"
@@ -1593,21 +1422,17 @@
 		{
 			dependencies: ["7B86674432D514BF"]
 			id: "413301782F770B3C"
-			rewards: [
-				{
-					id: "6C2EF701F589D509"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests61.subtitle}"
-			tasks: [
-				{
-					id: "0DBB0836120AC951"
-					item: "techreborn:industrial_circuit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6C2EF701F589D509"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.413301782F770B3C.subtitle}"
+			tasks: [{
+				id: "0DBB0836120AC951"
+				item: "techreborn:industrial_circuit"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 8.5d
 		}
@@ -1627,13 +1452,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "01A6D88A5F6AD03F"
-					item: "techreborn:energy_crystal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "01A6D88A5F6AD03F"
+				item: "techreborn:energy_crystal"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 21.5d
 		}
@@ -1641,42 +1464,34 @@
 			dependencies: ["54636677E54B866A"]
 			icon: "techreborn:lazurite_dust"
 			id: "1C0835381B14085C"
-			rewards: [
-				{
-					id: "7A08AD74BB2E804D"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests63.subtitle}"
-			tasks: [
-				{
-					id: "0EB8463992259B6E"
-					item: "techreborn:lazurite_dust"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7A08AD74BB2E804D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1C0835381B14085C.subtitle}"
+			tasks: [{
+				id: "0EB8463992259B6E"
+				item: "techreborn:lazurite_dust"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 19.5d
 		}
 		{
 			dependencies: ["2D78300F936E7A0C"]
 			id: "768D5C3D77FF6E73"
-			rewards: [
-				{
-					id: "0B7555C7BE1F0351"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests64.subtitle}"
-			tasks: [
-				{
-					id: "35998FD4169397FC"
-					item: "techreborn:platinum_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0B7555C7BE1F0351"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.768D5C3D77FF6E73.subtitle}"
+			tasks: [{
+				id: "35998FD4169397FC"
+				item: "techreborn:platinum_ingot"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 22.0d
 		}
@@ -1684,14 +1499,12 @@
 			dependencies: ["021AE38A81AD9FAC"]
 			icon: "techreborn:iridium_alloy_plate"
 			id: "7667BBB2FDBEE6FD"
-			rewards: [
-				{
-					id: "5E7476CAEB1053F3"
-					type: "xp"
-					xp: 250
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests65.subtitle}"
+			rewards: [{
+				id: "5E7476CAEB1053F3"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.7667BBB2FDBEE6FD.subtitle}"
 			tasks: [
 				{
 					id: "6DED9BED3775F9AF"
@@ -1722,7 +1535,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests66.subtitle}"
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.6F8C6808A1DFFAF6.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -1742,98 +1555,80 @@
 		{
 			dependencies: ["20EEBAECDE001362"]
 			id: "35B27CC7FEF8F5A2"
-			rewards: [
-				{
-					id: "007AC751CDEB1E05"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests67.subtitle}"
-			tasks: [
-				{
-					id: "06CACE2DE8C79372"
-					item: "techreborn:titanium_plate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "007AC751CDEB1E05"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.35B27CC7FEF8F5A2.subtitle}"
+			tasks: [{
+				id: "06CACE2DE8C79372"
+				item: "techreborn:titanium_plate"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 24.0d
 		}
 		{
 			dependencies: ["18502D23303A1E69"]
 			id: "57706419A89EA464"
-			rewards: [
-				{
-					id: "4E1C47C0C85612C7"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests68.subtitle}"
-			tasks: [
-				{
-					id: "07DE61C5409C8499"
-					item: "techreborn:chrome_plate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4E1C47C0C85612C7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.57706419A89EA464.subtitle}"
+			tasks: [{
+				id: "07DE61C5409C8499"
+				item: "techreborn:chrome_plate"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 24.0d
 		}
 		{
 			dependencies: ["3B94C5DE174F2129"]
 			id: "4F602E2F6FAB89A4"
-			rewards: [
-				{
-					id: "0F249FDA1DFDD4A6"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests69.subtitle}"
-			tasks: [
-				{
-					count: 2L
-					id: "7FC5FFEDE19B9B09"
-					item: "techreborn:synthetic_redstone_crystal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0F249FDA1DFDD4A6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.4F602E2F6FAB89A4.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "7FC5FFEDE19B9B09"
+				item: "techreborn:synthetic_redstone_crystal"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["09E861B40170663A"]
 			id: "165D860455970922"
-			rewards: [
-				{
-					id: "59C10F6F3DA9253C"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests70.subtitle}"
-			tasks: [
-				{
-					id: "02F7A547AD759DF7"
-					item: "techreborn:silicon_plate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "59C10F6F3DA9253C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.165D860455970922.subtitle}"
+			tasks: [{
+				id: "02F7A547AD759DF7"
+				item: "techreborn:silicon_plate"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 20.5d
 		}
 		{
 			dependencies: ["1975556CF28F04D1"]
 			id: "57026EAE5D560F4F"
-			tasks: [
-				{
-					id: "4FB683F05FE662F0"
-					item: "techreborn:superconductor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4FB683F05FE662F0"
+				item: "techreborn:superconductor"
+				type: "item"
+			}]
 			x: -11.0d
 			y: 25.0d
 		}
@@ -1852,35 +1647,29 @@
 					xp: 250
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests72.subtitle}"
-			tasks: [
-				{
-					id: "534064218996E258"
-					item: "techreborn:chrome_dust"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.17CA52458876D1A2.subtitle}"
+			tasks: [{
+				id: "534064218996E258"
+				item: "techreborn:chrome_dust"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 20.0d
 		}
 		{
 			dependencies: ["2D78300F936E7A0C"]
 			id: "18502D23303A1E69"
-			rewards: [
-				{
-					id: "09AC3B453C3195FB"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests73.subtitle}"
-			tasks: [
-				{
-					id: "70A1F2E53F54E6BC"
-					item: "techreborn:chrome_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "09AC3B453C3195FB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.18502D23303A1E69.subtitle}"
+			tasks: [{
+				id: "70A1F2E53F54E6BC"
+				item: "techreborn:chrome_ingot"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 23.0d
 		}
@@ -1902,7 +1691,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.tech_reborn.quests74.subtitle}"
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.450844598EA2B15C.subtitle}"
 			tasks: [
 				{
 					id: "0CE334E96C157044"
@@ -1922,21 +1711,17 @@
 		{
 			dependencies: ["2D78300F936E7A0C"]
 			id: "20EEBAECDE001362"
-			rewards: [
-				{
-					id: "75A1FFD14C987E3F"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests75.subtitle}"
-			tasks: [
-				{
-					id: "343344D621957055"
-					item: "techreborn:titanium_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "75A1FFD14C987E3F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.20EEBAECDE001362.subtitle}"
+			tasks: [{
+				id: "343344D621957055"
+				item: "techreborn:titanium_ingot"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 23.0d
 		}
@@ -1956,7 +1741,7 @@
 					xp: 250
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests76.subtitle}"
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.3C7470C5AD12685B.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -1976,56 +1761,48 @@
 		{
 			dependencies: ["54636677E54B866A"]
 			id: "09E861B40170663A"
-			rewards: [
-				{
-					id: "7611E87DBC8FCEFB"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests77.subtitle}"
-			tasks: [
-				{
-					id: "5CE6032CC87B34F1"
-					item: {
-						Count: 1
-						id: "techreborn:cell"
-						tag: {
-							fluid: "techreborn:silicon"
-						}
+			rewards: [{
+				id: "7611E87DBC8FCEFB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.09E861B40170663A.subtitle}"
+			tasks: [{
+				id: "5CE6032CC87B34F1"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:silicon"
 					}
-					match_nbt: true
-					type: "item"
 				}
-			]
+				match_nbt: true
+				type: "item"
+			}]
 			x: -7.0d
 			y: 19.5d
 		}
 		{
 			dependencies: ["4E77F0C6FFEC6105"]
 			id: "47F58263B3BC7423"
-			rewards: [
-				{
-					id: "4AA19910297C408D"
-					type: "xp"
-					xp: 250
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests78.subtitle}"
-			tasks: [
-				{
-					id: "0AF35CD2565EEA8F"
-					item: {
-						Count: 1
-						id: "techreborn:cell"
-						tag: {
-							fluid: "techreborn:beryllium"
-						}
+			rewards: [{
+				id: "4AA19910297C408D"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.47F58263B3BC7423.subtitle}"
+			tasks: [{
+				id: "0AF35CD2565EEA8F"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:beryllium"
 					}
-					match_nbt: true
-					type: "item"
 				}
-			]
+				match_nbt: true
+				type: "item"
+			}]
 			x: 5.0d
 			y: 16.5d
 		}
@@ -2033,34 +1810,28 @@
 			dependencies: ["47F58263B3BC7423"]
 			hide_dependency_lines: true
 			id: "56FAF66CFEE8E937"
-			tasks: [
-				{
-					id: "15A70C1F6B1EC78D"
-					item: "techreborn:iridium_neutron_reflector"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "15A70C1F6B1EC78D"
+				item: "techreborn:iridium_neutron_reflector"
+				type: "item"
+			}]
 			x: -12.0d
 			y: 25.0d
 		}
 		{
 			dependencies: ["2D78300F936E7A0C"]
 			id: "2E3FBB60A25E5D78"
-			rewards: [
-				{
-					id: "5165EEB904E8D8CC"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests80.subtitle}"
-			tasks: [
-				{
-					id: "05CF67CC863B72AE"
-					item: "techreborn:steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5165EEB904E8D8CC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.2E3FBB60A25E5D78.subtitle}"
+			tasks: [{
+				id: "05CF67CC863B72AE"
+				item: "techreborn:steel_ingot"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 21.0d
 		}
@@ -2070,106 +1841,90 @@
 				"05B36051F3720CE6"
 			]
 			id: "0329BD60DC6D06EE"
-			rewards: [
-				{
-					id: "73E410ED47ED5529"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [
-				{
-					id: "12D7BEBA244E1F33"
-					item: "techreborn:data_storage_chip"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "73E410ED47ED5529"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "12D7BEBA244E1F33"
+				item: "techreborn:data_storage_chip"
+				type: "item"
+			}]
 			x: 5.5d
 			y: 9.5d
 		}
 		{
 			hide_dependency_lines: true
 			id: "1C8A1CCA830490CB"
-			rewards: [
-				{
-					count: 2
-					id: "27DCBCD49AA5DE6E"
-					item: "techreborn:raw_iridium"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests82.subtitle}"
-			tasks: [
-				{
-					icon: "techreborn:iridium_ore"
-					id: "06B0300A6DEE26B1"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "techreborn:iridium_ore"
-								}
-								{
-									Count: 1b
-									id: "techreborn:deepslate_iridium_ore"
-								}
-								{
-									Count: 1b
-									id: "techreborn:raw_iridium"
-								}
-							]
-						}
+			rewards: [{
+				count: 2
+				id: "27DCBCD49AA5DE6E"
+				item: "techreborn:raw_iridium"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1C8A1CCA830490CB.subtitle}"
+			tasks: [{
+				icon: "techreborn:iridium_ore"
+				id: "06B0300A6DEE26B1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "techreborn:iridium_ore"
+							}
+							{
+								Count: 1b
+								id: "techreborn:deepslate_iridium_ore"
+							}
+							{
+								Count: 1b
+								id: "techreborn:raw_iridium"
+							}
+						]
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.tech_reborn.quests82.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tech_reborn.quest.1C8A1CCA830490CB.title}"
 			x: -2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["54636677E54B866A"]
 			id: "3205EC70BE4459B5"
-			rewards: [
-				{
-					id: "2DE71BA6FC1F2791"
-					item: "techreborn:iridium_ingot"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests83.subtitle}"
-			tasks: [
-				{
-					count: 9L
-					id: "0C94799CDB680ED0"
-					item: "techreborn:iridium_nugget"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2DE71BA6FC1F2791"
+				item: "techreborn:iridium_ingot"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.3205EC70BE4459B5.subtitle}"
+			tasks: [{
+				count: 9L
+				id: "0C94799CDB680ED0"
+				item: "techreborn:iridium_nugget"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 16.0d
 		}
 		{
 			dependencies: ["54636677E54B866A"]
 			id: "2F55B192381ACFEA"
-			rewards: [
-				{
-					id: "455CFE7BF5FBD6B0"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests84.subtitle}"
-			tasks: [
-				{
-					id: "0F54F493D0225711"
-					item: "techreborn:nickel_nugget"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "455CFE7BF5FBD6B0"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.2F55B192381ACFEA.subtitle}"
+			tasks: [{
+				id: "0F54F493D0225711"
+				item: "techreborn:nickel_nugget"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 18.5d
 		}
@@ -2188,83 +1943,69 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests85.subtitle}"
-			tasks: [
-				{
-					id: "7EB84992550383DB"
-					item: {
-						Count: 1
-						id: "techreborn:cell"
-						tag: {
-							fluid: "techreborn:mercury"
-						}
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.7BCA3069494D846D.subtitle}"
+			tasks: [{
+				id: "7EB84992550383DB"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:mercury"
 					}
-					match_nbt: true
-					type: "item"
 				}
-			]
+				match_nbt: true
+				type: "item"
+			}]
 			x: -5.0d
 			y: 18.5d
 		}
 		{
 			dependencies: ["7B86674432D514BF"]
 			id: "05B36051F3720CE6"
-			rewards: [
-				{
-					id: "54A48134879E23CC"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [
-				{
-					id: "74DCB6BD9F14606B"
-					item: "techreborn:data_storage_core"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "54A48134879E23CC"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "74DCB6BD9F14606B"
+				item: "techreborn:data_storage_core"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["6FDBDD89518BE8CC"]
 			id: "00B093F4B096E8AD"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "55E794C08540EC36"
-					type: "random"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests87.subtitle}"
-			tasks: [
-				{
-					id: "4201C27A6E90A694"
-					item: "techreborn:resin_basin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55E794C08540EC36"
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.00B093F4B096E8AD.subtitle}"
+			tasks: [{
+				id: "4201C27A6E90A694"
+				item: "techreborn:resin_basin"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["12D83CB0796A933C"]
 			id: "1714FE36622421C5"
-			rewards: [
-				{
-					id: "22156D7D3E9DE422"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests88.subtitle}"
-			tasks: [
-				{
-					id: "337C97BACC685BC4"
-					item: "techreborn:wrench"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "22156D7D3E9DE422"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1714FE36622421C5.subtitle}"
+			tasks: [{
+				id: "337C97BACC685BC4"
+				item: "techreborn:wrench"
+				type: "item"
+			}]
 			x: 9.5d
 			y: 4.5d
 		}
@@ -2283,27 +2024,23 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests89.subtitle}"
-			tasks: [
-				{
-					id: "444C97DD9E4D08BF"
-					item: "techreborn:drain"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.6FDBDD89518BE8CC.subtitle}"
+			tasks: [{
+				id: "444C97DD9E4D08BF"
+				item: "techreborn:drain"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["2E3FBB60A25E5D78"]
 			id: "4EC6EDCA11D03D33"
-			tasks: [
-				{
-					id: "2F8549741E0DE995"
-					item: "techreborn:advanced_machine_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2F8549741E0DE995"
+				item: "techreborn:advanced_machine_casing"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 21.5d
 		}
@@ -2311,21 +2048,17 @@
 			dependencies: ["1693870F4F722022"]
 			hide_dependency_lines: true
 			id: "572DF2570C4C66DB"
-			rewards: [
-				{
-					id: "0C47668538334F9D"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests91.subtitle}"
-			tasks: [
-				{
-					id: "15146E5AA52C1488"
-					item: "techreborn:lightning_rod"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0C47668538334F9D"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.572DF2570C4C66DB.subtitle}"
+			tasks: [{
+				id: "15146E5AA52C1488"
+				item: "techreborn:lightning_rod"
+				type: "item"
+			}]
 			x: 0.5d
 			y: -5.0d
 		}
@@ -2333,22 +2066,18 @@
 			dependencies: ["1693870F4F722022"]
 			hide_dependency_lines: true
 			id: "743284A1B75A8DF4"
-			rewards: [
-				{
-					id: "533E6573740B052E"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "533E6573740B052E"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.tech_reborn.quests92.subtitle}"
-			tasks: [
-				{
-					id: "605DE8DE7039EC01"
-					item: "techreborn:dragon_egg_syphon"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.743284A1B75A8DF4.subtitle}"
+			tasks: [{
+				id: "605DE8DE7039EC01"
+				item: "techreborn:dragon_egg_syphon"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -2.0d
 		}
@@ -2357,22 +2086,18 @@
 			icon: "techreborn:wrench"
 			id: "75F9505657FC73C7"
 			min_width: 300
-			rewards: [
-				{
-					id: "0CD65CB1DD39DE23"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "[\"\",\"对于某些人来说，机器的配置系统可能会让人感到畏惧。但这里为需要的人提供一份简要入门指南。\",\"\n\",\"\n\",\"要打开配置系统，你需要在任何支持该功能的科技复兴机器界面左侧点击扳手图标。然后按下你想配置的槽位，这会弹出一个窗口显示该侧当前的配置状态。接着，点击你想配置的侧面以循环切换输入、输出和禁用模式。你还可以勾选自动输入或自动输出选项，让机器从配置侧相邻的物品栏中推送/提取物品。\",\"\n\",\"\n\",\"如果你需要视频形式的指导 \",{\"text\":\" 点击此处 \",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=ZPFeYfYnbZ8\"}},\"观看模组创作者制作的关于该系统的Youtube短视频。\"]"
-			tasks: [
-				{
-					id: "7F660A99AE621E58"
-					title: "{ftbquests.chapter.tech_reborn.quests93.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.tech_reborn.quests93.title}"
+			rewards: [{
+				id: "0CD65CB1DD39DE23"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "[\"\", {\"translate\": \"ftbquests.chapter.tech_reborn.quest.75F9505657FC73C7.subtitle.text0\"}, \"\\n\", \"\\n\", {\"translate\": \"ftbquests.chapter.tech_reborn.quest.75F9505657FC73C7.subtitle.text1\"}, \"\\n\", \"\\n\", {\"translate\": \"ftbquests.chapter.tech_reborn.quest.75F9505657FC73C7.subtitle.text2\"}, {\"translate\": \"ftbquests.chapter.tech_reborn.quest.75F9505657FC73C7.subtitle.text3\", \"color\": \"light_purple\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://www.youtube.com/watch?v=ZPFeYfYnbZ8\"}}, {\"translate\": \"ftbquests.chapter.tech_reborn.quest.75F9505657FC73C7.subtitle.text4\"}]"
+			tasks: [{
+				id: "7F660A99AE621E58"
+				title: "{ftbquests.chapter.tech_reborn.quest.75F9505657FC73C7.task.7F660A99AE621E58.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_reborn.quest.75F9505657FC73C7.title}"
 			x: 0.5d
 			y: 1.5d
 		}
@@ -2380,133 +2105,109 @@
 			dependencies: ["4C244A59E076A502"]
 			icon: "techreborn:mv_transformer"
 			id: "5A13FA3A0CA0D42E"
-			rewards: [
-				{
-					id: "1F09C044E56D1A97"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests94.subtitle}"
-			tasks: [
-				{
-					id: "3230525C56067DC2"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.tech_reborn.quests94.title}"
+			rewards: [{
+				id: "1F09C044E56D1A97"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.5A13FA3A0CA0D42E.subtitle}"
+			tasks: [{
+				id: "3230525C56067DC2"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_reborn.quest.5A13FA3A0CA0D42E.title}"
 			x: 2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7ADC3916197FD452"]
 			id: "6F3656370E280D7E"
-			rewards: [
-				{
-					id: "50940BB0E3324BD8"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests95.subtitle}"
-			tasks: [
-				{
-					id: "46185A68133BECF9"
-					item: "techreborn:launchpad"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "50940BB0E3324BD8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.6F3656370E280D7E.subtitle}"
+			tasks: [{
+				id: "46185A68133BECF9"
+				item: "techreborn:launchpad"
+				type: "item"
+			}]
 			x: -9.5d
 			y: 16.0d
 		}
 		{
 			dependencies: ["54636677E54B866A"]
 			id: "7ADC3916197FD452"
-			rewards: [
-				{
-					id: "1E8E96C0A2672560"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests96.subtitle}"
-			tasks: [
-				{
-					id: "280F862450B60870"
-					item: "techreborn:magnesium_dust"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1E8E96C0A2672560"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.7ADC3916197FD452.subtitle}"
+			tasks: [{
+				id: "280F862450B60870"
+				item: "techreborn:magnesium_dust"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 17.0d
 		}
 		{
 			dependencies: ["54636677E54B866A"]
 			id: "51C20BC96894193F"
-			rewards: [
-				{
-					id: "0EB90446B6F1DCA7"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests97.subtitle}"
-			tasks: [
-				{
-					id: "5F81C31F20D5C3FF"
-					item: {
-						Count: 1
-						id: "techreborn:cell"
-						tag: {
-							fluid: "techreborn:lithium"
-						}
+			rewards: [{
+				id: "0EB90446B6F1DCA7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.51C20BC96894193F.subtitle}"
+			tasks: [{
+				id: "5F81C31F20D5C3FF"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:lithium"
 					}
-					match_nbt: true
-					type: "item"
 				}
-			]
+				match_nbt: true
+				type: "item"
+			}]
 			x: -6.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["51C20BC96894193F"]
 			id: "23E8B5EC08A0E818"
-			rewards: [
-				{
-					id: "587A79E9F5F0497A"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests98.subtitle}"
-			tasks: [
-				{
-					id: "6A5DDDDDBFA199C9"
-					item: "techreborn:lithium_ion_battery"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "587A79E9F5F0497A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.23E8B5EC08A0E818.subtitle}"
+			tasks: [{
+				id: "6A5DDDDDBFA199C9"
+				item: "techreborn:lithium_ion_battery"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["17F560332DD3CF3D"]
 			id: "2CB5CC1C5578F55C"
-			rewards: [
-				{
-					id: "0C7C80ABE27B5F8D"
-					type: "xp"
-					xp: 500
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests99.subtitle}"
-			tasks: [
-				{
-					id: "4EC8F12E4FAE7017"
-					item: "techreborn:adjustable_su"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0C7C80ABE27B5F8D"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.2CB5CC1C5578F55C.subtitle}"
+			tasks: [{
+				id: "4EC8F12E4FAE7017"
+				item: "techreborn:adjustable_su"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 25.0d
 		}
@@ -2525,160 +2226,134 @@
 					xp: 250
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests100.subtitle}"
-			tasks: [
-				{
-					id: "1EC10578A151B015"
-					item: "techreborn:interdimensional_su"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.0755F9408C40BEAF.subtitle}"
+			tasks: [{
+				id: "1EC10578A151B015"
+				item: "techreborn:interdimensional_su"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 25.5d
 		}
 		{
 			dependencies: ["1ACA7BC9FA7FE69D"]
 			id: "171A4C89C39736B6"
-			rewards: [
-				{
-					count: 2
-					id: "3F035872FD37D72A"
-					item: "techreborn:synthetic_redstone_crystal"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests101.subtitle}"
-			tasks: [
-				{
-					id: "570F0A8582EBE17D"
-					item: "techreborn:medium_voltage_su"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "3F035872FD37D72A"
+				item: "techreborn:synthetic_redstone_crystal"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.171A4C89C39736B6.subtitle}"
+			tasks: [{
+				id: "570F0A8582EBE17D"
+				item: "techreborn:medium_voltage_su"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 21.0d
 		}
 		{
 			dependencies: ["171A4C89C39736B6"]
 			id: "3B37983AD8B3CF2E"
-			rewards: [
-				{
-					id: "6AED6A4BB5656CDD"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests102.subtitle}"
-			tasks: [
-				{
-					id: "4DA5E0CAEF44963D"
-					item: "techreborn:high_voltage_su"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6AED6A4BB5656CDD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.3B37983AD8B3CF2E.subtitle}"
+			tasks: [{
+				id: "4DA5E0CAEF44963D"
+				item: "techreborn:high_voltage_su"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 20.0d
 		}
 		{
 			dependencies: ["17F560332DD3CF3D"]
 			id: "6B52D321A0EF5F16"
-			rewards: [
-				{
-					id: "71947EDEDDC8429A"
-					type: "xp"
-					xp: 500
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests103.subtitle}"
-			tasks: [
-				{
-					id: "6D62105FFC0F091C"
-					item: "techreborn:charge_o_mat"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "71947EDEDDC8429A"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.6B52D321A0EF5F16.subtitle}"
+			tasks: [{
+				id: "6D62105FFC0F091C"
+				item: "techreborn:charge_o_mat"
+				type: "item"
+			}]
 			x: -3.5d
 			y: 26.0d
 		}
 		{
 			dependencies: ["54636677E54B866A"]
 			id: "027AD844F4FB9141"
-			rewards: [
-				{
-					id: "679717B6EEF25686"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests104.subtitle}"
-			tasks: [
-				{
-					id: "4A1E3052BA466275"
-					item: {
-						Count: 1
-						id: "techreborn:cell"
-						tag: {
-							fluid: "techreborn:helium"
-						}
+			rewards: [{
+				id: "679717B6EEF25686"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.027AD844F4FB9141.subtitle}"
+			tasks: [{
+				id: "4A1E3052BA466275"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:helium"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -5.5d
 			y: 16.0d
 		}
 		{
 			dependencies: ["027AD844F4FB9141"]
 			id: "294215B4FB3EECE0"
-			subtitle: "{ftbquests.chapter.tech_reborn.quests105.subtitle}"
-			tasks: [
-				{
-					id: "25A4B89E70351DEC"
-					item: {
-						Count: 1
-						id: "techreborn:cell"
-						tag: {
-							fluid: "techreborn:helium3"
-						}
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.294215B4FB3EECE0.subtitle}"
+			tasks: [{
+				id: "25A4B89E70351DEC"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:helium3"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -4.5d
 			y: 16.0d
 		}
 		{
 			dependencies: ["294215B4FB3EECE0"]
 			id: "36F930BA493C2C11"
-			subtitle: "{ftbquests.chapter.tech_reborn.quests106.subtitle}"
-			tasks: [
-				{
-					id: "4F7F2D652B05C988"
-					item: "techreborn:helium_coolant_cell_60k"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.36F930BA493C2C11.subtitle}"
+			tasks: [{
+				id: "4F7F2D652B05C988"
+				item: "techreborn:helium_coolant_cell_60k"
+				type: "item"
+			}]
 			x: -5.0d
 			y: 17.0d
 		}
 		{
 			dependencies: ["0B606A84A47E6984"]
 			id: "27BCA249C899D9D9"
-			rewards: [
-				{
-					id: "2E2112C5B7ECDC53"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests107.subtitle}"
-			tasks: [
-				{
-					id: "08B194682125468C"
-					item: "techreborn:solid_canning_machine"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2E2112C5B7ECDC53"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.27BCA249C899D9D9.subtitle}"
+			tasks: [{
+				id: "08B194682125468C"
+				item: "techreborn:solid_canning_machine"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 5.0d
 		}
@@ -2697,99 +2372,81 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests108.subtitle}"
-			tasks: [
-				{
-					id: "0639682D9D4A3097"
-					item: "techreborn:red_cell_battery"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.012565300A42D6AF.subtitle}"
+			tasks: [{
+				id: "0639682D9D4A3097"
+				item: "techreborn:red_cell_battery"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["012565300A42D6AF"]
 			id: "62CF041CC3936840"
-			rewards: [
-				{
-					id: "37EF23391958E4DB"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "37EF23391958E4DB"
+				type: "xp"
+				xp: 50
+			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.tech_reborn.quests109.subtitle}"
-			tasks: [
-				{
-					id: "008657CBA0FB8DEF"
-					item: "techreborn:low_voltage_su"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.62CF041CC3936840.subtitle}"
+			tasks: [{
+				id: "008657CBA0FB8DEF"
+				item: "techreborn:low_voltage_su"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["23E8B5EC08A0E818"]
 			id: "08539D3A6DD8CCC4"
-			rewards: [
-				{
-					id: "1BB0A925FFF7DDFF"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests110.subtitle}"
-			tasks: [
-				{
-					id: "0EB012CDC43799A4"
-					item: "techreborn:advanced_drill"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1BB0A925FFF7DDFF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.08539D3A6DD8CCC4.subtitle}"
+			tasks: [{
+				id: "0EB012CDC43799A4"
+				item: "techreborn:advanced_drill"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["23E8B5EC08A0E818"]
 			id: "6F294BDDCBE56ADC"
-			rewards: [
-				{
-					id: "7E88CC83CBB70143"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests111.subtitle}"
-			tasks: [
-				{
-					id: "4925568E8F7BE505"
-					item: "techreborn:advanced_chainsaw"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7E88CC83CBB70143"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.6F294BDDCBE56ADC.subtitle}"
+			tasks: [{
+				id: "4925568E8F7BE505"
+				item: "techreborn:advanced_chainsaw"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["23E8B5EC08A0E818"]
 			id: "3A48F4CC869FF2D2"
-			rewards: [
-				{
-					id: "7D018429EB105030"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests112.subtitle}"
-			tasks: [
-				{
-					id: "76AB7E201181D97C"
-					item: "techreborn:advanced_jackhammer"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7D018429EB105030"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.3A48F4CC869FF2D2.subtitle}"
+			tasks: [{
+				id: "76AB7E201181D97C"
+				item: "techreborn:advanced_jackhammer"
+				type: "item"
+			}]
 			x: -5.5d
 			y: 12.0d
 		}
@@ -2809,14 +2466,12 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests113.subtitle}"
-			tasks: [
-				{
-					id: "3F29383093AA2D0B"
-					item: "techreborn:basic_drill"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.2138553C5281A8D4.subtitle}"
+			tasks: [{
+				id: "3F29383093AA2D0B"
+				item: "techreborn:basic_drill"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 6.5d
 		}
@@ -2836,14 +2491,12 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests114.subtitle}"
-			tasks: [
-				{
-					id: "737943C5E3E57F9F"
-					item: "techreborn:basic_chainsaw"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1A2F3CF0B221FD05.subtitle}"
+			tasks: [{
+				id: "737943C5E3E57F9F"
+				item: "techreborn:basic_chainsaw"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 8.5d
 		}
@@ -2863,14 +2516,12 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests115.subtitle}"
-			tasks: [
-				{
-					id: "38A8E198F2C91E95"
-					item: "techreborn:basic_jackhammer"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.5377541DA4BDA88B.subtitle}"
+			tasks: [{
+				id: "38A8E198F2C91E95"
+				item: "techreborn:basic_jackhammer"
+				type: "item"
+			}]
 			x: -8.5d
 			y: 7.5d
 		}
@@ -2880,172 +2531,140 @@
 				"6F294BDDCBE56ADC"
 			]
 			id: "62C3A712591A293B"
-			rewards: [
-				{
-					id: "53B61AE783443EBF"
-					type: "xp"
-					xp: 250
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests116.subtitle}"
-			tasks: [
-				{
-					id: "62CB9A8C633A22BA"
-					item: "techreborn:omni_tool"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "53B61AE783443EBF"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.62C3A712591A293B.subtitle}"
+			tasks: [{
+				id: "62CB9A8C633A22BA"
+				item: "techreborn:omni_tool"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["62CF041CC3936840"]
 			id: "4AE8F4A153B06D00"
-			rewards: [
-				{
-					count: 4
-					id: "36DA5236403CD13D"
-					item: "techreborn:sap"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests117.subtitle}"
-			tasks: [
-				{
-					id: "5A4F9B374B9A0AA3"
-					item: "techreborn:electric_treetap"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "36DA5236403CD13D"
+				item: "techreborn:sap"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.4AE8F4A153B06D00.subtitle}"
+			tasks: [{
+				id: "5A4F9B374B9A0AA3"
+				item: "techreborn:electric_treetap"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["62CF041CC3936840"]
 			id: "1F2AC22D367D6FFF"
-			rewards: [
-				{
-					id: "4F03B110EE741B5A"
-					item: "minecraft:diamond_ore"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests118.subtitle}"
-			tasks: [
-				{
-					id: "3B3E16367B5812BD"
-					item: {
-						Count: 1
-						id: "techreborn:rock_cutter"
-						tag: {
-							Enchantments: [
-								{
-									id: "minecraft:silk_touch"
-									lvl: 1s
-								}
-							]
-						}
+			rewards: [{
+				id: "4F03B110EE741B5A"
+				item: "minecraft:diamond_ore"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.1F2AC22D367D6FFF.subtitle}"
+			tasks: [{
+				id: "3B3E16367B5812BD"
+				item: {
+					Count: 1
+					id: "techreborn:rock_cutter"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -6.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6FB5FA2FACF2C776"]
 			id: "511F3C68A35B3376"
-			rewards: [
-				{
-					id: "2336DC04A6A1FB93"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests119.subtitle}"
-			tasks: [
-				{
-					id: "18F910715867129C"
-					item: "techreborn:industrial_drill"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2336DC04A6A1FB93"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.511F3C68A35B3376.subtitle}"
+			tasks: [{
+				id: "18F910715867129C"
+				item: "techreborn:industrial_drill"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 24.5d
 		}
 		{
 			dependencies: ["6FB5FA2FACF2C776"]
 			id: "550922A9A8A74FE9"
-			rewards: [
-				{
-					id: "13021EB777D29A63"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests120.subtitle}"
-			tasks: [
-				{
-					id: "6F5585FDEC1776A9"
-					item: "techreborn:industrial_chainsaw"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "13021EB777D29A63"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.550922A9A8A74FE9.subtitle}"
+			tasks: [{
+				id: "6F5585FDEC1776A9"
+				item: "techreborn:industrial_chainsaw"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 22.5d
 		}
 		{
 			dependencies: ["6FB5FA2FACF2C776"]
 			id: "00B67CACCECF1701"
-			rewards: [
-				{
-					id: "41DBC212B02B6CA7"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests121.subtitle}"
-			tasks: [
-				{
-					id: "2362AABD36C3AA96"
-					item: "techreborn:industrial_jackhammer"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "41DBC212B02B6CA7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.00B67CACCECF1701.subtitle}"
+			tasks: [{
+				id: "2362AABD36C3AA96"
+				item: "techreborn:industrial_jackhammer"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 23.5d
 		}
 		{
 			dependencies: ["1975556CF28F04D1"]
 			id: "5C37197479F5BFC1"
-			tasks: [
-				{
-					id: "7478EF4685BA3CE3"
-					item: "techreborn:player_detector"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7478EF4685BA3CE3"
+				item: "techreborn:player_detector"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 28.5d
 		}
 		{
 			dependencies: ["57026EAE5D560F4F"]
 			id: "34E1E575091AA498"
-			rewards: [
-				{
-					id: "6A071CA925EDEED2"
-					item: "techreborn:superconductor_cable"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests123.subtitle}"
-			tasks: [
-				{
-					id: "2E93F9B8361D923E"
-					item: "techreborn:superconductor_cable"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6A071CA925EDEED2"
+				item: "techreborn:superconductor_cable"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.34E1E575091AA498.subtitle}"
+			tasks: [{
+				id: "2E93F9B8361D923E"
+				item: "techreborn:superconductor_cable"
+				type: "item"
+			}]
 			x: -11.0d
 			y: 26.0d
 		}
@@ -3072,7 +2691,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests124.subtitle}"
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.0EA4DBE7B695EF01.subtitle}"
 			tasks: [
 				{
 					id: "1D57F91C9BB9BDD0"
@@ -3108,47 +2727,41 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tech_reborn.quests124.title}"
+			title: "{ftbquests.chapter.tech_reborn.quest.0EA4DBE7B695EF01.title}"
 			x: -11.0d
 			y: 18.0d
 		}
 		{
 			dependencies: ["0EA4DBE7B695EF01"]
 			id: "4D85BA63BD54984A"
-			rewards: [
-				{
-					id: "261E9C91CC2C52A5"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.tech_reborn.quests125.subtitle}"
-			tasks: [
-				{
-					id: "45796A556B155191"
-					item: {
-						Count: 1
-						id: "techreborn:cell"
-						tag: {
-							fluid: "techreborn:tritium"
-						}
+			rewards: [{
+				id: "261E9C91CC2C52A5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.tech_reborn.quest.4D85BA63BD54984A.subtitle}"
+			tasks: [{
+				id: "45796A556B155191"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:tritium"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -12.0d
 			y: 18.0d
 		}
 		{
 			id: "458F77D5647A05A9"
-			subtitle: "[\"\",\"可以在 \",{\"text\":\"末地\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"45D9C9CD7B2568A0\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[]}},\"找到。\"]"
-			tasks: [
-				{
-					id: "1B7DF5ACF6C0B3CE"
-					item: "techreborn:sheldonite_ore"
-					type: "item"
-				}
-			]
+			subtitle: "[\"\",{\"translate\":\"ftbquests.chapter.tech_reborn.quest.458F77D5647A05A9.subtitle.text0\"},{\"translate\":\"ftbquests.chapter.tech_reborn.quest.458F77D5647A05A9.subtitle.text1\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"45D9C9CD7B2568A0\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[]}},{\"translate\":\"ftbquests.chapter.tech_reborn.quest.458F77D5647A05A9.subtitle.text2\"}]"
+			tasks: [{
+				id: "1B7DF5ACF6C0B3CE"
+				item: "techreborn:sheldonite_ore"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 2.5d
 		}

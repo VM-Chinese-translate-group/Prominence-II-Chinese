@@ -12,5 +12,5 @@
 		{ item: "jewelry:unique_frost_ring" }
 		{ item: "jewelry:unique_healing_ring" }
 	]
-	title: "{ftbquests.reward_tables.tier4rings.title}"
+	title: "{ftbquests.reward_table.tier4rings.title}"
 }

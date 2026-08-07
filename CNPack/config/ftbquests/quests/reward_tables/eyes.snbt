@@ -20,5 +20,5 @@
 		{ item: "endrem:exotic_eye" }
 		{ item: "endrem:cryptic_eye" }
 	]
-	title: "{ftbquests.reward_tables.eyes.title}"
+	title: "{ftbquests.reward_table.eyes.title}"
 }

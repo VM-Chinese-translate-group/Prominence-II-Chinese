@@ -1,0 +1,23 @@
+{
+	id: "488FFF89B57CB0AF"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 32, item: "minecraft:arrow" }
+		{ count: 46, item: "runes:healing_stone" }
+		{ count: 46, item: "runes:fire_stone" }
+		{ count: 46, item: "runes:arcane_stone" }
+		{ count: 46, item: "runes:frost_stone" }
+		{ count: 12, item: "minecells:health_flask" }
+		{
+			item: {
+				Count: 1
+				id: "paladins:iron_kite_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "{ftbquests.reward_table.gettinstartedaddeditems.title}"
+}

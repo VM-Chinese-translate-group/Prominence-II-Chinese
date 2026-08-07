@@ -10,153 +10,141 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests0.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.2ACBF734342376E6.description0}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests0.description2}"
+				"{ftbquests.chapter.e_spell_books.quest.2ACBF734342376E6.description2}"
 			]
 			id: "2ACBF734342376E6"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests0.subtitle}"
-			tasks: [
-				{
-					id: "27A316975F783582"
-					item: "spell_engine:spell_binding"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.e_spell_books.quests0.title}"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.2ACBF734342376E6.subtitle}"
+			tasks: [{
+				id: "27A316975F783582"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.e_spell_books.quest.2ACBF734342376E6.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2ACBF734342376E6"]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests1.description0}"
-				"{ftbquests.chapter.e_spell_books.quests1.description1}"
+				"{ftbquests.chapter.e_spell_books.quest.3D769BC0E31CF27B.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.3D769BC0E31CF27B.description1}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests1.description3}"
-				"{ftbquests.chapter.e_spell_books.quests1.description4}"
-				"{ftbquests.chapter.e_spell_books.quests1.description5}"
+				"{ftbquests.chapter.e_spell_books.quest.3D769BC0E31CF27B.description3}"
+				"{ftbquests.chapter.e_spell_books.quest.3D769BC0E31CF27B.description4}"
+				"{ftbquests.chapter.e_spell_books.quest.3D769BC0E31CF27B.description5}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests1.description7}"
+				"{ftbquests.chapter.e_spell_books.quest.3D769BC0E31CF27B.description7}"
 			]
 			id: "3D769BC0E31CF27B"
-			rewards: [
-				{
-					count: 8
-					id: "63E0801C38149B0D"
-					item: "minecraft:lapis_lazuli"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "63E0801C38149B0D"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests1.subtitle}"
-			tasks: [
-				{
-					id: "5C2381C13E96EC72"
-					item: "minecraft:book"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.e_spell_books.quests1.title}"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.3D769BC0E31CF27B.subtitle}"
+			tasks: [{
+				id: "5C2381C13E96EC72"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.e_spell_books.quest.3D769BC0E31CF27B.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3D769BC0E31CF27B"]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests2.description0}"
-				"{ftbquests.chapter.e_spell_books.quests2.description1}"
+				"{ftbquests.chapter.e_spell_books.quest.680CDC0CDDB2A1E7.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.680CDC0CDDB2A1E7.description1}"
 			]
 			id: "680CDC0CDDB2A1E7"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests2.subtitle}"
-			tasks: [
-				{
-					id: "0CC8838FD229F0D3"
-					item: "rogues:warrior_spell_book"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.e_spell_books.quests2.title}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.680CDC0CDDB2A1E7.subtitle}"
+			tasks: [{
+				id: "0CC8838FD229F0D3"
+				item: "rogues:warrior_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.e_spell_books.quest.680CDC0CDDB2A1E7.title}"
 			x: 2.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3D769BC0E31CF27B"]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests3.description0}"
-				"{ftbquests.chapter.e_spell_books.quests3.description1}"
+				"{ftbquests.chapter.e_spell_books.quest.78944A4B5A1CD1EA.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.78944A4B5A1CD1EA.description1}"
 			]
 			id: "78944A4B5A1CD1EA"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests3.subtitle}"
-			tasks: [
-				{
-					id: "420A3C82E6373505"
-					item: "rogues:rogue_spell_book"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.e_spell_books.quests3.title}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.78944A4B5A1CD1EA.subtitle}"
+			tasks: [{
+				id: "420A3C82E6373505"
+				item: "rogues:rogue_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.e_spell_books.quest.78944A4B5A1CD1EA.title}"
 			x: -1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3D769BC0E31CF27B"]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests4.description0}"
-				"{ftbquests.chapter.e_spell_books.quests4.description1}"
+				"{ftbquests.chapter.e_spell_books.quest.39463E71A1709CE8.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.39463E71A1709CE8.description1}"
 			]
 			id: "39463E71A1709CE8"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests4.subtitle}"
-			tasks: [
-				{
-					id: "659C0887A14C58E8"
-					item: "archers:archer_spell_book"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.e_spell_books.quests4.title}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.39463E71A1709CE8.subtitle}"
+			tasks: [{
+				id: "659C0887A14C58E8"
+				item: "archers:archer_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.e_spell_books.quest.39463E71A1709CE8.title}"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["3D769BC0E31CF27B"]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests5.description0}"
-				"{ftbquests.chapter.e_spell_books.quests5.description1}"
+				"{ftbquests.chapter.e_spell_books.quest.420BD41EBB2FCBF2.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.420BD41EBB2FCBF2.description1}"
 			]
 			id: "420BD41EBB2FCBF2"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests5.subtitle}"
-			tasks: [
-				{
-					id: "4A76EA93FA7EBA05"
-					item: "paladins:priest_spell_book"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.e_spell_books.quests5.title}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.420BD41EBB2FCBF2.subtitle}"
+			tasks: [{
+				id: "4A76EA93FA7EBA05"
+				item: "paladins:priest_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.e_spell_books.quest.420BD41EBB2FCBF2.title}"
 			x: 1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3D769BC0E31CF27B"]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests6.description0}"
-				"{ftbquests.chapter.e_spell_books.quests6.description1}"
+				"{ftbquests.chapter.e_spell_books.quest.2FE046702FE7E363.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.2FE046702FE7E363.description1}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests6.description3}"
-				"{ftbquests.chapter.e_spell_books.quests6.description4}"
+				"{ftbquests.chapter.e_spell_books.quest.2FE046702FE7E363.description3}"
+				"{ftbquests.chapter.e_spell_books.quest.2FE046702FE7E363.description4}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests6.description6}"
-				"{ftbquests.chapter.e_spell_books.quests6.description7}"
+				"{ftbquests.chapter.e_spell_books.quest.2FE046702FE7E363.description6}"
+				"{ftbquests.chapter.e_spell_books.quest.2FE046702FE7E363.description7}"
 			]
 			id: "2FE046702FE7E363"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.2FE046702FE7E363.subtitle}"
 			tasks: [
 				{
 					id: "767C8498E6F73BF4"
@@ -174,7 +162,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.e_spell_books.quests6.title}"
+			title: "{ftbquests.chapter.e_spell_books.quest.2FE046702FE7E363.title}"
 			x: -2.5d
 			y: -2.0d
 		}
@@ -184,16 +172,16 @@
 				"420BD41EBB2FCBF2"
 			]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests7.description0}"
-				"{ftbquests.chapter.e_spell_books.quests7.description1}"
-				"{ftbquests.chapter.e_spell_books.quests7.description2}"
-				"{ftbquests.chapter.e_spell_books.quests7.description3}"
-				"{ftbquests.chapter.e_spell_books.quests7.description4}"
-				"{ftbquests.chapter.e_spell_books.quests7.description5}"
+				"{ftbquests.chapter.e_spell_books.quest.55D2E1055E762E33.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.55D2E1055E762E33.description1}"
+				"{ftbquests.chapter.e_spell_books.quest.55D2E1055E762E33.description2}"
+				"{ftbquests.chapter.e_spell_books.quest.55D2E1055E762E33.description3}"
+				"{ftbquests.chapter.e_spell_books.quest.55D2E1055E762E33.description4}"
+				"{ftbquests.chapter.e_spell_books.quest.55D2E1055E762E33.description5}"
 			]
 			id: "55D2E1055E762E33"
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.55D2E1055E762E33.subtitle}"
 			tasks: [
 				{
 					id: "1B0545C60E16399F"
@@ -211,27 +199,27 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.e_spell_books.quests7.title}"
+			title: "{ftbquests.chapter.e_spell_books.quest.55D2E1055E762E33.title}"
 			x: 3.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["680CDC0CDDB2A1E7"]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests8.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.12369F6ACB62CBC1.description0}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests8.description2}"
-				"{ftbquests.chapter.e_spell_books.quests8.description3}"
+				"{ftbquests.chapter.e_spell_books.quest.12369F6ACB62CBC1.description2}"
+				"{ftbquests.chapter.e_spell_books.quest.12369F6ACB62CBC1.description3}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests8.description5}"
-				"{ftbquests.chapter.e_spell_books.quests8.description6}"
+				"{ftbquests.chapter.e_spell_books.quest.12369F6ACB62CBC1.description5}"
+				"{ftbquests.chapter.e_spell_books.quest.12369F6ACB62CBC1.description6}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests8.description8}"
-				"{ftbquests.chapter.e_spell_books.quests8.description9}"
+				"{ftbquests.chapter.e_spell_books.quest.12369F6ACB62CBC1.description8}"
+				"{ftbquests.chapter.e_spell_books.quest.12369F6ACB62CBC1.description9}"
 			]
 			id: "12369F6ACB62CBC1"
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.12369F6ACB62CBC1.subtitle}"
 			tasks: [
 				{
 					id: "7F6EA37603A11140"
@@ -249,7 +237,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.e_spell_books.quests8.title}"
+			title: "{ftbquests.chapter.e_spell_books.quest.12369F6ACB62CBC1.title}"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -259,14 +247,14 @@
 				"78944A4B5A1CD1EA"
 			]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests9.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.2D6DC01DD507C1EC.description0}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests9.description2}"
-				"{ftbquests.chapter.e_spell_books.quests9.description3}"
+				"{ftbquests.chapter.e_spell_books.quest.2D6DC01DD507C1EC.description2}"
+				"{ftbquests.chapter.e_spell_books.quest.2D6DC01DD507C1EC.description3}"
 			]
 			id: "2D6DC01DD507C1EC"
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.2D6DC01DD507C1EC.subtitle}"
 			tasks: [
 				{
 					id: "17F3314D40F30CEE"
@@ -284,49 +272,47 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.e_spell_books.quests9.title}"
+			title: "{ftbquests.chapter.e_spell_books.quest.2D6DC01DD507C1EC.title}"
 			x: -3.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2FE046702FE7E363"]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests10.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.6EBA56E6576665E2.description0}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests10.description2}"
-				"{ftbquests.chapter.e_spell_books.quests10.description3}"
+				"{ftbquests.chapter.e_spell_books.quest.6EBA56E6576665E2.description2}"
+				"{ftbquests.chapter.e_spell_books.quest.6EBA56E6576665E2.description3}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests10.description5}"
+				"{ftbquests.chapter.e_spell_books.quest.6EBA56E6576665E2.description5}"
 			]
 			id: "6EBA56E6576665E2"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests10.subtitle}"
-			tasks: [
-				{
-					id: "6FF598197E4A5471"
-					item: "invoke:invoker_spell_book"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.e_spell_books.quests10.title}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.6EBA56E6576665E2.subtitle}"
+			tasks: [{
+				id: "6FF598197E4A5471"
+				item: "invoke:invoker_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.e_spell_books.quest.6EBA56E6576665E2.title}"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["39463E71A1709CE8"]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests11.description0}"
-				"{ftbquests.chapter.e_spell_books.quests11.description1}"
+				"{ftbquests.chapter.e_spell_books.quest.24588E0C17F50C15.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.24588E0C17F50C15.description1}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests11.description3}"
-				"{ftbquests.chapter.e_spell_books.quests11.description4}"
+				"{ftbquests.chapter.e_spell_books.quest.24588E0C17F50C15.description3}"
+				"{ftbquests.chapter.e_spell_books.quest.24588E0C17F50C15.description4}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests11.description6}"
-				"{ftbquests.chapter.e_spell_books.quests11.description7}"
+				"{ftbquests.chapter.e_spell_books.quest.24588E0C17F50C15.description6}"
+				"{ftbquests.chapter.e_spell_books.quest.24588E0C17F50C15.description7}"
 			]
 			id: "24588E0C17F50C15"
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.24588E0C17F50C15.subtitle}"
 			tasks: [
 				{
 					id: "362CF726EC9049D2"
@@ -344,27 +330,27 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.e_spell_books.quests11.title}"
+			title: "{ftbquests.chapter.e_spell_books.quest.24588E0C17F50C15.title}"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2D6DC01DD507C1EC"]
 			description: [
-				"{ftbquests.chapter.e_spell_books.quests12.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.54865C68BCE9863A.description0}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests12.description2}"
-				"{ftbquests.chapter.e_spell_books.quests12.description3}"
+				"{ftbquests.chapter.e_spell_books.quest.54865C68BCE9863A.description2}"
+				"{ftbquests.chapter.e_spell_books.quest.54865C68BCE9863A.description3}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests12.description5}"
-				"{ftbquests.chapter.e_spell_books.quests12.description6}"
+				"{ftbquests.chapter.e_spell_books.quest.54865C68BCE9863A.description5}"
+				"{ftbquests.chapter.e_spell_books.quest.54865C68BCE9863A.description6}"
 				""
-				"{ftbquests.chapter.e_spell_books.quests12.description8}"
-				"{ftbquests.chapter.e_spell_books.quests12.description9}"
+				"{ftbquests.chapter.e_spell_books.quest.54865C68BCE9863A.description8}"
+				"{ftbquests.chapter.e_spell_books.quest.54865C68BCE9863A.description9}"
 			]
 			id: "54865C68BCE9863A"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.e_spell_books.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.54865C68BCE9863A.subtitle}"
 			tasks: [
 				{
 					id: "0C0195D29CA499EE"
@@ -382,9 +368,54 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.e_spell_books.quests12.title}"
+			title: "{ftbquests.chapter.e_spell_books.quest.54865C68BCE9863A.title}"
 			x: -3.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"{ftbquests.chapter.e_spell_books.quest.67895CAA675A5B43.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.67895CAA675A5B43.description1}"
+			]
+			id: "67895CAA675A5B43"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.67895CAA675A5B43.subtitle}"
+			tasks: [{
+				id: "4AB151D6D5D2485C"
+				item: "forcemaster_rpg:forcemaster_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.e_spell_books.quest.67895CAA675A5B43.title}"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"{ftbquests.chapter.e_spell_books.quest.46965AED1B06D22B.description0}"
+				"{ftbquests.chapter.e_spell_books.quest.46965AED1B06D22B.description1}"
+				"{ftbquests.chapter.e_spell_books.quest.46965AED1B06D22B.description2}"
+				"{ftbquests.chapter.e_spell_books.quest.46965AED1B06D22B.description3}"
+			]
+			id: "46965AED1B06D22B"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.e_spell_books.quest.46965AED1B06D22B.subtitle}"
+			tasks: [
+				{
+					id: "3F291FBC53208B35"
+					item: "bards_rpg:bard_spell_book"
+					type: "item"
+				}
+				{
+					id: "1320A2F4CE9D2A14"
+					item: "bards_rpg:bard2_spell_book"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.e_spell_books.quest.46965AED1B06D22B.title}"
+			x: 2.5d
+			y: -0.5d
 		}
 	]
 	title: "{ftbquests.chapter.e_spell_books.title}"

@@ -1,0 +1,69 @@
+{
+	id: "33DFA842297FDD79"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wizards:wand_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wizards:wand_frost"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wizards:wand_arcane"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "paladins:holy_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersive_melodies:flute"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wizards:staff_wizard"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "{ftbquests.reward_table.gettingstarted.title}"
+}

@@ -27,15 +27,13 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.collectibles.quests0.subtitle}"
-			tasks: [
-				{
-					id: "5689DA335FBADCD6"
-					title: "{ftbquests.chapter.collectibles.quests0.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.collectibles.quests0.title}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.0F7A087CC11FB122.subtitle}"
+			tasks: [{
+				id: "5689DA335FBADCD6"
+				title: "{ftbquests.chapter.collectibles.quest.0F7A087CC11FB122.task.5689DA335FBADCD6.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.collectibles.quest.0F7A087CC11FB122.title}"
 			x: -0.5d
 			y: -0.5d
 		}
@@ -49,108 +47,22 @@
 				}
 			}
 			id: "282EACA345910CE7"
-			rewards: [
-				{
-					id: "616831F780B46F4A"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "616831F780B46F4A"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.collectibles.quests1.subtitle}"
-			tasks: [
-				{
-					id: "4440BB4F65FC9AE0"
-					title: "{ftbquests.chapter.collectibles.quests1.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.collectibles.quests1.title}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.282EACA345910CE7.subtitle}"
+			tasks: [{
+				id: "4440BB4F65FC9AE0"
+				title: "{ftbquests.chapter.collectibles.quest.282EACA345910CE7.task.4440BB4F65FC9AE0.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.collectibles.quest.282EACA345910CE7.title}"
 			x: -4.5d
 			y: -0.75d
-		}
-		{
-			dependencies: ["282EACA345910CE7"]
-			id: "53925647824AA9E2"
-			rewards: [
-				{
-					id: "6266504A34C7A44E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "5EA7DE6D6B28290B"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "netherdepthsupgrade:long_lava_vision"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "30370336E558C2D3"
-					item: "minecraft:wither_skeleton_skull"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "46EC3331D67AD0AA"
-					item: "netherdepthsupgrade:lava_pufferfish_bucket"
-					type: "item"
-				}
-				{
-					id: "1723B4D3B0E31B71"
-					item: "netherdepthsupgrade:obsidianfish_bucket"
-					type: "item"
-				}
-				{
-					id: "6BF5531467AF715E"
-					item: "netherdepthsupgrade:searing_cod_bucket"
-					type: "item"
-				}
-				{
-					id: "14BDE993E6D6349C"
-					item: "netherdepthsupgrade:bonefish_bucket"
-					type: "item"
-				}
-				{
-					id: "10B51C66CF3E0131"
-					item: "netherdepthsupgrade:wither_bonefish_bucket"
-					type: "item"
-				}
-				{
-					id: "6BE78D7663250229"
-					item: "netherdepthsupgrade:magmacubefish_bucket"
-					type: "item"
-				}
-				{
-					id: "2B743E117673F6C6"
-					item: "netherdepthsupgrade:glowdine_bucket"
-					type: "item"
-				}
-				{
-					id: "6FE0D0BF90C24851"
-					item: "netherdepthsupgrade:soulsucker_bucket"
-					type: "item"
-				}
-				{
-					id: "27C878FDB8974688"
-					item: "netherdepthsupgrade:fortress_grouper_bucket"
-					type: "item"
-				}
-				{
-					id: "3C27A648EABDE75B"
-					item: "netherdepthsupgrade:eyeball_fish_bucket"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.collectibles.quests2.title}"
-			x: -6.5d
-			y: -3.0d
 		}
 		{
 			dependencies: ["0F7A087CC11FB122"]
@@ -162,32 +74,25 @@
 				}
 			}
 			id: "60DC316BF3D62742"
-			rewards: [
-				{
-					id: "64CF2EB86B7B27C0"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "64CF2EB86B7B27C0"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.collectibles.quests3.subtitle}"
-			tasks: [
-				{
-					id: "780A1FBFBD8B7209"
-					title: "{ftbquests.chapter.collectibles.quests3.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.collectibles.quests3.title}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.60DC316BF3D62742.subtitle}"
+			tasks: [{
+				id: "780A1FBFBD8B7209"
+				title: "{ftbquests.chapter.collectibles.quest.60DC316BF3D62742.task.780A1FBFBD8B7209.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.collectibles.quest.60DC316BF3D62742.title}"
 			x: -0.25d
 			y: -5.75d
 		}
 		{
-			dependencies: [
-				"53925647824AA9E2"
-				"043001A7D696CA86"
-			]
+			dependencies: ["043001A7D696CA86"]
 			icon: "zenith:inert_trident"
 			id: "621DEC783CB253F9"
 			rewards: [
@@ -213,25 +118,21 @@
 						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [
-								{
-									id: "minecraft:protection"
-									lvl: 4s
-								}
-							]
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
 						}
 					}
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.collectibles.quests4.subtitle}"
-			tasks: [
-				{
-					id: "122390AC8641511B"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.collectibles.quests4.title}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.621DEC783CB253F9.subtitle}"
+			tasks: [{
+				id: "122390AC8641511B"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.collectibles.quest.621DEC783CB253F9.title}"
 			x: -10.5d
 			y: -3.0d
 		}
@@ -251,7 +152,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.collectibles.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.136FC2FC6435F619.subtitle}"
 			tasks: [
 				{
 					id: "393DA5A29912907B"
@@ -261,12 +162,12 @@
 				{
 					entity: "aquamirae:captain_cornelia"
 					id: "1015E24E756E2C3E"
-					title: "{ftbquests.chapter.collectibles.quests5.tasks1.title}"
+					title: "{ftbquests.chapter.collectibles.quest.136FC2FC6435F619.task.1015E24E756E2C3E.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.collectibles.quests5.title}"
+			title: "{ftbquests.chapter.collectibles.quest.136FC2FC6435F619.title}"
 			x: 1.5d
 			y: -8.0d
 		}
@@ -291,7 +192,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.collectibles.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.356196952FB3E656.subtitle}"
 			tasks: [
 				{
 					id: "0CEFC504FCA32CE4"
@@ -338,21 +239,19 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collectibles.quests6.title}"
+			title: "{ftbquests.chapter.collectibles.quest.356196952FB3E656.title}"
 			x: 3.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["60DC316BF3D62742"]
 			id: "5A73A01063124CA7"
-			rewards: [
-				{
-					id: "7CC804DD972BA01B"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.collectibles.quests7.subtitle}"
+			rewards: [{
+				id: "7CC804DD972BA01B"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.collectibles.quest.5A73A01063124CA7.subtitle}"
 			tasks: [
 				{
 					id: "05DFDD44BAA57191"
@@ -371,14 +270,12 @@
 		{
 			dependencies: ["60DC316BF3D62742"]
 			id: "631067E2E7D98FEA"
-			rewards: [
-				{
-					id: "18FAF5C052B3407A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.collectibles.quests8.subtitle}"
+			rewards: [{
+				id: "18FAF5C052B3407A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{ftbquests.chapter.collectibles.quest.631067E2E7D98FEA.subtitle}"
 			tasks: [
 				{
 					id: "1292E7ED391B2005"
@@ -425,7 +322,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collectibles.quests8.title}"
+			title: "{ftbquests.chapter.collectibles.quest.631067E2E7D98FEA.title}"
 			x: 3.5d
 			y: -5.5d
 		}
@@ -446,7 +343,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "{ftbquests.chapter.collectibles.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.068588703F19898F.subtitle}"
 			tasks: [
 				{
 					entity: "aquamirae:maze_mother"
@@ -461,7 +358,7 @@
 					value: 10L
 				}
 			]
-			title: "{ftbquests.chapter.collectibles.quests9.title}"
+			title: "{ftbquests.chapter.collectibles.quest.068588703F19898F.title}"
 			x: -2.0d
 			y: -8.0d
 		}
@@ -485,7 +382,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.collectibles.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.73BDC1527FC27EBE.subtitle}"
 			tasks: [
 				{
 					id: "48DE8F1B675D99FC"
@@ -503,7 +400,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collectibles.quests10.title}"
+			title: "{ftbquests.chapter.collectibles.quest.73BDC1527FC27EBE.title}"
 			x: 3.0d
 			y: -9.5d
 		}
@@ -518,12 +415,10 @@
 						id: "aquamirae:coral_lance"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:unbreaking"
-									lvl: 4s
-								}
-							]
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
 						}
 					}
 					type: "item"
@@ -611,12 +506,10 @@
 						id: "aquamirae:sweet_lance"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:looting"
-									lvl: 1s
-								}
-							]
+							Enchantments: [{
+								id: "minecraft:looting"
+								lvl: 1s
+							}]
 						}
 					}
 					type: "item"
@@ -638,7 +531,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.collectibles.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.6DED2A40FDF26E80.subtitle}"
 			tasks: [
 				{
 					id: "397F03774AC34FF3"
@@ -647,12 +540,10 @@
 						id: "aquamirae:poisoned_chakra"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "obscure_api:mirror"
-									lvl: 1s
-								}
-							]
+							Enchantments: [{
+								id: "obscure_api:mirror"
+								lvl: 1s
+							}]
 						}
 					}
 					type: "item"
@@ -664,12 +555,10 @@
 						id: "aquamirae:maze_rose"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "obscure_api:mirror"
-									lvl: 1s
-								}
-							]
+							Enchantments: [{
+								id: "obscure_api:mirror"
+								lvl: 1s
+							}]
 						}
 					}
 					type: "item"
@@ -697,35 +586,31 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collectibles.quests12.title}"
+			title: "{ftbquests.chapter.collectibles.quest.6DED2A40FDF26E80.title}"
 			x: -4.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["068588703F19898F"]
 			id: "17795101990B65AC"
-			rewards: [
-				{
-					id: "6B4EEB74E628CC30"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.collectibles.quests13.subtitle}"
-			tasks: [
-				{
-					id: "3C8E000E958CA1BB"
-					item: {
-						Count: 1
-						id: "aquamirae:whisper_of_the_abyss"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "6B4EEB74E628CC30"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{ftbquests.chapter.collectibles.quest.17795101990B65AC.subtitle}"
+			tasks: [{
+				id: "3C8E000E958CA1BB"
+				item: {
+					Count: 1
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.collectibles.quests13.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.collectibles.quest.17795101990B65AC.title}"
 			x: -2.0d
 			y: -10.0d
 		}
@@ -750,7 +635,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "{ftbquests.chapter.collectibles.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.043001A7D696CA86.subtitle}"
 			tasks: [
 				{
 					id: "19FF23AA00A59635"
@@ -778,7 +663,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collectibles.quests14.title}"
+			title: "{ftbquests.chapter.collectibles.quest.043001A7D696CA86.title}"
 			x: -8.0d
 			y: -1.0d
 		}
@@ -786,24 +671,20 @@
 			dependencies: ["0F7A087CC11FB122"]
 			icon: "regions_unexplored:white_magnolia_sapling"
 			id: "5C307FC486F5B7D7"
-			rewards: [
-				{
-					id: "5D7AFE179DD42111"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "5D7AFE179DD42111"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "heart"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.collectibles.quests15.subtitle}"
-			tasks: [
-				{
-					id: "07326B76C991455F"
-					title: "{ftbquests.chapter.collectibles.quests15.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.collectibles.quests15.title}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.5C307FC486F5B7D7.subtitle}"
+			tasks: [{
+				id: "07326B76C991455F"
+				title: "{ftbquests.chapter.collectibles.quest.5C307FC486F5B7D7.task.07326B76C991455F.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.collectibles.quest.5C307FC486F5B7D7.title}"
 			x: 3.75d
 			y: -0.75d
 		}
@@ -817,11 +698,6 @@
 					xp: 300
 				}
 				{
-					id: "1E87804022CFDB8B"
-					item: "netherdepthsupgrade:baked_soulsucker_stew"
-					type: "item"
-				}
-				{
 					count: 5
 					id: "54F4061810438FDD"
 					item: "minecraft:golden_apple"
@@ -833,7 +709,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.collectibles.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.1826E3AC2D601D50.subtitle}"
 			tasks: [
 				{
 					id: "69D130AA122E4A45"
@@ -1126,7 +1002,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collectibles.quests16.title}"
+			title: "{ftbquests.chapter.collectibles.quest.1826E3AC2D601D50.title}"
 			x: 6.5d
 			y: -2.5d
 		}
@@ -1145,7 +1021,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.collectibles.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.493BFF4DB1025508.subtitle}"
 			tasks: [
 				{
 					id: "6414055BE32CF4E7"
@@ -1283,7 +1159,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collectibles.quests17.title}"
+			title: "{ftbquests.chapter.collectibles.quest.493BFF4DB1025508.title}"
 			x: 7.0d
 			y: -1.0d
 		}
@@ -1302,7 +1178,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.collectibles.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.collectibles.quest.335FD3A6C6611BBE.subtitle}"
 			tasks: [
 				{
 					id: "1B122CC8ABA04C1F"
@@ -1360,7 +1236,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collectibles.quests18.title}"
+			title: "{ftbquests.chapter.collectibles.quest.335FD3A6C6611BBE.title}"
 			x: 6.5d
 			y: 0.5d
 		}

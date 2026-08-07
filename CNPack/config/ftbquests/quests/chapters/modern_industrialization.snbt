@@ -6,31 +6,27 @@
 	group: "49D52BD6447C5CC0"
 	icon: "modern_industrialization:guidebook"
 	id: "5BB4D2FC1908D3D1"
-	images: [
-		{
-			height: 1.0d
-			image: "ftbteams:textures/add.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -42.0d
-			y: -15.5d
-		}
-	]
-	order_index: 7
+	images: [{
+		height: 1.0d
+		image: "ftbteams:textures/add.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -42.0d
+		y: -15.5d
+	}]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.modern_industrialization.quests0.description}"]
+			description: ["{ftbquests.chapter.modern_industrialization.quest.6F6196A606D3A8EF.description0}"]
 			icon: "modern_industrialization:guidebook"
 			id: "6F6196A606D3A8EF"
-			rewards: [
-				{
-					id: "30114C4833A34014"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests0.subtitle}"
+			rewards: [{
+				id: "30114C4833A34014"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.6F6196A606D3A8EF.subtitle}"
 			tasks: [
 				{
 					id: "3E45F701C61708E1"
@@ -42,7 +38,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests0.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.6F6196A606D3A8EF.title}"
 			x: -9.5d
 			y: -11.0d
 		}
@@ -67,7 +63,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.385079198388468C.subtitle}"
 			tasks: [
 				{
 					id: "1B769C345EAF942C"
@@ -86,40 +82,36 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests1.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.385079198388468C.title}"
 			x: -9.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["385079198388468C"]
-			description: ["{ftbquests.chapter.modern_industrialization.quests2.description}"]
+			description: ["{ftbquests.chapter.modern_industrialization.quest.4661838E492BDE53.description0}"]
 			icon: "modern_industrialization:bronze_ingot"
 			id: "4661838E492BDE53"
-			rewards: [
-				{
-					id: "48BE059E717F3B88"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "48BE059E717F3B88"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests2.subtitle}"
-			tasks: [
-				{
-					count: 32L
-					id: "393032946BC049BC"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "c:bronze_ingots"
-						}
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.4661838E492BDE53.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "393032946BC049BC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:bronze_ingots"
 					}
-					title: "{ftbquests.chapter.modern_industrialization.quests2.tasks0.title}"
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests2.title}"
+				title: "{ftbquests.chapter.modern_industrialization.quest.4661838E492BDE53.task.393032946BC049BC.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.4661838E492BDE53.title}"
 			x: -9.5d
 			y: -7.5d
 		}
@@ -139,30 +131,28 @@
 					xp: 20
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests3.subtitle}"
-			tasks: [
-				{
-					id: "3F8C83D99FC1C002"
-					item: "modern_industrialization:bronze_compressor"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests3.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.7F96B49412F52611.subtitle}"
+			tasks: [{
+				id: "3F8C83D99FC1C002"
+				item: "modern_industrialization:bronze_compressor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.7F96B49412F52611.title}"
 			x: -12.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4661838E492BDE53"]
 			description: [
-				"{ftbquests.chapter.modern_industrialization.quests4.description0}"
+				"{ftbquests.chapter.modern_industrialization.quest.0BAB52BE15CE157F.description0}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests4.description2}"
+				"{ftbquests.chapter.modern_industrialization.quest.0BAB52BE15CE157F.description2}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests4.description4}"
+				"{ftbquests.chapter.modern_industrialization.quest.0BAB52BE15CE157F.description4}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests4.description6}"
+				"{ftbquests.chapter.modern_industrialization.quest.0BAB52BE15CE157F.description6}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests4.description8}"
+				"{ftbquests.chapter.modern_industrialization.quest.0BAB52BE15CE157F.description8}"
 			]
 			id: "0BAB52BE15CE157F"
 			rewards: [
@@ -178,15 +168,13 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests4.subtitle}"
-			tasks: [
-				{
-					id: "047BE723A63F9E5F"
-					item: "modern_industrialization:bronze_boiler"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests4.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.0BAB52BE15CE157F.subtitle}"
+			tasks: [{
+				id: "047BE723A63F9E5F"
+				item: "modern_industrialization:bronze_boiler"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.0BAB52BE15CE157F.title}"
 			x: -9.5d
 			y: -5.0d
 		}
@@ -199,14 +187,12 @@
 			description: [""]
 			icon: "modern_industrialization:steam_blast_furnace"
 			id: "586CB8FEAA0A50C6"
-			rewards: [
-				{
-					id: "48C41FC140863B6B"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests5.subtitle}"
+			rewards: [{
+				id: "48C41FC140863B6B"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.586CB8FEAA0A50C6.subtitle}"
 			tasks: [
 				{
 					count: 29L
@@ -235,7 +221,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests5.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.586CB8FEAA0A50C6.title}"
 			x: -9.5d
 			y: -1.5d
 		}
@@ -243,23 +229,19 @@
 			dependencies: ["4661838E492BDE53"]
 			description: [""]
 			id: "5A27B361EF71A4DF"
-			rewards: [
-				{
-					id: "66BB04E6CA8C33E5"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "66BB04E6CA8C33E5"
+				type: "xp"
+				xp: 30
+			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests6.subtitle}"
-			tasks: [
-				{
-					id: "7799145BACA36D6A"
-					item: "modern_industrialization:bronze_macerator"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests6.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.5A27B361EF71A4DF.subtitle}"
+			tasks: [{
+				id: "7799145BACA36D6A"
+				item: "modern_industrialization:bronze_macerator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.5A27B361EF71A4DF.title}"
 			x: -6.5d
 			y: -5.0d
 		}
@@ -280,15 +262,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests7.subtitle}"
-			tasks: [
-				{
-					id: "4BCB31C3818DC3D7"
-					item: "modern_industrialization:steam_mining_drill"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests7.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.70CD9F0D26A75E13.subtitle}"
+			tasks: [{
+				id: "4BCB31C3818DC3D7"
+				item: "modern_industrialization:steam_mining_drill"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.70CD9F0D26A75E13.title}"
 			x: -11.5d
 			y: -9.5d
 		}
@@ -308,15 +288,13 @@
 					xp: 10
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests8.subtitle}"
-			tasks: [
-				{
-					id: "1CCFC1ADFBB4F858"
-					item: "modern_industrialization:bronze_mixer"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests8.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.4575644C7E5F2DEE.subtitle}"
+			tasks: [{
+				id: "1CCFC1ADFBB4F858"
+				item: "modern_industrialization:bronze_mixer"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.4575644C7E5F2DEE.title}"
 			x: -11.5d
 			y: -5.0d
 		}
@@ -325,23 +303,19 @@
 			description: [""]
 			icon: "modern_industrialization:bronze_cutting_machine"
 			id: "68E8311AC3140A56"
-			rewards: [
-				{
-					id: "562C0214B1418055"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests9.subtitle}"
-			tasks: [
-				{
-					icon: "modern_industrialization:bronze_cutting_machine"
-					id: "05C1EB3A2AEB99EF"
-					item: "modern_industrialization:bronze_cutting_machine"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests9.title}"
+			rewards: [{
+				id: "562C0214B1418055"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.68E8311AC3140A56.subtitle}"
+			tasks: [{
+				icon: "modern_industrialization:bronze_cutting_machine"
+				id: "05C1EB3A2AEB99EF"
+				item: "modern_industrialization:bronze_cutting_machine"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.68E8311AC3140A56.title}"
 			x: -7.5d
 			y: -5.0d
 		}
@@ -362,16 +336,14 @@
 					xp: 10
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests10.subtitle}"
-			tasks: [
-				{
-					count: 12L
-					id: "5FB4F9E06ED83BA2"
-					item: "modern_industrialization:fire_clay_brick"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests10.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.39FADF9C0442304F.subtitle}"
+			tasks: [{
+				count: 12L
+				id: "5FB4F9E06ED83BA2"
+				item: "modern_industrialization:fire_clay_brick"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.39FADF9C0442304F.title}"
 			x: -8.5d
 			y: -5.0d
 		}
@@ -379,31 +351,27 @@
 			dependencies: ["39FADF9C0442304F"]
 			description: [""]
 			id: "4AD93229344EA0BE"
-			rewards: [
-				{
-					id: "2D513299E81DDA0D"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests11.subtitle}"
-			tasks: [
-				{
-					id: "747A0D40FA945748"
-					item: "modern_industrialization:bronze_furnace"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests11.title}"
+			rewards: [{
+				id: "2D513299E81DDA0D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.4AD93229344EA0BE.subtitle}"
+			tasks: [{
+				id: "747A0D40FA945748"
+				item: "modern_industrialization:bronze_furnace"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.4AD93229344EA0BE.title}"
 			x: -8.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4661838E492BDE53"]
 			description: [
-				"{ftbquests.chapter.modern_industrialization.quests12.description0}"
+				"{ftbquests.chapter.modern_industrialization.quest.36ECD7C06649DE78.description0}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests12.description2}"
+				"{ftbquests.chapter.modern_industrialization.quest.36ECD7C06649DE78.description2}"
 			]
 			icon: "modern_industrialization:coke_oven"
 			id: "36ECD7C06649DE78"
@@ -420,7 +388,7 @@
 					xp: 30
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.36ECD7C06649DE78.subtitle}"
 			tasks: [
 				{
 					id: "217D2448551C324A"
@@ -454,7 +422,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests12.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.36ECD7C06649DE78.title}"
 			x: -10.5d
 			y: -5.0d
 		}
@@ -474,7 +442,7 @@
 					xp: 30
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.748D2241F66FF644.subtitle}"
 			tasks: [
 				{
 					id: "4F5F070D435F875B"
@@ -507,15 +475,13 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests14.subtitle}"
-			tasks: [
-				{
-					id: "510DB26BFE950469"
-					item: "modern_industrialization:bronze_water_pump"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests14.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.0DD703B94D202B68.subtitle}"
+			tasks: [{
+				id: "510DB26BFE950469"
+				item: "modern_industrialization:bronze_water_pump"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.0DD703B94D202B68.title}"
 			x: -9.5d
 			y: -3.5d
 		}
@@ -536,16 +502,14 @@
 					xp: 10
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests15.subtitle}"
-			tasks: [
-				{
-					count: 16L
-					id: "2E9298C2FC478FF5"
-					item: "modern_industrialization:fluid_pipe"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests15.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.75608EDF99965533.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "2E9298C2FC478FF5"
+				item: "modern_industrialization:fluid_pipe"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.75608EDF99965533.title}"
 			x: -11.5d
 			y: -7.5d
 		}
@@ -553,62 +517,54 @@
 			dependencies: ["586CB8FEAA0A50C6"]
 			description: [""]
 			id: "7C5C1CA5A7954896"
-			rewards: [
-				{
-					id: "583024642A669E0B"
-					type: "xp"
-					xp: 40
-				}
-			]
+			rewards: [{
+				id: "583024642A669E0B"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests16.subtitle}"
-			tasks: [
-				{
-					id: "3612549FFBF5E73C"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "c:steel_ingots"
-						}
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.7C5C1CA5A7954896.subtitle}"
+			tasks: [{
+				id: "3612549FFBF5E73C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:steel_ingots"
 					}
-					title: "{ftbquests.chapter.modern_industrialization.quests16.tasks0.title}"
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests16.title}"
+				title: "{ftbquests.chapter.modern_industrialization.quest.7C5C1CA5A7954896.task.3612549FFBF5E73C.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.7C5C1CA5A7954896.title}"
 			x: -4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7C5C1CA5A7954896"]
 			id: "6F4AE13DA520109C"
-			rewards: [
-				{
-					id: "1AD889DB628B5A42"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests18.subtitle}"
-			tasks: [
-				{
-					count: 2L
-					id: "763B45889C554D7E"
-					item: "modern_industrialization:steel_upgrade"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests18.title}"
+			rewards: [{
+				id: "1AD889DB628B5A42"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.6F4AE13DA520109C.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "763B45889C554D7E"
+				item: "modern_industrialization:steel_upgrade"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.6F4AE13DA520109C.title}"
 			x: -2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7C5C1CA5A7954896"]
 			description: [
-				"{ftbquests.chapter.modern_industrialization.quests19.description0}"
+				"{ftbquests.chapter.modern_industrialization.quest.26E587E34810A8FE.description0}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests19.description2}"
+				"{ftbquests.chapter.modern_industrialization.quest.26E587E34810A8FE.description2}"
 				""
 			]
 			icon: "modern_industrialization:steam_quarry"
@@ -626,7 +582,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.26E587E34810A8FE.subtitle}"
 			tasks: [
 				{
 					id: "0B829B6C4987D67B"
@@ -652,30 +608,26 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests19.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.26E587E34810A8FE.title}"
 			x: -4.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2050D2FF42E29F6D"]
 			id: "74A278B57EF76B3B"
-			rewards: [
-				{
-					id: "3AF9B328CED1A5BF"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests20.subtitle}"
-			tasks: [
-				{
-					count: 4L
-					id: "624F6E6D7A45923D"
-					item: "modern_industrialization:bronze_drill"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests20.title}"
+			rewards: [{
+				id: "3AF9B328CED1A5BF"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.74A278B57EF76B3B.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "624F6E6D7A45923D"
+				item: "modern_industrialization:bronze_drill"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.74A278B57EF76B3B.title}"
 			x: -3.5d
 			y: -7.5d
 		}
@@ -687,10 +639,7 @@
 				{
 					count: 4
 					id: "1E9D18D104CA30EC"
-					item: {
-						Count: 4
-						id: "techreborn:steel_plate"
-					}
+					item: { Count: 4, id: "techreborn:steel_plate" }
 					type: "item"
 				}
 				{
@@ -699,60 +648,50 @@
 					xp: 20
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests21.subtitle}"
-			tasks: [
-				{
-					id: "32FF28A50A8B3DD5"
-					item: "modern_industrialization:steel_wiremill"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests21.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.43F43FB0B9ED0818.subtitle}"
+			tasks: [{
+				id: "32FF28A50A8B3DD5"
+				item: "modern_industrialization:steel_wiremill"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.43F43FB0B9ED0818.title}"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2050D2FF42E29F6D"]
 			id: "2F5A88568154E986"
-			rewards: [
-				{
-					id: "113170A0A2F1E4A1"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests22.subtitle}"
-			tasks: [
-				{
-					id: "4CB128CC2F0687DD"
-					item: "modern_industrialization:copper_drill"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "113170A0A2F1E4A1"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.2F5A88568154E986.subtitle}"
+			tasks: [{
+				id: "4CB128CC2F0687DD"
+				item: "modern_industrialization:copper_drill"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["43F43FB0B9ED0818"]
 			id: "19E5E31614FE485E"
-			rewards: [
-				{
-					id: "749148FEAC43A349"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "749148FEAC43A349"
+				type: "xp"
+				xp: 30
+			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests23.subtitle}"
-			tasks: [
-				{
-					count: 2L
-					id: "33A196551A047E54"
-					item: "modern_industrialization:analog_circuit"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests23.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.19E5E31614FE485E.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "33A196551A047E54"
+				item: "modern_industrialization:analog_circuit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.19E5E31614FE485E.title}"
 			x: 1.0d
 			y: -3.5d
 		}
@@ -773,16 +712,14 @@
 					xp: 10
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests24.subtitle}"
-			tasks: [
-				{
-					count: 16L
-					id: "52537690D3281DBF"
-					item: "modern_industrialization:item_pipe"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests24.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.38F9192F665742BA.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "52537690D3281DBF"
+				item: "modern_industrialization:item_pipe"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.38F9192F665742BA.title}"
 			x: -6.0d
 			y: -3.5d
 		}
@@ -804,15 +741,13 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests25.subtitle}"
-			tasks: [
-				{
-					id: "651D4E443F87E715"
-					item: "modern_industrialization:assembler"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests25.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.79F4B68189C05A25.subtitle}"
+			tasks: [{
+				id: "651D4E443F87E715"
+				item: "modern_industrialization:assembler"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.79F4B68189C05A25.title}"
 			x: 2.5d
 			y: -5.0d
 		}
@@ -834,7 +769,7 @@
 					xp: 35
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests26.subtitle}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.2F6ED192CC3A9AF4.subtitle}"
 			tasks: [
 				{
 					id: "7D1063975B5EA66E"
@@ -860,7 +795,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests26.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.2F6ED192CC3A9AF4.title}"
 			x: 1.5d
 			y: -5.0d
 		}
@@ -868,22 +803,18 @@
 			dependencies: ["19E5E31614FE485E"]
 			description: [""]
 			id: "55ED05A197F8D24A"
-			rewards: [
-				{
-					id: "596B76D1A8846CD9"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests27.subtitle}"
-			tasks: [
-				{
-					id: "0497A2F2D5A65B0C"
-					item: "modern_industrialization:lv_steam_turbine"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests27.title}"
+			rewards: [{
+				id: "596B76D1A8846CD9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.55ED05A197F8D24A.subtitle}"
+			tasks: [{
+				id: "0497A2F2D5A65B0C"
+				item: "modern_industrialization:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.55ED05A197F8D24A.title}"
 			x: 0.5d
 			y: -5.0d
 		}
@@ -903,15 +834,13 @@
 					xp: 20
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests28.subtitle}"
-			tasks: [
-				{
-					id: "796F845AA4E8F271"
-					item: "modern_industrialization:polarizer"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests28.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.5F52B24FFE2DDD86.subtitle}"
+			tasks: [{
+				id: "796F845AA4E8F271"
+				item: "modern_industrialization:polarizer"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.5F52B24FFE2DDD86.title}"
 			x: 0.5d
 			y: -7.5d
 		}
@@ -937,7 +866,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.796F33AE4A9CF30C.subtitle}"
 			tasks: [
 				{
 					id: "39EB9EA6FC93093F"
@@ -957,51 +886,43 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests29.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.796F33AE4A9CF30C.title}"
 			x: 0.5d
 			y: -11.0d
 		}
 		{
 			dependencies: ["796F33AE4A9CF30C"]
 			id: "6BEB4461CA08633F"
-			rewards: [
-				{
-					id: "0F79198782678260"
-					type: "xp"
-					xp: 35
-				}
-			]
+			rewards: [{
+				id: "0F79198782678260"
+				type: "xp"
+				xp: 35
+			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests30.subtitle}"
-			tasks: [
-				{
-					id: "36962E06671E364F"
-					item: "modern_industrialization:electronic_circuit"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests30.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.6BEB4461CA08633F.subtitle}"
+			tasks: [{
+				id: "36962E06671E364F"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.6BEB4461CA08633F.title}"
 			x: 5.5d
 			y: -11.0d
 		}
 		{
 			dependencies: ["33BF21CF8232FD35"]
 			id: "036292964BDE4944"
-			rewards: [
-				{
-					id: "3305918FD4754EE6"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests31.subtitle}"
-			tasks: [
-				{
-					id: "25449DE629548BDF"
-					item: "modern_industrialization:distillery"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3305918FD4754EE6"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.036292964BDE4944.subtitle}"
+			tasks: [{
+				id: "25449DE629548BDF"
+				item: "modern_industrialization:distillery"
+				type: "item"
+			}]
 			x: 10.0d
 			y: -9.0d
 		}
@@ -1009,14 +930,12 @@
 			dependencies: ["036292964BDE4944"]
 			description: [""]
 			id: "6D0310EF6A259AC8"
-			rewards: [
-				{
-					id: "6FD4B8C610F5ED57"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests32.subtitle}"
+			rewards: [{
+				id: "6FD4B8C610F5ED57"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.6D0310EF6A259AC8.subtitle}"
 			tasks: [
 				{
 					id: "67C570594E13FA80"
@@ -1034,7 +953,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests32.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.6D0310EF6A259AC8.title}"
 			x: 9.0d
 			y: -10.5d
 		}
@@ -1044,23 +963,19 @@
 				"64BACF5B60AD2406"
 			]
 			id: "7CE18D246F01445D"
-			rewards: [
-				{
-					id: "12A8A25898D36CAF"
-					type: "xp"
-					xp: 40
-				}
-			]
+			rewards: [{
+				id: "12A8A25898D36CAF"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests33.subtitle}"
-			tasks: [
-				{
-					id: "096259C009D8AFC1"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests33.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.7CE18D246F01445D.subtitle}"
+			tasks: [{
+				id: "096259C009D8AFC1"
+				item: "modern_industrialization:digital_circuit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.7CE18D246F01445D.title}"
 			x: 10.0d
 			y: -5.5d
 		}
@@ -1069,14 +984,12 @@
 			description: [""]
 			icon: "modern_industrialization:oil_drilling_rig"
 			id: "33BF21CF8232FD35"
-			rewards: [
-				{
-					id: "3D028FD471613B8A"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests34.subtitle}"
+			rewards: [{
+				id: "3D028FD471613B8A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.33BF21CF8232FD35.subtitle}"
 			tasks: [
 				{
 					id: "26F6DB1C04F1CF93"
@@ -1102,70 +1015,58 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests34.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.33BF21CF8232FD35.title}"
 			x: 8.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["6BEB4461CA08633F"]
 			id: "6B11B8A209763B36"
-			rewards: [
-				{
-					id: "418FD62C77FE7890"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests35.subtitle}"
-			tasks: [
-				{
-					id: "4405859846ECFE0E"
-					item: "modern_industrialization:chemical_reactor"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "418FD62C77FE7890"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.6B11B8A209763B36.subtitle}"
+			tasks: [{
+				id: "4405859846ECFE0E"
+				item: "modern_industrialization:chemical_reactor"
+				type: "item"
+			}]
 			x: 4.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["7CE18D246F01445D"]
 			id: "2AE689F6495C83A6"
-			rewards: [
-				{
-					id: "3B83F18D0F1A5394"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests36.subtitle}"
-			tasks: [
-				{
-					id: "54C9073262B25D06"
-					item: "modern_industrialization:distillation_tower"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3B83F18D0F1A5394"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.2AE689F6495C83A6.subtitle}"
+			tasks: [{
+				id: "54C9073262B25D06"
+				item: "modern_industrialization:distillation_tower"
+				type: "item"
+			}]
 			x: 13.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["7CE18D246F01445D"]
 			id: "7F41EEF87B3A8B84"
-			rewards: [
-				{
-					id: "6F2C95E5F5B98B7E"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests37.subtitle}"
-			tasks: [
-				{
-					id: "4223D53BFBB35DEF"
-					item: "modern_industrialization:heat_exchanger"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6F2C95E5F5B98B7E"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.7F41EEF87B3A8B84.subtitle}"
+			tasks: [{
+				id: "4223D53BFBB35DEF"
+				item: "modern_industrialization:heat_exchanger"
+				type: "item"
+			}]
 			x: 13.0d
 			y: -4.5d
 		}
@@ -1173,14 +1074,12 @@
 			dependencies: ["6B522DC6845DB558"]
 			description: [""]
 			id: "65CB5CA13FBD010E"
-			rewards: [
-				{
-					id: "177817FBCF270434"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests38.subtitle}"
+			rewards: [{
+				id: "177817FBCF270434"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.65CB5CA13FBD010E.subtitle}"
 			tasks: [
 				{
 					id: "5625CE2C5AF1194F"
@@ -1193,48 +1092,42 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests38.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.65CB5CA13FBD010E.title}"
 			x: 10.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["6BEB4461CA08633F"]
 			id: "693E05A909195578"
-			rewards: [
-				{
-					id: "2B562E202B3E2FC4"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests39.subtitle}"
-			tasks: [
-				{
-					id: "68D837AA6DE85D6F"
-					item: "modern_industrialization:centrifuge"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2B562E202B3E2FC4"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.693E05A909195578.subtitle}"
+			tasks: [{
+				id: "68D837AA6DE85D6F"
+				item: "modern_industrialization:centrifuge"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["6BEB4461CA08633F"]
 			description: [
-				"{ftbquests.chapter.modern_industrialization.quests40.description0}"
+				"{ftbquests.chapter.modern_industrialization.quest.3DC21B6F47A253E4.description0}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests40.description2}"
+				"{ftbquests.chapter.modern_industrialization.quest.3DC21B6F47A253E4.description2}"
 			]
 			icon: "modern_industrialization:electric_quarry"
 			id: "3DC21B6F47A253E4"
-			rewards: [
-				{
-					id: "789C3CC47EFFAF36"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests40.subtitle}"
+			rewards: [{
+				id: "789C3CC47EFFAF36"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.3DC21B6F47A253E4.subtitle}"
 			tasks: [
 				{
 					id: "1004292AA09E90E0"
@@ -1266,66 +1159,54 @@
 		{
 			dependencies: ["3DC21B6F47A253E4"]
 			id: "381693770EF21108"
-			rewards: [
-				{
-					id: "74C349AA8684AA58"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests41.subtitle}"
-			tasks: [
-				{
-					id: "7B1FED6BDC3FB1FA"
-					item: "modern_industrialization:gold_drill"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests41.title}"
+			rewards: [{
+				id: "74C349AA8684AA58"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.381693770EF21108.subtitle}"
+			tasks: [{
+				id: "7B1FED6BDC3FB1FA"
+				item: "modern_industrialization:gold_drill"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.381693770EF21108.title}"
 			x: 5.5d
 			y: -13.5d
 		}
 		{
 			dependencies: ["3DC21B6F47A253E4"]
 			id: "01BBE636EBB71416"
-			rewards: [
-				{
-					id: "040558025CE54280"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests42.subtitle}"
-			tasks: [
-				{
-					id: "6A35321C6F3D7D64"
-					item: "modern_industrialization:stainless_steel_drill"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests42.title}"
+			rewards: [{
+				id: "040558025CE54280"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.01BBE636EBB71416.subtitle}"
+			tasks: [{
+				id: "6A35321C6F3D7D64"
+				item: "modern_industrialization:stainless_steel_drill"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.01BBE636EBB71416.title}"
 			x: 4.5d
 			y: -13.5d
 		}
 		{
 			dependencies: ["3DC21B6F47A253E4"]
 			id: "04B4FB69D88D1C76"
-			rewards: [
-				{
-					id: "318007A8654AD93F"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests43.subtitle}"
-			tasks: [
-				{
-					id: "758EB0D2CB85F803"
-					item: "modern_industrialization:steel_drill"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests43.title}"
+			rewards: [{
+				id: "318007A8654AD93F"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.04B4FB69D88D1C76.subtitle}"
+			tasks: [{
+				id: "758EB0D2CB85F803"
+				item: "modern_industrialization:steel_drill"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.04B4FB69D88D1C76.title}"
 			x: 6.5d
 			y: -13.5d
 		}
@@ -1333,64 +1214,52 @@
 			dependencies: ["036292964BDE4944"]
 			description: [""]
 			id: "6B522DC6845DB558"
-			rewards: [
-				{
-					id: "42A6BE7F8466142A"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests44.subtitle}"
-			tasks: [
-				{
-					id: "71B5428A94930A18"
-					item: "modern_industrialization:advanced_upgrade"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests44.title}"
+			rewards: [{
+				id: "42A6BE7F8466142A"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.6B522DC6845DB558.subtitle}"
+			tasks: [{
+				id: "71B5428A94930A18"
+				item: "modern_industrialization:advanced_upgrade"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.6B522DC6845DB558.title}"
 			x: 10.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["6BEB4461CA08633F"]
 			id: "7D4B8F84394B1B35"
-			rewards: [
-				{
-					id: "18F80756296C9C71"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests45.subtitle}"
-			tasks: [
-				{
-					id: "16E814CBBEE5F8AB"
-					item: "modern_industrialization:mv_steam_turbine"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "18F80756296C9C71"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.7D4B8F84394B1B35.subtitle}"
+			tasks: [{
+				id: "16E814CBBEE5F8AB"
+				item: "modern_industrialization:mv_steam_turbine"
+				type: "item"
+			}]
 			x: 6.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["7CE18D246F01445D"]
 			id: "2B0219B675E3820F"
-			rewards: [
-				{
-					id: "7259BDAB5CDCB430"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests46.subtitle}"
-			tasks: [
-				{
-					id: "54B31CE72767D4C6"
-					item: "modern_industrialization:hv_steam_turbine"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7259BDAB5CDCB430"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.2B0219B675E3820F.subtitle}"
+			tasks: [{
+				id: "54B31CE72767D4C6"
+				item: "modern_industrialization:hv_steam_turbine"
+				type: "item"
+			}]
 			x: 13.0d
 			y: -7.5d
 		}
@@ -1411,7 +1280,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests47.subtitle}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.0A0931D04AE50D4B.subtitle}"
 			tasks: [
 				{
 					id: "2D292B2E8511A84D"
@@ -1425,51 +1294,43 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests47.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.0A0931D04AE50D4B.title}"
 			x: 5.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["6BEB4461CA08633F"]
 			id: "68BD457258EC8CBF"
-			rewards: [
-				{
-					id: "57D249639CB0DD0E"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests48.subtitle}"
-			tasks: [
-				{
-					id: "4ECD4D66C0DAB6AC"
-					item: "modern_industrialization:electrolyzer"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "57D249639CB0DD0E"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.68BD457258EC8CBF.subtitle}"
+			tasks: [{
+				id: "4ECD4D66C0DAB6AC"
+				item: "modern_industrialization:electrolyzer"
+				type: "item"
+			}]
 			x: 7.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["0A0931D04AE50D4B"]
-			description: ["{ftbquests.chapter.modern_industrialization.quests49.description}"]
+			description: ["{ftbquests.chapter.modern_industrialization.quest.64BACF5B60AD2406.description0}"]
 			id: "64BACF5B60AD2406"
-			rewards: [
-				{
-					id: "16BD1A2AE7B30382"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests49.subtitle}"
-			tasks: [
-				{
-					id: "37EE6FA75FA9D21D"
-					item: "modern_industrialization:stainless_steel_ingot"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests49.title}"
+			rewards: [{
+				id: "16BD1A2AE7B30382"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.64BACF5B60AD2406.subtitle}"
+			tasks: [{
+				id: "37EE6FA75FA9D21D"
+				item: "modern_industrialization:stainless_steel_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.64BACF5B60AD2406.title}"
 			x: 5.5d
 			y: -1.5d
 		}
@@ -1489,44 +1350,38 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests50.subtitle}"
-			tasks: [
-				{
-					count: 16L
-					id: "2BD708AAF08C5905"
-					item: "modern_industrialization:kanthal_coil"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.6B15091EC1B119B0.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "2BD708AAF08C5905"
+				item: "modern_industrialization:kanthal_coil"
+				type: "item"
+			}]
 			x: 10.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6B15091EC1B119B0"]
 			id: "7D3D156BE9C9E150"
-			rewards: [
-				{
-					id: "47D7E1DF8030D3AD"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests51.subtitle}"
-			tasks: [
-				{
-					id: "040031047A05E0AE"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "c:titanium_ingots"
-						}
+			rewards: [{
+				id: "47D7E1DF8030D3AD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.7D3D156BE9C9E150.subtitle}"
+			tasks: [{
+				id: "040031047A05E0AE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:titanium_ingots"
 					}
-					title: "{ftbquests.chapter.modern_industrialization.quests51.tasks0.title}"
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests51.title}"
+				title: "{ftbquests.chapter.modern_industrialization.quest.7D3D156BE9C9E150.task.040031047A05E0AE.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.7D3D156BE9C9E150.title}"
 			x: 17.5d
 			y: -1.5d
 		}
@@ -1536,72 +1391,60 @@
 				"7CE18D246F01445D"
 			]
 			id: "5310B93F2821826A"
-			rewards: [
-				{
-					id: "09F0E3FEF88A4E55"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests52.subtitle}"
-			tasks: [
-				{
-					id: "5D18FA4D68318732"
-					item: "modern_industrialization:processing_unit"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests52.title}"
+			rewards: [{
+				id: "09F0E3FEF88A4E55"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.5310B93F2821826A.subtitle}"
+			tasks: [{
+				id: "5D18FA4D68318732"
+				item: "modern_industrialization:processing_unit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.5310B93F2821826A.title}"
 			x: 10.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7D3D156BE9C9E150"]
 			id: "6B05C72FF31E104D"
-			rewards: [
-				{
-					id: "04E110046D2E9DF1"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "7103DFB1F1EF3828"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "c:raw_iridium_ores"
-						}
+			rewards: [{
+				id: "04E110046D2E9DF1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7103DFB1F1EF3828"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:raw_iridium_ores"
 					}
-					title: "{ftbquests.chapter.modern_industrialization.quests53.tasks0.title}"
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests53.title}"
+				title: "{ftbquests.chapter.modern_industrialization.quest.6B05C72FF31E104D.task.7103DFB1F1EF3828.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.6B05C72FF31E104D.title}"
 			x: 19.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7D3D156BE9C9E150"]
 			id: "1EACE9E49BA4B753"
-			rewards: [
-				{
-					id: "4D5F114F8BFAC71D"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests54.subtitle}"
-			tasks: [
-				{
-					id: "072C3C5C4355E8DF"
-					item: "modern_industrialization:blastproof_alloy_plate"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests54.title}"
+			rewards: [{
+				id: "4D5F114F8BFAC71D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.1EACE9E49BA4B753.subtitle}"
+			tasks: [{
+				id: "072C3C5C4355E8DF"
+				item: "modern_industrialization:blastproof_alloy_plate"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.1EACE9E49BA4B753.title}"
 			x: 17.5d
 			y: -3.5d
 		}
@@ -1624,7 +1467,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests55.subtitle}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.46319F2AE2F90532.subtitle}"
 			tasks: [
 				{
 					id: "34D13E49CD76D0E5"
@@ -1644,27 +1487,23 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests55.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.46319F2AE2F90532.title}"
 			x: 13.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["6B05C72FF31E104D"]
 			id: "18949581A0F3E28B"
-			rewards: [
-				{
-					id: "41162E317076EB09"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [
-				{
-					id: "119D5B764A8F7E09"
-					item: "modern_industrialization:superconductor_cable"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "41162E317076EB09"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "119D5B764A8F7E09"
+				item: "modern_industrialization:superconductor_cable"
+				type: "item"
+			}]
 			x: 20.0d
 			y: -3.5d
 		}
@@ -1684,15 +1523,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests57.subtitle}"
-			tasks: [
-				{
-					id: "4AEAA8FA55EA9B82"
-					item: "modern_industrialization:gravichestplate"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests57.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.6C1822FED0613FAF.subtitle}"
+			tasks: [{
+				id: "4AEAA8FA55EA9B82"
+				item: "modern_industrialization:gravichestplate"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.6C1822FED0613FAF.title}"
 			x: 21.0d
 			y: -3.5d
 		}
@@ -1700,14 +1537,12 @@
 			dependencies: ["1EACE9E49BA4B753"]
 			icon: "modern_industrialization:implosion_compressor"
 			id: "0F7CE2BA2A295A4D"
-			rewards: [
-				{
-					id: "5C077C4D2DE7FCAE"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests58.subtitle}"
+			rewards: [{
+				id: "5C077C4D2DE7FCAE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.0F7CE2BA2A295A4D.subtitle}"
 			tasks: [
 				{
 					id: "459C20F94BC31393"
@@ -1733,63 +1568,51 @@
 		{
 			dependencies: ["0F7CE2BA2A295A4D"]
 			id: "46D1B0C583A57B12"
-			rewards: [
-				{
-					id: "56D32E4289136DC7"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [
-				{
-					id: "36161A69190A900D"
-					item: "modern_industrialization:mixed_ingot_iridium"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "56D32E4289136DC7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "36161A69190A900D"
+				item: "modern_industrialization:mixed_ingot_iridium"
+				type: "item"
+			}]
 			x: 16.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["46D1B0C583A57B12"]
 			id: "363455215C23E84E"
-			rewards: [
-				{
-					id: "7B97711A7833FA13"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests60.subtitle}"
-			tasks: [
-				{
-					id: "7E4D849D6F611B94"
-					item: "modern_industrialization:quantum_circuit"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests60.title}"
+			rewards: [{
+				id: "7B97711A7833FA13"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.363455215C23E84E.subtitle}"
+			tasks: [{
+				id: "7E4D849D6F611B94"
+				item: "modern_industrialization:quantum_circuit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.363455215C23E84E.title}"
 			x: 16.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["363455215C23E84E"]
 			id: "4847BA675A04852F"
-			rewards: [
-				{
-					id: "75608929A229D94D"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests61.subtitle}"
-			tasks: [
-				{
-					id: "4CD547671372F659"
-					item: "modern_industrialization:quantum_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "75608929A229D94D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.4847BA675A04852F.subtitle}"
+			tasks: [{
+				id: "4CD547671372F659"
+				item: "modern_industrialization:quantum_upgrade"
+				type: "item"
+			}]
 			x: 15.5d
 			y: -10.5d
 		}
@@ -1797,14 +1620,12 @@
 			dependencies: ["363455215C23E84E"]
 			icon: "modern_industrialization:fusion_reactor"
 			id: "208DE0E29C636F41"
-			rewards: [
-				{
-					id: "4A2AF8D770E54116"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests62.subtitle}"
+			rewards: [{
+				id: "4A2AF8D770E54116"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.208DE0E29C636F41.subtitle}"
 			tasks: [
 				{
 					id: "3F8F140654BCBDCA"
@@ -1830,14 +1651,12 @@
 		{
 			dependencies: ["208DE0E29C636F41"]
 			id: "370EE225E8140570"
-			rewards: [
-				{
-					id: "09F1818CD1B04036"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests63.subtitle}"
+			rewards: [{
+				id: "09F1818CD1B04036"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.370EE225E8140570.subtitle}"
 			tasks: [
 				{
 					id: "414FC59A3998C675"
@@ -1863,43 +1682,41 @@
 		{
 			dependencies: ["0F7CE2BA2A295A4D"]
 			description: [
-				"{ftbquests.chapter.modern_industrialization.quests64.description0}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description0}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description2}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description2}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description4}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description4}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description6}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description6}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description8}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description8}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description10}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description10}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description12}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description12}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description14}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description14}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description16}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description16}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description18}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description18}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description20}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description20}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description22}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description22}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description24}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description24}"
 				""
-				"{ftbquests.chapter.modern_industrialization.quests64.description26}"
+				"{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.description26}"
 			]
 			id: "03896D148D7B4E3B"
-			rewards: [
-				{
-					id: "36615F6544892129"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests64.subtitle}"
+			rewards: [{
+				id: "36615F6544892129"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.03896D148D7B4E3B.subtitle}"
 			tasks: [
 				{
 					id: "6539BC5A7D008ABE"
@@ -1925,22 +1742,18 @@
 		{
 			dependencies: ["03896D148D7B4E3B"]
 			id: "04FAF93691F0BD9C"
-			rewards: [
-				{
-					id: "7944381BFE9F2996"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests65.subtitle}"
-			tasks: [
-				{
-					id: "562F6128B9E139A8"
-					item: "modern_industrialization:nuke"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests65.title}"
+			rewards: [{
+				id: "7944381BFE9F2996"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.04FAF93691F0BD9C.subtitle}"
+			tasks: [{
+				id: "562F6128B9E139A8"
+				item: "modern_industrialization:nuke"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.04FAF93691F0BD9C.title}"
 			x: 18.5d
 			y: -8.5d
 		}
@@ -1959,15 +1772,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests66.subtitle}"
-			tasks: [
-				{
-					id: "1A5C0F0D73190307"
-					item: "modern_industrialization:singularity"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests66.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.6314525E36DEA54B.subtitle}"
+			tasks: [{
+				id: "1A5C0F0D73190307"
+				item: "modern_industrialization:singularity"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.6314525E36DEA54B.title}"
 			x: 18.5d
 			y: -10.5d
 		}
@@ -1986,35 +1797,29 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests67.subtitle}"
-			tasks: [
-				{
-					id: "15325EFF41DA3891"
-					item: "modern_industrialization:uu_matter_bucket"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests67.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.79802A9D4A83E757.subtitle}"
+			tasks: [{
+				id: "15325EFF41DA3891"
+				item: "modern_industrialization:uu_matter_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.79802A9D4A83E757.title}"
 			x: 18.5d
 			y: -12.5d
 		}
 		{
 			dependencies: ["5310B93F2821826A"]
 			id: "60A05C52ACCBE35D"
-			rewards: [
-				{
-					id: "38A91AF5616D43B4"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [
-				{
-					id: "537CE70D027A8B77"
-					item: "modern_industrialization:highly_advanced_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "38A91AF5616D43B4"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "537CE70D027A8B77"
+				item: "modern_industrialization:highly_advanced_upgrade"
+				type: "item"
+			}]
 			x: 13.0d
 			y: -2.5d
 		}
@@ -2033,60 +1838,50 @@
 					xp: 40
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests69.subtitle}"
-			tasks: [
-				{
-					count: 4L
-					id: "5F35CE6C3C6BAEF9"
-					item: "modern_industrialization:aluminum_drill"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests69.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.419F7B74E30C2AF4.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "5F35CE6C3C6BAEF9"
+				item: "modern_industrialization:aluminum_drill"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.419F7B74E30C2AF4.title}"
 			x: 8.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["7D3D156BE9C9E150"]
 			id: "24535DA01189CC75"
-			rewards: [
-				{
-					id: "4C22D23C96F1C508"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests70.subtitle}"
-			tasks: [
-				{
-					id: "6448D47D73DD3726"
-					item: "modern_industrialization:titanium_drill"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4C22D23C96F1C508"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.24535DA01189CC75.subtitle}"
+			tasks: [{
+				id: "6448D47D73DD3726"
+				item: "modern_industrialization:titanium_drill"
+				type: "item"
+			}]
 			x: 21.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4661838E492BDE53"]
-			description: ["{ftbquests.chapter.modern_industrialization.quests71.description}"]
+			description: ["{ftbquests.chapter.modern_industrialization.quest.2DB9C3C383C91BC0.description0}"]
 			id: "2DB9C3C383C91BC0"
-			rewards: [
-				{
-					id: "2975DAD665501B19"
-					type: "xp"
-					xp: 15
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests71.subtitle}"
-			tasks: [
-				{
-					id: "68063DD59C50E1A7"
-					item: "modern_industrialization:wrench"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests71.title}"
+			rewards: [{
+				id: "2975DAD665501B19"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.2DB9C3C383C91BC0.subtitle}"
+			tasks: [{
+				id: "68063DD59C50E1A7"
+				item: "modern_industrialization:wrench"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.2DB9C3C383C91BC0.title}"
 			x: -7.5d
 			y: -7.5d
 		}
@@ -2105,15 +1900,13 @@
 					xp: 20
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests72.subtitle}"
-			tasks: [
-				{
-					id: "13C4EB4423DBF2B5"
-					item: "modern_industrialization:lv_energy_input_hatch"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests72.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.1B0A4271FCBD581F.subtitle}"
+			tasks: [{
+				id: "13C4EB4423DBF2B5"
+				item: "modern_industrialization:lv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.1B0A4271FCBD581F.title}"
 			x: -1.5d
 			y: -11.0d
 		}
@@ -2139,7 +1932,7 @@
 					xp: 30
 				}
 			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests73.subtitle}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.2050D2FF42E29F6D.subtitle}"
 			tasks: [
 				{
 					id: "7A4F57CDD12A6800"
@@ -2157,52 +1950,44 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.modern_industrialization.quests73.title}"
+			title: "{ftbquests.chapter.modern_industrialization.quest.2050D2FF42E29F6D.title}"
 			x: -4.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["7C5C1CA5A7954896"]
-			description: ["{ftbquests.chapter.modern_industrialization.quests74.description}"]
+			description: ["{ftbquests.chapter.modern_industrialization.quest.324B15844FC6C305.description0}"]
 			id: "324B15844FC6C305"
-			rewards: [
-				{
-					id: "06CDD11D0F136DDC"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests74.subtitle}"
-			tasks: [
-				{
-					id: "52306C6F2E77D371"
-					item: "modern_industrialization:steel_packer"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests74.title}"
+			rewards: [{
+				id: "06CDD11D0F136DDC"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.324B15844FC6C305.subtitle}"
+			tasks: [{
+				id: "52306C6F2E77D371"
+				item: "modern_industrialization:steel_packer"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.324B15844FC6C305.title}"
 			x: -3.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7C5C1CA5A7954896"]
 			id: "2D320F78629CC719"
-			rewards: [
-				{
-					id: "228B42F539A2DAFC"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests75.subtitle}"
-			tasks: [
-				{
-					id: "58691A4447512CEE"
-					item: "modern_industrialization:steel_unpacker"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests75.title}"
+			rewards: [{
+				id: "228B42F539A2DAFC"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.2D320F78629CC719.subtitle}"
+			tasks: [{
+				id: "58691A4447512CEE"
+				item: "modern_industrialization:steel_unpacker"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.2D320F78629CC719.title}"
 			x: -5.0d
 			y: -3.5d
 		}
@@ -2210,37 +1995,31 @@
 			dependencies: ["19E5E31614FE485E"]
 			description: [""]
 			id: "4DCFE7721417E669"
-			rewards: [
-				{
-					id: "09EC6A5EC9AD5AF6"
-					type: "xp"
-					xp: 20
-				}
-			]
+			rewards: [{
+				id: "09EC6A5EC9AD5AF6"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests76.subtitle}"
-			tasks: [
-				{
-					id: "2E9730BA35730C4B"
-					item: "modern_industrialization:tin_cable"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.modern_industrialization.quests76.title}"
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.4DCFE7721417E669.subtitle}"
+			tasks: [{
+				id: "2E9730BA35730C4B"
+				item: "modern_industrialization:tin_cable"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.modern_industrialization.quest.4DCFE7721417E669.title}"
 			x: -0.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["6BEB4461CA08633F"]
 			id: "31BCEF301071F67C"
-			subtitle: "{ftbquests.chapter.modern_industrialization.quests77.subtitle}"
-			tasks: [
-				{
-					id: "5A4042280D8835FB"
-					item: "modern_industrialization:advanced_large_steam_boiler"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.modern_industrialization.quest.31BCEF301071F67C.subtitle}"
+			tasks: [{
+				id: "5A4042280D8835FB"
+				item: "modern_industrialization:advanced_large_steam_boiler"
+				type: "item"
+			}]
 			x: 3.5d
 			y: -9.0d
 		}

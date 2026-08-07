@@ -1,5 +1,4 @@
 {
-	autofocus_id: "343EF47C470616FF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "main_story"
@@ -14,13 +13,13 @@
 	id: "33AB3D787DE6F0E5"
 	images: [
 		{
-			dependency: "7CBAFED315D614C3"
+			dependency: "7023C0EC0A4686E2"
 			height: 2.5d
 			image: "minecraft:block/campfire_fire"
 			rotation: 0.0d
 			width: 2.5d
-			x: -12.270408163265301d
-			y: -0.07142857142854808d
+			x: -12.240476190476194d
+			y: 1.928571428571452d
 		}
 		{
 			dependency: "7CBAFED315D614C3"
@@ -32,84 +31,67 @@
 			y: -1.5d
 		}
 		{
-			dependency: "7CBAFED315D614C3"
+			dependency: "7023C0EC0A4686E2"
 			height: 1.5d
 			image: "betterend:textures/particle/jungle_spore_1.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: -6.0d
-			y: -1.0d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
-			dependency: "7CBAFED315D614C3"
+			dependency: "7023C0EC0A4686E2"
 			height: 2.0d
 			image: "endrem:block/ancient_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: -9.5d
-			y: 0.5d
+			x: -9.470068027210893d
+			y: 2.5d
 		}
 		{
-			dependency: "7CBAFED315D614C3"
+			dependency: "7023C0EC0A4686E2"
 			height: 2.5d
 			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
 			rotation: 0.0d
 			width: 2.5d
-			x: -3.6785714285714306d
-			y: 0.05357142857141639d
+			x: -3.648639455782323d
+			y: 2.0535714285714164d
 		}
 		{
-			dependency: "7CBAFED315D614C3"
+			dependency: "7023C0EC0A4686E2"
 			height: 2.0d
 			image: "betternether:block/blackstone_furnace_front_on"
 			rotation: 0.0d
 			width: 2.0d
-			x: -12.0d
-			y: 2.0d
+			x: -11.970068027210893d
+			y: 4.0d
 		}
 		{
-			dependency: "7CBAFED315D614C3"
+			dependency: "7023C0EC0A4686E2"
 			height: 2.5d
 			image: "minecells:textures/mob_effect/frozen.png"
 			rotation: 0.0d
 			width: 2.5d
-			x: -9.5d
-			y: 3.0d
+			x: -9.470068027210893d
+			y: 5.0d
 		}
 		{
-			dependency: "7CBAFED315D614C3"
+			dependency: "7023C0EC0A4686E2"
 			height: 1.4954166666666664d
 			image: "prominent:textures/text/dimensionalthreats.png"
 			rotation: 0.0d
 			width: 9.7d
-			x: -6.5d
-			y: -2.5d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
-			height: 1.0d
-			image: "prominent:textures/text/the_beginning.png"
-			rotation: 0.0d
-			width: 8.06060606060606d
-			x: -12.0d
-			y: -9.5d
-		}
-		{
-			dependency: "63A18694A9470D66"
-			height: 1.7d
-			image: "prominent:textures/other/prominent_logo.png"
-			rotation: 0.0d
-			width: 1.7d
-			x: -2.696428571428555d
-			y: -1.5892857142857153d
-		}
-		{
-			dependency: "7CBAFED315D614C3"
+			dependency: "7023C0EC0A4686E2"
 			height: 2.0d
 			image: "endrem:textures/backgrounds/advance_back.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.6632653061224545d
-			y: 0.0357142857142847d
+			x: -3.612585034013591d
+			y: 2.0535714285714306d
 		}
 		{
 			height: 1.0d
@@ -125,8 +107,8 @@
 			image: "soulsweapons:item/lord_soul_rose"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.677040816326539d
-			y: 3.1773809523809504d
+			x: -5.647108843537431d
+			y: 5.17738095238095d
 		}
 		{
 			dependency: "18E337BC1F3F75FD"
@@ -134,8 +116,8 @@
 			image: "soulsweapons:item/lord_soul_day_stalker"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.085204081632654d
-			y: 4.218197278911568d
+			x: -6.055272108843546d
+			y: 6.218197278911568d
 		}
 		{
 			dependency: "18E337BC1F3F75FD"
@@ -143,8 +125,8 @@
 			image: "soulsweapons:item/lord_soul_white"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.677040816326539d
-			y: 5.17738095238095d
+			x: -5.647108843537431d
+			y: 7.17738095238095d
 		}
 		{
 			dependency: "18E337BC1F3F75FD"
@@ -152,8 +134,8 @@
 			image: "prominent:textures/other/tear_in_space.png"
 			rotation: 0.0d
 			width: 24.48979591836735d
-			x: -8.0d
-			y: 8.0d
+			x: -7.5d
+			y: 10.5d
 		}
 		{
 			dependency: "245E77F81FB78B58"
@@ -161,8 +143,8 @@
 			image: "eldritch_end:textures/icon/faceless_head.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -4.716836734693871d
-			y: 12.392857142857153d
+			x: -4.6869047619047635d
+			y: 14.392857142857153d
 		}
 		{
 			dependency: "7CBAFED315D614C3"
@@ -174,46 +156,41 @@
 			y: -1.392857142857146d
 		}
 		{
-			color: 16711680
-			dependency: "214E47AB3004E7D3"
-			height: 1.0d
-			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			height: 3.0d
+			image: "botania:item/cosmetic_questgiver_mark"
 			rotation: 0.0d
-			width: 1.0d
-			x: -10.5d
-			y: -5.5d
+			width: 3.0d
+			x: -0.5d
+			y: 11.0d
 		}
 	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"49C9DC2F3D131A14"
-				"5B31D4D4029F1891"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["7023C0EC0A4686E2"]
 			description: [
-				"{ftbquests.chapter.main_story.quests0.description0}"
+				"{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests0.description2}"
+				"{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests0.description4}"
+				"{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests0.description6}"
+				"{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.description6}"
 				""
-				"{ftbquests.chapter.main_story.quests0.description8}"
+				"{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.description8}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests0.description10}"
+				"{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.description10}"
 				""
-				"{ftbquests.chapter.main_story.quests0.description12}"
+				"{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.description12}"
 				""
-				"{ftbquests.chapter.main_story.quests0.description14}"
+				"{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.description14}"
 				""
-				"{ftbquests.chapter.main_story.quests0.description16}"
+				"{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.description16}"
 				""
-				"{ftbquests.chapter.main_story.quests0.description18}"
+				"{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.description18}"
 			]
+			hide_until_deps_complete: true
 			id: "1B76F8D3B54F3FE6"
 			min_required_dependencies: 1
 			rewards: [
@@ -223,74 +200,83 @@
 					xp_levels: 5
 				}
 				{
-					count: 2
-					id: "19426F4CF9537B2B"
-					item: "adventurez:gilded_netherite_fragment"
-					type: "item"
-				}
-				{
-					id: "7F629FB4A3ADD188"
-					item: "minecraft:netherite_ingot"
-					type: "item"
-				}
-				{
 					id: "7D169777B9E97386"
 					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "3E8C67962908DCE1"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:t3_trinket_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02C6DBCB367222B8"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:resource_1_lottery"
+						}
+					}
 					type: "item"
 				}
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests0.subtitle}"
-			tasks: [
-				{
-					entity: "bosses_of_mass_destruction:gauntlet"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/boss_icons/guantlet.png"
-						}
+			subtitle: "{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.subtitle}"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/guantlet.png"
 					}
-					id: "0F843C913D775125"
-					title: "{ftbquests.chapter.main_story.quests0.tasks0.title}"
-					type: "kill"
-					value: 1L
 				}
-			]
-			title: "{ftbquests.chapter.main_story.quests0.title}"
-			x: -12.234693877551024d
-			y: 0.3214285714285765d
+				id: "0F843C913D775125"
+				title: "{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.task.0F843C913D775125.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.title}"
+			x: -12.204761904761916d
+			y: 2.3214285714285765d
 		}
 		{
 			dependencies: ["7CBAFED315D614C3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.main_story.quests1.description0}"
-				"{ftbquests.chapter.main_story.quests1.description1}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description0}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description1}"
 				""
-				"{ftbquests.chapter.main_story.quests1.description3}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description3}"
 				""
-				"{ftbquests.chapter.main_story.quests1.description5}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description5}"
 				""
-				"{ftbquests.chapter.main_story.quests1.description7}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description7}"
 				""
-				"{ftbquests.chapter.main_story.quests1.description9}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests1.description11}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description11}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests1.description13}"
-				"{ftbquests.chapter.main_story.quests1.description14}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description13}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description14}"
 				""
-				"{ftbquests.chapter.main_story.quests1.description16}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description16}"
 				""
-				"{ftbquests.chapter.main_story.quests1.description18}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description18}"
 				""
-				"{ftbquests.chapter.main_story.quests1.description20}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description20}"
 				""
-				"{ftbquests.chapter.main_story.quests1.description22}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description22}"
 				""
-				"{ftbquests.chapter.main_story.quests1.description24}"
+				"{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.description24}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -314,120 +300,144 @@
 					type: "item"
 				}
 				{
-					advancement: "prominent:level_10"
-					auto: "enabled"
-					criterion: ""
-					id: "578CFD2AAF5AA3C4"
-					title: "{ftbquests.chapter.main_story.quests1.rewards2.title}"
-					type: "advancement"
+					id: "5B17EB28419D8EE6"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:mariums_weaponry_lottery"
+						}
+					}
+					type: "item"
 				}
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.subtitle}"
 			tasks: [
 				{
+					count: 4L
 					id: "3B40E2130DDD7AD3"
 					item: "bosses_of_mass_destruction:soul_star"
-					title: "{ftbquests.chapter.main_story.quests1.tasks0.title}"
+					title: "{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.task.3B40E2130DDD7AD3.title}"
 					type: "item"
 				}
 				{
-					entity: "bosses_of_mass_destruction:lich"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/boss_icons/night_lich.png"
-						}
-					}
-					id: "1F9BB747D54F1CD1"
-					title: "{ftbquests.chapter.main_story.quests1.tasks1.title}"
-					type: "kill"
-					value: 1L
+					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+					criterion: ""
+					icon: "bosses_of_mass_destruction:mob_ward"
+					id: "3B2643FC0AFF3B8B"
+					title: "{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.task.3B2643FC0AFF3B8B.title}"
+					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.main_story.quests1.title}"
+			title: "{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.title}"
 			x: -13.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["48AADA398DC4E940"]
 			description: [
-				"{ftbquests.chapter.main_story.quests2.description0}"
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests2.description2}"
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests2.description4}"
-				"{ftbquests.chapter.main_story.quests2.description5}"
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description4}"
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description5}"
 				""
-				"{ftbquests.chapter.main_story.quests2.description7}"
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description7}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests2.description10}"
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description10}"
 				""
-				"{ftbquests.chapter.main_story.quests2.description12}"
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description12}"
 				""
-				"{ftbquests.chapter.main_story.quests2.description14}"
-				"{ftbquests.chapter.main_story.quests2.description15}"
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description14}"
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description15}"
 				""
-				"{ftbquests.chapter.main_story.quests2.description17}"
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description17}"
 			]
 			id: "5063E49140A8BB20"
 			rewards: [
-				{
-					id: "12E25C32584091FB"
-					item: "artifacts:panic_necklace"
-					type: "item"
-				}
 				{
 					id: "692FA0E0AC7B298F"
 					item: "prominent:cinderstone_trophy"
 					type: "item"
 				}
+				{
+					id: "365D3A6A691F099B"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "624F3B98F9A601A1"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "104172CD740809C7"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:resource_1_lottery"
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests2.subtitle}"
-			tasks: [
-				{
-					entity: "adventurez:blackstone_golem"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/boss_icons/blackstone_golem.png"
-						}
+			subtitle: "{ftbquests.chapter.main_story.quest.5063E49140A8BB20.subtitle}"
+			tasks: [{
+				entity: "adventurez:blackstone_golem"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/blackstone_golem.png"
 					}
-					id: "5663873E5843130D"
-					title: "{ftbquests.chapter.main_story.quests2.tasks0.title}"
-					type: "kill"
-					value: 1L
 				}
-			]
-			title: "{ftbquests.chapter.main_story.quests2.title}"
-			x: -11.979761904761915d
-			y: 2.0059523809523796d
+				id: "5663873E5843130D"
+				title: "{ftbquests.chapter.main_story.quest.5063E49140A8BB20.task.5663873E5843130D.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.5063E49140A8BB20.title}"
+			x: -11.949829931972808d
+			y: 4.00595238095238d
 		}
 		{
 			dependencies: ["383590146CEEB423"]
 			description: [
-				"{ftbquests.chapter.main_story.quests3.description0}"
+				"{ftbquests.chapter.main_story.quest.759AA6DD39277704.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests3.description2}"
+				"{ftbquests.chapter.main_story.quest.759AA6DD39277704.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests3.description4}"
+				"{ftbquests.chapter.main_story.quest.759AA6DD39277704.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests3.description6}"
+				"{ftbquests.chapter.main_story.quest.759AA6DD39277704.description6}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests3.description9}"
+				"{ftbquests.chapter.main_story.quest.759AA6DD39277704.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests3.description11}"
+				"{ftbquests.chapter.main_story.quest.759AA6DD39277704.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests3.description13}"
+				"{ftbquests.chapter.main_story.quest.759AA6DD39277704.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests3.description15}"
+				"{ftbquests.chapter.main_story.quest.759AA6DD39277704.description15}"
 			]
 			id: "759AA6DD39277704"
 			rewards: [
@@ -447,53 +457,62 @@
 					item: "prominent:cinderstone_trophy"
 					type: "item"
 				}
+				{
+					id: "52BC5C50CEF6CA0F"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests3.subtitle}"
-			tasks: [
-				{
-					entity: "soulsweapons:draugr_boss"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/boss_icons/the_fallen_icon.png"
-						}
+			subtitle: "{ftbquests.chapter.main_story.quest.759AA6DD39277704.subtitle}"
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/the_fallen_icon.png"
 					}
-					id: "2C3EE780FC4E8C0E"
-					title: "{ftbquests.chapter.main_story.quests3.tasks0.title}"
-					type: "kill"
-					value: 1L
 				}
-			]
-			title: "{ftbquests.chapter.main_story.quests3.title}"
-			x: -7.5d
-			y: 2.0d
+				id: "2C3EE780FC4E8C0E"
+				title: "{ftbquests.chapter.main_story.quest.759AA6DD39277704.task.2C3EE780FC4E8C0E.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.759AA6DD39277704.title}"
+			x: -7.470068027210893d
+			y: 4.0d
 		}
 		{
 			dependencies: ["759AA6DD39277704"]
 			description: [
-				"{ftbquests.chapter.main_story.quests4.description0}"
+				"{ftbquests.chapter.main_story.quest.103203350DABF6BB.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests4.description2}"
+				"{ftbquests.chapter.main_story.quest.103203350DABF6BB.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests4.description4}"
+				"{ftbquests.chapter.main_story.quest.103203350DABF6BB.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests4.description6}"
+				"{ftbquests.chapter.main_story.quest.103203350DABF6BB.description6}"
 				""
-				"{ftbquests.chapter.main_story.quests4.description8}"
+				"{ftbquests.chapter.main_story.quest.103203350DABF6BB.description8}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests4.description11}"
+				"{ftbquests.chapter.main_story.quest.103203350DABF6BB.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests4.description13}"
+				"{ftbquests.chapter.main_story.quest.103203350DABF6BB.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests4.description15}"
+				"{ftbquests.chapter.main_story.quest.103203350DABF6BB.description15}"
 				""
-				"{ftbquests.chapter.main_story.quests4.description17}"
+				"{ftbquests.chapter.main_story.quest.103203350DABF6BB.description17}"
 				""
-				"{ftbquests.chapter.main_story.quests4.description19}"
+				"{ftbquests.chapter.main_story.quest.103203350DABF6BB.description19}"
 			]
 			id: "103203350DABF6BB"
 			rewards: [
@@ -520,50 +539,48 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests4.subtitle}"
-			tasks: [
-				{
-					entity: "bosses_of_mass_destruction:obsidilith"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/boss_icons/obsidilith.png"
-						}
+			subtitle: "{ftbquests.chapter.main_story.quest.103203350DABF6BB.subtitle}"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/obsidilith.png"
 					}
-					id: "722BFEAA5498B1FC"
-					title: "{ftbquests.chapter.main_story.quests4.tasks0.title}"
-					type: "kill"
-					value: 1L
 				}
-			]
-			title: "{ftbquests.chapter.main_story.quests4.title}"
-			x: -7.5d
-			y: 0.0d
+				id: "722BFEAA5498B1FC"
+				title: "{ftbquests.chapter.main_story.quest.103203350DABF6BB.task.722BFEAA5498B1FC.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.103203350DABF6BB.title}"
+			x: -7.470068027210893d
+			y: 2.0d
 		}
 		{
 			dependencies: ["103203350DABF6BB"]
 			description: [
-				"{ftbquests.chapter.main_story.quests5.description0}"
+				"{ftbquests.chapter.main_story.quest.0E567E587E669BED.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests5.description2}"
+				"{ftbquests.chapter.main_story.quest.0E567E587E669BED.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests5.description4}"
+				"{ftbquests.chapter.main_story.quest.0E567E587E669BED.description4}"
 				""
 				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
 				""
-				"{ftbquests.chapter.main_story.quests5.description8}"
+				"{ftbquests.chapter.main_story.quest.0E567E587E669BED.description8}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests5.description11}"
+				"{ftbquests.chapter.main_story.quest.0E567E587E669BED.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests5.description13}"
+				"{ftbquests.chapter.main_story.quest.0E567E587E669BED.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests5.description15}"
+				"{ftbquests.chapter.main_story.quest.0E567E587E669BED.description15}"
 				""
 				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
 				""
-				"{ftbquests.chapter.main_story.quests5.description19}"
+				"{ftbquests.chapter.main_story.quest.0E567E587E669BED.description19}"
 			]
 			icon: {
 				Count: 1
@@ -589,49 +606,58 @@
 					item: "minecraft:dragon_egg"
 					type: "item"
 				}
+				{
+					id: "397707E437B10320"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:t4_trinket_lottery"
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests5.subtitle}"
-			tasks: [
-				{
-					entity: "eldritch_end:eye"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
-						}
+			subtitle: "{ftbquests.chapter.main_story.quest.0E567E587E669BED.subtitle}"
+			tasks: [{
+				entity: "eldritch_end:eye"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
 					}
-					id: "5A3673477EA57892"
-					title: "{ftbquests.chapter.main_story.quests5.tasks0.title}"
-					type: "kill"
-					value: 1L
 				}
-			]
-			title: "{ftbquests.chapter.main_story.quests5.title}"
-			x: -3.668367346938794d
-			y: 0.030612244897938012d
+				id: "5A3673477EA57892"
+				title: "{ftbquests.chapter.main_story.quest.0E567E587E669BED.task.5A3673477EA57892.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.0E567E587E669BED.title}"
+			x: -3.6384353741496867d
+			y: 2.030612244897938d
 		}
 		{
 			dependencies: ["5063E49140A8BB20"]
 			description: [
-				"{ftbquests.chapter.main_story.quests6.description0}"
+				"{ftbquests.chapter.main_story.quest.383590146CEEB423.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests6.description2}"
+				"{ftbquests.chapter.main_story.quest.383590146CEEB423.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests6.description4}"
+				"{ftbquests.chapter.main_story.quest.383590146CEEB423.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests6.description6}"
+				"{ftbquests.chapter.main_story.quest.383590146CEEB423.description6}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests6.description9}"
+				"{ftbquests.chapter.main_story.quest.383590146CEEB423.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests6.description11}"
+				"{ftbquests.chapter.main_story.quest.383590146CEEB423.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests6.description13}"
+				"{ftbquests.chapter.main_story.quest.383590146CEEB423.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests6.description15}"
+				"{ftbquests.chapter.main_story.quest.383590146CEEB423.description15}"
 			]
 			id: "383590146CEEB423"
 			rewards: [
@@ -641,72 +667,65 @@
 					xp_levels: 5
 				}
 				{
-					id: "11B72D0A200DD1F1"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [
-								{
-									id: "minecraft:sharpness"
-									lvl: 5s
-								}
-							]
-						}
-					}
+					id: "1F3AF87B2C2E9CB1"
+					item: "prominent:cinderstone_trophy"
 					type: "item"
 				}
 				{
-					id: "1F3AF87B2C2E9CB1"
-					item: "prominent:cinderstone_trophy"
+					id: "7237C0B7606FEE11"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:resource_1_lottery"
+						}
+					}
 					type: "item"
 				}
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests6.subtitle}"
-			tasks: [
-				{
-					entity: "minecells:conjunctivius"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/boss_icons/conjuctivius.png"
-						}
+			subtitle: "{ftbquests.chapter.main_story.quest.383590146CEEB423.subtitle}"
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/conjuctivius.png"
 					}
-					id: "009152F0C0BE39FA"
-					title: "{ftbquests.chapter.main_story.quests6.tasks0.title}"
-					type: "kill"
-					value: 1L
 				}
-			]
-			title: "{ftbquests.chapter.main_story.quests6.title}"
-			x: -9.5d
-			y: 3.0d
+				id: "009152F0C0BE39FA"
+				title: "{ftbquests.chapter.main_story.quest.383590146CEEB423.task.009152F0C0BE39FA.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.383590146CEEB423.title}"
+			x: -9.470068027210893d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1B76F8D3B54F3FE6"]
 			description: [
-				"{ftbquests.chapter.main_story.quests7.description0}"
+				"{ftbquests.chapter.main_story.quest.48AADA398DC4E940.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests7.description2}"
+				"{ftbquests.chapter.main_story.quest.48AADA398DC4E940.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests7.description4}"
+				"{ftbquests.chapter.main_story.quest.48AADA398DC4E940.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests7.description6}"
+				"{ftbquests.chapter.main_story.quest.48AADA398DC4E940.description6}"
 				""
-				"{ftbquests.chapter.main_story.quests7.description8}"
+				"{ftbquests.chapter.main_story.quest.48AADA398DC4E940.description8}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests7.description10}"
+				"{ftbquests.chapter.main_story.quest.48AADA398DC4E940.description10}"
 				""
-				"{ftbquests.chapter.main_story.quests7.description12}"
+				"{ftbquests.chapter.main_story.quest.48AADA398DC4E940.description12}"
 				""
-				"{ftbquests.chapter.main_story.quests7.description14}"
+				"{ftbquests.chapter.main_story.quest.48AADA398DC4E940.description14}"
 				""
-				"{ftbquests.chapter.main_story.quests7.description16}"
+				"{ftbquests.chapter.main_story.quest.48AADA398DC4E940.description16}"
 				""
-				"{ftbquests.chapter.main_story.quests7.description18}"
+				"{ftbquests.chapter.main_story.quest.48AADA398DC4E940.description18}"
 			]
 			id: "48AADA398DC4E940"
 			rewards: [
@@ -731,139 +750,77 @@
 					item: "prominent:cinderstone_trophy"
 					type: "item"
 				}
-			]
-			shape: "pentagon"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests7.subtitle}"
-			tasks: [
 				{
-					entity: "minecraft:ender_dragon"
-					icon: {
+					id: "05C94CD2F3BBBF9B"
+					item: {
 						Count: 1
-						id: "ftbquests:custom_icon"
+						id: "prominent:loot_box"
 						tag: {
-							Icon: "prominent:textures/boss_icons/dragon.png"
+							lottery_id: "prominent:t4_trinket_lottery"
 						}
 					}
-					id: "028D2778B20852AA"
-					title: "{ftbquests.chapter.main_story.quests7.tasks0.title}"
-					type: "kill"
-					value: 1L
+					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.main_story.quests7.title}"
-			x: -9.5d
-			y: 0.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.main_story.quests8.description0}"
-				""
-				"{ftbquests.chapter.main_story.quests8.description2}"
-				""
-				"{ftbquests.chapter.main_story.quests8.description4}"
-				""
-				"{@pagebreak}"
-				""
-				"{ftbquests.chapter.main_story.quests8.description8}"
-				""
-				"{ftbquests.chapter.main_story.quests8.description10}"
-				""
-				"{ftbquests.chapter.main_story.quests8.description12}"
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "prominent:textures/other/skellak.png"
-				}
-			}
-			id: "343EF47C470616FF"
-			shape: "square"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests8.subtitle}"
-			tasks: [
 				{
-					id: "0C6DB9DA67E14C1A"
-					title: "{ftbquests.chapter.main_story.quests8.tasks0.title}"
-					type: "checkmark"
+					id: "71E0F64FB8098A44"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.main_story.quests8.title}"
-			x: -12.234693877551024d
-			y: -7.714285714285708d
-		}
-		{
-			dependencies: ["343EF47C470616FF"]
-			dependency_requirement: "one_completed"
-			description: [
-				"{ftbquests.chapter.main_story.quests9.description0}"
-				""
-				"{ftbquests.chapter.main_story.quests9.description2}"
-				""
-				"{ftbquests.chapter.main_story.quests9.description4}"
-				""
-				""
-				"{@pagebreak}"
-				""
-				"{ftbquests.chapter.main_story.quests9.description9}"
-				""
-				"{ftbquests.chapter.main_story.quests9.description11}"
-				""
-				""
-				"{ftbquests.chapter.main_story.quests9.description14}"
-			]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			icon: "bosses_of_mass_destruction:void_thorn"
-			id: "7AE1542456418BCD"
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests9.subtitle}"
-			tasks: [
-				{
-					id: "64C1384346BEE406"
-					title: "{ftbquests.chapter.main_story.quests9.tasks0.title}"
-					type: "checkmark"
+			subtitle: "{ftbquests.chapter.main_story.quest.48AADA398DC4E940.subtitle}"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/dragon.png"
+					}
 				}
-			]
-			title: "{ftbquests.chapter.main_story.quests9.title}"
-			x: -12.234693877551024d
-			y: -5.464285714285708d
+				id: "028D2778B20852AA"
+				title: "{ftbquests.chapter.main_story.quest.48AADA398DC4E940.task.028D2778B20852AA.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.48AADA398DC4E940.title}"
+			x: -9.470068027210893d
+			y: 2.5d
 		}
 		{
 			dependencies: ["214E47AB3004E7D3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.main_story.quests10.description0}"
+				"{ftbquests.chapter.main_story.quest.7CBAFED315D614C3.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests10.description2}"
+				"{ftbquests.chapter.main_story.quest.7CBAFED315D614C3.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests10.description4}"
+				"{ftbquests.chapter.main_story.quest.7CBAFED315D614C3.description4}"
 				""
+				"{ftbquests.chapter.main_story.quest.7CBAFED315D614C3.description6}"
 				""
-				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests10.description8}"
-				""
-				"{ftbquests.chapter.main_story.quests10.description10}"
-				""
-				"{ftbquests.chapter.main_story.quests10.description12}"
+				"{ftbquests.chapter.main_story.quest.7CBAFED315D614C3.description8}"
 			]
-			hide_until_deps_complete: true
+			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			icon: "ftbquests:book"
 			id: "7CBAFED315D614C3"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests10.subtitle}"
-			tasks: [
-				{
-					id: "444189B4E513644B"
-					title: "{ftbquests.chapter.main_story.quests10.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests10.title}"
+			subtitle: "{ftbquests.chapter.main_story.quest.7CBAFED315D614C3.subtitle}"
+			tasks: [{
+				id: "444189B4E513644B"
+				title: "{ftbquests.chapter.main_story.quest.7CBAFED315D614C3.task.444189B4E513644B.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.7CBAFED315D614C3.title}"
 			x: -12.234693877551024d
 			y: -3.464285714285708d
 		}
@@ -871,111 +828,104 @@
 			dependencies: ["0E567E587E669BED"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.main_story.quests11.description0}"
+				"{ftbquests.chapter.main_story.quest.63A18694A9470D66.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests11.description2}"
-				""
-				"{ftbquests.chapter.main_story.quests11.description4}"
-				""
-				"{ftbquests.chapter.main_story.quests11.description6}"
+				"{ftbquests.chapter.main_story.quest.63A18694A9470D66.description2}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests11.description9}"
+				"{ftbquests.chapter.main_story.quest.63A18694A9470D66.description5}"
 				""
-				"{ftbquests.chapter.main_story.quests11.description11}"
-				""
-				"{ftbquests.chapter.main_story.quests11.description13}"
-				""
-				"{ftbquests.chapter.main_story.quests11.description15}"
+				"{ftbquests.chapter.main_story.quest.63A18694A9470D66.description7}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
-			icon: "prominent:molten_core"
-			id: "63A18694A9470D66"
-			rewards: [
-				{
-					advancement: "prominent:molten_core"
-					criterion: ""
-					icon: "prominent:molten_core"
-					id: "1D40A53ECB061059"
-					type: "advancement"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:item/skellak_spawn_egg"
 				}
-			]
+			}
+			id: "63A18694A9470D66"
+			rewards: [{
+				advancement: "prominent:molten_core"
+				auto: "enabled"
+				criterion: ""
+				icon: "prominent:molten_core"
+				id: "1D40A53ECB061059"
+				title: "{ftbquests.chapter.main_story.quest.63A18694A9470D66.reward.1D40A53ECB061059.title}"
+				type: "advancement"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.main_story.quests11.subtitle}"
-			tasks: [
-				{
-					id: "388209961991648D"
-					title: "{ftbquests.chapter.main_story.quests11.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests11.title}"
-			x: -3.6479591836734855d
-			y: -1.5408163265306314d
+			subtitle: "{ftbquests.chapter.main_story.quest.63A18694A9470D66.subtitle}"
+			tasks: [{
+				icon: "prominent:flameborn_stone"
+				id: "10A54494875097FE"
+				title: "{ftbquests.chapter.main_story.quest.63A18694A9470D66.task.10A54494875097FE.title}"
+				type: "custom"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.63A18694A9470D66.title}"
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0E567E587E669BED"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.main_story.quests12.description0}"
+				"{ftbquests.chapter.main_story.quest.18E337BC1F3F75FD.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests12.description2}"
+				"{ftbquests.chapter.main_story.quest.18E337BC1F3F75FD.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests12.description4}"
+				"{ftbquests.chapter.main_story.quest.18E337BC1F3F75FD.description4}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests12.description7}"
+				"{ftbquests.chapter.main_story.quest.18E337BC1F3F75FD.description7}"
 				""
-				"{ftbquests.chapter.main_story.quests12.description9}"
+				"{ftbquests.chapter.main_story.quest.18E337BC1F3F75FD.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests12.description11}"
+				"{ftbquests.chapter.main_story.quest.18E337BC1F3F75FD.description11}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "ftbquests:book"
 			id: "18E337BC1F3F75FD"
-			rewards: [
-				{
-					id: "2C782D1FC3BF8165"
-					item: "prominent:music_disc_festivities"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2C782D1FC3BF8165"
+				item: "prominent:music_disc_festivities"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests12.subtitle}"
-			tasks: [
-				{
-					id: "25E42BD5FCDFACD1"
-					title: "{ftbquests.chapter.main_story.quests12.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests12.title}"
-			x: -2.4976190476190467d
-			y: 3.377380952380989d
+			subtitle: "{ftbquests.chapter.main_story.quest.18E337BC1F3F75FD.subtitle}"
+			tasks: [{
+				id: "25E42BD5FCDFACD1"
+				title: "{ftbquests.chapter.main_story.quest.18E337BC1F3F75FD.task.25E42BD5FCDFACD1.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.18E337BC1F3F75FD.title}"
+			x: -2.4676870748299393d
+			y: 5.377380952380989d
 		}
 		{
 			dependencies: ["18E337BC1F3F75FD"]
 			description: [
-				"{ftbquests.chapter.main_story.quests13.description0}"
+				"{ftbquests.chapter.main_story.quest.777FC868034D4BA5.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests13.description2}"
+				"{ftbquests.chapter.main_story.quest.777FC868034D4BA5.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests13.description4}"
+				"{ftbquests.chapter.main_story.quest.777FC868034D4BA5.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests13.description6}"
+				"{ftbquests.chapter.main_story.quest.777FC868034D4BA5.description6}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests13.description9}"
+				"{ftbquests.chapter.main_story.quest.777FC868034D4BA5.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests13.description11}"
+				"{ftbquests.chapter.main_story.quest.777FC868034D4BA5.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests13.description13}"
+				"{ftbquests.chapter.main_story.quest.777FC868034D4BA5.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests13.description15}"
+				"{ftbquests.chapter.main_story.quest.777FC868034D4BA5.description15}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -987,35 +937,33 @@
 				}
 			}
 			id: "777FC868034D4BA5"
-			rewards: [
-				{
-					id: "14BC34CA5ACF9748"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "14BC34CA5ACF9748"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "{ftbquests.chapter.main_story.quests13.subtitle}"
-			tasks: [
-				{
-					id: "308FF619B83911E7"
-					title: "{ftbquests.chapter.main_story.quests13.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests13.title}"
-			x: -3.681122448979579d
-			y: 4.250000000000007d
+			subtitle: "{ftbquests.chapter.main_story.quest.777FC868034D4BA5.subtitle}"
+			tasks: [{
+				id: "308FF619B83911E7"
+				title: "{ftbquests.chapter.main_story.quest.777FC868034D4BA5.task.308FF619B83911E7.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.777FC868034D4BA5.title}"
+			x: -3.6511904761904717d
+			y: 6.250000000000007d
 		}
 		{
 			dependencies: ["777FC868034D4BA5"]
 			description: [
-				"{ftbquests.chapter.main_story.quests14.description0}"
+				"{ftbquests.chapter.main_story.quest.45A926EF078F465E.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests14.description2}"
+				"{ftbquests.chapter.main_story.quest.45A926EF078F465E.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests14.description4}"
+				"{ftbquests.chapter.main_story.quest.45A926EF078F465E.description4}"
+				""
+				"{ftbquests.chapter.main_story.quest.45A926EF078F465E.description6}"
 			]
 			hide_until_deps_visible: true
 			icon: "prominent:demon_essence"
@@ -1033,41 +981,54 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.main_story.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.main_story.quest.45A926EF078F465E.subtitle}"
 			tasks: [
 				{
 					entity: "bewitchment:baphomet"
-					icon: "bewitchment:demon_heart"
+					icon: {
+						Count: 1
+						id: "soulsweapons:chaos_crown"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "277B6B1BC747DB9D"
-					title: "{ftbquests.chapter.main_story.quests14.tasks0.title}"
+					title: "{ftbquests.chapter.main_story.quest.45A926EF078F465E.task.277B6B1BC747DB9D.title}"
 					type: "kill"
 					value: 1L
 				}
 				{
-					id: "1BC30A17132EDB34"
-					item: "bewitchment:book_of_shadows"
+					id: "75385D410EEB02D4"
+					item: "soulsweapons:blackstone_pedestal"
+					title: "{ftbquests.chapter.main_story.quest.45A926EF078F465E.task.75385D410EEB02D4.title}"
+					type: "item"
+				}
+				{
+					id: "42B1D124D2C1C05C"
+					item: "soulsweapons:shard_of_uncertainty"
+					title: "{ftbquests.chapter.main_story.quest.45A926EF078F465E.task.42B1D124D2C1C05C.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.main_story.quests14.title}"
-			x: -5.216836734693885d
-			y: 3.2857142857142847d
+			title: "{ftbquests.chapter.main_story.quest.45A926EF078F465E.title}"
+			x: -5.186904761904778d
+			y: 5.285714285714285d
 		}
 		{
 			dependencies: ["777FC868034D4BA5"]
 			description: [
-				"{ftbquests.chapter.main_story.quests15.description0}"
+				"{ftbquests.chapter.main_story.quest.7C7838CB12D2C972.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests15.description2}"
+				"{ftbquests.chapter.main_story.quest.7C7838CB12D2C972.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests15.description4}"
+				"{ftbquests.chapter.main_story.quest.7C7838CB12D2C972.description4}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests15.description7}"
+				"{ftbquests.chapter.main_story.quest.7C7838CB12D2C972.description7}"
 				""
-				"{ftbquests.chapter.main_story.quests15.description9}"
+				"{ftbquests.chapter.main_story.quest.7C7838CB12D2C972.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests15.description11}"
+				"{ftbquests.chapter.main_story.quest.7C7838CB12D2C972.description11}"
 			]
 			hide_until_deps_visible: true
 			icon: "prominent:glory_essence"
@@ -1085,40 +1046,38 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.main_story.quests15.subtitle}"
-			tasks: [
-				{
-					entity: "soulsweapons:moonknight"
-					icon: "moretotems:skeletal_totem_of_undying"
-					id: "433CB31E80566625"
-					title: "{ftbquests.chapter.main_story.quests15.tasks0.title}"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests15.title}"
-			x: -5.609693877551017d
-			y: 4.214285714285722d
+			subtitle: "{ftbquests.chapter.main_story.quest.7C7838CB12D2C972.subtitle}"
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				icon: "soulsweapons:iron_skull"
+				id: "433CB31E80566625"
+				title: "{ftbquests.chapter.main_story.quest.7C7838CB12D2C972.task.433CB31E80566625.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.7C7838CB12D2C972.title}"
+			x: -5.579761904761909d
+			y: 6.214285714285722d
 		}
 		{
 			dependencies: ["777FC868034D4BA5"]
 			description: [
-				"{ftbquests.chapter.main_story.quests16.description0}"
+				"{ftbquests.chapter.main_story.quest.569B422A5AE03E53.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests16.description2}"
+				"{ftbquests.chapter.main_story.quest.569B422A5AE03E53.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests16.description4}"
+				"{ftbquests.chapter.main_story.quest.569B422A5AE03E53.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests16.description6}"
+				"{ftbquests.chapter.main_story.quest.569B422A5AE03E53.description6}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests16.description9}"
+				"{ftbquests.chapter.main_story.quest.569B422A5AE03E53.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests16.description11}"
+				"{ftbquests.chapter.main_story.quest.569B422A5AE03E53.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests16.description13}"
+				"{ftbquests.chapter.main_story.quest.569B422A5AE03E53.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests16.description15}"
+				"{ftbquests.chapter.main_story.quest.569B422A5AE03E53.description15}"
 			]
 			hide_until_deps_visible: true
 			icon: "prominent:wrath_essence"
@@ -1136,32 +1095,30 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.main_story.quests16.subtitle}"
-			tasks: [
-				{
-					entity: "aquamirae:captain_cornelia"
-					icon: "mythicupgrades:aquamarine"
-					id: "0A7FC00545E75EB6"
-					title: "{ftbquests.chapter.main_story.quests16.tasks0.title}"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests16.title}"
-			x: -5.216836734693871d
-			y: 5.142857142857146d
+			subtitle: "{ftbquests.chapter.main_story.quest.569B422A5AE03E53.subtitle}"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:shell_horn"
+				id: "0A7FC00545E75EB6"
+				title: "{ftbquests.chapter.main_story.quest.569B422A5AE03E53.task.0A7FC00545E75EB6.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.569B422A5AE03E53.title}"
+			x: -5.1869047619047635d
+			y: 7.142857142857146d
 		}
 		{
 			dependencies: ["5472D472A72B4DB9"]
 			description: [
-				"{ftbquests.chapter.main_story.quests17.description0}"
+				"{ftbquests.chapter.main_story.quest.601BDBA6DF073CB0.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests17.description2}"
+				"{ftbquests.chapter.main_story.quest.601BDBA6DF073CB0.description2}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests17.description5}"
+				"{ftbquests.chapter.main_story.quest.601BDBA6DF073CB0.description5}"
 				""
-				"{ftbquests.chapter.main_story.quests17.description7}"
+				"{ftbquests.chapter.main_story.quest.601BDBA6DF073CB0.description7}"
 			]
 			hide_until_deps_visible: true
 			icon: "eldritch_end:abysmal_fronds"
@@ -1180,31 +1137,29 @@
 			]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.main_story.quests17.subtitle}"
-			tasks: [
-				{
-					biome: "eldritch_end:primordial_abyss"
-					icon: "eldritch_end:abysmal_fronds"
-					id: "5849FCE25177F4E9"
-					title: "{ftbquests.chapter.main_story.quests17.tasks0.title}"
-					type: "biome"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests17.title}"
-			x: 0.24642857142856656d
-			y: 3.9452380952381034d
+			subtitle: "{ftbquests.chapter.main_story.quest.601BDBA6DF073CB0.subtitle}"
+			tasks: [{
+				biome: "eldritch_end:primordial_abyss"
+				icon: "eldritch_end:abysmal_fronds"
+				id: "5849FCE25177F4E9"
+				title: "{ftbquests.chapter.main_story.quest.601BDBA6DF073CB0.task.5849FCE25177F4E9.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.601BDBA6DF073CB0.title}"
+			x: 0.276360544217674d
+			y: 5.945238095238103d
 		}
 		{
 			dependencies: ["5472D472A72B4DB9"]
 			description: [
-				"{ftbquests.chapter.main_story.quests18.description0}"
+				"{ftbquests.chapter.main_story.quest.2500331DBBD67515.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests18.description2}"
+				"{ftbquests.chapter.main_story.quest.2500331DBBD67515.description2}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests18.description5}"
+				"{ftbquests.chapter.main_story.quest.2500331DBBD67515.description5}"
 				""
-				"{ftbquests.chapter.main_story.quests18.description7}"
+				"{ftbquests.chapter.main_story.quest.2500331DBBD67515.description7}"
 			]
 			hide_until_deps_visible: true
 			icon: "eldritch_end:hasturian_moss"
@@ -1223,32 +1178,30 @@
 			]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.main_story.quests18.subtitle}"
-			tasks: [
-				{
-					biome: "eldritch_end:hasturian_wastes"
-					icon: "eldritch_end:hasturian_moss"
-					id: "3C7ECD7B595CB560"
-					title: "{ftbquests.chapter.main_story.quests18.tasks0.title}"
-					type: "biome"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests18.title}"
-			x: 0.2617346938775569d
-			y: 5.034523809523826d
+			subtitle: "{ftbquests.chapter.main_story.quest.2500331DBBD67515.subtitle}"
+			tasks: [{
+				biome: "eldritch_end:hasturian_wastes"
+				icon: "eldritch_end:hasturian_moss"
+				id: "3C7ECD7B595CB560"
+				title: "{ftbquests.chapter.main_story.quest.2500331DBBD67515.task.3C7ECD7B595CB560.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.2500331DBBD67515.title}"
+			x: 0.2916666666666643d
+			y: 7.034523809523826d
 		}
 		{
 			dependencies: ["18E337BC1F3F75FD"]
 			description: [
-				"{ftbquests.chapter.main_story.quests19.description0}"
+				"{ftbquests.chapter.main_story.quest.5472D472A72B4DB9.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests19.description2}"
+				"{ftbquests.chapter.main_story.quest.5472D472A72B4DB9.description2}"
 				""
 				"{@pagebreak}"
 				""
-				"{ftbquests.chapter.main_story.quests19.description6}"
+				"{ftbquests.chapter.main_story.quest.5472D472A72B4DB9.description6}"
 				""
-				"{ftbquests.chapter.main_story.quests19.description8}"
+				"{ftbquests.chapter.main_story.quest.5472D472A72B4DB9.description8}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1256,29 +1209,27 @@
 			id: "5472D472A72B4DB9"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "{ftbquests.chapter.main_story.quests19.subtitle}"
-			tasks: [
-				{
-					id: "07CED6DB48113EC0"
-					title: "{ftbquests.chapter.main_story.quests19.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests19.title}"
-			x: -1.073979591836732d
-			y: 4.250000000000007d
+			subtitle: "{ftbquests.chapter.main_story.quest.5472D472A72B4DB9.subtitle}"
+			tasks: [{
+				id: "07CED6DB48113EC0"
+				title: "{ftbquests.chapter.main_story.quest.5472D472A72B4DB9.task.07CED6DB48113EC0.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.5472D472A72B4DB9.title}"
+			x: -1.0440476190476247d
+			y: 6.250000000000007d
 		}
 		{
 			dependencies: ["601BDBA6DF073CB0"]
 			description: [
-				"{ftbquests.chapter.main_story.quests20.description0}"
+				"{ftbquests.chapter.main_story.quest.250AEC20271670DC.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests20.description2}"
+				"{ftbquests.chapter.main_story.quest.250AEC20271670DC.description2}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests20.description5}"
+				"{ftbquests.chapter.main_story.quest.250AEC20271670DC.description5}"
 				""
-				"{ftbquests.chapter.main_story.quests20.description7}"
+				"{ftbquests.chapter.main_story.quest.250AEC20271670DC.description7}"
 			]
 			id: "250AEC20271670DC"
 			rewards: [
@@ -1300,32 +1251,30 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.main_story.quests20.subtitle}"
-			tasks: [
-				{
-					entity: "eldritch_end:aberration"
-					icon: "eldritch_end:aberration_limb"
-					id: "5320BD9556152B9B"
-					title: "{ftbquests.chapter.main_story.quests20.tasks0.title}"
-					type: "kill"
-					value: 50L
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests20.title}"
-			x: 1.5474489795918345d
-			y: 3.932482993197297d
+			subtitle: "{ftbquests.chapter.main_story.quest.250AEC20271670DC.subtitle}"
+			tasks: [{
+				entity: "eldritch_end:aberration"
+				icon: "eldritch_end:aberration_limb"
+				id: "5320BD9556152B9B"
+				title: "{ftbquests.chapter.main_story.quest.250AEC20271670DC.task.5320BD9556152B9B.title}"
+				type: "kill"
+				value: 50L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.250AEC20271670DC.title}"
+			x: 1.577380952380942d
+			y: 5.932482993197297d
 		}
 		{
 			dependencies: ["2500331DBBD67515"]
 			description: [
-				"{ftbquests.chapter.main_story.quests21.description0}"
+				"{ftbquests.chapter.main_story.quest.40BF64AA85FF6010.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests21.description2}"
+				"{ftbquests.chapter.main_story.quest.40BF64AA85FF6010.description2}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests21.description5}"
+				"{ftbquests.chapter.main_story.quest.40BF64AA85FF6010.description5}"
 				""
-				"{ftbquests.chapter.main_story.quests21.description7}"
+				"{ftbquests.chapter.main_story.quest.40BF64AA85FF6010.description7}"
 			]
 			hide_until_deps_visible: true
 			id: "40BF64AA85FF6010"
@@ -1342,33 +1291,31 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.main_story.quests21.subtitle}"
-			tasks: [
-				{
-					id: "3E1F65C1ABAE9FCB"
-					item: "eldritch_end:etyr_ingot"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests21.title}"
-			x: 1.5474489795918345d
-			y: 5.054931972789134d
+			subtitle: "{ftbquests.chapter.main_story.quest.40BF64AA85FF6010.subtitle}"
+			tasks: [{
+				id: "3E1F65C1ABAE9FCB"
+				item: "eldritch_end:etyr_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.40BF64AA85FF6010.title}"
+			x: 1.577380952380942d
+			y: 7.054931972789134d
 		}
 		{
 			dependencies: ["6EEFBD329C02E34A"]
 			description: [
-				"{ftbquests.chapter.main_story.quests22.description0}"
+				"{ftbquests.chapter.main_story.quest.4AEBBAD5C5474582.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests22.description2}"
+				"{ftbquests.chapter.main_story.quest.4AEBBAD5C5474582.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests22.description4}"
+				"{ftbquests.chapter.main_story.quest.4AEBBAD5C5474582.description4}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests22.description7}"
+				"{ftbquests.chapter.main_story.quest.4AEBBAD5C5474582.description7}"
 				""
-				"{ftbquests.chapter.main_story.quests22.description9}"
+				"{ftbquests.chapter.main_story.quest.4AEBBAD5C5474582.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests22.description11}"
+				"{ftbquests.chapter.main_story.quest.4AEBBAD5C5474582.description11}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1386,65 +1333,60 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.main_story.quests22.subtitle}"
-			tasks: [
-				{
-					id: "09F7148E11D7AB38"
-					item: "archon:summoning_pedestal"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests22.title}"
-			x: -4.0d
-			y: 8.0d
+			subtitle: "{ftbquests.chapter.main_story.quest.4AEBBAD5C5474582.subtitle}"
+			tasks: [{
+				id: "09F7148E11D7AB38"
+				item: "archon:summoning_pedestal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.4AEBBAD5C5474582.title}"
+			x: -3.9700680272108926d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4AEBBAD5C5474582"]
 			description: [
-				"{ftbquests.chapter.main_story.quests23.description0}"
+				"{ftbquests.chapter.main_story.quest.3FEF5FC9AB6C6AAE.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests23.description2}"
+				"{ftbquests.chapter.main_story.quest.3FEF5FC9AB6C6AAE.description2}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests23.description5}"
+				"{ftbquests.chapter.main_story.quest.3FEF5FC9AB6C6AAE.description5}"
 				""
-				"{ftbquests.chapter.main_story.quests23.description7}"
+				"{ftbquests.chapter.main_story.quest.3FEF5FC9AB6C6AAE.description7}"
 			]
 			hide_until_deps_complete: true
 			icon: "prominent:empty_vessel"
 			id: "3FEF5FC9AB6C6AAE"
-			rewards: [
-				{
-					id: "471E486F532A0EEA"
-					item: "prominent:empty_vessel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "471E486F532A0EEA"
+				item: "prominent:empty_vessel"
+				type: "item"
+			}]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.main_story.quests23.subtitle}"
-			tasks: [
-				{
-					id: "28BE3CCC9574A4ED"
-					title: "{ftbquests.chapter.main_story.quests23.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests23.title}"
-			x: -7.0d
-			y: 7.5d
+			subtitle: "{ftbquests.chapter.main_story.quest.3FEF5FC9AB6C6AAE.subtitle}"
+			tasks: [{
+				id: "28BE3CCC9574A4ED"
+				title: "{ftbquests.chapter.main_story.quest.3FEF5FC9AB6C6AAE.task.28BE3CCC9574A4ED.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.3FEF5FC9AB6C6AAE.title}"
+			x: -6.970068027210893d
+			y: 9.5d
 		}
 		{
 			dependencies: ["3FEF5FC9AB6C6AAE"]
 			description: [
-				"{ftbquests.chapter.main_story.quests24.description0}"
+				"{ftbquests.chapter.main_story.quest.173314BDF690683E.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests24.description2}"
+				"{ftbquests.chapter.main_story.quest.173314BDF690683E.description2}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests24.description5}"
+				"{ftbquests.chapter.main_story.quest.173314BDF690683E.description5}"
 				""
-				"{ftbquests.chapter.main_story.quests24.description7}"
+				"{ftbquests.chapter.main_story.quest.173314BDF690683E.description7}"
 			]
+			icon: "archon:end_essence"
 			id: "173314BDF690683E"
 			rewards: [
 				{
@@ -1459,7 +1401,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.main_story.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.main_story.quest.173314BDF690683E.subtitle}"
 			tasks: [
 				{
 					count: 2L
@@ -1478,50 +1420,29 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.main_story.quests24.title}"
-			x: -9.5d
-			y: 9.0d
+			title: "{ftbquests.chapter.main_story.quest.173314BDF690683E.title}"
+			x: -9.470068027210893d
+			y: 11.0d
 		}
 		{
 			dependencies: ["173314BDF690683E"]
 			description: [
-				"{ftbquests.chapter.main_story.quests25.description5}"
+				"{ftbquests.chapter.main_story.quest.67DD847F1737097C.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests25.description0}"
+				"{ftbquests.chapter.main_story.quest.67DD847F1737097C.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests25.description2}"
-				""
-				"{ftbquests.chapter.main_story.quests25.description4}"
+				"{ftbquests.chapter.main_story.quest.67DD847F1737097C.description4}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests25.description6}"
+				"{ftbquests.chapter.main_story.quest.67DD847F1737097C.description7}"
 				""
-				"{ftbquests.chapter.main_story.quests25.description7}"
+				"{ftbquests.chapter.main_story.quest.67DD847F1737097C.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests25.description9}"
-				""
-				"{ftbquests.chapter.main_story.quests25.description11}"
+				"{ftbquests.chapter.main_story.quest.67DD847F1737097C.description11}"
 			]
 			icon: "mcda:upgrade_core_void"
 			id: "67DD847F1737097C"
 			rewards: [
-				{
-					advancement: "prominent:unlock_mythic_challenges"
-					criterion: ""
-					icon: {
-						Count: 1
-						id: "prominent:void_hourglass"
-						tag: {
-							mythicbosses: {
-								bossType: "adventurez:blackstone_golem"
-								mythicLevel: 1
-							}
-						}
-					}
-					id: "0BCF26135D1E3843"
-					title: "{ftbquests.chapter.main_story.quests25.rewards0.title}"
-					type: "advancement"
-				}
 				{
 					id: "14CE356155EABB81"
 					item: "prominent_ost:music_disc_time_flows"
@@ -1532,43 +1453,52 @@
 					item: "prominent:infused_molten_remnant"
 					type: "item"
 				}
+				{
+					id: "77D96FCD6F20B4E8"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:resource_1_lottery"
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 1.45d
-			subtitle: "{ftbquests.chapter.main_story.quests25.subtitle}"
-			tasks: [
-				{
-					entity: "archon:null"
-					icon: "powah:ender_core"
-					id: "1A0B9A7E5B466268"
-					title: "{ftbquests.chapter.main_story.quests25.tasks0.title}"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests25.title}"
-			x: -11.6d
-			y: 7.975d
+			subtitle: "{ftbquests.chapter.main_story.quest.67DD847F1737097C.subtitle}"
+			tasks: [{
+				entity: "archon:null"
+				icon: "powah:ender_core"
+				id: "1A0B9A7E5B466268"
+				title: "{ftbquests.chapter.main_story.quest.67DD847F1737097C.task.1A0B9A7E5B466268.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.67DD847F1737097C.title}"
+			x: -11.570068027210892d
+			y: 9.975d
 		}
 		{
 			dependencies: ["18E337BC1F3F75FD"]
 			description: [
-				"{ftbquests.chapter.main_story.quests26.description0}"
+				"{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests26.description2}"
+				"{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests26.description4}"
+				"{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests26.description6}"
+				"{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.description6}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests26.description9}"
+				"{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests26.description11}"
+				"{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests26.description13}"
+				"{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests26.description15}"
+				"{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.description15}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1591,129 +1521,73 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.main_story.quests26.subtitle}"
-			tasks: [
-				{
-					id: "27B44E04748B6582"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "prominent:artifacts"
-						}
+			subtitle: "{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.subtitle}"
+			tasks: [{
+				id: "27B44E04748B6582"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "prominent:artifacts"
 					}
-					title: "{ftbquests.chapter.main_story.quests26.tasks0.title}"
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.main_story.quests26.title}"
-			x: -2.5d
-			y: 6.5d
+				title: "{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.task.27B44E04748B6582.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.6EEFBD329C02E34A.title}"
+			x: -2.4700680272108926d
+			y: 8.5d
 		}
 		{
 			dependencies: ["67DD847F1737097C"]
 			description: [
-				"{ftbquests.chapter.main_story.quests27.description0}"
+				"{ftbquests.chapter.main_story.quest.245E77F81FB78B58.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests27.description2}"
+				"{ftbquests.chapter.main_story.quest.245E77F81FB78B58.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests27.description4}"
+				"{ftbquests.chapter.main_story.quest.245E77F81FB78B58.description4}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests27.description7}"
+				"{ftbquests.chapter.main_story.quest.245E77F81FB78B58.description7}"
 				""
-				"{ftbquests.chapter.main_story.quests27.description9}"
+				"{ftbquests.chapter.main_story.quest.245E77F81FB78B58.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests27.description11}"
+				"{ftbquests.chapter.main_story.quest.245E77F81FB78B58.description11}"
 			]
 			hide_until_deps_visible: true
 			icon: "ftbquests:book"
 			id: "245E77F81FB78B58"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "{ftbquests.chapter.main_story.quests27.subtitle}"
-			tasks: [
-				{
-					id: "55B2EEFDAFAC3D0C"
-					title: "{ftbquests.chapter.main_story.quests27.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests27.title}"
-			x: -14.529931972789107d
-			y: 8.483333333333348d
-		}
-		{
-			dependencies: ["67DD847F1737097C"]
-			description: [
-				"{ftbquests.chapter.main_story.quests28.description0}"
-				""
-				"{ftbquests.chapter.main_story.quests28.description2}"
-				""
-				"{ftbquests.chapter.main_story.quests28.description4}"
-				""
-				"{ftbquests.chapter.main_story.quests28.description6}"
-				""
-				"{ftbquests.chapter.main_story.quests28.description8}"
-				""
-				"{ftbquests.chapter.main_story.quests28.description10}"
-				""
-				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests28.description13}"
-				""
-				"{ftbquests.chapter.main_story.quests28.description15}"
-				""
-				"{ftbquests.chapter.main_story.quests28.description17}"
-				""
-				"{ftbquests.chapter.main_story.quests28.description19}"
-				""
-				"{ftbquests.chapter.main_story.quests28.description21}"
-				""
-				"{ftbquests.chapter.main_story.quests28.description23}"
-			]
-			icon: {
-				Count: 1
-				id: "prominent:void_hourglass"
-				tag: {
-					mythicbosses: {
-						bossType: "adventurez:blackstone_golem"
-						mythicLevel: 1
-					}
-				}
-			}
-			id: "78E3D778D84410AE"
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.main_story.quests28.subtitle}"
-			tasks: [
-				{
-					id: "44E571FD07C153AC"
-					title: "{ftbquests.chapter.main_story.quests28.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests28.title}"
-			x: -11.573979591836732d
-			y: 9.392857142857139d
+			subtitle: "{ftbquests.chapter.main_story.quest.245E77F81FB78B58.subtitle}"
+			tasks: [{
+				id: "55B2EEFDAFAC3D0C"
+				title: "{ftbquests.chapter.main_story.quest.245E77F81FB78B58.task.55B2EEFDAFAC3D0C.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.245E77F81FB78B58.title}"
+			x: -14.5d
+			y: 10.483333333333348d
 		}
 		{
 			dependencies: ["7CD3D2757242817B"]
 			description: [
-				"{ftbquests.chapter.main_story.quests29.description0}"
+				"{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests29.description2}"
+				"{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests29.description4}"
+				"{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests29.description6}"
+				"{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.description6}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests29.description9}"
+				"{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests29.description11}"
+				"{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests29.description13}"
+				"{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests29.description15}"
+				"{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.description15}"
 			]
 			icon: {
 				Count: 1
@@ -1740,56 +1614,54 @@
 					exclude_from_claim_all: true
 					id: "21B6E7DC9CD2B786"
 					table_id: 8008058263494883425L
-					title: "{ftbquests.chapter.main_story.quests29.rewards2.title}"
+					title: "{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.reward.21B6E7DC9CD2B786.title}"
 					type: "choice"
 				}
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.main_story.quests29.subtitle}"
-			tasks: [
-				{
-					entity: "eldritch_end:the_faceless"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "eldritch_end:textures/icon/faceless_head.png"
-						}
+			subtitle: "{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.subtitle}"
+			tasks: [{
+				entity: "eldritch_end:the_faceless"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "eldritch_end:textures/icon/faceless_head.png"
 					}
-					id: "1FC4C638A5DF2AC0"
-					title: "{ftbquests.chapter.main_story.quests29.tasks0.title}"
-					type: "kill"
-					value: 1L
 				}
-			]
-			title: "{ftbquests.chapter.main_story.quests29.title}"
-			x: -4.78826530612244d
-			y: 13.607142857142861d
+				id: "1FC4C638A5DF2AC0"
+				title: "{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.task.1FC4C638A5DF2AC0.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.main_story.quest.69574BA63A9F05E8.title}"
+			x: -4.758333333333333d
+			y: 15.607142857142861d
 		}
 		{
 			dependencies: ["245E77F81FB78B58"]
 			description: [
-				"{ftbquests.chapter.main_story.quests30.description0}"
+				"{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests30.description2}"
+				"{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests30.description4}"
+				"{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests30.description6}"
+				"{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.description6}"
 				""
-				"{ftbquests.chapter.main_story.quests30.description8}"
+				"{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.description8}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests30.description11}"
+				"{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests30.description13}"
+				"{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests30.description15}"
+				"{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.description15}"
 				""
-				"{ftbquests.chapter.main_story.quests30.description17}"
+				"{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.description17}"
 				""
-				"{ftbquests.chapter.main_story.quests30.description19}"
+				"{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.description19}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -1815,7 +1687,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests30.subtitle}"
+			subtitle: "{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.subtitle}"
 			tasks: [
 				{
 					entity: "spellbladenext:magus"
@@ -1827,7 +1699,7 @@
 						}
 					}
 					id: "0B213F812EBAA325"
-					title: "{ftbquests.chapter.main_story.quests30.tasks0.title}"
+					title: "{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.task.0B213F812EBAA325.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1835,50 +1707,45 @@
 					dimension: "spellbladenext:glassocean"
 					icon: "archon:water_essence"
 					id: "781DD5C7F6F464F1"
-					title: "{ftbquests.chapter.main_story.quests30.tasks1.title}"
+					title: "{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.task.781DD5C7F6F464F1.title}"
 					type: "dimension"
 				}
 			]
-			title: "{ftbquests.chapter.main_story.quests30.title}"
-			x: -13.216836734693878d
-			y: 10.714285714285708d
+			title: "{ftbquests.chapter.main_story.quest.3A8C4B633BAF1EFF.title}"
+			x: -13.18690476190477d
+			y: 12.714285714285708d
 		}
 		{
-			dependencies: [
-				"3A8C4B633BAF1EFF"
-				"34479B95BF592101"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["3A8C4B633BAF1EFF"]
 			description: [
-				"{ftbquests.chapter.main_story.quests31.description0}"
+				"{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests31.description2}"
+				"{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests31.description4}"
+				"{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.description4}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests31.description7}"
+				"{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.description7}"
 				""
-				"{ftbquests.chapter.main_story.quests31.description9}"
+				"{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.description9}"
 				""
-				"{ftbquests.chapter.main_story.quests31.description11}"
+				"{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.description11}"
 			]
 			hide_until_deps_complete: true
+			icon: "eldritch_end:ominous_eye"
 			id: "0A5F7ABD54251511"
-			rewards: [
-				{
-					id: "50729E9131DFED4A"
-					item: "prominent:molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "50729E9131DFED4A"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.main_story.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.subtitle}"
 			tasks: [
 				{
 					id: "0EA07F48C91B6FBF"
 					item: "eldritch_end:ominous_eye"
-					title: "{ftbquests.chapter.main_story.quests31.tasks0.title}"
+					title: "{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.task.0EA07F48C91B6FBF.title}"
 					type: "item"
 				}
 				{
@@ -1890,38 +1757,42 @@
 							Damage: 0
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.main_story.quests31.title}"
-			x: -10.0d
-			y: 11.0d
+			title: "{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.title}"
+			x: -9.970068027210893d
+			y: 13.0d
 		}
 		{
-			dependencies: ["0A5F7ABD54251511"]
+			dependencies: [
+				"0A5F7ABD54251511"
+				"734EDDD8FFBE8BC9"
+			]
+			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.main_story.quests32.description0}"
+				"{ftbquests.chapter.main_story.quest.7CD3D2757242817B.description0}"
 				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
 				""
-				"{ftbquests.chapter.main_story.quests32.description3}"
+				"{ftbquests.chapter.main_story.quest.7CD3D2757242817B.description3}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests32.description6}"
+				"{ftbquests.chapter.main_story.quest.7CD3D2757242817B.description6}"
 				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
 				""
-				"{ftbquests.chapter.main_story.quests32.description9}"
+				"{ftbquests.chapter.main_story.quest.7CD3D2757242817B.description9}"
 			]
 			hide_until_deps_complete: true
+			icon: "eldritch_end:eldritch_pedestal"
 			id: "7CD3D2757242817B"
-			rewards: [
-				{
-					id: "5ADEB6806C96F673"
-					item: "prominent:molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5ADEB6806C96F673"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.main_story.quests32.subtitle}"
+			subtitle: "{ftbquests.chapter.main_story.quest.7CD3D2757242817B.subtitle}"
 			tasks: [
 				{
 					id: "1415FEE0A0DB5355"
@@ -1941,33 +1812,33 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.main_story.quests32.title}"
-			x: -8.5d
-			y: 13.0d
+			title: "{ftbquests.chapter.main_story.quest.7CD3D2757242817B.title}"
+			x: -8.470068027210893d
+			y: 15.0d
 		}
 		{
 			dependencies: ["69574BA63A9F05E8"]
 			description: [
-				"{ftbquests.chapter.main_story.quests33.description0}"
+				"{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests33.description2}"
+				"{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests33.description4}"
+				"{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.description4}"
 				""
-				"{ftbquests.chapter.main_story.quests33.description6}"
+				"{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.description6}"
 				""
-				"{ftbquests.chapter.main_story.quests33.description8}"
+				"{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.description8}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests33.description11}"
+				"{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests33.description13}"
+				"{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests33.description15}"
+				"{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.description15}"
 				""
-				"{ftbquests.chapter.main_story.quests33.description17}"
+				"{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.description17}"
 				""
-				"{ftbquests.chapter.main_story.quests33.description19}"
+				"{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.description19}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1981,46 +1852,48 @@
 				}
 				{
 					advancement: "prominent:end_of_voids_invasion"
+					auto: "enabled"
 					criterion: ""
 					id: "085A183D10962F5D"
 					type: "advancement"
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.main_story.quests33.subtitle}"
-			tasks: [
-				{
-					id: "6CD2D01CFB2304DD"
-					title: "{ftbquests.chapter.main_story.quests33.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests33.title}"
-			x: -3.0382653061224545d
-			y: 13.678571428571402d
+			subtitle: "{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.subtitle}"
+			tasks: [{
+				id: "6CD2D01CFB2304DD"
+				title: "{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.task.6CD2D01CFB2304DD.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.04AF2E026BB918AE.title}"
+			x: -3.008333333333347d
+			y: 15.678571428571402d
 		}
 		{
 			dependencies: ["7CBAFED315D614C3"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.main_story.quests34.description0}"
-				"{ftbquests.chapter.main_story.quests34.description1}"
+				"{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.description0}"
+				"{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.description1}"
 				""
-				"{ftbquests.chapter.main_story.quests34.description3}"
+				"{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.description3}"
 				""
-				"{ftbquests.chapter.main_story.quests34.description5}"
+				"{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.description5}"
+				""
+				"{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.description7}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quests34.description8}"
-				"{ftbquests.chapter.main_story.quests34.description9}"
+				"{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.description10}"
+				"{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.description11}"
 				""
-				"{ftbquests.chapter.main_story.quests34.description11}"
+				"{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.description13}"
 				""
-				"{ftbquests.chapter.main_story.quests34.description13}"
+				"{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.description15}"
+				""
+				"{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.description17}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
-			icon: "soulsweapons:withered_demon_heart"
 			id: "5B31D4D4029F1891"
 			rewards: [
 				{
@@ -2034,46 +1907,38 @@
 					type: "item"
 				}
 				{
-					advancement: "prominent:level_10"
-					auto: "enabled"
-					criterion: ""
-					id: "0C140E150DFB6C5D"
-					title: "{ftbquests.chapter.main_story.quests34.rewards2.title}"
-					type: "advancement"
+					id: "295AB7155070AA62"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:mariums_weaponry_lottery"
+						}
+					}
+					type: "item"
 				}
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.main_story.quests34.subtitle}"
-			tasks: [
-				{
-					entity: "soulsweapons:accursed_lord_boss"
-					icon: "soulsweapons:withered_demon_heart"
-					id: "1E53C2B640C2CED4"
-					title: "{ftbquests.chapter.main_story.quests34.tasks0.title}"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "0132A0C646879E11"
-					item: "soulsweapons:boss_compass"
-					optional_task: true
-					title: "{ftbquests.chapter.main_story.quests34.tasks1.title}"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.main_story.quests34.title}"
+			subtitle: "{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.subtitle}"
+			tasks: [{
+				advancement: "soulsweapons:end_of_reigns"
+				criterion: ""
+				id: "0F20389F505FF2D8"
+				title: "{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.task.0F20389F505FF2D8.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.title}"
 			x: -11.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["7AE1542456418BCD"]
 			description: [
-				"{ftbquests.chapter.main_story.quests35.description0}"
+				"{ftbquests.chapter.main_story.quest.214E47AB3004E7D3.description0}"
 				""
-				"{ftbquests.chapter.main_story.quests35.description2}"
+				"{ftbquests.chapter.main_story.quest.214E47AB3004E7D3.description2}"
 				""
-				"{ftbquests.chapter.main_story.quests35.description4}"
+				"{ftbquests.chapter.main_story.quest.214E47AB3004E7D3.description4}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -2084,74 +1949,195 @@
 				}
 			}
 			id: "214E47AB3004E7D3"
+			rewards: [{
+				auto: "enabled"
+				icon: "ftbquests:book"
+				id: "73B06E8111436D07"
+				title: "{ftbquests.chapter.main_story.quest.214E47AB3004E7D3.reward.73B06E8111436D07.title}"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.main_story.quest.214E47AB3004E7D3.subtitle}"
+			tasks: [{
+				id: "3A4B95414CAC2233"
+				title: "{ftbquests.chapter.main_story.quest.214E47AB3004E7D3.task.3A4B95414CAC2233.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.214E47AB3004E7D3.title}"
+			x: -12.234693877551024d
+			y: -4.803571428571431d
+		}
+		{
+			dependencies: [
+				"49C9DC2F3D131A14"
+				"5B31D4D4029F1891"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.main_story.quest.7907D42E7950D773.description0}"
+				""
+				"{ftbquests.chapter.main_story.quest.7907D42E7950D773.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.main_story.quest.7907D42E7950D773.description4}"
+				""
+				"{ftbquests.chapter.main_story.quest.7907D42E7950D773.description6}"
+			]
+			hide_until_deps_complete: true
+			icon: "prominent:skellak_spawn_egg"
+			id: "7907D42E7950D773"
+			rewards: [{
+				advancement: "prominent:level_10"
+				auto: "no_toast"
+				criterion: ""
+				icon: "prominent:knowledge_scroll"
+				id: "5E6DFE7BBF431E38"
+				title: "{ftbquests.chapter.main_story.quest.7907D42E7950D773.reward.5E6DFE7BBF431E38.title}"
+				type: "advancement"
+			}]
+			subtitle: "{ftbquests.chapter.main_story.quest.7907D42E7950D773.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:item/flameborn_stone"
+					}
+				}
+				id: "1A9CFBDF10D14168"
+				title: "{ftbquests.chapter.main_story.quest.7907D42E7950D773.task.1A9CFBDF10D14168.title}"
+				type: "custom"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.7907D42E7950D773.title}"
+			x: -12.222789115646236d
+			y: -0.1964285714285623d
+		}
+		{
+			dependencies: ["7907D42E7950D773"]
+			description: [
+				"{ftbquests.chapter.main_story.quest.7023C0EC0A4686E2.description0}"
+				""
+				"{ftbquests.chapter.main_story.quest.7023C0EC0A4686E2.description2}"
+				""
+				"{ftbquests.chapter.main_story.quest.7023C0EC0A4686E2.description4}"
+				""
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.main_story.quest.7023C0EC0A4686E2.description8}"
+				""
+				"{ftbquests.chapter.main_story.quest.7023C0EC0A4686E2.description10}"
+				""
+				"{ftbquests.chapter.main_story.quest.7023C0EC0A4686E2.description12}"
+			]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "7023C0EC0A4686E2"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.main_story.quest.7023C0EC0A4686E2.subtitle}"
+			tasks: [{
+				id: "74DFFCA773E3AF47"
+				title: "{ftbquests.chapter.main_story.quest.7023C0EC0A4686E2.task.74DFFCA773E3AF47.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.7023C0EC0A4686E2.title}"
+			x: -12.225170068027204d
+			y: 0.9880952380952479d
+		}
+		{
+			dependencies: ["63A18694A9470D66"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.main_story.quest.45437B8E9AEEF2E5.description0}"
+				""
+				"{ftbquests.chapter.main_story.quest.45437B8E9AEEF2E5.description2}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.main_story.quest.45437B8E9AEEF2E5.description5}"
+				""
+				"{ftbquests.chapter.main_story.quest.45437B8E9AEEF2E5.description7}"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "prominent:molten_core"
+			id: "45437B8E9AEEF2E5"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.main_story.quest.45437B8E9AEEF2E5.subtitle}"
+			tasks: [{
+				id: "40A7C0F467FA6D01"
+				item: "prominent:molten_core"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.45437B8E9AEEF2E5.title}"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A8C4B633BAF1EFF"]
+			description: [
+				"{ftbquests.chapter.main_story.quest.734EDDD8FFBE8BC9.description0}"
+				""
+				"{ftbquests.chapter.main_story.quest.734EDDD8FFBE8BC9.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "eldritch_end:aberration_spawn_egg"
+			id: "734EDDD8FFBE8BC9"
 			rewards: [
 				{
-					auto: "enabled"
-					icon: "ftbquests:book"
-					id: "73B06E8111436D07"
-					title: "{ftbquests.chapter.main_story.quests35.rewards0.title}"
-					type: "custom"
+					id: "75B1DFBED2F09A2F"
+					item: "eldritch_end:ominous_eye"
+					type: "item"
+				}
+				{
+					id: "16BCCE18B98B0D5C"
+					type: "xp_levels"
+					xp_levels: 2
 				}
 			]
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.main_story.quests35.subtitle}"
+			subtitle: "{ftbquests.chapter.main_story.quest.734EDDD8FFBE8BC9.subtitle}"
 			tasks: [
 				{
-					id: "3A4B95414CAC2233"
-					title: "{ftbquests.chapter.main_story.quests35.tasks0.title}"
-					type: "checkmark"
+					entity: "eldritch_end:aberration"
+					icon: "eldritch_end:aberration_spawn_egg"
+					id: "35AF671A9BE7DA4E"
+					title: "{ftbquests.chapter.main_story.quest.734EDDD8FFBE8BC9.task.35AF671A9BE7DA4E.title}"
+					type: "kill"
+					value: 125L
+				}
+				{
+					biome: "eldritch_end:primordial_abyss"
+					icon: "eldritch_end:aberration_limb"
+					id: "55CE199477957984"
+					optional_task: true
+					title: "{ftbquests.chapter.main_story.quest.734EDDD8FFBE8BC9.task.55CE199477957984.title}"
+					type: "biome"
 				}
 			]
-			title: "{ftbquests.chapter.main_story.quests35.title}"
-			x: -10.5d
-			y: -4.5d
+			title: "{ftbquests.chapter.main_story.quest.734EDDD8FFBE8BC9.title}"
+			x: -11.0d
+			y: 14.5d
 		}
-        {
-			can_repeat: true
-            dependencies: ["3A8C4B633BAF1EFF"]
-            description: ["{ftbquests.chapter.main_story.quests36.description0}"]
-            hide_until_deps_complete: true
-            icon: "eldritch_end:aberration_spawn_egg"
-            id: "34479B95BF592101"
-            rewards: [
-                {
-                    count: 4
-                    id: "6E55BC85931576DC"
-                    item: {
-                        Count: 1
-                        id: "eldritch_end:ominous_eye"
-                        tag: { }
-                    }
-                    type: "item"
-                }
-                {
-					auto: "enabled"
-                    id: "09CFD9FF34E4A082"
-                    type: "xp_levels"
-                    xp_levels: 5
-                }
-            ]
-            subtitle: "{ftbquests.chapter.main_story.quests36.subtitle}"
-            tasks: [
-                {
-                    biome: "eldritch_end:primordial_abyss"
-                    id: "602D20630E252EC0"
-                    optional_task: true
-                    title: "{ftbquests.chapter.main_story.quests36.tasks0.title}"
-                    type: "biome"
-                }
-                {
-                    entity: "eldritch_end:aberration"
-                    id: "36BF1A161A1782FC"
-                    title: "{ftbquests.chapter.main_story.quests36.tasks1.title}"
-                    type: "kill"
-                    value: 500L
-                }
-            ]
-            title: "{ftbquests.chapter.main_story.quests36.title}"
-            x: -11.0d
-            y: 12.5d
-        }
+		{
+			dependencies: ["6EEFBD329C02E34A"]
+			description: ["{ftbquests.chapter.main_story.quest.70718BBE282CD31E.description0}"]
+			id: "70718BBE282CD31E"
+			rewards: [{
+				id: "3907E20CB6E46FB3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 128L
+				id: "6A356B39F61C978E"
+				item: { Count: 128, id: "minecraft:netherite_block" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.main_story.quest.70718BBE282CD31E.title}"
+			x: -1.5d
+			y: 9.5d
+		}
 	]
 	title: "{ftbquests.chapter.main_story.title}"
 }

@@ -140,66 +140,64 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.reforging.quests0.description0}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description0}"
 				""
-				"{ftbquests.chapter.reforging.quests0.description2}"
-				"{ftbquests.chapter.reforging.quests0.description3}"
-				"{ftbquests.chapter.reforging.quests0.description4}"
-				"{ftbquests.chapter.reforging.quests0.description5}"
-				"{ftbquests.chapter.reforging.quests0.description6}"
-				"{ftbquests.chapter.reforging.quests0.description7}"
-				"{ftbquests.chapter.reforging.quests0.description8}"
-				""
-				"{@pagebreak}"
-				""
-				"{ftbquests.chapter.reforging.quests0.description12}"
-				""
-				"{ftbquests.chapter.reforging.quests0.description14}"
-				""
-				"{ftbquests.chapter.reforging.quests0.description16}"
-				"{ftbquests.chapter.reforging.quests0.description17}"
-				"{ftbquests.chapter.reforging.quests0.description18}"
-				""
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description2}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description3}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description4}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description5}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description6}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description7}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description8}"
 				""
 				"{@pagebreak}"
 				""
-				"{ftbquests.chapter.reforging.quests0.description23}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description12}"
 				""
-				"{ftbquests.chapter.reforging.quests0.description25}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description14}"
+				""
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description16}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description17}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description18}"
 				""
 				""
 				"{@pagebreak}"
 				""
-				"{ftbquests.chapter.reforging.quests0.description30}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description23}"
 				""
-				"{ftbquests.chapter.reforging.quests0.description32}"
-				""
-				""
-				"{@pagebreak}"
-				""
-				"{ftbquests.chapter.reforging.quests0.description37}"
-				""
-				"{ftbquests.chapter.reforging.quests0.description39}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description25}"
 				""
 				""
 				"{@pagebreak}"
 				""
-				"{ftbquests.chapter.reforging.quests0.description44}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description30}"
 				""
-				"{ftbquests.chapter.reforging.quests0.description46}"
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description32}"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description37}"
+				""
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description39}"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description44}"
+				""
+				"{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.description46}"
 			]
 			id: "3C95FD1F14D109CF"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.reforging.quests0.subtitle}"
-			tasks: [
-				{
-					id: "71FAC91280FBBF9C"
-					item: "minecraft:anvil"
-					title: "{ftbquests.chapter.reforging.quests0.tasks0.title}"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.reforging.quests0.title}"
+			subtitle: "{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.subtitle}"
+			tasks: [{
+				id: "71FAC91280FBBF9C"
+				item: "minecraft:anvil"
+				title: "{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.task.71FAC91280FBBF9C.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.reforging.quest.3C95FD1F14D109CF.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -207,27 +205,25 @@
 			dependencies: ["3C95FD1F14D109CF"]
 			description: [
 				""
-				"{ftbquests.chapter.reforging.quests1.description1}"
+				"{ftbquests.chapter.reforging.quest.4D3F0D8217067D24.description1}"
 				""
-				"{ftbquests.chapter.reforging.quests1.description3}"
+				"{ftbquests.chapter.reforging.quest.4D3F0D8217067D24.description3}"
 				""
-				"{ftbquests.chapter.reforging.quests1.description5}"
-				"{ftbquests.chapter.reforging.quests1.description6}"
-				"{ftbquests.chapter.reforging.quests1.description7}"
-				"{ftbquests.chapter.reforging.quests1.description8}"
-				"{ftbquests.chapter.reforging.quests1.description9}"
+				"{ftbquests.chapter.reforging.quest.4D3F0D8217067D24.description5}"
+				"{ftbquests.chapter.reforging.quest.4D3F0D8217067D24.description6}"
+				"{ftbquests.chapter.reforging.quest.4D3F0D8217067D24.description7}"
+				"{ftbquests.chapter.reforging.quest.4D3F0D8217067D24.description8}"
+				"{ftbquests.chapter.reforging.quest.4D3F0D8217067D24.description9}"
 			]
 			id: "4D3F0D8217067D24"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.reforging.quests1.subtitle}"
-			tasks: [
-				{
-					id: "4593A7256861742B"
-					item: "tiered:limestone_chunk"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.reforging.quests1.title}"
+			subtitle: "{ftbquests.chapter.reforging.quest.4D3F0D8217067D24.subtitle}"
+			tasks: [{
+				id: "4593A7256861742B"
+				item: "tiered:limestone_chunk"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.reforging.quest.4D3F0D8217067D24.title}"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -235,29 +231,27 @@
 			dependencies: ["4D3F0D8217067D24"]
 			description: [
 				""
-				"{ftbquests.chapter.reforging.quests2.description1}"
+				"{ftbquests.chapter.reforging.quest.31388834855FB88E.description1}"
 				""
-				"{ftbquests.chapter.reforging.quests2.description3}"
+				"{ftbquests.chapter.reforging.quest.31388834855FB88E.description3}"
 				""
-				"{ftbquests.chapter.reforging.quests2.description5}"
+				"{ftbquests.chapter.reforging.quest.31388834855FB88E.description5}"
 				""
-				"{ftbquests.chapter.reforging.quests2.description7}"
-				"{ftbquests.chapter.reforging.quests2.description8}"
-				"{ftbquests.chapter.reforging.quests2.description9}"
-				"{ftbquests.chapter.reforging.quests2.description10}"
-				"{ftbquests.chapter.reforging.quests2.description11}"
+				"{ftbquests.chapter.reforging.quest.31388834855FB88E.description7}"
+				"{ftbquests.chapter.reforging.quest.31388834855FB88E.description8}"
+				"{ftbquests.chapter.reforging.quest.31388834855FB88E.description9}"
+				"{ftbquests.chapter.reforging.quest.31388834855FB88E.description10}"
+				"{ftbquests.chapter.reforging.quest.31388834855FB88E.description11}"
 			]
 			id: "31388834855FB88E"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.reforging.quests2.subtitle}"
-			tasks: [
-				{
-					id: "23DAEBDBFD05AB7B"
-					item: "tiered:pyrite_chunk"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.reforging.quests2.title}"
+			subtitle: "{ftbquests.chapter.reforging.quest.31388834855FB88E.subtitle}"
+			tasks: [{
+				id: "23DAEBDBFD05AB7B"
+				item: "tiered:pyrite_chunk"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.reforging.quest.31388834855FB88E.title}"
 			x: 2.5d
 			y: 2.5d
 		}
@@ -265,36 +259,34 @@
 			dependencies: ["31388834855FB88E"]
 			description: [
 				""
-				"{ftbquests.chapter.reforging.quests3.description1}"
+				"{ftbquests.chapter.reforging.quest.2DE7359A85169236.description1}"
 				""
-				"{ftbquests.chapter.reforging.quests3.description3}"
-				"{ftbquests.chapter.reforging.quests3.description4}"
+				"{ftbquests.chapter.reforging.quest.2DE7359A85169236.description3}"
+				"{ftbquests.chapter.reforging.quest.2DE7359A85169236.description4}"
 				""
-				"{ftbquests.chapter.reforging.quests3.description6}"
+				"{ftbquests.chapter.reforging.quest.2DE7359A85169236.description6}"
 				""
-				"{ftbquests.chapter.reforging.quests3.description8}"
-				"{ftbquests.chapter.reforging.quests3.description9}"
-				"{ftbquests.chapter.reforging.quests3.description10}"
-				"{ftbquests.chapter.reforging.quests3.description11}"
-				"{ftbquests.chapter.reforging.quests3.description12}"
+				"{ftbquests.chapter.reforging.quest.2DE7359A85169236.description8}"
+				"{ftbquests.chapter.reforging.quest.2DE7359A85169236.description9}"
+				"{ftbquests.chapter.reforging.quest.2DE7359A85169236.description10}"
+				"{ftbquests.chapter.reforging.quest.2DE7359A85169236.description11}"
+				"{ftbquests.chapter.reforging.quest.2DE7359A85169236.description12}"
 			]
 			id: "2DE7359A85169236"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.reforging.quests3.subtitle}"
-			tasks: [
-				{
-					id: "7C188E7D00623268"
-					item: "tiered:galena_chunk"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.reforging.quests3.title}"
+			subtitle: "{ftbquests.chapter.reforging.quest.2DE7359A85169236.subtitle}"
+			tasks: [{
+				id: "7C188E7D00623268"
+				item: "tiered:galena_chunk"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.reforging.quest.2DE7359A85169236.title}"
 			x: 5.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2DE7359A85169236"]
-			description: ["{ftbquests.chapter.reforging.quests4.description}"]
+			description: ["{ftbquests.chapter.reforging.quest.014ABD8E6E102E16.description0}"]
 			hide_until_deps_visible: true
 			id: "014ABD8E6E102E16"
 			invisible: true
@@ -312,24 +304,22 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{ftbquests.chapter.reforging.quests4.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "tiered:textures/gui/anvil_tab_icon.png"
-						}
+			subtitle: "{ftbquests.chapter.reforging.quest.014ABD8E6E102E16.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "tiered:textures/gui/anvil_tab_icon.png"
 					}
-					id: "14E96A8846C480E8"
-					stat: "prominent:mythic_reforges"
-					title: "{ftbquests.chapter.reforging.quests4.tasks0.title}"
-					type: "stat"
-					value: 100
 				}
-			]
-			title: "{ftbquests.chapter.reforging.quests4.title}"
+				id: "14E96A8846C480E8"
+				stat: "prominent:mythic_reforges"
+				title: "{ftbquests.chapter.reforging.quest.014ABD8E6E102E16.task.14E96A8846C480E8.title}"
+				type: "stat"
+				value: 100
+			}]
+			title: "{ftbquests.chapter.reforging.quest.014ABD8E6E102E16.title}"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -341,7 +331,7 @@
 				"2DE7359A85169236"
 				"4D3F0D8217067D24"
 			]
-			description: ["{ftbquests.chapter.reforging.quests5.description}"]
+			description: ["{ftbquests.chapter.reforging.quest.658C9A0DDEC15431.description0}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -353,32 +343,28 @@
 			}
 			id: "658C9A0DDEC15431"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "the_bumblezone:item/essence/knowing"
-						}
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:item/essence/knowing"
 					}
-					id: "79653CF8DF5D7969"
-					title: "{ftbquests.chapter.reforging.quests5.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "79653CF8DF5D7969"
+				title: "{ftbquests.chapter.reforging.quest.658C9A0DDEC15431.reward.79653CF8DF5D7969.title}"
+				type: "custom"
+			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.reforging.quests5.subtitle}"
-			tasks: [
-				{
-					id: "57A269372AAD28C6"
-					title: "{ftbquests.chapter.reforging.quests5.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.reforging.quests5.title}"
+			subtitle: "{ftbquests.chapter.reforging.quest.658C9A0DDEC15431.subtitle}"
+			tasks: [{
+				id: "57A269372AAD28C6"
+				title: "{ftbquests.chapter.reforging.quest.658C9A0DDEC15431.task.57A269372AAD28C6.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.reforging.quest.658C9A0DDEC15431.title}"
 			x: -9.0d
 			y: -16.5d
 		}

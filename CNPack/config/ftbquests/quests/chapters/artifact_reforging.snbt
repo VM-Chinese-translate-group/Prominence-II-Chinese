@@ -15,6 +15,7 @@
 	id: "13D4D78DE7B38A80"
 	images: [
 		{
+			dependency: "6AD67E7C8CD78371"
 			height: 1.0d
 			image: "minecraft:block/campfire_fire"
 			rotation: 0.0d
@@ -40,6 +41,7 @@
 			y: 17.0d
 		}
 		{
+			dependency: "6AD67E7C8CD78371"
 			height: 2.0d
 			image: "prominent_talents:textures/frames/circle_selected.png"
 			rotation: 0.0d
@@ -48,6 +50,7 @@
 			y: 0.0d
 		}
 		{
+			dependency: "3453FD3CA0E3233A"
 			height: 2.0d
 			image: "prominent_talents:textures/frames/diamond_selected.png"
 			rotation: 0.0d
@@ -60,13 +63,14 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["45437B8E9AEEF2E5"]
 			description: [
-				"{ftbquests.chapter.artifact_reforging.quests0.description0}"
+				"{ftbquests.chapter.artifact_reforging.quest.6AD67E7C8CD78371.description0}"
 				""
-				"{ftbquests.chapter.artifact_reforging.quests0.description2}"
-				"{ftbquests.chapter.artifact_reforging.quests0.description3}"
+				"{ftbquests.chapter.artifact_reforging.quest.6AD67E7C8CD78371.description2}"
+				"{ftbquests.chapter.artifact_reforging.quest.6AD67E7C8CD78371.description3}"
 				""
-				"{ftbquests.chapter.artifact_reforging.quests0.description5}"
+				"{ftbquests.chapter.artifact_reforging.quest.6AD67E7C8CD78371.description5}"
 			]
 			icon: "prominent:molten_core"
 			id: "6AD67E7C8CD78371"
@@ -85,7 +89,7 @@
 			]
 			shape: "none"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests0.subtitle}"
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.6AD67E7C8CD78371.subtitle}"
 			tasks: [
 				{
 					id: "035441107821B3C1"
@@ -95,178 +99,164 @@
 				{
 					id: "56A625D024CDB2DE"
 					item: "things:hardening_catalyst"
-					title: "{ftbquests.chapter.artifact_reforging.quests0.tasks1.title}"
+					title: "{ftbquests.chapter.artifact_reforging.quest.6AD67E7C8CD78371.task.56A625D024CDB2DE.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.artifact_reforging.quests0.title}"
+			title: "{ftbquests.chapter.artifact_reforging.quest.6AD67E7C8CD78371.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6AD67E7C8CD78371"]
 			description: [
-				"{ftbquests.chapter.artifact_reforging.quests1.description0}"
+				"{ftbquests.chapter.artifact_reforging.quest.341DB238063321BF.description0}"
 				""
 				""
-				"{ftbquests.chapter.artifact_reforging.quests1.description3}"
+				"{ftbquests.chapter.artifact_reforging.quest.341DB238063321BF.description3}"
 			]
 			id: "341DB238063321BF"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests1.subtitle}"
-			tasks: [
-				{
-					id: "7F239D03EBB09534"
-					item: {
-						Count: 1
-						id: "prominent:frostmourne"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.341DB238063321BF.subtitle}"
+			tasks: [{
+				id: "7F239D03EBB09534"
+				item: {
+					Count: 1
+					id: "prominent:frostmourne"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6AD67E7C8CD78371"]
 			description: [
-				"{ftbquests.chapter.artifact_reforging.quests2.description0}"
+				"{ftbquests.chapter.artifact_reforging.quest.6D1B83D633AB7558.description0}"
 				""
 				""
-				"{ftbquests.chapter.artifact_reforging.quests2.description3}"
+				"{ftbquests.chapter.artifact_reforging.quest.6D1B83D633AB7558.description3}"
 			]
 			id: "6D1B83D633AB7558"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests2.subtitle}"
-			tasks: [
-				{
-					id: "52D24DAEDFD19F9A"
-					item: {
-						Count: 1
-						id: "prominent:fyralath"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.6D1B83D633AB7558.subtitle}"
+			tasks: [{
+				id: "52D24DAEDFD19F9A"
+				item: {
+					Count: 1
+					id: "prominent:fyralath"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6AD67E7C8CD78371"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests3.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.5D03084D09D2A997.description0}"]
 			id: "5D03084D09D2A997"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests3.subtitle}"
-			tasks: [
-				{
-					id: "43F5AAA9405EE27D"
-					item: {
-						Count: 1
-						id: "prominent:azhar"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.5D03084D09D2A997.subtitle}"
+			tasks: [{
+				id: "43F5AAA9405EE27D"
+				item: {
+					Count: 1
+					id: "prominent:azhar"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6AD67E7C8CD78371"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests4.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.1CE7763C1889255C.description0}"]
 			id: "1CE7763C1889255C"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests4.subtitle}"
-			tasks: [
-				{
-					id: "6B6E9C04C7D69E89"
-					item: {
-						Count: 1
-						id: "prominent:supernova"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.1CE7763C1889255C.subtitle}"
+			tasks: [{
+				id: "6B6E9C04C7D69E89"
+				item: {
+					Count: 1
+					id: "prominent:supernova"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 2.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6AD67E7C8CD78371"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests5.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.211326D6B6C33A25.description0}"]
 			id: "211326D6B6C33A25"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests5.subtitle}"
-			tasks: [
-				{
-					id: "3D838C3D611886A5"
-					item: {
-						Count: 1
-						id: "prominent:fury_of_a_thousand_fists"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.211326D6B6C33A25.subtitle}"
+			tasks: [{
+				id: "3D838C3D611886A5"
+				item: {
+					Count: 1
+					id: "prominent:fury_of_a_thousand_fists"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -2.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6AD67E7C8CD78371"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests6.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.50EB37F863EA810B.description0}"]
 			id: "50EB37F863EA810B"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests6.subtitle}"
-			tasks: [
-				{
-					id: "22CACA94593603A7"
-					item: {
-						Count: 1
-						id: "prominent:thunderwrath"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.50EB37F863EA810B.subtitle}"
+			tasks: [{
+				id: "22CACA94593603A7"
+				item: {
+					Count: 1
+					id: "prominent:thunderwrath"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6AD67E7C8CD78371"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests7.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.29425DCD7396CE49.description0}"]
 			id: "29425DCD7396CE49"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests7.subtitle}"
-			tasks: [
-				{
-					id: "37DE8677AEA5721E"
-					item: "prominent:ashedar_essence"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.29425DCD7396CE49.subtitle}"
+			tasks: [{
+				id: "37DE8677AEA5721E"
+				item: "prominent:ashedar_essence"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6AD67E7C8CD78371"]
 			description: [
-				"{ftbquests.chapter.artifact_reforging.quests8.description0}"
+				"{ftbquests.chapter.artifact_reforging.quest.6313DD656A95E8C0.description0}"
 				""
-				"{ftbquests.chapter.artifact_reforging.quests8.description2}"
+				"{ftbquests.chapter.artifact_reforging.quest.6313DD656A95E8C0.description2}"
 			]
 			icon: {
 				Count: 1
@@ -277,20 +267,18 @@
 			}
 			id: "6313DD656A95E8C0"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests8.subtitle}"
-			tasks: [
-				{
-					id: "133C7DC53BD48F85"
-					item: {
-						Count: 1
-						id: "prominent:ekavar_staff"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.6313DD656A95E8C0.subtitle}"
+			tasks: [{
+				id: "133C7DC53BD48F85"
+				item: {
+					Count: 1
+					id: "prominent:ekavar_staff"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -1.0d
 			y: -3.0d
 		}
@@ -300,54 +288,50 @@
 			icon: "prominent:orion"
 			id: "4C2EFCB93288D047"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests9.subtitle}"
-			tasks: [
-				{
-					id: "3068576CA6850BF1"
-					item: "prominent:orion"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.4C2EFCB93288D047.subtitle}"
+			tasks: [{
+				id: "3068576CA6850BF1"
+				item: "prominent:orion"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6AD67E7C8CD78371"]
 			description: [
-				"{ftbquests.chapter.artifact_reforging.quests10.description0}"
+				"{ftbquests.chapter.artifact_reforging.quest.3453FD3CA0E3233A.description0}"
 				""
-				"{ftbquests.chapter.artifact_reforging.quests10.description2}"
+				"{ftbquests.chapter.artifact_reforging.quest.3453FD3CA0E3233A.description2}"
 				""
-				"{ftbquests.chapter.artifact_reforging.quests10.description4}"
+				"{ftbquests.chapter.artifact_reforging.quest.3453FD3CA0E3233A.description4}"
 				""
-				"{ftbquests.chapter.artifact_reforging.quests10.description6}"
+				"{ftbquests.chapter.artifact_reforging.quest.3453FD3CA0E3233A.description6}"
 			]
 			icon: "prominent:molten_remnant"
 			id: "3453FD3CA0E3233A"
-			rewards: [
-				{
-					id: "76103A7FBD55037B"
-					item: "prominent:molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "76103A7FBD55037B"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
 			shape: "none"
 			size: 1.65d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.3453FD3CA0E3233A.subtitle}"
 			tasks: [
 				{
 					id: "559B1BA85C721A6D"
-					title: "{ftbquests.chapter.artifact_reforging.quests10.tasks0.title}"
+					title: "{ftbquests.chapter.artifact_reforging.quest.3453FD3CA0E3233A.task.559B1BA85C721A6D.title}"
 					type: "checkmark"
 				}
 				{
 					id: "7F2A2E7F3E7BF665"
 					item: "prominent:infused_molten_remnant"
-					title: "{ftbquests.chapter.artifact_reforging.quests10.tasks1.title}"
+					title: "{ftbquests.chapter.artifact_reforging.quest.3453FD3CA0E3233A.task.7F2A2E7F3E7BF665.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.artifact_reforging.quests10.title}"
+			title: "{ftbquests.chapter.artifact_reforging.quest.3453FD3CA0E3233A.title}"
 			x: 0.0d
 			y: 2.475d
 		}
@@ -379,7 +363,7 @@
 				"0ACF3A88C52C2F6E"
 				"36916D6575BB39B7"
 			]
-			description: ["{ftbquests.chapter.artifact_reforging.quests11.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.6357A4EEEB4B98EF.description0}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -391,32 +375,28 @@
 			}
 			id: "6357A4EEEB4B98EF"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "the_bumblezone:item/essence/knowing"
-						}
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:item/essence/knowing"
 					}
-					id: "0EED6BD5D17E433F"
-					title: "{ftbquests.chapter.artifact_reforging.quests11.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "0EED6BD5D17E433F"
+				title: "{ftbquests.chapter.artifact_reforging.quest.6357A4EEEB4B98EF.reward.0EED6BD5D17E433F.title}"
+				type: "custom"
+			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests11.subtitle}"
-			tasks: [
-				{
-					id: "46488029B9E64840"
-					title: "{ftbquests.chapter.artifact_reforging.quests11.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests11.title}"
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.6357A4EEEB4B98EF.subtitle}"
+			tasks: [{
+				id: "46488029B9E64840"
+				title: "{ftbquests.chapter.artifact_reforging.quest.6357A4EEEB4B98EF.task.46488029B9E64840.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.6357A4EEEB4B98EF.title}"
 			x: 0.0d
 			y: -17.25d
 		}
@@ -432,20 +412,18 @@
 			}
 			id: "077B4D52C71E918E"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests12.subtitle}"
-			tasks: [
-				{
-					id: "4FA80A031C7448BD"
-					item: "prominent:vaazkar"
-					type: "item"
-				}
-			]
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.077B4D52C71E918E.subtitle}"
+			tasks: [{
+				id: "4FA80A031C7448BD"
+				item: "prominent:vaazkar"
+				type: "item"
+			}]
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6AD67E7C8CD78371"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests13.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.6999531248BA0AB3.description0}"]
 			icon: {
 				Count: 1
 				id: "prominent:skillet"
@@ -461,292 +439,260 @@
 			}
 			id: "6999531248BA0AB3"
 			invisible: true
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:item/cinderstone_trophy"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:item/cinderstone_trophy"
 					}
-					id: "74C384DBFEA6CF28"
-					title: "{ftbquests.chapter.artifact_reforging.quests13.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "74C384DBFEA6CF28"
+				title: "{ftbquests.chapter.artifact_reforging.quest.6999531248BA0AB3.reward.74C384DBFEA6CF28.title}"
+				type: "custom"
+			}]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests13.subtitle}"
-			tasks: [
-				{
-					id: "5E0FF5030814F464"
-					item: {
-						Count: 1
-						id: "prominent:skillet"
-						tag: {
-							Damage: 0
-							boundArtifact: [I;
-								-509841217
-								1799570245
-								-1395779439
-								-155772242
-							]
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.6999531248BA0AB3.subtitle}"
+			tasks: [{
+				id: "5E0FF5030814F464"
+				item: {
+					Count: 1
+					id: "prominent:skillet"
+					tag: {
+						Damage: 0
+						boundArtifact: [I;
+							-509841217
+							1799570245
+							-1395779439
+							-155772242
+						]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 0.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["1CE7763C1889255C"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests14.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.7E00ACC74ECC5E1D.description0}"]
 			id: "7E00ACC74ECC5E1D"
 			invisible: true
-			rewards: [
-				{
-					id: "7AB2264D08A2B514"
-					item: "prominent:illusion_of_supernova"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7AB2264D08A2B514"
+				item: "prominent:illusion_of_supernova"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests14.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.7E00ACC74ECC5E1D.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "689F97A82495BC11"
-					stat: "prominent:hck_supernova"
-					title: "{ftbquests.chapter.artifact_reforging.quests14.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests14.title}"
+				id: "689F97A82495BC11"
+				stat: "prominent:hck_supernova"
+				title: "{ftbquests.chapter.artifact_reforging.quest.7E00ACC74ECC5E1D.task.689F97A82495BC11.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.7E00ACC74ECC5E1D.title}"
 			x: 3.375d
 			y: -1.5d
 		}
 		{
 			dependencies: ["50EB37F863EA810B"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests15.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.1D001B61D62F0C01.description0}"]
 			id: "1D001B61D62F0C01"
 			invisible: true
-			rewards: [
-				{
-					id: "6874C841A9DBA8C8"
-					item: "prominent:illusion_of_thunderwrath"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6874C841A9DBA8C8"
+				item: "prominent:illusion_of_thunderwrath"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests15.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.1D001B61D62F0C01.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "3A9375419742883C"
-					stat: "prominent:hck_thunderwrath"
-					title: "{ftbquests.chapter.artifact_reforging.quests15.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests15.title}"
+				id: "3A9375419742883C"
+				stat: "prominent:hck_thunderwrath"
+				title: "{ftbquests.chapter.artifact_reforging.quest.1D001B61D62F0C01.task.3A9375419742883C.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.1D001B61D62F0C01.title}"
 			x: 2.625d
 			y: -2.625d
 		}
 		{
 			dependencies: ["6313DD656A95E8C0"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests16.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.0B7839A1622323AE.description0}"]
 			id: "0B7839A1622323AE"
 			invisible: true
-			rewards: [
-				{
-					id: "7F85E2A737B11837"
-					item: "prominent:illusion_of_ekavar_staff"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7F85E2A737B11837"
+				item: "prominent:illusion_of_ekavar_staff"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests16.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.0B7839A1622323AE.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "114FC153EA628253"
-					stat: "prominent:hck_ekavar"
-					title: "{ftbquests.chapter.artifact_reforging.quests16.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests16.title}"
+				id: "114FC153EA628253"
+				stat: "prominent:hck_ekavar"
+				title: "{ftbquests.chapter.artifact_reforging.quest.0B7839A1622323AE.task.114FC153EA628253.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.0B7839A1622323AE.title}"
 			x: -1.5d
 			y: -3.75d
 		}
 		{
 			dependencies: ["341DB238063321BF"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests17.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.0B892A8A2394EB7C.description0}"]
 			id: "0B892A8A2394EB7C"
 			invisible: true
-			rewards: [
-				{
-					id: "37FC16AE87800195"
-					item: "prominent:illusion_of_frostmourne"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "37FC16AE87800195"
+				item: "prominent:illusion_of_frostmourne"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests17.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.0B892A8A2394EB7C.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "34D1DFEFC3811ACF"
-					stat: "prominent:hck_frostmourne"
-					title: "{ftbquests.chapter.artifact_reforging.quests17.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests17.title}"
+				id: "34D1DFEFC3811ACF"
+				stat: "prominent:hck_frostmourne"
+				title: "{ftbquests.chapter.artifact_reforging.quest.0B892A8A2394EB7C.task.34D1DFEFC3811ACF.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.0B892A8A2394EB7C.title}"
 			x: -2.625d
 			y: -2.625d
 		}
 		{
 			dependencies: ["211326D6B6C33A25"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests18.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.61CEEB526443BFBE.description0}"]
 			id: "61CEEB526443BFBE"
 			invisible: true
-			rewards: [
-				{
-					id: "5F1AB87437C9214A"
-					item: "prominent:illusion_of_fury_of_a_thousand_fists"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5F1AB87437C9214A"
+				item: "prominent:illusion_of_fury_of_a_thousand_fists"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests18.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.61CEEB526443BFBE.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "2D509079109121BC"
-					stat: "prominent:hck_fury_of_a_thousand_fists"
-					title: "{ftbquests.chapter.artifact_reforging.quests18.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests18.title}"
+				id: "2D509079109121BC"
+				stat: "prominent:hck_fury_of_a_thousand_fists"
+				title: "{ftbquests.chapter.artifact_reforging.quest.61CEEB526443BFBE.task.2D509079109121BC.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.61CEEB526443BFBE.title}"
 			x: -3.375d
 			y: -1.5d
 		}
 		{
 			dependencies: ["077B4D52C71E918E"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests19.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.78AAA28EC532AD64.description0}"]
 			id: "78AAA28EC532AD64"
 			invisible: true
-			rewards: [
-				{
-					id: "2D37907A06C8F7C3"
-					item: "prominent:illusion_of_vaazkar"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2D37907A06C8F7C3"
+				item: "prominent:illusion_of_vaazkar"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests19.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.78AAA28EC532AD64.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "174961978515852E"
-					stat: "prominent:hck_vaazkar"
-					title: "{ftbquests.chapter.artifact_reforging.quests19.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests19.title}"
+				id: "174961978515852E"
+				stat: "prominent:hck_vaazkar"
+				title: "{ftbquests.chapter.artifact_reforging.quest.78AAA28EC532AD64.task.174961978515852E.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.78AAA28EC532AD64.title}"
 			x: 1.5d
 			y: -3.75d
 		}
 		{
 			dependencies: ["4C2EFCB93288D047"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests20.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.5B27C3D3E677563D.description0}"]
 			id: "5B27C3D3E677563D"
 			invisible: true
-			rewards: [
-				{
-					id: "532ED5976A9851CC"
-					item: "prominent:illusion_of_orion"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "532ED5976A9851CC"
+				item: "prominent:illusion_of_orion"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests20.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.5B27C3D3E677563D.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "362AF7764A395640"
-					stat: "prominent:hck_orion"
-					title: "{ftbquests.chapter.artifact_reforging.quests20.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests20.title}"
+				id: "362AF7764A395640"
+				stat: "prominent:hck_orion"
+				title: "{ftbquests.chapter.artifact_reforging.quest.5B27C3D3E677563D.task.362AF7764A395640.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.5B27C3D3E677563D.title}"
 			x: 3.75d
 			y: -0.375d
 		}
 		{
 			dependencies: ["29425DCD7396CE49"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests21.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.3310DA8006063D56.description0}"]
 			id: "3310DA8006063D56"
 			invisible: true
 			rewards: [
@@ -763,94 +709,84 @@
 			]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests21.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.3310DA8006063D56.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "4AE9CB829D6B6111"
-					stat: "prominent:hck_ashedar"
-					title: "{ftbquests.chapter.artifact_reforging.quests21.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests21.title}"
+				id: "4AE9CB829D6B6111"
+				stat: "prominent:hck_ashedar"
+				title: "{ftbquests.chapter.artifact_reforging.quest.3310DA8006063D56.task.4AE9CB829D6B6111.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.3310DA8006063D56.title}"
 			x: 3.375d
 			y: 0.75d
 		}
 		{
 			dependencies: ["6D1B83D633AB7558"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests22.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.3D8ECB6FDDF81AD9.description0}"]
 			id: "3D8ECB6FDDF81AD9"
 			invisible: true
-			rewards: [
-				{
-					id: "4F2B8D07B90C58EE"
-					item: "prominent:illusion_of_fyralath"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4F2B8D07B90C58EE"
+				item: "prominent:illusion_of_fyralath"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests22.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.3D8ECB6FDDF81AD9.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "6F71CF32ABA0F784"
-					stat: "prominent:hck_fyralath"
-					title: "{ftbquests.chapter.artifact_reforging.quests22.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests22.title}"
+				id: "6F71CF32ABA0F784"
+				stat: "prominent:hck_fyralath"
+				title: "{ftbquests.chapter.artifact_reforging.quest.3D8ECB6FDDF81AD9.task.6F71CF32ABA0F784.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.3D8ECB6FDDF81AD9.title}"
 			x: -3.75d
 			y: -0.375d
 		}
 		{
 			dependencies: ["5D03084D09D2A997"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests23.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.5D6E6FEA75B80066.description0}"]
 			id: "5D6E6FEA75B80066"
 			invisible: true
-			rewards: [
-				{
-					id: "2F8ADED4DAA330BE"
-					item: "prominent:illusion_of_azhar"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2F8ADED4DAA330BE"
+				item: "prominent:illusion_of_azhar"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests23.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.5D6E6FEA75B80066.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "7D91B899C686279C"
-					stat: "prominent:hck_azhar"
-					title: "{ftbquests.chapter.artifact_reforging.quests23.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests23.title}"
+				id: "7D91B899C686279C"
+				stat: "prominent:hck_azhar"
+				title: "{ftbquests.chapter.artifact_reforging.quest.5D6E6FEA75B80066.task.7D91B899C686279C.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.5D6E6FEA75B80066.title}"
 			x: -3.375d
 			y: 0.75d
 		}
@@ -859,26 +795,24 @@
 			description: [""]
 			id: "4775EFD3B854946E"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests24.subtitle}"
-			tasks: [
-				{
-					id: "319EB24C08B33386"
-					item: {
-						Count: 1
-						id: "prominent:ghaj"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.4775EFD3B854946E.subtitle}"
+			tasks: [{
+				id: "319EB24C08B33386"
+				item: {
+					Count: 1
+					id: "prominent:ghaj"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 0.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4775EFD3B854946E"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests25.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.1E19147A29D45714.description0}"]
 			id: "1E19147A29D45714"
 			invisible: true
 			rewards: [{
@@ -888,24 +822,22 @@
 			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests25.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.1E19147A29D45714.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
-					id: "6A182FF8D6012B23"
-					stat: "prominent:hck_ghaj"
-					title: "{ftbquests.chapter.artifact_reforging.quests25.tasks0.title}"
-					type: "stat"
-					value: 10
 				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests25.title}"
+				id: "6A182FF8D6012B23"
+				stat: "prominent:hck_ghaj"
+				title: "{ftbquests.chapter.artifact_reforging.quest.1E19147A29D45714.task.6A182FF8D6012B23.title}"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.1E19147A29D45714.title}"
 			x: 0.0d
 			y: -4.267857142857146d
 		}
@@ -913,14 +845,12 @@
 			dependencies: ["6AD67E7C8CD78371"]
 			id: "1DE119EAC2B8E757"
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "0EDBBD5EC242CAAA"
-					title: "{ftbquests.chapter.artifact_reforging.quests26.tasks0.title}"
-					type: "custom"
-				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests26.title}"
+			tasks: [{
+				id: "0EDBBD5EC242CAAA"
+				title: "{ftbquests.chapter.artifact_reforging.quest.1DE119EAC2B8E757.task.0EDBBD5EC242CAAA.title}"
+				type: "custom"
+			}]
+			title: "{ftbquests.chapter.artifact_reforging.quest.1DE119EAC2B8E757.title}"
 			x: 2.0d
 			y: 2.0d
 		}
@@ -929,99 +859,51 @@
 			description: [""]
 			id: "0ACF3A88C52C2F6E"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests27.subtitle}"
-			tasks: [
-				{
-					id: "1E3C6D4ED246A31F"
-					item: {
-						Count: 1
-						id: "prominent:apophis"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.0ACF3A88C52C2F6E.subtitle}"
+			tasks: [{
+				id: "1E3C6D4ED246A31F"
+				item: {
+					Count: 1
+					id: "prominent:apophis"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0ACF3A88C52C2F6E"]
-			description: ["{ftbquests.chapter.artifact_reforging.quests28.description}"]
+			description: ["{ftbquests.chapter.artifact_reforging.quest.36916D6575BB39B7.description0}"]
 			id: "36916D6575BB39B7"
 			invisible: true
-			rewards: [
-				{
-					id: "652ADD700A1DAFCF"
-					item: "prominent:illusion_of_apophis"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "652ADD700A1DAFCF"
+				item: "prominent:illusion_of_apophis"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.artifact_reforging.quests28.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
-						}
-					}
-					id: "404CB33532E2BFA8"
-					stat: "prominent:hck_apophis"
-					title: "{ftbquests.chapter.artifact_reforging.quests28.tasks0.title}"
-					type: "stat"
-					value: 10
-				}
-			]
-			title: "{ftbquests.chapter.artifact_reforging.quests28.title}"
-			x: -2.857142857142854d
-			y: 2.1964285714285765d
-		}
-		{
-			can_repeat: false
-			dependencies: ["341DB238063321BF"]
-			description: [
-				"{ftbquests.chapter.artifact_reforging.quests29.description0}"
-				""
-				"{ftbquests.chapter.artifact_reforging.quests29.description2}"
-			]
-			icon: {
-				Count: 1
-				id: "prominent:infused_molten_remnant"
-				tag: { }
-			}
-			id: "751FAEF8C64D4FEF"
-			optional: true
-			rewards: [{
-				auto: "no_toast"
-				command: "/puffish_skills skills reset @s puffish_skills:frostmourne"
-				elevate_perms: true
+			subtitle: "{ftbquests.chapter.artifact_reforging.quest.36916D6575BB39B7.subtitle}"
+			tasks: [{
 				icon: {
 					Count: 1
-					id: "prominent:frostmourne"
+					id: "ftbquests:custom_icon"
 					tag: {
-						Damage: 0
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
 					}
 				}
-				id: "2DB6B9CADE1B3EA7"
-				silent: true
-				title: "{ftbquests.chapter.artifact_reforging.quests29.rewards0.title}"
-				type: "command"
+				id: "404CB33532E2BFA8"
+				stat: "prominent:hck_apophis"
+				title: "{ftbquests.chapter.artifact_reforging.quest.36916D6575BB39B7.task.404CB33532E2BFA8.title}"
+				type: "stat"
+				value: 10
 			}]
-			shape: "hexagon"
-			size: 0.75d
-			tasks: [{
-				id: "1C11339F345F5C87"
-				title: "{ftbquests.chapter.artifact_reforging.quests29.tasks0.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.artifact_reforging.quests29.title}"
-			x: -1.982142857142854d
-			y: -2.892857142857139d
+			title: "{ftbquests.chapter.artifact_reforging.quest.36916D6575BB39B7.title}"
+			x: -2.857142857142854d
+			y: 2.1964285714285765d
 		}
 	]
 	title: "{ftbquests.chapter.artifact_reforging.title}"

@@ -11,17 +11,15 @@
 	quests: [
 		{
 			dependencies: ["5DFDAAA27B3775A3"]
-			description: ["{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests0.description}"]
+			description: ["{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.26C8BD551FCBAF73.description0}"]
 			disable_toast: true
 			id: "26C8BD551FCBAF73"
-			rewards: [
-				{
-					id: "785C021A2B2B0D02"
-					type: "xp"
-					xp: 15
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests0.subtitle}"
+			rewards: [{
+				id: "785C021A2B2B0D02"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.26C8BD551FCBAF73.subtitle}"
 			tasks: [
 				{
 					id: "3ECB3F6B6447E99A"
@@ -34,29 +32,25 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests0.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.26C8BD551FCBAF73.title}"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			id: "268F53C03707BD12"
-			rewards: [
-				{
-					id: "3C0082317FD109A3"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests1.subtitle}"
-			tasks: [
-				{
-					count: 16L
-					id: "3F40947A53DAE566"
-					item: "soulsweapons:lost_soul"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests1.title}"
+			rewards: [{
+				id: "3C0082317FD109A3"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.268F53C03707BD12.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "3F40947A53DAE566"
+				item: "soulsweapons:lost_soul"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.268F53C03707BD12.title}"
 			x: 2.5d
 			y: -0.5d
 		}
@@ -64,29 +58,25 @@
 			dependencies: ["268F53C03707BD12"]
 			dependency_requirement: "one_completed"
 			id: "2C1F39A39A290603"
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests2.subtitle}"
-			tasks: [
-				{
-					id: "3B91CBD4E6AD762A"
-					item: "soulsweapons:soul_ingot"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests2.title}"
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2C1F39A39A290603.subtitle}"
+			tasks: [{
+				id: "3B91CBD4E6AD762A"
+				item: "soulsweapons:soul_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2C1F39A39A290603.title}"
 			x: 4.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["268F53C03707BD12"]
 			id: "3C8F644900CAEDC9"
-			rewards: [
-				{
-					id: "56007B4A26AD8271"
-					type: "xp"
-					xp: 15
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests3.subtitle}"
+			rewards: [{
+				id: "56007B4A26AD8271"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.3C8F644900CAEDC9.subtitle}"
 			tasks: [
 				{
 					id: "1A1CDB9DCAB3A785"
@@ -109,30 +99,26 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests3.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.3C8F644900CAEDC9.title}"
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["268F53C03707BD12"]
 			id: "641AF242F215A514"
-			rewards: [
-				{
-					id: "4256FBD3DE39ABB6"
-					type: "xp"
-					xp: 15
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests4.subtitle}"
-			tasks: [
-				{
-					count: 10L
-					id: "56ADA0DBFA97A758"
-					item: "soulsweapons:silver_bullet"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests4.title}"
+			rewards: [{
+				id: "4256FBD3DE39ABB6"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.641AF242F215A514.subtitle}"
+			tasks: [{
+				count: 10L
+				id: "56ADA0DBFA97A758"
+				item: "soulsweapons:silver_bullet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.641AF242F215A514.title}"
 			x: 2.5d
 			y: -3.5d
 		}
@@ -153,21 +139,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests5.subtitle}"
-			tasks: [
-				{
-					id: "604F0DEC55BB9A81"
-					item: {
-						Count: 1
-						id: "soulsweapons:hunter_pistol"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2F653991D06FC852.subtitle}"
+			tasks: [{
+				id: "604F0DEC55BB9A81"
+				item: {
+					Count: 1
+					id: "soulsweapons:hunter_pistol"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests5.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2F653991D06FC852.title}"
 			x: 1.0d
 			y: -4.5d
 		}
@@ -187,21 +171,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests6.subtitle}"
-			tasks: [
-				{
-					id: "09F0E4B368AEA5DB"
-					item: {
-						Count: 1
-						id: "soulsweapons:blunderbuss"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.09BB4C83D6205DF4.subtitle}"
+			tasks: [{
+				id: "09F0E4B368AEA5DB"
+				item: {
+					Count: 1
+					id: "soulsweapons:blunderbuss"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests6.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.09BB4C83D6205DF4.title}"
 			x: 3.0d
 			y: -5.0d
 		}
@@ -221,21 +203,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests7.subtitle}"
-			tasks: [
-				{
-					id: "7A38B94629479054"
-					item: {
-						Count: 1
-						id: "soulsweapons:hunter_cannon"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.63BD2F237D30E20A.subtitle}"
+			tasks: [{
+				id: "7A38B94629479054"
+				item: {
+					Count: 1
+					id: "soulsweapons:hunter_cannon"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests7.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.63BD2F237D30E20A.title}"
 			x: 4.0d
 			y: -4.5d
 		}
@@ -256,57 +236,49 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests8.subtitle}"
-			tasks: [
-				{
-					id: "6002A26D3270EC99"
-					item: {
-						Count: 1
-						id: "soulsweapons:gatling_gun"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.53EB43DACB33BA8C.subtitle}"
+			tasks: [{
+				id: "6002A26D3270EC99"
+				item: {
+					Count: 1
+					id: "soulsweapons:gatling_gun"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests8.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.53EB43DACB33BA8C.title}"
 			x: 2.0d
 			y: -5.0d
 		}
 		{
 			id: "1430801A35C89C20"
-			rewards: [
-				{
-					id: "54013FCD1E8821B9"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests9.subtitle}"
-			tasks: [
-				{
-					count: 9L
-					id: "2C60636D9E1B1A87"
-					item: "soulsweapons:chungus_emerald"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests9.title}"
+			rewards: [{
+				id: "54013FCD1E8821B9"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.1430801A35C89C20.subtitle}"
+			tasks: [{
+				count: 9L
+				id: "2C60636D9E1B1A87"
+				item: "soulsweapons:chungus_emerald"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.1430801A35C89C20.title}"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2C1F39A39A290603"]
 			id: "38071F25062C6A80"
-			rewards: [
-				{
-					id: "02159359C701600D"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests10.subtitle}"
+			rewards: [{
+				id: "02159359C701600D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.38071F25062C6A80.subtitle}"
 			tasks: [
 				{
 					id: "43A7A694636F3248"
@@ -342,14 +314,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests10.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.38071F25062C6A80.title}"
 			x: 3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "306D0FC3908C6348"
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.306D0FC3908C6348.subtitle}"
 			tasks: [
 				{
 					id: "514C65E9419D368B"
@@ -396,29 +368,25 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests11.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.306D0FC3908C6348.title}"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "731E965C4BF7565E"
-			rewards: [
-				{
-					id: "0659FB40CE13B9A5"
-					type: "xp"
-					xp: 15
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests12.subtitle}"
-			tasks: [
-				{
-					id: "25B8B67FB1EA4200"
-					item: "soulsweapons:boss_compass"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests12.title}"
+			rewards: [{
+				id: "0659FB40CE13B9A5"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.731E965C4BF7565E.subtitle}"
+			tasks: [{
+				id: "25B8B67FB1EA4200"
+				item: "soulsweapons:boss_compass"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.731E965C4BF7565E.title}"
 			x: -2.0d
 			y: 2.0d
 		}
@@ -426,22 +394,18 @@
 			dependencies: ["731E965C4BF7565E"]
 			icon: "graveyard:leaning_skeleton"
 			id: "1EDBB06BF4D86561"
-			rewards: [
-				{
-					id: "2D16503EB0521936"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests13.subtitle}"
-			tasks: [
-				{
-					id: "666236AD26DCF0C8"
-					structure: "soulsweapons:champions_graves"
-					title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests13.tasks0.title}"
-					type: "structure"
-				}
-			]
+			rewards: [{
+				id: "2D16503EB0521936"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.1EDBB06BF4D86561.subtitle}"
+			tasks: [{
+				id: "666236AD26DCF0C8"
+				structure: "soulsweapons:champions_graves"
+				title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.1EDBB06BF4D86561.task.666236AD26DCF0C8.title}"
+				type: "structure"
+			}]
 			x: -3.5d
 			y: 1.0d
 		}
@@ -449,22 +413,18 @@
 			dependencies: ["731E965C4BF7565E"]
 			icon: "soulsweapons:cracked_infused_blackstone"
 			id: "4667630C9656EDDD"
-			rewards: [
-				{
-					id: "75E4B9F9964605B9"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests14.subtitle}"
-			tasks: [
-				{
-					entity: "soulsweapons:accursed_lord_boss"
-					id: "54E0D07EC0FDE02C"
-					type: "kill"
-					value: 1L
-				}
-			]
+			rewards: [{
+				id: "75E4B9F9964605B9"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.4667630C9656EDDD.subtitle}"
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				id: "54E0D07EC0FDE02C"
+				type: "kill"
+				value: 1L
+			}]
 			x: -3.5d
 			y: 2.0d
 		}
@@ -485,7 +445,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.1908F3903A63062B.subtitle}"
 			tasks: [
 				{
 					id: "22A32D00123EF149"
@@ -498,7 +458,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests15.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.1908F3903A63062B.title}"
 			x: -5.5d
 			y: 2.0d
 		}
@@ -519,7 +479,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.1EA2FE83DF292A85.subtitle}"
 			tasks: [
 				{
 					id: "306B22E67205A029"
@@ -544,7 +504,7 @@
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests16.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.1EA2FE83DF292A85.title}"
 			x: -5.5d
 			y: 1.0d
 		}
@@ -552,14 +512,12 @@
 			dependencies: ["3B0C386899373F73"]
 			icon: "soulsweapons:lord_soul_rose"
 			id: "31074978BAD2832F"
-			rewards: [
-				{
-					id: "0F932F96667FA3CD"
-					type: "xp"
-					xp: 45
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests17.subtitle}"
+			rewards: [{
+				id: "0F932F96667FA3CD"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.31074978BAD2832F.subtitle}"
 			tasks: [
 				{
 					id: "748EE6B36DC033CD"
@@ -600,7 +558,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests17.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.31074978BAD2832F.title}"
 			x: -5.5d
 			y: 4.0d
 		}
@@ -608,14 +566,12 @@
 			dependencies: ["31074978BAD2832F"]
 			icon: "soulsweapons:lord_soul_white"
 			id: "2A44985BAF8FC85F"
-			rewards: [
-				{
-					id: "022C667644B9E03C"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests18.subtitle}"
+			rewards: [{
+				id: "022C667644B9E03C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2A44985BAF8FC85F.subtitle}"
 			tasks: [
 				{
 					id: "513B98489CFD1402"
@@ -634,7 +590,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests18.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2A44985BAF8FC85F.title}"
 			x: -7.5d
 			y: 4.0d
 		}
@@ -642,14 +598,12 @@
 			dependencies: ["7D2E63E7DC4FDF32"]
 			icon: "soulsweapons:lord_soul_void"
 			id: "4797F8F75E4E1EC2"
-			rewards: [
-				{
-					id: "79069C9FB730673B"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests19.subtitle}"
+			rewards: [{
+				id: "79069C9FB730673B"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.4797F8F75E4E1EC2.subtitle}"
 			tasks: [
 				{
 					id: "4058B9713C9B8505"
@@ -662,70 +616,60 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests19.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.4797F8F75E4E1EC2.title}"
 			x: -5.5d
 			y: 3.0d
 		}
 		{
 			id: "6C70C60A96AC2862"
-			rewards: [
-				{
-					id: "6E1C22073BFCCD99"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests20.subtitle}"
-			tasks: [
-				{
-					id: "6977EF420975B77A"
-					item: "soulsweapons:lord_soul_purple"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests20.title}"
+			rewards: [{
+				id: "6E1C22073BFCCD99"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.6C70C60A96AC2862.subtitle}"
+			tasks: [{
+				id: "6977EF420975B77A"
+				item: "soulsweapons:lord_soul_purple"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.6C70C60A96AC2862.title}"
 			x: -5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6FFB1706571FEA29"]
 			id: "3B71FB3AE821FA02"
-			rewards: [
-				{
-					id: "5965491A3E622D8D"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests21.subtitle}"
-			tasks: [
-				{
-					id: "0E4427FFDCF83625"
-					item: {
-						Count: 1
-						id: "soulsweapons:moonstone_ring"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "5965491A3E622D8D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.3B71FB3AE821FA02.subtitle}"
+			tasks: [{
+				id: "0E4427FFDCF83625"
+				item: {
+					Count: 1
+					id: "soulsweapons:moonstone_ring"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests21.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.3B71FB3AE821FA02.title}"
 			x: -6.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "50A5E551E0CD8765"
-			rewards: [
-				{
-					id: "384FFEBF715F8AD2"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests22.subtitle}"
+			rewards: [{
+				id: "384FFEBF715F8AD2"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.50A5E551E0CD8765.subtitle}"
 			tasks: [
 				{
 					id: "591AB2A0E90CB276"
@@ -750,21 +694,19 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests22.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.50A5E551E0CD8765.title}"
 			x: -3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["50A5E551E0CD8765"]
 			id: "6FFB1706571FEA29"
-			rewards: [
-				{
-					id: "2023D2304B32AF15"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests23.subtitle}"
+			rewards: [{
+				id: "2023D2304B32AF15"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.6FFB1706571FEA29.subtitle}"
 			tasks: [
 				{
 					id: "48DCD09A0A871EE1"
@@ -789,86 +731,76 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests23.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.6FFB1706571FEA29.title}"
 			x: -4.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "7CF8A1A229D73A92"
-			rewards: [
-				{
-					id: "51F0B6C338F30C65"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests25.subtitle}"
-			tasks: [
-				{
-					id: "3330062EEDC11DBF"
-					item: {
-						Count: 1
-						id: "soulsweapons:sting"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "51F0B6C338F30C65"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.7CF8A1A229D73A92.subtitle}"
+			tasks: [{
+				id: "3330062EEDC11DBF"
+				item: {
+					Count: 1
+					id: "soulsweapons:sting"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests25.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.7CF8A1A229D73A92.title}"
 			x: 2.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7CF8A1A229D73A92"]
 			id: "5DCE51142E29CA7D"
-			rewards: [
-				{
-					id: "49B547B73E7F5BC0"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests26.subtitle}"
-			tasks: [
-				{
-					id: "6A3CBE5453333526"
-					item: {
-						Count: 1
-						id: "soulsweapons:holy_moonlight_sword"
-						tag: {
-							Damage: 0
-							current_charge: 0
-						}
+			rewards: [{
+				id: "49B547B73E7F5BC0"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.5DCE51142E29CA7D.subtitle}"
+			tasks: [{
+				id: "6A3CBE5453333526"
+				item: {
+					Count: 1
+					id: "soulsweapons:holy_moonlight_sword"
+					tag: {
+						Damage: 0
+						current_charge: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests26.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.5DCE51142E29CA7D.title}"
 			x: 4.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["731E965C4BF7565E"]
 			id: "7D2E63E7DC4FDF32"
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests27.subtitle}"
-			tasks: [
-				{
-					id: "60093F40E5DF21D0"
-					item: "soulsweapons:blackstone_pedestal"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests27.title}"
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.7D2E63E7DC4FDF32.subtitle}"
+			tasks: [{
+				id: "60093F40E5DF21D0"
+				item: "soulsweapons:blackstone_pedestal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.7D2E63E7DC4FDF32.title}"
 			x: -3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2C1F39A39A290603"]
 			id: "312B2DA72F1CFE6F"
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.312B2DA72F1CFE6F.subtitle}"
 			tasks: [
 				{
 					id: "5649B5CDF8BB6B50"
@@ -915,7 +847,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests28.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.312B2DA72F1CFE6F.title}"
 			x: 4.5d
 			y: -3.0d
 		}
@@ -923,7 +855,7 @@
 			dependencies: ["2C1F39A39A290603"]
 			hide_text_until_complete: false
 			id: "615E23C6448FD934"
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests29.subtitle}"
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.615E23C6448FD934.subtitle}"
 			tasks: [
 				{
 					id: "63E92BDC88AD4592"
@@ -970,140 +902,118 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests29.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.615E23C6448FD934.title}"
 			x: 5.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5DFDAAA27B3775A3"]
 			id: "22D6C1F126B44D65"
-			rewards: [
-				{
-					id: "7892653E45214C8E"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests30.subtitle}"
-			tasks: [
-				{
-					entity: "soulsweapons:withered_demon"
-					id: "5709B569D6FC88A3"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests30.title}"
+			rewards: [{
+				id: "7892653E45214C8E"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.22D6C1F126B44D65.subtitle}"
+			tasks: [{
+				entity: "soulsweapons:withered_demon"
+				id: "5709B569D6FC88A3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.22D6C1F126B44D65.title}"
 			x: 2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["22D6C1F126B44D65"]
 			id: "79EB51ACC5624106"
-			rewards: [
-				{
-					id: "7A82CE50D79C1D70"
-					type: "xp"
-					xp: 15
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests31.subtitle}"
-			tasks: [
-				{
-					id: "71750199863537CD"
-					item: "soulsweapons:demon_heart"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests31.title}"
+			rewards: [{
+				id: "7A82CE50D79C1D70"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.79EB51ACC5624106.subtitle}"
+			tasks: [{
+				id: "71750199863537CD"
+				item: "soulsweapons:demon_heart"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.79EB51ACC5624106.title}"
 			x: 4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["79EB51ACC5624106"]
 			id: "2E717252139F3121"
-			rewards: [
-				{
-					id: "739B9E72CA135E4A"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests32.subtitle}"
-			tasks: [
-				{
-					id: "264C335613C2E5DE"
-					item: "soulsweapons:demon_chunk"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests32.title}"
+			rewards: [{
+				id: "739B9E72CA135E4A"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2E717252139F3121.subtitle}"
+			tasks: [{
+				id: "264C335613C2E5DE"
+				item: "soulsweapons:demon_chunk"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2E717252139F3121.title}"
 			x: 5.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2E717252139F3121"]
 			id: "38B1E5E35DFDF751"
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests33.subtitle}"
-			tasks: [
-				{
-					id: "12101826E4B0D9FB"
-					item: "soulsweapons:crimson_ingot"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests33.title}"
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.38B1E5E35DFDF751.subtitle}"
+			tasks: [{
+				id: "12101826E4B0D9FB"
+				item: "soulsweapons:crimson_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.38B1E5E35DFDF751.title}"
 			x: 7.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2C1F39A39A290603"]
 			id: "643F26D2104DE762"
-			rewards: [
-				{
-					id: "011D544972AE1916"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests34.subtitle}"
-			tasks: [
-				{
-					id: "12FCE823DC1B9709"
-					item: {
-						Count: 1
-						id: "soulsweapons:soul_reaper"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "011D544972AE1916"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.643F26D2104DE762.subtitle}"
+			tasks: [{
+				id: "12FCE823DC1B9709"
+				item: {
+					Count: 1
+					id: "soulsweapons:soul_reaper"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests34.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.643F26D2104DE762.title}"
 			x: 7.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["643F26D2104DE762"]
 			id: "5BBEA076163E9742"
-			rewards: [
-				{
-					id: "729F7422E9B8D154"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests35.subtitle}"
-			tasks: [
-				{
-					entity: "soulsweapons:evil_forlorn"
-					id: "24632591264B1928"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests35.title}"
+			rewards: [{
+				id: "729F7422E9B8D154"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.5BBEA076163E9742.subtitle}"
+			tasks: [{
+				entity: "soulsweapons:evil_forlorn"
+				id: "24632591264B1928"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.5BBEA076163E9742.title}"
 			x: 7.0d
 			y: -2.0d
 		}
@@ -1117,14 +1027,12 @@
 				}
 			}
 			id: "2C8E7652FA14ED8F"
-			rewards: [
-				{
-					id: "2D1E0ED6B133FCD9"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests36.subtitle}"
+			rewards: [{
+				id: "2D1E0ED6B133FCD9"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2C8E7652FA14ED8F.subtitle}"
 			tasks: [
 				{
 					id: "130983AA27EBCBA4"
@@ -1182,286 +1090,246 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests36.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2C8E7652FA14ED8F.title}"
 			x: 8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "0BF11218B309BCF8"
-			rewards: [
-				{
-					id: "50C342B011A0CC91"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests37.subtitle}"
-			tasks: [
-				{
-					id: "3C3EA4799654A7C5"
-					item: {
-						Count: 1
-						id: "soulsweapons:lich_bane"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "50C342B011A0CC91"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.0BF11218B309BCF8.subtitle}"
+			tasks: [{
+				id: "3C3EA4799654A7C5"
+				item: {
+					Count: 1
+					id: "soulsweapons:lich_bane"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests37.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.0BF11218B309BCF8.title}"
 			x: 0.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "5939BE272DC09B1C"
-			rewards: [
-				{
-					id: "5D0DE18196275C1C"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests38.subtitle}"
-			tasks: [
-				{
-					id: "26236BC9E760C601"
-					item: {
-						Count: 1
-						id: "soulsweapons:comet_spear"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "5D0DE18196275C1C"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.5939BE272DC09B1C.subtitle}"
+			tasks: [{
+				id: "26236BC9E760C601"
+				item: {
+					Count: 1
+					id: "soulsweapons:comet_spear"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests38.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.5939BE272DC09B1C.title}"
 			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "08CA92A3CDF42F15"
-			rewards: [
-				{
-					id: "330766C88F5A0AA4"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests39.subtitle}"
-			tasks: [
-				{
-					id: "0BB2566384B8CB65"
-					item: {
-						Count: 1
-						id: "soulsweapons:galeforce"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "330766C88F5A0AA4"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.08CA92A3CDF42F15.subtitle}"
+			tasks: [{
+				id: "0BB2566384B8CB65"
+				item: {
+					Count: 1
+					id: "soulsweapons:galeforce"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests39.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.08CA92A3CDF42F15.title}"
 			x: 1.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "245F218AF09E2AC3"
-			rewards: [
-				{
-					id: "3F308F94DA8985CD"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests40.subtitle}"
-			tasks: [
-				{
-					id: "1FBB3E61F002F6EF"
-					item: {
-						Count: 1
-						id: "soulsweapons:draugr"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "3F308F94DA8985CD"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.245F218AF09E2AC3.subtitle}"
+			tasks: [{
+				id: "1FBB3E61F002F6EF"
+				item: {
+					Count: 1
+					id: "soulsweapons:draugr"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests40.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.245F218AF09E2AC3.title}"
 			x: -1.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["38B1E5E35DFDF751"]
 			id: "15C10A8693E3DE56"
-			rewards: [
-				{
-					id: "592EF0E21680296B"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests41.subtitle}"
-			tasks: [
-				{
-					id: "1AAE21BC4558A2E2"
-					item: {
-						Count: 1
-						id: "soulsweapons:bloodthirster"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "592EF0E21680296B"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.15C10A8693E3DE56.subtitle}"
+			tasks: [{
+				id: "1AAE21BC4558A2E2"
+				item: {
+					Count: 1
+					id: "soulsweapons:bloodthirster"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests41.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.15C10A8693E3DE56.title}"
 			x: 9.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["15C10A8693E3DE56"]
 			id: "2475FA2D5A0C8854"
-			rewards: [
-				{
-					id: "6F4A86C73839785D"
-					type: "xp"
-					xp: 35
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests42.subtitle}"
-			tasks: [
-				{
-					id: "2A92003A9D6C3D9E"
-					item: {
-						Count: 1
-						id: "soulsweapons:darkin_blade"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "6F4A86C73839785D"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2475FA2D5A0C8854.subtitle}"
+			tasks: [{
+				id: "2A92003A9D6C3D9E"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_blade"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests42.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.2475FA2D5A0C8854.title}"
 			x: 10.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["38B1E5E35DFDF751"]
 			id: "56006B58B4352E97"
-			rewards: [
-				{
-					id: "3333B6332DC7FB8D"
-					type: "xp"
-					xp: 35
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests43.subtitle}"
-			tasks: [
-				{
-					id: "159C32B1CD284732"
-					item: {
-						Count: 1
-						id: "soulsweapons:darkin_scythe_pre"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "3333B6332DC7FB8D"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.56006B58B4352E97.subtitle}"
+			tasks: [{
+				id: "159C32B1CD284732"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_scythe_pre"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests43.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.56006B58B4352E97.title}"
 			x: 9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "41201D91E5306FCA"
-			rewards: [
-				{
-					id: "5B18F19DE10492DE"
-					type: "xp"
-					xp: 35
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests44.subtitle}"
-			tasks: [
-				{
-					id: "441B3B29B090F522"
-					item: {
-						Count: 1
-						id: "soulsweapons:leviathan_axe"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "5B18F19DE10492DE"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.41201D91E5306FCA.subtitle}"
+			tasks: [{
+				id: "441B3B29B090F522"
+				item: {
+					Count: 1
+					id: "soulsweapons:leviathan_axe"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests44.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.41201D91E5306FCA.title}"
 			x: 3.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["38B1E5E35DFDF751"]
 			id: "779BDC14D8FF6F70"
-			rewards: [
-				{
-					id: "66A2001AD204CCB6"
-					type: "xp"
-					xp: 35
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests45.subtitle}"
-			tasks: [
-				{
-					id: "2D0F143F09693BD0"
-					item: {
-						Count: 1
-						id: "soulsweapons:withered_wabbajack"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "66A2001AD204CCB6"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.779BDC14D8FF6F70.subtitle}"
+			tasks: [{
+				id: "2D0F143F09693BD0"
+				item: {
+					Count: 1
+					id: "soulsweapons:withered_wabbajack"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests45.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.779BDC14D8FF6F70.title}"
 			x: 7.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "7B03C1492C12657E"
-			rewards: [
-				{
-					id: "240654C195D911EC"
-					type: "xp"
-					xp: 35
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests46.subtitle}"
-			tasks: [
-				{
-					id: "693BD128F78FBEE5"
-					item: {
-						Count: 1
-						id: "soulsweapons:mjolnir"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "240654C195D911EC"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.7B03C1492C12657E.subtitle}"
+			tasks: [{
+				id: "693BD128F78FBEE5"
+				item: {
+					Count: 1
+					id: "soulsweapons:mjolnir"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -3.0d
 			y: 6.5d
 		}
@@ -1469,105 +1337,91 @@
 			dependencies: ["2C1F39A39A290603"]
 			hide_text_until_complete: false
 			id: "25CBEA200061244E"
-			rewards: [
-				{
-					id: "4F8B79F0DCDE09BF"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests47.subtitle}"
-			tasks: [
-				{
-					id: "264B1D976D37ADF7"
-					item: {
-						Count: 1
-						id: "soulsweapons:nightfall"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "4F8B79F0DCDE09BF"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.25CBEA200061244E.subtitle}"
+			tasks: [{
+				id: "264B1D976D37ADF7"
+				item: {
+					Count: 1
+					id: "soulsweapons:nightfall"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests47.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.25CBEA200061244E.title}"
 			x: 6.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "33D74677733BD8CD"
-			rewards: [
-				{
-					id: "5EDD8BF166700A9C"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests48.subtitle}"
-			tasks: [
-				{
-					id: "2382683DB44BBBD8"
-					item: {
-						Count: 1
-						id: "soulsweapons:freyr_sword"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "5EDD8BF166700A9C"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.33D74677733BD8CD.subtitle}"
+			tasks: [{
+				id: "2382683DB44BBBD8"
+				item: {
+					Count: 1
+					id: "soulsweapons:freyr_sword"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests48.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.33D74677733BD8CD.title}"
 			x: 2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["56006B58B4352E97"]
 			id: "532AEC1657945F45"
-			rewards: [
-				{
-					id: "545C65F1AF5E79C1"
-					type: "xp"
-					xp: 35
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests49.subtitle}"
-			tasks: [
-				{
-					id: "4F1CB2F7656D15FF"
-					item: {
-						Count: 1
-						id: "soulsweapons:darkin_scythe"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "545C65F1AF5E79C1"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.532AEC1657945F45.subtitle}"
+			tasks: [{
+				id: "4F1CB2F7656D15FF"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_scythe"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests49.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.532AEC1657945F45.title}"
 			x: 11.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["56006B58B4352E97"]
 			id: "07C02F8158472D7C"
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests50.subtitle}"
-			tasks: [
-				{
-					id: "56FE853A6653238B"
-					item: {
-						Count: 1
-						id: "soulsweapons:shadow_assassin_scythe"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.07C02F8158472D7C.subtitle}"
+			tasks: [{
+				id: "56FE853A6653238B"
+				item: {
+					Count: 1
+					id: "soulsweapons:shadow_assassin_scythe"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests50.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.07C02F8158472D7C.title}"
 			x: 9.5d
 			y: 1.5d
 		}
@@ -1586,7 +1440,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests51.subtitle}"
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.4B59515AB4B7234B.subtitle}"
 			tasks: [
 				{
 					id: "364461D455F27A5D"
@@ -1596,7 +1450,7 @@
 				{
 					entity: "soulsweapons:chaos_monarch"
 					id: "073109BDE345ACA6"
-					title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests51.tasks1.title}"
+					title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.4B59515AB4B7234B.task.073109BDE345ACA6.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1623,28 +1477,24 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests51.title}"
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.4B59515AB4B7234B.title}"
 			x: -7.5d
 			y: 3.0d
 		}
 		{
 			id: "5DFDAAA27B3775A3"
-			rewards: [
-				{
-					id: "1A0CCFC65B25B080"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests52.subtitle}"
-			tasks: [
-				{
-					id: "0597F8507AAD83E8"
-					item: "minecraft:soul_sand"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests52.title}"
+			rewards: [{
+				id: "1A0CCFC65B25B080"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.5DFDAAA27B3775A3.subtitle}"
+			tasks: [{
+				id: "0597F8507AAD83E8"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.5DFDAAA27B3775A3.title}"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -1652,35 +1502,31 @@
 			dependencies: ["731E965C4BF7565E"]
 			icon: "soulsweapons:altar_block"
 			id: "3B0C386899373F73"
-			rewards: [
-				{
-					id: "4EB3426DA9D6DD5E"
-					type: "xp"
-					xp: 40
-				}
-			]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests53.subtitle}"
-			tasks: [
-				{
-					id: "1E8CF29780FCE775"
-					item: "soulsweapons:altar_block"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests53.title}"
+			rewards: [{
+				id: "4EB3426DA9D6DD5E"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.3B0C386899373F73.subtitle}"
+			tasks: [{
+				id: "1E8CF29780FCE775"
+				item: "soulsweapons:altar_block"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.3B0C386899373F73.title}"
 			x: -3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
-			description: ["{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests54.description}"]
+			description: ["{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.490BC191FDC469D8.description0}"]
 			id: "490BC191FDC469D8"
 			rewards: [{
 				id: "38AF5BE848FB84BE"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests54.subtitle}"
+			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.490BC191FDC469D8.subtitle}"
 			tasks: [{
 				id: "30328A0A03B61390"
 				item: {
@@ -1697,7 +1543,7 @@
 		}
 		{
 			dependencies: ["26C8BD551FCBAF73"]
-			description: ["{ftbquests.chapter.gear_mariums_soulslike_weaponry.quests55.description}"]
+			description: ["{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.46992F5363E4577C.description0}"]
 			id: "46992F5363E4577C"
 			tasks: [{
 				id: "7147563E5166FD42"

@@ -82,7 +82,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests0.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.272B5685646C522E.subtitle}"
 			tasks: [{
 				id: "019C6F0E4943EE76"
 				item: "kibe:cobblestone_generator_mk1"
@@ -164,7 +164,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.698C1D52BBCFA71D.subtitle}"
 			tasks: [{
 				id: "7FE15890CCD21465"
 				item: "kibe:basalt_generator_mk1"
@@ -243,10 +243,10 @@
 			id: "01BF1397DC5B4906"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.gadgets.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.01BF1397DC5B4906.subtitle}"
 			tasks: [{
 				id: "3EE7C97623ACE6EA"
-				title: "{ftbquests.chapter.gadgets.quests10.tasks0.title}"
+				title: "{ftbquests.chapter.gadgets.quest.01BF1397DC5B4906.task.3EE7C97623ACE6EA.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -260,7 +260,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.33C2B1CC10CF07D1.subtitle}"
 			tasks: [{
 				id: "1A0EDE59F7165D1D"
 				item: "darkutils:blank_plate"
@@ -319,7 +319,7 @@
 		}
 		{
 			dependencies: ["51186DDE3C82D092"]
-			description: ["{ftbquests.chapter.gadgets.quests15.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.4C73E9CCD2C8DEFC.description0}"]
 			id: "4C73E9CCD2C8DEFC"
 			optional: true
 			rewards: [{
@@ -369,14 +369,14 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests18.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.105CE0D106AEF623.description0}"]
 			id: "105CE0D106AEF623"
 			rewards: [{
 				id: "27D2B1FEDF40CD34"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.105CE0D106AEF623.subtitle}"
 			tasks: [{
 				id: "16497AA38411B191"
 				item: "darkutils:filter_player"
@@ -393,7 +393,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.643A54B52DA18CD9.subtitle}"
 			tasks: [{
 				id: "2F7AA5CAC5265F1A"
 				item: "oxidized:copper_pan"
@@ -410,7 +410,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests20.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.55EF78F7FBC33FDB.subtitle}"
 			tasks: [{
 				id: "1C16C5D041D713A7"
 				item: "supplementaries:cog_block"
@@ -421,14 +421,14 @@
 		}
 		{
 			dependencies: ["33C2B1CC10CF07D1"]
-			description: ["{ftbquests.chapter.gadgets.quests21.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.218B8D291E7E03CC.description0}"]
 			id: "218B8D291E7E03CC"
 			rewards: [{
 				id: "7927BE89AEDD31D4"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests21.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.218B8D291E7E03CC.subtitle}"
 			tasks: [{
 				id: "049FC1F5C63F58BC"
 				item: "darkutils:damage_plate_maim"
@@ -439,7 +439,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests22.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.0752F260D9482517.description0}"]
 			id: "0752F260D9482517"
 			rewards: [{
 				id: "6E683934287BA0D9"
@@ -456,14 +456,14 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests23.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.76126702A53ACAD5.description0}"]
 			id: "76126702A53ACAD5"
 			rewards: [{
 				id: "392BA00E8D746CC7"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests23.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.76126702A53ACAD5.subtitle}"
 			tasks: [{
 				id: "1A3E7383C61AC7C9"
 				item: "kibe:measuring_tape"
@@ -474,7 +474,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests24.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.536478FBB30EBDD1.description0}"]
 			icon: {
 				Count: 1
 				id: "kibe:white_glider"
@@ -488,7 +488,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.536478FBB30EBDD1.subtitle}"
 			tasks: [{
 				id: "6CD8FAD59A12D810"
 				item: {
@@ -498,16 +498,16 @@
 						value: "the_bumblezone:bee_queen/dedicated_trade_tags/modded/kibe_gliders"
 					}
 				}
-				title: "{ftbquests.chapter.gadgets.quests24.tasks0.title}"
+				title: "{ftbquests.chapter.gadgets.quest.536478FBB30EBDD1.task.6CD8FAD59A12D810.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.gadgets.quests24.title}"
+			title: "{ftbquests.chapter.gadgets.quest.536478FBB30EBDD1.title}"
 			x: 2.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests25.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.32C20FDE9BB4F43C.description0}"]
 			id: "32C20FDE9BB4F43C"
 			rewards: [{
 				count: 8
@@ -525,14 +525,14 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests26.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.47AD2D244D3DB9AC.description0}"]
 			id: "47AD2D244D3DB9AC"
 			rewards: [{
 				id: "6A753B70D6DAC757"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests26.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.47AD2D244D3DB9AC.subtitle}"
 			tasks: [{
 				id: "099916A3C850E989"
 				item: "derelict:waxing_staff"
@@ -549,7 +549,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests27.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.5A378CE869D256FB.subtitle}"
 			tasks: [{
 				id: "5BB5450E3CBFF848"
 				item: "derelict:aging_staff"
@@ -566,7 +566,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.gadgets.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.gadgets.quest.72873ACC7B56E3CA.subtitle}"
 			tasks: [{
 				id: "3CC03DEB8ADEDD54"
 				item: "bosses_of_mass_destruction:mob_ward"
@@ -577,7 +577,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests29.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.69EE5CD66CD38E4E.description0}"]
 			id: "69EE5CD66CD38E4E"
 			rewards: [{
 				id: "6233CE0A71094D28"
@@ -594,7 +594,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests30.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.0E280434A6732E11.description0}"]
 			id: "0E280434A6732E11"
 			rewards: [{
 				id: "664CA45146FC92A5"
@@ -617,7 +617,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests31.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.58469ECD7976AB8A.description0}"]
 			id: "58469ECD7976AB8A"
 			rewards: [{
 				count: 20
@@ -641,7 +641,7 @@
 		}
 		{
 			dependencies: ["32C20FDE9BB4F43C"]
-			description: ["{ftbquests.chapter.gadgets.quests32.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.15BB544C1D7D5ACC.description0}"]
 			id: "15BB544C1D7D5ACC"
 			rewards: [{
 				id: "48F33A2C317BCD19"
@@ -658,7 +658,7 @@
 		}
 		{
 			dependencies: ["01BF1397DC5B4906"]
-			description: ["{ftbquests.chapter.gadgets.quests33.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.3A0D1D453519DE78.description0}"]
 			id: "3A0D1D453519DE78"
 			rewards: [
 				{
@@ -682,7 +682,7 @@
 		}
 		{
 			dependencies: ["3A0D1D453519DE78"]
-			description: ["{ftbquests.chapter.gadgets.quests34.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.5B7E6F6DD11B7606.description0}"]
 			id: "5B7E6F6DD11B7606"
 			rewards: [{
 				id: "1388398AC64935FB"
@@ -699,7 +699,7 @@
 		}
 		{
 			dependencies: ["3A0D1D453519DE78"]
-			description: ["{ftbquests.chapter.gadgets.quests35.description0}"]
+			description: ["{ftbquests.chapter.gadgets.quest.5E7B9EA964BBE5A5.description0}"]
 			id: "5E7B9EA964BBE5A5"
 			rewards: [{
 				id: "2C838CA28329B54E"

@@ -37,8 +37,8 @@
 			image: "decorative_blocks:block/bonfire_x"
 			rotation: 0.0d
 			width: 0.84d
-			x: 5.017857142857146d
-			y: 0.142857142857153d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependency: "080F23071FA8CFC9"
@@ -110,7 +110,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependency: "59C45FA337989B0C"
@@ -125,6 +125,7 @@
 			dependency: "059B370119A41869"
 			height: 1.1d
 			image: "prominent_talents:textures/frames/fate_selected.png"
+			order: 1
 			rotation: 0.0d
 			width: 1.1d
 			x: 5.0d
@@ -265,6 +266,15 @@
 			x: 0.0d
 			y: 0.5d
 		}
+		{
+			dependency: "5728EF143DC9B7DB"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: 5.0d
+			y: -0.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -272,9 +282,9 @@
 		{
 			dependencies: ["6930C77988A640AF"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests0.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.51595E88AF1F475E.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests0.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.51595E88AF1F475E.description2}"
 			]
 			icon: {
 				Count: 1
@@ -284,36 +294,32 @@
 				}
 			}
 			id: "51595E88AF1F475E"
-			rewards: [
-				{
-					id: "73FEF9863E4C5F38"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "73FEF9863E4C5F38"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests0.subtitle}"
-			tasks: [
-				{
-					id: "7AAEF7553C3616AE"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests0.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests0.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.51595E88AF1F475E.subtitle}"
+			tasks: [{
+				id: "7AAEF7553C3616AE"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.51595E88AF1F475E.task.7AAEF7553C3616AE.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.51595E88AF1F475E.title}"
 			x: 1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["6930C77988A640AF"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests1.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6B8B4323E13AB3E9.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests1.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6B8B4323E13AB3E9.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests1.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6B8B4323E13AB3E9.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests1.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6B8B4323E13AB3E9.description6}"
 			]
 			icon: {
 				Count: 1
@@ -323,33 +329,29 @@
 				}
 			}
 			id: "6B8B4323E13AB3E9"
-			rewards: [
-				{
-					id: "475CDA6694C41230"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "475CDA6694C41230"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests1.subtitle}"
-			tasks: [
-				{
-					id: "3589A9BB969BA94E"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests1.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests1.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.6B8B4323E13AB3E9.subtitle}"
+			tasks: [{
+				id: "3589A9BB969BA94E"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6B8B4323E13AB3E9.task.3589A9BB969BA94E.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6B8B4323E13AB3E9.title}"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests2.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6930C77988A640AF.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests2.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6930C77988A640AF.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests2.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6930C77988A640AF.description4}"
 			]
 			icon: {
 				Count: 1
@@ -360,15 +362,13 @@
 			}
 			id: "6930C77988A640AF"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests2.subtitle}"
-			tasks: [
-				{
-					id: "4B87D5A81113B3B8"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests2.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests2.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.6930C77988A640AF.subtitle}"
+			tasks: [{
+				id: "4B87D5A81113B3B8"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6930C77988A640AF.task.4B87D5A81113B3B8.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6930C77988A640AF.title}"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -378,21 +378,21 @@
 				"6B8B4323E13AB3E9"
 			]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description7}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description8}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description9}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description10}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.description8}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.description9}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.description10}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description12}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.description12}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests3.description14}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.description14}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -416,30 +416,39 @@
 					table_id: 5228678659320885423L
 					type: "choice"
 				}
-			]
-			shape: "none"
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests3.subtitle}"
-			tasks: [
 				{
-					id: "22AD24EC0678727A"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests3.tasks0.title}"
-					type: "checkmark"
+					id: "3B5501E046C999AE"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests3.title}"
+			shape: "none"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.subtitle}"
+			tasks: [{
+				id: "22AD24EC0678727A"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.task.22AD24EC0678727A.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.61C05AE305488DF5.title}"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6930C77988A640AF"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests4.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.44D9519561FE2D1B.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests4.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.44D9519561FE2D1B.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests4.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.44D9519561FE2D1B.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests4.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.44D9519561FE2D1B.description6}"
 			]
 			icon: {
 				Count: 1
@@ -451,24 +460,22 @@
 			id: "44D9519561FE2D1B"
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests4.subtitle}"
-			tasks: [
-				{
-					id: "30BD1DF965773137"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests4.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests4.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.44D9519561FE2D1B.subtitle}"
+			tasks: [{
+				id: "30BD1DF965773137"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.44D9519561FE2D1B.task.30BD1DF965773137.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.44D9519561FE2D1B.title}"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["44D9519561FE2D1B"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests5.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3F794C7D175F14C0.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests5.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3F794C7D175F14C0.description2}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -481,26 +488,24 @@
 			id: "3F794C7D175F14C0"
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests5.subtitle}"
-			tasks: [
-				{
-					id: "6F23FA02C5CA4AD2"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests5.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests5.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.3F794C7D175F14C0.subtitle}"
+			tasks: [{
+				id: "6F23FA02C5CA4AD2"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.3F794C7D175F14C0.task.6F23FA02C5CA4AD2.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.3F794C7D175F14C0.title}"
 			x: -1.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["44D9519561FE2D1B"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests6.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.479F0EDD5681A06D.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests6.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.479F0EDD5681A06D.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests6.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.479F0EDD5681A06D.description4}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -513,24 +518,22 @@
 			id: "479F0EDD5681A06D"
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests6.subtitle}"
-			tasks: [
-				{
-					id: "5C9AFBF0E99AE7AC"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests6.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests6.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.479F0EDD5681A06D.subtitle}"
+			tasks: [{
+				id: "5C9AFBF0E99AE7AC"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.479F0EDD5681A06D.task.5C9AFBF0E99AE7AC.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.479F0EDD5681A06D.title}"
 			x: 1.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3F794C7D175F14C0"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests7.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3EFD57AABC3D44EF.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests7.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3EFD57AABC3D44EF.description2}"
 			]
 			icon: {
 				Count: 1
@@ -542,24 +545,22 @@
 			id: "3EFD57AABC3D44EF"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests7.subtitle}"
-			tasks: [
-				{
-					id: "696BC3B958325A55"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests7.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests7.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.3EFD57AABC3D44EF.subtitle}"
+			tasks: [{
+				id: "696BC3B958325A55"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.3EFD57AABC3D44EF.task.696BC3B958325A55.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.3EFD57AABC3D44EF.title}"
 			x: -1.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["3F794C7D175F14C0"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests8.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.401B24F826A490C3.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests8.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.401B24F826A490C3.description2}"
 			]
 			icon: {
 				Count: 1
@@ -571,28 +572,26 @@
 			id: "401B24F826A490C3"
 			shape: "circle"
 			size: 0.754d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests8.subtitle}"
-			tasks: [
-				{
-					id: "019217B93D9FE657"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests8.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests8.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.401B24F826A490C3.subtitle}"
+			tasks: [{
+				id: "019217B93D9FE657"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.401B24F826A490C3.task.019217B93D9FE657.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.401B24F826A490C3.title}"
 			x: -1.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3F794C7D175F14C0"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests9.description0}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests9.description1}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2B31C767E6C37F28.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2B31C767E6C37F28.description1}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests9.description3}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2B31C767E6C37F28.description3}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests9.description5}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests9.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2B31C767E6C37F28.description5}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2B31C767E6C37F28.description6}"
 			]
 			icon: {
 				Count: 1
@@ -604,26 +603,24 @@
 			id: "2B31C767E6C37F28"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests9.subtitle}"
-			tasks: [
-				{
-					id: "4B50250B4FEBFB6B"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests9.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests9.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.2B31C767E6C37F28.subtitle}"
+			tasks: [{
+				id: "4B50250B4FEBFB6B"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.2B31C767E6C37F28.task.4B50250B4FEBFB6B.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.2B31C767E6C37F28.title}"
 			x: -2.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3F794C7D175F14C0"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests10.description0}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests10.description1}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.07C8B808DB85CC35.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.07C8B808DB85CC35.description1}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests10.description3}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests10.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.07C8B808DB85CC35.description3}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.07C8B808DB85CC35.description4}"
 			]
 			icon: {
 				Count: 1
@@ -635,32 +632,30 @@
 			id: "07C8B808DB85CC35"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests10.subtitle}"
-			tasks: [
-				{
-					id: "716906C7C1D596AA"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests10.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests10.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.07C8B808DB85CC35.subtitle}"
+			tasks: [{
+				id: "716906C7C1D596AA"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.07C8B808DB85CC35.task.716906C7C1D596AA.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.07C8B808DB85CC35.title}"
 			x: -2.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["479F0EDD5681A06D"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests11.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.5CF52770623E5963.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests11.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.5CF52770623E5963.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests11.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.5CF52770623E5963.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests11.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.5CF52770623E5963.description6}"
 			]
 			id: "5CF52770623E5963"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.5CF52770623E5963.subtitle}"
 			tasks: [
 				{
 					icon: {
@@ -672,7 +667,7 @@
 					}
 					id: "27531CFF0334076B"
 					item: "runes:arcane_stone"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests11.tasks0.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5CF52770623E5963.task.27531CFF0334076B.title}"
 					type: "item"
 				}
 				{
@@ -685,7 +680,7 @@
 					}
 					id: "6346BAE143CD3A00"
 					item: "runes:fire_stone"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests11.tasks1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5CF52770623E5963.task.6346BAE143CD3A00.title}"
 					type: "item"
 				}
 				{
@@ -698,7 +693,7 @@
 					}
 					id: "1D167D542A786C4A"
 					item: "runes:frost_stone"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests11.tasks2.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5CF52770623E5963.task.1D167D542A786C4A.title}"
 					type: "item"
 				}
 				{
@@ -715,22 +710,22 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests11.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5CF52770623E5963.title}"
 			x: 1.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["479F0EDD5681A06D"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests12.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.59E36C0233C961CA.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests12.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.59E36C0233C961CA.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests12.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.59E36C0233C961CA.description4}"
 			]
 			id: "59E36C0233C961CA"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.59E36C0233C961CA.subtitle}"
 			tasks: [
 				{
 					icon: {
@@ -742,7 +737,7 @@
 					}
 					id: "177735B2E5DEF39C"
 					item: "runes:healing_stone"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests12.tasks0.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.59E36C0233C961CA.task.177735B2E5DEF39C.title}"
 					type: "item"
 				}
 				{
@@ -756,26 +751,26 @@
 					id: "34B70513418F7A19"
 					item: "runes:soul_stone"
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests12.tasks1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.59E36C0233C961CA.task.34B70513418F7A19.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests12.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.59E36C0233C961CA.title}"
 			x: 2.510714285714286d
 			y: -4.482142857142854d
 		}
 		{
 			dependencies: ["479F0EDD5681A06D"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests13.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.7613069D73E7B2A3.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests13.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.7613069D73E7B2A3.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests13.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.7613069D73E7B2A3.description4}"
 			]
 			id: "7613069D73E7B2A3"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.7613069D73E7B2A3.subtitle}"
 			tasks: [
 				{
 					icon: {
@@ -787,7 +782,7 @@
 					}
 					id: "58AADDF3A7EE5E43"
 					item: "death_knights:unholy_stone"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests13.tasks0.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7613069D73E7B2A3.task.58AADDF3A7EE5E43.title}"
 					type: "item"
 				}
 				{
@@ -800,11 +795,11 @@
 					}
 					id: "1D53ECD1AE853804"
 					item: "death_knights:blood_stone"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests13.tasks1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7613069D73E7B2A3.task.1D53ECD1AE853804.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests13.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7613069D73E7B2A3.title}"
 			x: 1.5d
 			y: -4.5d
 		}
@@ -815,7 +810,7 @@
 				"3F794C7D175F14C0"
 				"479F0EDD5681A06D"
 			]
-			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests14.description}"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.085E3F53A333AA9F.description0}"]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			icon: {
@@ -828,15 +823,13 @@
 			id: "085E3F53A333AA9F"
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests14.subtitle}"
-			tasks: [
-				{
-					id: "6C6C8542F3C9ED71"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests14.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests14.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.085E3F53A333AA9F.subtitle}"
+			tasks: [{
+				id: "6C6C8542F3C9ED71"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.085E3F53A333AA9F.task.6C6C8542F3C9ED71.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.085E3F53A333AA9F.title}"
 			x: 0.0d
 			y: -6.5d
 		}
@@ -846,9 +839,9 @@
 				"401B24F826A490C3"
 			]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests15.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.597F9C69DBB37F71.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests15.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.597F9C69DBB37F71.description2}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -860,15 +853,13 @@
 			}
 			id: "597F9C69DBB37F71"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests15.subtitle}"
-			tasks: [
-				{
-					id: "0CDC6263F513E17C"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests15.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests15.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.597F9C69DBB37F71.subtitle}"
+			tasks: [{
+				id: "0CDC6263F513E17C"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.597F9C69DBB37F71.task.0CDC6263F513E17C.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.597F9C69DBB37F71.title}"
 			x: -1.0d
 			y: -7.5d
 		}
@@ -878,11 +869,11 @@
 				"5CF52770623E5963"
 			]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests16.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.13907450E40B1069.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests16.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.13907450E40B1069.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests16.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.13907450E40B1069.description4}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -894,33 +885,31 @@
 			}
 			id: "13907450E40B1069"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests16.subtitle}"
-			tasks: [
-				{
-					id: "593697F7F7CB984A"
-					item: {
-						Count: 1
-						id: "wizards:staff_wizard"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.13907450E40B1069.subtitle}"
+			tasks: [{
+				id: "593697F7F7CB984A"
+				item: {
+					Count: 1
+					id: "wizards:staff_wizard"
+					tag: {
+						Damage: 0
 					}
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests16.tasks0.title}"
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests16.title}"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.13907450E40B1069.task.593697F7F7CB984A.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.13907450E40B1069.title}"
 			x: 1.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["085E3F53A333AA9F"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests17.description0}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests17.description1}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2078987E5DF94CE7.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2078987E5DF94CE7.description1}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests17.description3}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests17.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2078987E5DF94CE7.description3}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2078987E5DF94CE7.description4}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -932,28 +921,26 @@
 			}
 			id: "2078987E5DF94CE7"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests17.subtitle}"
-			tasks: [
-				{
-					id: "5848C781F4984B12"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests17.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests17.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.2078987E5DF94CE7.subtitle}"
+			tasks: [{
+				id: "5848C781F4984B12"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.2078987E5DF94CE7.task.5848C781F4984B12.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.2078987E5DF94CE7.title}"
 			x: 0.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["479F0EDD5681A06D"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests18.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.332E1D21030C2367.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests18.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.332E1D21030C2367.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests18.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.332E1D21030C2367.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests18.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.332E1D21030C2367.description6}"
 			]
 			icon: {
 				Count: 1
@@ -964,35 +951,33 @@
 			}
 			id: "332E1D21030C2367"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests18.subtitle}"
-			tasks: [
-				{
-					id: "537674E6436DC13B"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "archers:auto_fire_hook_attachables"
-						}
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.332E1D21030C2367.subtitle}"
+			tasks: [{
+				id: "537674E6436DC13B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "archers:auto_fire_hook_attachables"
 					}
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests18.tasks0.title}"
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests18.title}"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.332E1D21030C2367.task.537674E6436DC13B.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.332E1D21030C2367.title}"
 			x: 2.546428571428571d
 			y: -5.517857142857139d
 		}
 		{
 			dependencies: ["479F0EDD5681A06D"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests19.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.7F974354502FF51C.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests19.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.7F974354502FF51C.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests19.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.7F974354502FF51C.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests19.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.7F974354502FF51C.description6}"
 			]
 			icon: {
 				Count: 1
@@ -1003,24 +988,22 @@
 			}
 			id: "7F974354502FF51C"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests19.subtitle}"
-			tasks: [
-				{
-					id: "630C257E4DE95118"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests19.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests19.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.7F974354502FF51C.subtitle}"
+			tasks: [{
+				id: "630C257E4DE95118"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7F974354502FF51C.task.630C257E4DE95118.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7F974354502FF51C.title}"
 			x: 2.4750000000000014d
 			y: -6.517857142857146d
 		}
 		{
 			dependencies: ["3F794C7D175F14C0"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests20.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.513B18C3E0E74C91.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests20.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.513B18C3E0E74C91.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1032,15 +1015,13 @@
 			id: "513B18C3E0E74C91"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests20.subtitle}"
-			tasks: [
-				{
-					id: "79F2CDF32DF422CE"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests20.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests20.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.513B18C3E0E74C91.subtitle}"
+			tasks: [{
+				id: "79F2CDF32DF422CE"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.513B18C3E0E74C91.task.79F2CDF32DF422CE.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.513B18C3E0E74C91.title}"
 			x: -2.5d
 			y: -5.5d
 		}
@@ -1050,37 +1031,27 @@
 				"61C05AE305488DF5"
 			]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests21.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.7CFDF35E5158679E.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests21.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.7CFDF35E5158679E.description2}"
 			]
 			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "bewitchment:textures/mob_effect/enchanted.png"
-				}
-			}
+			icon: "minecraft:enchanting_table"
 			id: "7CFDF35E5158679E"
-			rewards: [
-				{
-					id: "0B449E6D557CA067"
-					type: "xp_levels"
-					xp_levels: 8
-				}
-			]
+			rewards: [{
+				id: "0B449E6D557CA067"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests21.subtitle}"
-			tasks: [
-				{
-					id: "261E71FE0BF26DD9"
-					item: "minecraft:enchanting_table"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests21.tasks0.title}"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests21.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.7CFDF35E5158679E.subtitle}"
+			tasks: [{
+				id: "261E71FE0BF26DD9"
+				item: "minecraft:enchanting_table"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7CFDF35E5158679E.task.261E71FE0BF26DD9.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7CFDF35E5158679E.title}"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -1161,49 +1132,46 @@
 			}
 			id: "5F2C69EC6928676F"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "the_bumblezone:item/essence/knowing"
-						}
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:item/essence/knowing"
 					}
-					id: "71028E3F756D85C9"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests22.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "71028E3F756D85C9"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5F2C69EC6928676F.reward.71028E3F756D85C9.title}"
+				type: "custom"
+			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests22.subtitle}"
-			tasks: [
-				{
-					id: "7E66AB385C03B775"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests22.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests22.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.5F2C69EC6928676F.subtitle}"
+			tasks: [{
+				id: "7E66AB385C03B775"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5F2C69EC6928676F.task.7E66AB385C03B775.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5F2C69EC6928676F.title}"
 			x: 9.0d
 			y: -21.75d
 		}
 		{
 			dependencies: ["61C05AE305488DF5"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests23.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.57B71888F2B87995.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests23.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.57B71888F2B87995.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests23.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.57B71888F2B87995.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests23.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests23.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.57B71888F2B87995.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.57B71888F2B87995.description7}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests23.description9}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.57B71888F2B87995.description9}"
 			]
+			icon: "paladins:paladin_spell_book"
 			id: "57B71888F2B87995"
 			rewards: [
 				{
@@ -1221,12 +1189,12 @@
 						}
 					}
 					id: "57134CB7E8FDF0E0"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests23.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.57B71888F2B87995.reward.57134CB7E8FDF0E0.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests23.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.57B71888F2B87995.subtitle}"
 			tasks: [
 				{
 					id: "0FD8935EA9C1F668"
@@ -1297,19 +1265,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests23.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.57B71888F2B87995.title}"
 			x: 1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["61C05AE305488DF5"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests24.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.36B7ACAA73589366.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests24.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.36B7ACAA73589366.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests24.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.36B7ACAA73589366.description4}"
 			]
+			icon: "rogues:warrior_spell_book"
 			id: "36B7ACAA73589366"
 			rewards: [
 				{
@@ -1321,7 +1290,7 @@
 						}
 					}
 					id: "46C8B41599DEEF3A"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests24.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.36B7ACAA73589366.reward.46C8B41599DEEF3A.title}"
 					type: "custom"
 				}
 				{
@@ -1332,7 +1301,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.36B7ACAA73589366.subtitle}"
 			tasks: [
 				{
 					id: "0312CC52D893C4BE"
@@ -1397,29 +1366,36 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests24.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.36B7ACAA73589366.title}"
 			x: -1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["61C05AE305488DF5"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests25.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.32AF5CAD14B2C8A7.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests25.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.32AF5CAD14B2C8A7.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests25.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.32AF5CAD14B2C8A7.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests25.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests25.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.32AF5CAD14B2C8A7.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.32AF5CAD14B2C8A7.description7}"
 			]
+			icon: {
+				Count: 1
+				id: "wizards:wizard_robe_head"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "32AF5CAD14B2C8A7"
 			rewards: [
 				{
 					exclude_from_claim_all: true
 					id: "3E55BD0560991CA3"
 					table_id: 3850066978152658360L
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests25.rewards0.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.32AF5CAD14B2C8A7.reward.3E55BD0560991CA3.title}"
 					type: "choice"
 				}
 				{
@@ -1432,7 +1408,7 @@
 						}
 					}
 					id: "6758587085DB0764"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests25.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.32AF5CAD14B2C8A7.reward.6758587085DB0764.title}"
 					type: "custom"
 				}
 				{
@@ -1445,12 +1421,12 @@
 						}
 					}
 					id: "399A90F153F28F25"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests25.rewards2.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.32AF5CAD14B2C8A7.reward.399A90F153F28F25.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests25.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.32AF5CAD14B2C8A7.subtitle}"
 			tasks: [
 				{
 					id: "0A2AEE5ACC8E1059"
@@ -1508,22 +1484,23 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests25.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.32AF5CAD14B2C8A7.title}"
 			x: 0.0d
 			y: 1.875d
 		}
 		{
 			dependencies: ["61C05AE305488DF5"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests26.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4250485195720E02.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests26.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4250485195720E02.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests26.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4250485195720E02.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests26.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests26.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4250485195720E02.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4250485195720E02.description7}"
 			]
+			icon: "rogues:rogue_spell_book"
 			id: "4250485195720E02"
 			rewards: [
 				{
@@ -1536,7 +1513,7 @@
 						}
 					}
 					id: "2ADE97391AC00735"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests26.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4250485195720E02.reward.2ADE97391AC00735.title}"
 					type: "custom"
 				}
 				{
@@ -1549,7 +1526,7 @@
 						}
 					}
 					id: "36E9C272253470BC"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests26.rewards2.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4250485195720E02.reward.36E9C272253470BC.title}"
 					type: "custom"
 				}
 				{
@@ -1560,7 +1537,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests26.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.4250485195720E02.subtitle}"
 			tasks: [
 				{
 					id: "7FD3F530C813C541"
@@ -1623,24 +1600,25 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests26.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4250485195720E02.title}"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["61C05AE305488DF5"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests27.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.76196F8D435E0E5A.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests27.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.76196F8D435E0E5A.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests27.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.76196F8D435E0E5A.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests27.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests27.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.76196F8D435E0E5A.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.76196F8D435E0E5A.description7}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests27.description9}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.76196F8D435E0E5A.description9}"
 			]
+			icon: "archers:archer_spell_book"
 			id: "76196F8D435E0E5A"
 			rewards: [
 				{
@@ -1652,7 +1630,7 @@
 						}
 					}
 					id: "7562B7F450DBA5BA"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests27.rewards0.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.76196F8D435E0E5A.reward.7562B7F450DBA5BA.title}"
 					type: "custom"
 				}
 				{
@@ -1663,7 +1641,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests27.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.76196F8D435E0E5A.subtitle}"
 			tasks: [
 				{
 					id: "16DE019B98CAF8D3"
@@ -1726,7 +1704,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests27.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.76196F8D435E0E5A.title}"
 			x: -2.0d
 			y: 0.5d
 		}
@@ -1736,14 +1714,14 @@
 				"32AF5CAD14B2C8A7"
 			]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests28.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.09CE7EB3045D5136.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests28.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.09CE7EB3045D5136.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests28.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.09CE7EB3045D5136.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests28.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests28.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.09CE7EB3045D5136.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.09CE7EB3045D5136.description7}"
 			]
 			hide_until_deps_visible: true
 			id: "09CE7EB3045D5136"
@@ -1757,7 +1735,7 @@
 						}
 					}
 					id: "120E0D545968C087"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests28.rewards0.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.09CE7EB3045D5136.reward.120E0D545968C087.title}"
 					type: "custom"
 				}
 				{
@@ -1777,7 +1755,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests28.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.09CE7EB3045D5136.subtitle}"
 			tasks: [
 				{
 					id: "2A530311ACA52655"
@@ -1868,64 +1846,61 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests28.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.09CE7EB3045D5136.title}"
 			x: -2.625d
 			y: 2.625d
 		}
 		{
 			dependencies: ["0A4309730B50D9FF"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests29.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2A4B84F063C78B09.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests29.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2A4B84F063C78B09.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests29.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2A4B84F063C78B09.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests29.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests29.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2A4B84F063C78B09.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2A4B84F063C78B09.description7}"
 			]
 			hide_until_deps_visible: true
 			id: "2A4B84F063C78B09"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "7F4526EB70A3DCBF"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests29.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "7F4526EB70A3DCBF"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.2A4B84F063C78B09.reward.7F4526EB70A3DCBF.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests29.subtitle}"
-			tasks: [
-				{
-					id: "4292524ED18FE585"
-					item: "invoke:invoker_spell_book"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests29.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.2A4B84F063C78B09.subtitle}"
+			tasks: [{
+				id: "4292524ED18FE585"
+				item: "invoke:invoker_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.2A4B84F063C78B09.title}"
 			x: -1.125d
 			y: 4.5d
 		}
 		{
 			dependencies: ["61C05AE305488DF5"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests30.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.073F2420FA2EF9B1.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests30.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.073F2420FA2EF9B1.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests30.description4}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests30.description5}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests30.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.073F2420FA2EF9B1.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.073F2420FA2EF9B1.description5}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.073F2420FA2EF9B1.description6}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests30.description8}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.073F2420FA2EF9B1.description8}"
 			]
+			icon: "paladins:priest_spell_book"
 			id: "073F2420FA2EF9B1"
 			rewards: [
 				{
@@ -1937,7 +1912,7 @@
 						}
 					}
 					id: "34F17089080BE301"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests30.rewards0.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.073F2420FA2EF9B1.reward.34F17089080BE301.title}"
 					type: "custom"
 				}
 				{
@@ -1948,7 +1923,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests30.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.073F2420FA2EF9B1.subtitle}"
 			tasks: [
 				{
 					id: "73D7F38F58340891"
@@ -2011,24 +1986,31 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests30.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.073F2420FA2EF9B1.title}"
 			x: 2.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["61C05AE305488DF5"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests31.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0A1F7985832C6DB2.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests31.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0A1F7985832C6DB2.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests31.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0A1F7985832C6DB2.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests31.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0A1F7985832C6DB2.description6}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests31.description8}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests31.description9}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0A1F7985832C6DB2.description8}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0A1F7985832C6DB2.description9}"
 			]
+			icon: {
+				Count: 1
+				id: "bards_rpg:diamond_lute"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0A1F7985832C6DB2"
 			rewards: [
 				{
@@ -2045,132 +2027,147 @@
 						}
 					}
 					id: "035B72E43504597B"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests31.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0A1F7985832C6DB2.reward.035B72E43504597B.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.0A1F7985832C6DB2.subtitle}"
 			tasks: [
 				{
-					id: "0EF87BC5330A4760"
+					id: "513B39F22228979D"
 					item: {
 						Count: 1
-						id: "immersive_melodies:flute"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "5C099415129268AA"
-					item: {
-						Count: 1
-						id: "immersive_melodies:bagpipe"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "7F64C7463D5F83C8"
-					item: {
-						Count: 1
-						id: "immersive_melodies:didgeridoo"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "796B72159F06686E"
-					item: {
-						Count: 1
-						id: "immersive_melodies:lute"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "09D0B07619A6FAC9"
-					item: {
-						Count: 1
-						id: "immersive_melodies:piano"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "60A440DEC33D7227"
-					item: {
-						Count: 1
-						id: "immersive_melodies:triangle"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "65A88890B2679DF5"
-					item: {
-						Count: 1
-						id: "immersive_melodies:trumpet"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "108EB0F5CA0F59BC"
-					item: {
-						Count: 1
-						id: "mcdw:crossbow_harp_crossbow"
+						id: "bards_rpg:diamond_lyre"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:multishot"
-									lvl: 2s
-								}
-							]
 						}
 					}
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests31.tasks7.title}"
+					type: "item"
+				}
+				{
+					id: "336F68CCBA3BDB20"
+					item: {
+						Count: 1
+						id: "bards_rpg:diamond_lute"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6601346B70B9BEFC"
+					item: {
+						Count: 1
+						id: "bards_rpg:diamond_harp_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BD0254CD73D98BF"
+					item: {
+						Count: 1
+						id: "bards_rpg:diamond_rapier"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "073097E0520423D6"
+					item: "bards_rpg:bard_spell_book"
+					type: "item"
+				}
+				{
+					id: "4CD9BBBE298E81C9"
+					item: "bards_rpg:bard2_spell_book"
+					type: "item"
+				}
+				{
+					id: "5EE9D3305B73A251"
+					item: {
+						Count: 1
+						id: "bards_rpg:troubadour_garb_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "695573F13871F7C7"
+					item: {
+						Count: 1
+						id: "bards_rpg:troubadour_garb_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36595DD417614416"
+					item: {
+						Count: 1
+						id: "bards_rpg:troubadour_garb_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66CFF6BD953FE7FB"
+					item: {
+						Count: 1
+						id: "bards_rpg:troubadour_garb_feet"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests31.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0A1F7985832C6DB2.title}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"32AF5CAD14B2C8A7"
-				"0A1F7985832C6DB2"
-			]
+			dependencies: ["32AF5CAD14B2C8A7"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests32.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.5814C5C80022A343.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests32.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.5814C5C80022A343.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests32.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.5814C5C80022A343.description4}"
 			]
 			hide_until_deps_visible: true
+			icon: "wizards:frost_spell_book"
 			id: "5814C5C80022A343"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "7B8A00D9A6E321DC"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests32.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "7B8A00D9A6E321DC"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5814C5C80022A343.reward.7B8A00D9A6E321DC.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests32.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.5814C5C80022A343.subtitle}"
 			tasks: [
 				{
 					id: "758C69335DA5851B"
@@ -2233,37 +2230,39 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests32.title}"
-			x: 1.125d
-			y: 3.375d
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5814C5C80022A343.title}"
+			x: -0.375d
+			y: 3.75d
 		}
 		{
-			dependencies: ["32AF5CAD14B2C8A7"]
+			dependencies: [
+				"32AF5CAD14B2C8A7"
+				"0A1F7985832C6DB2"
+			]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests33.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.74B7050CA824F281.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests33.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.74B7050CA824F281.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests33.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.74B7050CA824F281.description4}"
 			]
 			hide_until_deps_visible: true
+			icon: "wizards:arcane_spell_book"
 			id: "74B7050CA824F281"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "009652D33213EA69"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests33.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "009652D33213EA69"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.74B7050CA824F281.reward.009652D33213EA69.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests33.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.74B7050CA824F281.subtitle}"
 			tasks: [
 				{
 					id: "2E1A77BDFBBFA6D4"
@@ -2326,38 +2325,43 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests33.title}"
-			x: -0.375d
-			y: 3.75d
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.74B7050CA824F281.title}"
+			x: 1.125d
+			y: 3.375d
 		}
 		{
 			dependencies: ["4250485195720E02"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests34.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0002A96D1F886FB3.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests34.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0002A96D1F886FB3.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests34.description4}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests34.description5}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0002A96D1F886FB3.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0002A96D1F886FB3.description5}"
 			]
 			hide_until_deps_visible: true
-			id: "0002A96D1F886FB3"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
-					}
-					id: "1F2BC88A66254928"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests34.rewards0.title}"
-					type: "custom"
+			icon: {
+				Count: 1
+				id: "rogues:assassin_armor_head"
+				tag: {
+					Damage: 0
 				}
-			]
+			}
+			id: "0002A96D1F886FB3"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "1F2BC88A66254928"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0002A96D1F886FB3.reward.1F2BC88A66254928.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests34.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.0002A96D1F886FB3.subtitle}"
 			tasks: [
 				{
 					id: "6CBFCA994BCDE8F3"
@@ -2404,40 +2408,45 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests34.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0002A96D1F886FB3.title}"
 			x: -2.625d
 			y: 1.875d
 		}
 		{
 			dependencies: ["76196F8D435E0E5A"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests35.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.18899F26D6DB2F47.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests35.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.18899F26D6DB2F47.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests35.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.18899F26D6DB2F47.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests35.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests35.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.18899F26D6DB2F47.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.18899F26D6DB2F47.description7}"
 			]
 			hide_until_deps_visible: true
-			id: "18899F26D6DB2F47"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
-					}
-					id: "0A18E91ECC49CC06"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests35.rewards0.title}"
-					type: "custom"
+			icon: {
+				Count: 1
+				id: "archers:netherite_shortbow"
+				tag: {
+					Damage: 0
 				}
-			]
+			}
+			id: "18899F26D6DB2F47"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "0A18E91ECC49CC06"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.18899F26D6DB2F47.reward.0A18E91ECC49CC06.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests35.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.18899F26D6DB2F47.subtitle}"
 			tasks: [
 				{
 					id: "2313360072A422CA"
@@ -2508,40 +2517,45 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests35.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.18899F26D6DB2F47.title}"
 			x: -3.0d
 			y: 1.125d
 		}
 		{
 			dependencies: ["76196F8D435E0E5A"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests36.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2D18A81E45594603.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests36.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2D18A81E45594603.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests36.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2D18A81E45594603.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests36.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests36.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2D18A81E45594603.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.2D18A81E45594603.description7}"
 			]
 			hide_until_deps_visible: true
-			id: "2D18A81E45594603"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
-					}
-					id: "41D13D855A8D00B9"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests36.rewards0.title}"
-					type: "custom"
+			icon: {
+				Count: 1
+				id: "archers:ranger_armor_head"
+				tag: {
+					Damage: 0
 				}
-			]
+			}
+			id: "2D18A81E45594603"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "41D13D855A8D00B9"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.2D18A81E45594603.reward.41D13D855A8D00B9.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests36.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.2D18A81E45594603.subtitle}"
 			tasks: [
 				{
 					id: "19346C903BB29B45"
@@ -2633,35 +2647,40 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests36.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.2D18A81E45594603.title}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18899F26D6DB2F47"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests37.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.22E0D946A9D81F02.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests37.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.22E0D946A9D81F02.description2}"
 			]
 			hide_until_deps_visible: true
-			id: "22E0D946A9D81F02"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
-					}
-					id: "3361E447E08820C7"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests37.rewards0.title}"
-					type: "custom"
+			icon: {
+				Count: 1
+				id: "archers:crystal_shortbow"
+				tag: {
+					Damage: 0
 				}
-			]
+			}
+			id: "22E0D946A9D81F02"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "3361E447E08820C7"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.22E0D946A9D81F02.reward.3361E447E08820C7.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests37.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.22E0D946A9D81F02.subtitle}"
 			tasks: [
 				{
 					id: "0A97E4FEECF57F0E"
@@ -2709,35 +2728,40 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests37.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.22E0D946A9D81F02.title}"
 			x: -4.125d
 			y: 1.125d
 		}
 		{
 			dependencies: ["2D18A81E45594603"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests38.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.43C641771CB69C88.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests38.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.43C641771CB69C88.description2}"
 			]
 			hide_until_deps_visible: true
-			id: "43C641771CB69C88"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
-					}
-					id: "36C8B0067D57D0B4"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests38.rewards0.title}"
-					type: "custom"
+			icon: {
+				Count: 1
+				id: "archers:crystal_longbow"
+				tag: {
+					Damage: 0
 				}
-			]
+			}
+			id: "43C641771CB69C88"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "36C8B0067D57D0B4"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.43C641771CB69C88.reward.36C8B0067D57D0B4.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests38.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.43C641771CB69C88.subtitle}"
 			tasks: [
 				{
 					id: "3D597CEF74187A82"
@@ -2774,7 +2798,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests38.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.43C641771CB69C88.title}"
 			x: -4.125d
 			y: 0.0d
 		}
@@ -2785,29 +2809,34 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests39.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3D78B8D241B53C2A.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests39.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3D78B8D241B53C2A.description2}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "paladins:netherite_holy_staff"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3D78B8D241B53C2A"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "4A533E3437729B92"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests39.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "4A533E3437729B92"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.3D78B8D241B53C2A.reward.4A533E3437729B92.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests39.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.3D78B8D241B53C2A.subtitle}"
 			tasks: [
 				{
 					id: "65FCDBF3D31E3A54"
@@ -2865,7 +2894,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests39.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.3D78B8D241B53C2A.title}"
 			x: 3.0d
 			y: 1.12d
 		}
@@ -2876,15 +2905,15 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.1079F098AE98FCF6.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.1079F098AE98FCF6.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description4}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description5}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description7}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests40.description8}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.1079F098AE98FCF6.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.1079F098AE98FCF6.description5}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.1079F098AE98FCF6.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.1079F098AE98FCF6.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.1079F098AE98FCF6.description8}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -2896,16 +2925,14 @@
 			}
 			id: "1079F098AE98FCF6"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "23D1791923D2A96C"
-					item: "prominent:infused_molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "23D1791923D2A96C"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests40.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.1079F098AE98FCF6.subtitle}"
 			tasks: [
 				{
 					id: "1B154C7824A4877A"
@@ -2954,7 +2981,7 @@
 				{
 					id: "12E8E2647965891C"
 					item: "prominent:orion"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests40.tasks4.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.1079F098AE98FCF6.task.12E8E2647965891C.title}"
 					type: "item"
 				}
 				{
@@ -2976,37 +3003,36 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests40.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.1079F098AE98FCF6.title}"
 			x: -5.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["32AF5CAD14B2C8A7"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests41.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4DEDEC176C36CFD0.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests41.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4DEDEC176C36CFD0.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests41.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4DEDEC176C36CFD0.description4}"
 			]
 			hide_until_deps_visible: true
+			icon: "wizards:fire_spell_book"
 			id: "4DEDEC176C36CFD0"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "05CA9018461B5A4B"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests41.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "05CA9018461B5A4B"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4DEDEC176C36CFD0.reward.05CA9018461B5A4B.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests41.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.4DEDEC176C36CFD0.subtitle}"
 			tasks: [
 				{
 					id: "56952CF559FE81DF"
@@ -3069,23 +3095,30 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests41.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4DEDEC176C36CFD0.title}"
 			x: 0.375d
 			y: 3.75d
 		}
 		{
 			dependencies: ["57B71888F2B87995"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests42.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4B450D0E26363D54.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests42.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4B450D0E26363D54.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests42.description4}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests42.description5}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4B450D0E26363D54.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4B450D0E26363D54.description5}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests42.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4B450D0E26363D54.description7}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "paladins:netherite_kite_shield"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4B450D0E26363D54"
 			rewards: [
 				{
@@ -3103,12 +3136,12 @@
 						}
 					}
 					id: "1664C3677A95C8A1"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests42.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4B450D0E26363D54.reward.1664C3677A95C8A1.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests42.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.4B450D0E26363D54.subtitle}"
 			tasks: [
 				{
 					id: "0610720EC628217C"
@@ -3166,18 +3199,25 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests42.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4B450D0E26363D54.title}"
 			x: 2.62d
 			y: -0.75d
 		}
 		{
 			dependencies: ["4B450D0E26363D54"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests43.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.42068E429EB7B74F.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests43.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.42068E429EB7B74F.description2}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "advancednetherite:netherite_diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "42068E429EB7B74F"
 			rewards: [
 				{
@@ -3195,12 +3235,12 @@
 						}
 					}
 					id: "309783E783EB0E8B"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests43.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.42068E429EB7B74F.reward.309783E783EB0E8B.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests43.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.42068E429EB7B74F.subtitle}"
 			tasks: [
 				{
 					id: "02099611A2B1A294"
@@ -3257,7 +3297,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests43.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.42068E429EB7B74F.title}"
 			x: 4.12d
 			y: -0.75d
 		}
@@ -3268,30 +3308,22 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.080F23071FA8CFC9.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests44.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.080F23071FA8CFC9.description2}"
 			]
 			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				id: "paladins:iron_kite_shield"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "prominent:vaazkar"
 			id: "080F23071FA8CFC9"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "6F7AA60792E047F5"
-					item: "prominent:infused_molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6F7AA60792E047F5"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
 			shape: "none"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests44.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.080F23071FA8CFC9.subtitle}"
 			tasks: [
 				{
 					id: "3B9A27A979E70E11"
@@ -3347,7 +3379,7 @@
 						}
 					}
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests44.tasks4.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.080F23071FA8CFC9.task.1BDBEBA46642A85A.title}"
 					type: "item"
 				}
 				{
@@ -3360,48 +3392,56 @@
 						}
 					}
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests44.tasks5.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.080F23071FA8CFC9.task.1519A8729A6F8854.title}"
 					type: "item"
 				}
 				{
 					id: "60B3A4B08E3A36A6"
 					item: "prominent:vaazkar"
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests44.tasks6.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.080F23071FA8CFC9.task.60B3A4B08E3A36A6.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests44.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.080F23071FA8CFC9.title}"
 			x: 4.98d
 			y: -1.32d
 		}
 		{
-			dependencies: ["3D78B8D241B53C2A"]
+			dependencies: [
+				"3D78B8D241B53C2A"
+				"172EE533B61F2259"
+			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests45.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.59C45FA337989B0C.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests45.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.59C45FA337989B0C.description2}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "paladins:ruby_holy_staff"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "59C45FA337989B0C"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "7553FEA7E0612654"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests45.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "7553FEA7E0612654"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.59C45FA337989B0C.reward.7553FEA7E0612654.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests45.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.59C45FA337989B0C.subtitle}"
 			tasks: [
 				{
 					id: "0C642D20C079F5C7"
@@ -3425,14 +3465,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests45.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.59C45FA337989B0C.title}"
 			x: 4.125d
 			y: 1.12d
 		}
 		{
 			dependencies: ["59C45FA337989B0C"]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests46.description}"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.5728EF143DC9B7DB.description0}"]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -3444,16 +3484,14 @@
 			}
 			id: "5728EF143DC9B7DB"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "1A808A37E17EACEF"
-					item: "prominent:infused_molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1A808A37E17EACEF"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
 			shape: "none"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests46.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.5728EF143DC9B7DB.subtitle}"
 			tasks: [
 				{
 					id: "3D7208463E97F22F"
@@ -3511,7 +3549,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests46.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5728EF143DC9B7DB.title}"
 			x: 5.0d
 			y: 1.0d
 		}
@@ -3519,30 +3557,35 @@
 			dependencies: ["5814C5C80022A343"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests47.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.71EDD24DAB210B44.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests47.description2}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests47.description3}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.71EDD24DAB210B44.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.71EDD24DAB210B44.description3}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "wizards:staff_smaragdant_frost"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "71EDD24DAB210B44"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "5567D2897EB9E780"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests47.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "5567D2897EB9E780"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.71EDD24DAB210B44.reward.5567D2897EB9E780.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests47.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.71EDD24DAB210B44.subtitle}"
 			tasks: [
 				{
 					id: "3ED62E8F96814510"
@@ -3566,38 +3609,43 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests47.title}"
-			x: 1.125d
-			y: 4.5d
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.71EDD24DAB210B44.title}"
+			x: -0.375d
+			y: 4.875d
 		}
 		{
 			dependencies: ["4DEDEC176C36CFD0"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests48.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0F83B1AC3CB766C9.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests48.description2}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests48.description3}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0F83B1AC3CB766C9.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0F83B1AC3CB766C9.description3}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "wizards:staff_ruby_fire"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0F83B1AC3CB766C9"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "627F3071A8CB5709"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests48.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "627F3071A8CB5709"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0F83B1AC3CB766C9.reward.627F3071A8CB5709.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests48.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.0F83B1AC3CB766C9.subtitle}"
 			tasks: [
 				{
 					id: "7BF684560B170F7C"
@@ -3621,7 +3669,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests48.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0F83B1AC3CB766C9.title}"
 			x: 0.375d
 			y: 4.875d
 		}
@@ -3629,31 +3677,36 @@
 			dependencies: ["74B7050CA824F281"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests49.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6399A78B0AF2BCAE.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests49.description2}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests49.description3}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6399A78B0AF2BCAE.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6399A78B0AF2BCAE.description3}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "wizards:staff_crystal_arcane"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6399A78B0AF2BCAE"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "0F50E6150CD7445F"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests49.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "0F50E6150CD7445F"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6399A78B0AF2BCAE.reward.0F50E6150CD7445F.title}"
+				type: "custom"
+			}]
 			shape: "circle"
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests49.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.6399A78B0AF2BCAE.subtitle}"
 			tasks: [
 				{
 					id: "2ADC7596FC7E13CC"
@@ -3677,36 +3730,41 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests49.title}"
-			x: -0.375d
-			y: 4.875d
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6399A78B0AF2BCAE.title}"
+			x: 1.125d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4898E3ED8141DAFC"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests50.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests50.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests50.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests50.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests50.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.description7}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "spellbladenext:magus_head"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0DFD6849156C0709"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "780BEB98A98EEC11"
-					item: "prominent:infused_molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "780BEB98A98EEC11"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests50.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.subtitle}"
 			tasks: [
 				{
 					id: "2BD7D9868A4DE3C5"
@@ -3762,7 +3820,7 @@
 						}
 					}
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.tasks4.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.task.40508F32A11A73AD.title}"
 					type: "item"
 				}
 				{
@@ -3770,7 +3828,7 @@
 					item: "prominent:ashedar_essence"
 					match_nbt: false
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.tasks5.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.task.390C7D7FD95CDD00.title}"
 					type: "item"
 				}
 				{
@@ -3783,7 +3841,7 @@
 						}
 					}
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.tasks6.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.task.658142AF4622B6D9.title}"
 					type: "item"
 				}
 				{
@@ -3796,7 +3854,7 @@
 						}
 					}
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.tasks7.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.task.68FEBA665489253A.title}"
 					type: "item"
 				}
 				{
@@ -3809,11 +3867,11 @@
 						}
 					}
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.tasks8.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.task.28C2343C4343EC34.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests50.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0DFD6849156C0709.title}"
 			x: -5.0d
 			y: 3.75d
 		}
@@ -3826,23 +3884,28 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests51.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.01F49526727B35F1.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests51.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.01F49526727B35F1.description2}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "prominent:ekavar_staff"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "01F49526727B35F1"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "0F7C0A36A72724D5"
-					item: "prominent:infused_molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0F7C0A36A72724D5"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests51.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.01F49526727B35F1.subtitle}"
 			tasks: [
 				{
 					id: "5E7CDB8B53AE46A6"
@@ -3892,35 +3955,33 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests51.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.01F49526727B35F1.title}"
 			x: 0.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["09CE7EB3045D5136"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests52.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4898E3ED8141DAFC.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests52.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4898E3ED8141DAFC.description2}"
 			]
 			hide_until_deps_visible: true
 			id: "4898E3ED8141DAFC"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "2CA26DA2B863BBDB"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests52.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "2CA26DA2B863BBDB"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4898E3ED8141DAFC.reward.2CA26DA2B863BBDB.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests52.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.4898E3ED8141DAFC.subtitle}"
 			tasks: [
 				{
 					id: "39938277BAE69746"
@@ -3974,64 +4035,67 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests52.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4898E3ED8141DAFC.title}"
 			x: -4.125d
 			y: 2.625d
 		}
 		{
 			dependencies: ["32AF5CAD14B2C8A7"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests53.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0A4309730B50D9FF.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests53.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0A4309730B50D9FF.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests53.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.0A4309730B50D9FF.description4}"
 			]
 			hide_until_deps_visible: true
 			id: "0A4309730B50D9FF"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "593E54EFAB17BCD2"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests53.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "593E54EFAB17BCD2"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0A4309730B50D9FF.reward.593E54EFAB17BCD2.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests53.subtitle}"
-			tasks: [
-				{
-					id: "7A736CD3205D2748"
-					item: {
-						Count: 1
-						id: "wizards:staff_wizard"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.0A4309730B50D9FF.subtitle}"
+			tasks: [{
+				id: "7A736CD3205D2748"
+				item: {
+					Count: 1
+					id: "wizards:staff_wizard"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests53.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.0A4309730B50D9FF.title}"
 			x: -1.125d
 			y: 3.375d
 		}
 		{
 			dependencies: ["36B7ACAA73589366"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests54.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.5F05B907376828B4.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests54.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.5F05B907376828B4.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests54.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.5F05B907376828B4.description4}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "rogues:berserker_armor_head"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5F05B907376828B4"
 			rewards: [
 				{
@@ -4054,12 +4118,12 @@
 						}
 					}
 					id: "244D909F51F1F588"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests54.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5F05B907376828B4.reward.244D909F51F1F588.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests54.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.5F05B907376828B4.subtitle}"
 			tasks: [
 				{
 					id: "10858C192A21EF7E"
@@ -4106,18 +4170,19 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests54.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.5F05B907376828B4.title}"
 			x: -2.625d
 			y: -0.75d
 		}
 		{
 			dependencies: ["5F05B907376828B4"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests55.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.34D8C4E35FD1D7A4.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests55.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.34D8C4E35FD1D7A4.description2}"
 			]
 			hide_until_deps_visible: true
+			icon: "jewelry:unique_attack_necklace"
 			id: "34D8C4E35FD1D7A4"
 			rewards: [
 				{
@@ -4140,12 +4205,12 @@
 						}
 					}
 					id: "6AE781C23ABEE36A"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests55.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.34D8C4E35FD1D7A4.reward.6AE781C23ABEE36A.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests55.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.34D8C4E35FD1D7A4.subtitle}"
 			tasks: [
 				{
 					id: "13FB88C958CFAD8B"
@@ -4202,38 +4267,37 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests55.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.34D8C4E35FD1D7A4.title}"
 			x: -4.125d
 			y: -0.75d
 		}
 		{
 			dependencies: ["0002A96D1F886FB3"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests56.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.40C4C4072277E160.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests56.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.40C4C4072277E160.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests56.description4}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests56.description5}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.40C4C4072277E160.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.40C4C4072277E160.description5}"
 			]
 			hide_until_deps_visible: true
+			icon: "jewelry:unique_dex_necklace"
 			id: "40C4C4072277E160"
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ironchests:item/lock"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
 					}
-					id: "331708492CC28876"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests56.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "331708492CC28876"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.40C4C4072277E160.reward.331708492CC28876.title}"
+				type: "custom"
+			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests56.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.40C4C4072277E160.subtitle}"
 			tasks: [
 				{
 					consume_items: false
@@ -4247,7 +4311,7 @@
 						}
 					}
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests56.tasks0.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.40C4C4072277E160.task.19EF118E1C05D21C.title}"
 					type: "item"
 				}
 				{
@@ -4261,24 +4325,31 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests56.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.40C4C4072277E160.title}"
 			x: -4.125d
 			y: 1.875d
 		}
 		{
 			dependencies: ["36B7ACAA73589366"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests57.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3A72E538D2A5B20C.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests57.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3A72E538D2A5B20C.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests57.description4}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests57.description5}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3A72E538D2A5B20C.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3A72E538D2A5B20C.description5}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests57.description7}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests57.description8}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3A72E538D2A5B20C.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3A72E538D2A5B20C.description8}"
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "death_knights:diamond_runeblade"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3A72E538D2A5B20C"
 			rewards: [
 				{
@@ -4301,12 +4372,12 @@
 						}
 					}
 					id: "7589CF9AA012B9BC"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests57.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.3A72E538D2A5B20C.reward.7589CF9AA012B9BC.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests57.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.3A72E538D2A5B20C.subtitle}"
 			tasks: [
 				{
 					id: "301E199F256584F4"
@@ -4377,20 +4448,21 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests57.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.3A72E538D2A5B20C.title}"
 			x: -2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3A72E538D2A5B20C"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests58.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.75E616FE0AAF9EF5.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests58.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.75E616FE0AAF9EF5.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests58.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.75E616FE0AAF9EF5.description4}"
 			]
 			hide_until_deps_visible: true
+			icon: "death_knights:unholy_spell_book"
 			id: "75E616FE0AAF9EF5"
 			rewards: [
 				{
@@ -4413,12 +4485,12 @@
 						}
 					}
 					id: "73A40314C407F28B"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests58.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.75E616FE0AAF9EF5.reward.73A40314C407F28B.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests58.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.75E616FE0AAF9EF5.subtitle}"
 			tasks: [
 				{
 					id: "11E55B3701983086"
@@ -4480,20 +4552,21 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests58.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.75E616FE0AAF9EF5.title}"
 			x: -3.0d
 			y: -2.625d
 		}
 		{
 			dependencies: ["3A72E538D2A5B20C"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests59.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3B1F2D1CFA02F922.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests59.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3B1F2D1CFA02F922.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests59.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.3B1F2D1CFA02F922.description4}"
 			]
 			hide_until_deps_visible: true
+			icon: "death_knights:frost_spell_book"
 			id: "3B1F2D1CFA02F922"
 			rewards: [
 				{
@@ -4516,12 +4589,12 @@
 						}
 					}
 					id: "0B62C850AEED495B"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests59.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.3B1F2D1CFA02F922.reward.0B62C850AEED495B.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests59.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.3B1F2D1CFA02F922.subtitle}"
 			tasks: [
 				{
 					id: "16242E0DE37D3E2A"
@@ -4594,7 +4667,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests59.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.3B1F2D1CFA02F922.title}"
 			x: -3.375d
 			y: -1.875d
 		}
@@ -4605,10 +4678,10 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests60.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.1F1202929D2C5195.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests60.description2}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests60.description3}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.1F1202929D2C5195.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.1F1202929D2C5195.description3}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -4620,16 +4693,14 @@
 			}
 			id: "1F1202929D2C5195"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "5C9320E15A5F1B66"
-					item: "prominent:infused_molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5C9320E15A5F1B66"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests60.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.1F1202929D2C5195.subtitle}"
 			tasks: [
 				{
 					id: "7B49C7D7CEA608F9"
@@ -4667,7 +4738,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests60.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.1F1202929D2C5195.title}"
 			x: -4.124999999999993d
 			y: -2.5357142857142705d
 		}
@@ -4675,13 +4746,14 @@
 			dependencies: ["06DFB0682D1B98E9"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests61.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4CF644BC0920C177.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests61.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4CF644BC0920C177.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests61.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4CF644BC0920C177.description4}"
 			]
 			hide_until_deps_visible: true
+			icon: "death_knights:blood_dk_ring"
 			id: "4CF644BC0920C177"
 			min_required_dependencies: 1
 			rewards: [
@@ -4700,7 +4772,7 @@
 						}
 					}
 					id: "2E6A420A1EE4E09D"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests61.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4CF644BC0920C177.reward.2E6A420A1EE4E09D.title}"
 					type: "custom"
 				}
 				{
@@ -4711,7 +4783,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests61.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.4CF644BC0920C177.subtitle}"
 			tasks: [
 				{
 					id: "3817D7122445295D"
@@ -4779,7 +4851,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests61.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4CF644BC0920C177.title}"
 			x: 4.125d
 			y: -1.875d
 		}
@@ -4790,24 +4862,22 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests62.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.53391B7A86496FCB.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests62.description2}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests62.description3}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.53391B7A86496FCB.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.53391B7A86496FCB.description3}"
 			]
 			hide_until_deps_visible: true
 			id: "53391B7A86496FCB"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "34AFE2440701E126"
-					item: "prominent:infused_molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "34AFE2440701E126"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests62.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.53391B7A86496FCB.subtitle}"
 			tasks: [
 				{
 					id: "6D9D9481130AA919"
@@ -4819,14 +4889,14 @@
 						}
 					}
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests62.tasks0.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.53391B7A86496FCB.task.6D9D9481130AA919.title}"
 					type: "item"
 				}
 				{
 					id: "07CAC3E8AAA5C765"
 					item: "prominent:ashedar_essence"
 					optional_task: true
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests62.tasks1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.53391B7A86496FCB.task.07CAC3E8AAA5C765.title}"
 					type: "item"
 				}
 				{
@@ -4886,7 +4956,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests62.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.53391B7A86496FCB.title}"
 			x: -4.982142857142854d
 			y: 2.1785714285714377d
 		}
@@ -4894,12 +4964,12 @@
 			dependencies: ["34D8C4E35FD1D7A4"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests63.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6A594976300D5DCC.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests63.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6A594976300D5DCC.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests63.description4}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests63.description5}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6A594976300D5DCC.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6A594976300D5DCC.description5}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -4911,16 +4981,14 @@
 			}
 			id: "6A594976300D5DCC"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "3C6BCB52D195EE75"
-					item: "prominent:infused_molten_remnant"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3C6BCB52D195EE75"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests63.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.6A594976300D5DCC.subtitle}"
 			tasks: [
 				{
 					id: "0ADE139E6E4D04D6"
@@ -4978,7 +5046,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests63.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6A594976300D5DCC.title}"
 			x: -4.982142857142854d
 			y: -1.3214285714285552d
 		}
@@ -4993,7 +5061,7 @@
 				"5728EF143DC9B7DB"
 				"1079F098AE98FCF6"
 			]
-			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests64.description}"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.74BA5C6954FEFCE8.description0}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -5005,46 +5073,43 @@
 			}
 			id: "74BA5C6954FEFCE8"
 			invisible: true
-			rewards: [
-				{
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "ftblibrary:icons/info"
-						}
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftblibrary:icons/info"
 					}
-					id: "56AA5E5504D0E336"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests64.rewards0.title}"
-					type: "custom"
 				}
-			]
+				id: "56AA5E5504D0E336"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.74BA5C6954FEFCE8.reward.56AA5E5504D0E336.title}"
+				type: "custom"
+			}]
 			shape: "hexagon"
 			size: 1.35d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests64.subtitle}"
-			tasks: [
-				{
-					id: "1D0941FC33737AEB"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests64.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests64.title}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.74BA5C6954FEFCE8.subtitle}"
+			tasks: [{
+				id: "1D0941FC33737AEB"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.74BA5C6954FEFCE8.task.1D0941FC33737AEB.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.74BA5C6954FEFCE8.title}"
 			x: 4.05d
-			y: 2.7d
+			y: 4.7250000000000005d
 		}
 		{
 			dependencies: ["57B71888F2B87995"]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests65.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.06DFB0682D1B98E9.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests65.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.06DFB0682D1B98E9.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests65.description4}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests65.description5}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.06DFB0682D1B98E9.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.06DFB0682D1B98E9.description5}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests65.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.06DFB0682D1B98E9.description7}"
 			]
+			icon: "death_knights:blood_spell_book"
 			id: "06DFB0682D1B98E9"
 			rewards: [
 				{
@@ -5056,12 +5121,12 @@
 				{
 					icon: "ironchests:lock"
 					id: "016312526BD448A4"
-					title: "{ftbquests.chapter.einformation_7new_mechanics.quests65.rewards1.title}"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.06DFB0682D1B98E9.reward.016312526BD448A4.title}"
 					type: "custom"
 				}
 			]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests65.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.06DFB0682D1B98E9.subtitle}"
 			tasks: [
 				{
 					id: "49E7A57B77B185B6"
@@ -5125,14 +5190,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests65.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.06DFB0682D1B98E9.title}"
 			x: 2.625d
 			y: -1.875d
 		}
 		{
 			dependencies: ["059B370119A41869"]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.einformation_7new_mechanics.quests66.description0}"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.184216BC651DD776.description0}"]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -5150,7 +5215,7 @@
 			}]
 			shape: "none"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests66.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.184216BC651DD776.subtitle}"
 			tasks: [
 				{
 					id: "383F53B47A78DF4C"
@@ -5208,7 +5273,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests66.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.184216BC651DD776.title}"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -5216,13 +5281,14 @@
 			dependencies: ["4F92D56DE42A2FA5"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests67.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.059B370119A41869.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests67.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.059B370119A41869.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests67.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.059B370119A41869.description4}"
 			]
 			hide_until_deps_visible: true
+			icon: "spellbladenext:defiance_spell_book"
 			id: "059B370119A41869"
 			min_required_dependencies: 1
 			rewards: [{
@@ -5234,11 +5300,11 @@
 					}
 				}
 				id: "0DC4C5038A0F23FA"
-				title: "{ftbquests.chapter.einformation_7new_mechanics.quests67.rewards0.title}"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.059B370119A41869.reward.0DC4C5038A0F23FA.title}"
 				type: "custom"
 			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests67.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.059B370119A41869.subtitle}"
 			tasks: [
 				{
 					id: "0948F01AB38DBC5A"
@@ -5289,7 +5355,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests67.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.059B370119A41869.title}"
 			x: 4.125d
 			y: 0.0d
 		}
@@ -5297,11 +5363,12 @@
 			dependencies: ["073F2420FA2EF9B1"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests68.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4F92D56DE42A2FA5.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests68.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.4F92D56DE42A2FA5.description2}"
 			]
 			hide_until_deps_visible: true
+			icon: "paladins:paladin_spell_book"
 			id: "4F92D56DE42A2FA5"
 			min_required_dependencies: 1
 			rewards: [{
@@ -5313,11 +5380,11 @@
 					}
 				}
 				id: "47563093D39D5F31"
-				title: "{ftbquests.chapter.einformation_7new_mechanics.quests68.rewards0.title}"
+				title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4F92D56DE42A2FA5.reward.47563093D39D5F31.title}"
 				type: "custom"
 			}]
 			size: 0.75d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests68.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.4F92D56DE42A2FA5.subtitle}"
 			tasks: [
 				{
 					id: "1C99146A1626A363"
@@ -5386,7 +5453,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests68.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4F92D56DE42A2FA5.title}"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -5396,17 +5463,24 @@
 				"18899F26D6DB2F47"
 			]
 			description: [
-				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description0}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6C01A4BB169520D8.description0}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description2}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6C01A4BB169520D8.description2}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description4}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6C01A4BB169520D8.description4}"
 				""
-				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description6}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description7}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description8}"
-				"{ftbquests.chapter.einformation_7new_mechanics.quests69.description9}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6C01A4BB169520D8.description6}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6C01A4BB169520D8.description7}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6C01A4BB169520D8.description8}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.6C01A4BB169520D8.description9}"
 			]
+			icon: {
+				Count: 1
+				id: "soulsweapons:blunderbuss"
+				tag: {
+					Damage: 0
+				}
+			}
 			icon_scale: 1.3d
 			id: "6C01A4BB169520D8"
 			rewards: [{
@@ -5416,7 +5490,7 @@
 				type: "item"
 			}]
 			size: 0.5d
-			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quests69.subtitle}"
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.6C01A4BB169520D8.subtitle}"
 			tasks: [
 				{
 					id: "6444EA3BD07D133D"
@@ -5485,9 +5559,1943 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.einformation_7new_mechanics.quests69.title}"
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6C01A4BB169520D8.title}"
 			x: -3.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["080F23071FA8CFC9"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.57FF6066830B528E.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/juggernaut_helmet"
+				tag: {
+					az_id: [I;
+						957029404
+						219365727
+						-1415847529
+						1186493917
+					]
+				}
+			}
+			id: "57FF6066830B528E"
+			rewards: [
+				{
+					id: "56887A6E1F6C0781"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "0B73C21335FEC80F"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.57FF6066830B528E.subtitle}"
+			tasks: [
+				{
+					id: "6F97494A42BC6270"
+					item: {
+						Count: 1
+						id: "prominent:armor/juggernaut_helmet"
+						tag: {
+							az_id: [I;
+								957029404
+								219365727
+								-1415847529
+								1186493917
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03A7CBE4229A1FFD"
+					item: {
+						Count: 1
+						id: "prominent:armor/juggernaut_chestplate"
+						tag: {
+							az_id: [I;
+								83547109
+								119032126
+								-1937693662
+								162020323
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1558E999C5B3F250"
+					item: {
+						Count: 1
+						id: "prominent:armor/juggernaut_leggings"
+						tag: {
+							az_id: [I;
+								-241215830
+								-548452601
+								-2064058855
+								1797283682
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "435B90E30A3FB3FB"
+					item: {
+						Count: 1
+						id: "prominent:armor/juggernaut_boots"
+						tag: {
+							az_id: [I;
+								11818835
+								622807525
+								-1990232226
+								-323898006
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.57FF6066830B528E.title}"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["184216BC651DD776"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.7E984103553E300F.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/paladin_helmet"
+				tag: {
+					az_id: [I;
+						1941589784
+						-1027518556
+						-1371108816
+						1643907614
+					]
+				}
+			}
+			id: "7E984103553E300F"
+			rewards: [
+				{
+					id: "6715E67B510060D5"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "7BAA28B07A931D9B"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.7E984103553E300F.subtitle}"
+			tasks: [
+				{
+					id: "216E71CA94B1AB14"
+					item: {
+						Count: 1
+						id: "prominent:armor/paladin_helmet"
+						tag: {
+							az_id: [I;
+								1941589784
+								-1027518556
+								-1371108816
+								1643907614
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "186EBF60B426A2E8"
+					item: {
+						Count: 1
+						id: "prominent:armor/paladin_chestplate"
+						tag: {
+							az_id: [I;
+								2092245360
+								-1627307547
+								-1852718717
+								1116493384
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2440BE9156129AD5"
+					item: {
+						Count: 1
+						id: "prominent:armor/paladin_leggings"
+						tag: {
+							az_id: [I;
+								-1853085070
+								-385266978
+								-1923711061
+								815625829
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78B7E9E58B40C492"
+					item: {
+						Count: 1
+						id: "prominent:armor/paladin_boots"
+						tag: {
+							az_id: [I;
+								-575678940
+								1832929152
+								-1973276010
+								370567066
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7E984103553E300F.title}"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5728EF143DC9B7DB"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.40C12FFBA6C82B06.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/priest_helmet"
+				tag: {
+					az_id: [I;
+						-638618890
+						622412820
+						-1780340246
+						-255483453
+					]
+				}
+			}
+			id: "40C12FFBA6C82B06"
+			rewards: [
+				{
+					id: "1DC575F6973D6DFE"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "61C3480104CAF983"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.40C12FFBA6C82B06.subtitle}"
+			tasks: [
+				{
+					id: "4485ECCA4157EE25"
+					item: {
+						Count: 1
+						id: "prominent:armor/priest_helmet"
+						tag: {
+							az_id: [I;
+								-638618890
+								622412820
+								-1780340246
+								-255483453
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27F9FFF55298EFF0"
+					item: {
+						Count: 1
+						id: "prominent:armor/priest_chestplate"
+						tag: {
+							az_id: [I;
+								693990008
+								-583709439
+								-1132587750
+								692923110
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DC2E406B7DFEEB7"
+					item: {
+						Count: 1
+						id: "prominent:armor/priest_leggings"
+						tag: {
+							az_id: [I;
+								1776949546
+								1801012014
+								-1981529536
+								-700051776
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "227C147729A0BCE0"
+					item: {
+						Count: 1
+						id: "prominent:armor/priest_boots"
+						tag: {
+							az_id: [I;
+								-1890385606
+								-1905832738
+								-2066107266
+								-583347594
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.40C12FFBA6C82B06.title}"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0DFD6849156C0709"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.648ADF316C7E5D77.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/astral_mage_helmet"
+				tag: {
+					az_id: [I;
+						59979185
+						1668762528
+						-1826236308
+						-430747682
+					]
+				}
+			}
+			id: "648ADF316C7E5D77"
+			rewards: [
+				{
+					id: "63D64409E7F7CB15"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "5A3338AAB7A2A483"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.648ADF316C7E5D77.subtitle}"
+			tasks: [
+				{
+					id: "33C4DECEBB9D0B10"
+					item: {
+						Count: 1
+						id: "prominent:armor/astral_mage_helmet"
+						tag: {
+							az_id: [I;
+								59979185
+								1668762528
+								-1826236308
+								-430747682
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "157AA730AF4A2F33"
+					item: {
+						Count: 1
+						id: "prominent:armor/astral_mage_chestplate"
+						tag: {
+							az_id: [I;
+								1170287792
+								-261078408
+								-1680727518
+								1651542330
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7927EAAF294A7DB8"
+					item: {
+						Count: 1
+						id: "prominent:armor/astral_mage_leggings"
+						tag: {
+							az_id: [I;
+								1155055343
+								1553025211
+								-1202373664
+								524968949
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3911FAB8A083D69D"
+					item: {
+						Count: 1
+						id: "prominent:armor/astral_mage_boots"
+						tag: {
+							az_id: [I;
+								377531716
+								-1369552713
+								-1719114349
+								2123224033
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.648ADF316C7E5D77.title}"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53391B7A86496FCB"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.61743F64B66B9168.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/rogue_helmet"
+				tag: {
+					az_id: [I;
+						590679807
+						-436777468
+						-1598904165
+						-799415153
+					]
+				}
+			}
+			id: "61743F64B66B9168"
+			rewards: [
+				{
+					id: "05986FEB59994ED7"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "5396E9352DB7D19E"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.61743F64B66B9168.subtitle}"
+			tasks: [
+				{
+					id: "3241F1225EC3DA55"
+					item: {
+						Count: 1
+						id: "prominent:armor/rogue_helmet"
+						tag: {
+							az_id: [I;
+								590679807
+								-436777468
+								-1598904165
+								-799415153
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D91F57AB52B16A8"
+					item: {
+						Count: 1
+						id: "prominent:armor/rogue_chestplate"
+						tag: {
+							az_id: [I;
+								-277048198
+								648824495
+								-1709702935
+								-1574420446
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F41597589C8E111"
+					item: {
+						Count: 1
+						id: "prominent:armor/rogue_leggings"
+						tag: {
+							az_id: [I;
+								-1832031236
+								104941884
+								-1467435671
+								-2009836538
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5560795B1FC61A30"
+					item: {
+						Count: 1
+						id: "prominent:armor/rogue_boots"
+						tag: {
+							az_id: [I;
+								-58563580
+								-247575162
+								-1741810488
+								-936154169
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.61743F64B66B9168.title}"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1079F098AE98FCF6"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.6F2FAAFB0700D498.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/archer_helmet"
+				tag: {
+					az_id: [I;
+						1912633952
+						-1406251717
+						-1121783070
+						-202087583
+					]
+				}
+			}
+			id: "6F2FAAFB0700D498"
+			rewards: [
+				{
+					id: "5F1B4DB372D7169D"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "219153FEBB7C4F78"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.6F2FAAFB0700D498.subtitle}"
+			tasks: [
+				{
+					id: "11D6C7048FBE39DA"
+					item: {
+						Count: 1
+						id: "prominent:armor/archer_helmet"
+						tag: {
+							az_id: [I;
+								1912633952
+								-1406251717
+								-1121783070
+								-202087583
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A251CCD333D02AC"
+					item: {
+						Count: 1
+						id: "prominent:armor/archer_chestplate"
+						tag: {
+							az_id: [I;
+								1310466327
+								-1480766204
+								-1635302733
+								-525912095
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36BC0814CD0A0CC6"
+					item: {
+						Count: 1
+						id: "prominent:armor/archer_leggings"
+						tag: {
+							az_id: [I;
+								257038207
+								2045003313
+								-2059605989
+								1615395318
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FF6FCF0CCBBA832"
+					item: {
+						Count: 1
+						id: "prominent:armor/archer_boots"
+						tag: {
+							az_id: [I;
+								-530390888
+								-1579463365
+								-1474696213
+								-2130376242
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6F2FAAFB0700D498.title}"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A594976300D5DCC"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.7E40D81E226A2F83.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/warrior_helmet"
+				tag: {
+					az_id: [I;
+						2030139493
+						-525579970
+						-2134533568
+						-1570536419
+					]
+				}
+			}
+			id: "7E40D81E226A2F83"
+			rewards: [
+				{
+					id: "1BCDC93EF056C31C"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "5B325C51E857B95D"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.7E40D81E226A2F83.subtitle}"
+			tasks: [
+				{
+					id: "1B6C1798467C4278"
+					item: {
+						Count: 1
+						id: "prominent:armor/warrior_helmet"
+						tag: {
+							az_id: [I;
+								2030139493
+								-525579970
+								-2134533568
+								-1570536419
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0806A378785ED718"
+					item: {
+						Count: 1
+						id: "prominent:armor/warrior_chestplate"
+						tag: {
+							az_id: [I;
+								-1574816739
+								-1972288059
+								-1725332964
+								-1942978697
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CAC1B67CF9E7476"
+					item: {
+						Count: 1
+						id: "prominent:armor/warrior_leggings"
+						tag: {
+							az_id: [I;
+								-1862078427
+								2103659413
+								-1420404683
+								1475660706
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2930A21B6E599A6E"
+					item: {
+						Count: 1
+						id: "prominent:armor/warrior_boots"
+						tag: {
+							az_id: [I;
+								596429791
+								1825522884
+								-1615010317
+								-47463304
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7E40D81E226A2F83.title}"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A594976300D5DCC"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.6F52076FEF87BD49.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/valkyrie_helmet"
+				tag: {
+					az_id: [I;
+						-193634522
+						1278363934
+						-1509542567
+						-1218754889
+					]
+				}
+			}
+			id: "6F52076FEF87BD49"
+			rewards: [
+				{
+					id: "5800DDEC69C5E578"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "150794FCA33CBA91"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.6F52076FEF87BD49.subtitle}"
+			tasks: [
+				{
+					id: "11E00970C8A68E75"
+					item: {
+						Count: 1
+						id: "prominent:armor/valkyrie_helmet"
+						tag: {
+							az_id: [I;
+								-193634522
+								1278363934
+								-1509542567
+								-1218754889
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D7CF3278E8E6A8C"
+					item: {
+						Count: 1
+						id: "prominent:armor/valkyrie_chestplate"
+						tag: {
+							az_id: [I;
+								2014416229
+								-2098377828
+								-1430775593
+								718103004
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B163006C0CB5D8F"
+					item: {
+						Count: 1
+						id: "prominent:armor/valkyrie_leggings"
+						tag: {
+							az_id: [I;
+								-1020016228
+								1967539190
+								-1158970216
+								114184945
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BDE19C6A29A3F7B"
+					item: {
+						Count: 1
+						id: "prominent:armor/valkyrie_boots"
+						tag: {
+							az_id: [I;
+								189063609
+								-2123019101
+								-1490712030
+								894923181
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6F52076FEF87BD49.title}"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F1202929D2C5195"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.0C8A71D1C9C61798.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/frost_dk_helmet"
+				tag: {
+					az_id: [I;
+						-1259185551
+						-1401339063
+						-1106878828
+						-803608573
+					]
+				}
+			}
+			id: "0C8A71D1C9C61798"
+			rewards: [
+				{
+					id: "49C0A865278DA7A8"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "71EA98EC592DD112"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.0C8A71D1C9C61798.subtitle}"
+			tasks: [
+				{
+					id: "4F77291B63B82566"
+					item: {
+						Count: 1
+						id: "prominent:armor/frost_dk_helmet"
+						tag: {
+							az_id: [I;
+								-1259185551
+								-1401339063
+								-1106878828
+								-803608573
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C55F208BE5B5670"
+					item: {
+						Count: 1
+						id: "prominent:armor/frost_dk_chestplate"
+						tag: {
+							az_id: [I;
+								-1791145069
+								-298497145
+								-1434894463
+								-888911370
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E63108190FB4DFB"
+					item: {
+						Count: 1
+						id: "prominent:armor/frost_dk_leggings"
+						tag: {
+							az_id: [I;
+								97819307
+								-1816968384
+								-1363893686
+								-1761744338
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FB324A2EB483DE7"
+					item: {
+						Count: 1
+						id: "prominent:armor/frost_dk_boots"
+						tag: {
+							az_id: [I;
+								-2119477890
+								907037951
+								-1986510990
+								-875175278
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F1202929D2C5195"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.0F50BB07AEBA88FD.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/unholy_dk_helmet"
+				tag: {
+					az_id: [I;
+						525401604
+						-587182135
+						-1967318247
+						-668522667
+					]
+				}
+			}
+			id: "0F50BB07AEBA88FD"
+			rewards: [
+				{
+					id: "36246D34683323C5"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "56F8157200EC4E63"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.0F50BB07AEBA88FD.subtitle}"
+			tasks: [
+				{
+					id: "7169F297283637D1"
+					item: {
+						Count: 1
+						id: "prominent:armor/unholy_dk_helmet"
+						tag: {
+							az_id: [I;
+								525401604
+								-587182135
+								-1967318247
+								-668522667
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F4C49C5B77E39A2"
+					item: {
+						Count: 1
+						id: "prominent:armor/unholy_dk_chestplate"
+						tag: {
+							az_id: [I;
+								1341957803
+								1670663804
+								-1645014376
+								467071202
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39E22089D00C5EA1"
+					item: {
+						Count: 1
+						id: "prominent:armor/unholy_dk_leggings"
+						tag: {
+							az_id: [I;
+								912612860
+								-792378500
+								-1440596845
+								1269444320
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23601C5DF6BAD702"
+					item: {
+						Count: 1
+						id: "prominent:armor/unholy_dk_boots"
+						tag: {
+							az_id: [I;
+								-358869799
+								-2045359004
+								-2040771592
+								107304974
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["53391B7A86496FCB"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.4308167F7ED4F435.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/monk_helmet"
+				tag: {
+					az_id: [I;
+						12600436
+						-1976286893
+						-1652467071
+						-1325829843
+					]
+				}
+			}
+			id: "4308167F7ED4F435"
+			rewards: [
+				{
+					id: "22B607BBA57C1FC6"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "454B430C18BF1EA6"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.4308167F7ED4F435.subtitle}"
+			tasks: [
+				{
+					id: "1CC8BF5682A194AE"
+					item: {
+						Count: 1
+						id: "prominent:armor/monk_helmet"
+						tag: {
+							az_id: [I;
+								12600436
+								-1976286893
+								-1652467071
+								-1325829843
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B4E8515A321D1E1"
+					item: {
+						Count: 1
+						id: "prominent:armor/monk_chestplate"
+						tag: {
+							az_id: [I;
+								533791164
+								942034773
+								-2004043712
+								-316585456
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A4DE7C99F1DD67A"
+					item: {
+						Count: 1
+						id: "prominent:armor/monk_leggings"
+						tag: {
+							az_id: [I;
+								-592373319
+								-889175475
+								-1362092487
+								2133683536
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39C87278E28358C2"
+					item: {
+						Count: 1
+						id: "prominent:armor/monk_boots"
+						tag: {
+							az_id: [I;
+								-237310206
+								-42581487
+								-1426172013
+								-694210115
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.4308167F7ED4F435.title}"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01F49526727B35F1"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.7E72C981503990D6.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/fire_mage_helmet"
+				tag: {
+					az_id: [I;
+						1991913308
+						109267133
+						-1890114041
+						1626607399
+					]
+				}
+			}
+			id: "7E72C981503990D6"
+			rewards: [
+				{
+					id: "5131D3566FA4B24E"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "0FBFC1ECB0E7A3C6"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.7E72C981503990D6.subtitle}"
+			tasks: [
+				{
+					id: "569C3FD31857FC24"
+					item: {
+						Count: 1
+						id: "prominent:armor/fire_mage_helmet"
+						tag: {
+							az_id: [I;
+								1991913308
+								109267133
+								-1890114041
+								1626607399
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F55173F067AA9C6"
+					item: {
+						Count: 1
+						id: "prominent:armor/fire_mage_chestplate"
+						tag: {
+							az_id: [I;
+								1456702859
+								-1077657290
+								-1565208496
+								132135206
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A62EDFD74E071DD"
+					item: {
+						Count: 1
+						id: "prominent:armor/fire_mage_leggings"
+						tag: {
+							az_id: [I;
+								1905744313
+								-2123936104
+								-2079198141
+								-644419822
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "184B728159EF02C9"
+					item: {
+						Count: 1
+						id: "prominent:armor/fire_mage_boots"
+						tag: {
+							az_id: [I;
+								-254135894
+								-322354730
+								-1560216077
+								-1816834493
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7E72C981503990D6.title}"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01F49526727B35F1"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.2345918BC8A43294.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/frost_mage_helmet"
+				tag: {
+					az_id: [I;
+						1648993325
+						673006824
+						-1962288947
+						907866858
+					]
+				}
+			}
+			id: "2345918BC8A43294"
+			rewards: [
+				{
+					id: "7AD5D26D2F719BEB"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "2D1E04214E6F316D"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.2345918BC8A43294.subtitle}"
+			tasks: [
+				{
+					id: "66207833B10F0164"
+					item: {
+						Count: 1
+						id: "prominent:armor/frost_mage_helmet"
+						tag: {
+							az_id: [I;
+								1648993325
+								673006824
+								-1962288947
+								907866858
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2741EFDB0B768EC1"
+					item: {
+						Count: 1
+						id: "prominent:armor/frost_mage_chestplate"
+						tag: {
+							az_id: [I;
+								-470869066
+								1132807472
+								-1213843713
+								1929350914
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "388A35D032051C25"
+					item: {
+						Count: 1
+						id: "prominent:armor/frost_mage_leggings"
+						tag: {
+							az_id: [I;
+								-551793451
+								-794147318
+								-1101969467
+								709618460
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EA88F7D82CD77C2"
+					item: {
+						Count: 1
+						id: "prominent:armor/frost_mage_boots"
+						tag: {
+							az_id: [I;
+								1813415503
+								1523074136
+								-1406690773
+								574578800
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.2345918BC8A43294.title}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["01F49526727B35F1"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.1A6D26F67E598204.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/arcane_mage_helmet"
+				tag: {
+					az_id: [I;
+						1069673176
+						1769491742
+						-2066969426
+						-81976219
+					]
+				}
+			}
+			id: "1A6D26F67E598204"
+			rewards: [
+				{
+					id: "6D40F5BE7303E16A"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "5AB344D67214765E"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.1A6D26F67E598204.subtitle}"
+			tasks: [
+				{
+					id: "347C46473C042A3A"
+					item: {
+						Count: 1
+						id: "prominent:armor/arcane_mage_helmet"
+						tag: {
+							az_id: [I;
+								1069673176
+								1769491742
+								-2066969426
+								-81976219
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "369625CBBFD98FFE"
+					item: {
+						Count: 1
+						id: "prominent:armor/arcane_mage_chestplate"
+						tag: {
+							az_id: [I;
+								-1712138466
+								-1468575870
+								-1137404903
+								1544871027
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A39BDD76BC74422"
+					item: {
+						Count: 1
+						id: "prominent:armor/arcane_mage_leggings"
+						tag: {
+							az_id: [I;
+								1100936273
+								-1705882701
+								-1683969437
+								-1140411692
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "538B0554F1BD3AC3"
+					item: {
+						Count: 1
+						id: "prominent:armor/arcane_mage_boots"
+						tag: {
+							az_id: [I;
+								-1066895754
+								-1103540262
+								-1921850716
+								967321396
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.1A6D26F67E598204.title}"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["080F23071FA8CFC9"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.7E0669FD7A2FB007.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/blood_dk_helmet"
+				tag: {
+					az_id: [I;
+						-1751777160
+						-1798551383
+						-2046591018
+						1051805215
+					]
+				}
+			}
+			id: "7E0669FD7A2FB007"
+			rewards: [
+				{
+					id: "1B8D8208EA07A3D4"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "286213A931A4A08A"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.7E0669FD7A2FB007.subtitle}"
+			tasks: [
+				{
+					id: "1DF545E1079D9CB9"
+					item: {
+						Count: 1
+						id: "prominent:armor/blood_dk_helmet"
+						tag: {
+							az_id: [I;
+								-1751777160
+								-1798551383
+								-2046591018
+								1051805215
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "627F7A3E076CDE8C"
+					item: {
+						Count: 1
+						id: "prominent:armor/blood_dk_chestplate"
+						tag: {
+							az_id: [I;
+								847242509
+								-209432847
+								-1197701735
+								-1364984608
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F86C37622065442"
+					item: {
+						Count: 1
+						id: "prominent:armor/blood_dk_leggings"
+						tag: {
+							az_id: [I;
+								64753237
+								-1289925742
+								-1429024914
+								-2007974065
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EA60BAECBB70A65"
+					item: {
+						Count: 1
+						id: "prominent:armor/blood_dk_boots"
+						tag: {
+							az_id: [I;
+								263254913
+								-969062398
+								-1579293526
+								140049976
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.7E0669FD7A2FB007.title}"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["080F23071FA8CFC9"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.6334E69E6C23F030.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/forge_guard_helmet"
+				tag: {
+					az_id: [I;
+						-406927768
+						765349079
+						-1744380753
+						1372098742
+					]
+				}
+			}
+			id: "6334E69E6C23F030"
+			rewards: [
+				{
+					id: "28FB87820C6E4F42"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "11CD6C28100C9965"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.6334E69E6C23F030.subtitle}"
+			tasks: [
+				{
+					id: "4EDFC9B600E0BB43"
+					item: {
+						Count: 1
+						id: "prominent:armor/forge_guard_helmet"
+						tag: {
+							az_id: [I;
+								-406927768
+								765349079
+								-1744380753
+								1372098742
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E38C1446CAE9674"
+					item: {
+						Count: 1
+						id: "prominent:armor/forge_guard_chestplate"
+						tag: {
+							az_id: [I;
+								546918648
+								-464238872
+								-1531798916
+								-1654728634
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "336E0FB4F43D4480"
+					item: {
+						Count: 1
+						id: "prominent:armor/forge_guard_leggings"
+						tag: {
+							az_id: [I;
+								-95942237
+								915230242
+								-1412439488
+								-1664700021
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3006A6E33A80246A"
+					item: {
+						Count: 1
+						id: "prominent:armor/forge_guard_boots"
+						tag: {
+							az_id: [I;
+								1321253641
+								443500095
+								-1557513676
+								-1018170418
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.6334E69E6C23F030.title}"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A1F7985832C6DB2"]
+			description: [
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.172EE533B61F2259.description0}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.172EE533B61F2259.description2}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.172EE533B61F2259.description4}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.172EE533B61F2259.description6}"
+				""
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.172EE533B61F2259.description8}"
+				"{ftbquests.chapter.einformation_7new_mechanics.quest.172EE533B61F2259.description9}"
+			]
+			icon: {
+				Count: 1
+				id: "bards_rpg:diamond_lyre"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "172EE533B61F2259"
+			rewards: [
+				{
+					id: "7520781FC3DA5894"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "27502BEA130EF1EA"
+					title: "{ftbquests.chapter.einformation_7new_mechanics.quest.172EE533B61F2259.reward.27502BEA130EF1EA.title}"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.172EE533B61F2259.subtitle}"
+			tasks: [
+				{
+					id: "1A511BEE868E52FD"
+					item: {
+						Count: 1
+						id: "bards_rpg:aeternium_lyre"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A1AB72BABDF18F0"
+					item: {
+						Count: 1
+						id: "bards_rpg:ruby_lute"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "128B23FFD264F2CB"
+					item: {
+						Count: 1
+						id: "bards_rpg:ruby_harp_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41D01E693B5867FA"
+					item: {
+						Count: 1
+						id: "bards_rpg:netherite_troubadour_garb_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57ACB9C2B1FE4B6E"
+					item: {
+						Count: 1
+						id: "bards_rpg:netherite_troubadour_garb_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1862FFBF2BF3574A"
+					item: {
+						Count: 1
+						id: "bards_rpg:netherite_troubadour_garb_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37C4C32C7EC10F2A"
+					item: {
+						Count: 1
+						id: "bards_rpg:netherite_troubadour_garb_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AD73ABC2A8EF7C4"
+					item: {
+						Count: 1
+						id: "bards_rpg:aeternium_rapier"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CA95C1B2C7351B4"
+					item: {
+						Count: 1
+						id: "bards_rpg:ruby_rapier"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.172EE533B61F2259.title}"
+			x: 2.625d
+			y: 1.875d
+		}
+		{
+			dependencies: ["172EE533B61F2259"]
+			description: ["{ftbquests.chapter.einformation_7new_mechanics.quest.410B5200BC70C5FF.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:armor/bard_helmet"
+				tag: {
+					az_id: [I;
+						-1275800313
+						412699754
+						-1218585554
+						886679583
+					]
+				}
+			}
+			id: "410B5200BC70C5FF"
+			rewards: [
+				{
+					id: "03E7D2362693DF76"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "081D227B194BE7FA"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.einformation_7new_mechanics.quest.410B5200BC70C5FF.subtitle}"
+			tasks: [
+				{
+					id: "3EF5464E95D1A9D0"
+					item: {
+						Count: 1
+						id: "prominent:armor/bard_helmet"
+						tag: {
+							az_id: [I;
+								-1275800313
+								412699754
+								-1218585554
+								886679583
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DBADF0A3B054630"
+					item: {
+						Count: 1
+						id: "prominent:armor/bard_chestplate"
+						tag: {
+							az_id: [I;
+								748117130
+								-916307169
+								-1565593783
+								-569168539
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B788386B0873C63"
+					item: {
+						Count: 1
+						id: "prominent:armor/bard_leggings"
+						tag: {
+							az_id: [I;
+								2009458286
+								894651827
+								-1571928289
+								-678138321
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F0758574C52E627"
+					item: {
+						Count: 1
+						id: "prominent:armor/bard_boots"
+						tag: {
+							az_id: [I;
+								-1424104246
+								2067352086
+								-1247638373
+								-1871297189
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.einformation_7new_mechanics.quest.410B5200BC70C5FF.title}"
+			x: 5.0d
+			y: 3.0d
 		}
 	]
 	title: "{ftbquests.chapter.einformation_7new_mechanics.title}"

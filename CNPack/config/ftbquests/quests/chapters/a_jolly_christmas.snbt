@@ -162,12 +162,12 @@
 				}
 			]
 			shape: "none"
-			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests0.subtitle}"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quest.3C0E6C957238E214.subtitle}"
 			tasks: [{
 				id: "3BC1A9AB1165C568"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.a_jolly_christmas.quests0.title}"
+			title: "{ftbquests.chapter.a_jolly_christmas.quest.3C0E6C957238E214.title}"
 			x: 2.5d
 			y: -0.5d
 		}
@@ -195,12 +195,12 @@
 				}
 			]
 			shape: "none"
-			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quest.5B9554845637A3A5.subtitle}"
 			tasks: [{
 				id: "2B4FC802B9F0E823"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.a_jolly_christmas.quests1.title}"
+			title: "{ftbquests.chapter.a_jolly_christmas.quest.5B9554845637A3A5.title}"
 			x: 2.0d
 			y: 0.5d
 		}
@@ -209,7 +209,7 @@
 				"1307A8EF388ECDB3"
 				"3A8C4B633BAF1EFF"
 			]
-			description: ["{ftbquests.chapter.a_jolly_christmas.quests2.description0}"]
+			description: ["{ftbquests.chapter.a_jolly_christmas.quest.61AAC3E69CD1C096.description0}"]
 			hide_dependency_lines: true
 			icon: "supplementaries:present_green"
 			id: "61AAC3E69CD1C096"
@@ -245,12 +245,12 @@
 				}
 			]
 			shape: "none"
-			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quest.61AAC3E69CD1C096.subtitle}"
 			tasks: [{
 				id: "35D609ABCCAEB350"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.a_jolly_christmas.quests2.title}"
+			title: "{ftbquests.chapter.a_jolly_christmas.quest.61AAC3E69CD1C096.title}"
 			x: 2.5d
 			y: -2.0d
 		}
@@ -286,18 +286,18 @@
 				}
 			]
 			shape: "none"
-			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quest.6284194862D6FBA9.subtitle}"
 			tasks: [{
 				id: "1BBC6832D5CBE2AC"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.a_jolly_christmas.quests3.title}"
+			title: "{ftbquests.chapter.a_jolly_christmas.quest.6284194862D6FBA9.title}"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6284194862D6FBA9"]
-			description: ["{ftbquests.chapter.a_jolly_christmas.quests4.description0}"]
+			description: ["{ftbquests.chapter.a_jolly_christmas.quest.213AE6916EAB259D.description0}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: "minecraft:nether_star"
@@ -333,12 +333,12 @@
 				}
 			]
 			shape: "none"
-			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quest.213AE6916EAB259D.subtitle}"
 			tasks: [{
 				id: "2FB46A1BD3F500C6"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.a_jolly_christmas.quests4.title}"
+			title: "{ftbquests.chapter.a_jolly_christmas.quest.213AE6916EAB259D.title}"
 			x: 2.0d
 			y: -4.5d
 		}
@@ -371,10 +371,10 @@
 				}
 			]
 			shape: "none"
-			subtitle: "{ftbquests.chapter.a_jolly_christmas.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.a_jolly_christmas.quest.1307A8EF388ECDB3.subtitle}"
 			tasks: [{
 				id: "7947BD6F5B48F47C"
-				title: "{ftbquests.chapter.a_jolly_christmas.quests5.tasks0.title}"
+				title: "{ftbquests.chapter.a_jolly_christmas.quest.1307A8EF388ECDB3.task.7947BD6F5B48F47C.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d

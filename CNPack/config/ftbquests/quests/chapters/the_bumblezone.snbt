@@ -12,48 +12,39 @@
 		{
 			icon: "minecraft:bee_nest"
 			id: "4E9477A4D0A322D5"
-			rewards: [
-				{
-					id: "33CEE00F7B27A684"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "33CEE00F7B27A684"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests0.subtitle}"
-			tasks: [
-				{
-					dimension: "the_bumblezone:the_bumblezone"
-					icon: "minecraft:bee_nest"
-					id: "094A0B7C390130EF"
-					title: "{ftbquests.chapter.the_bumblezone.quests0.tasks0.title}"
-					type: "dimension"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests0.title}"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.4E9477A4D0A322D5.subtitle}"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "minecraft:bee_nest"
+				id: "094A0B7C390130EF"
+				title: "{ftbquests.chapter.the_bumblezone.quest.4E9477A4D0A322D5.task.094A0B7C390130EF.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.4E9477A4D0A322D5.title}"
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "3E195E8F90C499C7"
-			rewards: [
-				{
-					id: "41D06D62CC1ADED4"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests1.subtitle}"
+			rewards: [{
+				id: "41D06D62CC1ADED4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.3E195E8F90C499C7.subtitle}"
 			tasks: [
 				{
 					count: 16L
 					id: "5FB4790B5A75A619"
-					item: {
-						Count: 16
-						id: "the_bumblezone:pollen_puff"
-					}
+					item: { Count: 16, id: "the_bumblezone:pollen_puff" }
 					type: "item"
 				}
 				{
@@ -72,7 +63,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.the_bumblezone.quests1.title}"
+			title: "{ftbquests.chapter.the_bumblezone.quest.3E195E8F90C499C7.title}"
 			x: -1.5d
 			y: 4.0d
 		}
@@ -102,7 +93,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.460A03C99A92EEC3.subtitle}"
 			tasks: [
 				{
 					id: "396393F172D13E1E"
@@ -145,7 +136,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.the_bumblezone.quests2.title}"
+			title: "{ftbquests.chapter.the_bumblezone.quest.460A03C99A92EEC3.title}"
 			x: 0.5d
 			y: 4.0d
 		}
@@ -165,7 +156,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.1ACFAAF917E5016A.subtitle}"
 			tasks: [
 				{
 					id: "119C263D70857316"
@@ -206,48 +197,42 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.the_bumblezone.quests3.title}"
+			title: "{ftbquests.chapter.the_bumblezone.quest.1ACFAAF917E5016A.title}"
 			x: 3.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "214A1041439A5560"
-			rewards: [
-				{
-					id: "59DCBB128700B922"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "59DCBB128700B922"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests4.subtitle}"
-			tasks: [
-				{
-					id: "314E0B959B386388"
-					item: {
-						Count: 1
-						id: "the_bumblezone:honey_compass"
-						tag: { }
-					}
-					type: "item"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.214A1041439A5560.subtitle}"
+			tasks: [{
+				id: "314E0B959B386388"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: { }
 				}
-			]
+				type: "item"
+			}]
 			x: -0.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "1B067E92666610FF"
-			rewards: [
-				{
-					id: "5526DD379D3336E1"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests5.subtitle}"
+			rewards: [{
+				id: "5526DD379D3336E1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.1B067E92666610FF.subtitle}"
 			tasks: [
 				{
 					id: "72B19162E39280E2"
@@ -273,254 +258,220 @@
 					icon: "the_bumblezone:honey_crystal_shards"
 					id: "1D3FC21D04DF05B2"
 					structure: "the_bumblezone:cell_maze"
-					title: "{ftbquests.chapter.the_bumblezone.quests5.tasks4.title}"
+					title: "{ftbquests.chapter.the_bumblezone.quest.1B067E92666610FF.task.1D3FC21D04DF05B2.title}"
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.the_bumblezone.quests5.title}"
+			title: "{ftbquests.chapter.the_bumblezone.quest.1B067E92666610FF.title}"
 			x: -0.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["0F8FD241817376AE"]
 			id: "49EA7F3135E2CC74"
-			rewards: [
-				{
-					id: "7BCD6AE0E5B198D5"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "the_bumblezone:essence_calming"
-						tag: {
-							abilityUseRemaining: 600
-						}
+			rewards: [{
+				id: "7BCD6AE0E5B198D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_calming"
+					tag: {
+						abilityUseRemaining: 600
 					}
-					id: "026654F5006802CE"
-					structure: "the_bumblezone:sempiternal_sanctum_blue"
-					title: "{ftbquests.chapter.the_bumblezone.quests6.tasks0.title}"
-					type: "structure"
 				}
-			]
+				id: "026654F5006802CE"
+				structure: "the_bumblezone:sempiternal_sanctum_blue"
+				title: "{ftbquests.chapter.the_bumblezone.quest.49EA7F3135E2CC74.task.026654F5006802CE.title}"
+				type: "structure"
+			}]
 			x: -2.0d
 			y: 19.5d
 		}
 		{
 			dependencies: ["0F8FD241817376AE"]
 			id: "54AAA9079FF8E65B"
-			rewards: [
-				{
-					id: "45688EE3468BC71A"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "the_bumblezone:essence_life"
-						tag: {
-							abilityUseRemaining: 1000
-						}
+			rewards: [{
+				id: "45688EE3468BC71A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_life"
+					tag: {
+						abilityUseRemaining: 1000
 					}
-					id: "70CF21FB5F2B81C3"
-					structure: "the_bumblezone:sempiternal_sanctum_green"
-					title: "{ftbquests.chapter.the_bumblezone.quests7.tasks0.title}"
-					type: "structure"
 				}
-			]
+				id: "70CF21FB5F2B81C3"
+				structure: "the_bumblezone:sempiternal_sanctum_green"
+				title: "{ftbquests.chapter.the_bumblezone.quest.54AAA9079FF8E65B.task.70CF21FB5F2B81C3.title}"
+				type: "structure"
+			}]
 			x: 2.0d
 			y: 18.5d
 		}
 		{
 			dependencies: ["0F8FD241817376AE"]
 			id: "7B8261F4787E6EA7"
-			rewards: [
-				{
-					id: "7485D599A5869B88"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "the_bumblezone:essence_knowing"
-						tag: {
-							abilityUseRemaining: 1200
-						}
+			rewards: [{
+				id: "7485D599A5869B88"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_knowing"
+					tag: {
+						abilityUseRemaining: 1200
 					}
-					id: "21800782215F1EBF"
-					structure: "the_bumblezone:sempiternal_sanctum_purple"
-					title: "{ftbquests.chapter.the_bumblezone.quests8.tasks0.title}"
-					type: "structure"
 				}
-			]
+				id: "21800782215F1EBF"
+				structure: "the_bumblezone:sempiternal_sanctum_purple"
+				title: "{ftbquests.chapter.the_bumblezone.quest.7B8261F4787E6EA7.task.21800782215F1EBF.title}"
+				type: "structure"
+			}]
 			x: -3.5d
 			y: 17.0d
 		}
 		{
 			dependencies: ["0F8FD241817376AE"]
 			id: "45FE520AC009290F"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "the_bumblezone:essence_raging"
-						tag: {
-							abilityUseRemaining: 28
-						}
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_raging"
+					tag: {
+						abilityUseRemaining: 28
 					}
-					id: "1069ECE91757590C"
-					structure: "#the_bumblezone:honey_compass/sempiternal_sanctums/red"
-					title: "{ftbquests.chapter.the_bumblezone.quests9.tasks0.title}"
-					type: "structure"
 				}
-			]
+				id: "1069ECE91757590C"
+				structure: "#the_bumblezone:honey_compass/sempiternal_sanctums/red"
+				title: "{ftbquests.chapter.the_bumblezone.quest.45FE520AC009290F.task.1069ECE91757590C.title}"
+				type: "structure"
+			}]
 			x: -3.0d
 			y: 18.5d
 		}
 		{
 			dependencies: ["0F8FD241817376AE"]
 			id: "42C94ED483CD4AB8"
-			rewards: [
-				{
-					id: "61735069A1BDB5C4"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "the_bumblezone:essence_continuity"
-						tag: {
-							abilityUseRemaining: 1
-						}
+			rewards: [{
+				id: "61735069A1BDB5C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_continuity"
+					tag: {
+						abilityUseRemaining: 1
 					}
-					id: "24ADA1FE7305C9C6"
-					structure: "the_bumblezone:sempiternal_sanctum_white"
-					title: "{ftbquests.chapter.the_bumblezone.quests10.tasks0.title}"
-					type: "structure"
 				}
-			]
+				id: "24ADA1FE7305C9C6"
+				structure: "the_bumblezone:sempiternal_sanctum_white"
+				title: "{ftbquests.chapter.the_bumblezone.quest.42C94ED483CD4AB8.task.24ADA1FE7305C9C6.title}"
+				type: "structure"
+			}]
 			x: 1.0d
 			y: 19.5d
 		}
 		{
 			dependencies: ["0F8FD241817376AE"]
 			id: "6BADAB3BD0E50555"
-			rewards: [
-				{
-					id: "3B59AE8D040B8549"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "the_bumblezone:essence_radiance"
-						tag: {
-							abilityUseRemaining: 4800
-						}
+			rewards: [{
+				id: "3B59AE8D040B8549"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_radiance"
+					tag: {
+						abilityUseRemaining: 4800
 					}
-					id: "63BEA72E5A7DCF1F"
-					structure: "the_bumblezone:sempiternal_sanctum_yellow"
-					title: "{ftbquests.chapter.the_bumblezone.quests11.tasks0.title}"
-					type: "structure"
 				}
-			]
+				id: "63BEA72E5A7DCF1F"
+				structure: "the_bumblezone:sempiternal_sanctum_yellow"
+				title: "{ftbquests.chapter.the_bumblezone.quest.6BADAB3BD0E50555.task.63BEA72E5A7DCF1F.title}"
+				type: "structure"
+			}]
 			x: 2.5d
 			y: 17.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "7B767822A0B3B19A"
-			rewards: [
-				{
-					id: "30E75C4EF6D6997B"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests12.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "the_bumblezone:stinger_spear"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "30E75C4EF6D6997B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.7B767822A0B3B19A.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:stinger_spear"
+					tag: {
+						Damage: 0
 					}
-					id: "60EBEED85691EF2F"
-					structure: "the_bumblezone:stinger_spear_shrine"
-					title: "{ftbquests.chapter.the_bumblezone.quests12.tasks0.title}"
-					type: "structure"
 				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests12.title}"
+				id: "60EBEED85691EF2F"
+				structure: "the_bumblezone:stinger_spear_shrine"
+				title: "{ftbquests.chapter.the_bumblezone.quest.7B767822A0B3B19A.task.60EBEED85691EF2F.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.7B767822A0B3B19A.title}"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "60E941719D226AD0"
-			rewards: [
-				{
-					id: "507B630BDE2E1FDB"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests13.subtitle}"
-			tasks: [
-				{
-					icon: "the_bumblezone:windy_air"
-					id: "64FC28F523C427D2"
-					structure: "the_bumblezone:subway"
-					title: "{ftbquests.chapter.the_bumblezone.quests13.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests13.title}"
+			rewards: [{
+				id: "507B630BDE2E1FDB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.60E941719D226AD0.subtitle}"
+			tasks: [{
+				icon: "the_bumblezone:windy_air"
+				id: "64FC28F523C427D2"
+				structure: "the_bumblezone:subway"
+				title: "{ftbquests.chapter.the_bumblezone.quest.60E941719D226AD0.task.64FC28F523C427D2.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.60E941719D226AD0.title}"
 			x: -2.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1B067E92666610FF"]
 			id: "2F9D5C546F713DDC"
-			rewards: [
-				{
-					id: "190D852CDF497C71"
-					type: "xp"
-					xp: 100
+			rewards: [{
+				id: "190D852CDF497C71"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.2F9D5C546F713DDC.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: { }
 				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests14.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "the_bumblezone:honey_compass"
-						tag: { }
-					}
-					id: "2118C4EF58105BEB"
-					structure: "the_bumblezone:throne_pillar"
-					title: "{ftbquests.chapter.the_bumblezone.quests14.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests14.title}"
+				id: "2118C4EF58105BEB"
+				structure: "the_bumblezone:throne_pillar"
+				title: "{ftbquests.chapter.the_bumblezone.quest.2F9D5C546F713DDC.task.2118C4EF58105BEB.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.2F9D5C546F713DDC.title}"
 			x: -0.5d
 			y: 15.0d
 		}
@@ -549,15 +500,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests15.subtitle}"
-			tasks: [
-				{
-					id: "1885038F0C08454B"
-					item: "the_bumblezone:essence_of_the_bees"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests15.title}"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.0F8FD241817376AE.subtitle}"
+			tasks: [{
+				id: "1885038F0C08454B"
+				item: "the_bumblezone:essence_of_the_bees"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.0F8FD241817376AE.title}"
 			x: -0.5d
 			y: 17.5d
 		}
@@ -577,7 +526,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.394A179160EB4AE8.subtitle}"
 			tasks: [
 				{
 					id: "27A36C84442BD4A7"
@@ -588,7 +537,7 @@
 							value: "the_bumblezone:armors/helmets"
 						}
 					}
-					title: "{ftbquests.chapter.the_bumblezone.quests16.tasks0.title}"
+					title: "{ftbquests.chapter.the_bumblezone.quest.394A179160EB4AE8.task.27A36C84442BD4A7.title}"
 					type: "item"
 				}
 				{
@@ -600,7 +549,7 @@
 							value: "the_bumblezone:armors/chestplates"
 						}
 					}
-					title: "{ftbquests.chapter.the_bumblezone.quests16.tasks1.title}"
+					title: "{ftbquests.chapter.the_bumblezone.quest.394A179160EB4AE8.task.1E4B0AAE235A44EB.title}"
 					type: "item"
 				}
 				{
@@ -612,7 +561,7 @@
 							value: "the_bumblezone:armors/leggings"
 						}
 					}
-					title: "{ftbquests.chapter.the_bumblezone.quests16.tasks2.title}"
+					title: "{ftbquests.chapter.the_bumblezone.quest.394A179160EB4AE8.task.7A026460FAE4A947.title}"
 					type: "item"
 				}
 				{
@@ -624,197 +573,169 @@
 							value: "the_bumblezone:armors/boots"
 						}
 					}
-					title: "{ftbquests.chapter.the_bumblezone.quests16.tasks3.title}"
+					title: "{ftbquests.chapter.the_bumblezone.quest.394A179160EB4AE8.task.7474B92AA308F8FD.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.the_bumblezone.quests16.title}"
+			title: "{ftbquests.chapter.the_bumblezone.quest.394A179160EB4AE8.title}"
 			x: -4.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "152E438018A29730"
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests17.subtitle}"
-			tasks: [
-				{
-					icon: "the_bumblezone:sugar_water_bucket"
-					id: "39BD856AE9E09B33"
-					structure: "the_bumblezone:pollinated_stream"
-					title: "{ftbquests.chapter.the_bumblezone.quests17.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests17.title}"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.152E438018A29730.subtitle}"
+			tasks: [{
+				icon: "the_bumblezone:sugar_water_bucket"
+				id: "39BD856AE9E09B33"
+				structure: "the_bumblezone:pollinated_stream"
+				title: "{ftbquests.chapter.the_bumblezone.quest.152E438018A29730.task.39BD856AE9E09B33.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.152E438018A29730.title}"
 			x: -3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "106F26F32315FB56"
-			rewards: [
-				{
-					id: "5E8C00B5375AF75C"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests18.subtitle}"
-			tasks: [
-				{
-					icon: "the_bumblezone:royal_jelly_block"
-					id: "06A852BC383BFB22"
-					structure: "the_bumblezone:honitel"
-					title: "{ftbquests.chapter.the_bumblezone.quests18.tasks0.title}"
-					type: "structure"
-				}
-			]
+			rewards: [{
+				id: "5E8C00B5375AF75C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.106F26F32315FB56.subtitle}"
+			tasks: [{
+				icon: "the_bumblezone:royal_jelly_block"
+				id: "06A852BC383BFB22"
+				structure: "the_bumblezone:honitel"
+				title: "{ftbquests.chapter.the_bumblezone.quest.106F26F32315FB56.task.06A852BC383BFB22.title}"
+				type: "structure"
+			}]
 			x: 2.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "2F56A01E1713C492"
-			rewards: [
-				{
-					id: "02FCC90814275935"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests19.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:slime_ball"
-					id: "49280FF78B9CAD65"
-					structure: "the_bumblezone:honey_slime_ranch"
-					title: "{ftbquests.chapter.the_bumblezone.quests19.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests19.title}"
+			rewards: [{
+				id: "02FCC90814275935"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.2F56A01E1713C492.subtitle}"
+			tasks: [{
+				icon: "minecraft:slime_ball"
+				id: "49280FF78B9CAD65"
+				structure: "the_bumblezone:honey_slime_ranch"
+				title: "{ftbquests.chapter.the_bumblezone.quest.2F56A01E1713C492.task.49280FF78B9CAD65.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.2F56A01E1713C492.title}"
 			x: -4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "3E267F949FEA4C9C"
-			rewards: [
-				{
-					id: "3891B36CE3C3B094"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests20.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:yellow_banner"
-					id: "521C68398D00E371"
-					structure: "the_bumblezone:pirate_ship"
-					title: "{ftbquests.chapter.the_bumblezone.quests20.tasks0.title}"
-					type: "structure"
-				}
-			]
+			rewards: [{
+				id: "3891B36CE3C3B094"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.3E267F949FEA4C9C.subtitle}"
+			tasks: [{
+				icon: "minecraft:yellow_banner"
+				id: "521C68398D00E371"
+				structure: "the_bumblezone:pirate_ship"
+				title: "{ftbquests.chapter.the_bumblezone.quest.3E267F949FEA4C9C.task.521C68398D00E371.title}"
+				type: "structure"
+			}]
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "3D3C60805844101B"
-			rewards: [
-				{
-					id: "0D4E2DCB1F6642DC"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests21.subtitle}"
-			tasks: [
-				{
-					icon: "the_bumblezone:honey_crystal"
-					id: "40377F875E7C6A21"
-					structure: "the_bumblezone:overgrown_flower"
-					title: "{ftbquests.chapter.the_bumblezone.quests21.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests21.title}"
+			rewards: [{
+				id: "0D4E2DCB1F6642DC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.3D3C60805844101B.subtitle}"
+			tasks: [{
+				icon: "the_bumblezone:honey_crystal"
+				id: "40377F875E7C6A21"
+				structure: "the_bumblezone:overgrown_flower"
+				title: "{ftbquests.chapter.the_bumblezone.quest.3D3C60805844101B.task.40377F875E7C6A21.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.3D3C60805844101B.title}"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "59ABBBAC6DBDB649"
-			rewards: [
-				{
-					id: "165D98865A29684E"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests22.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:blue_ice"
-					id: "3F2FE2E19E44F4F1"
-					structure: "the_bumblezone:ice_monolith"
-					title: "{ftbquests.chapter.the_bumblezone.quests22.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests22.title}"
+			rewards: [{
+				id: "165D98865A29684E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.59ABBBAC6DBDB649.subtitle}"
+			tasks: [{
+				icon: "minecraft:blue_ice"
+				id: "3F2FE2E19E44F4F1"
+				structure: "the_bumblezone:ice_monolith"
+				title: "{ftbquests.chapter.the_bumblezone.quest.59ABBBAC6DBDB649.task.3F2FE2E19E44F4F1.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.59ABBBAC6DBDB649.title}"
 			x: 3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "6671FBBE199FF79B"
-			rewards: [
-				{
-					id: "6795911945BD9C29"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests23.subtitle}"
-			tasks: [
-				{
-					icon: "the_bumblezone:super_candle_red"
-					id: "2A1BC2AB647871D2"
-					structure: "the_bumblezone:candle_parkour"
-					title: "{ftbquests.chapter.the_bumblezone.quests23.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests23.title}"
+			rewards: [{
+				id: "6795911945BD9C29"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.6671FBBE199FF79B.subtitle}"
+			tasks: [{
+				icon: "the_bumblezone:super_candle_red"
+				id: "2A1BC2AB647871D2"
+				structure: "the_bumblezone:candle_parkour"
+				title: "{ftbquests.chapter.the_bumblezone.quest.6671FBBE199FF79B.task.2A1BC2AB647871D2.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.6671FBBE199FF79B.title}"
 			x: 2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			description: [
-				"{ftbquests.chapter.the_bumblezone.quests24.description0}"
+				"{ftbquests.chapter.the_bumblezone.quest.1712E7D12BFC9F90.description0}"
 				""
-				"{ftbquests.chapter.the_bumblezone.quests24.description2}"
+				"{ftbquests.chapter.the_bumblezone.quest.1712E7D12BFC9F90.description2}"
 			]
 			id: "1712E7D12BFC9F90"
-			rewards: [
-				{
-					id: "5561A8AFBDDD31A5"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "5561A8AFBDDD31A5"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "pentagon"
 			size: 1.25d
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.1712E7D12BFC9F90.subtitle}"
 			tasks: [
 				{
 					icon: "the_bumblezone:crystalline_flower"
 					id: "00347893AE03252D"
 					structure: "the_bumblezone:hanging_garden"
-					title: "{ftbquests.chapter.the_bumblezone.quests24.tasks0.title}"
+					title: "{ftbquests.chapter.the_bumblezone.quest.1712E7D12BFC9F90.task.00347893AE03252D.title}"
 					type: "structure"
 				}
 				{
@@ -828,7 +749,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.the_bumblezone.quests24.title}"
+			title: "{ftbquests.chapter.the_bumblezone.quest.1712E7D12BFC9F90.title}"
 			x: -0.5d
 			y: -5.5d
 		}
@@ -836,23 +757,19 @@
 			dependencies: ["4E9477A4D0A322D5"]
 			icon: "the_bumblezone:bee_queen_spawn_egg"
 			id: "4E6687341EFF200B"
-			rewards: [
-				{
-					id: "1DDFCCF75BEC40EC"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests25.subtitle}"
-			tasks: [
-				{
-					id: "56EA7542F4676A4B"
-					structure: "the_bumblezone:bee_house"
-					title: "{ftbquests.chapter.the_bumblezone.quests25.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests25.title}"
+			rewards: [{
+				id: "1DDFCCF75BEC40EC"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.4E6687341EFF200B.subtitle}"
+			tasks: [{
+				id: "56EA7542F4676A4B"
+				structure: "the_bumblezone:bee_house"
+				title: "{ftbquests.chapter.the_bumblezone.quest.4E6687341EFF200B.task.56EA7542F4676A4B.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.4E6687341EFF200B.title}"
 			x: -0.5d
 			y: -2.0d
 		}
@@ -860,64 +777,54 @@
 			dependencies: ["4E9477A4D0A322D5"]
 			icon: "the_bumblezone:ancient_wax_bricks"
 			id: "7568E66D2457DA53"
-			rewards: [
-				{
-					id: "3236855D77CD66B3"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests26.subtitle}"
-			tasks: [
-				{
-					id: "41597F4CBF0C7E52"
-					structure: "the_bumblezone:ancient_hoops"
-					title: "{ftbquests.chapter.the_bumblezone.quests26.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests26.title}"
+			rewards: [{
+				id: "3236855D77CD66B3"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.7568E66D2457DA53.subtitle}"
+			tasks: [{
+				id: "41597F4CBF0C7E52"
+				structure: "the_bumblezone:ancient_hoops"
+				title: "{ftbquests.chapter.the_bumblezone.quest.7568E66D2457DA53.task.41597F4CBF0C7E52.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.7568E66D2457DA53.title}"
 			x: 0.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "41F8F8AC81CF1B18"
-			rewards: [
-				{
-					id: "519A97ADE9B72899"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests27.subtitle}"
-			tasks: [
-				{
-					icon: "the_bumblezone:carvable_wax_music"
-					id: "6A445E2CE2DD0C21"
-					structure: "the_bumblezone:dance_floor"
-					title: "{ftbquests.chapter.the_bumblezone.quests27.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests27.title}"
+			rewards: [{
+				id: "519A97ADE9B72899"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.41F8F8AC81CF1B18.subtitle}"
+			tasks: [{
+				icon: "the_bumblezone:carvable_wax_music"
+				id: "6A445E2CE2DD0C21"
+				structure: "the_bumblezone:dance_floor"
+				title: "{ftbquests.chapter.the_bumblezone.quest.41F8F8AC81CF1B18.task.6A445E2CE2DD0C21.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.41F8F8AC81CF1B18.title}"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "4C1276D733165FCE"
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests28.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:honey_block"
-					id: "4FAAC46C321AE79F"
-					structure: "the_bumblezone:hive_temple"
-					title: "{ftbquests.chapter.the_bumblezone.quests28.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests28.title}"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.4C1276D733165FCE.subtitle}"
+			tasks: [{
+				icon: "minecraft:honey_block"
+				id: "4FAAC46C321AE79F"
+				structure: "the_bumblezone:hive_temple"
+				title: "{ftbquests.chapter.the_bumblezone.quest.4C1276D733165FCE.task.4FAAC46C321AE79F.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.4C1276D733165FCE.title}"
 			x: -3.5d
 			y: -3.0d
 		}
@@ -925,70 +832,60 @@
 			dependencies: ["4E9477A4D0A322D5"]
 			icon: "minecraft:honey_bottle"
 			id: "1FE844E12BA3660A"
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests29.subtitle}"
-			tasks: [
-				{
-					id: "4B90BFEC05C6179C"
-					structure: "the_bumblezone:honey_fountain"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests29.title}"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.1FE844E12BA3660A.subtitle}"
+			tasks: [{
+				id: "4B90BFEC05C6179C"
+				structure: "the_bumblezone:honey_fountain"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.1FE844E12BA3660A.title}"
 			x: -2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "4ABD922D3A02416E"
-			rewards: [
-				{
-					id: "4FE4DC28C4D3C701"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests30.subtitle}"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "the_bumblezone:bee_cannon"
-						tag: {
-							BeesStored: [ ]
-							Damage: 0
-						}
+			rewards: [{
+				id: "4FE4DC28C4D3C701"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.4ABD922D3A02416E.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:bee_cannon"
+					tag: {
+						BeesStored: [ ]
+						Damage: 0
 					}
-					id: "7E0AC99F6EF65E3A"
-					structure: "the_bumblezone:cannon_range"
-					title: "{ftbquests.chapter.the_bumblezone.quests30.tasks0.title}"
-					type: "structure"
 				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests30.title}"
+				id: "7E0AC99F6EF65E3A"
+				structure: "the_bumblezone:cannon_range"
+				title: "{ftbquests.chapter.the_bumblezone.quest.4ABD922D3A02416E.task.7E0AC99F6EF65E3A.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.4ABD922D3A02416E.title}"
 			x: 3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "1CC0687E11F5A51B"
-			rewards: [
-				{
-					id: "17CE8943141CC8A7"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests31.subtitle}"
-			tasks: [
-				{
-					icon: "the_bumblezone:honey_bucket"
-					id: "16A4D6926C4FE612"
-					structure: "the_bumblezone:honey_cave_room"
-					title: "{ftbquests.chapter.the_bumblezone.quests31.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests31.title}"
+			rewards: [{
+				id: "17CE8943141CC8A7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.1CC0687E11F5A51B.subtitle}"
+			tasks: [{
+				icon: "the_bumblezone:honey_bucket"
+				id: "16A4D6926C4FE612"
+				structure: "the_bumblezone:honey_cave_room"
+				title: "{ftbquests.chapter.the_bumblezone.quest.1CC0687E11F5A51B.task.16A4D6926C4FE612.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.1CC0687E11F5A51B.title}"
 			x: -1.5d
 			y: -4.0d
 		}
@@ -996,23 +893,19 @@
 			dependencies: ["4E9477A4D0A322D5"]
 			icon: "the_bumblezone:carvable_wax_bricks"
 			id: "6B36C80F052D476A"
-			rewards: [
-				{
-					id: "6040CC46F4BF5548"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests32.subtitle}"
-			tasks: [
-				{
-					id: "63D7913F49061453"
-					structure: "the_bumblezone:battle_cubes"
-					title: "{ftbquests.chapter.the_bumblezone.quests32.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests32.title}"
+			rewards: [{
+				id: "6040CC46F4BF5548"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.6B36C80F052D476A.subtitle}"
+			tasks: [{
+				id: "63D7913F49061453"
+				structure: "the_bumblezone:battle_cubes"
+				title: "{ftbquests.chapter.the_bumblezone.quest.6B36C80F052D476A.task.63D7913F49061453.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.6B36C80F052D476A.title}"
 			x: 1.5d
 			y: -3.5d
 		}
@@ -1020,40 +913,34 @@
 			dependencies: ["4E9477A4D0A322D5"]
 			icon: "the_bumblezone:ancient_wax_bricks"
 			id: "5B7EB596194B40DA"
-			rewards: [
-				{
-					id: "18DCFCBAE6192C79"
-					type: "xp"
-					xp: 20
-				}
-			]
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests33.subtitle}"
-			tasks: [
-				{
-					id: "02982EB50F5338C0"
-					structure: "the_bumblezone:ancient_shrine"
-					title: "{ftbquests.chapter.the_bumblezone.quests33.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests33.title}"
+			rewards: [{
+				id: "18DCFCBAE6192C79"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.5B7EB596194B40DA.subtitle}"
+			tasks: [{
+				id: "02982EB50F5338C0"
+				structure: "the_bumblezone:ancient_shrine"
+				title: "{ftbquests.chapter.the_bumblezone.quest.5B7EB596194B40DA.task.02982EB50F5338C0.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.5B7EB596194B40DA.title}"
 			x: -4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4E9477A4D0A322D5"]
 			id: "085633C89B01DBD9"
-			subtitle: "{ftbquests.chapter.the_bumblezone.quests34.subtitle}"
-			tasks: [
-				{
-					icon: "minecraft:cherry_sapling"
-					id: "562748B9BD91F4FE"
-					structure: "the_bumblezone:cherry_veteran_tree"
-					title: "{ftbquests.chapter.the_bumblezone.quests34.tasks0.title}"
-					type: "structure"
-				}
-			]
-			title: "{ftbquests.chapter.the_bumblezone.quests34.title}"
+			subtitle: "{ftbquests.chapter.the_bumblezone.quest.085633C89B01DBD9.subtitle}"
+			tasks: [{
+				icon: "minecraft:cherry_sapling"
+				id: "562748B9BD91F4FE"
+				structure: "the_bumblezone:cherry_veteran_tree"
+				title: "{ftbquests.chapter.the_bumblezone.quest.085633C89B01DBD9.task.562748B9BD91F4FE.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_bumblezone.quest.085633C89B01DBD9.title}"
 			x: 3.0d
 			y: 1.0d
 		}

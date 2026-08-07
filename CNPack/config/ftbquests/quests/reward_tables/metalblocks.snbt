@@ -3,15 +3,9 @@
 	loot_size: 1
 	order_index: 4
 	rewards: [
-		{
-			item: "minecraft:gold_block"
-		}
-		{
-			item: "minecraft:copper_block"
-		}
-		{
-			item: "minecraft:iron_block"
-		}
+		{ item: "minecraft:gold_block" }
+		{ item: "minecraft:copper_block" }
+		{ item: "minecraft:iron_block" }
 	]
-	title: "{ftbquests.reward_tables.metalblocks.title}"
+	title: "{ftbquests.reward_table.metalblocks.title}"
 }

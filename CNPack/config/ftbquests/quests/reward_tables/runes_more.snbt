@@ -3,18 +3,9 @@
 	loot_size: 1
 	order_index: 2
 	rewards: [
-		{
-			count: 32
-			item: "runes:arcane_stone"
-		}
-		{
-			count: 32
-			item: "runes:fire_stone"
-		}
-		{
-			count: 32
-			item: "runes:frost_stone"
-		}
+		{ count: 32, item: "runes:arcane_stone" }
+		{ count: 32, item: "runes:fire_stone" }
+		{ count: 32, item: "runes:frost_stone" }
 	]
-	title: "{ftbquests.reward_tables.runes_more.title}"
+	title: "{ftbquests.reward_table.runes_more.title}"
 }

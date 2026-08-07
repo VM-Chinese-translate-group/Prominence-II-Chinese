@@ -31,5 +31,5 @@
 			}
 		}
 	]
-	title: "{ftbquests.reward_tables.wands.title}"
+	title: "{ftbquests.reward_table.wands.title}"
 }

@@ -1,215 +1,781 @@
 {
-	autofocus_id: "35105F4914FBEC3B"
+	autofocus_id: "3E16A507D824EBC4"
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "applied_energistics_2"
 	group: "49D52BD6447C5CC0"
+	hide_quest_until_deps_complete: true
 	icon: "ae2:controller"
 	id: "75FDA9480EE7777C"
 	images: [
 		{
+			dependency: "7E285F99BE4AE6D6"
+			height: 2.0d
+			image: "ae2:block/mysterious_cube_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependency: "33697797A2EDB4A9"
 			height: 3.0d
-			image: "ae2:item/blank_pattern"
+			image: "ae2:item/certus_quartz_crystal_charged"
 			rotation: 0.0d
 			width: 3.0d
-			x: 17.5d
-			y: 1.0d
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependency: "4FC13E2D1139A1E5"
+			height: 1.3d
+			image: "simplyskills:item/effect/barrier"
+			rotation: 45.0d
+			width: 1.3d
+			x: -6.05d
+			y: -0.6d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 3.0d
+			image: "ae2:block/controller_powered"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 3.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 3.0d
+			image: "ae2:block/controller_powered"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 3.0d
+			image: "ae2:block/controller_conflict"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 1.0d
+			image: "ftblibrary:icons/close"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 1.0d
+			image: "ftblibrary:icons/check"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -14.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/flawed_budding_quartz"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/flawed_budding_quartz"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/flawed_budding_quartz"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -24.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -24.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: -24.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: -25.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -25.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -26.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -26.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: -26.0d
+		}
+		{
+			dependency: "1DBAA45791630D40"
+			height: 1.2d
+			image: "ae2:block/quantum_link"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -25.0d
+		}
+		{
+			dependency: "3E4019DD56F89EBE"
+			height: 1.0d
+			image: "ae2:item/quantum_entangled_singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -25.0d
+		}
+		{
+			dependency: "0A623086FF2017E3"
+			height: 1.0d
+			image: "ae2:block/condenser"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -25.0d
+		}
+		{
+			dependency: "60E7BE37F1AC6DFF"
+			height: 1.0d
+			image: "ae2:item/singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -27.0d
+		}
+		{
+			dependency: "4EE628A11EB6D43D"
+			height: 1.2d
+			image: "ae2:block/molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -17.5d
+		}
+		{
+			dependency: "5E520FA94363E9E9"
+			height: 1.2d
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -17.5d
+		}
+		{
+			dependency: "4EE628A11EB6D43D"
+			height: 1.2d
+			image: "ae2:block/molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -18.5d
+		}
+		{
+			dependency: "4EE628A11EB6D43D"
+			height: 1.2d
+			image: "ae2:block/molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -19.5d
+		}
+		{
+			dependency: "4EE628A11EB6D43D"
+			height: 1.2d
+			image: "ae2:block/molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -20.5d
+		}
+		{
+			dependency: "5E520FA94363E9E9"
+			height: 1.2d
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -18.5d
+		}
+		{
+			dependency: "5E520FA94363E9E9"
+			height: 1.2d
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -19.5d
+		}
+		{
+			dependency: "5E520FA94363E9E9"
+			height: 1.2d
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -20.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.5d
+			y: -30.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.5d
+			y: -30.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.5d
+			y: -30.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.5d
+			y: -29.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.5d
+			y: -29.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.5d
+			y: -28.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.5d
+			y: -28.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.5d
+			y: -28.5d
+		}
+		{
+			dependency: "1DBAA45791630D40"
+			height: 1.2d
+			image: "ae2:block/quantum_link"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.5d
+			y: -29.5d
+		}
+		{
+			dependency: "3E4019DD56F89EBE"
+			height: 1.0d
+			image: "ae2:item/quantum_entangled_singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -29.5d
+		}
+		{
+			dependency: "249D86491E0FDC89"
+			height: 1.2d
+			image: "extendedae:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -20.5d
+		}
+		{
+			dependency: "272F61CDA6380050"
+			height: 1.2d
+			image: "extendedae:block/ex_molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -17.5d
+		}
+		{
+			dependency: "249D86491E0FDC89"
+			height: 1.2d
+			image: "extendedae:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -17.5d
+		}
+		{
+			dependency: "249D86491E0FDC89"
+			height: 1.2d
+			image: "extendedae:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -18.5d
+		}
+		{
+			dependency: "249D86491E0FDC89"
+			height: 1.2d
+			image: "extendedae:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -19.5d
+		}
+		{
+			dependency: "272F61CDA6380050"
+			height: 1.2d
+			image: "extendedae:block/ex_molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -18.5d
+		}
+		{
+			dependency: "272F61CDA6380050"
+			height: 1.2d
+			image: "extendedae:block/ex_molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -19.5d
+		}
+		{
+			dependency: "272F61CDA6380050"
+			height: 1.2d
+			image: "extendedae:block/ex_molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -20.5d
+		}
+		{
+			dependency: "249D86491E0FDC89"
+			height: 1.2d
+			image: "extendedae:block/ex_pattern_provider"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.5d
+			y: -17.5d
+		}
+		{
+			dependency: "6E8030B3BA9269A4"
+			height: 1.2d
+			image: "techreborn:block/machines/tier0_machines/iron_alloy_furnace_front_off"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.5d
+			y: -17.5d
+		}
+		{
+			dependency: "5E520FA94363E9E9"
+			height: 1.2d
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.5d
+			y: -17.5d
+		}
+		{
+			dependency: "012D045CC6FC44D0"
+			height: 1.2d
+			image: "ae2:block/crafting/1k_storage"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -18.0d
+		}
+		{
+			dependency: "5B6A78E548D04686"
+			height: 1.2d
+			image: "ae2:block/crafting/4k_storage"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -19.0d
+		}
+		{
+			dependency: "7069D61C57C75C7F"
+			height: 1.2d
+			image: "ae2:block/crafting/16k_storage"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -20.0d
+		}
+		{
+			dependency: "3FB6BB6943442095"
+			height: 1.2d
+			image: "ae2:block/crafting/64k_storage"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -21.0d
+		}
+		{
+			dependency: "426C57A866F564A8"
+			height: 1.2d
+			image: "ae2:block/crafting/256k_storage"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -22.0d
+		}
+		{
+			dependency: "5B6A78E548D04686"
+			height: 1.2d
+			image: "ae2:block/crafting/4k_storage_light"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -19.0d
+		}
+		{
+			dependency: "7069D61C57C75C7F"
+			height: 1.2d
+			image: "ae2:block/crafting/16k_storage_light"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -20.0d
+		}
+		{
+			dependency: "3FB6BB6943442095"
+			height: 1.2d
+			image: "ae2:block/crafting/64k_storage_light"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -21.0d
+		}
+		{
+			dependency: "426C57A866F564A8"
+			height: 1.2d
+			image: "ae2:block/crafting/256k_storage_light"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -22.0d
+		}
+		{
+			dependency: "012D045CC6FC44D0"
+			height: 1.2d
+			image: "ae2:block/crafting/1k_storage_light"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -18.0d
 		}
 	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			id: "35105F4914FBEC3B"
-			rewards: [
-				{
-					id: "5378EDCF86A50277"
-					item: "ae2:crank"
-					type: "item"
-				}
-				{
-					id: "7C8731764F83270B"
-					type: "xp_levels"
-					xp_levels: 1
-				}
+			dependencies: ["33697797A2EDB4A9"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.6CF436D4831F590C.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6CF436D4831F590C.description2}"
 			]
-			shape: "gear"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests0.subtitle}"
-			tasks: [
-				{
-					id: "26755D4A4B6D447D"
-					item: "ae2:charger"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests0.title}"
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["35105F4914FBEC3B"]
-			id: "452FE521007EE0D9"
-			rewards: [
-				{
-					id: "6FEF03650DCF64BB"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests1.subtitle}"
-			tasks: [
-				{
-					id: "78C149237D81A6C9"
-					item: "ae2:meteorite_compass"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests1.title}"
-			x: 0.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["452FE521007EE0D9"]
-			id: "007FF6F71BEF7E3C"
-			rewards: [
-				{
-					count: 5
-					id: "7CE488318BA92052"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-				{
-					id: "372018AD002EAB96"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests2.subtitle}"
-			tasks: [
-				{
-					id: "48E8D095ECE464DA"
-					item: "ae2:quartz_block"
-					type: "item"
-				}
-				{
-					id: "7DC44DB8FC93E8D5"
-					item: "ae2:sky_stone_block"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests2.title}"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["007FF6F71BEF7E3C"]
-			id: "5962DB7143D9AD5F"
-			rewards: [
-				{
-					id: "3B59CCFFB6854AD4"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests3.subtitle}"
-			tasks: [
-				{
-					id: "16939C6D195B1127"
-					item: "ae2:calculation_processor_press"
-					type: "item"
-				}
-				{
-					id: "5F50C782FA557D79"
-					item: "ae2:engineering_processor_press"
-					type: "item"
-				}
-				{
-					id: "12C4E49B4C9A757F"
-					item: "ae2:logic_processor_press"
-					type: "item"
-				}
-				{
-					id: "62B22B264CC9DB3C"
-					item: "ae2:silicon_press"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests3.title}"
-			x: 3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["007FF6F71BEF7E3C"]
-			id: "1B26C03FD0CDAAEA"
-			rewards: [
-				{
-					count: 5
-					id: "3AC3C9E895D83229"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-				{
-					id: "30EC3DC01C69D736"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests4.subtitle}"
-			tasks: [
-				{
-					id: "1281175EA867EDB4"
-					item: "ae2:charged_certus_quartz_crystal"
-					type: "item"
-				}
-			]
-			x: 3.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1B26C03FD0CDAAEA"]
-			id: "649045BE6DED01C9"
-			rewards: [
-				{
-					count: 3
-					id: "0D3C8EDC0D461667"
-					item: "ae2:charged_certus_quartz_crystal"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests5.subtitle}"
-			tasks: [
-				{
-					id: "13A7FC8BE40D58E0"
-					item: "ae2:fluix_crystal"
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5962DB7143D9AD5F"]
-			id: "7F098E39492F5712"
-			rewards: [
-				{
-					id: "5B1B56388B2BA3D8"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			shape: "gear"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests6.subtitle}"
-			tasks: [
-				{
-					id: "16BB9E2C20ACE60D"
-					item: "ae2:inscriber"
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 2.5d
-		}
-		{
 			id: "6CF436D4831F590C"
 			optional: true
 			rewards: [
@@ -230,177 +796,32 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests7.subtitle}"
-			tasks: [
-				{
-					id: "5EA3D64A96FA7D0D"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ae2:certus_quartz_wrench"
-								}
-								{
-									Count: 1b
-									id: "ae2:nether_quartz_wrench"
-								}
-							]
-						}
+			tasks: [{
+				id: "5EA3D64A96FA7D0D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_wrench"
+							}
+							{
+								Count: 1b
+								id: "ae2:nether_quartz_wrench"
+							}
+						]
 					}
-					type: "item"
 				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests7.title}"
-			x: 6.5d
-			y: 1.0d
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.6CF436D4831F590C.title}"
+			x: -8.5d
+			y: -9.0d
 		}
 		{
-			dependencies: ["21257050C6608D6E"]
-			id: "4795979571F1FAEA"
-			rewards: [
-				{
-					count: 5
-					id: "361CBEEF5109DC0C"
-					item: "minecraft:coal_block"
-					type: "item"
-				}
-				{
-					id: "4167497BDB02B925"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests8.subtitle}"
-			tasks: [
-				{
-					id: "25A5962657B80ED5"
-					item: "ae2:vibration_chamber"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests8.title}"
-			x: 0.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4795979571F1FAEA"]
-			id: "27BAA1F4DE80AC55"
-			rewards: [
-				{
-					id: "3E8202CD81EECE2A"
-					item: "ae2:vibration_chamber"
-					type: "item"
-				}
-				{
-					id: "6A04923E85403E6E"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests9.subtitle}"
-			tasks: [
-				{
-					id: "6F08AD378A0958C5"
-					item: {
-						Count: 1
-						id: "ae2:energy_cell"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests9.title}"
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["27BAA1F4DE80AC55"]
-			id: "75A4BA8547564888"
-			rewards: [
-				{
-					id: "1390E8DAC4871757"
-					item: {
-						Count: 1
-						id: "ae2:energy_cell"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "3DAFDEEF368FB2ED"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests10.subtitle}"
-			tasks: [
-				{
-					id: "3D4139F14C804ED4"
-					item: {
-						Count: 1
-						id: "ae2:dense_energy_cell"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests10.title}"
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			id: "21257050C6608D6E"
-			rewards: [
-				{
-					id: "14D8468BA2E3CF58"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			shape: "gear"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests11.subtitle}"
-			tasks: [
-				{
-					id: "362E208A454BEBF4"
-					item: "ae2:energy_acceptor"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests11.title}"
-			x: -1.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["27BAA1F4DE80AC55"]
-			id: "0906EC11E1795CC1"
-			rewards: [
-				{
-					count: 16
-					id: "71390843293CA000"
-					item: "ae2:certus_quartz_dust"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests12.subtitle}"
-			tasks: [
-				{
-					id: "2B2D067EEDAE889D"
-					item: "ae2:quartz_fiber"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests12.title}"
-			x: 3.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"4A041E600B41F4C3"
-				"7F098E39492F5712"
-			]
+			dependencies: ["515A836404CA1374"]
 			id: "386BB0A6D8D16F8D"
 			rewards: [
 				{
@@ -415,22 +836,17 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests13.subtitle}"
-			tasks: [
-				{
-					id: "730C6C0DFD9ED426"
-					item: "ae2:printed_calculation_processor"
-					type: "item"
-				}
-			]
-			x: 12.5d
-			y: 2.5d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.386BB0A6D8D16F8D.subtitle}"
+			tasks: [{
+				id: "730C6C0DFD9ED426"
+				item: "ae2:printed_calculation_processor"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.5d
 		}
 		{
-			dependencies: [
-				"4329D355F5B2E80D"
-				"7F098E39492F5712"
-			]
+			dependencies: ["515A836404CA1374"]
 			id: "0B07F044C4AD8C6A"
 			rewards: [
 				{
@@ -445,22 +861,17 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests14.subtitle}"
-			tasks: [
-				{
-					id: "5F7A54FA2EF9E9AA"
-					item: "ae2:printed_engineering_processor"
-					type: "item"
-				}
-			]
-			x: 13.5d
-			y: 2.5d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.0B07F044C4AD8C6A.subtitle}"
+			tasks: [{
+				id: "5F7A54FA2EF9E9AA"
+				item: "ae2:printed_engineering_processor"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -7.0d
 		}
 		{
-			dependencies: [
-				"0EDC1CB91ADAC3DB"
-				"7F098E39492F5712"
-			]
+			dependencies: ["515A836404CA1374"]
 			id: "145B60BAC740910A"
 			rewards: [
 				{
@@ -475,16 +886,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests15.subtitle}"
-			tasks: [
-				{
-					id: "0F0C927B0578FE62"
-					item: "ae2:printed_logic_processor"
-					type: "item"
-				}
-			]
-			x: 11.5d
-			y: 2.5d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.145B60BAC740910A.subtitle}"
+			tasks: [{
+				id: "0F0C927B0578FE62"
+				item: "ae2:printed_logic_processor"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["42A4FAD05869BF4A"]
@@ -502,18 +911,17 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests16.subtitle}"
-			tasks: [
-				{
-					id: "3B4ABFDA13975AB3"
-					item: "ae2:printed_silicon"
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: 4.0d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.12CAEA99C1F2148D.subtitle}"
+			tasks: [{
+				id: "3B4ABFDA13975AB3"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["515A836404CA1374"]
 			id: "42A4FAD05869BF4A"
 			rewards: [
 				{
@@ -522,149 +930,55 @@
 					item: "ae2:certus_quartz_dust"
 					type: "item"
 				}
+				{
+					id: "793595D46292946F"
+					type: "xp"
+					xp: 100
+				}
 			]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests17.subtitle}"
-			tasks: [
-				{
-					id: "24324D7D876CB420"
-					item: "ae2:silicon"
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 4.0d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.42A4FAD05869BF4A.subtitle}"
+			tasks: [{
+				id: "24324D7D876CB420"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["649045BE6DED01C9"]
-			id: "2DB4F8709A1E0F36"
-			optional: true
-			rewards: [
-				{
-					count: 10
-					id: "7810E51EF3729FC0"
-					item: "ae2:certus_quartz_dust"
-					type: "item"
-				}
-				{
-					id: "70546A10DACCBDB3"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests18.subtitle}"
-			tasks: [
-				{
-					id: "392757001D259FB4"
-					item: "ae2:growth_accelerator"
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 1.0d
-		}
-		{
-			id: "0EDC1CB91ADAC3DB"
-			shape: "circle"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests19.subtitle}"
-			tasks: [
-				{
-					id: "51A800BB297FD52A"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-			]
-			x: 11.5d
-			y: 1.0d
-		}
-		{
-			id: "4A041E600B41F4C3"
-			shape: "circle"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests20.subtitle}"
-			tasks: [
-				{
-					id: "66148600F741E743"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-			]
-			x: 12.5d
-			y: 1.0d
-		}
-		{
-			id: "4329D355F5B2E80D"
-			shape: "circle"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests21.subtitle}"
-			tasks: [
-				{
-					id: "554F62ED2C0E58EF"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-			]
-			x: 13.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"3428F823206436AD"
-				"7F098E39492F5712"
-			]
+			dependencies: ["515A836404CA1374"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.126B63BE0CB0D54B.description0}"]
+			hide_dependent_lines: true
 			id: "126B63BE0CB0D54B"
-			rewards: [
-				{
-					count: 10
-					id: "5C222722D1F7D78A"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "181AECB6AE9347EC"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "c:ender_pearl_dusts"
-						}
+			rewards: [{
+				count: 10
+				id: "5C222722D1F7D78A"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "181AECB6AE9347EC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:ender_pearl_dusts"
 					}
-					title: "{ftbquests.chapter.applied_energistics_2.quests22.tasks0.title}"
-					type: "item"
 				}
-			]
-			x: 4.5d
-			y: 4.0d
+				title: "{ftbquests.chapter.applied_energistics_2.quest.126B63BE0CB0D54B.task.181AECB6AE9347EC.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.126B63BE0CB0D54B.title}"
+			x: -17.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
-				"686528C6DC3955B0"
-				"7F098E39492F5712"
+				"515A836404CA1374"
+				"78928965010FE03A"
 			]
-			id: "55A8B55BAC452EA1"
-			rewards: [
-				{
-					count: 10
-					id: "3784D39EE30392E5"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "4228861311FA81EC"
-					item: "ae2:certus_quartz_dust"
-					type: "item"
-				}
-			]
-			x: 3.5d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"0029F5652C806DC9"
-				"7F098E39492F5712"
-			]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.31FA79C3BEBB98E5.description0}"]
 			id: "31FA79C3BEBB98E5"
 			rewards: [
 				{
@@ -673,22 +987,24 @@
 					item: "ae2:fluix_crystal"
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					id: "3ADFFC4F54E91AEC"
-					item: "ae2:fluix_dust"
-					type: "item"
+					id: "591660879EDE6E04"
+					type: "xp"
+					xp: 100
 				}
 			]
-			x: 5.5d
-			y: 4.0d
+			tasks: [{
+				id: "3ADFFC4F54E91AEC"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.5d
 		}
 		{
-			dependencies: [
-				"437AFE0B8B869077"
-				"7F098E39492F5712"
-			]
+			dependencies: ["515A836404CA1374"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.6B5493F80C24051C.description0}"]
+			hide_dependent_lines: true
 			id: "6B5493F80C24051C"
 			rewards: [
 				{
@@ -697,83 +1013,22 @@
 					item: "ae2:sky_stone_block"
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					id: "3631E4A84AB5821F"
-					item: "ae2:sky_dust"
-					type: "item"
+					id: "2312C4567552BF2E"
+					type: "xp"
+					xp: 100
 				}
 			]
-			x: 6.5d
-			y: 4.0d
+			tasks: [{
+				id: "3631E4A84AB5821F"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -8.5d
 		}
 		{
-			id: "686528C6DC3955B0"
-			shape: "circle"
-			tasks: [
-				{
-					id: "565289F508761008"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "c:certus_quartz"
-						}
-					}
-					title: "{ftbquests.chapter.applied_energistics_2.quests26.tasks0.title}"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests26.title}"
-			x: 3.5d
-			y: 5.5d
-		}
-		{
-			id: "3428F823206436AD"
-			shape: "circle"
-			tasks: [
-				{
-					id: "08AEBD195912F566"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 5.5d
-		}
-		{
-			id: "0029F5652C806DC9"
-			shape: "circle"
-			tasks: [
-				{
-					id: "5D293BBCF0B0A648"
-					item: "ae2:fluix_crystal"
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: 5.5d
-		}
-		{
-			id: "437AFE0B8B869077"
-			shape: "circle"
-			tasks: [
-				{
-					id: "02DFCD72D6DF52C7"
-					item: "ae2:sky_stone_block"
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"12CAEA99C1F2148D"
-				"386BB0A6D8D16F8D"
-				"3D5BF7E05FE7FF71"
-			]
+			dependencies: ["386BB0A6D8D16F8D"]
 			id: "3D550CD9EEE29E6F"
 			rewards: [
 				{
@@ -788,23 +1043,17 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests30.subtitle}"
-			tasks: [
-				{
-					id: "04010B4761D37E97"
-					item: "ae2:calculation_processor"
-					type: "item"
-				}
-			]
-			x: 12.5d
-			y: 4.0d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.3D550CD9EEE29E6F.subtitle}"
+			tasks: [{
+				id: "04010B4761D37E97"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -5.5d
 		}
 		{
-			dependencies: [
-				"12CAEA99C1F2148D"
-				"0B07F044C4AD8C6A"
-				"3D5BF7E05FE7FF71"
-			]
+			dependencies: ["0B07F044C4AD8C6A"]
 			id: "5CFE6E363FC52BDD"
 			rewards: [
 				{
@@ -819,23 +1068,17 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests31.subtitle}"
-			tasks: [
-				{
-					id: "672ED8F45A5EA6CD"
-					item: "ae2:engineering_processor"
-					type: "item"
-				}
-			]
-			x: 13.5d
-			y: 4.0d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.5CFE6E363FC52BDD.subtitle}"
+			tasks: [{
+				id: "672ED8F45A5EA6CD"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -7.0d
 		}
 		{
-			dependencies: [
-				"145B60BAC740910A"
-				"12CAEA99C1F2148D"
-				"3D5BF7E05FE7FF71"
-			]
+			dependencies: ["145B60BAC740910A"]
 			id: "736D489426858C6C"
 			rewards: [
 				{
@@ -850,32 +1093,50 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests32.subtitle}"
-			tasks: [
-				{
-					id: "5A4D826E9A34C2AB"
-					item: "ae2:logic_processor"
-					type: "item"
-				}
-			]
-			x: 11.5d
-			y: 4.0d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.736D489426858C6C.subtitle}"
+			tasks: [{
+				id: "5A4D826E9A34C2AB"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["515A836404CA1374"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.3D5BF7E05FE7FF71.description0}"]
 			id: "3D5BF7E05FE7FF71"
-			shape: "circle"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests33.subtitle}"
-			tasks: [
+			rewards: [
 				{
-					id: "738D2517D2F6BF15"
+					count: 8
+					id: "4B6919AD6C11787B"
 					item: "minecraft:redstone"
 					type: "item"
 				}
+				{
+					id: "153E03EC31B2D4D4"
+					type: "xp"
+					xp: 100
+				}
 			]
-			x: 8.0d
-			y: 4.0d
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.3D5BF7E05FE7FF71.subtitle}"
+			tasks: [{
+				id: "738D2517D2F6BF15"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["167B049E0F50FEFE"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.7991B5D4970CDCFE.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.7991B5D4970CDCFE.description2}"
+			]
+			hide_dependent_lines: true
 			id: "7991B5D4970CDCFE"
 			rewards: [
 				{
@@ -883,360 +1144,149 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
-			]
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests34.subtitle}"
-			tasks: [
 				{
-					id: "5B56842ACD469029"
+					count: 5
+					id: "7FAF0D71A1A148A2"
 					item: "ae2:item_cell_housing"
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["2AA2D0140E9B0F88"]
-			id: "68487E90AA4A1FC5"
-			rewards: [
-				{
-					id: "1EE031DC3BFEC98A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests35.subtitle}"
-			tasks: [
-				{
-					id: "0799E1752E0725D9"
-					item: "ae2:chest"
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 5.5d
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "5B56842ACD469029"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.5d
 		}
 		{
 			dependencies: [
-				"6FE1CBDF3A7515EC"
-				"6D17293BBEDF3958"
 				"4B2D031595A25305"
+				"275B3ADEFB7FE735"
+				"0EF8916F6F832917"
 			]
 			id: "2AA2D0140E9B0F88"
-			rewards: [
-				{
-					id: "59F80FDDAD78058E"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests36.subtitle}"
-			tasks: [
-				{
-					id: "76A1D105E526A568"
-					item: "ae2:terminal"
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 4.0d
+			rewards: [{
+				id: "59F80FDDAD78058E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.2AA2D0140E9B0F88.subtitle}"
+			tasks: [{
+				id: "76A1D105E526A568"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -17.5d
 		}
 		{
-			id: "6FE1CBDF3A7515EC"
-			rewards: [
-				{
-					id: "133282D467E7A4C9"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests37.subtitle}"
-			tasks: [
-				{
-					id: "749DBDC7DEFE6313"
-					item: "ae2:formation_core"
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"2B2D067EEDAE889D"
-				"0906EC11E1795CC1"
-			]
-			id: "4AABEFF8E855D8D8"
-			rewards: [
-				{
-					count: 16
-					id: "4CAC3534467BF088"
-					item: "ae2:quartz_fiber"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests38.subtitle}"
-			tasks: [
-				{
-					id: "430D87ABC96168C8"
-					item: "ae2:fluix_glass_cable"
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: -3.0d
-		}
-		{
-			id: "6D17293BBEDF3958"
-			rewards: [
-				{
-					id: "1D949F901B6427AD"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests39.subtitle}"
-			tasks: [
-				{
-					id: "266628AB0DCB3A70"
-					item: "ae2:annihilation_core"
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7649744CC59CA17A"]
+			dependencies: ["167B049E0F50FEFE"]
 			id: "4B2D031595A25305"
-			rewards: [
-				{
-					id: "566B502AF531FA45"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests40.subtitle}"
-			tasks: [
-				{
-					id: "3A43960E6E52F985"
-					item: "ae2:semi_dark_monitor"
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 3.0d
+			rewards: [{
+				id: "566B502AF531FA45"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.4B2D031595A25305.subtitle}"
+			tasks: [{
+				id: "3A43960E6E52F985"
+				item: "ae2:semi_dark_monitor"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -17.5d
 		}
 		{
-			id: "7649744CC59CA17A"
-			rewards: [
-				{
-					id: "12BFD9651BEF51C8"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					count: 16
-					id: "6CB8B4B68B1499D0"
-					item: "ae2:quartz_glass"
-					type: "item"
-				}
-			]
+			dependencies: ["167B049E0F50FEFE"]
+			hide_dependent_lines: true
+			id: "21D071C553C01CA3"
+			rewards: [{
+				id: "63067CFDFEF59163"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests41.subtitle}"
-			tasks: [
-				{
-					id: "3FA27A630451FC41"
-					item: "ae2:quartz_glass"
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 1.5d
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.21D071C553C01CA3.subtitle}"
+			tasks: [{
+				id: "691D74EA299E9AB0"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["736D489426858C6C"]
+			id: "6BA81EEC6176D279"
+			rewards: [{
+				id: "05B98E5E9125A2FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.6BA81EEC6176D279.subtitle}"
+			tasks: [{
+				id: "5AA14A1CAB53D12F"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
-				"5CFE6E363FC52BDD"
-				"67FA1292129370E6"
+				"6BA81EEC6176D279"
+				"3D550CD9EEE29E6F"
 			]
-			id: "754DEFB6247B4FB5"
-			rewards: [
-				{
-					id: "31DB9D02E7F4316A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 4
-					id: "2AD172292ADF47A9"
-					item: "ae2:fluix_crystal"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests42.subtitle}"
-			tasks: [
-				{
-					id: "340A427B8E9BBE08"
-					item: "ae2:controller"
-					type: "item"
-				}
-			]
-			x: 15.0d
-			y: 4.0d
-		}
-		{
-			id: "67FA1292129370E6"
-			rewards: [
-				{
-					count: 32
-					id: "3A4B01741D76DC8E"
-					item: "ae2:sky_stone_block"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests43.subtitle}"
-			tasks: [
-				{
-					id: "777BB83C3E8E0FB5"
-					item: "ae2:smooth_sky_stone_block"
-					type: "item"
-				}
-			]
-			x: 15.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["5CFE6E363FC52BDD"]
-			id: "14AAC7075B000B15"
-			rewards: [
-				{
-					id: "7C2EC0045F215C6A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests44.subtitle}"
-			tasks: [
-				{
-					id: "5203A4E286C6629B"
-					item: "ae2:drive"
-					type: "item"
-				}
-			]
-			x: 13.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["7649744CC59CA17A"]
-			id: "2CA7F84EB26F0B96"
-			optional: true
-			shape: "diamond"
-			tasks: [
-				{
-					id: "056453367D0F8712"
-					item: "ae2:quartz_vibrant_glass"
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
-			id: "21D071C553C01CA3"
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests46.subtitle}"
-			tasks: [
-				{
-					id: "691D74EA299E9AB0"
-					item: "ae2:fluid_cell_housing"
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: -0.5d
-		}
-		{
-			id: "6BA81EEC6176D279"
-			rewards: [
-				{
-					id: "05B98E5E9125A2FF"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests47.subtitle}"
-			tasks: [
-				{
-					id: "5AA14A1CAB53D12F"
-					item: "ae2:cell_component_1k"
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6BA81EEC6176D279"]
 			id: "6965B19BD3B71CDF"
-			rewards: [
-				{
-					id: "32EE0A23293C95F3"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			tasks: [
-				{
-					id: "7852B9C45FEDD5B5"
-					item: "ae2:cell_component_4k"
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: -3.0d
+			rewards: [{
+				id: "32EE0A23293C95F3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7852B9C45FEDD5B5"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6965B19BD3B71CDF"]
 			id: "1C3D02337D74236D"
-			rewards: [
-				{
-					id: "79CD3EE7C645A332"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			tasks: [
-				{
-					id: "2382A194230F4FE8"
-					item: "ae2:cell_component_16k"
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: -3.0d
+			rewards: [{
+				id: "79CD3EE7C645A332"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2382A194230F4FE8"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1C3D02337D74236D"]
 			id: "10F78B944D78AB3E"
-			rewards: [
-				{
-					id: "1673787A84D2929C"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
-			tasks: [
-				{
-					id: "69AD245CFDD65D3B"
-					item: "ae2:cell_component_64k"
-					type: "item"
-				}
-			]
-			x: 9.5d
-			y: -3.0d
+			rewards: [{
+				id: "1673787A84D2929C"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "69AD245CFDD65D3B"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["10F78B944D78AB3E"]
@@ -1247,134 +1297,149 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
-			]
-			tasks: [
 				{
-					id: "34EE85B15BABBB51"
-					item: "ae2:cell_component_256k"
+					id: "3BABA62CF997BF81"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:ae2_storagecells_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "258FA1394A29B79B"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:ae2_storagecells_lottery"
+						}
+					}
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: -3.0d
+			tasks: [{
+				id: "34EE85B15BABBB51"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["7991B5D4970CDCFE"]
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"184DECF8F8641439"
+			]
+			hide_dependency_lines: true
 			id: "449772CDAE2C0F9C"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "044EA1A27746FB35"
-					item: "megacells:mega_item_cell_housing"
-					type: "item"
-				}
-			]
-			x: 16.5d
-			y: -5.5d
+			tasks: [{
+				id: "044EA1A27746FB35"
+				item: "megacells:mega_item_cell_housing"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["21D071C553C01CA3"]
+			dependencies: [
+				"21D071C553C01CA3"
+				"184DECF8F8641439"
+			]
+			hide_dependency_lines: true
 			id: "013D0D433BC1453E"
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			tasks: [
-				{
-					id: "62B38B674FEED18A"
-					item: "megacells:mega_fluid_cell_housing"
-					type: "item"
-				}
-			]
-			x: 16.5d
-			y: -0.5d
+			tasks: [{
+				id: "62B38B674FEED18A"
+				item: "megacells:mega_fluid_cell_housing"
+				type: "item"
+			}]
+			x: -35.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["5A35DC8E1B5C5C1C"]
+			dependencies: ["6594D1D0893FC111"]
 			id: "404F8E90E684897A"
 			optional: true
-			rewards: [
-				{
-					id: "08A97CEBDB21BE64"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-			]
-			tasks: [
-				{
-					id: "61D92190C7DE2B7A"
-					item: "megacells:cell_component_1m"
-					type: "item"
-				}
-			]
-			x: 14.5d
-			y: -3.0d
+			rewards: [{
+				id: "08A97CEBDB21BE64"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "61D92190C7DE2B7A"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["404F8E90E684897A"]
+			dependencies: [
+				"404F8E90E684897A"
+				"126B63BE0CB0D54B"
+			]
 			id: "4DB79C938A013520"
 			optional: true
-			rewards: [
-				{
-					id: "5DDA3D98F165C88D"
-					type: "xp_levels"
-					xp_levels: 7
-				}
-			]
-			tasks: [
-				{
-					id: "3865F52A6D7F086E"
-					item: "megacells:cell_component_4m"
-					type: "item"
-				}
-			]
-			x: 15.5d
-			y: -3.0d
+			rewards: [{
+				id: "5DDA3D98F165C88D"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "3865F52A6D7F086E"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["4DB79C938A013520"]
+			dependencies: [
+				"4DB79C938A013520"
+				"126B63BE0CB0D54B"
+			]
 			id: "53667AE11FFFAC3F"
 			optional: true
-			rewards: [
-				{
-					id: "217E47FDDDA14C7D"
-					type: "xp_levels"
-					xp_levels: 8
-				}
-			]
-			tasks: [
-				{
-					id: "4B3601745F56270C"
-					item: "megacells:cell_component_16m"
-					type: "item"
-				}
-			]
-			x: 16.5d
-			y: -3.0d
+			rewards: [{
+				id: "217E47FDDDA14C7D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "4B3601745F56270C"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["53667AE11FFFAC3F"]
 			id: "6F34909783DD3D8A"
 			optional: true
-			rewards: [
-				{
-					id: "5A06251AC8BCFF1E"
-					type: "xp_levels"
-					xp_levels: 9
-				}
-			]
-			tasks: [
-				{
-					id: "72F525FE1EAFE574"
-					item: "megacells:cell_component_64m"
-					type: "item"
-				}
-			]
-			x: 17.5d
-			y: -3.0d
+			rewards: [{
+				id: "5A06251AC8BCFF1E"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			tasks: [{
+				id: "72F525FE1EAFE574"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6F34909783DD3D8A"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.3C670B8D50E994C1.description0}"]
 			id: "3C670B8D50E994C1"
 			optional: true
 			rewards: [
@@ -1390,15 +1455,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "34B209523D27FBBE"
-					item: "megacells:cell_component_256m"
-					type: "item"
-				}
-			]
-			x: 18.5d
-			y: -3.0d
+			tasks: [{
+				id: "34B209523D27FBBE"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1406,26 +1469,22 @@
 				"6BA81EEC6176D279"
 			]
 			id: "2015C13CBE4C04EA"
-			rewards: [
-				{
-					id: "44D4568A87956F3A"
-					type: "xp_levels"
-					xp_levels: 1
+			rewards: [{
+				id: "44D4568A87956F3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4696F75329791E02"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "4696F75329791E02"
-					item: {
-						Count: 1
-						id: "ae2:item_storage_cell_1k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: -4.0d
+				type: "item"
+			}]
+			x: -22.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1433,26 +1492,22 @@
 				"6965B19BD3B71CDF"
 			]
 			id: "099C6C1ECFAA8988"
-			rewards: [
-				{
-					id: "6137FDB34EB86D35"
-					type: "xp_levels"
-					xp_levels: 2
+			rewards: [{
+				id: "6137FDB34EB86D35"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5280A20140E9B855"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_4k"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "5280A20140E9B855"
-					item: {
-						Count: 1
-						id: "ae2:item_storage_cell_4k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: -4.0d
+				type: "item"
+			}]
+			x: -23.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1460,26 +1515,22 @@
 				"1C3D02337D74236D"
 			]
 			id: "65C9F147DE28049E"
-			rewards: [
-				{
-					id: "62934DC9F1838F7F"
-					type: "xp_levels"
-					xp_levels: 3
+			rewards: [{
+				id: "62934DC9F1838F7F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7EFBE049944FE119"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_16k"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "7EFBE049944FE119"
-					item: {
-						Count: 1
-						id: "ae2:item_storage_cell_16k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: -4.0d
+				type: "item"
+			}]
+			x: -25.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1487,26 +1538,22 @@
 				"10F78B944D78AB3E"
 			]
 			id: "120129247CA4354A"
-			rewards: [
-				{
-					id: "68E274C68846C448"
-					type: "xp_levels"
-					xp_levels: 4
+			rewards: [{
+				id: "68E274C68846C448"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "45B8E9EED0FDA41A"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_64k"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "45B8E9EED0FDA41A"
-					item: {
-						Count: 1
-						id: "ae2:item_storage_cell_64k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 9.5d
-			y: -4.0d
+				type: "item"
+			}]
+			x: -26.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1514,167 +1561,148 @@
 				"5A35DC8E1B5C5C1C"
 			]
 			id: "52DF04779A3F142F"
-			rewards: [
-				{
-					id: "2E6820FBAF69E405"
-					type: "xp_levels"
-					xp_levels: 5
+			rewards: [{
+				id: "2E6820FBAF69E405"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "01C57620D90A9BAE"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_256k"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "01C57620D90A9BAE"
-					item: {
-						Count: 1
-						id: "ae2:item_storage_cell_256k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 10.5d
-			y: -4.0d
+				type: "item"
+			}]
+			x: -27.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"449772CDAE2C0F9C"
 				"404F8E90E684897A"
+				"6B5493F80C24051C"
 			]
 			id: "2189645CF41DEEE8"
 			optional: true
-			rewards: [
-				{
-					id: "0E15F7B07A807CA9"
-					type: "xp_levels"
-					xp_levels: 6
+			rewards: [{
+				id: "0E15F7B07A807CA9"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "01F942B2319FD779"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_1m"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "01F942B2319FD779"
-					item: {
-						Count: 1
-						id: "megacells:item_storage_cell_1m"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 14.5d
-			y: -4.0d
+				type: "item"
+			}]
+			x: -33.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"449772CDAE2C0F9C"
 				"4DB79C938A013520"
+				"6B5493F80C24051C"
 			]
 			id: "38FAF68954EDC76E"
 			optional: true
-			rewards: [
-				{
-					id: "5A4EDD13E97C89F7"
-					type: "xp_levels"
-					xp_levels: 7
+			rewards: [{
+				id: "5A4EDD13E97C89F7"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "002A9855BA5926F1"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_4m"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "002A9855BA5926F1"
-					item: {
-						Count: 1
-						id: "megacells:item_storage_cell_4m"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 15.5d
-			y: -4.0d
+				type: "item"
+			}]
+			x: -34.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"449772CDAE2C0F9C"
 				"53667AE11FFFAC3F"
+				"6B5493F80C24051C"
 			]
 			id: "71868D43777AB2DB"
 			optional: true
-			rewards: [
-				{
-					id: "032B433C5DB22187"
-					type: "xp_levels"
-					xp_levels: 8
+			rewards: [{
+				id: "032B433C5DB22187"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "5DACF6D44C3561F1"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_16m"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "5DACF6D44C3561F1"
-					item: {
-						Count: 1
-						id: "megacells:item_storage_cell_16m"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 16.5d
-			y: -4.0d
+				type: "item"
+			}]
+			x: -35.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"449772CDAE2C0F9C"
 				"6F34909783DD3D8A"
+				"6B5493F80C24051C"
 			]
 			id: "28FEABAFA3D516F8"
 			optional: true
-			rewards: [
-				{
-					id: "56F158D8F3E371CC"
-					type: "xp_levels"
-					xp_levels: 9
+			rewards: [{
+				id: "56F158D8F3E371CC"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			tasks: [{
+				id: "5B6F45969ADBDEFE"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_64m"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "5B6F45969ADBDEFE"
-					item: {
-						Count: 1
-						id: "megacells:item_storage_cell_64m"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 17.5d
-			y: -4.0d
+				type: "item"
+			}]
+			x: -36.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"449772CDAE2C0F9C"
 				"3C670B8D50E994C1"
+				"6B5493F80C24051C"
 			]
 			id: "12CA9F10581B180F"
 			optional: true
-			rewards: [
-				{
-					id: "37C5738C1A7ADA4C"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
+			rewards: [{
+				id: "37C5738C1A7ADA4C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "octagon"
-			tasks: [
-				{
-					id: "4429E2DC37BED28C"
-					item: {
-						Count: 1
-						id: "megacells:item_storage_cell_256m"
-						tag: { }
-					}
-					type: "item"
+			tasks: [{
+				id: "4429E2DC37BED28C"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_256m"
+					tag: { }
 				}
-			]
-			x: 18.5d
-			y: -4.0d
+				type: "item"
+			}]
+			x: -37.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1682,25 +1710,21 @@
 				"6BA81EEC6176D279"
 			]
 			id: "0EB40422787DADB7"
-			rewards: [
-				{
-					id: "266E27A2BA957747"
-					type: "xp_levels"
-					xp_levels: 1
+			rewards: [{
+				id: "266E27A2BA957747"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7B49907FEEAE04B2"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_1k"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "7B49907FEEAE04B2"
-					item: {
-						Count: 1
-						id: "ae2:fluid_storage_cell_1k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 6.5d
+				type: "item"
+			}]
+			x: -22.5d
 			y: -2.0d
 		}
 		{
@@ -1709,25 +1733,21 @@
 				"6965B19BD3B71CDF"
 			]
 			id: "5C23AABE273D559B"
-			rewards: [
-				{
-					id: "02D501BBAF290AA2"
-					type: "xp_levels"
-					xp_levels: 2
+			rewards: [{
+				id: "02D501BBAF290AA2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "13440EA0ACEAB070"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_4k"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "13440EA0ACEAB070"
-					item: {
-						Count: 1
-						id: "ae2:fluid_storage_cell_4k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 7.5d
+				type: "item"
+			}]
+			x: -23.5d
 			y: -2.0d
 		}
 		{
@@ -1736,25 +1756,21 @@
 				"1C3D02337D74236D"
 			]
 			id: "4E25207381F8999F"
-			rewards: [
-				{
-					id: "5CCDCF9406FF9382"
-					type: "xp_levels"
-					xp_levels: 3
+			rewards: [{
+				id: "5CCDCF9406FF9382"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "407C5673E824B9FD"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_16k"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "407C5673E824B9FD"
-					item: {
-						Count: 1
-						id: "ae2:fluid_storage_cell_16k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 8.5d
+				type: "item"
+			}]
+			x: -25.5d
 			y: -2.0d
 		}
 		{
@@ -1763,25 +1779,21 @@
 				"10F78B944D78AB3E"
 			]
 			id: "50CD701DC35E1532"
-			rewards: [
-				{
-					id: "5E254A1A8AE26B71"
-					type: "xp_levels"
-					xp_levels: 4
+			rewards: [{
+				id: "5E254A1A8AE26B71"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "746D4613CB317EDB"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_64k"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "746D4613CB317EDB"
-					item: {
-						Count: 1
-						id: "ae2:fluid_storage_cell_64k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 9.5d
+				type: "item"
+			}]
+			x: -26.5d
 			y: -2.0d
 		}
 		{
@@ -1790,170 +1802,153 @@
 				"5A35DC8E1B5C5C1C"
 			]
 			id: "107CEF6630C5070B"
-			rewards: [
-				{
-					id: "7BF6EAA5F2DE5E90"
-					type: "xp_levels"
-					xp_levels: 5
+			rewards: [{
+				id: "7BF6EAA5F2DE5E90"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7B23089179FF4570"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_256k"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "7B23089179FF4570"
-					item: {
-						Count: 1
-						id: "ae2:fluid_storage_cell_256k"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 10.5d
+				type: "item"
+			}]
+			x: -27.5d
 			y: -2.0d
 		}
 		{
 			dependencies: [
 				"013D0D433BC1453E"
 				"404F8E90E684897A"
+				"6B5493F80C24051C"
 			]
 			id: "48E5092B70741DBE"
 			optional: true
-			rewards: [
-				{
-					id: "52AEF511562B7049"
-					type: "xp_levels"
-					xp_levels: 6
+			rewards: [{
+				id: "52AEF511562B7049"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "60597CD73E32A642"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_1m"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "60597CD73E32A642"
-					item: {
-						Count: 1
-						id: "megacells:fluid_storage_cell_1m"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 14.5d
+				type: "item"
+			}]
+			x: -33.5d
 			y: -2.0d
 		}
 		{
 			dependencies: [
 				"013D0D433BC1453E"
 				"4DB79C938A013520"
+				"6B5493F80C24051C"
 			]
 			id: "519EBF8D02EC27BD"
 			optional: true
-			rewards: [
-				{
-					id: "6B8DDEEAE24C737D"
-					type: "xp_levels"
-					xp_levels: 7
+			rewards: [{
+				id: "6B8DDEEAE24C737D"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "2A5D723FF5E0158F"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_4m"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "2A5D723FF5E0158F"
-					item: {
-						Count: 1
-						id: "megacells:fluid_storage_cell_4m"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 15.5d
+				type: "item"
+			}]
+			x: -34.5d
 			y: -2.0d
 		}
 		{
 			dependencies: [
 				"013D0D433BC1453E"
 				"53667AE11FFFAC3F"
+				"6B5493F80C24051C"
 			]
 			id: "6A8FF7B29CCB6DC6"
 			optional: true
-			rewards: [
-				{
-					id: "44AAC672721C6726"
-					type: "xp_levels"
-					xp_levels: 8
+			rewards: [{
+				id: "44AAC672721C6726"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "6156FD0FF7E8C248"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_16m"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "6156FD0FF7E8C248"
-					item: {
-						Count: 1
-						id: "megacells:fluid_storage_cell_16m"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 16.5d
+				type: "item"
+			}]
+			x: -35.5d
 			y: -2.0d
 		}
 		{
 			dependencies: [
 				"013D0D433BC1453E"
 				"6F34909783DD3D8A"
+				"6B5493F80C24051C"
 			]
 			id: "788CC2380A983F63"
 			optional: true
-			rewards: [
-				{
-					id: "34A7E9ABFB9E1694"
-					type: "xp_levels"
-					xp_levels: 9
+			rewards: [{
+				id: "34A7E9ABFB9E1694"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			tasks: [{
+				id: "0C975CA8085EF18A"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_64m"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "0C975CA8085EF18A"
-					item: {
-						Count: 1
-						id: "megacells:fluid_storage_cell_64m"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 17.5d
+				type: "item"
+			}]
+			x: -36.5d
 			y: -2.0d
 		}
 		{
 			dependencies: [
 				"013D0D433BC1453E"
 				"3C670B8D50E994C1"
+				"6B5493F80C24051C"
 			]
 			id: "3DB6BABB4EF0D205"
 			optional: true
-			rewards: [
-				{
-					id: "19E00435DCE72F16"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
+			rewards: [{
+				id: "19E00435DCE72F16"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "octagon"
-			tasks: [
-				{
-					id: "6988B7A4516A3E87"
-					item: {
-						Count: 1
-						id: "megacells:fluid_storage_cell_256m"
-						tag: { }
-					}
-					type: "item"
+			tasks: [{
+				id: "6988B7A4516A3E87"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_256m"
+					tag: { }
 				}
-			]
-			x: 18.5d
+				type: "item"
+			}]
+			x: -37.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["7991B5D4970CDCFE"]
+			dependencies: ["6BA81EEC6176D279"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ae2:portable_item_cell_64k"
@@ -1963,34 +1958,37 @@
 			}
 			id: "6AA5455AAC85BB9A"
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quests79.subtitle}"
-			tasks: [
-				{
-					id: "499196DA5227D9E6"
-					title: "{ftbquests.chapter.applied_energistics_2.quests79.tasks0.title}"
-					type: "checkmark"
-				}
-			]
-			x: 6.5d
-			y: -5.5d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.6AA5455AAC85BB9A.subtitle}"
+			tasks: [{
+				id: "499196DA5227D9E6"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.6AA5455AAC85BB9A.task.499196DA5227D9E6.title}"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -2.0d
 		}
 		{
 			id: "4FC13E2D1139A1E5"
+			invisible: true
+			rewards: [{
+				id: "3C1D2814BCB43398"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.35d
-			tasks: [
-				{
-					id: "77D2CA2DBA4F8C81"
-					stat: "ae2:items_extracted"
-					type: "stat"
-					value: 1000000
-				}
-			]
-			x: 9.0d
-			y: 1.0d
+			tasks: [{
+				id: "77D2CA2DBA4F8C81"
+				stat: "ae2:items_extracted"
+				type: "stat"
+				value: 1000000
+			}]
+			x: -6.075d
+			y: -0.675d
 		}
 		{
-			description: ["{ftbquests.chapter.applied_energistics_2.quests81.description}"]
+			dependencies: ["1C3D02337D74236D"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.3CDD62549F889825.description0}"]
 			id: "3CDD62549F889825"
 			rewards: [
 				{
@@ -2004,27 +2002,26 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "228414D300BB8B5B"
-					item: {
-						Count: 1
-						id: "extendedae:infinity_cell"
-						tag: {
-							record: {
-								"#c": "ae2:f"
-								id: "minecraft:water"
-							}
+			tasks: [{
+				id: "228414D300BB8B5B"
+				item: {
+					Count: 1
+					id: "extendedae:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:water"
 						}
 					}
-					type: "item"
 				}
-			]
-			x: 7.5d
-			y: -7.0d
+				type: "item"
+			}]
+			x: -24.5d
+			y: -2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.applied_energistics_2.quests82.description}"]
+			dependencies: ["1C3D02337D74236D"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.6C334F83DD405381.description0}"]
 			id: "6C334F83DD405381"
 			rewards: [
 				{
@@ -2038,9 +2035,2074 @@
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "2D22BE939218D105"
+				item: {
+					Count: 1
+					id: "extendedae:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.3435639D143892EF.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.3435639D143892EF.description2}"
+			]
+			icon: "ae2:controller"
+			id: "3435639D143892EF"
+			tasks: [{
+				id: "264520BA5C06B7A2"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.3435639D143892EF.task.264520BA5C06B7A2.title}"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E16A507D824EBC4"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.71124D23985D4D8E.description0}"]
+			id: "71124D23985D4D8E"
+			rewards: [
+				{
+					count: 3
+					id: "0575B1C37255647F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "7E7453A0193CF687"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0594B493EC9B8432"
+				item: "ae2:charger"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.71124D23985D4D8E.task.0594B493EC9B8432.title}"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71124D23985D4D8E"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.5985458AE3930D26.description0}"]
+			id: "5985458AE3930D26"
+			rewards: [{
+				id: "42A2A2D6C3D5BBB5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50B5BEFA6CD23DD2"
+				item: "ae2:meteorite_compass"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.5985458AE3930D26.task.50B5BEFA6CD23DD2.title}"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E16A507D824EBC4"
+				"5985458AE3930D26"
+			]
+			dependency_requirement: "one_completed"
+			id: "7E285F99BE4AE6D6"
+			rewards: [{
+				id: "4C79FDF3B11452F7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.7E285F99BE4AE6D6.subtitle}"
+			tasks: [{
+				icon: "ae2:sky_stone_block"
+				id: "0F1F8B27208E8AB1"
+				structure: "ae2:meteorite"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.7E285F99BE4AE6D6.task.0F1F8B27208E8AB1.title}"
+				type: "structure"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3435639D143892EF"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.3E16A507D824EBC4.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.3E16A507D824EBC4.description2}"
+			]
+			icon: "minecraft:fire_charge"
+			id: "3E16A507D824EBC4"
+			rewards: [{
+				id: "1515C99C90265D92"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C6A9B09C42CC33E"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.3E16A507D824EBC4.task.7C6A9B09C42CC33E.title}"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71124D23985D4D8E"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.17C370946B391D6C.description0}"]
+			id: "17C370946B391D6C"
+			rewards: [{
+				id: "054E6948EA139974"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DDBFAFE1B96FAB9"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.17C370946B391D6C.title}"
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71124D23985D4D8E"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.05159E51D0CEE4E8.description0}"]
+			icon: "techreborn:solid_fuel_generator"
+			id: "05159E51D0CEE4E8"
+			rewards: [
+				{
+					id: "347D334BAA46E232"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "238B8D91DC73D1EF"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01691F611650844A"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.05159E51D0CEE4E8.task.01691F611650844A.title}"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E285F99BE4AE6D6"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.48264769D5A5B3E4.description0}"]
+			id: "48264769D5A5B3E4"
+			rewards: [
+				{
+					id: "5FE173CC7E0256AA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 6
+					id: "4B122C56196047FE"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "7A76BEBD65469DFE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:inscriber_presses"
+					}
+				}
+				title: "{ftbquests.chapter.applied_energistics_2.quest.48264769D5A5B3E4.task.7A76BEBD65469DFE.title}"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48264769D5A5B3E4"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.515A836404CA1374.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.515A836404CA1374.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.515A836404CA1374.description4}"
+			]
+			id: "515A836404CA1374"
+			rewards: [{
+				id: "6130F9E122AFFF8D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "48E22FF19FEF64C0"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E285F99BE4AE6D6"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.489902DA25B45BE9.description0}"
+				"{ftbquests.chapter.applied_energistics_2.quest.489902DA25B45BE9.description1}"
+			]
+			id: "489902DA25B45BE9"
+			rewards: [{
+				id: "4E5FEC4335D9E41C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "00DD53BFA5705955"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.489902DA25B45BE9.title}"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["489902DA25B45BE9"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.13484250005B7E53.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.13484250005B7E53.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.13484250005B7E53.description4}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.13484250005B7E53.description6}"
+			]
+			icon: "minecraft:minecart"
+			id: "13484250005B7E53"
+			rewards: [
+				{
+					count: 8
+					id: "2B03AB634BC0CD6D"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "1A9F02349821BCB2"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
-					id: "2D22BE939218D105"
+					id: "5674CFC001AFF042"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "49ED23D625BF1402"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+				{
+					id: "33394B9299542EFD"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					id: "6D05372290D8CE81"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					id: "2EFD0653D90C74EA"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.13484250005B7E53.title}"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E4939F30B9D32CE"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.33697797A2EDB4A9.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.33697797A2EDB4A9.description2}"
+			]
+			id: "33697797A2EDB4A9"
+			tasks: [{
+				id: "32075DF7FB0A6574"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["33697797A2EDB4A9"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.78928965010FE03A.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.78928965010FE03A.description2}"
+			]
+			id: "78928965010FE03A"
+			rewards: [
+				{
+					count: 8
+					id: "7CCCC17AC725B9C0"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "4B76AEEBF7E3D196"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "75AAC73DC6B77A6F"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["31FA79C3BEBB98E5"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.0EF8916F6F832917.description0}"]
+			id: "0EF8916F6F832917"
+			rewards: [{
+				id: "69F327965C39317F"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "5100F30046950D83"
+				item: "ae2:formation_core"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["31FA79C3BEBB98E5"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.275B3ADEFB7FE735.description0}"]
+			id: "275B3ADEFB7FE735"
+			rewards: [{
+				id: "7208579873305D70"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "2ACE41C24765FBD2"
+				item: "ae2:annihilation_core"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"489902DA25B45BE9"
+				"78928965010FE03A"
+			]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.33C318B27DA7F9DE.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.33C318B27DA7F9DE.description2}"
+			]
+			id: "33C318B27DA7F9DE"
+			rewards: [
+				{
+					count: 12
+					id: "535D22AA9A9DDE33"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "177E1080D5B5D1EB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "28A27A1CA7F2CD47"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["78928965010FE03A"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.20E2AE3D528A2E70.description0}"]
+			id: "20E2AE3D528A2E70"
+			rewards: [{
+				id: "6F7C55D66BA22322"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "22A346488707845B"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7E285F99BE4AE6D6"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.1E4939F30B9D32CE.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.1E4939F30B9D32CE.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.1E4939F30B9D32CE.description4}"
+			]
+			id: "1E4939F30B9D32CE"
+			rewards: [
+				{
+					count: 4
+					id: "0B4D34261D88C556"
+					item: "ae2:quartz_block"
+					type: "item"
+				}
+				{
+					id: "2D30CC04F0082FC2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7EA67FC5F963CD2B"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.45119607CAB35179.description0}"]
+			id: "45119607CAB35179"
+			rewards: [{
+				count: 16
+				id: "426BC215C862B743"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EA70D0DF9D82DC9"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["45119607CAB35179"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.167B049E0F50FEFE.description0}"]
+			id: "167B049E0F50FEFE"
+			rewards: [
+				{
+					count: 6
+					id: "133FB06723E58259"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					id: "4721F19BF56E81B8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "271A194A9C40AF15"
+				item: "ae2:quartz_glass"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["167B049E0F50FEFE"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.184DECF8F8641439.description0}"]
+			id: "184DECF8F8641439"
+			rewards: [{
+				id: "77F3E1A78287C34D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E6DDC91E5093E4B"
+				item: "ae2:quartz_vibrant_glass"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["71124D23985D4D8E"]
+			dependency_requirement: "all_started"
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.66DEA0F523CF482A.description0}"]
+			id: "66DEA0F523CF482A"
+			rewards: [{
+				id: "5979C361039AFB5F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "052B20E526CAF771"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.66DEA0F523CF482A.task.052B20E526CAF771.title}"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E285F99BE4AE6D6"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.6B35A87AD763C947.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6B35A87AD763C947.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6B35A87AD763C947.description4}"
+			]
+			id: "6B35A87AD763C947"
+			rewards: [{
+				id: "39F0C5F5E836F1C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "6968E96EF66FFFD9"
+				item: "ae2:sky_stone_block"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.6B35A87AD763C947.task.6968E96EF66FFFD9.title}"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5CFD1A5DA7441452"]
+			id: "31009FC5E27644F3"
+			tasks: [{
+				id: "24724537A2601BCE"
+				item: "megacells:printed_accumulation_processor"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A35DC8E1B5C5C1C"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.5CFD1A5DA7441452.description0}"]
+			id: "5CFD1A5DA7441452"
+			rewards: [{
+				id: "4FDA83EEC6046732"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76E2C7BAEA716D78"
+				item: "megacells:accumulation_processor_press"
+				type: "item"
+			}]
+			x: -29.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31009FC5E27644F3"]
+			id: "6594D1D0893FC111"
+			tasks: [{
+				id: "36EAB02966520192"
+				item: "megacells:accumulation_processor"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45119607CAB35179"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.537E6D452013907C.description0}"]
+			id: "537E6D452013907C"
+			rewards: [{
+				count: 12
+				id: "02205AA088C62D26"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6731F551C2739379"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.566A147DB00F3067.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.566A147DB00F3067.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.566A147DB00F3067.description4}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.566A147DB00F3067.description6}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:drive"
+			id: "566A147DB00F3067"
+			rewards: [{
+				id: "5EB1AB7795B22F87"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "7B1397C29E29B670"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "368B3C2BA08FB6CA"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "0CA12CC574ADE71B"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_4k"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C5F999937FAD3BD"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "37782D183BE84331"
+					item: "ae2:crystal_resonance_generator"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2C192D540BD6545F"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.566A147DB00F3067.title}"
+			x: -23.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["537E6D452013907C"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.5CDBA8488B2C383B.description0}"]
+			id: "5CDBA8488B2C383B"
+			rewards: [{
+				count: 16
+				id: "688D4B7942E0B484"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "4D4331ABA0724C35"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5CDBA8488B2C383B"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.6A4D6F91D3C47E81.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6A4D6F91D3C47E81.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6A4D6F91D3C47E81.description4}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6A4D6F91D3C47E81.description6}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6A4D6F91D3C47E81.description8}"
+			]
+			id: "6A4D6F91D3C47E81"
+			rewards: [{
+				id: "64EB8B7FA3FD5249"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00F0B921B6DD6C45"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5CDBA8488B2C383B"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.3B33284690D03544.description0}"]
+			id: "3B33284690D03544"
+			rewards: [{
+				id: "4FF49A8DE4191D05"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1D7C16A4B3A5A999"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5CDBA8488B2C383B"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.728B9647DF17E039.description0}"]
+			id: "728B9647DF17E039"
+			rewards: [{
+				id: "04C6AC2A0A1866E5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52257D0FE432F1C7"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["728B9647DF17E039"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.4E708B78C061F5D7.description0}"]
+			id: "4E708B78C061F5D7"
+			rewards: [{
+				id: "25BA7CDDF5B7D217"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09208486B708DB37"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["728B9647DF17E039"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.7B0CEA0D85847FAA.description0}"]
+			id: "7B0CEA0D85847FAA"
+			rewards: [{
+				id: "0131A72460AA8E1A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5908E60543DE3FB7"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"7B0CEA0D85847FAA"
+				"4E708B78C061F5D7"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.1A5E58FCABEBADA2.description0}"]
+			id: "1A5E58FCABEBADA2"
+			rewards: [{
+				id: "441E7D2F943B6018"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55177290EC3E4CEB"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6A4D6F91D3C47E81"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.6C9B267791DD5301.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6C9B267791DD5301.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6C9B267791DD5301.description4}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6C9B267791DD5301.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest.6C9B267791DD5301.description7}"
+				"{ftbquests.chapter.applied_energistics_2.quest.6C9B267791DD5301.description8}"
+				"{ftbquests.chapter.applied_energistics_2.quest.6C9B267791DD5301.description9}"
+			]
+			icon: "ae2:spatial_io_port"
+			id: "6C9B267791DD5301"
+			rewards: [{
+				id: "7442258F522831E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "549AED54FF3245D6"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "795689E30254EB15"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+				{
+					id: "25011451A4DE6AB1"
+					item: "ae2:spatial_storage_cell_2"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64822983DECE2CD8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:buttons"
+						}
+					}
+					optional_task: true
+					title: "{ftbquests.chapter.applied_energistics_2.quest.6C9B267791DD5301.task.64822983DECE2CD8.title}"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1B3F8F4C6665E206"
+					item: { Count: 3, id: "ae2:fluix_smart_cable" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.6C9B267791DD5301.title}"
+			x: -19.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["566A147DB00F3067"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.6CB79F064309DD6A.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6CB79F064309DD6A.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6CB79F064309DD6A.description4}"
+			]
+			icon: "techreborn:solid_fuel_generator"
+			id: "6CB79F064309DD6A"
+			rewards: [
+				{
+					id: "3FFD627AE9AFF966"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 6
+					id: "5BFA5C85A58FC939"
+					item: "techreborn:advanced_circuit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34FFE4C8608CE898"
+					item: "techreborn:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "211703ACA1135AED"
+					item: "techreborn:refined_iron_storage_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40EADD02DCEF0FEA"
+					title: "{ftbquests.chapter.applied_energistics_2.quest.6CB79F064309DD6A.task.40EADD02DCEF0FEA.title}"
+					type: "checkmark"
+				}
+				{
+					id: "2A2029B050F819BC"
+					item: "powah:magmator_hardened"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11ABC5ABAF5F61D8"
+					item: "techreborn:wind_mill"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "04FD0244FB144BFE"
+					item: "techreborn:water_mill"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "210963F03B30642B"
+					item: "techreborn:industrial_solar_panel"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.6CB79F064309DD6A.title}"
+			x: -26.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["566A147DB00F3067"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.5AEDD690E6D8CE8C.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.5AEDD690E6D8CE8C.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.5AEDD690E6D8CE8C.description4}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.5AEDD690E6D8CE8C.description6}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.5AEDD690E6D8CE8C.description8}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.5AEDD690E6D8CE8C.description10}"
+			]
+			icon: "extendedae:ex_drive"
+			id: "5AEDD690E6D8CE8C"
+			rewards: [{
+				id: "1165E9338AC89AC3"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "591ABDE0A2B64C09"
+					item: "extendedae:drive_upgrade"
+					type: "item"
+				}
+				{
+					id: "67327CA0A4E59294"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "3795E8FDF4516BCC"
+					item: "ae2:spatial_anchor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "06E21165F35BFDC0"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "502DCB9ECC8395AD"
+					item: "ae2:quantum_link"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.5AEDD690E6D8CE8C.title}"
+			x: -26.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5AEDD690E6D8CE8C"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.58080509C5592465.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.58080509C5592465.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.58080509C5592465.description4}"
+			]
+			id: "58080509C5592465"
+			rewards: [{
+				id: "4ADFDABA840C8FBF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26B4D674AD7AC0EA"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.58080509C5592465.task.26B4D674AD7AC0EA.title}"
+				type: "checkmark"
+			}]
+			x: -23.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5CDBA8488B2C383B"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.39D1FCFF776D6027.description0}"]
+			id: "39D1FCFF776D6027"
+			tasks: [{
+				id: "3BB078591D5422C9"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.39D1FCFF776D6027.task.3BB078591D5422C9.title}"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["78928965010FE03A"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.6EBDCC83D38A000D.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6EBDCC83D38A000D.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6EBDCC83D38A000D.description4}"
+			]
+			id: "6EBDCC83D38A000D"
+			rewards: [{
+				id: "410865D34F663C0D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.6EBDCC83D38A000D.subtitle}"
+			tasks: [{
+				id: "223710951403700F"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.6EBDCC83D38A000D.title}"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5AEDD690E6D8CE8C"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.18AEABF41D278518.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.18AEABF41D278518.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.18AEABF41D278518.description4}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.18AEABF41D278518.description6}"
+				""
+				""
+				"[{\"translate\": \"ftbquests.chapter.applied_energistics_2.quest.18AEABF41D278518.description9.text0\"}, {\"translate\": \"ftbquests.chapter.applied_energistics_2.quest.18AEABF41D278518.description9.text1\", \"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6E8030B3BA9269A4\"}}]"
+			]
+			icon: "ae2:pattern_provider"
+			id: "18AEABF41D278518"
+			rewards: [
+				{
+					count: 32
+					id: "366AF111C3568504"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "38243834E5BD23DD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "1C1C27ACF31BB887"
+					item: "ae2:crafting_unit"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "609F740589F431FF"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "37FA8B06D7A5D819"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "3BD7F4A43D756554"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "15D04D05F29F9F23"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.18AEABF41D278518.title}"
+			x: -28.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2AA2D0140E9B0F88"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.7387F332F811734B.description0}"]
+			id: "7387F332F811734B"
+			rewards: [{
+				id: "05CB6645A2B706E6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "757AD838E46405D2"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["5CDBA8488B2C383B"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.6561B5CD3C72BBAE.description0}"]
+			id: "6561B5CD3C72BBAE"
+			rewards: [{
+				id: "038AF2DC40D4F277"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BB1A89A1D4C51DB"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["167B049E0F50FEFE"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.74D064D0233C8A8B.description0}"]
+			id: "74D064D0233C8A8B"
+			rewards: [{
+				id: "338F7316A5449668"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "2936F38AED1FACD0"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7387F332F811734B"]
+			id: "4EE628A11EB6D43D"
+			tasks: [{
+				id: "16CE6E7A39298DF3"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["4EE628A11EB6D43D"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.272F61CDA6380050.description0}"]
+			id: "272F61CDA6380050"
+			rewards: [{
+				id: "76EFAAEFF7B5010A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51B56010C7B5CAAD"
+				item: "extendedae:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["3B33284690D03544"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.34A0277FCD0BEE9D.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.34A0277FCD0BEE9D.description2}"
+			]
+			icon: "extendedae:ex_drive"
+			id: "34A0277FCD0BEE9D"
+			rewards: [{
+				id: "72CF1656B4DEA969"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4DC319DC8556003A"
+					item: "extendedae:ex_drive"
+					type: "item"
+				}
+				{
+					id: "6C41A78A768C68DB"
+					item: "extendedae:drive_upgrade"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6561B5CD3C72BBAE"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.755C8CB813A610CE.description0}"]
+			id: "755C8CB813A610CE"
+			rewards: [{
+				id: "67F28B16F0860A5B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C52B8194D6900EA"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6561B5CD3C72BBAE"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.012D045CC6FC44D0.description0}"]
+			id: "012D045CC6FC44D0"
+			rewards: [{
+				id: "048E2B0D04C5F806"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "262D15A136A66520"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["012D045CC6FC44D0"]
+			id: "5B6A78E548D04686"
+			tasks: [{
+				id: "08D722DEF1175456"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["5B6A78E548D04686"]
+			id: "7069D61C57C75C7F"
+			tasks: [{
+				id: "433CE6BE12B5109A"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["7069D61C57C75C7F"]
+			id: "3FB6BB6943442095"
+			tasks: [{
+				id: "4E00A11AC8D20815"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["3FB6BB6943442095"]
+			id: "426C57A866F564A8"
+			tasks: [{
+				id: "4F18D562F9DA957A"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -22.0d
+		}
+		{
+			dependencies: [
+				"6594D1D0893FC111"
+				"426C57A866F564A8"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "610D3927C4320333"
+			tasks: [{
+				id: "29825BD4BAEBBF91"
+				item: "megacells:mega_crafting_unit"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["610D3927C4320333"]
+			id: "2752A15E10FD0D90"
+			tasks: [{
+				id: "4CCAEB7D59C76BFD"
+				item: "megacells:mega_crafting_accelerator"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["610D3927C4320333"]
+			id: "5171002B34B74593"
+			tasks: [{
+				id: "3108D7AAF1E991F3"
+				item: "megacells:1m_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["5171002B34B74593"]
+			id: "40BF4F617282E559"
+			tasks: [{
+				id: "6ECB29AC3E058B90"
+				item: "megacells:4m_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["40BF4F617282E559"]
+			id: "1A43273B919BF061"
+			tasks: [{
+				id: "54CEAEDAB9037D54"
+				item: "megacells:16m_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["1A43273B919BF061"]
+			id: "3A37B0D15CBE248A"
+			tasks: [{
+				id: "1A2970D26E02F16C"
+				item: "megacells:64m_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -28.0d
+		}
+		{
+			dependencies: ["3A37B0D15CBE248A"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.6872B0B2F3FEB3BB.description0}"]
+			id: "6872B0B2F3FEB3BB"
+			rewards: [{
+				id: "17DD33EA3921BE30"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				id: "52493CCFEBFDF243"
+				item: "megacells:256m_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -29.0d
+		}
+		{
+			dependencies: [
+				"0EF8916F6F832917"
+				"275B3ADEFB7FE735"
+			]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.341E6DC3142F8D67.description0}"]
+			id: "341E6DC3142F8D67"
+			rewards: [{
+				id: "717DD42CF95E3631"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "300F67823D882061"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0EF8916F6F832917"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.7C5B6A6798EFB9DF.description0}"]
+			id: "7C5B6A6798EFB9DF"
+			rewards: [{
+				id: "2DD27E7C37E5D160"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "776F392733233EE0"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["275B3ADEFB7FE735"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.5FC57A6A135DC8F7.description0}"]
+			id: "5FC57A6A135DC8F7"
+			rewards: [{
+				id: "253153DA8CFCE1B4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5827536279D41A69"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["341E6DC3142F8D67"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.67A681FD26A6CEC3.description0}"]
+			id: "67A681FD26A6CEC3"
+			rewards: [{
+				count: 2
+				id: "00B6B6196374E436"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BD427E3D25F53B9"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0CC65A484FBC8631"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.06A587267F284FC8.description0}"]
+			icon: {
+				Count: 1
+				id: "ae2:wireless_crafting_terminal"
+				tag: {
+					internalCurrentPower: 1600000.0d
+				}
+			}
+			id: "06A587267F284FC8"
+			rewards: [{
+				id: "1E31AE0839E7A9F4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "31326CA5E47D72D8"
+					item: "ae2:wireless_crafting_terminal"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "58289E9575C86387"
+					title: "{ftbquests.chapter.applied_energistics_2.quest.06A587267F284FC8.task.58289E9575C86387.title}"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0CC65A484FBC8631"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.21BFA2C732E6D2AF.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.21BFA2C732E6D2AF.description2}"
+				""
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.21BFA2C732E6D2AF.description5}"
+			]
+			hide_dependent_lines: true
+			id: "21BFA2C732E6D2AF"
+			rewards: [{
+				id: "5427F152B19E6B15"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D457E1983DC47BC"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.21BFA2C732E6D2AF.title}"
+			x: -7.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["4C4938A6253E94EE"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.6BACD7084BB795B0.description0}"]
+			id: "6BACD7084BB795B0"
+			rewards: [{
+				id: "1D0470108CAFD578"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 8L
+				id: "414E7D39B8CA7EFB"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["4C4938A6253E94EE"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.1DBAA45791630D40.description0}"]
+			id: "1DBAA45791630D40"
+			rewards: [{
+				id: "7DF47A03C565C6EA"
+				item: "ae2:tiny_tnt"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1174382EC3CF47C1"
+				item: "ae2:quantum_link"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"06A587267F284FC8"
+				"21BFA2C732E6D2AF"
+			]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.4C4938A6253E94EE.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.4C4938A6253E94EE.description2}"
+			]
+			id: "4C4938A6253E94EE"
+			rewards: [{
+				id: "023B08822801C129"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AC204B5EDA00854"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["06A587267F284FC8"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.7533888FB2ED079B.description0}"]
+			id: "7533888FB2ED079B"
+			rewards: [
+				{
+					count: 3
+					id: "417DDF5C1E955E9A"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "5E2F92C57DEB4330"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "79C323099898624B"
+				item: "ae2wtlib:magnet_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -20.5d
+		}
+		{
+			dependencies: [
+				"515A836404CA1374"
+				"3D550CD9EEE29E6F"
+			]
+			dependency_requirement: "all_started"
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.40540D5FA0B7D7F4.description0}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "40540D5FA0B7D7F4"
+			rewards: [{
+				count: 4
+				id: "4C33512731F29BF3"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.40540D5FA0B7D7F4.subtitle}"
+			tasks: [{
+				id: "228413E58A750238"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2AA2D0140E9B0F88"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.0CC65A484FBC8631.description0}"]
+			id: "0CC65A484FBC8631"
+			rewards: [{
+				id: "2137AE8FA68896B6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18619413AFEAB6AA"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.0CC65A484FBC8631.title}"
+			x: -6.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["06A587267F284FC8"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.17F7769F7E8AED32.description0}"]
+			id: "17F7769F7E8AED32"
+			rewards: [{
+				id: "0BFB117EBB17D7C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CD08C3A000EFB3E"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["17F7769F7E8AED32"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.35EF2F2766F8D9C1.description0}"]
+			id: "35EF2F2766F8D9C1"
+			rewards: [{
+				id: "564F8D731682F62F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "08AB4DAD183266B9"
+				item: "megacells:greater_energy_card"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["0A623086FF2017E3"]
+			id: "60E7BE37F1AC6DFF"
+			tasks: [{
+				id: "060BE07FBD9F00F5"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -26.5d
+		}
+		{
+			dependencies: [
+				"6BACD7084BB795B0"
+				"1DBAA45791630D40"
+			]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.0A623086FF2017E3.description0}"]
+			id: "0A623086FF2017E3"
+			rewards: [{
+				id: "0828B9ED0019A487"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "05FFF77945392D22"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["7387F332F811734B"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.5F53EDEFAADB7C1F.description0}"]
+			id: "5F53EDEFAADB7C1F"
+			rewards: [{
+				id: "47FEC6449096C2C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "308127BA19244CBD"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["7387F332F811734B"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.5E520FA94363E9E9.description0}"]
+			id: "5E520FA94363E9E9"
+			rewards: [{
+				id: "42E0D9CF31C0D0BB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0266A5350DA44A92"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["5E520FA94363E9E9"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.249D86491E0FDC89.description0}"]
+			icon: "extendedae:ex_pattern_provider"
+			id: "249D86491E0FDC89"
+			rewards: [{
+				id: "2D1644EA4EB47CD6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "26AF99BDE4054546"
+					item: "extendedae:ex_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "37126150D7EB8C33"
+					item: "extendedae:pattern_provider_upgrade"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -18.5d
+		}
+		{
+			dependencies: [
+				"5E520FA94363E9E9"
+				"4EE628A11EB6D43D"
+			]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.6E8030B3BA9269A4.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6E8030B3BA9269A4.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest.6E8030B3BA9269A4.description3}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.6E8030B3BA9269A4.description5}"
+			]
+			icon: "supplementaries:cog_block"
+			id: "6E8030B3BA9269A4"
+			rewards: [{
+				id: "464716707D71FCAB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7D8865FE224A78EB"
+				title: "{ftbquests.chapter.applied_energistics_2.quest.6E8030B3BA9269A4.task.7D8865FE224A78EB.title}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["60E7BE37F1AC6DFF"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.3E4019DD56F89EBE.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.3E4019DD56F89EBE.description2}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.3E4019DD56F89EBE.description4}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.3E4019DD56F89EBE.description6}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.3E4019DD56F89EBE.description8}"
+			]
+			icon: "ae2:quantum_entangled_singularity"
+			id: "3E4019DD56F89EBE"
+			rewards: [{
+				id: "1A4E0AD09C60280D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2DD638DCBA74B559"
+					item: "ae2:quantum_entangled_singularity"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49601DD329CC21CC"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["6B5493F80C24051C"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.62813BD0CE2CC2A4.description0}"]
+			hide_dependency_lines: false
+			id: "62813BD0CE2CC2A4"
+			rewards: [{
+				count: 2
+				id: "5C1DCD99D0B214E3"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54E38F9193DBC554"
+				item: "extendedae:wireless_connect"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["62813BD0CE2CC2A4"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.0D898949477581C8.description0}"]
+			id: "0D898949477581C8"
+			rewards: [{
+				id: "49092C7D0AB10809"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73C69B5D749B1A42"
+				item: "extendedae:wireless_tool"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3B33284690D03544"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.2D3436BB20BE002B.description0}"]
+			id: "2D3436BB20BE002B"
+			rewards: [{
+				id: "5A98B26E8DA2AB1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "511F7B7F1DEBE27A"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["67A681FD26A6CEC3"]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest.160CB90E35A1B2AC.description0}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest.160CB90E35A1B2AC.description2}"
+			]
+			id: "160CB90E35A1B2AC"
+			rewards: [{
+				id: "79068E6381B46C10"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest.160CB90E35A1B2AC.subtitle}"
+			tasks: [{
+				id: "530594F169201F03"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.160CB90E35A1B2AC.title}"
+			x: -6.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1E4939F30B9D32CE"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.7BCD721A386D6E71.description0}"]
+			id: "7BCD721A386D6E71"
+			rewards: [{
+				id: "46D9E106B16455D0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "65B6ADC9263E42FE"
+				item: {
+					Count: 1
+					id: "ae2:certus_quartz_cutting_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.7BCD721A386D6E71.title}"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7BCD721A386D6E71"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.1D4ADBA7D05B0956.description0}"]
+			id: "1D4ADBA7D05B0956"
+			rewards: [{
+				id: "38E6AAA689B1E472"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F4EE48F58EB85B6"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1D4ADBA7D05B0956"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.213BDCCBB6F814D6.description0}"]
+			id: "213BDCCBB6F814D6"
+			rewards: [{
+				id: "6EB657C03BE510E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E0838F213F5C1AA"
+				item: {
+					Count: 1
+					id: "ae2:facade"
+					tag: { }
+				}
+				title: "{ftbquests.chapter.applied_energistics_2.quest.213BDCCBB6F814D6.task.7E0838F213F5C1AA.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.213BDCCBB6F814D6.title}"
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["06A587267F284FC8"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.10CD06C7A854B61A.description0}"]
+			icon: {
+				Count: 1
+				id: "ae2:energy_cell"
+				tag: { }
+			}
+			id: "10CD06C7A854B61A"
+			rewards: [{
+				id: "3AE6CC54D2A3FAC0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6AC689935F5F9E78"
+					title: "{ftbquests.chapter.applied_energistics_2.quest.10CD06C7A854B61A.task.6AC689935F5F9E78.title}"
+					type: "checkmark"
+				}
+				{
+					id: "2DC048A39C08CACD"
+					item: "techreborn:low_voltage_su"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["0A623086FF2017E3"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.2934C92DB26AA05D.description0}"]
+			icon: {
+				Count: 1
+				id: "extendedae:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "2934C92DB26AA05D"
+			rewards: [{
+				id: "7DD67D18844B6A68"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "61EDFEC759A41436"
+					item: {
+						Count: 1
+						id: "extendedae:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6EFE304DE8F00531"
 					item: {
 						Count: 1
 						id: "extendedae:infinity_cell"
@@ -2051,41 +4113,147 @@
 							}
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "49973B9DA06216B8"
+					type: "checkmark"
+				}
 			]
-			x: 9.5d
-			y: -7.0d
+			title: "{ftbquests.chapter.applied_energistics_2.quest.2934C92DB26AA05D.title}"
+			x: -8.0d
+			y: -24.5d
 		}
 		{
-			dependencies: ["4795979571F1FAEA"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quests83.description}"]
-			id: "42149F10B97E7874"
-			rewards: [
-				{
-					count: 20
-					id: "5E20193D8275DCFC"
-					item: "ae2:fluix_crystal"
-					type: "item"
-				}
-				{
-					id: "4271832922528BD5"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			dependencies: ["566A147DB00F3067"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.2669C3178EF82A5B.description0}"]
+			icon: {
+				Count: 1
+				id: "ae2:energy_cell"
+				tag: { }
+			}
+			id: "2669C3178EF82A5B"
+			rewards: [{
+				id: "1F2563B11A9DF48E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
-					id: "299E98942127A1FD"
-					item: "ae2:crystal_resonance_generator"
+					id: "37887D37C1381EF3"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "78F7D09E0C12EBAF"
+					item: "powah:ender_cell_hardened"
+					optional_task: true
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quests83.title}"
-			x: 0.5d
-			y: -4.5d
+			title: "{ftbquests.chapter.applied_energistics_2.quest.2669C3178EF82A5B.title}"
+			x: -26.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0A623086FF2017E3"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.3495FBC4E864C0CE.description0}"]
+			id: "3495FBC4E864C0CE"
+			rewards: [{
+				id: "22B154CEE01591D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2F7DAE0C5D76033A"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.3495FBC4E864C0CE.title}"
+			x: -8.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["3495FBC4E864C0CE"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.386A729E1C52BA2F.description0}"]
+			id: "386A729E1C52BA2F"
+			rewards: [{
+				id: "3E20308664532973"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "2B1AD81940CD9303"
+				item: {
+					Count: 1
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -26.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6BA81EEC6176D279"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest.24EADFD9883F5FCC.description0}"]
+			icon: {
+				Count: 1
+				id: "prominent:loot_box"
+				tag: {
+					lootbox_uuid: "093aa09a-3dce-44cb-a11b-d32af3391d26"
+					lottery_id: "prominent:corruption_items_lottery"
+				}
+			}
+			id: "24EADFD9883F5FCC"
+			rewards: [{
+				id: "2A5C79D882F2466A"
+				item: {
+					Count: 1
+					id: "prominent:loot_box"
+					tag: {
+						lottery_id: "prominent:ae2_storagecells_lottery"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "1DDCAE6D0BBF0E0F"
+					item: "ae2:quartz_block"
+					type: "item"
+				}
+				{
+					id: "2C709B057CA29879"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4F46AA0CA8594047"
+					item: { Count: 2, id: "minecraft:iron_block" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "10D477AADF1E3B4E"
+					item: { Count: 3, id: "minecraft:redstone_block" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.applied_energistics_2.quest.24EADFD9883F5FCC.title}"
+			x: -21.0d
+			y: -6.0d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.applied_energistics_2.subtitle}"]
+	subtitle: ["{ftbquests.chapter.applied_energistics_2.subtitle0}"]
 	title: "{ftbquests.chapter.applied_energistics_2.title}"
 }

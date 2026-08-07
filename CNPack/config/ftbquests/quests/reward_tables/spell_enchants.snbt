@@ -8,12 +8,10 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [
-						{
-							id: "spell_power:sunfire"
-							lvl: 4s
-						}
-					]
+					StoredEnchantments: [{
+						id: "spell_power:sunfire"
+						lvl: 4s
+					}]
 				}
 			}
 		}
@@ -22,12 +20,10 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [
-						{
-							id: "spell_power:haste"
-							lvl: 4s
-						}
-					]
+					StoredEnchantments: [{
+						id: "spell_power:haste"
+						lvl: 4s
+					}]
 				}
 			}
 		}
@@ -36,12 +32,10 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [
-						{
-							id: "spell_power:energize"
-							lvl: 4s
-						}
-					]
+					StoredEnchantments: [{
+						id: "spell_power:energize"
+						lvl: 4s
+					}]
 				}
 			}
 		}
@@ -50,12 +44,10 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [
-						{
-							id: "spell_power:spell_power"
-							lvl: 4s
-						}
-					]
+					StoredEnchantments: [{
+						id: "spell_power:spell_power"
+						lvl: 4s
+					}]
 				}
 			}
 		}
@@ -64,12 +56,10 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [
-						{
-							id: "spell_power:soulfrost"
-							lvl: 4s
-						}
-					]
+					StoredEnchantments: [{
+						id: "spell_power:soulfrost"
+						lvl: 4s
+					}]
 				}
 			}
 		}
@@ -78,12 +68,10 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [
-						{
-							id: "spell_power:critical_chance"
-							lvl: 4s
-						}
-					]
+					StoredEnchantments: [{
+						id: "spell_power:critical_chance"
+						lvl: 4s
+					}]
 				}
 			}
 		}
@@ -92,12 +80,10 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [
-						{
-							id: "spell_power:critical_damage"
-							lvl: 4s
-						}
-					]
+					StoredEnchantments: [{
+						id: "spell_power:critical_damage"
+						lvl: 4s
+					}]
 				}
 			}
 		}
@@ -106,15 +92,13 @@
 				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
-					StoredEnchantments: [
-						{
-							id: "spell_engine:spell_infinity"
-							lvl: 1s
-						}
-					]
+					StoredEnchantments: [{
+						id: "spell_engine:spell_infinity"
+						lvl: 1s
+					}]
 				}
 			}
 		}
 	]
-	title: "{ftbquests.reward_tables.spell_enchants.title}"
+	title: "{ftbquests.reward_table.spell_enchants.title}"
 }

@@ -135,7 +135,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["what are you looking at"]
+			hover: ["ftbquests.chapter.to_the_end.image14.hover0"]
 			image: ""
 			rotation: 0.0d
 			width: 1.0d
@@ -345,7 +345,7 @@
 		{
 			dependency: "45E85B95F4D8B7AB"
 			height: 2.0d
-			image: "indrev:item/sulfur_crystal"
+			image: "betterend:item/crystalline_sulphur"
 			rotation: 0.0d
 			width: 2.0d
 			x: -10.0d
@@ -625,15 +625,15 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.to_the_end.quests0.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.45D9C9CD7B2568A0.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:ender_eye"
 				id: "126F26CCB046CD5D"
-				title: "{ftbquests.chapter.to_the_end.quests0.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.45D9C9CD7B2568A0.task.126F26CCB046CD5D.title}"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests0.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.45D9C9CD7B2568A0.title}"
 			x: 0.0d
 			y: -6.25d
 		}
@@ -649,7 +649,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests1.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.4E969D7F19948E4A.subtitle}"
 			tasks: [{
 				id: "2B0F03865A9E31B9"
 				item: "endrem:guardian_eye"
@@ -670,7 +670,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests2.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.2BC3AA0B480C6828.subtitle}"
 			tasks: [{
 				id: "5B03491401B0489E"
 				item: "endrem:magical_eye"
@@ -691,7 +691,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests3.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.3239B2CDB852E1C6.subtitle}"
 			tasks: [{
 				id: "51D9182AB02AE780"
 				item: "endrem:wither_eye"
@@ -712,7 +712,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests4.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.6F658E35279100C8.subtitle}"
 			tasks: [{
 				id: "3E473BEA23E8C1FE"
 				item: "endrem:witch_eye"
@@ -733,7 +733,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests5.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.6A9C9E7ADB45F1BE.subtitle}"
 			tasks: [{
 				id: "278B4A1FD0493FD0"
 				item: "endrem:undead_eye"
@@ -754,7 +754,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests6.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.35B7FDB1000EEAF9.subtitle}"
 			tasks: [{
 				id: "788EEC3D5D81C3AF"
 				item: "endrem:exotic_eye"
@@ -775,7 +775,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests7.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.263D24D35E699557.subtitle}"
 			tasks: [{
 				id: "1F9EF219BAB85A92"
 				item: "endrem:black_eye"
@@ -796,7 +796,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests8.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.7F0434CFE9CAEF07.subtitle}"
 			tasks: [{
 				id: "2CC6D9A1017107EB"
 				item: "endrem:cold_eye"
@@ -817,7 +817,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests9.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.6AD07DC2ED3C734D.subtitle}"
 			tasks: [{
 				id: "6D325AC3E295E65A"
 				item: "endrem:corrupted_eye"
@@ -838,7 +838,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests10.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.49EFA88FEABB1195.subtitle}"
 			tasks: [{
 				id: "25DDD301B747C01E"
 				item: "endrem:lost_eye"
@@ -859,7 +859,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests11.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.62536E37C53A9260.subtitle}"
 			tasks: [{
 				id: "1C3BD6942EC2E46D"
 				item: "endrem:nether_eye"
@@ -880,7 +880,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests12.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.7A601E36B70D975C.subtitle}"
 			tasks: [{
 				id: "1628A0166F3301FF"
 				item: "endrem:old_eye"
@@ -902,7 +902,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests13.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.72EFFD1039B48784.subtitle}"
 			tasks: [{
 				id: "1239D763D441A4BF"
 				item: "endrem:rogue_eye"
@@ -913,7 +913,7 @@
 		}
 		{
 			dependencies: ["37525863A9E5509D"]
-			description: ["{ftbquests.chapter.to_the_end.quests14.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.1B9101B42DCED261.description0}"]
 			hide_lock_icon: true
 			hide_until_deps_complete: true
 			id: "1B9101B42DCED261"
@@ -924,7 +924,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests14.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.1B9101B42DCED261.subtitle}"
 			tasks: [{
 				id: "7B812622B4A52172"
 				item: "endrem:evil_eye"
@@ -945,7 +945,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests15.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.3DE8FE441A0B051C.subtitle}"
 			tasks: [{
 				id: "04E8914428590507"
 				item: "endrem:cursed_eye"
@@ -966,7 +966,7 @@
 				xp: 200
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests16.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.64E302C442B729B8.subtitle}"
 			tasks: [{
 				id: "685E4965B8364BEC"
 				item: "endrem:cryptic_eye"
@@ -977,9 +977,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.to_the_end.quests17.description0}"
+				"{ftbquests.chapter.to_the_end.quest.37525863A9E5509D.description0}"
 				""
-				"{ftbquests.chapter.to_the_end.quests17.description2}"
+				"{ftbquests.chapter.to_the_end.quest.37525863A9E5509D.description2}"
 			]
 			hide_lock_icon: true
 			hide_until_deps_complete: false
@@ -993,20 +993,20 @@
 			}]
 			shape: "circle"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.to_the_end.quests17.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.37525863A9E5509D.subtitle}"
 			tasks: [{
 				id: "50D87658349E58FB"
-				title: "{ftbquests.chapter.to_the_end.quests17.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.37525863A9E5509D.task.50D87658349E58FB.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests17.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.37525863A9E5509D.title}"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["37525863A9E5509D"]
-			description: ["{ftbquests.chapter.to_the_end.quests18.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.1607E83A33D2BA18.description0}"]
 			hide_dependency_lines: true
 			hide_lock_icon: true
 			hide_until_deps_complete: true
@@ -1014,12 +1014,17 @@
 			icon: "minecraft:ender_eye"
 			id: "1607E83A33D2BA18"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "25902737E1AEC16C"
-				table_id: 1263016139763888054L
-				type: "random"
+				id: "27215F5E87CF9F98"
+				item: {
+					Count: 1
+					id: "prominent:loot_box"
+					tag: {
+						lottery_id: "prominent:eye_lottery"
+					}
+				}
+				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests18.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.1607E83A33D2BA18.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -1042,7 +1047,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.to_the_end.quests18.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.1607E83A33D2BA18.title}"
 			x: 2.5d
 			y: 6.0d
 		}
@@ -1062,14 +1067,14 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.to_the_end.quests19.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.422E507CE6A53B7C.subtitle}"
 			tasks: [{
 				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
 				id: "686E70E87F34DCAD"
 				type: "advancement"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests19.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.422E507CE6A53B7C.title}"
 			x: 0.0d
 			y: -13.5d
 		}
@@ -1086,10 +1091,10 @@
 				biome: "betterend:blossoming_spires"
 				icon: "betterend:blossom_berry"
 				id: "733BD5D23591BE9B"
-				title: "{ftbquests.chapter.to_the_end.quests20.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.4A46A563FE486A35.task.733BD5D23591BE9B.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests20.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.4A46A563FE486A35.title}"
 			x: -5.5d
 			y: -17.5d
 		}
@@ -1110,10 +1115,10 @@
 				biome: "eldritch_end:hasturian_wastes"
 				icon: "eldritch_end:hasturian_moss"
 				id: "4F2CAACD7E949134"
-				title: "{ftbquests.chapter.to_the_end.quests21.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.0AE2C4383B40418A.task.4F2CAACD7E949134.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests21.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.0AE2C4383B40418A.title}"
 			x: 6.0d
 			y: -18.5d
 		}
@@ -1130,10 +1135,10 @@
 				biome: "#promenade:dark_amaranth_forests"
 				icon: "promenade:dark_amaranth_fungus"
 				id: "6785D7C68E20E9F5"
-				title: "{ftbquests.chapter.to_the_end.quests22.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.1C087F6048B1D89F.task.6785D7C68E20E9F5.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests22.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.1C087F6048B1D89F.title}"
 			x: -5.5d
 			y: -19.5d
 		}
@@ -1145,21 +1150,21 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests23.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.7D82D37287E1AE9A.subtitle}"
 			tasks: [{
 				biome: "betterend:shadow_forest"
 				icon: "betterend:shadow_grass"
 				id: "60BFD684913B8FE1"
-				title: "{ftbquests.chapter.to_the_end.quests23.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.7D82D37287E1AE9A.task.60BFD684913B8FE1.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests23.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.7D82D37287E1AE9A.title}"
 			x: 5.5d
 			y: -19.5d
 		}
 		{
 			dependencies: ["7D82D37287E1AE9A"]
-			description: ["{ftbquests.chapter.to_the_end.quests24.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.7BA9CD493FB66021.description0}"]
 			hide_until_deps_complete: true
 			id: "7BA9CD493FB66021"
 			rewards: [{
@@ -1167,14 +1172,14 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests24.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.7BA9CD493FB66021.subtitle}"
 			tasks: [{
 				entity: "betterend:shadow_walker"
 				id: "189FCBA68A345E94"
 				type: "kill"
 				value: 100L
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests24.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.7BA9CD493FB66021.title}"
 			x: 7.5d
 			y: -20.0d
 		}
@@ -1187,15 +1192,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests25.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.06F8BED924CB661F.subtitle}"
 			tasks: [{
 				biome: "betterend:umbrella_jungle"
 				icon: "betterend:umbrella_tree_sapling"
 				id: "28F1D0353F646410"
-				title: "{ftbquests.chapter.to_the_end.quests25.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.06F8BED924CB661F.task.28F1D0353F646410.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests25.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.06F8BED924CB661F.title}"
 			x: -4.5d
 			y: -21.5d
 		}
@@ -1223,7 +1228,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests26.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.2576886EBE660522.title}"
 			x: -6.5d
 			y: -15.5d
 		}
@@ -1243,10 +1248,10 @@
 				biome: "eldritch_end:primordial_abyss"
 				icon: "eldritch_end:aberration_heart"
 				id: "0583D9EE2E7FD1E5"
-				title: "{ftbquests.chapter.to_the_end.quests27.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.02F0E1B04F1A6E56.task.0583D9EE2E7FD1E5.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests27.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.02F0E1B04F1A6E56.title}"
 			x: -5.0d
 			y: -20.5d
 		}
@@ -1263,16 +1268,16 @@
 				biome: "betterend:crystal_mountains"
 				icon: "betterend:crystal_moss"
 				id: "382AF43DB3D24391"
-				title: "{ftbquests.chapter.to_the_end.quests28.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.34830F8A8A4C01E3.task.382AF43DB3D24391.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests28.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.34830F8A8A4C01E3.title}"
 			x: 5.0d
 			y: -20.5d
 		}
 		{
 			dependencies: ["34830F8A8A4C01E3"]
-			description: ["{ftbquests.chapter.to_the_end.quests29.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.03C8A562B7B085BC.description0}"]
 			hide_until_deps_complete: true
 			id: "03C8A562B7B085BC"
 			rewards: [{
@@ -1290,7 +1295,7 @@
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["{ftbquests.chapter.to_the_end.quests30.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.21DB9F756402FE99.description0}"]
 			id: "21DB9F756402FE99"
 			rewards: [{
 				id: "5710B3059F24EF5E"
@@ -1301,10 +1306,10 @@
 				biome: "betterend:chorus_forest"
 				icon: "minecraft:chorus_flower"
 				id: "6E9A40E1208E5A3F"
-				title: "{ftbquests.chapter.to_the_end.quests30.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.21DB9F756402FE99.task.6E9A40E1208E5A3F.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests30.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.21DB9F756402FE99.title}"
 			x: 4.5d
 			y: -21.5d
 		}
@@ -1317,15 +1322,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests31.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.6137BF7FAD010A8C.subtitle}"
 			tasks: [{
 				biome: "betterend:ice_starfield"
 				icon: "betterend:emerald_ice"
 				id: "745694612177C611"
-				title: "{ftbquests.chapter.to_the_end.quests31.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.6137BF7FAD010A8C.task.745694612177C611.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests31.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.6137BF7FAD010A8C.title}"
 			x: -4.0d
 			y: -22.5d
 		}
@@ -1349,7 +1354,7 @@
 				count: 32L
 				id: "2341CA8951B8587B"
 				item: "betterend:ancient_emerald_ice"
-				title: "{ftbquests.chapter.to_the_end.quests32.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.724350E7E4EECE3E.task.2341CA8951B8587B.title}"
 				type: "item"
 			}]
 			x: -5.0d
@@ -1367,12 +1372,12 @@
 				xp: 500
 			}]
 			tasks: [{
-				icon: "indrev:wither_proof_obsidian"
+				icon: "minecraft:crying_obsidian"
 				id: "680A00848FFC4F29"
 				structure: "bosses_of_mass_destruction:obsidilith_arena"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests33.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.402B764F72A6E30D.title}"
 			x: 5.5d
 			y: -17.5d
 		}
@@ -1381,7 +1386,7 @@
 				"402B764F72A6E30D"
 				"103203350DABF6BB"
 			]
-			description: ["{ftbquests.chapter.to_the_end.quests34.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.065D169B3FC3AFC8.description0}"]
 			hide_until_deps_complete: true
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "065D169B3FC3AFC8"
@@ -1402,22 +1407,22 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "{ftbquests.chapter.to_the_end.quests34.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.065D169B3FC3AFC8.subtitle}"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "bosses_of_mass_destruction:obsidian_heart"
 				id: "5F40E1B871CECC17"
-				title: "{ftbquests.chapter.to_the_end.quests34.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.065D169B3FC3AFC8.task.5F40E1B871CECC17.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests34.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.065D169B3FC3AFC8.title}"
 			x: 7.0d
 			y: -17.0d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["{ftbquests.chapter.to_the_end.quests35.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.2D897C539190F312.description0}"]
 			icon: "betterend:amber_moss"
 			id: "2D897C539190F312"
 			rewards: [{
@@ -1425,15 +1430,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests35.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.2D897C539190F312.subtitle}"
 			tasks: [{
 				biome: "betterend:amber_land"
 				icon: "betterend:amber_gem"
 				id: "0B1F29254E47C522"
-				title: "{ftbquests.chapter.to_the_end.quests35.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.2D897C539190F312.task.0B1F29254E47C522.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests35.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.2D897C539190F312.title}"
 			x: 4.0d
 			y: -22.5d
 		}
@@ -1458,10 +1463,10 @@
 				biome: "betterend:sulphur_springs"
 				icon: "betterend:crystalline_sulphur"
 				id: "544BAAEF870F2724"
-				title: "{ftbquests.chapter.to_the_end.quests36.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.45E85B95F4D8B7AB.task.544BAAEF870F2724.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests36.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.45E85B95F4D8B7AB.title}"
 			x: -6.0d
 			y: -18.5d
 		}
@@ -1474,15 +1479,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests37.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.5122BBD24637C17B.subtitle}"
 			tasks: [{
 				biome: "betterend:lantern_woods"
 				icon: "betterend:flavolite_lantern"
 				id: "69EB70E436621C9F"
-				title: "{ftbquests.chapter.to_the_end.quests37.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.5122BBD24637C17B.task.69EB70E436621C9F.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests37.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.5122BBD24637C17B.title}"
 			x: 3.0d
 			y: -23.0d
 		}
@@ -1499,10 +1504,10 @@
 				biome: "minecraft:end_highlands"
 				icon: "minecraft:end_stone"
 				id: "28F81956E29537E4"
-				title: "{ftbquests.chapter.to_the_end.quests38.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.67F94147E6403F5F.task.28F81956E29537E4.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests38.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.67F94147E6403F5F.title}"
 			x: 1.5d
 			y: -23.5d
 		}
@@ -1534,10 +1539,10 @@
 				icon: "minecraft:purpur_pillar"
 				id: "554D1ECC11FE60D5"
 				structure: "minecraft:end_city"
-				title: "{ftbquests.chapter.to_the_end.quests39.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.4B1BEDBB8D2DB24C.task.554D1ECC11FE60D5.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests39.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.4B1BEDBB8D2DB24C.title}"
 			x: 0.0d
 			y: -24.0d
 		}
@@ -1550,15 +1555,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests40.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.46EDABE48D816A5B.subtitle}"
 			tasks: [{
 				biome: "betterend:glowing_grasslands"
 				icon: "betterend:end_moss"
 				id: "718F9608C09FF1E0"
-				title: "{ftbquests.chapter.to_the_end.quests40.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.46EDABE48D816A5B.task.718F9608C09FF1E0.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests40.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.46EDABE48D816A5B.title}"
 			x: -3.0d
 			y: -23.0d
 		}
@@ -1582,7 +1587,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests41.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.282F91088DE123F7.title}"
 			x: 7.5d
 			y: -18.5d
 		}
@@ -1599,16 +1604,16 @@
 				biome: "betterend:megalake_grove"
 				icon: "betterend:lacugrove_sapling"
 				id: "0392A2E1458AA1E6"
-				title: "{ftbquests.chapter.to_the_end.quests42.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.55829700C661DEA2.task.0392A2E1458AA1E6.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests42.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.55829700C661DEA2.title}"
 			x: -5.0d
 			y: -16.5d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["{ftbquests.chapter.to_the_end.quests43.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.05A1A7ABDA3ACD3F.description0}"]
 			icon: "betterend:umbralith"
 			id: "05A1A7ABDA3ACD3F"
 			rewards: [{
@@ -1616,15 +1621,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests43.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.05A1A7ABDA3ACD3F.subtitle}"
 			tasks: [{
 				biome: "betterend:umbra_valley"
 				icon: "betterend:umbralith"
 				id: "2CFE72212E6641DF"
-				title: "{ftbquests.chapter.to_the_end.quests43.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.05A1A7ABDA3ACD3F.task.2CFE72212E6641DF.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests43.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.05A1A7ABDA3ACD3F.title}"
 			x: 5.0d
 			y: -16.5d
 		}
@@ -1641,16 +1646,16 @@
 				icon: "betternether:obsidian_tile"
 				id: "465F6B80085E0837"
 				structure: "philipsruins:end_gate_fortress"
-				title: "{ftbquests.chapter.to_the_end.quests44.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.1F8141547C25B57A.task.465F6B80085E0837.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests44.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.1F8141547C25B57A.title}"
 			x: -4.0d
 			y: -15.5d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["{ftbquests.chapter.to_the_end.quests45.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.5CCC87B841CF1BCB.description0}"]
 			icon: "eldritch_end:primordial_boat"
 			id: "5CCC87B841CF1BCB"
 			rewards: [{
@@ -1658,21 +1663,21 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests45.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.5CCC87B841CF1BCB.subtitle}"
 			tasks: [{
 				icon: "eldritch_end:primordial_chest_boat"
 				id: "608E524DE00DB966"
 				structure: "explorify:end_shipwreck"
-				title: "{ftbquests.chapter.to_the_end.quests45.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.5CCC87B841CF1BCB.task.608E524DE00DB966.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests45.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.5CCC87B841CF1BCB.title}"
 			x: 3.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["{ftbquests.chapter.to_the_end.quests46.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.481A46B1A8D7DEBF.description0}"]
 			icon: "betterend:shadow_berry_jelly"
 			id: "481A46B1A8D7DEBF"
 			rewards: [{
@@ -1680,15 +1685,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests46.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.481A46B1A8D7DEBF.subtitle}"
 			tasks: [{
 				icon: "betterend:mossy_glowshroom_door"
 				id: "3B9FFF6B7E6B0502"
 				structure: "betterend:end_village"
-				title: "{ftbquests.chapter.to_the_end.quests46.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.481A46B1A8D7DEBF.task.3B9FFF6B7E6B0502.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests46.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.481A46B1A8D7DEBF.title}"
 			x: -3.0d
 			y: -14.5d
 		}
@@ -1705,10 +1710,10 @@
 				biome: "betterend:painted_mountains"
 				icon: "betterend:violecite"
 				id: "1DF13FE507E86B64"
-				title: "{ftbquests.chapter.to_the_end.quests47.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.1FC2F5604CFAF8A2.task.1DF13FE507E86B64.title}"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests47.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.1FC2F5604CFAF8A2.title}"
 			x: -1.5d
 			y: -23.5d
 		}
@@ -1728,13 +1733,13 @@
 				item: "betterend:violecite"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests48.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.0D01223246C4398B.title}"
 			x: -2.5d
 			y: -25.0d
 		}
 		{
 			dependencies: ["4B1BEDBB8D2DB24C"]
-			description: ["{ftbquests.chapter.to_the_end.quests49.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.41922BF8A10343B3.description0}"]
 			hide_until_deps_complete: true
 			icon: "minecraft:shulker_box"
 			id: "41922BF8A10343B3"
@@ -1759,7 +1764,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests49.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.41922BF8A10343B3.title}"
 			x: -1.5d
 			y: -28.5d
 		}
@@ -1772,21 +1777,21 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests50.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.624C916A1347DBB7.subtitle}"
 			tasks: [{
 				icon: "betterend:flavolite_runed_eternal"
 				id: "28F3F489D39A4E67"
 				structure: "betterend:eternal_portal"
-				title: "{ftbquests.chapter.to_the_end.quests50.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.624C916A1347DBB7.task.28F3F489D39A4E67.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests50.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.624C916A1347DBB7.title}"
 			x: 4.0d
 			y: -15.5d
 		}
 		{
 			dependencies: ["400CF2A570FC3814"]
-			description: ["{ftbquests.chapter.to_the_end.quests51.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.3BA590EA7252CD1F.description0}"]
 			hide_until_deps_complete: true
 			id: "3BA590EA7252CD1F"
 			rewards: [
@@ -1808,13 +1813,13 @@
 				id: "6417952D9BD8442B"
 				type: "advancement"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests51.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.3BA590EA7252CD1F.title}"
 			x: 7.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["624C916A1347DBB7"]
-			description: ["{ftbquests.chapter.to_the_end.quests52.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.400CF2A570FC3814.description0}"]
 			hide_until_deps_complete: true
 			icon: "betterend:eternal_pedestal"
 			id: "400CF2A570FC3814"
@@ -1823,20 +1828,20 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests52.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.400CF2A570FC3814.subtitle}"
 			tasks: [{
 				count: 6L
 				id: "4788FB875074D5FD"
 				item: { Count: 6, id: "betterend:eternal_crystal" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests52.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.400CF2A570FC3814.title}"
 			x: 5.5d
 			y: -14.0d
 		}
 		{
 			dependencies: ["422E507CE6A53B7C"]
-			description: ["{ftbquests.chapter.to_the_end.quests53.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.405ECED2C34FC488.description0}"]
 			hide_lock_icon: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1848,19 +1853,19 @@
 			}]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.to_the_end.quests53.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.405ECED2C34FC488.subtitle}"
 			tasks: [{
 				id: "31763D7165AA4BA0"
-				title: "{ftbquests.chapter.to_the_end.quests53.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.405ECED2C34FC488.task.31763D7165AA4BA0.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests53.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.405ECED2C34FC488.title}"
 			x: 0.0d
 			y: -18.5d
 		}
 		{
 			dependencies: ["4A46A563FE486A35"]
-			description: ["{ftbquests.chapter.to_the_end.quests54.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.74409F6413DCA7DC.description0}"]
 			hide_until_deps_complete: true
 			id: "74409F6413DCA7DC"
 			rewards: [{
@@ -1878,16 +1883,16 @@
 						value: "betterend:tenanea_logs"
 					}
 				}
-				title: "{ftbquests.chapter.to_the_end.quests54.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.74409F6413DCA7DC.task.0A8611416AE83925.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests54.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.74409F6413DCA7DC.title}"
 			x: -7.0d
 			y: -17.0d
 		}
 		{
 			dependencies: ["45E85B95F4D8B7AB"]
-			description: ["{ftbquests.chapter.to_the_end.quests55.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.686AF3C40B2C2830.description0}"]
 			hide_until_deps_complete: true
 			id: "686AF3C40B2C2830"
 			rewards: [{
@@ -1901,13 +1906,13 @@
 				item: { Count: 32, id: "betterend:brimstone" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests55.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.686AF3C40B2C2830.title}"
 			x: -7.5d
 			y: -18.5d
 		}
 		{
 			dependencies: ["1C087F6048B1D89F"]
-			description: ["{ftbquests.chapter.to_the_end.quests56.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.23735EF40AE7D130.description0}"]
 			hide_until_deps_complete: true
 			icon: "promenade:dark_amaranth_stem"
 			id: "23735EF40AE7D130"
@@ -1926,7 +1931,7 @@
 							value: "promenade:dark_amaranth_stems"
 						}
 					}
-					title: "{ftbquests.chapter.to_the_end.quests56.tasks0.title}"
+					title: "{ftbquests.chapter.to_the_end.quest.23735EF40AE7D130.task.2141C9AAA95F6EA7.title}"
 					type: "item"
 				}
 				{
@@ -1936,7 +1941,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.to_the_end.quests56.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.23735EF40AE7D130.title}"
 			x: -7.5d
 			y: -20.0d
 		}
@@ -1966,7 +1971,7 @@
 				type: "kill"
 				value: 400L
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests57.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.6A712C7EBB12A44F.title}"
 			x: -7.0d
 			y: -21.5d
 		}
@@ -1996,16 +2001,16 @@
 						value: "betterend:umbrella_tree_logs"
 					}
 				}
-				title: "{ftbquests.chapter.to_the_end.quests58.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.3173BAE60DB10C3E.task.41C472F9CBB4AE14.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests58.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.3173BAE60DB10C3E.title}"
 			x: -6.0d
 			y: -22.5d
 		}
 		{
 			dependencies: ["05A1A7ABDA3ACD3F"]
-			description: ["{ftbquests.chapter.to_the_end.quests59.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.642B50C17F82E65F.description0}"]
 			hide_until_deps_complete: true
 			id: "642B50C17F82E65F"
 			rewards: [{
@@ -2019,13 +2024,13 @@
 				item: { Count: 64, id: "betterend:umbralith" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests59.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.642B50C17F82E65F.title}"
 			x: 6.5d
 			y: -15.5d
 		}
 		{
 			dependencies: ["46EDABE48D816A5B"]
-			description: ["{ftbquests.chapter.to_the_end.quests60.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.4760AE66CBC29443.description0}"]
 			hide_until_deps_complete: true
 			id: "4760AE66CBC29443"
 			rewards: [{
@@ -2037,7 +2042,7 @@
 				count: 128L
 				id: "2DC28575B34DF35C"
 				item: "betterend:lumecorn_rod"
-				title: "{ftbquests.chapter.to_the_end.quests60.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.4760AE66CBC29443.task.2DC28575B34DF35C.title}"
 				type: "item"
 			}]
 			x: -4.0d
@@ -2102,7 +2107,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.to_the_end.quests62.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.614D885F3619658F.title}"
 			x: -4.5d
 			y: -13.0d
 		}
@@ -2140,17 +2145,17 @@
 				entity: "minecraft:enderman"
 				icon: "supplementaries:enderman_head"
 				id: "215E768581A66485"
-				title: "{ftbquests.chapter.to_the_end.quests63.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.52B8FFA8E721BE05.task.215E768581A66485.title}"
 				type: "kill"
 				value: 400L
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests63.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.52B8FFA8E721BE05.title}"
 			x: 1.5d
 			y: -28.5d
 		}
 		{
 			dependencies: ["52B8FFA8E721BE05"]
-			description: ["{ftbquests.chapter.to_the_end.quests64.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.15AC981E237E9696.description0}"]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -2182,14 +2187,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.to_the_end.quests64.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.15AC981E237E9696.subtitle}"
 			tasks: [{
 				entity: "mutantmonsters:mutant_enderman"
 				id: "45CB521DB95B822E"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests64.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.15AC981E237E9696.title}"
 			x: 0.0d
 			y: -30.5d
 		}
@@ -2200,27 +2205,32 @@
 			id: "4449BA89F2428F67"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "360ABDD816E2A97C"
-					table_id: 1877317905884575919L
-					type: "choice"
-				}
-				{
 					id: "197E413AE4F6886B"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "5AB179498A1FDE2E"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:t4_trinket_lottery"
+						}
+					}
+					type: "item"
 				}
 			]
 			tasks: [
 				{
 					id: "3A5448F49C30E41D"
-					title: "{ftbquests.chapter.to_the_end.quests65.tasks0.title}"
+					title: "{ftbquests.chapter.to_the_end.quest.4449BA89F2428F67.task.3A5448F49C30E41D.title}"
 					type: "checkmark"
 				}
 				{
 					entity: "minecraft:shulker"
 					id: "1D83887F1C94C8C1"
-					title: "{ftbquests.chapter.to_the_end.quests65.tasks1.title}"
+					title: "{ftbquests.chapter.to_the_end.quest.4449BA89F2428F67.task.1D83887F1C94C8C1.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -2233,11 +2243,11 @@
 							value: "rpg_series:tier_3_accessories"
 						}
 					}
-					title: "{ftbquests.chapter.to_the_end.quests65.tasks2.title}"
+					title: "{ftbquests.chapter.to_the_end.quest.4449BA89F2428F67.task.617DE7D9E928FF76.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.to_the_end.quests65.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.4449BA89F2428F67.title}"
 			x: 2.0d
 			y: -26.5d
 		}
@@ -2255,7 +2265,7 @@
 				structure: "dungeons_arise:heavenly_rider"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests66.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.18F74B2D3AF2364F.title}"
 			x: 2.0d
 			y: -13.5d
 		}
@@ -2268,15 +2278,15 @@
 				type: "xp"
 				xp: 500
 			}]
-			subtitle: "{ftbquests.chapter.to_the_end.quests67.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.2BB4AB6CC24236CF.subtitle}"
 			tasks: [{
 				icon: "icarus:white_mechanical_feathered_wings"
 				id: "53217031F6A5172A"
 				structure: "dungeons_arise:heavenly_challenger"
-				title: "{ftbquests.chapter.to_the_end.quests67.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.2BB4AB6CC24236CF.task.53217031F6A5172A.title}"
 				type: "structure"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests67.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.2BB4AB6CC24236CF.title}"
 			x: -2.0d
 			y: -13.5d
 		}
@@ -2293,11 +2303,11 @@
 				entity: "minecraft:phantom"
 				icon: "handcrafted:phantom_trophy"
 				id: "01A084B598672A74"
-				title: "{ftbquests.chapter.to_the_end.quests68.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.6D2010BEB8C8B173.task.01A084B598672A74.title}"
 				type: "kill"
 				value: 10L
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests68.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.6D2010BEB8C8B173.title}"
 			x: 3.5d
 			y: -12.0d
 		}
@@ -2315,17 +2325,17 @@
 				entity: "minecraft:phantom"
 				icon: "handcrafted:phantom_trophy"
 				id: "15E1B531AFBB2583"
-				title: "{ftbquests.chapter.to_the_end.quests69.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.3D7B796B17C97492.task.15E1B531AFBB2583.title}"
 				type: "kill"
 				value: 10L
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests69.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.3D7B796B17C97492.title}"
 			x: -3.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["5CCC87B841CF1BCB"]
-			description: ["{ftbquests.chapter.to_the_end.quests70.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.0DF7D1A42CF5C386.description0}"]
 			hide_until_deps_complete: true
 			id: "0DF7D1A42CF5C386"
 			rewards: [{
@@ -2339,7 +2349,7 @@
 				item: { Count: 16, id: "minecraft:purpur_block" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests70.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.0DF7D1A42CF5C386.title}"
 			x: 4.5d
 			y: -13.0d
 		}
@@ -2358,13 +2368,13 @@
 				item: "minecraft:chorus_fruit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests71.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.3AF0AAB04A784FE2.title}"
 			x: 6.5d
 			y: -22.5d
 		}
 		{
 			dependencies: ["3AF0AAB04A784FE2"]
-			description: ["{ftbquests.chapter.to_the_end.quests72.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.7D339BE12B3D500A.description0}"]
 			hide_until_deps_complete: true
 			id: "7D339BE12B3D500A"
 			rewards: [
@@ -2386,7 +2396,7 @@
 				item: { Count: 64, id: "tiered:galena_chunk" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests72.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.7D339BE12B3D500A.title}"
 			x: 8.5d
 			y: -23.5d
 		}
@@ -2409,16 +2419,16 @@
 						value: "betterend:helix_tree_logs"
 					}
 				}
-				title: "{ftbquests.chapter.to_the_end.quests73.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.147C2CC7E0403220.task.4BC8B1A5C984D169.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests73.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.147C2CC7E0403220.title}"
 			x: 5.5d
 			y: -23.5d
 		}
 		{
 			dependencies: ["5122BBD24637C17B"]
-			description: ["{ftbquests.chapter.to_the_end.quests74.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.55A99787ABAF18D9.description0}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "55A99787ABAF18D9"
@@ -2437,16 +2447,16 @@
 						value: "betterend:lucernia_logs"
 					}
 				}
-				title: "{ftbquests.chapter.to_the_end.quests74.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.55A99787ABAF18D9.task.2B1B3396C929C6CD.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests74.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.55A99787ABAF18D9.title}"
 			x: 4.0d
 			y: -24.5d
 		}
 		{
 			dependencies: ["67F94147E6403F5F"]
-			description: ["{ftbquests.chapter.to_the_end.quests75.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.15C0C0463C99F485.description0}"]
 			hide_until_deps_complete: true
 			id: "15C0C0463C99F485"
 			rewards: [{
@@ -2460,13 +2470,13 @@
 				item: "betterend:flavolite"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests75.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.15C0C0463C99F485.title}"
 			x: 2.5d
 			y: -25.0d
 		}
 		{
 			dependencies: ["4B1BEDBB8D2DB24C"]
-			description: ["{ftbquests.chapter.to_the_end.quests76.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.725105B81E806A55.description0}"]
 			hide_until_deps_complete: true
 			icon: "ends_delight:dragon_leg"
 			id: "725105B81E806A55"
@@ -2491,10 +2501,10 @@
 						value: "c:tools/knives"
 					}
 				}
-				title: "{ftbquests.chapter.to_the_end.quests76.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.725105B81E806A55.task.559DF372356CA176.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests76.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.725105B81E806A55.title}"
 			x: -2.0d
 			y: -26.5d
 		}
@@ -2505,21 +2515,34 @@
 			]
 			dependency_requirement: "all_started"
 			description: [
-				"{ftbquests.chapter.to_the_end.quests77.description0}"
-				"{ftbquests.chapter.to_the_end.quests77.description3}"
-				"{ftbquests.chapter.to_the_end.quests77.description1}"
-				"{ftbquests.chapter.to_the_end.quests77.description2}"
+				"{ftbquests.chapter.to_the_end.quest.0F9166A5CBEB4E3E.description0}"
+				"{ftbquests.chapter.to_the_end.quest.0F9166A5CBEB4E3E.description1}"
+				"{ftbquests.chapter.to_the_end.quest.0F9166A5CBEB4E3E.description2}"
+				"{ftbquests.chapter.to_the_end.quest.0F9166A5CBEB4E3E.description3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0F9166A5CBEB4E3E"
-			rewards: [{
-				id: "5B46D6F75B7C8B19"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5B46D6F75B7C8B19"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0559961D049DE4D5"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:resource_1_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.to_the_end.quests77.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.0F9166A5CBEB4E3E.subtitle}"
 			tasks: [{
 				id: "5A3A11C6A327797B"
 				item: {
@@ -2529,19 +2552,24 @@
 						value: "icarus:wings"
 					}
 				}
-				title: "{ftbquests.chapter.to_the_end.quests77.tasks0.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.0F9166A5CBEB4E3E.task.5A3A11C6A327797B.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.to_the_end.quests77.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.0F9166A5CBEB4E3E.title}"
 			x: 0.0d
 			y: -27.5d
 		}
 		{
 			dependencies: ["37525863A9E5509D"]
-			description: ["{ftbquests.chapter.to_the_end.quests78.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.30794D704F5985D1.description0}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
 			id: "30794D704F5985D1"
 			rewards: [{
 				id: "265CADC7DEE444ED"
@@ -2549,7 +2577,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.to_the_end.quests78.subtitle}"
+			subtitle: "{ftbquests.chapter.to_the_end.quest.30794D704F5985D1.subtitle}"
 			tasks: [
 				{
 					id: "4ADC0ECC8611C3A1"
@@ -2566,13 +2594,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.to_the_end.quests78.title}"
+			title: "{ftbquests.chapter.to_the_end.quest.30794D704F5985D1.title}"
 			x: -2.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["405ECED2C34FC488"]
-			description: ["{ftbquests.chapter.to_the_end.quests79.description0}"]
+			description: ["{ftbquests.chapter.to_the_end.quest.3FF0B07B7BCC9CDF.description0}"]
 			hide_until_deps_complete: true
 			id: "3FF0B07B7BCC9CDF"
 			rewards: [
@@ -2592,7 +2620,7 @@
 				icon: "minecraft:purpur_block"
 				id: "5ADA7128D04A84C7"
 				structure: "mes:mega_ship"
-				title: "{ftbquests.chapter.to_the_end.quests79.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.3FF0B07B7BCC9CDF.task.5ADA7128D04A84C7.title}"
 				type: "structure"
 			}]
 			x: 1.5d
@@ -2611,7 +2639,7 @@
 				icon: "handcrafted:phantom_trophy"
 				id: "12CC55E6903FFF47"
 				structure: "mes:phantom_citadel"
-				title: "{ftbquests.chapter.to_the_end.quests80.title}"
+				title: "{ftbquests.chapter.to_the_end.quest.6014E32944355FC6.task.12CC55E6903FFF47.title}"
 				type: "structure"
 			}]
 			x: -1.5d

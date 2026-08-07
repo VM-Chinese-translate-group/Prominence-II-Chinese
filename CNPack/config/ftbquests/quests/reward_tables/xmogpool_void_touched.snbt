@@ -3,15 +3,9 @@
 	loot_size: 1
 	order_index: 7
 	rewards: [
-		{
-			item: "prominent:xmog_void_touched_blade"
-		}
-		{
-			item: "prominent:xmog_void_touched_saber"
-		}
-		{
-			item: "prominent:xmog_void_touched_scythe"
-		}
+		{ item: "prominent:xmog_void_touched_blade" }
+		{ item: "prominent:xmog_void_touched_saber" }
+		{ item: "prominent:xmog_void_touched_scythe" }
 	]
-	title: "{ftbquests.reward_tables.xmogpool_void_touched.title}"
+	title: "{ftbquests.reward_table.xmogpool_void_touched.title}"
 }
