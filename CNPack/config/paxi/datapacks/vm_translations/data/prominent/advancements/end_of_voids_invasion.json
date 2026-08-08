@@ -14,7 +14,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "prominent:unlock_mythic_challenges",
+  "parent": "prominent:molten_core",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible",

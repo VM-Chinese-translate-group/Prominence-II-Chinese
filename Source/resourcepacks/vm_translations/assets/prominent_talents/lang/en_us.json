@@ -1,4 +1,5 @@
 {
     "prominent_talents.gui.player_level": "Statistics",
-    "item.prominent_talents.level_stat_indicator": "Statistics"
+    "item.prominent_talents.level_stat_indicator": "Statistics",
+    "prominent_talents.tooltip.continue_campaign": "Continue campaign to increase the max level."
 }

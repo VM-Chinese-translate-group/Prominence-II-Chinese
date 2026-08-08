@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "prominent:molten_core"
+      "item": "prominent:flameborn_stone"
     },
     "title": {
-      "translate": "advancement.prominent.molten_core.title"
+      "translate": "advancement.prominent.voids_invasion/dialogue_skellak_molten_core.title"
     },
     "description": {
-      "translate": "advancement.prominent.molten_core.description"
+      "translate": "advancement.prominent.voids_invasion/dialogue_skellak_molten_core.description"
     },
     "hidden": true,
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true
   },
@@ -20,10 +20,5 @@
       "trigger": "minecraft:impossible",
       "conditions": {}
     }
-  },
-  "rewards": {
-    "loot": [
-      "prominent:moltencore"
-    ]
   }
 }

@@ -10,5 +10,5 @@ extraPackName = ""
 extraPackCustomIndex = 0
 [modInstallCheck]
 i18nUpdateMod = true
-vaultPatcher = false
+vaultPatcher = true
 textureLocaleRedirector = false

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "prominent:flameborn_stone"
+    },
+    "title": {
+      "translate": "advancement.prominent.voids_invasion/killed_eye.title"
+    },
+    "description": {
+      "translate": "advancement.prominent.voids_invasion/killed_eye.description"
+    },
+    "hidden": true,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "prominent:voids_invasion/dialogue_skellak_chapter_1",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

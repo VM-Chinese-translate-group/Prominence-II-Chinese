@@ -1,17 +1,17 @@
 {
   "display": {
     "icon": {
-      "item": "prominent:knowledge_scroll"
+      "item": "prominent:hourglass"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
     "title": {
-      "translate": "advancement.prominent.level_10.title"
+      "translate": "advancement.prominent.1000_years_later.title"
     },
     "description": {
-      "translate": "advancement.prominent.level_10.description"
+      "translate": "advancement.prominent.1000_years_later.description"
     },
     "hidden": true,
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true
   },

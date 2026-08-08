@@ -3,6 +3,7 @@
     "icon": {
       "item": "prominent:knowledge_scroll"
     },
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
     "title": {
       "translate": "advancement.prominent.level_50.title"
     },
