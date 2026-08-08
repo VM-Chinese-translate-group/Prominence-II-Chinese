@@ -8,7 +8,7 @@
 
 CurseForge|加载器|整合包版本|汉化维护状态
 :-|:-|:-|:-
-[链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era)|Fabric|1.20.1 3.9.27|*维护中*|
+[链接](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era)|Fabric|1.20.1 4.0.0|*维护中*|
 
 ---
 

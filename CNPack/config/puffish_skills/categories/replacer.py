@@ -2,17 +2,26 @@ import json
 import os
 import sys
 
-# Unicode字符映射
+# Unicode字符映射（与 CNPack/config/mapping.txt 保持一致）
 UNICODE_MAPPING = {
     '\uF933': '\\uE001', '\uF934': '\\uE002', '\uF935': '\\uE003',
-    '\uF936': '\\uE004', '\uF937': '\\uE005', '\uF938': '\\uE006',
+    '\uF937': '\\uE005', '\uF938': '\\uE006',
+    '\uF939': '\\uE027',
     '\uF940': '\\uE007', '\uF941': '\\uE008', '\uF942': '\\uE009',
     '\uF943': '\\uE010', '\uF944': '\\uE011', '\uF945': '\\uE012',
     '\uF946': '\\uE013', '\uF947': '\\uE014', '\uF948': '\\uE015',
     '\uF949': '\\uE016', '\uF950': '\\uE017', '\uF951': '\\uE018',
     '\uF952': '\\uE019', '\uF953': '\\uE020', '\uF954': '\\uE021',
     '\uF955': '\\uE022', '\uF956': '\\uE023', '\uF957': '\\uE024',
-    '\uF958': '\\uE025', '\uF959': '\\uE026'
+    '\uF958': '\\uE025', '\uF959': '\\uE026', '\uF960': '\\uE028',
+    '\uF961': '\\uE029', '\uF962': '\\uE030', '\uF963': '\\uE031',
+    '\uF964': '\\uE032', '\uF965': '\\uE033', '\uF966': '\\uE034',
+    '\uF967': '\\uE035', '\uF968': '\\uE036', '\uF969': '\\uE037',
+    '\uF96A': '\\uE038', '\uF96B': '\\uE039', '\uF96C': '\\uE040',
+    '\uF96D': '\\uE041', '\uF96E': '\\uE042', '\uF96F': '\\uE043',
+    '\uF970': '\\uE044', '\uF971': '\\uE045', '\uF972': '\\uE046',
+    '\uF973': '\\uE047', '\uF974': '\\uE048', '\uF975': '\\uE049',
+    '\uF976': '\\uE050', '\uF977': '\\uE051'
 }
 
 def replace_unicode(text):
@@ -20,7 +29,7 @@ def replace_unicode(text):
         return text
     for old, new in UNICODE_MAPPING.items():
         text = text.replace(old, new)
-    return text
+    return text.replace('\u00a7', '\\u00a7')
 
 def write_lang_file(file_path, translations):
     with open(file_path, 'wb') as f:

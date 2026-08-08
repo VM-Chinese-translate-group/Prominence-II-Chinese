@@ -1,16 +1,37 @@
 import json
 import re
 
+UNICODE_MAPPING = {
+    r'\uF933': r'\uE001', r'\uF934': r'\uE002', r'\uF935': r'\uE003',
+    r'\uF937': r'\uE005', r'\uF938': r'\uE006',
+    r'\uF939': r'\uE027',
+    r'\uF940': r'\uE007', r'\uF941': r'\uE008', r'\uF942': r'\uE009',
+    r'\uF943': r'\uE010', r'\uF944': r'\uE011', r'\uF945': r'\uE012',
+    r'\uF946': r'\uE013', r'\uF947': r'\uE014', r'\uF948': r'\uE015',
+    r'\uF949': r'\uE016', r'\uF950': r'\uE017', r'\uF951': r'\uE018',
+    r'\uF952': r'\uE019', r'\uF953': r'\uE020', r'\uF954': r'\uE021',
+    r'\uF955': r'\uE022', r'\uF956': r'\uE023', r'\uF957': r'\uE024',
+    r'\uF958': r'\uE025', r'\uF959': r'\uE026', r'\uF960': r'\uE028',
+    r'\uF961': r'\uE029', r'\uF962': r'\uE030', r'\uF963': r'\uE031',
+    r'\uF964': r'\uE032', r'\uF965': r'\uE033', r'\uF966': r'\uE034',
+    r'\uF967': r'\uE035', r'\uF968': r'\uE036', r'\uF969': r'\uE037',
+    r'\uF96A': r'\uE038', r'\uF96B': r'\uE039', r'\uF96C': r'\uE040',
+    r'\uF96D': r'\uE041', r'\uF96E': r'\uE042', r'\uF96F': r'\uE043',
+    r'\uF970': r'\uE044', r'\uF971': r'\uE045', r'\uF972': r'\uE046',
+    r'\uF973': r'\uE047', r'\uF974': r'\uE048', r'\uF975': r'\uE049',
+    r'\uF976': r'\uE050', r'\uF977': r'\uE051'
+}
+
 def find_existing_unicode_chars(content):
-    """找出文件中实际存在的 F933-F959 范围内的 Unicode 字符"""
-    pattern = r'\\uF(?:93[3-9]|94[0-9]|95[0-9])'
-    matches = re.findall(pattern, content)
+    """找出文件中实际存在、且在 mapping.txt 中定义的字体码位"""
+    pattern = r'\\uF(?:93[357-9]|94[0-9]|95[0-9]|96[0-9A-F]|97[0-7])'
+    matches = re.findall(pattern, content, flags=re.IGNORECASE)
     return sorted(list(set(matches)))
 
 def create_mapping(existing_chars):
-    """为实际存在的字符创建映射"""
-    new_chars = [f'\\uE{i:03d}' for i in range(1, len(existing_chars) + 1)]
-    return dict(zip(existing_chars, new_chars))
+    """按稳定的 mapping.txt 关系创建映射，避免因 4.0 删除 F936 而整体错位"""
+    normalized = {char: char[:2].lower() + char[2:].upper() for char in existing_chars}
+    return {char: UNICODE_MAPPING[normalized[char]] for char in existing_chars if normalized[char] in UNICODE_MAPPING}
 
 def remap_unicode_chars(input_file, output_file):
     # 读取JSON文件
@@ -41,31 +62,3 @@ input_file = r"d:\mc\mod\Prominence-II-Chinese\CNPack\config\paxi\resourcepacks\
 output_file = r"d:\mc\mod\Prominence-II-Chinese\CNPack\config\paxi\resourcepacks\vm_translations\assets\minecraft\font\default_new.json"
 
 remap_unicode_chars(input_file, output_file)
-'''
-\uF933 -> \uE001
-\uF934 -> \uE002
-\uF935 -> \uE003
-\uF936 -> \uE004
-\uF937 -> \uE005
-\uF938 -> \uE006
-\uF940 -> \uE007
-\uF941 -> \uE008
-\uF942 -> \uE009
-\uF943 -> \uE010
-\uF944 -> \uE011
-\uF945 -> \uE012
-\uF946 -> \uE013
-\uF947 -> \uE014
-\uF948 -> \uE015
-\uF949 -> \uE016
-\uF950 -> \uE017
-\uF951 -> \uE018
-\uF952 -> \uE019
-\uF953 -> \uE020
-\uF954 -> \uE021
-\uF955 -> \uE022
-\uF956 -> \uE023
-\uF957 -> \uE024
-\uF958 -> \uE025
-\uF959 -> \uE026
-'''

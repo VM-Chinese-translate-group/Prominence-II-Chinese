@@ -3,3 +3,7 @@ error_report.html
 
 __pycache__/
 *.pyc
+findings.md
+progress.md
+task_plan.md
+4.0.0-update-checklist.md

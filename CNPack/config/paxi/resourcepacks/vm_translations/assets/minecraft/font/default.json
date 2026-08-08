@@ -9,13 +9,13 @@
         {
             "type": "bitmap",
             "file": "prominent:gui/ability_plates/active.png",
-            "ascent": 9, "height": 9,
+            "ascent": 9, "height": 10,
             "chars": ["\uE002"]
         },
         {
             "type": "bitmap",
             "file": "prominent:gui/ability_plates/passive.png",
-            "ascent": 9, "height": 9,
+            "ascent": 9, "height": 10,
             "chars": ["\uE005"]
         },
         {
@@ -26,15 +26,15 @@
         },
         {
             "type": "bitmap",
-            "file": "prominent:icon/mythic_bosses/heroic.png",
+            "file": "prominent:icon/mythic_bosses/hourglass.png",
             "ascent": 9, "height": 13,
-            "chars": ["\uE004"]
+            "chars": ["\uE006"]
         },
         {
             "type": "bitmap",
-            "file": "prominent:item/void_hourglass.png",
-            "ascent": 9, "height": 13,
-            "chars": ["\uE006"]
+            "file": "prominent:item/broken_mark_hastur.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE027"]
         },
         {
             "type": "bitmap",
@@ -57,19 +57,19 @@
         {
             "type": "bitmap",
             "file": "prominent:icon/talent_tree/passive.png",
-            "ascent": 8, "height": 9,
+            "ascent": 9, "height": 12,
             "chars": ["\uE007"]
         },
         {
             "type": "bitmap",
             "file": "prominent:icon/talent_tree/active.png",
-            "ascent": 8, "height": 9,
+            "ascent": 9, "height": 12,
             "chars": ["\uE008"]
         },
         {
             "type": "bitmap",
             "file": "prominent:icon/talent_tree/fate.png",
-            "ascent": 8, "height": 9,
+            "ascent": 9, "height": 12,
             "chars": ["\uE009"]
         },
         
@@ -174,6 +174,12 @@
             "file": "prominent:icon/talent_tree/magic_type/lightning.png",
             "ascent": 9, "height": 10,
             "chars": ["\uE026"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/talent_tree/magic_resistance.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE028"]
         },
         {
             "type": "bitmap",
@@ -409,6 +415,168 @@
             "file": "prominent:gui/ench_limit/3_10.png",
             "ascent": 9, "height": 12,
             "chars": ["\uF13A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:boss_bar/amagul_bossbar.png",
+            "ascent": 13, "height": 52,
+            "chars": ["\uE893"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/dialogue/ally_npc.png",
+            "ascent": 9, "height": 12,
+            "chars": ["\uF19A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/dialogue/neutral_npc.png",
+            "ascent": 9, "height": 12,
+            "chars": ["\uF19B"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/dialogue/enemy_npc.png",
+            "ascent": 9, "height": 12,
+            "chars": ["\uF19C"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/timer.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE029"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/lock.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE030"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/faceless_gift.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE031"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/cultist.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE032"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/i_am_speed.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE033"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/thunder.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE034"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/freezing.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE035"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/hourglass_narrows.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE036"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/gluttony.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE037"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/tyrant.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE038"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/stone_skinned.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE039"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/smurfing.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE040"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/time_is_ticking.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE041"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/zealous_congregation.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE042"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/unstable_core.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE043"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/faceless_legion.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE044"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/withering_surprise.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE045"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/dog_pack.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE046"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/vampiric_bite.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE047"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/cleansing_aura.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE048"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/double_trouble.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE049"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/mythic_bosses/affixes/slow_motion.png",
+            "ascent": 9, "height": 10,
+            "chars": ["\uE050"]
+        },
+        {
+            "type": "bitmap",
+            "file": "prominent:icon/primordial_forge/primordial_tier.png",
+            "ascent": 9, "height": 12,
+            "chars": ["\uE051"]
         }
     ]
 }
