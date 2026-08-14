@@ -2239,6 +2239,7 @@
 				"32AF5CAD14B2C8A7"
 				"0A1F7985832C6DB2"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.einformation_7new_mechanics.quest.74B7050CA824F281.description0}"
 				""

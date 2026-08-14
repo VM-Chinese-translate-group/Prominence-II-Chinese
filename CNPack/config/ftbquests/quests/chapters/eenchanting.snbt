@@ -243,12 +243,12 @@
 		}
 		{
 			dependencies: [
-				"0250CC346A0DD595"
-				"0250CC346A0DD595"
+				"4011B9F44111D91E"
 				"760BEB0339ED65A9"
 				"7F5414CC388648FC"
+				"55DC0E4792D27682"
 			]
-			dependency_requirement: "one_started"
+			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.eenchanting.quest.3638B82292E58322.description0}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true

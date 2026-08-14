@@ -4226,23 +4226,27 @@
 			}]
 			tasks: [
 				{
+					consume_items: true
 					count: 16L
 					id: "1DDCAE6D0BBF0E0F"
 					item: "ae2:quartz_block"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "2C709B057CA29879"
 					item: "ae2:cell_component_4k"
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 2L
 					id: "4F46AA0CA8594047"
 					item: { Count: 2, id: "minecraft:iron_block" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 3L
 					id: "10D477AADF1E3B4E"
 					item: { Count: 3, id: "minecraft:redstone_block" }

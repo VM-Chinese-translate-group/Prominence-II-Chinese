@@ -1001,12 +1001,6 @@
         },
         "rewards": [
             {
-                "type": "puffish_skills:passive_skill",
-                "data": {
-                    "passive_skill": "bardPassive"
-                }
-            },
-            {
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "ranged_weapon:damage",
@@ -1034,7 +1028,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "spell_power:arcane",
-                    "value": 4,
+                    "value": 4.5,
                     "operation": "addition"
                 }
             },
@@ -1042,7 +1036,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "spell_power:healing",
-                    "value": 5,
+                    "value": 7.5,
                     "operation": "addition"
                 }
             }

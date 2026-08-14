@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "elhasturian_era"
 	group: "3DBADFFDA1FDAD84"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		id: "ftbquests:custom_icon"
@@ -1964,13 +1965,20 @@
 				{
 					count: 12L
 					id: "28C97C9C9B032223"
-					item: { Count: 12, id: "modern_industrialization:silver_ingot" }
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:silver_ingots"
+						}
+					}
+					title: "{ftbquests.chapter.elhasturian_era.quest.42D4036B51BBB3F1.task.28C97C9C9B032223.title}"
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "50237B562C9213A8"
-					item: { Count: 6, id: "minecraft:iron_bars" }
+					item: "minecraft:iron_bars"
 					type: "item"
 				}
 				{
@@ -2026,12 +2034,6 @@
 			size: 0.75d
 			tasks: [
 				{
-					count: 16L
-					id: "2E6F84F6E7064D92"
-					item: { Count: 16, id: "minecraft:iron_bars" }
-					type: "item"
-				}
-				{
 					count: 32L
 					id: "5A1888933CFFA1CC"
 					item: { Count: 32, id: "chipped:massive_deepslate_bricks" }
@@ -2047,12 +2049,6 @@
 					count: 32L
 					id: "05CCB3F981A10766"
 					item: { Count: 22, id: "minecells:cell_infused_steel" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "6D07040A6C9EFF76"
-					item: { Count: 3, id: "minecells:boss_stem_cell" }
 					type: "item"
 				}
 				{
@@ -2081,6 +2077,26 @@
 					count: 9L
 					id: "1096F714D33D3136"
 					item: { Count: 9, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+				{
+					id: "1954E60F66228FB6"
+					item: "prominent:primordial_essence_of_corruption"
+					type: "item"
+				}
+				{
+					id: "24EBCC25526EEE44"
+					item: "prominent:primordial_essence_of_the_holy"
+					type: "item"
+				}
+				{
+					id: "38A5CF3D3293EFC7"
+					item: "prominent:primordial_essence_of_the_unholy"
+					type: "item"
+				}
+				{
+					id: "2B4852040AF56159"
+					item: "prominent:primordial_essence_of_the_soul"
 					type: "item"
 				}
 			]
@@ -2417,6 +2433,7 @@
 				"{ftbquests.chapter.elhasturian_era.quest.3B5135BC27DA28AF.description1}"
 				"{ftbquests.chapter.elhasturian_era.quest.3B5135BC27DA28AF.description2}"
 			]
+			hide_until_deps_complete: true
 			id: "3B5135BC27DA28AF"
 			subtitle: "{ftbquests.chapter.elhasturian_era.quest.3B5135BC27DA28AF.subtitle}"
 			tasks: [{

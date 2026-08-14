@@ -1,12 +1,12 @@
 {
   "modpack": {
     "name": "Prominence II",
-    "version": "4.0.0",
+    "version": "4.0.1",
     "translation": {
       "id": "prominence2",
       "url": "https://vmct-cn.top/modpacks/prominence2/",
       "language": "zh_cn",
-      "version": "4.0.0"
+      "version": "4.0.1"
     }
   }
 }

@@ -155,14 +155,6 @@
 			x: -10.948979591836732d
 			y: -1.392857142857146d
 		}
-		{
-			height: 3.0d
-			image: "botania:item/cosmetic_questgiver_mark"
-			rotation: 0.0d
-			width: 3.0d
-			x: -0.5d
-			y: 11.0d
-		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -323,12 +315,12 @@
 					type: "item"
 				}
 				{
-					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
-					criterion: ""
+					entity: "bosses_of_mass_destruction:lich"
 					icon: "bosses_of_mass_destruction:mob_ward"
 					id: "3B2643FC0AFF3B8B"
 					title: "{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.task.3B2643FC0AFF3B8B.title}"
-					type: "advancement"
+					type: "kill"
+					value: 1L
 				}
 			]
 			title: "{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.title}"
@@ -984,7 +976,7 @@
 			subtitle: "{ftbquests.chapter.main_story.quest.45A926EF078F465E.subtitle}"
 			tasks: [
 				{
-					entity: "bewitchment:baphomet"
+					entity: "soulsweapons:chaos_monarch"
 					icon: {
 						Count: 1
 						id: "soulsweapons:chaos_crown"
@@ -1922,11 +1914,12 @@
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.subtitle}"
 			tasks: [{
-				advancement: "soulsweapons:end_of_reigns"
-				criterion: ""
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: "soulsweapons:withered_demon_heart"
 				id: "0F20389F505FF2D8"
 				title: "{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.task.0F20389F505FF2D8.title}"
-				type: "advancement"
+				type: "kill"
+				value: 1L
 			}]
 			title: "{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.title}"
 			x: -11.0d
@@ -1973,15 +1966,7 @@
 				"5B31D4D4029F1891"
 			]
 			dependency_requirement: "one_completed"
-			description: [
-				"{ftbquests.chapter.main_story.quest.7907D42E7950D773.description0}"
-				""
-				"{ftbquests.chapter.main_story.quest.7907D42E7950D773.description2}"
-				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quest.7907D42E7950D773.description4}"
-				""
-				"{ftbquests.chapter.main_story.quest.7907D42E7950D773.description6}"
-			]
+			description: ["{ftbquests.chapter.main_story.quest.7907D42E7950D773.description0}"]
 			hide_until_deps_complete: true
 			icon: "prominent:skellak_spawn_egg"
 			id: "7907D42E7950D773"
@@ -2128,10 +2113,13 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			subtitle: "{ftbquests.chapter.main_story.quest.70718BBE282CD31E.subtitle}"
 			tasks: [{
-				count: 128L
+				consume_items: false
+				icon: "prominent:primordial_scroll"
 				id: "6A356B39F61C978E"
-				item: { Count: 128, id: "minecraft:netherite_block" }
+				item: "prominent:primordial_scroll"
+				only_from_crafting: false
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.main_story.quest.70718BBE282CD31E.title}"
