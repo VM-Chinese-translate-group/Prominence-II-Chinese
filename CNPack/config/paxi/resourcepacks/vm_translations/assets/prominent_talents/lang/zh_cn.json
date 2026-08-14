@@ -1,5 +1,15 @@
 {
-    "prominent_talents.gui.player_level":"属性",
-    "item.prominent_talents.level_stat_indicator":"属性",
-    "prominent_talents.tooltip.continue_campaign":"继续完成主线战役以解锁最大等级。"
+    "prominent_talents.leveling.level_up":"Congratulations! You have reached level %s!",
+    "prominent_talents.leveling.level_subtitle":"Level %s",
+    "prominent_talents.leveling.campaign_locked":"⚠ You are not gaining Leveling Experience because you must progress further in the campaign to unlock %s+ leveling.",
+    "prominent_talents.talent_menu.current_level":"Current Level: %s",
+    "prominent_talents.talent_menu.current_points":"Current Talent Points: %s",
+    "prominent_talents.talent_menu.point_next_level":"Talent Point awarded next level",
+    "prominent_talents.talent_menu.point_on_level":"Next Talent Point awarded on level %s",
+    "prominent_talents.talent_menu.locked":"Experience gain locked, continue Campaign to unlock",
+    "prominent_talents.talent_menu.max_level":"Maximum Level Reached",
+    "prominent_talents.talent_menu.artifact_upgrades":"Artifact Upgrades",
+    "prominent_talents.talent_menu.artifact_points_left":"Artifact Upgrade Points left: ",
+    "prominent_talents.talent_menu.artifact_level":"Artifact Level: %s",
+    "prominent_talents.talent_menu.artifact_power":"Artifact Power: %s"
 }

@@ -48,5 +48,6 @@
     "item.spellbladenext.runic_echoes_spell_book":"§e回响魔典",
     "item.spellbladenext.phoenix_spell_book":"§e凤凰魔典",
     "item.spellbladenext.deathchill_spell_book":"§e永冻魔典",
-    "item.invoke.invoker_tome":"§e符文咒典"
+    "item.invoke.invoker_tome":"§e符文咒典",
+    "eldritch_end.corruption.gui.effect.description.5":"%COST%: Every %EYES_TENTACLE_RATE% seconds, Ominous Eyes will have a %EYES_CHANCE% chance to haunt you while out of combat."
 }
