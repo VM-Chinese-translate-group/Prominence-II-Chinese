@@ -1,7 +1,10 @@
 {
     "damage": {
         "title": {
-            "translate": "puffish_skills.categories.damage.title.2"
+            "translate": "puffish_skills.categories.damage.title.1"
+        },
+        "description": {
+            "translate": "puffish_skills.categories.damage.description"
         },
         "frame": {
             "type": "texture",
@@ -42,6 +45,9 @@
     "attackspeed": {
         "title": {
             "translate": "puffish_skills.categories.attackspeed.title"
+        },
+        "description": {
+            "translate": "puffish_skills.categories.attackspeed.description"
         },
         "frame": {
             "type": "texture",
@@ -101,6 +107,14 @@
             }
         },
         "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "prominent:artifact_damage",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            },
             {
                 "type": "puffish_skills:attribute",
                 "data": {

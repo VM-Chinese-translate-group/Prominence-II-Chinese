@@ -1,7 +1,7 @@
 {
-    "fyrdmg+5": {
+    "artifact_damage": {
         "title": {
-            "translate": "puffish_skills.categories.fyrdmg+5.title.3"
+            "translate": "puffish_skills.categories.artifact_damage.title.1"
         },
         "frame": {
             "type": "texture",
@@ -31,9 +31,9 @@
             "icon": "vt5q3v2tr9v4ow8e"
         }
     },
-    "maxhealth+5": {
+    "warriors_devotion_damage": {
         "title": {
-            "translate": "puffish_skills.categories.maxhealth+5.title.3"
+            "translate": "puffish_skills.categories.warriors_devotion_damage.title"
         },
         "frame": {
             "type": "texture",

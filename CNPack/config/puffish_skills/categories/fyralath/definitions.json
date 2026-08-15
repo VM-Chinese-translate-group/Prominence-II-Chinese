@@ -1,7 +1,7 @@
 {
     "fyrdmg+5": {
         "title": {
-            "translate": "puffish_skills.categories.fyrdmg+5.title.2"
+            "translate": "puffish_skills.categories.fyrdmg+5.title.1"
         },
         "frame": {
             "type": "texture",
@@ -33,7 +33,7 @@
     },
     "maxhealth+5": {
         "title": {
-            "translate": "puffish_skills.categories.maxhealth+5.title.2"
+            "translate": "puffish_skills.categories.maxhealth+5.title.1"
         },
         "frame": {
             "type": "texture",
@@ -128,6 +128,14 @@
             }
         },
         "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "prominent:artifact_damage",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            },
             {
                 "type": "puffish_skills:attribute",
                 "data": {

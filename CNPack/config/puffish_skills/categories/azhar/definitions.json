@@ -88,6 +88,14 @@
             {
                 "type": "puffish_skills:attribute",
                 "data": {
+                    "attribute": "prominent:artifact_damage",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
                     "attribute": "eldritch_end:corruption",
                     "value": 20,
                     "operation": "addition"

@@ -1,7 +1,10 @@
 {
-    "fyrdmg+5": {
+    "artifact_damage_soul": {
         "title": {
-            "translate": "puffish_skills.categories.fyrdmg+5.title.1"
+            "translate": "puffish_skills.categories.artifact_damage_soul.title"
+        },
+        "description": {
+            "translate": "puffish_skills.categories.artifact_damage_soul.description"
         },
         "frame": {
             "type": "texture",
@@ -39,9 +42,12 @@
             "icon": "vt5q3v2tr9v4ow8e"
         }
     },
-    "maxhealth+5": {
+    "haste_fire": {
         "title": {
-            "translate": "puffish_skills.categories.maxhealth+5.title.1"
+            "translate": "puffish_skills.categories.haste_fire.title"
+        },
+        "description": {
+            "translate": "puffish_skills.categories.haste_fire.description"
         },
         "frame": {
             "type": "texture",
@@ -101,6 +107,14 @@
             }
         },
         "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "prominent:artifact_damage",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            },
             {
                 "type": "puffish_skills:attribute",
                 "data": {

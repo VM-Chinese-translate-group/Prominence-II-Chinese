@@ -241,10 +241,10 @@
     },
     "fate_fire_archmage": {
         "title": {
-            "translate": "puffish_skills.categories.hothead.title"
+            "translate": "puffish_skills.categories.fate_fire_archmage.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.hothead.description"
+            "translate": "puffish_skills.categories.fate_fire_archmage.description"
         },
         "size": 1.4,
         "frame": {
@@ -325,10 +325,10 @@
     },
     "fate_high_priest": {
         "title": {
-            "translate": "puffish_skills.categories.donoharm.title"
+            "translate": "puffish_skills.categories.fate_high_priest.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.donoharm.description"
+            "translate": "puffish_skills.categories.fate_high_priest.description"
         },
         "size": 1.4,
         "frame": {
@@ -369,10 +369,10 @@
     },
     "fate_arcane_archmage": {
         "title": {
-            "translate": "puffish_skills.categories.eldritch.title"
+            "translate": "puffish_skills.categories.fate_arcane_archmage.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.eldritch.description"
+            "translate": "puffish_skills.categories.fate_arcane_archmage.description"
         },
         "size": 1.4,
         "frame": {
@@ -453,10 +453,10 @@
     },
     "fate_warriors_devotion": {
         "title": {
-            "translate": "puffish_skills.categories.larry.title"
+            "translate": "puffish_skills.categories.fate_warriors_devotion.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.larry.description"
+            "translate": "puffish_skills.categories.fate_warriors_devotion.description"
         },
         "size": 1.4,
         "frame": {
@@ -553,10 +553,10 @@
     },
     "fate_decaying_devotion": {
         "title": {
-            "translate": "puffish_skills.categories.decayingdevotion.title"
+            "translate": "puffish_skills.categories.fate_decaying_devotion.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.decayingdevotion.description"
+            "translate": "puffish_skills.categories.fate_decaying_devotion.description"
         },
         "size": 1.4,
         "frame": {
@@ -637,10 +637,10 @@
     },
     "fate_sindorei_heritage": {
         "title": {
-            "translate": "puffish_skills.categories.grace.title"
+            "translate": "puffish_skills.categories.fate_sindorei_heritage.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.grace.description"
+            "translate": "puffish_skills.categories.fate_sindorei_heritage.description"
         },
         "size": 1.4,
         "frame": {
@@ -704,10 +704,10 @@
     },
     "fate_skellaks_blessing": {
         "title": {
-            "translate": "puffish_skills.categories.stalwart.title"
+            "translate": "puffish_skills.categories.fate_skellaks_blessing.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.stalwart.description"
+            "translate": "puffish_skills.categories.fate_skellaks_blessing.description"
         },
         "size": 1.4,
         "frame": {
@@ -764,10 +764,10 @@
     },
     "fate_frost_archmage": {
         "title": {
-            "translate": "puffish_skills.categories.iceking.title"
+            "translate": "puffish_skills.categories.fate_frost_archmage.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.iceking.description"
+            "translate": "puffish_skills.categories.fate_frost_archmage.description"
         },
         "size": 1.4,
         "frame": {
@@ -856,7 +856,7 @@
     },
     "fate_shadow_techniques": {
         "title": {
-            "translate": "puffish_skills.categories.warriorTwinstrike.title"
+            "translate": "puffish_skills.categories.fate_shadow_techniques.title"
         },
         "description": {
             "translate": "puffish_skills.categories.fate_shadow_techniques.description"
@@ -905,10 +905,10 @@
     },
     "fate_knowledge_of_runes_stars": {
         "title": {
-            "translate": "puffish_skills.categories.Elementalist.title"
+            "translate": "puffish_skills.categories.fate_knowledge_of_runes_stars.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.Elementalist.description"
+            "translate": "puffish_skills.categories.fate_knowledge_of_runes_stars.description"
         },
         "size": 1.4,
         "frame": {
@@ -980,7 +980,7 @@
     },
     "fate_a_bards_tale": {
         "title": {
-            "translate": "puffish_skills.categories.bardPassive.title"
+            "translate": "puffish_skills.categories.fate_a_bards_tale.title"
         },
         "description": {
             "translate": "puffish_skills.categories.fate_a_bards_tale.description"
@@ -1278,10 +1278,10 @@
     },
     "ascendancyDissonance": {
         "title": {
-            "translate": "puffish_skills.categories.bardActive.title"
+            "translate": "puffish_skills.categories.ascendancyDissonance.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.bardActive.description"
+            "translate": "puffish_skills.categories.ascendancyDissonance.description"
         },
         "size": 1.4,
         "frame": {
@@ -1311,10 +1311,10 @@
     },
     "passive_skellaks_call": {
         "title": {
-            "translate": "puffish_skills.categories.warriorSwordfall.title"
+            "translate": "puffish_skills.categories.passive_skellaks_call.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.warriorSwordfall.description"
+            "translate": "puffish_skills.categories.passive_skellaks_call.description"
         },
         "size": 1.2,
         "frame": {
@@ -1344,10 +1344,10 @@
     },
     "passive_focus_zone": {
         "title": {
-            "translate": "puffish_skills.categories.wayfarerQuickfire.title"
+            "translate": "puffish_skills.categories.passive_focus_zone.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.wayfarerQuickfire.description"
+            "translate": "puffish_skills.categories.passive_focus_zone.description"
         },
         "size": 1.2,
         "frame": {
@@ -1377,10 +1377,10 @@
     },
     "passive_empower": {
         "title": {
-            "translate": "puffish_skills.categories.initiateEmpower.title"
+            "translate": "puffish_skills.categories.passive_empower.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.initiateEmpower.description"
+            "translate": "puffish_skills.categories.passive_empower.description"
         },
         "icon": {
             "type": "texture",
@@ -1410,10 +1410,10 @@
     },
     "passive_critical_thinking": {
         "title": {
-            "translate": "puffish_skills.categories.initiateGambit.title"
+            "translate": "puffish_skills.categories.passive_critical_thinking.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.initiateGambit.description"
+            "translate": "puffish_skills.categories.passive_critical_thinking.description"
         },
         "icon": {
             "type": "texture",
@@ -1509,10 +1509,10 @@
     },
     "passive_omnivampirism": {
         "title": {
-            "translate": "puffish_skills.categories.omnivamp.title"
+            "translate": "puffish_skills.categories.passive_omnivampirism.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.omnivamp.description"
+            "translate": "puffish_skills.categories.passive_omnivampirism.description"
         },
         "frame": {
             "type": "texture",
@@ -1611,7 +1611,7 @@
     },
     "health+2.5%": {
         "title": {
-            "translate": "puffish_skills.categories.health+10%.title"
+            "translate": "puffish_skills.categories.health+2.5%.title"
         },
         "frame": {
             "type": "texture",
@@ -1639,17 +1639,14 @@
         "editor-color": "#ff00a6",
         "metadata": {
             "icon": "7pb0tmzh3a2xteus"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.health+10%.description"
         }
     },
     "roll_distance+8%_roll_cooldown-5%": {
         "title": {
-            "translate": "puffish_skills.categories.ranged_damage+3%.title"
+            "translate": "puffish_skills.categories.roll_distance+8%_roll_cooldown-5%.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.ranged_damage+3%.description"
+            "translate": "puffish_skills.categories.roll_distance+8%_roll_cooldown-5%.description"
         },
         "frame": {
             "type": "texture",
@@ -1689,10 +1686,10 @@
     },
     "roll_distance+4%_roll_cooldown-2%": {
         "title": {
-            "translate": "puffish_skills.categories.luck+0.25.title"
+            "translate": "puffish_skills.categories.roll_distance+4%_roll_cooldown-2%.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.luck+0.25.description"
+            "translate": "puffish_skills.categories.roll_distance+4%_roll_cooldown-2%.description"
         },
         "frame": {
             "type": "texture",
@@ -1732,7 +1729,7 @@
     },
     "jump+4%": {
         "title": {
-            "translate": "puffish_skills.categories.jump+8%.title"
+            "translate": "puffish_skills.categories.jump+4%.title"
         },
         "frame": {
             "type": "texture",
@@ -1760,14 +1757,11 @@
         "editor-color": "#0031ff",
         "metadata": {
             "icon": "1hrwee7u81tpie3b"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.jump+8%.description"
         }
     },
     "armor+8%": {
         "title": {
-            "translate": "puffish_skills.categories.armor+20%.title"
+            "translate": "puffish_skills.categories.armor+8%.title"
         },
         "frame": {
             "type": "texture",
@@ -1795,14 +1789,11 @@
         "editor-color": "#474ab8",
         "metadata": {
             "icon": "ke3ib6o83u4rmshd"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.armor+20%.description"
         }
     },
     "toughness+5%": {
         "title": {
-            "translate": "puffish_skills.categories.toughness+20%.title"
+            "translate": "puffish_skills.categories.toughness+5%.title"
         },
         "frame": {
             "type": "texture",
@@ -1830,14 +1821,11 @@
         "editor-color": "#30ff00",
         "metadata": {
             "icon": "7iymm263ogvwi0mx"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.toughness+20%.description"
         }
     },
     "melee_damage+3.5%": {
         "title": {
-            "translate": "puffish_skills.categories.melee_damage+12%.title"
+            "translate": "puffish_skills.categories.melee_damage+3.5%.title"
         },
         "frame": {
             "type": "texture",
@@ -1865,14 +1853,11 @@
         "editor-color": "#00efff",
         "metadata": {
             "icon": "0t1l4wesv67w4zpo"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.melee_damage+12%.description"
         }
     },
     "lethality+3.5%": {
         "title": {
-            "translate": "puffish_skills.categories.lethality.title"
+            "translate": "puffish_skills.categories.lethality+3.5%.title"
         },
         "frame": {
             "type": "texture",
@@ -1900,9 +1885,6 @@
         "editor-color": "#00efff",
         "metadata": {
             "icon": "4fe9gmscb3uy2jyk"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.lethality.description"
         }
     },
     "magic_resistance+5%": {
@@ -1939,7 +1921,7 @@
     },
     "ranged_damage+3%": {
         "title": {
-            "translate": "puffish_skills.categories.ranged_damage+12%.title"
+            "translate": "puffish_skills.categories.ranged_damage+3%.title"
         },
         "frame": {
             "type": "texture",
@@ -1967,14 +1949,11 @@
         "editor-color": "#669968",
         "metadata": {
             "icon": "0jhcxsny2y0mruvz"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.ranged_damage+12%.description"
         }
     },
     "attack_speed+2%": {
         "title": {
-            "translate": "puffish_skills.categories.attack_speed+6%.title"
+            "translate": "puffish_skills.categories.attack_speed+2%.title"
         },
         "frame": {
             "type": "texture",
@@ -2002,14 +1981,11 @@
         "editor-color": "#ffe500",
         "metadata": {
             "icon": "zxactenjj1ajaqye"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.attack_speed+6%.description"
         }
     },
     "movement_speed+3%": {
         "title": {
-            "translate": "puffish_skills.categories.movement_speed+6%.title"
+            "translate": "puffish_skills.categories.movement_speed+3%.title"
         },
         "frame": {
             "type": "texture",
@@ -2037,17 +2013,14 @@
         "editor-color": "#5aa758",
         "metadata": {
             "icon": "545voaik7uzcf3mh"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.movement_speed+6%.description"
         }
     },
     "holy_power+3%_self_healing+3%": {
         "title": {
-            "translate": "puffish_skills.categories.healing+12%.title"
+            "translate": "puffish_skills.categories.holy_power+3%_self_healing+3%.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.healing+12%.description"
+            "translate": "puffish_skills.categories.holy_power+3%_self_healing+3%.description"
         },
         "frame": {
             "type": "texture",
@@ -2087,7 +2060,7 @@
     },
     "stamina+10%": {
         "title": {
-            "translate": "puffish_skills.categories.stamina+8%.title"
+            "translate": "puffish_skills.categories.stamina+10%.title"
         },
         "frame": {
             "type": "texture",
@@ -2115,17 +2088,14 @@
         "editor-color": "#ff5300",
         "metadata": {
             "icon": "k1xeqvyw9djsf58e"
-        },
-        "description": {
-            "translate": "puffish_skills.categories.stamina+8%.description"
         }
     },
     "fire_power+3%_critical_chance+1%": {
         "title": {
-            "translate": "puffish_skills.categories.fire+12%.title"
+            "translate": "puffish_skills.categories.fire_power+3%_critical_chance+1%.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.fire+12%.description"
+            "translate": "puffish_skills.categories.fire_power+3%_critical_chance+1%.description"
         },
         "frame": {
             "type": "texture",
@@ -2165,10 +2135,10 @@
     },
     "frost_power+3%_spell_haste+1%": {
         "title": {
-            "translate": "puffish_skills.categories.frost+12%.title"
+            "translate": "puffish_skills.categories.frost_power+3%_spell_haste+1%.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.frost+12%.description"
+            "translate": "puffish_skills.categories.frost_power+3%_spell_haste+1%.description"
         },
         "frame": {
             "type": "texture",
@@ -2208,10 +2178,10 @@
     },
     "arcane_power+3%_critical_damage+1%": {
         "title": {
-            "translate": "puffish_skills.categories.arcane+12%.title"
+            "translate": "puffish_skills.categories.arcane_power+3%_critical_damage+1%.title"
         },
         "description": {
-            "translate": "puffish_skills.categories.arcane+12%.description"
+            "translate": "puffish_skills.categories.arcane_power+3%_critical_damage+1%.description"
         },
         "frame": {
             "type": "texture",

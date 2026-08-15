@@ -1,7 +1,7 @@
 {
     "damage": {
         "title": {
-            "translate": "puffish_skills.categories.damage.title.3"
+            "translate": "puffish_skills.categories.damage.title.2"
         },
         "frame": {
             "type": "texture",
@@ -20,9 +20,9 @@
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "generic.attack_damage",
+                    "attribute": "prominent:artifact_damage",
                     "value": 0.05,
-                    "operation": "multiply_base"
+                    "operation": "addition"
                 }
             }
         ],
