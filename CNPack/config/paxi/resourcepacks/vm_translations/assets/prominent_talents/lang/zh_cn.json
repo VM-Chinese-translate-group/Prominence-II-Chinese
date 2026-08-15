@@ -1,15 +1,15 @@
 {
-    "prominent_talents.leveling.level_up":"Congratulations! You have reached level %s!",
-    "prominent_talents.leveling.level_subtitle":"Level %s",
-    "prominent_talents.leveling.campaign_locked":"⚠ You are not gaining Leveling Experience because you must progress further in the campaign to unlock %s+ leveling.",
-    "prominent_talents.talent_menu.current_level":"Current Level: %s",
-    "prominent_talents.talent_menu.current_points":"Current Talent Points: %s",
-    "prominent_talents.talent_menu.point_next_level":"Talent Point awarded next level",
-    "prominent_talents.talent_menu.point_on_level":"Next Talent Point awarded on level %s",
-    "prominent_talents.talent_menu.locked":"Experience gain locked, continue Campaign to unlock",
-    "prominent_talents.talent_menu.max_level":"Maximum Level Reached",
-    "prominent_talents.talent_menu.artifact_upgrades":"Artifact Upgrades",
-    "prominent_talents.talent_menu.artifact_points_left":"Artifact Upgrade Points left: ",
-    "prominent_talents.talent_menu.artifact_level":"Artifact Level: %s",
-    "prominent_talents.talent_menu.artifact_power":"Artifact Power: %s"
+    "prominent_talents.leveling.level_up":"恭喜！你已升至等级%s！",
+    "prominent_talents.leveling.level_subtitle":"等级%s",
+    "prominent_talents.leveling.campaign_locked":"⚠ 你无法获取升级经验，必须先推进主线战役，你才能解锁%s+等级。",
+    "prominent_talents.talent_menu.current_level":"当前等级：%s",
+    "prominent_talents.talent_menu.current_points":"当前天赋点数：%s",
+    "prominent_talents.talent_menu.point_next_level":"下一级奖励的天赋点数量",
+    "prominent_talents.talent_menu.point_on_level":"下一次天赋点奖励位于等级%s",
+    "prominent_talents.talent_menu.locked":"无法获取经验，请先推进主线战役",
+    "prominent_talents.talent_menu.max_level":"已达到最大等级",
+    "prominent_talents.talent_menu.artifact_upgrades":"神器升级",
+    "prominent_talents.talent_menu.artifact_points_left":"剩余神器升级点数：",
+    "prominent_talents.talent_menu.artifact_level":"神器等级：%s",
+    "prominent_talents.talent_menu.artifact_power":"神器能量：%s"
 }

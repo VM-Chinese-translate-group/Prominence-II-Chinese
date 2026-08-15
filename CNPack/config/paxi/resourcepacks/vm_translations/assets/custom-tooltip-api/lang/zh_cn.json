@@ -1,7 +1,7 @@
 {
-    "cta.item.eyes_of_ender":"You can't use Eyes of Ender to find or open the End Portal.\nYou will need to use unique eyes (End Remastered) to do so.",
-    "cta.item.blood_vial":"Crimson Obsidian will damage any mob or player that stands on top of it and store its blood inside it. After a short while, the purified blood can be filtered through the block by placing a cauldron under it.\nUsing glass vials on this liquid will grant you a Blood Vial, which heals you by 6 HP once consumed.",
-    "cta.item.spell_binding":"Unlocks its full potential at 18 bookshelves.",
+    "cta.item.eyes_of_ender":"无法使用末影之眼寻找或开启末地传送门。\n须使用特殊的眼（末地：创世模组）以实现。",
+    "cta.item.blood_vial":"绯红黑曜石会对其上的生物或玩家造成伤害并储存血液。稍作等待后，在下方放置炼药锅即可过滤出纯净血液。\n用玻璃瓶抽取该液体可获得血瓶，饮用后恢复6点生命值。",
+    "cta.item.spell_binding":"周围放置18个书架时方可发挥最大效果。",
     "cta.item.vine_rune":"Used to access the Insufferable Crypt and the Ramparts.\n§7Follow the path in the Promenade of the Condemned and defeat an Elite Archer to obtain it.",
     "cta.item.ender_lead":"Left-click to capture.\nRight-click to place.",
     "cta.text.quest_reward":"Quest Reward",
