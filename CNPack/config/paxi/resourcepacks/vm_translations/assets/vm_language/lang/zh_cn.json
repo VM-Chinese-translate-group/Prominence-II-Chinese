@@ -174,7 +174,7 @@
     "puffish_skills.categories.Elementalist.title":"§f §d符文与群星知识",
     "puffish_skills.categories.Elementalist.description":"§7成为一名星辰术士，掌握能增强所有元素法术的星辰法术。\n\n§f §d+3§7星辰法术强度\n§f §d+8%§7法术暴击几率\n§c §c+15%§7法术暴击伤害\n§f §2-20% §7远程伤害\n\n§f §d星辰法术强度\n§7学习掌握符文与群星之力以强化法术，解锁可增强所有元素法术强度的星辰法术。",
     "puffish_skills.categories.bardPassive.title":"§b §9冰城传奇",
-    "puffish_skills.categories.fate_a_bards_tale.description":"§7Harness the magical harmony of musical instruments to cast supportive spells, bolstering your allies and disrupting your enemies.\n\n§f §d+4.5 §7Arcane Power\n§f §e+7.5 §7Holy Power\n§f §b+10% §7Spell Haste\n§f §2+5 §7Ranged Damage\n§f §2+25% §7Draw Speed",
+    "puffish_skills.categories.fate_a_bards_tale.description":"§7操纵乐器的魔法和声，施放辅助法术，为队友提供支援，并削弱敌人。\n\n§f §d+4.5 §7奥秘法术强度\n§f §e+7.5 §7神圣法术强度\n§f §b+10% §7法术施放速度\n§f §2+5 §7远程伤害\n§f §2+25% §7拉弓速度",
     "puffish_skills.categories.bardPassive.description":"§7当你演奏乐器时，会为附近同一队伍（或结盟队伍）中的玩家提供正面效果\n\n你演奏的乐器种类决定了效果的类型：\n\n§6小号/风笛：§e壮志之音\n§7- 造成的伤害提升10%，并获得生命恢复效果。\n\n§6迪吉里杜管：§e铁壁之音\n§7- 受到的伤害减少10%，并获得力量效果。\n\n§6长笛：§e敏捷之音\n§7- 移动速度提高30%，并获得海豚的恩惠效果。\n\n§6琵琶：§e完璧之音\n§7- 每秒恢复最大生命值10%的生命值。\n\n§6三角铁：§e血戮之音\n§7- 攻击速度提高20%，造成的伤害提升5%。\n\n§6钢琴：§e汇集之音\n§7- 攻击速度提高20%，移动速度提高10%。",
     "puffish_skills.categories.bardActive.title":"§f §6不协和音",
     "puffish_skills.categories.bardActive.description":"§7奏出刺耳的音律，眩晕周围的敌人，并对其施加负面效果。\n\n§fꦘ §9腐化效果§7\n效果的持续时间随腐化度增加而延长。\n\n§6 §8§n冷却时间：40秒§7",
