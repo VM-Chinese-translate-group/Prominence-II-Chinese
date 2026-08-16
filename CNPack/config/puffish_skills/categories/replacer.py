@@ -1,71 +1,9 @@
+import hashlib
 import json
 import os
 import re
 import sys
-
-
-ALIAS_TRANSLATION_KEYS = {
-    "puffish_skills.categories.fate_fire_archmage.title": "puffish_skills.categories.hothead.title",
-    "puffish_skills.categories.fate_fire_archmage.description": "puffish_skills.categories.hothead.description",
-    "puffish_skills.categories.fate_high_priest.title": "puffish_skills.categories.donoharm.title",
-    "puffish_skills.categories.fate_high_priest.description": "puffish_skills.categories.donoharm.description",
-    "puffish_skills.categories.fate_arcane_archmage.title": "puffish_skills.categories.eldritch.title",
-    "puffish_skills.categories.fate_arcane_archmage.description": "puffish_skills.categories.eldritch.description",
-    "puffish_skills.categories.fate_warriors_devotion.title": "puffish_skills.categories.larry.title",
-    "puffish_skills.categories.fate_warriors_devotion.description": "puffish_skills.categories.larry.description",
-    "puffish_skills.categories.fate_decaying_devotion.title": "puffish_skills.categories.decayingdevotion.title",
-    "puffish_skills.categories.fate_decaying_devotion.description": "puffish_skills.categories.decayingdevotion.description",
-    "puffish_skills.categories.fate_sindorei_heritage.title": "puffish_skills.categories.grace.title",
-    "puffish_skills.categories.fate_sindorei_heritage.description": "puffish_skills.categories.grace.description",
-    "puffish_skills.categories.fate_skellaks_blessing.title": "puffish_skills.categories.stalwart.title",
-    "puffish_skills.categories.fate_skellaks_blessing.description": "puffish_skills.categories.stalwart.description",
-    "puffish_skills.categories.fate_frost_archmage.title": "puffish_skills.categories.iceking.title",
-    "puffish_skills.categories.fate_frost_archmage.description": "puffish_skills.categories.iceking.description",
-    "puffish_skills.categories.fate_shadow_techniques.title": "puffish_skills.categories.warriorTwinstrike.title",
-    "puffish_skills.categories.fate_knowledge_of_runes_stars.title": "puffish_skills.categories.Elementalist.title",
-    "puffish_skills.categories.fate_knowledge_of_runes_stars.description": "puffish_skills.categories.Elementalist.description",
-    "puffish_skills.categories.fate_a_bards_tale.title": "puffish_skills.categories.bardPassive.title",
-    "puffish_skills.categories.ascendancyDissonance.title": "puffish_skills.categories.bardActive.title",
-    "puffish_skills.categories.ascendancyDissonance.description": "puffish_skills.categories.bardActive.description",
-    "puffish_skills.categories.passive_skellaks_call.title": "puffish_skills.categories.warriorSwordfall.title",
-    "puffish_skills.categories.passive_skellaks_call.description": "puffish_skills.categories.warriorSwordfall.description",
-    "puffish_skills.categories.passive_focus_zone.title": "puffish_skills.categories.wayfarerQuickfire.title",
-    "puffish_skills.categories.passive_focus_zone.description": "puffish_skills.categories.wayfarerQuickfire.description",
-    "puffish_skills.categories.passive_empower.title": "puffish_skills.categories.initiateEmpower.title",
-    "puffish_skills.categories.passive_empower.description": "puffish_skills.categories.initiateEmpower.description",
-    "puffish_skills.categories.passive_critical_thinking.title": "puffish_skills.categories.initiateGambit.title",
-    "puffish_skills.categories.passive_critical_thinking.description": "puffish_skills.categories.initiateGambit.description",
-    "puffish_skills.categories.passive_omnivampirism.title": "puffish_skills.categories.omnivamp.title",
-    "puffish_skills.categories.passive_omnivampirism.description": "puffish_skills.categories.omnivamp.description",
-    "puffish_skills.categories.health+2.5%.title": "puffish_skills.categories.health+10%.title",
-    "puffish_skills.categories.roll_distance+8%_roll_cooldown-5%.title": "puffish_skills.categories.ranged_damage+3%.title",
-    "puffish_skills.categories.roll_distance+8%_roll_cooldown-5%.description": "puffish_skills.categories.ranged_damage+3%.description",
-    "puffish_skills.categories.roll_distance+4%_roll_cooldown-2%.title": "puffish_skills.categories.luck+0.25.title",
-    "puffish_skills.categories.roll_distance+4%_roll_cooldown-2%.description": "puffish_skills.categories.luck+0.25.description",
-    "puffish_skills.categories.jump+4%.title": "puffish_skills.categories.jump+8%.title",
-    "puffish_skills.categories.armor+8%.title": "puffish_skills.categories.armor+20%.title",
-    "puffish_skills.categories.toughness+5%.title": "puffish_skills.categories.toughness+20%.title",
-    "puffish_skills.categories.melee_damage+3.5%.title": "puffish_skills.categories.melee_damage+12%.title",
-    "puffish_skills.categories.lethality+3.5%.title": "puffish_skills.categories.lethality.title",
-    "puffish_skills.categories.attack_speed+2%.title": "puffish_skills.categories.attack_speed+6%.title",
-    "puffish_skills.categories.movement_speed+3%.title": "puffish_skills.categories.movement_speed+6%.title",
-    "puffish_skills.categories.holy_power+3%_self_healing+3%.title": "puffish_skills.categories.healing+12%.title",
-    "puffish_skills.categories.holy_power+3%_self_healing+3%.description": "puffish_skills.categories.healing+12%.description",
-    "puffish_skills.categories.stamina+10%.title": "puffish_skills.categories.stamina+8%.title",
-    "puffish_skills.categories.fire_power+3%_critical_chance+1%.title": "puffish_skills.categories.fire+12%.title",
-    "puffish_skills.categories.fire_power+3%_critical_chance+1%.description": "puffish_skills.categories.fire+12%.description",
-    "puffish_skills.categories.frost_power+3%_spell_haste+1%.title": "puffish_skills.categories.frost+12%.title",
-    "puffish_skills.categories.frost_power+3%_spell_haste+1%.description": "puffish_skills.categories.frost+12%.description",
-    "puffish_skills.categories.arcane_power+3%_critical_damage+1%.title": "puffish_skills.categories.arcane+12%.title",
-    "puffish_skills.categories.arcane_power+3%_critical_damage+1%.description": "puffish_skills.categories.arcane+12%.description",
-    "puffish_skills.categories.artifact_damage.title": "puffish_skills.categories.damage.title.1",
-    "puffish_skills.categories.artifact_damage.title.1": "puffish_skills.categories.fyrdmg+5.title.3",
-    "puffish_skills.categories.warriors_devotion_damage.title": "puffish_skills.categories.maxhealth+5.title.3",
-    "puffish_skills.categories.artifact_damage_soul.title": "puffish_skills.categories.fyrdmg+5.title.1",
-    "puffish_skills.categories.artifact_damage_soul.description": "puffish_skills.categories.maxhealth+5.title.1",
-    "puffish_skills.categories.haste_fire.title": "puffish_skills.categories.maxhealth+5.title.1",
-    "puffish_skills.categories.haste_fire.description": "puffish_skills.categories.fyrdmg+5.title.1",
-}
+import unicodedata
 
 
 def find_repo_root(start_dir):
@@ -199,20 +137,93 @@ def infer_readable_translation(key):
 
 
 def resolve_translation_value(trans_key, existing_translations, seed_translations):
+    """原始提取文件不含翻译键，因此不做旧 key 迁移。只处理当前文件本身的已存在英文值和 seed 值。"""
     if trans_key in existing_translations and isinstance(existing_translations[trans_key], str):
         existing_value = existing_translations[trans_key]
         if not existing_value.startswith("__MISSING__ "):
             return existing_value, "existing"
     if trans_key in seed_translations and isinstance(seed_translations[trans_key], str):
         return seed_translations[trans_key], "seed"
-    alias_key = ALIAS_TRANSLATION_KEYS.get(trans_key)
-    if alias_key and alias_key in seed_translations and isinstance(seed_translations[alias_key], str):
-        return seed_translations[alias_key], f"alias:{alias_key}"
     return infer_readable_translation(trans_key), "generated"
 
+def normalize_text_for_signature(text):
+    """标准化文本，保证同内容会得到同一签名，避免 hash() 进程随机化导致重跑结果变动。"""
+    if not isinstance(text, str):
+        return ""
+    normalized = unicodedata.normalize('NFC', text)
+    normalized = normalized.replace('\r\n', '\n').replace('\r', '\n')
+    return normalized.strip()
+
+
 def get_content_hash(text):
-    """生成内容的唯一标识，用于区分同一技能中不同文本"""
-    return hash(text) % 100000
+    """稳定的内容签名，用于区分同一技能中的不同文本。"""
+    normalized = normalize_text_for_signature(text)
+    return hashlib.sha256(normalized.encode('utf-8')).hexdigest()[:12]
+
+
+def collect_translate_references(base_dir):
+    references = set()
+
+    def walk(value):
+        if isinstance(value, dict):
+            for k, v in value.items():
+                if k == 'translate' and isinstance(v, str):
+                    references.add(v)
+                walk(v)
+        elif isinstance(value, list):
+            for item in value:
+                walk(item)
+
+    for root, _, files in os.walk(base_dir):
+        for file in files:
+            if file not in {'category.json', 'definitions.json'}:
+                continue
+            file_path = os.path.join(root, file)
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                walk(data)
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"警告: 扫描 {file_path} 失败: {e}")
+
+    return references
+
+
+def self_check_translations(base_dir, all_translations, seed_translations, ordered_keys):
+    issues = []
+    references = collect_translate_references(base_dir)
+    known_keys = set(all_translations.keys()) | set(seed_translations.keys())
+
+    missing_keys = sorted(ref for ref in references if ref not in known_keys)
+    if missing_keys:
+        issues.append(f"缺失翻译键: {', '.join(missing_keys[:10])}{' ...' if len(missing_keys) > 10 else ''}")
+
+    variant_by_base = {}
+    for key in ordered_keys:
+        if not isinstance(key, str):
+            continue
+        if key.endswith('.title') or key.endswith('.description'):
+            base_key = key
+        elif re.search(r'\.(title|description)\.\d+$', key):
+            base_key = re.sub(r'\.(title|description)\.\d+$', r'.\1', key)
+        else:
+            continue
+
+        value = all_translations.get(key)
+        if value is None:
+            continue
+        normalized = normalize_text_for_signature(value)
+        variant_by_base.setdefault(base_key, {})
+        previous_key = variant_by_base[base_key].get(normalized)
+        if previous_key is not None and previous_key != key:
+            issues.append(f"同一技能字段中重复文本映射: {base_key} -> {previous_key} / {key} => {value[:60]}")
+        variant_by_base[base_key][normalized] = key
+
+    if issues:
+        raise RuntimeError("自检失败:\n- " + "\n- ".join(issues))
+
+    print("自检通过: 翻译键引用完整，未发现同技能字段中的重复/冲突文本变体。")
+
 
 def process_json_files(base_dir):
     """处理JSON文件"""
@@ -370,6 +381,8 @@ def process_json_files(base_dir):
     with open(report_path, 'w', encoding='utf-8') as f:
         for key in sorted(set(generated_keys)):
             f.write(key + "\n")
+
+    self_check_translations(base_dir, ordered_translations, seed_translations, ordered_keys)
     print(f"已生成语言文件: {lang_path}")
     print(f"自动生成词条数量: {len(set(generated_keys))}")
 
