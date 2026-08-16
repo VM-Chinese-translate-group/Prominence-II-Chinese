@@ -36,27 +36,33 @@ def load_unicode_mapping(mapping_file):
     return mapping
 
 
+def restore_formatting_spaces(text):
+    """保留颜色/图标代码与正文之间的分隔空格，避免压成 §f§2Necrotic。"""
+    if not isinstance(text, str):
+        return text
+    text = text.replace('\\u00a7', '§')
+    return re.sub(r'(?<=[^\s])(?=§[0-9A-Fa-fK-Ok-orR])', ' ', text)
+
+
 def replace_unicode(text, unicode_mapping):
     if not isinstance(text, str):
         return text
     for old, new in unicode_mapping.items():
         text = text.replace(old, new)
-    return text.replace('\u00a7', '\\u00a7')
+    return restore_formatting_spaces(text)
 
 def write_lang_file(file_path, translations):
-    with open(file_path, 'wb') as f:
-        # 手动构建JSON字符串,使用bytes写入以保持原始格式
-        f.write(b'{\n')
-        entries = []
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write('{\n')
         items = list(translations.items())
         for i, (key, value) in enumerate(items):
-            value = value.replace('"', '\\"').replace('\n', '\\n')
-            entry = f'    "{key}": "{value}"'
+            entry = f'    {json.dumps(key, ensure_ascii=False)}: {json.dumps(value, ensure_ascii=False)}'
             if i < len(items) - 1:
                 entry += ','
-            entries.append(entry.encode('utf-8'))
-        f.write(b'\n'.join(entries))
-        f.write(b'\n}\n')
+            f.write(entry)
+            if i < len(items) - 1:
+                f.write('\n')
+        f.write('\n}\n')
 
 
 def load_existing_translations(file_path):
@@ -152,6 +158,7 @@ def normalize_text_for_signature(text):
         return ""
     normalized = unicodedata.normalize('NFC', text)
     normalized = normalized.replace('\r\n', '\n').replace('\r', '\n')
+    normalized = restore_formatting_spaces(normalized)
     return normalized.strip()
 
 
