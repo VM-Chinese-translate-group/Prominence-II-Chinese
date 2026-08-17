@@ -1,0 +1,1081 @@
+[
+  {
+    "authors": "3093FengMing",
+    "name": "Prominent 硬编码文本本地化",
+    "desc": "将 Prominent 4.0.0 及其内嵌模组中的硬编码显示文本接入 i18n。",
+    "mods": "Prominent 4.0.0 (Minecraft 1.20.1)",
+    "dynamic": false,
+    "i18n": true
+  },
+  {
+    "target_class": [
+      "com.cleannrooster.sbprom.entity.HasturMagus"
+    ],
+    "pairs": [
+      {
+        "key": "Gu'mas",
+        "value": "vp.prominent.gui.gu_mas"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.client.xaero.XaeroMinimapOverlay"
+    ],
+    "pairs": [
+      {
+        "key": ". Level x/y adjustments are in texture pixels (128px texture) relative to the shield anchor. Use /xaerooverlay overlay <x> <y> [scale], /xaerooverlay overlay scale <value>, /xaerooverlay level <x> <y> [scale], /xaerooverlay level scale <value>, /xaerooverlay coords <x> <y>, or /xaerooverlay reset.",
+        "value": "vp.prominent.xaero_overlay.help"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.dialogue.Dialogue"
+    ],
+    "pairs": [
+      {
+        "key": "a familiar voice whispers",
+        "value": "vp.prominent.gui.a_familiar_voice_whispers"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.dialogue.PrimordialForgeDialogues"
+    ],
+    "pairs": [
+      {
+        "key": "Mirgaff",
+        "value": "vp.prominent.gui.mirgaff"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.dialogue.PrimordialForgeDialogues",
+      "elocindev.prominent.events.skellaks_reward.SkellaksRewardQuest",
+      "elocindev.prominent.events.vaaz_assault.VaazAssaultQuest",
+      "elocindev.prominent.events.worrying_reunion.WorryingReunionQuest",
+      "elocindev.prominent.tutorial.PlayerTutorial"
+    ],
+    "pairs": [
+      {
+        "key": "S'kellak",
+        "value": "vp.prominent.gui.s_kellak"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.dialogue.TimedDialogue$Builder"
+    ],
+    "pairs": [
+      {
+        "key": "s exceeds duration ",
+        "value": "vp.prominent.gui.s_exceeds_duration"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.events.unholy_visions.UnholyVisionsQuest"
+    ],
+    "pairs": [
+      {
+        "key": "Alm",
+        "value": "vp.prominent.gui.alm"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.events.vaaz_assault.VaazAssaultQuest"
+    ],
+    "pairs": [
+      {
+        "key": "Finish the missing objectives to enter this zone",
+        "value": "vp.prominent.vaaz_assault.objectives_tooltip"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Apocalypse"
+    ],
+    "pairs": [
+      {
+        "key": "AApocalypse Death Modifier",
+        "value": "vp.prominent.gui.aapocalypse_death_modifier"
+      },
+      {
+        "key": "Apocalypse Blood Modifier",
+        "value": "vp.prominent.gui.apocalypse_blood_modifier"
+      },
+      {
+        "key": "Apocalypse Frost Modifier",
+        "value": "vp.prominent.gui.apocalypse_frost_modifier"
+      },
+      {
+        "key": "Apocalypse Unholy Modifier",
+        "value": "vp.prominent.gui.apocalypse_unholy_modifier"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Apocalypse",
+      "elocindev.prominent.item.artifacts.Apophis",
+      "elocindev.prominent.item.artifacts.Ashedar",
+      "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "elocindev.prominent.item.artifacts.Azhar",
+      "elocindev.prominent.item.artifacts.Ekavar",
+      "elocindev.prominent.item.artifacts.Frostmourne",
+      "elocindev.prominent.item.artifacts.Fyralath",
+      "elocindev.prominent.item.artifacts.Ghaj",
+      "elocindev.prominent.item.artifacts.Orion",
+      "elocindev.prominent.item.artifacts.Skillet",
+      "elocindev.prominent.item.artifacts.Supernova",
+      "elocindev.prominent.item.artifacts.ThousandFists",
+      "elocindev.prominent.item.artifacts.Thunderwrath",
+      "elocindev.prominent.item.artifacts.Vaazkar",
+      "elocindev.prominent.item.artifacts.core.CosmeticArtifact"
+    ],
+    "pairs": [
+      {
+        "key": "盧 ",
+        "value": "vp.prominent.tooltip.text_10"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Apophis"
+    ],
+    "pairs": [
+      {
+        "key": "Apophis Holy Modifier",
+        "value": "vp.prominent.gui.apophis_holy_modifier"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Apophis",
+      "elocindev.prominent.item.artifacts.Ashedar",
+      "elocindev.prominent.item.artifacts.AshedarSpawner",
+      "elocindev.prominent.item.artifacts.Azhar",
+      "elocindev.prominent.item.artifacts.Fyralath",
+      "elocindev.prominent.item.artifacts.Supernova",
+      "elocindev.prominent.item.artifacts.ThousandFists"
+    ],
+    "pairs": [
+      {
+        "key": "老 ",
+        "value": "vp.prominent.gui.text"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Ashedar"
+    ],
+    "pairs": [
+      {
+        "key": "Ashedar Arcane Modifier",
+        "value": "vp.prominent.gui.ashedar_arcane_modifier"
+      },
+      {
+        "key": "Ashedar Fire Modifier",
+        "value": "vp.prominent.gui.ashedar_fire_modifier"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Ashedar",
+      "elocindev.prominent.item.artifacts.Azhar",
+      "elocindev.prominent.item.artifacts.Ekavar",
+      "elocindev.prominent.item.artifacts.Frostmourne",
+      "elocindev.prominent.item.artifacts.Fyralath",
+      "elocindev.prominent.item.artifacts.Ghaj",
+      "elocindev.prominent.item.artifacts.Orion",
+      "elocindev.prominent.item.artifacts.Skillet",
+      "elocindev.prominent.item.artifacts.Supernova",
+      "elocindev.prominent.item.artifacts.Thunderwrath",
+      "elocindev.prominent.item.artifacts.Vaazkar"
+    ],
+    "pairs": [
+      {
+        "key": "路 ",
+        "value": "vp.prominent.gui.text_7"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Azhar"
+    ],
+    "pairs": [
+      {
+        "key": " A'zhar Modifier",
+        "value": "vp.prominent.gui.a_zhar_modifier"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Ekavar"
+    ],
+    "pairs": [
+      {
+        "key": "This staff has evolved with the raw power of Holy. Known now as Ad'anel, Secret of Ain.",
+        "value": "vp.prominent.ad_anel.tooltip"
+      },
+      {
+        "key": "This staff has evolved with the raw power of Fire. Known now as Adassil, The Scorched Tree.",
+        "value": "vp.prominent.adassil.tooltip"
+      },
+      {
+        "key": "This staff has evolved with the raw power of the Arcane. Known now as Al Na'ir, The Bright Star.",
+        "value": "vp.prominent.al_nair.tooltip"
+      },
+      {
+        "key": "Casts Arcane, Fire, Frost and Holy abilities from equipped Spell Book.",
+        "value": "vp.prominent.ekavar.abilities_tooltip"
+      },
+      {
+        "key": "This staff has the ability to evolve into something greater when infused with power.",
+        "value": "vp.prominent.ekavar.evolve_tooltip"
+      },
+      {
+        "key": "Arcane Infusion",
+        "value": "vp.prominent.gui.arcane_infusion"
+      },
+      {
+        "key": "Astral Infusion",
+        "value": "vp.prominent.gui.astral_infusion"
+      },
+      {
+        "key": "Cinderstone Artifact",
+        "value": "vp.prominent.gui.cinderstone_artifact"
+      },
+      {
+        "key": "Cinderstone Core",
+        "value": "vp.prominent.gui.cinderstone_core"
+      },
+      {
+        "key": " Ekavar Modifier",
+        "value": "vp.prominent.gui.ekavar_modifier"
+      },
+      {
+        "key": "Fire Infusion",
+        "value": "vp.prominent.gui.fire_infusion"
+      },
+      {
+        "key": "Frost Infusion",
+        "value": "vp.prominent.gui.frost_infusion"
+      },
+      {
+        "key": "Holy Infusion",
+        "value": "vp.prominent.gui.holy_infusion"
+      },
+      {
+        "key": "Weapon modifier",
+        "value": "vp.prominent.gui.weapon_modifier"
+      },
+      {
+        "key": "This staff has evolved with the raw frozen power. Known now as Khaz'el, The Frozen Destiny",
+        "value": "vp.prominent.khaz_el.tooltip"
+      },
+      {
+        "key": "This staff has evolved with the raw astral powers. Known now as Singularity, A Star's Rebirth.",
+        "value": "vp.prominent.singularity.tooltip"
+      },
+      {
+        "key": "§9+20% §f稜 §9Astral Power",
+        "value": "vp.prominent.tooltip.20_astral_power"
+      },
+      {
+        "key": "§9+30% §f陋 §9Arcane Power",
+        "value": "vp.prominent.tooltip.30_arcane_power"
+      },
+      {
+        "key": "§9+30% §f縷 §9Fire Power",
+        "value": "vp.prominent.tooltip.30_fire_power"
+      },
+      {
+        "key": "§9+30% §f勒 §9Frost Power",
+        "value": "vp.prominent.tooltip.30_frost_power"
+      },
+      {
+        "key": "§9+30% §f綾 §9Holy Power",
+        "value": "vp.prominent.tooltip.30_holy_power"
+      },
+      {
+        "key": " Evolved via the Upgrade Tree.",
+        "value": "vp.prominent.tooltip.evolved_via_the_upgrade"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Ekavar",
+      "elocindev.prominent.registry.client.ModelPredicateRegistry"
+    ],
+    "pairs": [
+      {
+        "key": "Phase",
+        "value": "vp.prominent.gui.phase"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Frostmourne"
+    ],
+    "pairs": [
+      {
+        "key": "Frostmourne Blood Modifier",
+        "value": "vp.prominent.gui.frostmourne_blood_modifier"
+      },
+      {
+        "key": "Frostmourne Frost Modifier",
+        "value": "vp.prominent.gui.frostmourne_frost_modifier"
+      },
+      {
+        "key": "Frostmourne Unholy Modifier",
+        "value": "vp.prominent.gui.frostmourne_unholy_modifier"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Fyralath"
+    ],
+    "pairs": [
+      {
+        "key": " Fyr'alath Modifier",
+        "value": "vp.prominent.gui.fyr_alath_modifier"
+      },
+      {
+        "key": "Reabsorption Fyr'alath Modifier",
+        "value": "vp.prominent.gui.reabsorption_fyr_alath_modifie"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Ghaj"
+    ],
+    "pairs": [
+      {
+        "key": "Corruption Gh'aj Modifier",
+        "value": "vp.prominent.gui.corruption_gh_aj_modifier"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Skillet"
+    ],
+    "pairs": [
+      {
+        "key": " Granny's Pan Modifier",
+        "value": "vp.prominent.gui.granny_s_pan_modifier"
+      },
+      {
+        "key": "Knockback Granny's Pan Modifier",
+        "value": "vp.prominent.gui.knockback_granny_s_pan"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Supernova"
+    ],
+    "pairs": [
+      {
+        "key": " Supernova Modifier",
+        "value": "vp.prominent.gui.supernova_modifier"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.ThousandFists"
+    ],
+    "pairs": [
+      {
+        "key": " Fury of a Thousand Fists Modifier",
+        "value": "vp.prominent.gui.fury_of_a_thousand"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Thunderwrath"
+    ],
+    "pairs": [
+      {
+        "key": "Lightning Thunderwrath Modifier",
+        "value": "vp.prominent.gui.lightning_thunderwrath_modifie"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.Vaazkar"
+    ],
+    "pairs": [
+      {
+        "key": "Armor Vaazkar Modifier",
+        "value": "vp.prominent.gui.armor_vaazkar_modifier"
+      },
+      {
+        "key": "Fire Vaazkar Modifier",
+        "value": "vp.prominent.gui.fire_vaazkar_modifier"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.artifacts.core.CosmeticArtifact"
+    ],
+    "pairs": [
+      {
+        "key": "Obtained through the \"Mastery of ",
+        "value": "vp.prominent.cosmetic.mastery_tooltip"
+      },
+      {
+        "key": "\" Eternal Challenge.",
+        "value": "vp.prominent.cosmetic.mastery_tooltip_suffix"
+      },
+      {
+        "key": "An illusion made to be used on other items with the magic of Transmogrification.",
+        "value": "vp.prominent.cosmetic.transmogrification_tooltip"
+      },
+      {
+        "key": "Artifact Illusion",
+        "value": "vp.prominent.gui.artifact_illusion"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.transmog.GetAJobItem"
+    ],
+    "pairs": [
+      {
+        "key": "Job Application",
+        "value": "vp.prominent.gui.job_application"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.item.transmog.TransmogItem",
+      "elocindev.prominentbase.item.HourglassItem"
+    ],
+    "pairs": [
+      {
+        "key": "露 ",
+        "value": "vp.prominent.tooltip.text_11"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.player.artifact.ClientArtifactHolder"
+    ],
+    "pairs": [
+      {
+        "key": " Artifact Power",
+        "value": "vp.prominent.gui.artifact_power"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.primordial.ArmorSetTooltipHandler"
+    ],
+    "pairs": [
+      {
+        "key": "Prominent",
+        "value": "vp.prominent.gui.prominent"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.primordial.set.ArcaneMageArmorSetBonus",
+      "elocindev.prominent.primordial.set.AstralMageArmorSetBonus",
+      "elocindev.prominent.primordial.set.FireArmorSetBonus",
+      "elocindev.prominent.primordial.set.FrostMageArmorSetBonus",
+      "elocindev.prominent.registry.ItemRegistry"
+    ],
+    "pairs": [
+      {
+        "key": "Ekavar",
+        "value": "vp.prominent.gui.ekavar"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.primordial.set.ArcaneMageArmorSetBonus",
+      "elocindev.prominent.primordial.set.AstralMageArmorSetBonus",
+      "elocindev.prominent.registry.ItemRegistry"
+    ],
+    "pairs": [
+      {
+        "key": "Supernova",
+        "value": "vp.prominent.gui.supernova"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.primordial.set.ArcaneMageArmorSetBonus",
+      "elocindev.prominent.primordial.set.FireArmorSetBonus"
+    ],
+    "pairs": [
+      {
+        "key": "Ash'edar",
+        "value": "vp.prominent.gui.ash_edar"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.primordial.set.FireArmorSetBonus",
+      "elocindev.prominent.registry.ItemRegistry"
+    ],
+    "pairs": [
+      {
+        "key": "A'zhar",
+        "value": "vp.prominent.gui.a_zhar"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.primordial.set.FrostMageArmorSetBonus",
+      "elocindev.prominent.registry.ItemRegistry"
+    ],
+    "pairs": [
+      {
+        "key": "Frostmourne",
+        "value": "vp.prominent.gui.frostmourne"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.registry.ItemRegistry"
+    ],
+    "pairs": [
+      {
+        "key": "Can be used to re-roll and repair artifact weapons.",
+        "value": "vp.prominent.artifact_weapon.reroll_tooltip"
+      },
+      {
+        "key": "Used in advanced Prominent crafting recipes.",
+        "value": "vp.prominent.essence.advanced_recipes_tooltip"
+      },
+      {
+        "key": "A primordial essence bound to countless souls.",
+        "value": "vp.prominent.essence.bound_tooltip"
+      },
+      {
+        "key": "A primordial essence seething with corruption.",
+        "value": "vp.prominent.essence.corruption_tooltip"
+      },
+      {
+        "key": "Full of hatred and demonic presences.",
+        "value": "vp.prominent.essence.demonic_tooltip"
+      },
+      {
+        "key": "A primordial essence radiating holy light.",
+        "value": "vp.prominent.essence.holy_tooltip"
+      },
+      {
+        "key": "Used in the rarest Prominent crafting recipes.",
+        "value": "vp.prominent.essence.rarest_recipes_tooltip"
+      },
+      {
+        "key": "A shining light full of concentrated raw power.",
+        "value": "vp.prominent.essence.shining_tooltip"
+      },
+      {
+        "key": "A primordial essence steeped in unholy dread.",
+        "value": "vp.prominent.essence.unholy_dread_tooltip"
+      },
+      {
+        "key": "Apocalypse",
+        "value": "vp.prominent.gui.apocalypse"
+      },
+      {
+        "key": "Apophis",
+        "value": "vp.prominent.gui.apophis"
+      },
+      {
+        "key": "Ash",
+        "value": "vp.prominent.gui.ash"
+      },
+      {
+        "key": "Edar",
+        "value": "vp.prominent.gui.edar"
+      },
+      {
+        "key": "Fury of a Thousand Fists",
+        "value": "vp.prominent.gui.fury_of_a_thousand_2"
+      },
+      {
+        "key": "Fyr'alath",
+        "value": "vp.prominent.gui.fyr_alath"
+      },
+      {
+        "key": "Gh'aj",
+        "value": "vp.prominent.gui.gh_aj"
+      },
+      {
+        "key": "Holds wrathful souls.",
+        "value": "vp.prominent.gui.holds_wrathful_souls"
+      },
+      {
+        "key": "Orion",
+        "value": "vp.prominent.gui.orion"
+      },
+      {
+        "key": "Thunderwrath",
+        "value": "vp.prominent.gui.thunderwrath"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.registry.ItemRegistry",
+      "elocindev.prominentbase.client.hud.DpsMeterHud"
+    ],
+    "pairs": [
+      {
+        "key": "Vaazkar",
+        "value": "vp.prominent.gui.vaazkar"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.registry.TabRegistry",
+      "elocindev.prominentbase.item.HourglassItem"
+    ],
+    "pairs": [
+      {
+        "key": "蘆 ",
+        "value": "vp.prominent.gui.text_2"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.settings.client.screen.page.VideoSettingsPage"
+    ],
+    "pairs": [
+      {
+        "key": "No Limit",
+        "value": "vp.prominent.gui.no_limit"
+      },
+      {
+        "key": "Off",
+        "value": "vp.prominent.gui.off_2"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.settings.client.screen.page.VideoSettingsPage",
+      "elocindev.prominent.settings.client.shader.IrisCompat"
+    ],
+    "pairs": [
+      {
+        "key": "OFF",
+        "value": "vp.prominent.gui.off"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.text.ICONS"
+    ],
+    "pairs": [
+      {
+        "key": "盧",
+        "value": "vp.prominent.gui.text_3"
+      },
+      {
+        "key": "老",
+        "value": "vp.prominent.gui.text_4"
+      },
+      {
+        "key": "路",
+        "value": "vp.prominent.gui.text_6"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.text.ICONS",
+      "elocindev.prominentbase.item.HourglassItem"
+    ],
+    "pairs": [
+      {
+        "key": "露",
+        "value": "vp.prominent.gui.text_8"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.utils.VaazAssaultNpcManager"
+    ],
+    "pairs": [
+      {
+        "key": "Vaaz assault player count scaling",
+        "value": "vp.prominent.gui.vaaz_assault_player_count"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent_talents.client.LevelStatIndicator"
+    ],
+    "pairs": [
+      {
+        "key": "Current Level:",
+        "value": "vp.prominent.gui.current_level"
+      },
+      {
+        "key": " (Current Limit)",
+        "value": "vp.prominent.gui.current_limit"
+      },
+      {
+        "key": " (Maximum Level)",
+        "value": "vp.prominent.gui.maximum_level"
+      },
+      {
+        "key": " XP to reach next level",
+        "value": "vp.prominent.gui.xp_to_reach_next"
+      },
+      {
+        "key": " Arcane Power",
+        "value": "vp.prominent.tooltip.arcane_power"
+      },
+      {
+        "key": " Armor",
+        "value": "vp.prominent.tooltip.armor"
+      },
+      {
+        "key": " Blood Power",
+        "value": "vp.prominent.tooltip.blood_power"
+      },
+      {
+        "key": " Fire Power",
+        "value": "vp.prominent.tooltip.fire_power"
+      },
+      {
+        "key": " Frost Power",
+        "value": "vp.prominent.tooltip.frost_power"
+      },
+      {
+        "key": " Maximum Health",
+        "value": "vp.prominent.tooltip.maximum_health"
+      },
+      {
+        "key": " Physical Damage",
+        "value": "vp.prominent.tooltip.physical_damage"
+      },
+      {
+        "key": " Ranged Damage",
+        "value": "vp.prominent.tooltip.ranged_damage"
+      },
+      {
+        "key": "§f弄§7 ",
+        "value": "vp.prominent.tooltip.text"
+      },
+      {
+        "key": "§f聾§7 ",
+        "value": "vp.prominent.tooltip.text_2"
+      },
+      {
+        "key": "§f牢§7 ",
+        "value": "vp.prominent.tooltip.text_3"
+      },
+      {
+        "key": "§f縷§7 ",
+        "value": "vp.prominent.tooltip.text_4"
+      },
+      {
+        "key": "§f陋§7 ",
+        "value": "vp.prominent.tooltip.text_5"
+      },
+      {
+        "key": "§f勒§7 ",
+        "value": "vp.prominent.tooltip.text_6"
+      },
+      {
+        "key": "§f肋§7 ",
+        "value": "vp.prominent.tooltip.text_7"
+      },
+      {
+        "key": "§f凜§7 ",
+        "value": "vp.prominent.tooltip.text_8"
+      },
+      {
+        "key": "§f凌§7 ",
+        "value": "vp.prominent.tooltip.text_9"
+      },
+      {
+        "key": " Unholy Power",
+        "value": "vp.prominent.tooltip.unholy_power"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent_talents.util.TalentTree"
+    ],
+    "pairs": [
+      {
+        "key": "Player Level Health Gain",
+        "value": "vp.prominent.gui.player_level_health_gain"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent_talents.util.rpc.PromRPCState"
+    ],
+    "pairs": [
+      {
+        "key": "Level %d | %d Item Level",
+        "value": "vp.prominent.gui.level_item_level"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominentbase.armors.ProminentArmorSet$ArmorPieceSettings"
+    ],
+    "pairs": [
+      {
+        "key": "Armor attribute ",
+        "value": "vp.prominent.gui.armor_attribute"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominentbase.armors.ProminentArmorSet$ProminentArmorItem"
+    ],
+    "pairs": [
+      {
+        "key": "Tiered",
+        "value": "vp.prominent.gui.tiered"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominentbase.client.hud.DpsMeterHud"
+    ],
+    "pairs": [
+      {
+        "key": "Elocin",
+        "value": "vp.prominent.gui.elocin"
+      },
+      {
+        "key": "Serkonid",
+        "value": "vp.prominent.gui.serkonid"
+      },
+      {
+        "key": "Skellak",
+        "value": "vp.prominent.gui.skellak"
+      },
+      {
+        "key": "You",
+        "value": "vp.prominent.gui.you"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominentbase.client.render.TraderRenderer"
+    ],
+    "pairs": [
+      {
+        "key": "[No Translation]",
+        "value": "vp.prominent.gui.no_translation"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominentbase.client.render.block.PrimordialForgeRenderer"
+    ],
+    "pairs": [
+      {
+        "key": "Building",
+        "value": "vp.prominent.gui.building"
+      },
+      {
+        "key": "Current Progress:",
+        "value": "vp.prominent.gui.current_progress"
+      },
+      {
+        "key": "Finishes in ",
+        "value": "vp.prominent.gui.finishes_in"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominentbase.entity.serkonid.TraderEntity"
+    ],
+    "pairs": [
+      {
+        "key": "Enchantments",
+        "value": "vp.prominent.gui.enchantments"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominentbase.item.HourglassItem"
+    ],
+    "pairs": [
+      {
+        "key": "率",
+        "value": "vp.prominent.gui.text_10"
+      },
+      {
+        "key": "率 ",
+        "value": "vp.prominent.gui.text_11"
+      },
+      {
+        "key": "異",
+        "value": "vp.prominent.gui.text_12"
+      },
+      {
+        "key": "異 ",
+        "value": "vp.prominent.gui.text_13"
+      },
+      {
+        "key": "蘆",
+        "value": "vp.prominent.gui.text_5"
+      },
+      {
+        "key": "魯",
+        "value": "vp.prominent.gui.text_9"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominentbase.mythicchallenge.affix.MythicAffix"
+    ],
+    "pairs": [
+      {
+        "key": "北",
+        "value": "vp.prominent.gui.text_14"
+      },
+      {
+        "key": "磻",
+        "value": "vp.prominent.gui.text_15"
+      },
+      {
+        "key": "便",
+        "value": "vp.prominent.gui.text_16"
+      },
+      {
+        "key": "復",
+        "value": "vp.prominent.gui.text_17"
+      },
+      {
+        "key": "不",
+        "value": "vp.prominent.gui.text_18"
+      },
+      {
+        "key": "泌",
+        "value": "vp.prominent.gui.text_19"
+      },
+      {
+        "key": "數",
+        "value": "vp.prominent.gui.text_20"
+      },
+      {
+        "key": "索",
+        "value": "vp.prominent.gui.text_21"
+      },
+      {
+        "key": "參",
+        "value": "vp.prominent.gui.text_22"
+      },
+      {
+        "key": "塞",
+        "value": "vp.prominent.gui.text_23"
+      },
+      {
+        "key": "省",
+        "value": "vp.prominent.gui.text_24"
+      },
+      {
+        "key": "葉",
+        "value": "vp.prominent.gui.text_25"
+      },
+      {
+        "key": "說",
+        "value": "vp.prominent.gui.text_26"
+      },
+      {
+        "key": "殺",
+        "value": "vp.prominent.gui.text_27"
+      },
+      {
+        "key": "辰",
+        "value": "vp.prominent.gui.text_28"
+      },
+      {
+        "key": "沈",
+        "value": "vp.prominent.gui.text_29"
+      },
+      {
+        "key": "拾",
+        "value": "vp.prominent.gui.text_30"
+      },
+      {
+        "key": "若",
+        "value": "vp.prominent.gui.text_31"
+      },
+      {
+        "key": "掠",
+        "value": "vp.prominent.gui.text_32"
+      },
+      {
+        "key": "略",
+        "value": "vp.prominent.gui.text_33"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominentbase.mythicchallenge.affix.MythicAffixController"
+    ],
+    "pairs": [
+      {
+        "key": "Zealot",
+        "value": "vp.prominent.gui.zealot"
+      }
+    ]
+  }
+]

@@ -8,15 +8,13 @@
     "i18n": true
   },
   {
-    "target_class": {
-      "name": "elocindev.tierify.item.ReforgeAddition",
-      "method": "method_7851",
-      "local": ""
-    },
+    "target_class": [
+      "elocindev.tierify.item.ReforgeAddition"
+    ],
     "pairs": [
       {
         "key": "Reforging Qualities:",
-        "value": "vp.tireify.item.tooltip.1"
+        "value": "vp.tierify.item.tooltip.1"
       }
     ]
   }
