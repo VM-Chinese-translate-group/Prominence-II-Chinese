@@ -74,7 +74,7 @@ element {
 
 element {
   interactable = true
-  source = Sword
+  source = 剑
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -140,7 +140,7 @@ element {
 
 element {
   interactable = true
-  source = Dagger
+  source = 匕首
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -206,7 +206,7 @@ element {
 
 element {
   interactable = true
-  source = Bow
+  source = 弓
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -272,7 +272,7 @@ element {
 
 element {
   interactable = true
-  source = Staff
+  source = 权杖
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -338,7 +338,7 @@ element {
 
 element {
   interactable = true
-  source = Hammer
+  source = 锤
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -575,7 +575,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Grab
+  label = 选取
   navigatable = true
   widget_active_state_requirement_container_identifier = b2621dbc-624c-42c8-aeb5-bd844f05b989-1756669389810
   [loading_requirement_container_meta:b2621dbc-624c-42c8-aeb5-bd844f05b989-1756669389810] = [groups:][instances:]
@@ -633,7 +633,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Grab
+  label = 选取
   navigatable = true
   widget_active_state_requirement_container_identifier = b2621dbc-624c-42c8-aeb5-bd844f05b989-1756669389810
   [loading_requirement_container_meta:b2621dbc-624c-42c8-aeb5-bd844f05b989-1756669389810] = [groups:][instances:]
@@ -691,7 +691,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Grab
+  label = 选取
   navigatable = true
   widget_active_state_requirement_container_identifier = b2621dbc-624c-42c8-aeb5-bd844f05b989-1756669389810
   [loading_requirement_container_meta:b2621dbc-624c-42c8-aeb5-bd844f05b989-1756669389810] = [groups:][instances:]
@@ -749,7 +749,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Grab
+  label = 选取
   navigatable = true
   widget_active_state_requirement_container_identifier = b2621dbc-624c-42c8-aeb5-bd844f05b989-1756669389810
   [loading_requirement_container_meta:b2621dbc-624c-42c8-aeb5-bd844f05b989-1756669389810] = [groups:][instances:]
@@ -807,7 +807,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Grab
+  label = 选取
   navigatable = true
   widget_active_state_requirement_container_identifier = b2621dbc-624c-42c8-aeb5-bd844f05b989-1756669389810
   [loading_requirement_container_meta:b2621dbc-624c-42c8-aeb5-bd844f05b989-1756669389810] = [groups:][instances:]
