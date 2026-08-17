@@ -1077,5 +1077,16 @@
         "value": "vp.prominent.gui.zealot"
       }
     ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominentbase.armors.ProminentArmorSet"
+    ],
+    "pairs": [
+      {
+        "key": "\uf977",
+        "value": "\uE051"
+      }
+    ]
   }
 ]
