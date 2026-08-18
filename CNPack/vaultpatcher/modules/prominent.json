@@ -1080,8 +1080,12 @@
   },
   {
     "target_class": [
-      "elocindev.prominentbase.armors.ProminentArmorSet"
+      "elocindev.prominentbase.armors.ProminentArmorSet$ProminentArmorItem"
     ],
+    "info": {
+      "method": "<clinit>",
+      "local": "MvalueOf"
+    },
     "pairs": [
       {
         "key": "\uf977",
