@@ -2098,6 +2098,7 @@
 			dependencies: ["71124D23985D4D8E"]
 			description: ["{ftbquests.chapter.applied_energistics_2.quest.5985458AE3930D26.description0}"]
 			id: "5985458AE3930D26"
+			optional: true
 			rewards: [{
 				id: "42A2A2D6C3D5BBB5"
 				type: "xp"
@@ -3981,17 +3982,31 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "65B6ADC9263E42FE"
-				item: {
-					Count: 1
-					id: "ae2:certus_quartz_cutting_knife"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "65B6ADC9263E42FE"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "215D7EEE721B81C5"
+					item: {
+						Count: 1
+						id: "ae2:nether_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.applied_energistics_2.quest.7BCD721A386D6E71.title}"
 			x: -7.5d
 			y: -5.5d

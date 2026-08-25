@@ -2297,6 +2297,7 @@
 			description: ["{ftbquests.chapter.elhasturian_era.quest.06A13B152F9C731F.description0}"]
 			hide_dependency_lines: true
 			id: "06A13B152F9C731F"
+			optional: true
 			rewards: [
 				{
 					id: "1FEF6B5605516A9A"

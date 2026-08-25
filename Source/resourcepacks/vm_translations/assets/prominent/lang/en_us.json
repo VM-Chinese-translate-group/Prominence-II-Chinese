@@ -1025,17 +1025,18 @@
     "npc.vaaz.guard_serkonid.20.name": "Kaelorin",
     "npc.vaaz.guard_serkonid.21.name": "Darkwraith",
     "npc.vaaz.guard_serkonid.22.name": "Dango",
-    "npc.vaaz.guard_dwarf.13.name": "Young Varfut",
-    "npc.vaaz.guard_dwarf.14.name": "Young Thorium",
+    "npc.vaaz.guard_dwarf.13.name": "Varfut",
+    "npc.vaaz.guard_dwarf.14.name": "Thorium",
     "npc.vaaz.guard_dwarf.15.name": "Ahab",
     "npc.vaaz.guard_dwarf.16.name": "Orsik",
     "npc.vaaz.guard_dwarf.17.name": "Jan",
     "npc.vaaz.guard_dwarf.18.name": "Hampa the Arm-Length",
     "npc.vaaz.guard_dwarf.19.name": "Clank",
     "npc.vaaz.guard_dwarf.20.name": "Morgran",
+	"npc.vaaz.guard_dwarf.21.name": "Vee",
     "npc.vaaz.extra_serkonid.21.name": "Brokkr",
     "npc.vaaz.extra_serkonid.22.name": "Lamp the Brightest",
-    "npc.vaaz.extra_serkonid.23.name": "Just Chaotic Jen",
+    "npc.vaaz.extra_serkonid.23.name": "CJ the 'Clanker'",
     "npc.vaaz.extra_serkonid.24.name": "Momma Seri",
     "npc.vaaz.extra_serkonid.25.name": "Orphicus",
     "npc.vaaz.extra_serkonid.26.name": "Silly Fella",
@@ -1100,6 +1101,7 @@
 
     "message.prominent.level.requirement": "You are not high enough level to use this item. You need to be level %d or higher!",
     "message.prominent.level.enemy_too_strong": "The enemy is too strong for you. Its level is %d!",
+    "message.prominent.amagul.clone_hit": "This seems to be an illusion",
 
     "tooltip.prominent.transmog.appearance": "Transmog Appearance",
     "tooltip.prominent.transmog.description": "An illusion made to be used on other items with the magic of Transmogrification.",
@@ -1286,7 +1288,7 @@
 
     "prominent.hourglass.tooltip.resets_in": "Resets in %s days, %s hours, %s minutes",
 
-    "prominent.challenge.error.full_party_required": "Mythic %s and above requires a full party of %s players. The challenge was cancelled and the hourglass refunded.",
+    "prominent.challenge.full_party_scaling": "The Unholy Hourglass' power has been increased, +%s challenges are strong enough for %s players.",
     "prominent.challenge.starts_in": "Challenge starts in %ss",
     "prominent.challenge.life_lost": "§c%s has fallen and used a team life! §7%s lives remaining.",
     "prominent.challenge.life_lost_disconnect": "§c%s disconnected and used a team life! §7%s lives remaining.",
@@ -1375,6 +1377,9 @@
     ],
 
     "entity.prominent.challenge_portal": "Challenge Portal",
+    "entity.prominent.serkonid": "Serkonid",
+    "entity.prominent.dwarf": "Dwarf",
+    "entity.prominent.skellak": "S'kellak",
 
     "block.prominent.primordial_forge": "Primordial Forge",
     "block.prominent.forge_multiblock_filler": "Primordial Forge",
