@@ -158,6 +158,7 @@
 				"{ftbquests.chapter.eenchanting.quest.55DC0E4792D27682.description0}"
 				"{ftbquests.chapter.eenchanting.quest.55DC0E4792D27682.description1}"
 			]
+			hide_dependent_lines: true
 			id: "55DC0E4792D27682"
 			rewards: [{
 				id: "2DD241DDC4714A0E"
@@ -180,6 +181,7 @@
 				"{ftbquests.chapter.eenchanting.quest.4011B9F44111D91E.description0}"
 				"{ftbquests.chapter.eenchanting.quest.4011B9F44111D91E.description1}"
 			]
+			hide_dependent_lines: true
 			id: "4011B9F44111D91E"
 			rewards: [{
 				id: "5F0672AF47DC0643"

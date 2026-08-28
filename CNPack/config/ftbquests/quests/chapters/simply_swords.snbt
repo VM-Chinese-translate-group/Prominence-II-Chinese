@@ -405,11 +405,18 @@
 			]
 			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.simply_swords.quest.5AA2A1E358A18B4E.subtitle}"
-			tasks: [{
-				id: "5DF612576542C997"
-				item: "simplyswords:empowered_remnant"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5DF612576542C997"
+					item: "simplyswords:empowered_remnant"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74DDE78215394923"
+					type: "checkmark"
+				}
+			]
 			x: -10.0d
 			y: 4.5d
 		}
@@ -424,12 +431,7 @@
 			id: "3E5207641E8653DC"
 			rewards: [
 				{
-					id: "0B046175AB1496F5"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 5
+					count: 2
 					id: "7E8172D545591CF2"
 					item: "simplyswords:runic_tablet"
 					type: "item"
@@ -441,15 +443,22 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.simply_swords.quest.3E5207641E8653DC.subtitle}"
-			tasks: [{
-				id: "5C78E6FA3E4F93CB"
-				item: {
-					Count: 1
-					id: "simplyswords:runefused_gem"
-					tag: { }
+			tasks: [
+				{
+					id: "5C78E6FA3E4F93CB"
+					item: {
+						Count: 1
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "21BCAD6E82F2F6F0"
+					type: "checkmark"
+				}
+			]
 			x: -13.5d
 			y: 2.5d
 		}
@@ -464,12 +473,6 @@
 			id: "47EBDA6516061205"
 			rewards: [
 				{
-					id: "5B95526DD588D574"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 2
 					id: "00F0A6CDD2E3D77C"
 					item: "simplyswords:runic_tablet"
 					type: "item"
@@ -481,15 +484,22 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.simply_swords.quest.47EBDA6516061205.subtitle}"
-			tasks: [{
-				id: "1F673D38D2BBDA24"
-				item: {
-					Count: 1
-					id: "simplyswords:netherfused_gem"
-					tag: { }
+			tasks: [
+				{
+					id: "1F673D38D2BBDA24"
+					item: {
+						Count: 1
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "66D3283CD5805BBE"
+					type: "checkmark"
+				}
+			]
 			x: -6.5d
 			y: 2.5d
 		}

@@ -18,7 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [""]
+			description: ["{ftbquests.chapter.8the_prision.quest.0D23A31DAF3866F4.description0}"]
 			id: "0D23A31DAF3866F4"
 			rewards: [{
 				id: "4A4473CE89392149"

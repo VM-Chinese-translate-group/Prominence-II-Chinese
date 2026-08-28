@@ -764,6 +764,14 @@
 					}
 					type: "item"
 				}
+				{
+					advancement: "minecraft:end/kill_dragon"
+					auto: "enabled"
+					criterion: ""
+					id: "22CAB1338EDA493A"
+					title: "{ftbquests.chapter.main_story.quest.48AADA398DC4E940.reward.22CAB1338EDA493A.title}"
+					type: "advancement"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d
@@ -1735,6 +1743,7 @@
 			subtitle: "{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.subtitle}"
 			tasks: [
 				{
+					count: 4L
 					id: "0EA07F48C91B6FBF"
 					item: "eldritch_end:ominous_eye"
 					title: "{ftbquests.chapter.main_story.quest.0A5F7ABD54251511.task.0EA07F48C91B6FBF.title}"

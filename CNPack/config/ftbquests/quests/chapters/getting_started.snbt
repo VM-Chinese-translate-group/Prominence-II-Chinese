@@ -465,6 +465,8 @@
 				"{ftbquests.chapter.getting_started.quest.239866A8BF58469A.description2}"
 				""
 				"{ftbquests.chapter.getting_started.quest.239866A8BF58469A.description4}"
+				""
+				"{ftbquests.chapter.getting_started.quest.239866A8BF58469A.description6}"
 			]
 			icon: "supplementaries:slice_map"
 			id: "239866A8BF58469A"

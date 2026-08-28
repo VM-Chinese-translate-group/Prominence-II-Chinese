@@ -4217,7 +4217,7 @@
 					id: "13FB88C958CFAD8B"
 					item: {
 						Count: 1
-						id: "mcda:dark_armor_helmet"
+						id: "rogues:netherite_berserker_armor_head"
 						tag: {
 							Damage: 0
 						}
@@ -4228,7 +4228,7 @@
 					id: "4587A1C14998CCBA"
 					item: {
 						Count: 1
-						id: "mcda:dark_armor_chestplate"
+						id: "rogues:netherite_berserker_armor_chest"
 						tag: {
 							Damage: 0
 						}
@@ -4239,7 +4239,7 @@
 					id: "5A03A0F74DFE9B50"
 					item: {
 						Count: 1
-						id: "mcda:dark_armor_leggings"
+						id: "rogues:netherite_berserker_armor_legs"
 						tag: {
 							Damage: 0
 						}
@@ -4250,7 +4250,7 @@
 					id: "03A675FA7C32C98F"
 					item: {
 						Count: 1
-						id: "mcda:dark_armor_boots"
+						id: "rogues:netherite_berserker_armor_feet"
 						tag: {
 							Damage: 0
 						}
