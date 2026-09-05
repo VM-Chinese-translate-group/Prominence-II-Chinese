@@ -430,7 +430,6 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.archon.quest.212337E36BE98725.subtitle}"
 			tasks: [{
 				id: "16B48CF0C7179D07"
 				item: {

@@ -337,17 +337,19 @@
 				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description4}"
 				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description5}"
 				""
-				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description7}"
+				"[{\"translate\": \"ftbquests.chapter.main_story.quest.5063E49140A8BB20.description7.text0\"}, {\"translate\": \"ftbquests.chapter.main_story.quest.5063E49140A8BB20.description7.text1\", \"underlined\": \"true\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5C67FB6AB484E924\"}}]"
+				""
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description9}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description10}"
-				""
 				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description12}"
 				""
 				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description14}"
-				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description15}"
 				""
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description16}"
 				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description17}"
+				""
+				"{ftbquests.chapter.main_story.quest.5063E49140A8BB20.description19}"
 			]
 			id: "5063E49140A8BB20"
 			rewards: [
@@ -766,7 +768,7 @@
 				}
 				{
 					advancement: "minecraft:end/kill_dragon"
-					auto: "enabled"
+					auto: "invisible"
 					criterion: ""
 					id: "22CAB1338EDA493A"
 					title: "{ftbquests.chapter.main_story.quest.48AADA398DC4E940.reward.22CAB1338EDA493A.title}"

@@ -1287,30 +1287,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["38B1E5E35DFDF751"]
-			id: "779BDC14D8FF6F70"
-			rewards: [{
-				id: "66A2001AD204CCB6"
-				type: "xp"
-				xp: 35
-			}]
-			subtitle: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.779BDC14D8FF6F70.subtitle}"
-			tasks: [{
-				id: "2D0F143F09693BD0"
-				item: {
-					Count: 1
-					id: "soulsweapons:withered_wabbajack"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.gear_mariums_soulslike_weaponry.quest.779BDC14D8FF6F70.title}"
-			x: 7.5d
-			y: 6.0d
-		}
-		{
 			dependencies: ["26C8BD551FCBAF73"]
 			id: "7B03C1492C12657E"
 			rewards: [{

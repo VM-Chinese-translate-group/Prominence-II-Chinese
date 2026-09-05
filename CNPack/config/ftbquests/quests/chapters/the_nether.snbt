@@ -66,15 +66,6 @@
 			image: "prominent_talents:textures/frames/fate_selected.png"
 			rotation: 0.0d
 			width: 1.2d
-			x: 3.5d
-			y: -9.5d
-		}
-		{
-			dependency: "6DFEDDFC27B1708C"
-			height: 1.2d
-			image: "prominent_talents:textures/frames/fate_selected.png"
-			rotation: 0.0d
-			width: 1.2d
 			x: -3.5d
 			y: -9.5d
 		}
@@ -84,8 +75,8 @@
 			image: "prominent_talents:textures/frames/fate_selected.png"
 			rotation: 0.0d
 			width: 1.2d
-			x: 0.0d
-			y: -12.0d
+			x: 3.5d
+			y: -9.5d
 		}
 		{
 			height: 1.0d
@@ -152,8 +143,8 @@
 			image: "prominent_talents:textures/frames/circle.png"
 			rotation: 0.0d
 			width: 1.2d
-			x: 0.0d
-			y: -10.0d
+			x: 2.0d
+			y: -7.5d
 		}
 		{
 			dependency: "6DFEDDFC27B1708C"
@@ -711,7 +702,7 @@
 			rotation: 0.0d
 			width: 2.5d
 			x: 0.0d
-			y: -14.5d
+			y: -10.5d
 		}
 		{
 			dependency: "3963B69A10D95565"
@@ -1406,35 +1397,6 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["6DFEDDFC27B1708C"]
-			id: "6B7553ECE9DF7675"
-			rewards: [
-				{
-					id: "705883451DE278E3"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-				{
-					count: 5
-					id: "53E7372968FD4D83"
-					item: "minecraft:golden_apple"
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.the_nether.quest.6B7553ECE9DF7675.subtitle}"
-			tasks: [{
-				entity: "adventurez:soul_reaper"
-				icon: "soulsweapons:lord_soul_void"
-				id: "09CA256D27D0482F"
-				title: "{ftbquests.chapter.the_nether.quest.6B7553ECE9DF7675.task.09CA256D27D0482F.title}"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.5d
-			y: -9.5d
-		}
-		{
 			dependencies: ["56D3A3CFEF28BF91"]
 			description: [
 				"{ftbquests.chapter.the_nether.quest.1702057B5F68995F.description0}"
@@ -2078,8 +2040,8 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.the_nether.quest.0259F3EAA2AAE635.title}"
-			x: 0.0d
-			y: -12.0d
+			x: 3.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]
@@ -2099,8 +2061,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.the_nether.quest.26115F67C5E799DF.title}"
-			x: 0.0d
-			y: -10.0d
+			x: 2.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6DFEDDFC27B1708C"]

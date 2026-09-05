@@ -1355,7 +1355,7 @@
 			id: "73DA5990952CEA35"
 			rewards: [{
 				advancement: "prominent:level_50"
-				auto: "enabled"
+				auto: "invisible"
 				criterion: ""
 				id: "1D56AC4A22CDB24A"
 				title: "{ftbquests.chapter.elhasturian_era.quest.73DA5990952CEA35.reward.1D56AC4A22CDB24A.title}"

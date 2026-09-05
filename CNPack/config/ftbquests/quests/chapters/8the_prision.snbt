@@ -1,26 +1,156 @@
 {
-	autofocus_id: "0D23A31DAF3866F4"
+	autofocus_id: "6D2F2513F741BEBA"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "8the_prision"
 	group: "3E586F2160161EEA"
 	icon: "graveyard:dark_iron_bars"
 	id: "419EFD597601A50B"
-	images: [{
-		height: 3.0d
-		image: "minecells:item/blood_sword"
-		rotation: 0.0d
-		width: 3.0d
-		x: -3.0d
-		y: -1.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "minecells:item/blood_sword"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependency: "7FA12D0EE258394E"
+			height: 2.5d
+			image: "minecells:item/boss_stem_cell"
+			rotation: 0.0d
+			width: 2.5d
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependency: "786169EB402AB151"
+			height: 1.5d
+			image: "minecells:item/conjunctivius_respawn_rune"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependency: "392849A6BB50F469"
+			height: 2.5d
+			image: "minecells:item/concierge_respawn_rune"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "minecells:item/health_flask"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/assassins_dagger"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/crate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/crate_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/crate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/chain_pile_block"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/broadsword"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "minecells:item/explosive_bolt"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecells:item/monster_cell"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: -4.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.8the_prision.quest.0D23A31DAF3866F4.description0}"]
+			dependencies: ["6D2F2513F741BEBA"]
+			description: [
+				""
+				"{image:minecells:textures/gui/guidebook/images/prison.png width:100 height:100 align:center}"
+			]
 			id: "0D23A31DAF3866F4"
 			rewards: [{
+				count: 6
 				id: "4A4473CE89392149"
 				item: "minecells:health_flask"
 				type: "item"
@@ -37,10 +167,10 @@
 			}]
 			title: "{ftbquests.chapter.8the_prision.quest.0D23A31DAF3866F4.title}"
 			x: 0.0d
-			y: 1.5d
+			y: 1.875d
 		}
 		{
-			dependencies: ["0D23A31DAF3866F4"]
+			dependencies: ["786169EB402AB151"]
 			id: "056835280827D016"
 			rewards: [
 				{
@@ -49,17 +179,9 @@
 					xp_levels: 5
 				}
 				{
-					id: "40247E988E658E5A"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:sharpness"
-								lvl: 5s
-							}]
-						}
-					}
+					count: 8
+					id: "2634DBDF6AD90B9B"
+					item: "minecells:sewer_calamari"
 					type: "item"
 				}
 			]
@@ -81,11 +203,15 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.8the_prision.quest.056835280827D016.title}"
-			x: -2.25d
-			y: 1.5d
+			x: -4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0D23A31DAF3866F4"]
+			description: [
+				""
+				"{image:minecells:textures/gui/guidebook/images/promenade.png width:100 height:100 align:center}"
+			]
 			id: "3C8D91F2793CECAD"
 			shape: "hexagon"
 			size: 1.25d
@@ -98,28 +224,11 @@
 				type: "dimension"
 			}]
 			title: "{ftbquests.chapter.8the_prision.quest.3C8D91F2793CECAD.title}"
-			x: 2.4642857142857153d
-			y: 1.5178571428571388d
-		}
-		{
-			dependencies: ["58E9FDE95BB414C8"]
-			id: "618580FC7F5FFBD0"
-			subtitle: "{ftbquests.chapter.8the_prision.quest.618580FC7F5FFBD0.subtitle}"
-			tasks: [{
-				icon: "minecells:cell_crafter"
-				id: "57DD47C8EC79E9E4"
-				observe_type: 0
-				timer: 0L
-				title: "{ftbquests.chapter.8the_prision.quest.618580FC7F5FFBD0.task.57DD47C8EC79E9E4.title}"
-				to_observe: "minecells:cell_crafter"
-				type: "observation"
-			}]
-			title: "{ftbquests.chapter.8the_prision.quest.618580FC7F5FFBD0.title}"
 			x: 0.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["0D23A31DAF3866F4"]
+			dependencies: ["3F0FA8C53795453D"]
 			id: "58E9FDE95BB414C8"
 			subtitle: "{ftbquests.chapter.8the_prision.quest.58E9FDE95BB414C8.subtitle}"
 			tasks: [{
@@ -128,8 +237,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.8the_prision.quest.58E9FDE95BB414C8.title}"
-			x: 0.5d
-			y: 0.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["58E9FDE95BB414C8"]
@@ -141,22 +250,391 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.8the_prision.quest.364E9528AE5F1047.title}"
-			x: 2.0d
-			y: -0.5d
+			x: 3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0D23A31DAF3866F4"]
 			description: ["{ftbquests.chapter.8the_prision.quest.447E7AA3CB192FE4.description0}"]
 			id: "447E7AA3CB192FE4"
+			rewards: [{
+				count: 10
+				id: "0A6ADFFF5197516C"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.8the_prision.quest.447E7AA3CB192FE4.subtitle}"
 			tasks: [{
 				icon: "minecells:health_flask"
 				id: "2D109EBD7B56015A"
+				item: "minecells:health_flask"
 				title: "{ftbquests.chapter.8the_prision.quest.447E7AA3CB192FE4.task.2D109EBD7B56015A.title}"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.8the_prision.quest.69D69BD1D3500C6A.description0}"
+				""
+				"{ftbquests.chapter.8the_prision.quest.69D69BD1D3500C6A.description2}"
+			]
+			id: "69D69BD1D3500C6A"
+			rewards: [{
+				id: "2FE408F561BBBECB"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.2d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecells:prison_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "196E583EF3C77C8B"
+				structure: "minecells:overworld_portal"
+				title: "{ftbquests.chapter.8the_prision.quest.69D69BD1D3500C6A.task.196E583EF3C77C8B.title}"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69D69BD1D3500C6A"]
+			description: [
+				"{ftbquests.chapter.8the_prision.quest.6D2F2513F741BEBA.description0}"
+				""
+				"{ftbquests.chapter.8the_prision.quest.6D2F2513F741BEBA.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecells:prison_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "6D2F2513F741BEBA"
+			rewards: [{
+				id: "18F543067E94FFB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20CE52F5F638929B"
+				title: "{ftbquests.chapter.8the_prision.quest.6D2F2513F741BEBA.task.20CE52F5F638929B.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["52A09B92E3A16003"]
+			description: [
+				"{ftbquests.chapter.8the_prision.quest.32AD907B1C467139.description0}"
+				""
+				"{ftbquests.chapter.8the_prision.quest.32AD907B1C467139.description2}"
+			]
+			id: "32AD907B1C467139"
+			rewards: [
+				{
+					id: "7876D2FF42680DBE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					advancement: "minecells:vine_rune"
+					auto: "enabled"
+					criterion: ""
+					id: "3249D08403A56801"
+					type: "advancement"
+				}
+			]
+			tasks: [{
+				id: "0409EF76ACF617D8"
+				item: {
+					Count: 1
+					id: "minecells:vine_rune"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "{ftbquests.chapter.8the_prision.quest.32AD907B1C467139.task.0409EF76ACF617D8.title}"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C8D91F2793CECAD"]
+			description: [
+				"{ftbquests.chapter.8the_prision.quest.52A09B92E3A16003.description0}"
+				""
+				"{ftbquests.chapter.8the_prision.quest.52A09B92E3A16003.description2}"
+			]
+			icon: "minecells:arrow_sign"
+			id: "52A09B92E3A16003"
+			rewards: [{
+				id: "47452E5B3A60781E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43B67FFBA352B18B"
+				title: "{ftbquests.chapter.8the_prision.quest.52A09B92E3A16003.task.43B67FFBA352B18B.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52A09B92E3A16003"]
+			description: [
+				"{ftbquests.chapter.8the_prision.quest.19A13E818C2E97D7.description0}"
+				""
+				"{ftbquests.chapter.8the_prision.quest.19A13E818C2E97D7.description2}"
+				""
+				""
+				"{image:minecells:textures/gui/guidebook/images/runic_vine_plant.png width:100 height:100 align:center}"
+			]
+			id: "19A13E818C2E97D7"
+			rewards: [{
+				id: "06321FC0D60A986A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecells:vine_rune"
+				criterion: ""
+				id: "6ABACEEF3F0409D0"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.8the_prision.quest.19A13E818C2E97D7.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19A13E818C2E97D7"]
+			description: [
+				"{ftbquests.chapter.8the_prision.quest.3F0FA8C53795453D.description0}"
+				""
+				"{ftbquests.chapter.8the_prision.quest.3F0FA8C53795453D.description2}"
+				""
+				""
+				"{ftbquests.chapter.8the_prision.quest.3F0FA8C53795453D.description5}"
+			]
+			id: "3F0FA8C53795453D"
+			rewards: [{
+				id: "2C8A86386DF30D96"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.8the_prision.quest.3F0FA8C53795453D.subtitle}"
+			tasks: [{
+				icon: "minecells:cell_crafter"
+				id: "65448170569AF6B8"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.8the_prision.quest.3F0FA8C53795453D.task.65448170569AF6B8.title}"
+				to_observe: "minecells:unbreakable_cell_crafter"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F0FA8C53795453D"]
+			description: [
+				"{ftbquests.chapter.8the_prision.quest.7FA12D0EE258394E.description0}"
+				""
+				""
+				"{image:minecells:textures/gui/guidebook/images/ramparts.png width:100 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecells:ramparts_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "7FA12D0EE258394E"
+			rewards: [
+				{
+					id: "36A58D26A98BFA3D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 12
+					id: "55B57F3317E4C4F4"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecells:ramparts"
+				icon: {
+					Count: 1
+					id: "minecells:ramparts_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "7545EF04441CAA9D"
+				title: "{ftbquests.chapter.8the_prision.quest.7FA12D0EE258394E.task.7545EF04441CAA9D.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.8the_prision.quest.7FA12D0EE258394E.title}"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7FA12D0EE258394E"]
+			description: ["{ftbquests.chapter.8the_prision.quest.5D643BB63647DB8A.description0}"]
+			icon: "minecells:hardstone"
+			id: "5D643BB63647DB8A"
+			tasks: [{
+				id: "57CDDC8701890BD7"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.8the_prision.quest.5D643BB63647DB8A.title}"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5D643BB63647DB8A"]
+			description: ["{ftbquests.chapter.8the_prision.quest.392849A6BB50F469.description0}"]
+			icon: {
+				Count: 1
+				id: "minecells:black_bridge_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "392849A6BB50F469"
+			rewards: [
+				{
+					count: 6
+					id: "2F8795B2E69CDA3E"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					id: "704A8F3D54F2757A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "minecells:black_bridge"
+				icon: {
+					Count: 1
+					id: "minecells:black_bridge_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "51DE4059A6FD8FC3"
+				title: "{ftbquests.chapter.8the_prision.quest.392849A6BB50F469.task.51DE4059A6FD8FC3.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.8the_prision.quest.392849A6BB50F469.title}"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["392849A6BB50F469"]
+			id: "289AE54974A0835D"
+			rewards: [
+				{
+					advancement: "minecells:concierge"
+					auto: "enabled"
+					criterion: ""
+					id: "70D2D628909C7A56"
+					title: "{ftbquests.chapter.8the_prision.quest.289AE54974A0835D.reward.70D2D628909C7A56.title}"
+					type: "advancement"
+				}
+				{
+					id: "658AB9CBDC52C5BB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 7
+					id: "09EA426333980BDB"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecells:concierge"
+				icon: "minecells:concierge_respawn_rune"
+				id: "02FB4335C4239BE5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.8the_prision.quest.289AE54974A0835D.title}"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7FA12D0EE258394E"]
+			description: [
+				"{ftbquests.chapter.8the_prision.quest.786169EB402AB151.description0}"
+				"{image:minecells:textures/gui/guidebook/images/insufferable_crypt.png width:100 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecells:insufferable_crypt_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "786169EB402AB151"
+			rewards: [{
+				id: "52D48EFD2E3D89A8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				biome: "minecells:insufferable_crypt"
+				icon: {
+					Count: 1
+					id: "minecells:insufferable_crypt_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "4FA59940B75D3D3D"
+				title: "{ftbquests.chapter.8the_prision.quest.786169EB402AB151.task.4FA59940B75D3D3D.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.8the_prision.quest.786169EB402AB151.title}"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3C8D91F2793CECAD"]
+			description: ["{ftbquests.chapter.8the_prision.quest.033D13B0BF22DB3D.description0}"]
+			id: "033D13B0BF22DB3D"
+			rewards: [{
+				id: "0875AA681088B43A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 2L
+				id: "271203E170919B3C"
+				item: { Count: 2, id: "minecells:elevator_mechanism" }
+				title: "{ftbquests.chapter.8the_prision.quest.033D13B0BF22DB3D.task.271203E170919B3C.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.8the_prision.quest.033D13B0BF22DB3D.title}"
+			x: -2.0d
+			y: -1.0d
 		}
 	]
 	title: "{ftbquests.chapter.8the_prision.title}"
