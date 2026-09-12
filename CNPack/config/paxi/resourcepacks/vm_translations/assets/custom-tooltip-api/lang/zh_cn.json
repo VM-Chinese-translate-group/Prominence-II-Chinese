@@ -49,5 +49,14 @@
     "cta.item.sapphire":"30%反伤",
     "cta.item.peridot":"剧毒荆棘 II",
     "cta.item.topaz":"保护、物品精通 V、以及抗火效果",
-    "cta.item.aquamarine":"冰盾 III（对敌人施加缓慢 III效果）"
+    "cta.item.aquamarine":"冰盾 III（对敌人施加缓慢 III效果）",
+    "cta.item.decaying_king_lord_soul":"腐朽王的灵魂",
+    "cta.item.ender_dragon_lord_soul":"末影王的灵魂",
+    "cta.item.frenzied_shade_lord_soul":"Frenzied Lord Soul",
+    "cta.item.wither_and_monarch_of_chaos_lord_soul":"Withered Lord Soul",
+    "cta.item.returning_knight_lord_soul":"Knighted Lord Soul",
+    "cta.item.fallen_icon_lord_soul":"Fallen Lord Soul",
+    "cta.item.day_stalker_lord_soul":"Stalker Lord Soul",
+    "cta.item.night_prowler_lord_soul":"Prowler Lord Soul",
+    "cta.item.black_ocelot_pelt":"25% chance to drop from regular ocelots found in jungles."
 }
