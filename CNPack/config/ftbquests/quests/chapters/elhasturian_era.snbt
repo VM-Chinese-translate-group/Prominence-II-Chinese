@@ -1463,6 +1463,14 @@
 					item: "prominent:cinderstone_trophy"
 					type: "item"
 				}
+				{
+					advancement: "prominent:bosses/fallen_archmage"
+					auto: "invisible"
+					criterion: ""
+					id: "60AC3AD41DA68C0E"
+					title: "{ftbquests.chapter.elhasturian_era.quest.2D24C45915E27222.reward.60AC3AD41DA68C0E.title}"
+					type: "advancement"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d

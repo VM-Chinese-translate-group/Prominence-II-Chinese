@@ -218,6 +218,14 @@
 					}
 					type: "item"
 				}
+				{
+					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+					auto: "invisible"
+					criterion: ""
+					id: "483BB4591A5E3C91"
+					title: "{ftbquests.chapter.main_story.quest.1B76F8D3B54F3FE6.reward.483BB4591A5E3C91.title}"
+					type: "advancement"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d
@@ -301,6 +309,14 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+					auto: "invisible"
+					criterion: ""
+					id: "28AB4863E6771A96"
+					title: "{ftbquests.chapter.main_story.quest.49C9DC2F3D131A14.reward.28AB4863E6771A96.title}"
+					type: "advancement"
 				}
 			]
 			shape: "pentagon"
@@ -391,6 +407,14 @@
 					}
 					type: "item"
 				}
+				{
+					advancement: "adventurez:blackstone_golem_advancement"
+					auto: "invisible"
+					criterion: ""
+					id: "52E6EEDE66A8A92E"
+					title: "{ftbquests.chapter.main_story.quest.5063E49140A8BB20.reward.52E6EEDE66A8A92E.title}"
+					type: "advancement"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d
@@ -462,6 +486,14 @@
 					}
 					type: "item"
 				}
+				{
+					advancement: "soulsweapons:draugr_boss"
+					auto: "invisible"
+					criterion: ""
+					id: "5E0A639DFB387CD5"
+					title: "{ftbquests.chapter.main_story.quest.759AA6DD39277704.reward.5E0A639DFB387CD5.title}"
+					type: "advancement"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d
@@ -529,6 +561,14 @@
 					id: "2DDF9907F58C329F"
 					item: "prominent:cinderstone_trophy"
 					type: "item"
+				}
+				{
+					advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+					auto: "enabled"
+					criterion: ""
+					id: "4E14B5077DDF90C9"
+					title: "{ftbquests.chapter.main_story.quest.103203350DABF6BB.reward.4E14B5077DDF90C9.title}"
+					type: "advancement"
 				}
 			]
 			shape: "pentagon"
@@ -610,6 +650,14 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					advancement: "prominent:voids_invasion/killed_eye"
+					auto: "invisible"
+					criterion: ""
+					id: "0E1DE38FD263B0DE"
+					title: "{ftbquests.chapter.main_story.quest.0E567E587E669BED.reward.0E1DE38FD263B0DE.title}"
+					type: "advancement"
 				}
 			]
 			shape: "pentagon"
@@ -1920,6 +1968,14 @@
 					}
 					type: "item"
 				}
+				{
+					advancement: "soulsweapons:end_of_reigns"
+					auto: "invisible"
+					criterion: ""
+					id: "04B95AE7147438F2"
+					title: "{ftbquests.chapter.main_story.quest.5B31D4D4029F1891.reward.04B95AE7147438F2.title}"
+					type: "advancement"
+				}
 			]
 			shape: "pentagon"
 			size: 1.5d
@@ -2078,7 +2134,7 @@
 				"{ftbquests.chapter.main_story.quest.734EDDD8FFBE8BC9.description2}"
 			]
 			hide_until_deps_complete: true
-			icon: "eldritch_end:aberration_spawn_egg"
+			icon: "eldritch_end:aberration_limb"
 			id: "734EDDD8FFBE8BC9"
 			rewards: [
 				{

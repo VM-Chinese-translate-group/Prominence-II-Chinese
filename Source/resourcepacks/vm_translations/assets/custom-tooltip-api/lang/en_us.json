@@ -49,5 +49,14 @@
     "cta.item.sapphire": "30% Damage Deflection",
     "cta.item.peridot": "Poisonous Thorns II",
     "cta.item.topaz": "Protection, Item Mastery V, and Fire Resistance",
-    "cta.item.aquamarine": "Ice Shield III (Inflicts Slowness III on enemies)"
+    "cta.item.aquamarine": "Ice Shield III (Inflicts Slowness III on enemies)",
+    "cta.item.decaying_king_lord_soul": "Decaying Lord Soul",
+    "cta.item.ender_dragon_lord_soul": "Ender Lord Soul",
+    "cta.item.frenzied_shade_lord_soul": "Frenzied Lord Soul",
+    "cta.item.wither_and_monarch_of_chaos_lord_soul": "Withered Lord Soul",
+    "cta.item.returning_knight_lord_soul": "Knighted Lord Soul",
+    "cta.item.fallen_icon_lord_soul": "Fallen Lord Soul",
+    "cta.item.day_stalker_lord_soul": "Stalker Lord Soul",
+    "cta.item.night_prowler_lord_soul": "Prowler Lord Soul",
+    "cta.item.black_ocelot_pelt": "25% chance to drop from regular ocelots found in jungles."
 }
