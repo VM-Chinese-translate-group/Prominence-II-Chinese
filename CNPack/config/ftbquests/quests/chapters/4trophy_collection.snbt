@@ -82,7 +82,7 @@
 			y: -4.5d
 		}
 		{
-			dependency: "0953F58E223F0EC2"
+			dependency: "25D03BCD4D240D90"
 			height: 1.2d
 			image: "prominent_talents:textures/frames/circle_selected.png"
 			rotation: 0.0d
@@ -91,7 +91,7 @@
 			y: -6.0d
 		}
 		{
-			dependency: "29B862369BADE58F"
+			dependency: "0953F58E223F0EC2"
 			height: 1.2d
 			image: "prominent_talents:textures/frames/circle_selected.png"
 			rotation: 0.0d
@@ -162,6 +162,15 @@
 			x: 4.5d
 			y: 2.5d
 		}
+		{
+			dependency: "29B862369BADE58F"
+			height: 1.2d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -9.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -221,8 +230,12 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["34C3284620E16342"]
-			description: ["{ftbquests.chapter.4trophy_collection.quest.0953F58E223F0EC2.description0}"]
+			dependencies: ["25D03BCD4D240D90"]
+			description: [
+				"{ftbquests.chapter.4trophy_collection.quest.0953F58E223F0EC2.description0}"
+				""
+				"{ftbquests.chapter.4trophy_collection.quest.0953F58E223F0EC2.description2}"
+			]
 			id: "0953F58E223F0EC2"
 			rewards: [{
 				id: "1ED060F027F0097A"
@@ -242,7 +255,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0953F58E223F0EC2"]
@@ -266,7 +279,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["29B862369BADE58F"]
@@ -297,7 +310,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5675731BD892A014"]
@@ -531,6 +544,32 @@
 			}]
 			x: 3.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["34C3284620E16342"]
+			description: ["{ftbquests.chapter.4trophy_collection.quest.25D03BCD4D240D90.description0}"]
+			id: "25D03BCD4D240D90"
+			rewards: [{
+				id: "5BDA2D962A9E4325"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "none"
+			tasks: [{
+				id: "69F4DACE91CCC228"
+				item: {
+					Count: 1
+					id: "wands:copper_wand"
+					tag: {
+						Damage: 0
+						inverted: 0b
+						stair_slab: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
 		}
 	]
 	title: "{ftbquests.chapter.4trophy_collection.title}"

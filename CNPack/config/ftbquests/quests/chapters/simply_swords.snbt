@@ -27,11 +27,11 @@
 		{
 			dependency: "306AAF14EBD13866"
 			height: 2.0d
-			image: "simplyswords:item/soulpyre"
+			image: "simplyswords:item/soulpyre_glow_layer"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.0d
-			y: -11.0d
+			x: -1.5d
+			y: -14.0d
 		}
 		{
 			dependency: "03E7D9E3CD29B32F"
@@ -165,8 +165,8 @@
 			image: "simplyswords:item/stormbringer"
 			rotation: 45.0d
 			width: 3.0d
-			x: -17.5d
-			y: -11.0d
+			x: -19.0d
+			y: -13.5d
 		}
 		{
 			dependency: "10710081934A30C6"
@@ -180,11 +180,11 @@
 		{
 			dependency: "306AAF14EBD13866"
 			height: 2.0d
-			image: "simplyswords:item/soulpyre_anim_01"
+			image: "simplyswords:item/soulpyre_base_layer"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.0d
-			y: -11.0d
+			x: -1.5d
+			y: -14.0d
 		}
 		{
 			dependency: "18C4F3367A04B882"
@@ -201,8 +201,8 @@
 			image: "simplyswords:item/storms_edge"
 			rotation: 45.0d
 			width: 2.0d
-			x: -19.0d
-			y: -8.0d
+			x: -21.0d
+			y: -10.5d
 		}
 		{
 			dependency: "3940465EE60C2554"
@@ -210,8 +210,8 @@
 			image: "simplyswords:item/storms_edge_layer"
 			rotation: 0.0d
 			width: 2.0d
-			x: -19.0d
-			y: -8.0d
+			x: -21.0d
+			y: -10.5d
 		}
 		{
 			dependency: "730BC7042CFC5627"
@@ -304,14 +304,6 @@
 			y: -3.0d
 		}
 		{
-			height: 1.0d
-			image: "ftbteams:textures/add.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -30.5d
-			y: 34.0d
-		}
-		{
 			dependency: "46554095B939F28C"
 			height: 1.5d
 			image: "simplyswords:item/magispear_base"
@@ -329,16 +321,57 @@
 			x: -10.0d
 			y: -11.0d
 		}
+		{
+			dependency: "6ECFB00CAB6FADAC"
+			height: 2.0d
+			image: "simplybows:item/bubble_bow/bubble_bow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -11.0d
+			y: 14.5d
+		}
+		{
+			dependency: "16FD124AF03A6DA9"
+			height: 2.0d
+			image: "simplybows:item/vine_bow/vine_bow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: 12.5d
+		}
+		{
+			dependency: "515E31092F36D31D"
+			height: 2.0d
+			image: "simplybows:item/earth_bow/earth_bow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: 13.5d
+		}
+		{
+			dependency: "21E3DF72858C3D6B"
+			height: 1.0d
+			image: "simplybows:item/upgrades/enchanted_bow_string"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 9.5d
+		}
+		{
+			dependency: "21E3DF72858C3D6B"
+			height: 1.0d
+			image: "simplybows:item/upgrades/reinforced_bow_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 9.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"{ftbquests.chapter.simply_swords.quest.0F426527B63F854D.description0}"
-				""
-				"{ftbquests.chapter.simply_swords.quest.0F426527B63F854D.description2}"
-			]
+			description: ["{ftbquests.chapter.simply_swords.quest.0F426527B63F854D.description0}"]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -384,6 +417,7 @@
 				"{ftbquests.chapter.simply_swords.quest.5AA2A1E358A18B4E.description2}"
 			]
 			hide_until_deps_complete: true
+			icon: "simplyswords:empowered_remnant"
 			id: "5AA2A1E358A18B4E"
 			rewards: [
 				{
@@ -417,17 +451,22 @@
 					type: "checkmark"
 				}
 			]
-			x: -10.0d
-			y: 4.5d
+			x: -12.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["5AA2A1E358A18B4E"]
+			dependencies: ["29802A82F21E90C7"]
 			description: [
 				"{ftbquests.chapter.simply_swords.quest.3E5207641E8653DC.description0}"
 				""
 				"{ftbquests.chapter.simply_swords.quest.3E5207641E8653DC.description2}"
 			]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "simplyswords:runefused_gem"
+				tag: { }
+			}
 			id: "3E5207641E8653DC"
 			rewards: [
 				{
@@ -459,17 +498,22 @@
 					type: "checkmark"
 				}
 			]
-			x: -13.5d
-			y: 2.5d
+			x: -5.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["5AA2A1E358A18B4E"]
+			dependencies: ["29802A82F21E90C7"]
 			description: [
 				"{ftbquests.chapter.simply_swords.quest.47EBDA6516061205.description0}"
 				""
 				"{ftbquests.chapter.simply_swords.quest.47EBDA6516061205.description2}"
 			]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "simplyswords:netherfused_gem"
+				tag: { }
+			}
 			id: "47EBDA6516061205"
 			rewards: [
 				{
@@ -500,11 +544,14 @@
 					type: "checkmark"
 				}
 			]
-			x: -6.5d
-			y: 2.5d
+			x: -5.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["0F426527B63F854D"]
+			dependencies: [
+				"0F426527B63F854D"
+				"771507AA08194DE6"
+			]
 			description: [
 				"{ftbquests.chapter.simply_swords.quest.574677AD427E33FB.description0}"
 				""
@@ -534,10 +581,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"47EBDA6516061205"
-				"3E5207641E8653DC"
-			]
 			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.simply_swords.quest.771507AA08194DE6.description0}"
@@ -863,8 +906,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.5d
-			y: -9.0d
+			x: -19.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["3940465EE60C2554"]
@@ -894,8 +937,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
-			y: -10.0d
+			x: -17.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["07DAFC04179A4DA0"]
@@ -1114,8 +1157,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -10.0d
+			x: -2.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["07DAFC04179A4DA0"]
@@ -1197,8 +1240,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.5d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["306AAF14EBD13866"]
@@ -1234,8 +1277,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -9.0d
+			x: -4.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["306AAF14EBD13866"]
@@ -1271,8 +1314,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -9.0d
+			x: -1.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["547DCAE28B3968ED"]
@@ -1521,8 +1564,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: -9.0d
+			x: -16.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["547DCAE28B3968ED"]
@@ -1695,7 +1738,7 @@
 				type: "item"
 			}]
 			x: -17.0d
-			y: -7.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6A8665FBC017A00F"]
@@ -2257,8 +2300,8 @@
 				title: "{ftbquests.chapter.simply_swords.quest.3940465EE60C2554.task.5AE9AAEE101CE4C8.title}"
 				type: "checkmark"
 			}]
-			x: -16.0d
-			y: -8.5d
+			x: -17.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["771507AA08194DE6"]
@@ -2297,8 +2340,8 @@
 				title: "{ftbquests.chapter.simply_swords.quest.306AAF14EBD13866.task.4E8294EF91FA3E90.title}"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: -8.5d
+			x: -2.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["771507AA08194DE6"]
@@ -2517,6 +2560,7 @@
 				type: "kill"
 				value: 100L
 			}]
+			title: "{ftbquests.chapter.simply_swords.quest.508A68D4C7383920.title}"
 			x: 1.0d
 			y: -1.0d
 		}
@@ -2527,6 +2571,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.simply_swords.quest.17B5281769381237.description0}"]
+			icon: "eldritch_end:ominous_eye"
 			id: "17B5281769381237"
 			invisible: true
 			rewards: [
@@ -2545,10 +2590,12 @@
 			subtitle: "{ftbquests.chapter.simply_swords.quest.17B5281769381237.subtitle}"
 			tasks: [{
 				entity: "eldritch_end:ominous_eye"
+				icon: "eldritch_end:ominous_eye"
 				id: "22B61AA183603949"
 				type: "kill"
 				value: 120L
 			}]
+			title: "{ftbquests.chapter.simply_swords.quest.17B5281769381237.title}"
 			x: 2.5d
 			y: -6.5d
 		}
@@ -2583,8 +2630,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.simply_swords.quest.392E27D0C5EB8965.title}"
-			x: -7.5d
-			y: 5.5d
+			x: -13.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
@@ -2614,8 +2661,8 @@
 				item: "simplyswords:contained_remnant"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 5.5d
+			x: -13.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["574677AD427E33FB"]
@@ -2652,6 +2699,460 @@
 			}]
 			x: -10.0d
 			y: -9.5d
+		}
+		{
+			dependencies: ["0F426527B63F854D"]
+			description: [
+				"{ftbquests.chapter.simply_swords.quest.29802A82F21E90C7.description0}"
+				""
+				""
+				"{ftbquests.chapter.simply_swords.quest.29802A82F21E90C7.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "29802A82F21E90C7"
+			rewards: [
+				{
+					id: "04CBEDC843C26BD7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "642A14A67BBB3ED9"
+					item: "simplyswords:runefused_gem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F85DDF270A92AF1"
+				item: "simplyswords:runic_forge"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0F426527B63F854D"]
+			description: [
+				"{ftbquests.chapter.simply_swords.quest.21E3DF72858C3D6B.description0}"
+				""
+				"{ftbquests.chapter.simply_swords.quest.21E3DF72858C3D6B.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "21E3DF72858C3D6B"
+			rewards: [{
+				id: "70F9A68EEB8EA599"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7F0E5FBB8D23E728"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:simplybows"
+					}
+				}
+				title: "{ftbquests.chapter.simply_swords.quest.21E3DF72858C3D6B.task.7F0E5FBB8D23E728.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.simply_swords.quest.21E3DF72858C3D6B.title}"
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["21E3DF72858C3D6B"]
+			id: "16FD124AF03A6DA9"
+			rewards: [
+				{
+					id: "1E322DFC37B7D096"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4286FF0A2A1D89D1"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.16FD124AF03A6DA9.subtitle}"
+			tasks: [{
+				id: "1BF20A2F74969377"
+				item: {
+					Count: 1
+					id: "simplybows:vine_bow/vine_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["21E3DF72858C3D6B"]
+			id: "6ECFB00CAB6FADAC"
+			rewards: [
+				{
+					id: "0DFEFEDC371216BE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2910EB46A7B21A1E"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.6ECFB00CAB6FADAC.subtitle}"
+			tasks: [{
+				id: "52BF4D8CCF67E6B9"
+				item: {
+					Count: 1
+					id: "simplybows:bubble_bow/bubble_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["21E3DF72858C3D6B"]
+			id: "75B0F005EEE82F1C"
+			rewards: [
+				{
+					id: "5DCE119118B1C851"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "64EA58079A7F03B9"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.75B0F005EEE82F1C.subtitle}"
+			tasks: [{
+				id: "364FAFA1995C9BE0"
+				item: {
+					Count: 1
+					id: "simplybows:bee_bow/bee_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["21E3DF72858C3D6B"]
+			id: "68D67D3843FB8D0C"
+			rewards: [
+				{
+					id: "52C1842E2EB2B8A1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3711C3A31E4A3F70"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.68D67D3843FB8D0C.subtitle}"
+			tasks: [{
+				id: "530D6D621A46DF04"
+				item: {
+					Count: 1
+					id: "simplybows:blossom_bow/blossom_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["21E3DF72858C3D6B"]
+			id: "515E31092F36D31D"
+			rewards: [
+				{
+					id: "0C714934FBA4D91A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "106AD0C06D7D0ABC"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.515E31092F36D31D.subtitle}"
+			tasks: [{
+				id: "7B8FADFB6ACCD81D"
+				item: {
+					Count: 1
+					id: "simplybows:earth_bow/earth_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["21E3DF72858C3D6B"]
+			id: "0BC1D1A91080DA24"
+			rewards: [
+				{
+					id: "38545851843573BC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "32F2588782C14ABB"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.0BC1D1A91080DA24.subtitle}"
+			tasks: [{
+				id: "7646BA86DCD67CAC"
+				item: {
+					Count: 1
+					id: "simplybows:echo_bow/echo_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["21E3DF72858C3D6B"]
+			id: "781DE40D51BE1DD4"
+			rewards: [
+				{
+					id: "43E4683E129D2AEA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7AD84C9D7B8DD618"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.781DE40D51BE1DD4.subtitle}"
+			tasks: [{
+				id: "2EDFF480FCB6EC6B"
+				item: {
+					Count: 1
+					id: "simplybows:ice_bow/ice_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["306AAF14EBD13866"]
+			description: ["{ftbquests.chapter.simply_swords.quest.20B8DA22CFDC2F26.description0}"]
+			id: "20B8DA22CFDC2F26"
+			rewards: [
+				{
+					id: "168988D38E0850EA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "35CC12FDE867FCA2"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.20B8DA22CFDC2F26.subtitle}"
+			tasks: [{
+				id: "63DF965602357235"
+				item: {
+					Count: 1
+					id: "simplyswords:wraithfang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["547DCAE28B3968ED"]
+			id: "2B7F4026C454F840"
+			rewards: [
+				{
+					id: "1ED4D732AA5BEDAE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "594EAA252809A023"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.2B7F4026C454F840.subtitle}"
+			tasks: [{
+				id: "550E7508750B1B75"
+				item: {
+					Count: 1
+					id: "simplyswords:bloodwake"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["07DAFC04179A4DA0"]
+			description: ["{ftbquests.chapter.simply_swords.quest.27669556B598EB65.description0}"]
+			id: "27669556B598EB65"
+			rewards: [
+				{
+					id: "4B25C8397801C9D6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "67AEE33A49233FCD"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.27669556B598EB65.subtitle}"
+			tasks: [{
+				id: "2193407B110525B0"
+				item: {
+					Count: 1
+					id: "simplyswords:riftmane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A8665FBC017A00F"]
+			description: ["{ftbquests.chapter.simply_swords.quest.380C4A4D42C73F40.description0}"]
+			id: "380C4A4D42C73F40"
+			rewards: [
+				{
+					id: "292BB7B0EBDFD438"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0368E63E085C275E"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.380C4A4D42C73F40.subtitle}"
+			tasks: [{
+				id: "00DC283AB855E16E"
+				item: {
+					Count: 1
+					id: "simplyswords:dawnquiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03E7D9E3CD29B32F"]
+			id: "53507F36F5D42653"
+			rewards: [
+				{
+					id: "233E09D70D52788D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0450177BAADA15FC"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.53507F36F5D42653.subtitle}"
+			tasks: [{
+				id: "1C08DE5A24AD6EA7"
+				item: {
+					Count: 1
+					id: "simplyswords:chompolotl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3940465EE60C2554"]
+			description: ["{ftbquests.chapter.simply_swords.quest.3A78E8CED2DBB989.description0}"]
+			id: "3A78E8CED2DBB989"
+			rewards: [
+				{
+					id: "4F9E1CB8593B5708"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "60DD82290695EDF6"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.simply_swords.quest.3A78E8CED2DBB989.subtitle}"
+			tasks: [{
+				id: "4755638766C45F83"
+				item: {
+					Count: 1
+					id: "simplyswords:stormscale"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.5d
+			y: -10.0d
 		}
 	]
 	title: "{ftbquests.chapter.simply_swords.title}"

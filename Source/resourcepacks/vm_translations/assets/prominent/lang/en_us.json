@@ -1075,7 +1075,7 @@
     "npc.vaaz.archer.job": "<Archer>",
     "npc.vaaz.jeweler.1.job": "<Jeweler>",
     "npc.vaaz.jeweler.2.job": "<Glass Blower>",
-    "npc.vaaz.librarian.job": "<Librarian>",
+    "npc.vaaz.librarian.job": "<Historian>",
 
     "#comment_messages":"------------------------------------ Messages --------------------------------------------------",
     "message.prominent.beacon.tip": "Tip: Activate the waystone for a checkpoint.",
@@ -1377,9 +1377,6 @@
     ],
 
     "entity.prominent.challenge_portal": "Challenge Portal",
-    "entity.prominent.serkonid": "Serkonid",
-    "entity.prominent.dwarf": "Dwarf",
-    "entity.prominent.skellak": "S'kellak",
 
     "block.prominent.primordial_forge": "Primordial Forge",
     "block.prominent.forge_multiblock_filler": "Primordial Forge",

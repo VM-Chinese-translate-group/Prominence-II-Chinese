@@ -1,0 +1,61 @@
+{
+  "sst.config_screen.title": "Simply Swords Tweaks Configuration",
+  "sst.config_screen.op_required": "\n§4§lWarning:§f §cYou must be a server operator to edit this.§f",
+
+  "sst.category.battle_standards": "Battle Standards",
+  "sst.category.battle_standards.desc": "Tweaks, effect multipliers, and range configurations for §6Battle Standard§f entities.",
+
+  "sst.group.banner_general": "General Banner Settings",
+  "sst.option.banner_healing_allowed": "Allow Banner Healing",
+  "sst.option.banner_healing_allowed.desc": "Allows §6Battle Standard§f entities to receive healing from any source.\n\nIf disabled, standards cannot be healed at all.",
+
+  "sst.group.galeforce": "Galeforce (Enigma)",
+  "sst.option.galeforce_haste_amplifier": "Haste Amplifier",
+  "sst.option.galeforce_haste_amplifier.desc": "The §6Haste§f status effect amplifier granted to the owner while near §6Galeforce§f.",
+  "sst.option.galeforce_haste_radius": "Haste Radius",
+  "sst.option.galeforce_haste_radius.desc": "Radius in blocks around §6Galeforce§f in which the owner receives the §6Haste§f effect.",
+  "sst.option.galeforce_aoe_radius": "AoE Pull Radius",
+  "sst.option.galeforce_aoe_radius.desc": "Radius in blocks around §6Galeforce§f for pulling nearby enemies and applying aura effects.",
+  "sst.option.galeforce_pain_amplifier": "Pain Amplifier",
+  "sst.option.galeforce_pain_amplifier.desc": "The §6Pain§f status effect amplifier applied to targets caught within §6Galeforce's§f vortex.",
+
+  "sst.group.abyssal_standard": "Abyssal Standard (Harbinger)",
+  "sst.option.abyssal_standard_haste_amplifier": "Haste Amplifier",
+  "sst.option.abyssal_standard_haste_amplifier.desc": "The §6Haste§f status effect amplifier granted to the owner while near §6Abyssal Standard§f.",
+  "sst.option.abyssal_standard_haste_radius": "Haste Radius",
+  "sst.option.abyssal_standard_haste_radius.desc": "Radius in blocks around §6Abyssal Standard§f in which the owner receives the §6Haste§f effect.",
+  "sst.option.abyssal_standard_aoe_radius": "AoE Radius",
+  "sst.option.abyssal_standard_aoe_radius.desc": "Radius in blocks around §6Abyssal Standard§f for team buffs, aura damage and negative effects for enemies.",
+  "sst.option.abyssal_standard_aoe_haste_amplifier": "AoE Ally Haste Amplifier",
+  "sst.option.abyssal_standard_aoe_haste_amplifier.desc": "The §6Haste§f status effect amplifier granted to nearby allies within range.",
+  "sst.option.abyssal_standard_aoe_slowness_amplifier": "AoE Slowness Amplifier",
+  "sst.option.abyssal_standard_aoe_slowness_amplifier.desc": "The §6Slowness§f status effect amplifier applied to enemies within range.",
+
+  "sst.group.sunfire": "Righteous Standard (Sunfire)",
+  "sst.option.sunfire_aoe_radius": "AoE Radius",
+  "sst.option.sunfire_aoe_radius.desc": "Radius in blocks around §6Sunfire§f for team Strength, healing and aura damage.",
+  "sst.option.sunfire_strength_amplifier": "Strength Amplifier",
+  "sst.option.sunfire_strength_amplifier.desc": "The §6Strength§f status effect amplifier granted to nearby allies within range.",
+
+  "sst.group.nullification": "Nullification Standard (Netherfused Gem)",
+  "sst.option.nullification_aoe_radius": "AoE Radius",
+  "sst.option.nullification_aoe_radius.desc": "Radius in blocks around §6Nullification Standard§f for removing buffs from enemies and debuffs from allies.",
+  "sst.option.nullification_prevent_battle_fatigue": "Prevent Battle Fatigue",
+  "sst.option.nullification_prevent_battle_fatigue.desc": "Prevents the Battle Fatigue harmful status effect from being applied to the caster when summoning a  §6Nullification Standard§f.\n\nEnables an internal cooldown system instead, preventing players from resetting the cooldown by drinking milk or using cleansing effects.",
+  "sst.option.nullification_cooldown": "Cooldown (Seconds)",
+  "sst.option.nullification_cooldown.desc": "Cooldown duration in seconds before §6Nullification Standard§f can be summoned again.\n\nOnly active when §6Prevent Battle Fatigue§f is enabled.",
+
+  "sst.category.bug_fixes": "Bug Fixes",
+  "sst.category.bug_fixes.desc": "Fixes for various bugs in §6Simply Swords§f.",
+  "sst.option.fix_status_effect_stacking": "Fix Effect Capping Bug",
+  "sst.option.fix_status_effect_stacking.desc": "Fixes the effect stacking bug where a battle standard maintains a higher amplifier than configured if granted by an external source (e.g. §6Enigma§f retaining §6Twisted Blade's§f Haste XV while near §6Galeforce§f).",
+  "sst.option.fix_elemental_vortex_leak": "Fix Elemental Vortex State Leak",
+  "sst.option.fix_elemental_vortex_leak.desc": "Fixes §6Galeforce§f attacking its owner while under the effect of the §6Elemental Vortex§f status effect.",
+  "sst.option.icewhisper_slowness_cap": "Icewhisper Slowness Cap",
+  "sst.option.icewhisper_slowness_cap.desc": "Caps the maximum §6Slowness§f debuff amplifier that §6Icewhisper§f can stack onto targets.\n\nFixes Simply Swords' bug where Slowness can stack infinitely.\n\n§6-1§f: Disables fix (retains infinite stacking)",
+
+  "sst.category.compatibility": "Compatibility",
+  "sst.category.compatibility.desc": "Integrations and balancing with other mods.",
+  "sst.option.rebalance_compat_enabled": "Enable ReBalance Scaling",
+  "sst.option.rebalance_compat_enabled.desc": "Applies §6ReBalance§f's PvP damage multiplier and global reduction threshold to §6Battle Standard§f aura damage dealt to players."
+}

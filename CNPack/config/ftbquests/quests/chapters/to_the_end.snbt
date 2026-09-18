@@ -521,10 +521,11 @@
 			dependency: "37525863A9E5509D"
 			height: 1.0d
 			image: "prominent_talents:textures/frames/fate_selected.png"
+			order: 111
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.5d
-			y: 6.0d
+			y: 4.75d
 		}
 		{
 			dependency: "37525863A9E5509D"
@@ -589,6 +590,42 @@
 			width: 3.0d
 			x: 9.5d
 			y: -16.0d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 4.0d
+			image: "the_bumblezone:textures/particle/trade_hint/1.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 0.75d
+			image: "endrem:item/cold_eye"
+			order: 111
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.5d
+			y: 5.75d
+		}
+		{
+			dependency: "37525863A9E5509D"
+			height: 1.0d
+			image: "prominent_talents:textures/frames/fate_selected.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 5.75d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/down"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 3.5d
 		}
 	]
 	order_index: 5
@@ -1049,7 +1086,7 @@
 			]
 			title: "{ftbquests.chapter.to_the_end.quest.1607E83A33D2BA18.title}"
 			x: 2.5d
-			y: 6.0d
+			y: 4.75d
 		}
 		{
 			dependencies: [

@@ -2024,6 +2024,31 @@
 			x: -3.5d
 			y: 11.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["7953668FC30DDF15"]
+			hide_until_deps_complete: true
+			icon: "enchanted:rowan_sapling"
+			id: "1E8529983F9CB72A"
+			invisible: true
+			rewards: [{
+				id: "0ED84095242AA076"
+				item: "enchanted:rowan_sapling"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.77d
+			tasks: [{
+				count: 128L
+				id: "6D50739D3CE1C6B6"
+				item: "enchanted:mutandis"
+				title: "{ftbquests.chapter.c_bewitchment.quest.1E8529983F9CB72A.task.6D50739D3CE1C6B6.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_bewitchment.quest.1E8529983F9CB72A.title}"
+			x: -12.0d
+			y: -4.5d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.c_bewitchment.subtitle0}"]
 	title: "{ftbquests.chapter.c_bewitchment.title}"

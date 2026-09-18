@@ -309,29 +309,6 @@
 		}
 		{
 			dependencies: ["1DBE4C392FA662F5"]
-			id: "19AB079C58E4848F"
-			rewards: [{
-				id: "56D0CCB16F64A543"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "{ftbquests.chapter.archon.quest.19AB079C58E4848F.subtitle}"
-			tasks: [{
-				id: "26CAABD2CBC8B780"
-				item: {
-					Count: 1
-					id: "archon:wither_stave"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["1DBE4C392FA662F5"]
 			id: "76BF9FAE02BCBC4F"
 			rewards: [{
 				id: "69598316DE90F4BE"
@@ -613,29 +590,6 @@
 			}]
 			x: -1.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["1DBE4C392FA662F5"]
-			id: "21CE1961E26C1017"
-			rewards: [{
-				id: "3B5C53AF196F8618"
-				type: "xp"
-				xp: 15
-			}]
-			subtitle: "{ftbquests.chapter.archon.quest.21CE1961E26C1017.subtitle}"
-			tasks: [{
-				id: "1035F0368F67CD69"
-				item: {
-					Count: 1
-					id: "archon:fire_wand"
-					tag: {
-						archon: { }
-					}
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: -6.5d
 		}
 		{
 			dependencies: ["444BFAF1CC19067C"]
@@ -962,7 +916,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.0d
 			y: -6.0d
 		}
 		{
