@@ -23,6 +23,16 @@
 			x: 11.926190476190477d
 			y: 1.672619047619051d
 		}
+		{
+			height: 2.0d
+			hover: ["ftbquests.chapter.deeper_and_darker.image2.hover0"]
+			image: "ftblibrary:icons/info"
+			order: 123
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: 1.5d
+		}
 	]
 	order_index: 7
 	quest_links: [ ]

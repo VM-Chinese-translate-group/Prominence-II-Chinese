@@ -548,10 +548,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: [
-				"0F426527B63F854D"
-				"771507AA08194DE6"
-			]
+			dependencies: ["0F426527B63F854D"]
 			description: [
 				"{ftbquests.chapter.simply_swords.quest.574677AD427E33FB.description0}"
 				""
@@ -581,6 +578,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["574677AD427E33FB"]
 			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.simply_swords.quest.771507AA08194DE6.description0}"
@@ -2736,6 +2734,11 @@
 				"{ftbquests.chapter.simply_swords.quest.21E3DF72858C3D6B.description0}"
 				""
 				"{ftbquests.chapter.simply_swords.quest.21E3DF72858C3D6B.description2}"
+				"{ftbquests.chapter.simply_swords.quest.21E3DF72858C3D6B.description3}"
+				""
+				"{ftbquests.chapter.simply_swords.quest.21E3DF72858C3D6B.description5}"
+				""
+				"{ftbquests.chapter.simply_swords.quest.21E3DF72858C3D6B.description7}"
 			]
 			hide_until_deps_complete: true
 			id: "21E3DF72858C3D6B"

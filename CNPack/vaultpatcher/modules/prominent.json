@@ -2,8 +2,8 @@
   {
     "authors": "3093FengMing",
     "name": "Prominent 硬编码文本本地化",
-    "desc": "将 Prominent 4.1.0 及其内嵌模组中的硬编码显示文本接入 i18n。",
-    "mods": "Prominent 4.1.0 (Minecraft 1.20.1)",
+    "desc": "将 Prominent 4.1.1 及其内嵌模组中的硬编码显示文本接入 i18n。",
+    "mods": "Prominent 4.1.1 (Minecraft 1.20.1)",
     "dynamic": false,
     "i18n": true
   },
@@ -20,9 +20,28 @@
   },
   {
     "target_class": [
+      "com.cleannrooster.sbprom.mixin.CarvedPumpkinBlockMixin"
+    ],
+    "pairs": [
+      {
+        "key": "IH^",
+        "value": "vp.prominent.gui.ih"
+      }
+    ]
+  },
+  {
+    "target_class": [
       "elocindev.prominent.client.xaero.XaeroMinimapOverlay"
     ],
     "pairs": [
+      {
+        "key": " Minimap has not rendered yet.",
+        "value": "vp.prominent.gui.minimap_has_not_rendered_yet"
+      },
+      {
+        "key": "Xaero overlay offsets overlay=",
+        "value": "vp.prominent.gui.xaero_overlay_offsets_overlay"
+      },
       {
         "key": ". Level x/y adjustments are in texture pixels (128px texture) relative to the shield anchor. Use /xaerooverlay overlay <x> <y> [scale], /xaerooverlay overlay scale <value>, /xaerooverlay level <x> <y> [scale], /xaerooverlay level scale <value>, /xaerooverlay coords <x> <y>, or /xaerooverlay reset.",
         "value": "vp.prominent.xaero_overlay.help"
@@ -486,6 +505,28 @@
   },
   {
     "target_class": [
+      "elocindev.prominent.livecontent.LiveContentSync"
+    ],
+    "pairs": [
+      {
+        "key": "Accept",
+        "value": "vp.prominent.gui.accept"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent.mixin.client.CustomItemNameMixin"
+    ],
+    "pairs": [
+      {
+        "key": " (Quest Book)",
+        "value": "vp.prominent.gui.quest_book"
+      }
+    ]
+  },
+  {
+    "target_class": [
       "elocindev.prominent.player.artifact.ClientArtifactHolder"
     ],
     "pairs": [
@@ -838,6 +879,17 @@
       {
         "key": " Unholy Power",
         "value": "vp.prominent.tooltip.unholy_power"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "elocindev.prominent_talents.mixin.InteractionManagerMixin"
+    ],
+    "pairs": [
+      {
+        "key": "You do not meet the required player level to use this flower (65)",
+        "value": "vp.prominent.talents.required_level_tooltip"
       }
     ]
   },

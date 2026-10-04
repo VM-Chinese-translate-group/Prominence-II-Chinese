@@ -685,7 +685,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "ranged_weapon:haste",
-                    "value": 1,
+                    "value": 0.5,
                     "operation": "multiply_base"
                 }
             },

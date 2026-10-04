@@ -45,16 +45,16 @@
         "icon": {
             "type": "texture",
             "data": {
-                "texture": "prominent:textures/icon/talent_tree/supernova/speed.png"
+                "texture": "prominent:textures/icon/talent_tree/spell_haste.png"
             }
         },
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
-                    "attribute": "generic.attack_speed",
-                    "value": 0.12,
-                    "operation": "multiply_total"
+                    "attribute": "spell_power:haste",
+                    "value": 0.05,
+                    "operation": "multiply_base"
                 }
             }
         ],

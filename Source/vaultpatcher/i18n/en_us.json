@@ -1,4 +1,5 @@
 {
+  "vp.tierify.item.tooltip.1": "Reforging Qualities:",
   "vp.prominent.tooltip.20_astral_power": "§9+20% §f\uE023 §9Astral Power",
   "vp.prominent.tooltip.30_fire_power": "§9+30% §f\uE017 §9Fire Power",
   "vp.prominent.tooltip.30_arcane_power": "§9+30% §f\uE018 §9Arcane Power",
@@ -81,7 +82,6 @@
   "vp.prominent.gui.player_level_health_gain": "Player Level Health Gain",
   "vp.prominent.gui.reabsorption_fyr_alath_modifie": "Reabsorption Fyr'alath Modifier",
   "vp.prominent.gui.s_exceeds_duration": "s exceeds duration ",
-  "vp.prominent.gui.this_code_reads_configuration": "This code reads configuration files from our github repository to update content weekly dynamically for all players, such as mythic boss rotations, weekly quests, seasonal events, etc. It's designed to only allow configs and not anything executable, for safety purposes. Files also cannot be modified outside the config folder of your modpack instance. If you do not want live content, you can disable it in config/prominent/live_content.json5.",
   "vp.prominent.singularity.tooltip": "This staff has evolved with the raw astral powers. Known now as Singularity, A Star's Rebirth.",
   "vp.prominent.khaz_el.tooltip": "This staff has evolved with the raw frozen power. Known now as Khaz'el, The Frozen Destiny",
   "vp.prominent.adassil.tooltip": "This staff has evolved with the raw power of Fire. Known now as Adassil, The Scorched Tree.",
@@ -110,7 +110,7 @@
   "vp.prominent.gui.text_8": "\uE006",
   "vp.prominent.gui.text_9": "\uE027",
   "vp.prominent.gui.text_10": "\uE029",
-  "vp.prominent.gui.text_11": "\uE006 ",
+  "vp.prominent.gui.text_11": "\uE029 ",
   "vp.prominent.gui.text_12": "\uE030",
   "vp.prominent.gui.text_13": "\uE030 ",
   "vp.prominent.gui.text_14": "\uE031",
@@ -163,5 +163,6 @@
   "vp.prominent.gui.vaazkar": "Vaazkar",
   "vp.prominent.gui.you": "You",
   "vp.prominent.gui.zealot": "Zealot",
-  "vp.tierify.item.tooltip.1": "Reforging Qualities:"
+  "vp.prominent.gui.minimap_has_not_rendered_yet": " Minimap has not rendered yet.",
+  "vp.prominent.gui.xaero_overlay_offsets_overlay": "Xaero overlay offsets overlay="
 }

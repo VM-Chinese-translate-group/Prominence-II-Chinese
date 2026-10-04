@@ -6,6 +6,16 @@
 	group: "3E586F2160161EEA"
 	icon: "minecraft:bee_nest"
 	id: "59490AFCD9D1F93B"
+	images: [{
+		height: 2.0d
+		hover: ["ftbquests.chapter.the_bumblezone.image0.hover0"]
+		image: "ftblibrary:icons/info"
+		order: 123
+		rotation: 0.0d
+		width: 2.0d
+		x: 1.0d
+		y: 1.0d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [

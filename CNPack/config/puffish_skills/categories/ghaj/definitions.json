@@ -24,8 +24,16 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "prominent:artifact_damage",
-                    "value": 0.05,
+                    "value": 0.06,
                     "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base"
                 }
             },
             {
@@ -67,8 +75,16 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.attack_speed",
-                    "value": 0.02,
+                    "value": 0.08,
                     "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "prominent:artifact_damage",
+                    "value": 0.04,
+                    "operation": "addition"
                 }
             },
             {
@@ -113,6 +129,14 @@
                     "attribute": "prominent:artifact_damage",
                     "value": 0.1,
                     "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_speed",
+                    "value": 0.1,
+                    "operation": "multiply_base"
                 }
             },
             {
