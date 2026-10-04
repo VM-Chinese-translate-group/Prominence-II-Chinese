@@ -1,4 +1,5 @@
 {
+    "vp.tierify.item.tooltip.1":"将物品重铸为以下品质：",
     "vp.prominent.tooltip.20_astral_power":"§9+20% §f §9星辰法术强度",
     "vp.prominent.tooltip.30_fire_power":"§9+30% §f §9火焰法术强度",
     "vp.prominent.tooltip.30_arcane_power":"§9+30% §f §9奥秘法术强度",
@@ -81,7 +82,6 @@
     "vp.prominent.gui.player_level_health_gain":"玩家升级时生命值提升量",
     "vp.prominent.gui.reabsorption_fyr_alath_modifie":"吸收再生菲莱拉兹修饰符",
     "vp.prominent.gui.s_exceeds_duration":"秒后失效",
-    "vp.prominent.gui.this_code_reads_configuration":"This code reads configuration files from our github repository to update content weekly dynamically for all players, such as mythic boss rotations, weekly quests, seasonal events, etc. It's designed to only allow configs and not anything executable, for safety purposes. Files also cannot be modified outside the config folder of your modpack instance. If you do not want live content, you can disable it in config/prominent/live_content.json5.",
     "vp.prominent.singularity.tooltip":"在星辰法术之力的强大驱动下，该权杖已完成进化，现其名为奇点·星震而生。",
     "vp.prominent.khaz_el.tooltip":"在寒冰法术之力的强大驱动下，该权杖已完成进化，现其名为卡兹埃·冰封宿命。",
     "vp.prominent.adassil.tooltip":"在火焰法术之力的强大驱动下，该权杖已完成进化，现其名为阿戴修·焰灼焦木。",
@@ -110,7 +110,7 @@
     "vp.prominent.gui.text_8":"",
     "vp.prominent.gui.text_9":"",
     "vp.prominent.gui.text_10":"",
-    "vp.prominent.gui.text_11":" ",
+    "vp.prominent.gui.text_11":" ",
     "vp.prominent.gui.text_12":"",
     "vp.prominent.gui.text_13":" ",
     "vp.prominent.gui.text_14":"",
@@ -163,5 +163,6 @@
     "vp.prominent.gui.vaazkar":"瓦兹卡尔",
     "vp.prominent.gui.you":"你",
     "vp.prominent.gui.zealot":"邪教徒",
-    "vp.tierify.item.tooltip.1":"将物品重铸为以下品质："
+    "vp.prominent.gui.minimap_has_not_rendered_yet":" Minimap has not rendered yet.",
+    "vp.prominent.gui.xaero_overlay_offsets_overlay":"Xaero overlay offsets overlay="
 }
