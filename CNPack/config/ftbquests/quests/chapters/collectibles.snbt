@@ -68,7 +68,7 @@
 			dependencies: ["0F7A087CC11FB122"]
 			icon: {
 				Count: 1
-				id: "aquamirae:three_bolt_helmet"
+				id: "aquamirae:salvager_helmet"
 				tag: {
 					Damage: 0
 				}
@@ -198,7 +198,7 @@
 					id: "0CEFC504FCA32CE4"
 					item: {
 						Count: 1
-						id: "aquamirae:three_bolt_helmet"
+						id: "aquamirae:salvager_helmet"
 						tag: {
 							Damage: 0
 						}
@@ -209,7 +209,7 @@
 					id: "299207399AC8C79B"
 					item: {
 						Count: 1
-						id: "aquamirae:three_bolt_suit"
+						id: "aquamirae:salvager_suit"
 						tag: {
 							Damage: 0
 						}
@@ -220,7 +220,7 @@
 					id: "531A19DC9578D686"
 					item: {
 						Count: 1
-						id: "aquamirae:three_bolt_leggings"
+						id: "aquamirae:salvager_waders"
 						tag: {
 							Damage: 0
 						}
@@ -231,7 +231,7 @@
 					id: "46045C65C08093FC"
 					item: {
 						Count: 1
-						id: "aquamirae:three_bolt_boots"
+						id: "aquamirae:salvager_boots"
 						tag: {
 							Damage: 0
 						}
@@ -391,7 +391,7 @@
 				}
 				{
 					id: "3AC35A0E15CE6FB4"
-					item: "aquamirae:golden_moth_in_a_jar"
+					item: "aquamirae:golden_moth_jar"
 					type: "item"
 				}
 				{
@@ -401,99 +401,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.collectibles.quest.73BDC1527FC27EBE.title}"
-			x: 3.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["068588703F19898F"]
-			id: "180A98F6DB4CBB63"
-			rewards: [
-				{
-					id: "0CE1CC07D12BE309"
-					item: {
-						Count: 1
-						id: "aquamirae:coral_lance"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 4s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0BCAB542ADF89F98"
-					item: {
-						Count: 1
-						id: "aquamirae:dagger_of_greed"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2B3510910AD7C9A9"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_tiara"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "63280497E09D45A6"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_heaume"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4EF177C83BA136C4"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_brigantine"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "73B77A97CE249241"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2F5657A6789B76F4"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -3.5d
-			y: -9.5d
+			x: 2.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["60DC316BF3D62742"]
@@ -503,7 +412,7 @@
 					id: "7222AC6176E7DB32"
 					item: {
 						Count: 1
-						id: "aquamirae:sweet_lance"
+						id: "aquamirae:jawbreaker"
 						tag: {
 							Damage: 0
 							Enchantments: [{
@@ -537,7 +446,7 @@
 					id: "397F03774AC34FF3"
 					item: {
 						Count: 1
-						id: "aquamirae:poisoned_chakra"
+						id: "aquamirae:terrible_chakram"
 						tag: {
 							Damage: 0
 							Enchantments: [{
@@ -567,7 +476,7 @@
 					id: "5784415E1574C13A"
 					item: {
 						Count: 1
-						id: "aquamirae:poisoned_blade"
+						id: "aquamirae:terrible_blade"
 						tag: {
 							Damage: 0
 						}
@@ -578,7 +487,7 @@
 					id: "04E26BFF0C023DB4"
 					item: {
 						Count: 1
-						id: "aquamirae:remnants_saber"
+						id: "aquamirae:remnant_saber"
 						tag: {
 							Damage: 0
 						}
@@ -603,7 +512,7 @@
 				id: "3C8E000E958CA1BB"
 				item: {
 					Count: 1
-					id: "aquamirae:whisper_of_the_abyss"
+					id: "aquamirae:shatterspike"
 					tag: {
 						Damage: 0
 					}
@@ -1239,6 +1148,81 @@
 			title: "{ftbquests.chapter.collectibles.quest.335FD3A6C6611BBE.title}"
 			x: 6.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["606460F38B888127"]
+			description: [
+				"{ftbquests.chapter.collectibles.quest.4236F12E90C633CA.description0}"
+				""
+				"{ftbquests.chapter.collectibles.quest.4236F12E90C633CA.description2}"
+			]
+			id: "4236F12E90C633CA"
+			rewards: [
+				{
+					id: "53340CA5DB501279"
+					item: "aquamirae:niveis_tear"
+					type: "item"
+				}
+				{
+					id: "229EF0489D19793C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1FD74011C2594294"
+				item: "aquamirae:niveis_tear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["60DC316BF3D62742"]
+			id: "606460F38B888127"
+			tasks: [{
+				id: "391CA41ED65D799C"
+				item: "aquamirae:wisteria_niveis"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4236F12E90C633CA"]
+			description: [
+				"{ftbquests.chapter.collectibles.quest.529EFF42F1C30BA8.description0}"
+				""
+				"{ftbquests.chapter.collectibles.quest.529EFF42F1C30BA8.description2}"
+				""
+				"{ftbquests.chapter.collectibles.quest.529EFF42F1C30BA8.description4}"
+				""
+				"{ftbquests.chapter.collectibles.quest.529EFF42F1C30BA8.description6}"
+				""
+				"{ftbquests.chapter.collectibles.quest.529EFF42F1C30BA8.description8}"
+			]
+			id: "529EFF42F1C30BA8"
+			rewards: [
+				{
+					id: "2F03D53604FD621E"
+					item: "fwaystones:stone_brick_waystone"
+					type: "item"
+				}
+				{
+					id: "2061CF3EFE418B74"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				dimension: "aquamirae:the_maelstrom"
+				icon: "minecraft:packed_ice"
+				id: "314CB6354F9C206E"
+				title: "{ftbquests.chapter.collectibles.quest.529EFF42F1C30BA8.task.314CB6354F9C206E.title}"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -12.0d
 		}
 	]
 	title: "{ftbquests.chapter.collectibles.title}"

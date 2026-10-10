@@ -620,6 +620,7 @@
 			y: 5.75d
 		}
 		{
+			dependency: "37525863A9E5509D"
 			height: 1.0d
 			image: "ftblibrary:icons/down"
 			rotation: 0.0d
@@ -2298,8 +2299,10 @@
 				xp: 500
 			}]
 			tasks: [{
+				icon: "adventurez:dragon_saddle"
 				id: "60E59659D9108F6B"
 				structure: "dungeons_arise:heavenly_rider"
+				title: "{ftbquests.chapter.to_the_end.quest.18F74B2D3AF2364F.task.60E59659D9108F6B.title}"
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.to_the_end.quest.18F74B2D3AF2364F.title}"

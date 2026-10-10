@@ -24,7 +24,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "prominent:artifact_damage",
-                    "value": 0.06,
+                    "value": 0.04,
                     "operation": "addition"
                 }
             },
@@ -83,7 +83,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "prominent:artifact_damage",
-                    "value": 0.04,
+                    "value": 0.02,
                     "operation": "addition"
                 }
             },

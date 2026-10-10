@@ -319,13 +319,13 @@ element {
 
 element {
   button_element_executable_block_identifier = 50626d19-81f0-4044-b029-321b1eccdf86-1716207221209
-  [executable_action_instance:f6ef8e6b-d32d-4086-9efa-2604f416e504-1716207221209][action_type:openlink] = https://www.curseforge.com/api/v1/mods/438496/files/6431736/download
+  [executable_action_instance:f6ef8e6b-d32d-4086-9efa-2604f416e504-1716207221209][action_type:openlink] = https://www.curseforge.com/api/v1/mods/438496/files/7608803/download
   [executable_block:50626d19-81f0-4044-b029-321b1eccdf86-1716207221209][type:generic] = [executables:f6ef8e6b-d32d-4086-9efa-2604f416e504-1716207221209;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = FTB Quests 2001.4.13
+  label = FTB Quests 2001.4.18
   navigatable = true
   widget_active_state_requirement_container_identifier = 7eb71cf7-6f92-4946-9d7d-32af5679a26e-1749087356683
   [loading_requirement_container_meta:7eb71cf7-6f92-4946-9d7d-32af5679a26e-1749087356683] = [groups:][instances:]
@@ -377,13 +377,13 @@ element {
 
 element {
   button_element_executable_block_identifier = fee2c995-ce43-4d8e-bb01-b3d0327ce681-1716207221209
-  [executable_action_instance:be622cd3-eff8-468c-ba95-819775ec4ac0-1716207221209][action_type:openlink] = https://www.curseforge.com/api/v1/mods/438495/files/6164052/download
+  [executable_action_instance:be622cd3-eff8-468c-ba95-819775ec4ac0-1716207221209][action_type:openlink] = https://www.curseforge.com/api/v1/mods/438495/files/7296747/download
   [executable_block:fee2c995-ce43-4d8e-bb01-b3d0327ce681-1716207221209][type:generic] = [executables:be622cd3-eff8-468c-ba95-819775ec4ac0-1716207221209;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = FTB Library 2001.2.9
+  label = FTB Library 2001.2.12
   navigatable = true
   widget_active_state_requirement_container_identifier = c312059c-cb93-4502-8780-ff7aed05161a-1749087356683
   [loading_requirement_container_meta:c312059c-cb93-4502-8780-ff7aed05161a-1749087356683] = [groups:][instances:]
@@ -550,13 +550,13 @@ element {
 
 element {
   button_element_executable_block_identifier = bf79ae23-a042-4ac6-9cf8-f26c64b43b7b-1716207221209
-  [executable_action_instance:fc166238-aad8-4fab-9fb5-95e50857ad7d-1716207221209][action_type:openlink] = https://www.curseforge.com/api/v1/mods/438497/files/6130783/download
+  [executable_action_instance:fc166238-aad8-4fab-9fb5-95e50857ad7d-1716207221209][action_type:openlink] = https://www.curseforge.com/api/v1/mods/438497/files/7499808/download
   [executable_block:bf79ae23-a042-4ac6-9cf8-f26c64b43b7b-1716207221209][type:generic] = [executables:fc166238-aad8-4fab-9fb5-95e50857ad7d-1716207221209;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = FTB Teams 2001.3.1
+  label = FTB Teams 2001.3.2
   navigatable = true
   widget_active_state_requirement_container_identifier = 492e00dd-85f8-4a3d-a657-b9c2399e0e9c-1749087356683
   [loading_requirement_container_meta:492e00dd-85f8-4a3d-a657-b9c2399e0e9c-1749087356683] = [groups:][instances:]
