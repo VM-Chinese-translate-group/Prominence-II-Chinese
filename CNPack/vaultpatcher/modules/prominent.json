@@ -20,17 +20,6 @@
   },
   {
     "target_class": [
-      "com.cleannrooster.sbprom.mixin.CarvedPumpkinBlockMixin"
-    ],
-    "pairs": [
-      {
-        "key": "IH^",
-        "value": "vp.prominent.gui.ih"
-      }
-    ]
-  },
-  {
-    "target_class": [
       "elocindev.prominent.client.xaero.XaeroMinimapOverlay"
     ],
     "pairs": [
@@ -505,28 +494,6 @@
   },
   {
     "target_class": [
-      "elocindev.prominent.livecontent.LiveContentSync"
-    ],
-    "pairs": [
-      {
-        "key": "Accept",
-        "value": "vp.prominent.gui.accept"
-      }
-    ]
-  },
-  {
-    "target_class": [
-      "elocindev.prominent.mixin.client.CustomItemNameMixin"
-    ],
-    "pairs": [
-      {
-        "key": " (Quest Book)",
-        "value": "vp.prominent.gui.quest_book"
-      }
-    ]
-  },
-  {
-    "target_class": [
       "elocindev.prominent.player.artifact.ClientArtifactHolder"
     ],
     "pairs": [
@@ -879,17 +846,6 @@
       {
         "key": " Unholy Power",
         "value": "vp.prominent.tooltip.unholy_power"
-      }
-    ]
-  },
-  {
-    "target_class": [
-      "elocindev.prominent_talents.mixin.InteractionManagerMixin"
-    ],
-    "pairs": [
-      {
-        "key": "You do not meet the required player level to use this flower (65)",
-        "value": "vp.prominent.talents.required_level_tooltip"
       }
     ]
   },
