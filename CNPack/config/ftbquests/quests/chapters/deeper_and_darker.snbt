@@ -30,8 +30,8 @@
 			order: 123
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.5d
-			y: 1.5d
+			x: 9.5d
+			y: 3.5d
 		}
 	]
 	order_index: 7
@@ -184,6 +184,180 @@
 			title: "{ftbquests.chapter.deeper_and_darker.quest.0FF69526C1DC1593.title}"
 			x: 9.0d
 			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "4F911358A6F4F3E4"
+			rewards: [{
+				id: "2CCB68F51CF31E4A"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2D6D03CD5B9E6260"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "5C6C2F31C12CCDA1"
+			rewards: [{
+				id: "651048115AC3F872"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5A298771050BA4E8"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "7622059267D0D0E5"
+			rewards: [{
+				id: "7A598F90CE1351CC"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "617A7A701BE48788"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "125E1F9EB948EBA0"
+			rewards: [{
+				id: "533CE4AE9F05EACC"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6C38DA3F798EF01E"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "47AE4609A1926AD1"
+			rewards: [{
+				id: "011B5B95BC9FE295"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6A4320E635072B70"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "04C95C1A78B0080F"
+			rewards: [{
+				id: "4D2E895368E8B839"
+				item: {
+					Count: 1
+					id: "farmersdelight:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "333F5AC15D979448"
+				item: {
+					Count: 1
+					id: "farmersknives:warden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
 		}
 	]
 	title: "{ftbquests.chapter.deeper_and_darker.title}"

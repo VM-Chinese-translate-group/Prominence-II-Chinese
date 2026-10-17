@@ -409,26 +409,6 @@
 			id: "6DED2A40FDF26E80"
 			rewards: [
 				{
-					id: "7222AC6176E7DB32"
-					item: {
-						Count: 1
-						id: "aquamirae:jawbreaker"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:looting"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "132FDEAD90EEDF6F"
-					item: "aquamirae:sea_casserole"
-					type: "item"
-				}
-				{
 					count: 10
 					id: "73E87DBB532B3164"
 					item: "aquamirae:ship_graveyard_echo"
@@ -472,56 +452,10 @@
 					}
 					type: "item"
 				}
-				{
-					id: "5784415E1574C13A"
-					item: {
-						Count: 1
-						id: "aquamirae:terrible_blade"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "04E26BFF0C023DB4"
-					item: {
-						Count: 1
-						id: "aquamirae:remnant_saber"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 			]
 			title: "{ftbquests.chapter.collectibles.quest.6DED2A40FDF26E80.title}"
 			x: -4.0d
 			y: -5.5d
-		}
-		{
-			dependencies: ["068588703F19898F"]
-			id: "17795101990B65AC"
-			rewards: [{
-				id: "6B4EEB74E628CC30"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "{ftbquests.chapter.collectibles.quest.17795101990B65AC.subtitle}"
-			tasks: [{
-				id: "3C8E000E958CA1BB"
-				item: {
-					Count: 1
-					id: "aquamirae:shatterspike"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.collectibles.quest.17795101990B65AC.title}"
-			x: -2.0d
-			y: -10.0d
 		}
 		{
 			dependencies: ["282EACA345910CE7"]
