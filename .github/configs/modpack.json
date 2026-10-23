@@ -1,4 +1,13 @@
 {
+  "configured": true,
+  "packId": 466901,
+  "packName": "Prominence™ II: Hasturian Era",
+  "versionPattern": "Prominence™ II Hasturian Era v{version}",
+  "mcVersion": "1.20.1", 
+  "loader": "fabric",
+  "updateMethod": "api",
+  "infoFilePath": "CNPack/modpackinfo.json",
+  "sourceDir": "Source",
   "paratranz": {
     "jsonSplits": [
       {
@@ -15,6 +24,25 @@
         "from": "resourcepacks",
         "to": "config/paxi/resourcepacks"
       }
+    ]  
+  },
+  "attentionList": {
+    "folders": [
+      {
+        "path": "config/ftbquests/quests",
+        "ignoreDeletions": false
+      }
+    ],
+    "filePatterns": [
+      {
+        "pattern": "kubejs/assets/*/lang/en_us.json",
+        "ignoreDeletions": true
+      }
     ]
-  }
+  },
+  "exclusionPatterns": [
+    "**/lang/*.*",
+    "**/dimdungeons/lang/*.*",
+    "!**/lang/en_us.*"
+  ]
 }
