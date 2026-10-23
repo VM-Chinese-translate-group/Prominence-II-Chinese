@@ -1,4 +1,5 @@
 import json
+import logging
 import re
 from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
@@ -208,13 +209,27 @@ def merge_split_translations(
         raise ValueError(f"JSON language file must contain an object: {source_file}")
 
     translations = {}
+    unknown_keys = set()
     for part in translated_parts:
         for key, value in part.items():
             if key not in source_data:
-                raise ValueError(f"Split translation contains an unknown key: {key}")
+                # ParaTranz may retain entries removed from the current source.
+                # Only current source keys belong in the merged language file.
+                unknown_keys.add(key)
+                continue
             if key in translations:
                 raise ValueError(f"Split translation contains a duplicate key: {key}")
             translations[key] = value
+
+    if unknown_keys:
+        preview = ", ".join(sorted(unknown_keys)[:5])
+        logging.getLogger(__name__).warning(
+            "Ignored %d obsolete ParaTranz split keys for %s: %s. "
+            "Run github2para.py to synchronize the cloud source files.",
+            len(unknown_keys),
+            config.path.as_posix(),
+            preview,
+        )
 
     missing = [key for key in source_data if key not in translations]
     if missing:
