@@ -1,0 +1,2182 @@
+{
+	autofocus_id: "103203350DABF6BB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_story"
+	group: "3DBADFFDA1FDAD84"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "eldritch_end:textures/icon/corruption.png"
+		}
+	}
+	id: "33AB3D787DE6F0E5"
+	images: [
+		{
+			dependency: "7023C0EC0A4686E2"
+			height: 2.5d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 2.5d
+			x: -12.240476190476194d
+			y: 1.928571428571452d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 2.0d
+			image: "minecraft:block/cobweb"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependency: "7023C0EC0A4686E2"
+			height: 1.5d
+			image: "betterend:textures/particle/jungle_spore_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependency: "7023C0EC0A4686E2"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.470068027210893d
+			y: 2.5d
+		}
+		{
+			dependency: "7023C0EC0A4686E2"
+			height: 2.5d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -3.648639455782323d
+			y: 2.0535714285714164d
+		}
+		{
+			dependency: "7023C0EC0A4686E2"
+			height: 2.0d
+			image: "betternether:block/blackstone_furnace_front_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: -11.970068027210893d
+			y: 4.0d
+		}
+		{
+			dependency: "7023C0EC0A4686E2"
+			height: 2.5d
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -9.470068027210893d
+			y: 5.0d
+		}
+		{
+			dependency: "7023C0EC0A4686E2"
+			height: 1.4954166666666664d
+			image: "prominent:textures/text/dimensionalthreats.png"
+			rotation: 0.0d
+			width: 9.7d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependency: "7023C0EC0A4686E2"
+			height: 2.0d
+			image: "endrem:textures/backgrounds/advance_back.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.612585034013591d
+			y: 2.0535714285714306d
+		}
+		{
+			dependency: "18E337BC1F3F75FD"
+			height: 1.0d
+			image: "soulsweapons:item/lord_soul_rose"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.647108843537431d
+			y: 5.17738095238095d
+		}
+		{
+			dependency: "18E337BC1F3F75FD"
+			height: 1.0d
+			image: "soulsweapons:item/lord_soul_day_stalker"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.055272108843546d
+			y: 6.218197278911568d
+		}
+		{
+			dependency: "18E337BC1F3F75FD"
+			height: 1.0d
+			image: "soulsweapons:item/lord_soul_white"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.647108843537431d
+			y: 7.17738095238095d
+		}
+		{
+			dependency: "18E337BC1F3F75FD"
+			height: 20.0d
+			image: "prominent:textures/other/tear_in_space.png"
+			rotation: 0.0d
+			width: 24.48979591836735d
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependency: "245E77F81FB78B58"
+			height: 4.901960784313726d
+			image: "eldritch_end:textures/icon/faceless_head.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.6869047619047635d
+			y: 14.392857142857153d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 2.0d
+			image: "prominent:item/demonic_essence"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.948979591836732d
+			y: -1.392857142857146d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7023C0EC0A4686E2"]
+			description: [
+				"&eRecommended Level: 15"
+				""
+				"&7&oThe Gauntlet, once the vigilant watcher and first herald of the Nether, hath now fallen to the dark embrace of the Void. Slaved upon being one of the Void's heralds, it now threatens its own realm with its destruction."
+				""
+				"&7&oThou may find the Gauntlet locked within a monolithic prison. Shatter its eye, and thou shalt unleash the now corrupted beeing."
+				""
+				"&eTip: &7This boss has strong hits and may one shot you if playing on Normal or Hard difficulty! Try to dodge or craft defensive potions!"
+				""
+				"&8English"
+				"{@pagebreak}"
+				"&eNivel Recomendado: 15"
+				""
+				"&7&oEl Guantelete, una vez el vigilante y primer heraldo del Nether, ahora ha caído por el oscuro abrazo del Vacío. Esclavizado como uno de sus heraldos, amenaza con la destrucción de su propio reino, el Nether."
+				""
+				"&7&oPuedes encontrar el Guantelete encerrado dentro de una prisión monolítica. Rompe su ojo y desatarás a la bestia ahora corrompida."
+				""
+				"&eTip: &7Este jefe tiene ataques fuertes que pueden matarte de un golpe si juegas en dificultad Normal o Difícil! Intenta evadir los ataques o haz pociones defensivas."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			id: "1B76F8D3B54F3FE6"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "466ECA697E5C8AD1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D169777B9E97386"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "3E8C67962908DCE1"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:t3_trinket_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02C6DBCB367222B8"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:resource_1_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+					auto: "invisible"
+					criterion: ""
+					id: "483BB4591A5E3C91"
+					title: "Through the Gaunlet"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/guantlet.png"
+					}
+				}
+				id: "0F843C913D775125"
+				title: "Kill the Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &cGauntlet, First Herald of the Nether"
+			x: -12.204761904761916d
+			y: 2.3214285714285765d
+		}
+		{
+			dependencies: ["7CBAFED315D614C3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eRecommended Level: 10"
+				"&cBetter suitable for Ranged"
+				""
+				"&7&oThe long deceased souls of all the kings of the Kingdom of Ly'rell hath been resurrected and corrupted by an unknown force, now known as a single monster called the Night Lich."
+				""
+				"&7&oThe Night Lich dwelleth upon the surface of the Overworld. Seek him in the colder biomes, within the remnants of a broken tower."
+				""
+				"&7&oTo find this structure, use Souls Stars, dropped by undead creatures, which shall guide thee to the tower."
+				""
+				"&eTip: &7This is a ranged boss, use a flying mount if you are melee, or a bow as secondary weapon!"
+				""
+				"&8English"
+				"{@pagebreak}"
+				"&eNivel Recomendado: 10"
+				"&cRecomendado para Arqueros y Magos."
+				""
+				"&7&oLas almas de los antiguos reyes del Reino de Ly'rell, quienes han fallecido hace mucho tiempo, han sido resucitadas y corruptas una fuerza desconocida, formando un gran monstruo ahora conocido como el Liche Nocturno."
+				""
+				"&7&oEn los biomas más fríos, en la cima de los restos de una gran torre rota, yacen ellos atrapados."
+				""
+				"&7&oPara encontrar esta estructura, usa las Estrellas de Alma, caídas de criaturas no muertas, que te guiarán hasta la torre."
+				""
+				"&eTip: &7Este jefe es rango, usa una montura voladora si eres melee, o un arco como arma secundaria!"
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icons/night_lich.png"
+				}
+			}
+			id: "49C9DC2F3D131A14"
+			rewards: [
+				{
+					id: "347448D4FD9CD997"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "5F09631C2FF6849A"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+				{
+					id: "5B17EB28419D8EE6"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:mariums_weaponry_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+					auto: "invisible"
+					criterion: ""
+					id: "28AB4863E6771A96"
+					title: "Night Vanquisher"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [
+				{
+					count: 4L
+					id: "3B40E2130DDD7AD3"
+					item: "bosses_of_mass_destruction:soul_star"
+					title: "&dObtain at least 4 Soul Stars and use them to find the Night Lich's Tower, then use them on the Pedestals"
+					type: "item"
+				}
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "bosses_of_mass_destruction:mob_ward"
+					id: "3B2643FC0AFF3B8B"
+					title: "&9Defeat The Night Lich"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&f &9The Night Lich, King of All Kings"
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48AADA398DC4E940"]
+			description: [
+				"&eRecommended Level: 25"
+				""
+				"&7The Blackstone Golem, the Nether's final Herald, is a formidable creature that can be summoned through its ritual within the Nether."
+				""
+				"&7Construct a 9x9 platform of any kind of Blackstone, with Chiseled Polished Blackstone Holders in the middle of each side."
+				"&7Place a shard of gilded blackstone upon each holder to commence the ritual."
+				""
+				"[ \"See more in the \", { \"text\": \"Nether tab.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C67FB6AB484E924\" } } ]"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 25"
+				""
+				"&7El Gólem de Piedra Negra, el último Heraldo del Nether, es un formidable golem que puede ser invocado a través de su propio ritual dentro del Nether."
+				""
+				"&7Construye una plataforma de 9x9 utilizando cualquier tipo de Piedra Negra, con soportes de Piedra Negra Pulida Cincelada en el medio de cada lado."
+				"&7Coloca un fragmento de piedra negra dorada sobre cada soporte para comenzar el ritual."
+				""
+				"&8Español"
+			]
+			id: "5063E49140A8BB20"
+			rewards: [
+				{
+					id: "692FA0E0AC7B298F"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "365D3A6A691F099B"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "624F3B98F9A601A1"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "104172CD740809C7"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:resource_1_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "adventurez:blackstone_golem_advancement"
+					auto: "invisible"
+					criterion: ""
+					id: "52E6EEDE66A8A92E"
+					title: "Blackstone Golem"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "adventurez:blackstone_golem"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/blackstone_golem.png"
+					}
+				}
+				id: "5663873E5843130D"
+				title: "Kill the Blackstone Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &cThe Blackstone Golem"
+			x: -11.949829931972808d
+			y: 4.00595238095238d
+		}
+		{
+			dependencies: ["383590146CEEB423"]
+			description: [
+				"&eRecommended Level: 35"
+				""
+				"&7The Old Champion's Remains can be found in its grave, hidden underground at the Overworld. This skeleton-like figure, who was once a great champion, now has been possessed by another being. "
+				""
+				"&8His attacks revolve around if he is guarded, switching between the shielding stances with the attacks."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 35"
+				""
+				"&7Los Restos del Viejo Campeón se encuentran en su tumba, oculta bajo tierra en el Supramundo. Esta figura esquelética, que alguna vez fue un gran campeón, ha sido poseída por otro ser."
+				""
+				"&8Sus ataques giran en torno a si está protegido, alternando entre posturas defensivas y ataques."
+				""
+				"&8Español"
+			]
+			id: "759AA6DD39277704"
+			rewards: [
+				{
+					id: "09826DC6C54E3B82"
+					item: {
+						Count: 1
+						id: "simplyswords:runic_greataxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E37D66FCBBFD2D7"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "52BC5C50CEF6CA0F"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "soulsweapons:draugr_boss"
+					auto: "invisible"
+					criterion: ""
+					id: "5E0A639DFB387CD5"
+					title: "Restless Sleepwalker"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/the_fallen_icon.png"
+					}
+				}
+				id: "2C3EE780FC4E8C0E"
+				title: "&7Defeat the Old Champion's Remains"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &9The Remains of an Old Champion"
+			x: -7.470068027210893d
+			y: 4.0d
+		}
+		{
+			dependencies: ["759AA6DD39277704"]
+			description: [
+				"&eRecommended Level: 40"
+				""
+				"&7Obsidilith, the living monolith, is the pillar of the void's influence in the End."
+				""
+				"&7Located at its own platform, a giant, eldritch structure that can be found floating in the end. To make it appear, use an eye of ender on the top of its platform."
+				""
+				"&eTip:&7 Bring a pickaxe!"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 40"
+				""
+				"&7Obsidilith, el monolito viviente, es el pilar de la influencia del vacío en El End."
+				""
+				"&7Ubicado en su propia plataforma, una estructura gigantesca y extraña, que se encuentra flotando en El End. Para invocarlo, usa un ojo de ender en la cima de su plataforma."
+				""
+				"&eTip: &7Trae un pico!"
+				""
+				"&8Español"
+			]
+			id: "103203350DABF6BB"
+			rewards: [
+				{
+					id: "0BCA9A9F79729399"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "40F2B08C36A0CE8B"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "0570B3A44D8F91AA"
+					item: "bosses_of_mass_destruction:levitation_block"
+					type: "item"
+				}
+				{
+					id: "2DDF9907F58C329F"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+					auto: "enabled"
+					criterion: ""
+					id: "4E14B5077DDF90C9"
+					title: "Obsidian Obliterator"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/obsidilith.png"
+					}
+				}
+				id: "722BFEAA5498B1FC"
+				title: "Kill the &5Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &dPillar of the Void, Obsidilith"
+			x: -7.470068027210893d
+			y: 2.0d
+		}
+		{
+			dependencies: ["103203350DABF6BB"]
+			description: [
+				"&eRecommended Level: 50"
+				""
+				"&7The raw essence of the end; the \"Ender Eye\", has been corrupted by the void's presence, turned into a horrific creature. It now needs to be saved from the void's influence to establish balance in the now desolated dimension."
+				""
+				"&7The Eye can only be summoned at an Eye Shrine. The Shrine is built with a base of a 5×5 obsidian platform and a 3×3 centered crying obsidian layer. On all four corners an end rod has to get placed. On top of the shrine you shall sacrifice the dragon egg. The Eye can only get called in The end dimension."
+				""
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7La esencia pura del End; el \"Ojo del Ender\", ha sido corrompida por la presencia del vacío y transformada en una criatura horrorosa. Ahora debe ser salvado de esa maligna influencia para restablecer el equilibrio en la ahora desolada dimensión."
+				""
+				"&7El Ojo solo puede ser invocado en un Santuario del Ojo. El Santuario se construye sobre una plataforma de obsidiana de 5x5 y una capa central de obsidiana llorosa de 3x3. En cada uno de los cuatro bordes se debe colocar una vara del end. En la cima del santuario, deberás tú sacrificar el huevo de dragón. El Ojo solo puede ser invocado en la dimensión del End."
+				""
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
+				""
+				"&8Español"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
+				}
+			}
+			id: "0E567E587E669BED"
+			rewards: [
+				{
+					id: "5E60883C821CB3E5"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "73120B643C6ABF1C"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "169BCF5304D7C2A1"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "397707E437B10320"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:t4_trinket_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "prominent:voids_invasion/killed_eye"
+					auto: "invisible"
+					criterion: ""
+					id: "0E1DE38FD263B0DE"
+					title: "The Final eye"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "eldritch_end:eye"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
+					}
+				}
+				id: "5A3673477EA57892"
+				title: "Kill The Eldritch Eye"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &dThe Eldritch Eye"
+			x: -3.6384353741496867d
+			y: 2.030612244897938d
+		}
+		{
+			dependencies: ["5063E49140A8BB20"]
+			description: [
+				"&eRecommended Level: 30"
+				""
+				"&7This giant eye serves as the eternal watcher of the Prison of the Damned, residing within its own Lair deep in the Prison."
+				""
+				"&7To challenge it, thou must first obtain a Vine Rune from the Promenade of the Condemned. With this rune, gain access to the Lair and face the eye in battle."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 30"
+				""
+				"&7Este ojo gigante sirve como el vigilante eterno de la Prisión de los Condenados, residiendo en su propia Guarida, a las profundidades de la Prisión."
+				""
+				"&7Para desafiarlo, primero debes obtener una Runa de Vid, obtenida en Paseo de los Condenados. Con esta runa, accede a su Guarida y enfréntate al ojo en batalla."
+				""
+				"&8Español"
+			]
+			id: "383590146CEEB423"
+			rewards: [
+				{
+					id: "74C32AE494757CF7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1F3AF87B2C2E9CB1"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "7237C0B7606FEE11"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:resource_1_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/conjuctivius.png"
+					}
+				}
+				id: "009152F0C0BE39FA"
+				title: "Defeat Conjunctivius"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &9Conjuctivius, Watcher of the Prison"
+			x: -9.470068027210893d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B76F8D3B54F3FE6"]
+			description: [
+				"&eRecommended Level: 20"
+				""
+				"&7&oJean, once a noble and great emerald dragon, hath succumbed to the dark tendrils of the Void. Now corrupted and consumed by the Void's wrath, she dwelleth at the heart of the End, now known as the Ender Dragon."
+				""
+				"&7&oShe is no simple feat, for the Void hath bestowed upon her formidable powers, driven by a strong and unquenchable rage known as the Ender."
+				""
+				"&7&oTo unlock the ancient portal to the End, thou must seek out twelve of the sixteen unique eyes. These eyes are scattered throughout the vast expanse of the Overworld and the burning depths of the Nether."
+				""
+				"&8English"
+				"{@pagebreak}"
+				"&eNivel Recomendado: 20"
+				""
+				"&7&oJean, la noble y gran dragona esmeralda, ha sucumbido a las oscuras garras del Vacío. Ahora corrupta y consumida por la ira del mismo, ronda por el corazón del End, conocida ahora como la Dragona del Ender."
+				""
+				"&7&oElla no es un reto sencillo, pues el Vacío le ha otorgado poderes formidables, impulsados por una furia fuerte e insaciable conocida como el Ender."
+				""
+				"&7&oPara desbloquear el antiguo portal al End, debes buscar doce de los dieciséis ojos únicos. Estos ojos están esparcidos a lo largo de la vasta extensión del Overworld y las ardientes profundidades del Nether."
+				""
+				"&8Español"
+			]
+			id: "48AADA398DC4E940"
+			rewards: [
+				{
+					id: "544D6EE6AB75D837"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3437FBE6631BF571"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "39AAC0CCD8746B5F"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "05C94CD2F3BBBF9B"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:t4_trinket_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71E0F64FB8098A44"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:healing_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "minecraft:end/kill_dragon"
+					auto: "enabled"
+					criterion: ""
+					icon: "prominent:knowledge_scroll"
+					id: "22CAB1338EDA493A"
+					title: "&eUnlock 11-20 Leveling"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/dragon.png"
+					}
+				}
+				id: "028D2778B20852AA"
+				title: "Kill the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &dJean, The Fallen Dragon"
+			x: -9.470068027210893d
+			y: 2.5d
+		}
+		{
+			dependencies: ["214E47AB3004E7D3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&o&7\"Flameborn, I wish you the best of luck in your journey to this unknown land."
+				""
+				"&o&7I shall inform you of anything new through this book, remember to also read other guides and information written by the previous flameborn."
+				""
+				"&o&7Do not seek them immediately, make sure you are well prepared enough, we don't know  their strength."
+				""
+				"&o&7It is not necessary to go after both, just get me information on either of them, that will be enough to know what is really happening."
+				""
+				"&7&8- S'kellak"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			icon: "ftbquests:book"
+			id: "7CBAFED315D614C3"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[Click to read more]"
+			tasks: [{
+				id: "444189B4E513644B"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&6&lPrologue: &e&lThe Fallen Kings"
+			x: -12.234693877551024d
+			y: -3.464285714285708d
+		}
+		{
+			dependencies: ["0E567E587E669BED"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eTravel to Vaaz and meet S'kellak at the Throne Room"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eViaja a Vaaz y encuentrate con S'kellak en la sala de Trono."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:item/skellak_spawn_egg"
+				}
+			}
+			id: "63A18694A9470D66"
+			rewards: [{
+				advancement: "prominent:molten_core"
+				auto: "enabled"
+				criterion: ""
+				icon: "prominent:molten_core"
+				id: "1D40A53ECB061059"
+				title: "&6The Molten Core"
+				type: "advancement"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&8[Click to read more]"
+			tasks: [{
+				icon: "prominent:flameborn_stone"
+				id: "10A54494875097FE"
+				title: "Use the Flameborn Stone and find S'kellak"
+				type: "custom"
+			}]
+			title: "&eS'kellak's Reward"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E567E587E669BED"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7The Ender's Essence has been defeated, but its essence escaped the empty void, and a rift was formed in the End. Something is coming."
+				""
+				"&7Deep in the end, strange voices are now whispering &8&o\"The King in Yellow is near\"&r."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7La Esencia del Ender ha sido derrotada, pero su esencia escapó del vacío vacío, y una grieta se ha formado en el End. Algo se acerca."
+				""
+				"&7En lo profundo del End, extrañas voces ahora susurran &8&o\"El Rey en Amarillo se aproxima\"&r."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "ftbquests:book"
+			id: "18E337BC1F3F75FD"
+			rewards: [{
+				id: "2C782D1FC3BF8165"
+				item: "prominent:music_disc_festivities"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[Click to read lore]"
+			tasks: [{
+				id: "25E42BD5FCDFACD1"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&6&lChapter II:&e A New End"
+			x: -2.4676870748299393d
+			y: 5.377380952380989d
+		}
+		{
+			dependencies: ["18E337BC1F3F75FD"]
+			description: [
+				"&eThe invasion has been halted, for now.&r"
+				""
+				"&6\"We must prepare for what lies ahead — a new form of magic that we're unfamiliar with, known as the corruption. I'll go on a quest to discover a new material that could offer us a fighting chance against it."
+				""
+				"&6As for you, that molten core is nothing but a vessel. You will need the essences of ancient beings. Once harnessed, these essences will empower it to be able to forge the formidable artifacts. It is your mission to obtain them.\" &e&oS'kellak explained."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eLa invasión ha sido detenida, por ahora.&r"
+				""
+				"&6\"Debemos prepararnos para lo que se avecina — una nueva forma de magia que desconocemos, conocida como la corrupción. Iré en busca de un nuevo material que podría darnos una oportunidad contra ella."
+				""
+				"&6En cuanto a ti, ese Núcleo Fundido no es más que un recipiente. Necesitarás las esencias de seres antiguos. Una vez dominadas, estas esencias lo empoderarán para forjar armas de artefacto. Tu misión es obtenerlas.\" &e&oexplicó S'kellak."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "spell_power:textures/mob_effect/critical_damage.png"
+				}
+			}
+			id: "777FC868034D4BA5"
+			rewards: [{
+				id: "14BC34CA5ACF9748"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[Click to read lore]"
+			tasks: [{
+				id: "308FF619B83911E7"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&eAn Unknown Power"
+			x: -3.6511904761904717d
+			y: 6.250000000000007d
+		}
+		{
+			dependencies: ["777FC868034D4BA5"]
+			description: [
+				"&eRecommended Level: 50"
+				""
+				"&7The Chaos Monarch, source of most misfortune, holds a powerful demonic essence."
+				""
+				"&7To summon the monarch, you must obtain a shard of uncertainty and use it on a Blackstone Pedestal."
+				""
+				"&7Due to his nature, he will have unpredictable attacks and effects on you and your surrounding."
+			]
+			hide_until_deps_visible: true
+			icon: "prominent:demon_essence"
+			id: "45A926EF078F465E"
+			rewards: [
+				{
+					id: "4FF3029DF16C29F1"
+					item: "prominent:demon_essence"
+					type: "item"
+				}
+				{
+					id: "79CB012999BF6FF3"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&7Full of hatred and corruption."
+			tasks: [
+				{
+					entity: "soulsweapons:chaos_monarch"
+					icon: {
+						Count: 1
+						id: "soulsweapons:chaos_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "277B6B1BC747DB9D"
+					title: "&7Defeat &cThe Monarch of Chaos"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "75385D410EEB02D4"
+					item: "soulsweapons:blackstone_pedestal"
+					title: "Obtain a Blackstone Pedestal"
+					type: "item"
+				}
+				{
+					id: "42B1D124D2C1C05C"
+					item: "soulsweapons:shard_of_uncertainty"
+					title: "Obtain a Shard of Uncertainty"
+					type: "item"
+				}
+			]
+			title: "&cDemonic Essence"
+			x: -5.186904761904778d
+			y: 5.285714285714285d
+		}
+		{
+			dependencies: ["777FC868034D4BA5"]
+			description: [
+				"&eRecommended Level: 50"
+				""
+				"&7By using the Essence of Eventide on the Old Moon Altar, you will return the true heir back to its original body. This will result in the summoning of the Fallen Icon, a fierce empowered version of the Returning Knight with a fast and dangerous second phase. When summoned, it will affect anyone nearby with Weakness, Nausea, and Slowness."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7Al usar la Essence of Eventide en el Antiguo Altar Lunar, devolverás al verdadero heredero a su cuerpo original. Esto resultará en la invocación del Ícono Caído, una versión feroz y más fuerte del Antiguo Campeón, con una segunda fase rápida y peligrosa. Al ser invocado, dará Debilidad, Náuseas y Lentitud a quienes estén cerca."
+				""
+				"&8Español"
+			]
+			hide_until_deps_visible: true
+			icon: "prominent:glory_essence"
+			id: "7C7838CB12D2C972"
+			rewards: [
+				{
+					id: "114FBE48AC53C28D"
+					item: "prominent:glory_essence"
+					type: "item"
+				}
+				{
+					id: "301A8E41E98B7A3D"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&7From who was once a champion"
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				icon: "soulsweapons:iron_skull"
+				id: "433CB31E80566625"
+				title: "Defeat the &dFallen Icon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Essence of Glory"
+			x: -5.579761904761909d
+			y: 6.214285714285722d
+		}
+		{
+			dependencies: ["777FC868034D4BA5"]
+			description: [
+				"&eRecommended Level: 50"
+				""
+				"&7Must use the Shell Horn, found in the Deep Frozen Ocean. Call upon her in the Ice Maze, near water."
+				""
+				"&7When fought, may she be weakened, or else she shall not die.&r"
+				""
+				"[ \"Follow \", { \"text\": \"this quest for more instructions\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60DC316BF3D62742\" } }, \" to progress.\" ]"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7Debes usar el Cuerno encontrado en el Profundo Océano Congelado. Llámala en el Laberinto de Hielo, cerca del agua."
+				""
+				"&7Al luchar, debe ser debilitada, o de lo contrario no caerá."
+				""
+				"&8Español"
+			]
+			hide_until_deps_visible: true
+			icon: "prominent:wrath_essence"
+			id: "569B422A5AE03E53"
+			rewards: [
+				{
+					id: "15234597F3615533"
+					item: "prominent:wrath_essence"
+					type: "item"
+				}
+				{
+					id: "4D3FB39B7963C4F1"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&7From the spirit of a great leader"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:shell_horn"
+				id: "0A7FC00545E75EB6"
+				title: "&7Defeat the &dGhost of Captain Cornelia"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&bEssence of Wrath"
+			x: -5.1869047619047635d
+			y: 7.142857142857146d
+		}
+		{
+			dependencies: ["5472D472A72B4DB9"]
+			description: [
+				"&7The primitive seed of creation, the &9Primordial Abyss&7 has the most influence by the cosmic horrors. It is a corrupted land with its own corrupted kind of life, known as the &9aberrations&7."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7La semilla primitiva de la creación, el &9Abismo Primordial&7, tiene la mayor influencia de los horrores cósmicos. Es una tierra corrompida con su propia forma de vida corrupta, conocidas como las &9aberraciones&7."
+				""
+				"&8Español"
+			]
+			hide_until_deps_visible: true
+			icon: "eldritch_end:abysmal_fronds"
+			id: "601BDBA6DF073CB0"
+			rewards: [
+				{
+					id: "20AF3FB04172CD7D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D147DFCB62331BF"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				biome: "eldritch_end:primordial_abyss"
+				icon: "eldritch_end:abysmal_fronds"
+				id: "5849FCE25177F4E9"
+				title: "Visit the Primordial Abyss"
+				type: "biome"
+			}]
+			title: "&9The Primordial Abyss"
+			x: 0.276360544217674d
+			y: 5.945238095238103d
+		}
+		{
+			dependencies: ["5472D472A72B4DB9"]
+			description: [
+				"&7The hasturian wastes are a desolated land full of spikes that are known as the &eSpire Spikes&7. Some of these spikes have an unknown metal blessed by Hastur. It could be the best way to fight against corruption."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7El desierto hasturiano es una tierra desolada llena de picos que son conocidos como los &ePinchos de Espiral&7. Algunos de estos picos contienen un metal desconocido, bendecido por Hastur. Podría ser la mejor manera de luchar contra la corrupción."
+				""
+				"&8Español"
+			]
+			hide_until_deps_visible: true
+			icon: "eldritch_end:hasturian_moss"
+			id: "2500331DBBD67515"
+			rewards: [
+				{
+					id: "652F23E5179D282C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "26BC7C66C6002DA0"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				biome: "eldritch_end:hasturian_wastes"
+				icon: "eldritch_end:hasturian_moss"
+				id: "3C7ECD7B595CB560"
+				title: "Visit the Hasturian Wastes"
+				type: "biome"
+			}]
+			title: "&6The Hasturian Wastes"
+			x: 0.2916666666666643d
+			y: 7.034523809523826d
+		}
+		{
+			dependencies: ["18E337BC1F3F75FD"]
+			description: [
+				"&7With the defeat of the The Eye, the end has been affected by the void's higher forces, &dthe cosmic horrors&7. Eldritch beings that hold pure corruption in their veins."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				""
+				"&7Con la derrota de El Ojo, el End ha sido afectado por las fuerzas superiores del vacío, &dlos horrores cósmicos&7. Seres ancestrales que llevan corrupción pura en sus venas."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "eldritch_end:aberration_heart"
+			id: "5472D472A72B4DB9"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[Click to read lore]"
+			tasks: [{
+				id: "07CED6DB48113EC0"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&eVoid's Influence"
+			x: -1.0440476190476247d
+			y: 6.250000000000007d
+		}
+		{
+			dependencies: ["601BDBA6DF073CB0"]
+			description: [
+				"&eThe Aberrations.&7 They are horrific creatures that live in the Primordial Abyss. Be careful with them, when they hit you, they will apply &9corruption&7 to you, which is stackable. You don't want them to hit you multiple times."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eLas Aberraciones.&7 Son criaturas horribles que habitan en el Abismo Primordial. Ten cuidado con ellas, cuando te golpean, te aplican &9corrupción&7, la cual es acumulable. No querrás que te golpeen varias veces."
+				""
+				"&8Español"
+			]
+			id: "250AEC20271670DC"
+			rewards: [
+				{
+					id: "74384560D55D0246"
+					item: "eldritch_end:aberration_heart"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F7158B6AE0A9C1E"
+					item: "eldritch_end:aberration_limb"
+					type: "item"
+				}
+				{
+					id: "6B18659A64643BC2"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "eldritch_end:aberration"
+				icon: "eldritch_end:aberration_limb"
+				id: "5320BD9556152B9B"
+				title: "&8Purge the aberrations"
+				type: "kill"
+				value: 50L
+			}]
+			title: "&ePurging the Aberrations"
+			x: 1.577380952380942d
+			y: 5.932482993197297d
+		}
+		{
+			dependencies: ["2500331DBBD67515"]
+			description: [
+				"&7The metal from the Spire Spikes, &2Etyr&7, has an unique attribute, it is &2resistant to corruption&7. We could use this metal to prevent the cosmic horrors from corrupting the end."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7El metal de los Picos de Agujas, &2Etyr&7, tiene una propiedad única: es &2resistente a la corrupción&7. Podríamos usar este metal para evitar que los horrores cósmicos corrompan el End."
+				""
+				"&8Español"
+			]
+			hide_until_deps_visible: true
+			id: "40BF64AA85FF6010"
+			rewards: [
+				{
+					id: "4C9534C42B2996FE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1CDAA49449A21A15"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				id: "3E1F65C1ABAE9FCB"
+				item: "eldritch_end:etyr_ingot"
+				type: "item"
+			}]
+			title: "&2The Fight Against Corruption"
+			x: 1.577380952380942d
+			y: 7.054931972789134d
+		}
+		{
+			dependencies: ["6EEFBD329C02E34A"]
+			description: [
+				"&6\"Let's start the preparations for the summoning."
+				""
+				"&6First, we will need a summoning pedestal.\" &e&oS'kellak explained."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"Comencemos los preparativos para la invocación."
+				""
+				"&6Primero, necesitaremos un pedestal de invocación.\" &e&oexplicó S'kellak."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "4AEBBAD5C5474582"
+			rewards: [
+				{
+					id: "4FEB878C30483E7D"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "0C41207DC801BC52"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				id: "09F7148E11D7AB38"
+				item: "archon:summoning_pedestal"
+				type: "item"
+			}]
+			title: "&eImprisonment of the Void"
+			x: -3.9700680272108926d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4AEBBAD5C5474582"]
+			description: [
+				"&6\"There isn't anything more durable for this than cinderstone, forged directly from the depths of Vaaz. This should be enough to trap its essence, but I'm afraid that I don't know what you could unleash on the process\" &e&oS'kellak said"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"No hay nada más duradero para esto que la piedraceniza, forjada directamente en las profundidades de Vaaz. Esto debería ser suficiente para atrapar su esencia, pero me temo que no sé lo que podrías desatar en el proceso.\" &e&oDijo S'kellak."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			icon: "prominent:empty_vessel"
+			id: "3FEF5FC9AB6C6AAE"
+			rewards: [{
+				id: "471E486F532A0EEA"
+				item: "prominent:empty_vessel"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				id: "28BE3CCC9574A4ED"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&eThe Vessel"
+			x: -6.970068027210893d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3FEF5FC9AB6C6AAE"]
+			description: [
+				"&6\"It is waiting for you. Bring that pedestal to the end and place two of the end's essence, an ender pearl and a end crystal. Be prepared, and don't forget to trap it. You have my blessing, child.\" &e&oS'kellak said"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"Te está esperando. Lleva ese pedestal al End y coloca dos esencias del End, una perla de ender y un cristal del End. Prepárate, y no olvides atraparlo. Tienes mi bendición, mi joven.\" &e&oDijo S'kellak."
+				""
+				"&8Español"
+			]
+			icon: "archon:end_essence"
+			id: "173314BDF690683E"
+			rewards: [
+				{
+					id: "0C4C0CE22BAC24C1"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "08148C17CC7568EA"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [
+				{
+					count: 2L
+					id: "1920BD6A823B9D7E"
+					item: "archon:end_essence"
+					type: "item"
+				}
+				{
+					id: "38594AAF825AD872"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					id: "6F816197EE03C601"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "&eAn Uncanny Ritual"
+			x: -9.470068027210893d
+			y: 11.0d
+		}
+		{
+			dependencies: ["173314BDF690683E"]
+			description: [
+				"&7Deep inside the end's rift, a human sized being can be seen casting an unknown spell. Your ritual will be able to interrupt it, and force it to come at you."
+				""
+				"&7Null is a powerful and agile boss, it will teleport every time you hit him, and will spawn minions to attack you. Make sure to never stop attacking it, or else it'll heal."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7En lo profundo de la grieta del End, se puede ver una figura del tamaño de un humano lanzando un hechizo desconocido. Tu ritual podrá interrumpirlo y obligarlo a enfrentarte."
+				""
+				"&7Null es un jefe poderoso y ágil; se teletransportará cada vez que lo golpees y convocará esbirros para atacarte. Asegúrate de no dejar de atacarlo, o de lo contrario se curará."
+				""
+				"&8Español"
+			]
+			icon: "mcda:upgrade_core_void"
+			id: "67DD847F1737097C"
+			rewards: [
+				{
+					id: "14CE356155EABB81"
+					item: "prominent_ost:music_disc_time_flows"
+					type: "item"
+				}
+				{
+					id: "4B3C8DF6DCE47A91"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "77D96FCD6F20B4E8"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:resource_1_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.45d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "archon:null"
+				icon: "powah:ender_core"
+				id: "1A0B9A7E5B466268"
+				title: "&dSummon and Defeat Null"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &dNull, Void's Essence"
+			x: -11.570068027210892d
+			y: 9.975d
+		}
+		{
+			dependencies: ["18E337BC1F3F75FD"]
+			description: [
+				"&6\"This is not over yet. That was nothing but a shadow, and now with this rift, I'm afraid we won't be able to do this."
+				""
+				"&r&6Unless... we use their own power against them. We could trap one of the heralds of the void inside a vessel, and with it, gather their power. But first, make yourself a better weapon, I'll make the vessel.\"&e&o S'kellak said."
+				""
+				"&eFollow the &cS'kellak's Forge&e questline for more information on forging artifact weapons."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"Esto aún no ha terminado. Eso no era más que una sombra, y ahora, con esta grieta, temo que no podramos hacerlo."
+				""
+				"&r&6A menos que... usemos su propio poder contra ellos. Podríamos atrapar a uno de los heraldos del vacío dentro de un recipiente, y con él, obtener su poder. Pero primero, fabrícate una mejor arma, yo haré el recipiente.\"&e&o dijo S'kellak."
+				""
+				"&eSigue la línea de misiones de la &cS'kellak's Forge&e para más información sobre la creación de armas artefacto."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "6EEFBD329C02E34A"
+			rewards: [
+				{
+					id: "0C0D89333847D8F0"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "17C60BE7957D6B9B"
+					item: "prominent_ost:music_disc_iv"
+					type: "item"
+				}
+				{
+					id: "3C0A05193B0CF55D"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				id: "27B44E04748B6582"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "prominent:artifacts"
+					}
+				}
+				title: "&6Forge your Artifact"
+				type: "item"
+			}]
+			title: "&eThe End's Rift"
+			x: -2.4700680272108926d
+			y: 8.5d
+		}
+		{
+			dependencies: ["67DD847F1737097C"]
+			description: [
+				"&7&oRight before Null's imprisonment, it successfuly casted the spell. A big monstrous creature appeared from the rift"
+				""
+				"&6\"The Faceless One is here, another of the void heralds, and the root of corruption\" &e&oS'kellak said"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7&oJusto antes del encarcelamiento de Null, logró lanzar el hechizo con éxito. Una gran criatura monstruosa apareció desde la grieta."
+				""
+				"&6\"El Ignoto está aquí, otro de los heraldos del vacío, y el origen de la corrupción\" &e&oDijo S'kellak."
+				""
+				"&8Español"
+			]
+			hide_until_deps_visible: true
+			icon: "ftbquests:book"
+			id: "245E77F81FB78B58"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				id: "55B2EEFDAFAC3D0C"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&6&lChapter III: &eThe Face of The Void"
+			x: -14.5d
+			y: 10.483333333333348d
+		}
+		{
+			dependencies: ["7CD3D2757242817B"]
+			description: [
+				"&eRecommended Level: 50"
+				""
+				"&7At the heart of the void's influence, the Primordial Abyss, you may summon the herald of the void, the gruntling faceless being with its dark ritual, by breaking the heart of an aberration on the middle."
+				""
+				"&6\"Beware, just weaken it, and I'll attempt to bring it down to Vaaz to trap it for eternity. The fate of the realms is on you.\" &eS'kellak said"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7En el corazón de la influencia del vacío, el Abismo Primordial, puedes invocar al heraldo del vacío, el ser ignoto, con su oscuro ritual, rompiendo el corazón de una aberración en el centro."
+				""
+				"&6\"Ten cuidado, solo debilítalo, y yo intentaré llevarlo a Vaaz para atraparlo por la eternidad. El destino de los reinos está en tus manos.\" &eDijo S'kellak."
+				""
+				"&8Español"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "eldritch_end:textures/icon/faceless_head.png"
+				}
+			}
+			id: "69574BA63A9F05E8"
+			rewards: [
+				{
+					count: 5
+					id: "1F536D989D554373"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "12A95E19A6DDC894"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21B6E7DC9CD2B786"
+					table_id: 8008058263494883425L
+					title: "Void Touched Transmog"
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "eldritch_end:the_faceless"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "eldritch_end:textures/icon/faceless_head.png"
+					}
+				}
+				id: "1FC4C638A5DF2AC0"
+				title: "&9Summon and fight against The Faceless One"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &9&lThe Faceless One"
+			x: -4.758333333333333d
+			y: 15.607142857142861d
+		}
+		{
+			dependencies: ["245E77F81FB78B58"]
+			description: [
+				"&eRecommended Level: 50"
+				""
+				"&7Magus, the leader of the Hex, is one of the keys for the void to get into the Overworld. He hasn't been corrupted, but he's driven on his own interests and made an accord with the void."
+				""
+				"&7He's a powerful mage, its barrier may be weak to certain elements, but the Smite enchant will also help break it."
+				""
+				"&eUsing magic or abilities will gather the attention of the Hex. Use a Hexblade on their portal to travel to the Glass Ocean and use a Prismatic Pearl to summon him."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 50"
+				""
+				"&7Magus, el líder de los Hex, es una de las claves para que el vacío llegue al Overworld. No ha sido corrompido, pero está impulsado por sus propios intereses y ha hecho un pacto con el vacío."
+				""
+				"&7Es un poderoso mago, su barrera puede ser débil ante ciertos elementos, pero el encantamiento Golpeo también ayudará a romperla."
+				""
+				"&eUsar magia o habilidades va a atraer la atención de los Hex. Usa una Hexblade en su portal para viajar al Océano de Cristal, y usa una Perla Prismatica para invocarlo."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "spellbladenext:item/magus_chest"
+				}
+			}
+			id: "3A8C4B633BAF1EFF"
+			rewards: [
+				{
+					count: 3
+					id: "16E3270F0CFB0F91"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "7E5B66C9E08C7507"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [
+				{
+					entity: "spellbladenext:magus"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "spellbladenext:item/magus_head"
+						}
+					}
+					id: "0B213F812EBAA325"
+					title: "&bDefeat the Archmage Magus"
+					type: "kill"
+					value: 1L
+				}
+				{
+					dimension: "spellbladenext:glassocean"
+					icon: "archon:water_essence"
+					id: "781DD5C7F6F464F1"
+					title: "&bVisit the Glass Ocean"
+					type: "dimension"
+				}
+			]
+			title: "&f &bMagus, the Archmage"
+			x: -13.18690476190477d
+			y: 12.714285714285708d
+		}
+		{
+			dependencies: ["3A8C4B633BAF1EFF"]
+			description: [
+				"&6\"To summon the last herald, you'll have to go through their own dark magic. You should make a weapon born of true corruption, The Dreadtide, to get yourself mad to attract the dark thoughts from the void, the All-Seeing Eyes; we'll need 4 of them for the ritual."
+				""
+				"&6While you do this, I'll find more knowledge on the ritual. Just beware, don't fall into madness, as there's no going back.\" &e&oS'kellak said"
+				""
+				"[ \"Currently you need to kill Aberrations via \", { \"text\": \"this quest\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"734EDDD8FFBE8BC9\" } }, \" to progress.\" ]"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"Para invocar al último heraldo, tendrás que utilizar su propia magia oscura. Deberías forjar un arma nacida de la verdadera corrupción, la Dreadtide, para enloquecer y atraer los pensamientos más oscuros del vacío, los Ojos Omniscientes; necesitaremos 4 de ellos para el ritual."
+				""
+				"&6Mientras haces esto, buscaré más conocimiento sobre el ritual. Solo ten cuidado, no caigas en la locura, ya que no hay vuelta atrás.\" &e&oDijo S'kellak."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			icon: "eldritch_end:ominous_eye"
+			id: "0A5F7ABD54251511"
+			rewards: [{
+				id: "50729E9131DFED4A"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				count: 4L
+				id: "0EA07F48C91B6FBF"
+				item: "eldritch_end:ominous_eye"
+				title: "&eObtain 4 Ominous Eyes from the All-Seeing Eyes"
+				type: "item"
+			}]
+			title: "&ePath to Corruption: The All-Seeing Eyes"
+			x: -9.970068027210893d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"0A5F7ABD54251511"
+				"734EDDD8FFBE8BC9"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6\"I have found one of the lost pages of the Necronomicon, this should help you with the ritual.\" &e&oS'kellak said"
+				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6\"He encontrado una de las páginas perdidas del Necronomicón, esto debería ayudarte con el ritual.\" &e&oDijo S'kellak."
+				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			icon: "eldritch_end:eldritch_pedestal"
+			id: "7CD3D2757242817B"
+			rewards: [{
+				id: "5ADEB6806C96F673"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [
+				{
+					id: "1415FEE0A0DB5355"
+					item: "eldritch_end:eldritch_pedestal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "49221E02C7030B22"
+					item: "eldritch_end:abysmal_pedestal"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "184864F46C22A6B7"
+					item: "minecraft:black_candle"
+					type: "item"
+				}
+			]
+			title: "&ePath to Corruption: Ritual of Damnation"
+			x: -8.470068027210893d
+			y: 15.0d
+		}
+		{
+			dependencies: ["69574BA63A9F05E8"]
+			description: [
+				"&7The Faceless One has been captured and trapped inside Vaaz, S'kellak interrogated it."
+				""
+				"&9\"C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor\" &e&oThe Faceless said, in an unknown tongue"
+				""
+				"&6\"My child, if what it says is true, then our war has just started.\" &e&oSaid S'kellak, worried."
+				""
+				"&8&oDeep within the end, the rift closes, and a dark portal opens."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7El Ignoto ha sido capturado y atrapado dentro de Vaaz, S'kellak lo interrogó."
+				""
+				"&9\"C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor\" &e&oDijo el Ignoto, en una lengua desconocida."
+				""
+				"&6\"Mi joven, si lo que dice es cierto, entonces nuestra guerra apenas comienza.\" &e&oDijo S'kellak, preocupado."
+				""
+				"&8&oEn lo profundo del End, la grieta se cierra, y un portal oscuro se abre."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:writable_book"
+			id: "04AF2E026BB918AE"
+			rewards: [
+				{
+					id: "6E74EE6FA0B3D926"
+					item: "prominent_ost:music_disc_convergence"
+					type: "item"
+				}
+				{
+					advancement: "prominent:end_of_voids_invasion"
+					auto: "enabled"
+					criterion: ""
+					id: "085A183D10962F5D"
+					type: "advancement"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[Click to read lore]"
+			tasks: [{
+				id: "6CD2D01CFB2304DD"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&eThe Invasion Ends"
+			x: -3.008333333333347d
+			y: 15.678571428571402d
+		}
+		{
+			dependencies: ["7CBAFED315D614C3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eRecommended Level: 10"
+				"&cBetter suitable for Melee."
+				""
+				"&7Found in the Nether, he was cursed by what he thought was his allies. His kingdom was sieged and fell under the lava sea, and the King could only watch helplessly while his mind and body was slowly withering away."
+				""
+				"&7Now, resurrected by an unknown force, the once king can only think about revenge."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&eNivel Recomendado: 10"
+				"&cRecomendado para Melee."
+				""
+				"&7Encontrado en el Nether, fue maldecido por quienes pensaba que eran sus aliados. Su reino fue sitiado y cayó bajo el mar de lava, y el Rey solo pudo observar impotente mientras su mente y cuerpo se desmoronaban lentamente."
+				""
+				"&7Ahora resucitado por una fuerza desconocida, el que fue una vez rey solo puede pensar en vengarse."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5B31D4D4029F1891"
+			rewards: [
+				{
+					id: "79B0D3F4FFF9781D"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "46825316B1A4F7BC"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+				{
+					id: "295AB7155070AA62"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:mariums_weaponry_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "soulsweapons:end_of_reigns"
+					auto: "invisible"
+					criterion: ""
+					id: "04B95AE7147438F2"
+					title: "Oh the Misery"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: "soulsweapons:withered_demon_heart"
+				id: "0F20389F505FF2D8"
+				title: "&cDefeat The Decaying King"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &cThe Decaying King"
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&eCampaign bosses have their own level, just like you do as seen at the top of your inventory."
+				""
+				"&cThis means that if you are not of a high enough level, you will not deal enough damage to kill them."
+				""
+				"&7In total you will deal &c10% less damage per level difference&7, meaning if you're level 45 and a boss is level 50, you'll deal only 50% of the total damage you're meant to deal."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			id: "214E47AB3004E7D3"
+			rewards: [{
+				auto: "enabled"
+				icon: "ftbquests:book"
+				id: "73B06E8111436D07"
+				title: "&eUnlock Chapter I"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "3A4B95414CAC2233"
+				title: "Ok, I understood!"
+				type: "checkmark"
+			}]
+			title: "&cImportant Information: &eBoss Levels"
+			x: -12.234693877551024d
+			y: -4.803571428571431d
+		}
+		{
+			dependencies: [
+				"49C9DC2F3D131A14"
+				"5B31D4D4029F1891"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&eMeet S'kellak at Vaaz to discuss the events after the Fallen Kings."]
+			hide_until_deps_complete: true
+			icon: "prominent:skellak_spawn_egg"
+			id: "7907D42E7950D773"
+			rewards: [{
+				advancement: "prominent:level_10"
+				auto: "no_toast"
+				criterion: ""
+				icon: "prominent:knowledge_scroll"
+				id: "5E6DFE7BBF431E38"
+				title: "&eUnlock 11-50 Leveling"
+				type: "advancement"
+			}]
+			subtitle: "&8[Click to read more]"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:item/flameborn_stone"
+					}
+				}
+				id: "1A9CFBDF10D14168"
+				title: "Use the Flameborn Stone and find S'kellak"
+				type: "custom"
+			}]
+			title: "&eA Worrying Reunion"
+			x: -12.222789115646236d
+			y: -0.1964285714285623d
+		}
+		{
+			dependencies: ["7907D42E7950D773"]
+			description: [
+				"&o&7S'kellak hath discovered a source of unbalance within the realms. All dimensions now bear the taint of the void's horrid presence."
+				""
+				"&o&7Once serene creatures have been twisted into powerful aberrations by its corrupting touch. The fate of the realms rests upon thee."
+				""
+				"&8English"
+				""
+				""
+				"{@pagebreak}"
+				"&o&7S'kellak descubrió una fuente de desequilibrio en los reinos. Todas las dimensiones ahora llevan la mancha de la horrenda presencia del Vacío."
+				""
+				"&o&7Las criaturas que antes eran serenas han sido retorcidas en poderosas aberraciones por su toque corruptor. El destino de los reinos descansa sobre ti."
+				""
+				"&8Español"
+			]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "7023C0EC0A4686E2"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[Click to read more]"
+			tasks: [{
+				id: "74DFFCA773E3AF47"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&6&lChapter I: &eThe Void's Invasion"
+			x: -12.225170068027204d
+			y: 0.9880952380952479d
+		}
+		{
+			dependencies: ["63A18694A9470D66"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7This gift, illuminated by S'kellak's power, signifies both the hero's triumph and a pledge of continued protection for the realms."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&7Este regalo, iluminado por el poder de S'kellak, significa tanto el triunfo del héroe, y una promesa de protección continua por los reinos."
+				""
+				"&8Español"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "prominent:molten_core"
+			id: "45437B8E9AEEF2E5"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "&8[Click to read indications]"
+			tasks: [{
+				id: "40A7C0F467FA6D01"
+				item: "prominent:molten_core"
+				type: "item"
+			}]
+			title: "&eThe Molten Core"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A8C4B633BAF1EFF"]
+			description: [
+				"&7You've gotten word that about 1 in every 125 Aberrations is mutated to some degree. Chances are low but maybe this could be another Method of getting Omnious Eyes."
+				""
+				"CAREFUL! This is a repeatable Quest! You will be able to repeat this quest as many times as you need/want!"
+			]
+			hide_until_deps_complete: true
+			icon: "eldritch_end:aberration_limb"
+			id: "734EDDD8FFBE8BC9"
+			rewards: [
+				{
+					id: "75B1DFBED2F09A2F"
+					item: "eldritch_end:ominous_eye"
+					type: "item"
+				}
+				{
+					id: "16BCCE18B98B0D5C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [
+				{
+					entity: "eldritch_end:aberration"
+					icon: "eldritch_end:aberration_spawn_egg"
+					id: "35AF671A9BE7DA4E"
+					title: "&eKill Aberrations"
+					type: "kill"
+					value: 125L
+				}
+				{
+					biome: "eldritch_end:primordial_abyss"
+					icon: "eldritch_end:aberration_limb"
+					id: "55CE199477957984"
+					optional_task: true
+					title: "Visit the Primordial Abyss and fight Aberrations"
+					type: "biome"
+				}
+			]
+			title: "&eThese Eyes will have to do too..."
+			x: -11.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6EEFBD329C02E34A"]
+			description: ["&7Resetting the Artifact skill tree can be done with the Primordial Scroll, similar to the Knowledge Scroll. You will need to buy this item from &6S'kellak&7 himself using a Cinderstone Trophy."]
+			id: "70718BBE282CD31E"
+			rewards: [{
+				id: "3907E20CB6E46FB3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&8[Click to read indications]"
+			tasks: [{
+				consume_items: false
+				icon: "prominent:primordial_scroll"
+				id: "6A356B39F61C978E"
+				item: "prominent:primordial_scroll"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&eResetting your Artifact Knowledge"
+			x: -1.5d
+			y: 9.5d
+		}
+	]
+	title: " Void's Invasion"
+}

@@ -1,0 +1,2055 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "c_bewitchment"
+	group: "244F516C4853FD2F"
+	icon: "enchanted:broom"
+	id: "32706AAC8420562C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "5B558DB5BB091F2C"
+			rewards: [{
+				id: "75088B7167B9EB65"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "Witchcraft, Magic and more"
+			tasks: [
+				{
+					id: "705D52A6E5A9E57E"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:herbology"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "143CA94353FC1979"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:getting_started"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "482D0EF651A5CED7"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:brewing"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4503454C1E2F382B"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:extraction"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "422CE04F182B4F71"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:circle_magic"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Witch's First Steps"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			description: ["&7All Seeds can be obtained by breaking grass with a Hoe."]
+			icon: "enchanted:blood_poppy"
+			id: "7B9DEDD5472F5240"
+			rewards: [{
+				id: "651575BAA35093B3"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "Herbalism - mutating and mixing them is a core Feature of Enchanted:Witchcraft"
+			tasks: [{
+				id: "589BBF09A4FADEE1"
+				type: "checkmark"
+			}]
+			title: "Flowers"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B9DEDD5472F5240"]
+			id: "7953668FC30DDF15"
+			rewards: [
+				{
+					count: 12
+					id: "3C99B9851A5D7B00"
+					item: "enchanted:mutandis"
+					type: "item"
+				}
+				{
+					id: "7A47AC8EFE3939AA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mutandis is a mutagen used to mutate plants into other species you could not normally obtain. Using this substance on a small plant such as grass, saplings and flowers will mutate it into another."
+			tasks: [{
+				id: "044A383CDD4FD1C4"
+				item: "enchanted:mutandis"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			id: "47188F51BCACC1BF"
+			rewards: [
+				{
+					count: 8
+					id: "4761ACD37FD5619A"
+					item: "enchanted:mutandis_extremis"
+					type: "item"
+				}
+				{
+					id: "7C6C537832926494"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4388E45CAD017CA8"
+					item: "enchanted:alder_sapling"
+					type: "item"
+				}
+				{
+					id: "262720F48F37D6C7"
+					item: "enchanted:hawthorn_sapling"
+					type: "item"
+				}
+				{
+					id: "1764C9066249E363"
+					item: "enchanted:rowan_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "Mutandis Extremis, an enhanced form of mutandis, is able to mutate multi-stage plants such as cactus, sugar cane and wheat. Additionally, it can do everything normal mutandis can do."
+			tasks: [{
+				id: "49A421C71F872205"
+				item: "enchanted:mutandis_extremis"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"&7This tree is thought to be both a bringer of misfortune and a repellent of negativity. "
+				""
+				"Procurement:"
+				"&7Mutated from small plants"
+			]
+			id: "3B5BECDABF168BA6"
+			rewards: [{
+				id: "267B3A1953B6F86A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Alder trees, of the Alnus genus, are monoecious trees distributes throughout the north temperature zone thought to bleed when cut as the white wood can turn red. "
+			tasks: [{
+				id: "42D9A73AF29CFC74"
+				item: "enchanted:alder_sapling"
+				type: "item"
+			}]
+			title: "The Alder Tree"
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"&7Should be harvested with shears to avoid destruction"
+				""
+				"Procurement:"
+				"&7Mutated from small plants."
+			]
+			id: "0B7A3A692D34298F"
+			rewards: [{
+				id: "04AFD5AFEB442FFC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Ember Moss of the Takakia genus is a plant which has a very peculiar and unique defense mechanism where it bursts into flames at the slightest touch of disturbance."
+			tasks: [{
+				id: "7997B1FBC590913C"
+				item: "enchanted:ember_moss"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"Procurement:"
+				"&7Mutated from small plants."
+			]
+			id: "78088E0E6C70AB0D"
+			rewards: [
+				{
+					id: "490A0818EFBE147B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50819114BE76C118"
+					item: "minecraft:torchflower_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "This magical weed which emits a glow around it, acting like a torch, can survive on nearly any surface but only spreads on grass, dirt and sand."
+			tasks: [{
+				id: "78F618CF09E921D4"
+				item: "enchanted:glint_weed"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"&7In addition to herbal uses, hawthorn is known to be an effective material for dispatching vampires."
+				""
+				"Procurement:"
+				"&7Mutated from small plants."
+			]
+			id: "64CE422A3FB3E4C7"
+			rewards: [
+				{
+					id: "6DFA2EA4ED2A59F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4343D3D6EBD86CFB"
+					item: "artifacts:vampiric_glove"
+					type: "item"
+				}
+			]
+			subtitle: "This species of crataegus, commonly referred to as Hawthorn, is native to the northern hemisphere and known as a tree of purity."
+			tasks: [{
+				id: "6C823A185E0710F4"
+				item: "enchanted:hawthorn_sapling"
+				type: "item"
+			}]
+			title: "The Hawthorn Tree"
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"&7The magical affinity of the Rowan is seldom matched by other trees, and is thought to give protection against malevolent beings."
+				""
+				"Procurement:"
+				"&7Mutated from small plants."
+			]
+			id: "24F9EC15BD6C2AFC"
+			rewards: [{
+				id: "0F5F948040B79AD9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The rowan, or mountain-ash, a small deciduous tree native to the northern hemisphere, has many uses in witchcraft and occultism."
+			tasks: [{
+				id: "45CEC951C13EA80B"
+				item: "enchanted:rowan_sapling"
+				type: "item"
+			}]
+			title: "The Rowan Tree"
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7953668FC30DDF15"]
+			description: [
+				"&7Should be harvested with shears to be kept intact"
+				""
+				"Procurement:"
+				"&7Mutated from small plants."
+			]
+			id: "15688C158805AD1F"
+			rewards: [{
+				id: "0121EB9F9DFFA03D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "An epiphytic flowering plant, similar to a moss or lichen, found growing on trees in tropical or subtropical climates. Spanish Moss is often used in the creation of Poppets."
+			tasks: [{
+				id: "1E960FCE2F8D4248"
+				item: "enchanted:spanish_moss"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"&7The foliage and berries of this plant are known to be extremely toxic to humans and should be handled with care."
+				""
+				"Procurement:"
+				"&7Known to be dropped by Tall Grass."
+			]
+			id: "407EE1D1BD1B2BB0"
+			rewards: [{
+				id: "4F252258F105F64D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Atropa Belladonna, commonly known as deadly nightshade, is a poisonous member of the Solanaceae family."
+			tasks: [{
+				id: "6DA16BB9D8B57784"
+				item: "enchanted:belladonna_flower"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"&7 A lesser known use of this plant is being a strong repellent for vampiric beings."
+				""
+				"Procurement:"
+				"&7Known to be dropped by Tall grass."
+			]
+			id: "462D241038E5C828"
+			rewards: [{
+				id: "1C8FEC7C8613E71C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Garlic, a species of bulbous flowering plant in the Allium genus, is a best known for it's use as seasoning in many cuisines."
+			tasks: [{
+				id: "68C253ADEA629309"
+				item: "enchanted:garlic"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"&7The screams of this plant can cause injury or death. Wear earmuffs and harvest at night to reduce risk."
+				""
+				"Procurement:"
+				"&7Known to be dropped by Tall Grass."
+			]
+			id: "5586FE7D31809086"
+			rewards: [{
+				id: "2615CE3766884E80"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Mandrakes are a group of perennial herbaceous plants with long, parsnip shaped roots. You will hate the screams."
+			tasks: [{
+				id: "64AE42BE4D6BEE60"
+				item: "enchanted:mandrake_root"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"&7Their Resin is used for purification, dispelling anger or soothing tension."
+				""
+				"Procurement:"
+				"&7Known to be dropped by Tall Grass."
+			]
+			id: "682938FA8F7A0F93"
+			rewards: [{
+				id: "2791D3D69C5E9FBA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Snowbell, or Styrax, is a grenus of large shrubs from the Styracaceae family. Despite the name, they are native to warm climates."
+			tasks: [{
+				id: "0706E7704BF50B87"
+				item: "enchanted:icy_needle"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"&7Consumption of this plant will satiate hunger but empty your stomach."
+				""
+				"Procurement:"
+				"&7Known to be dropped by Tall Grass."
+			]
+			id: "01DD5096739C4677"
+			rewards: [{
+				id: "0C64C246B42D98ED"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "This subspecies of the common Artichoke only grows on still water. Unlike it's green cousin, it is not considered edible."
+			tasks: [{
+				id: "2B10D99EA849646E"
+				item: "enchanted:water_artichoke"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B9DEDD5472F5240"]
+			description: [
+				"&7Wolfsbane roots contain a substantial amount of aconitine, a potent neurotoxin and cardiotoxin."
+				""
+				"Procurement:"
+				"&7Known to be dropped by Tall Grass."
+			]
+			id: "7BEE0527AEE2AC44"
+			rewards: [{
+				id: "7A923952D05BFF85"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Aconitum, common name of Wolfsbane, refers to many flowering plants native to mountainous areas of the northern hemisphere."
+			tasks: [{
+				id: "29BEC42688BEC47B"
+				item: "enchanted:wolfsbane_flower"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			description: [
+				"&7The altar is an essential device used by Witches and Warlocks to collect magical energy from nature around them. Six altar blocks must be placed in a 3x2 rectangle to form a valid altar."
+				""
+				"&7An altar may be upgraded by placing specific items on top of it, these are detailed later."
+				""
+				"&7 See Extraction to find out more about materials needed to make an Altar."
+			]
+			id: "7B3281DC9A740D84"
+			rewards: [{
+				id: "073DDE52E4A9D5DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 6L
+				id: "7FEA63764EB1F799"
+				item: "enchanted:altar"
+				type: "item"
+			}]
+			title: "Altars"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B3281DC9A740D84"]
+			description: [
+				"&7A chalice may be placed on the altar to increase power capacity."
+				""
+				"Chalice: +1x Power Capacity"
+				""
+				"Filled Chalice: +2x Power Capacity"
+				""
+				"&7A chalice may be filled by using Redstone Soup on it."
+			]
+			id: "0321B60943223211"
+			rewards: [{
+				id: "681EE296AF031D85"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FF38B5E9654BF32"
+				item: "enchanted:chalice"
+				type: "item"
+			}]
+			title: "Chalice Upgrades"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7B3281DC9A740D84"]
+			description: [
+				"&7Skulls are able to enhance both the capacity and recharge rate of an altar, with varying effectiveness."
+				""
+				"Skeleton: +1x Power Capacity and +1x Recharge Rate"
+				""
+				"Wither: +2x Power Capactiy and +2x Recharge Rate"
+				""
+				"Player: +2.5 Power Capacity and +3x Recharge Rate"
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "5F98B1EBB30C263F"
+			rewards: [{
+				id: "72F0E85DBF75C4A1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "39B70BDA8BF4A464"
+				item: "minecraft:skeleton_skull"
+				title: "Any #c:skulls"
+				type: "item"
+			}]
+			title: "Skull Upgrades"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7B3281DC9A740D84"]
+			description: [
+				"&7One upgrade from the torch category may be placed on an altar, the benefits of each upgrade in this category are as follows:"
+				""
+				"Torch: +0.5x Recharge Rate"
+				""
+				"Candle: +1x Recharge Rate"
+				""
+				"Candelabra: +2x Recharge Rate"
+			]
+			id: "7EB2177127EDF7B9"
+			rewards: [{
+				id: "6F49BC20DEB47E9E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "37662D05CAC46968"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:candles"
+					}
+				}
+				title: "Any #minecraft:candles"
+				type: "item"
+			}]
+			title: "Torch Upgrades"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			description: ["&7One of the essential skills for a Witch is being able to create brews in cauldrons and kettles. "]
+			icon: "enchanted:witch_cauldron"
+			id: "522A912346A57666"
+			rewards: [{
+				id: "285B413085A95B84"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14084A191229D0C1"
+				title: "Brewing"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["522A912346A57666"]
+			description: [
+				"&7The kettle, similar to the witch's cauldron, is a type of brewing apparatus used primarily to create infusions but may have other uses."
+				""
+				"&7Kettles require altar power and a sufficient heat source to function."
+				""
+				"&7A lack of sufficient power or heat will make a brew spoil, and must be removed before the kettle is used again."
+				""
+				"&7A brew or infusion may be created by filling the kettle with water and dropping the correct items in the correct order into the kettle. Brews can be collected with empty glass bottles once complete."
+			]
+			id: "03960BA1D1F04078"
+			rewards: [
+				{
+					id: "37762A2BC570B0DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "5AC5E6FEA7A69ABA"
+					item: "enchanted:attuned_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4013089B39C00FE0"
+				item: "enchanted:kettle"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["10852CA14BB38CE4"]
+			description: [
+				"&7The Witch's Cauldron is an upgraded cauldron used to create magical substances and brews."
+				""
+				"&7The cauldron must be placed over a heat source to boil and may require altar power."
+				""
+				"&7If a cauldron does not have sufficient heat or power, the brew will turn brown and spoil, which must be removed."
+			]
+			id: "23C2C4580B40658E"
+			rewards: [{
+				id: "4F344BBA299C5F70"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "249AABF1BF8F8DE7"
+				item: "enchanted:witch_cauldron"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			description: ["&7Many resources used in the art of Witchcraft or other magical practices requires the extraction of magical properties or materials from seemingly mundane objects. This part details the two main processes; fume collection and distillation."]
+			icon: "enchanted:distillery"
+			id: "24DE04A86FFBCD7F"
+			tasks: [{
+				id: "131341E6B2C23C76"
+				title: "Extraction"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: ["&7This brew can be thrown to cause all nearby animals to become infatuated."]
+			id: "6DB688073F8B6A2B"
+			rewards: [{
+				id: "20A9FE2C77E61E05"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C90A207AEDEC050"
+				item: "enchanted:brew_of_love"
+				type: "item"
+			}]
+			title: "Love is in the air"
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: ["&7This brew can be thrown to cause a branch to sprout from the ground where it lands."]
+			id: "1CAA0EB4954DA383"
+			rewards: [{
+				id: "0F25D540D98FB94B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "45D4DDE96537E89D"
+				item: "enchanted:brew_of_sprouting"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: ["&7Drinking this brew will grant the ability to breathe underwater for a few minutes."]
+			id: "262A5DB9C87A0854"
+			rewards: [{
+				id: "5FBA15EAE0F14791"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "78A5A3E07EC69928"
+				item: "enchanted:brew_of_the_depths"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"&7This brew makes the drinker unrecognisably grotesque, preventing nearby mobs from approaching."
+				""
+				"&7Additionally actas as a base for most curses."
+			]
+			id: "2A0DA391E309349D"
+			rewards: [{
+				id: "46DAC6E7BC307714"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BA623809B83AFD3"
+				item: "enchanted:brew_of_the_grotesque"
+				type: "item"
+			}]
+			title: "Am i ugly?"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"&7Flying ointment is a liquid which seems to defy gravity. Anything imbued with it will gain the property of flight, including players who drink it."
+				""
+				"&7Used for infusing broomsticks."
+			]
+			id: "6A61EAA567B225F7"
+			rewards: [{
+				id: "27390792CCCC7021"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Weee"
+			tasks: [{
+				id: "7FD4E337254FE263"
+				item: "enchanted:flying_ointment"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"&7Happenstance Oil is said to let witches look into the future and is as such used to infuse Crystal Balls."
+				""
+				"&7Consuming this will give night vision for a short time."
+			]
+			id: "7525C57B0FD6C5A6"
+			rewards: [{
+				id: "4602BF41E0ABADB3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A4B9128C123B3DE"
+				item: "enchanted:happenstance_oil"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"&7Mystic Unguent is a curious concoction which allows an object to give form to thoughts."
+				""
+				"&7Used in a mystic branch infusion, consuming this will weaken you."
+			]
+			id: "67FC67E1E5581EEE"
+			rewards: [{
+				id: "2924DE6D0CE8703B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5384EC55BAA94CE0"
+				item: "enchanted:mystic_unguent"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"&7Redstone Soup acts as a base for other infusions and brews, it seems to have very few effects outside of this."
+				""
+				"&7Drinking Redstone Soup can increase your health for a short time."
+			]
+			id: "11FA7F7B0F3EDD81"
+			rewards: [{
+				id: "44858AF6C942ABD7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A475F37DA95457F"
+				item: "enchanted:redstone_soup"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"&7Soul of the World is a derivation of redstone soup, imbued with nature's energy, used for human infusions."
+				""
+				"&7This infusion is extremely toxic and should not be consumed."
+			]
+			id: "593DAD1F132CB7E0"
+			rewards: [{
+				id: "08C70A7FF0DA97CE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E12F1FB56B41EE9"
+				item: "enchanted:soul_of_the_world"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03960BA1D1F04078"]
+			description: [
+				"&7Spirit of Otherwhere is another derivation of redstone soup, imbued with the same properties as the End and it's inhabitants."
+				""
+				"&7This infusion is extremely toxic and should not be consumed."
+			]
+			id: "192ED68195347AC4"
+			tasks: [{
+				id: "1A33CA9CB9448720"
+				item: "enchanted:spirit_of_otherwhere"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			id: "056AAAB76704C89A"
+			rewards: [
+				{
+					count: 12
+					id: "1048D2FCD3AF0559"
+					item: "enchanted:mutandis"
+					type: "item"
+				}
+				{
+					id: "0A0DC18AC813055D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mutandis is a mutagen used to mutate plants into other species you could not normally obtain. Using this substance on a small plant such as grass, saplings and flowers will mutate it into another."
+			tasks: [{
+				id: "04FBF755F0AB3D0F"
+				item: "enchanted:mutandis"
+				type: "item"
+			}]
+			title: "Mutandis 2"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["056AAAB76704C89A"]
+			id: "080718302F9FE88D"
+			rewards: [
+				{
+					count: 8
+					id: "6BAA0E054F7A5443"
+					item: "enchanted:mutandis_extremis"
+					type: "item"
+				}
+				{
+					id: "7D22A8BD306D86E5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mutandis Extremis, an enhanced form of mutandis, is able to mutate multi-stage plants such as cactus, sugar cane and wheat. Additionally, it can do everything normal mutandis can do."
+			tasks: [{
+				id: "747AE4CB3B4A79BE"
+				item: "enchanted:mutandis_extremis"
+				type: "item"
+			}]
+			title: "Mutandis Extremis 2"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["522A912346A57666"]
+			description: [
+				"&7Use anointing paste on a regular cauldron to turn it into a Witch's Cauldron."
+				""
+				"&7A brew may be created by filling the cauldron with water and dropping the correct items in the correct order into the cauldron."
+			]
+			id: "10852CA14BB38CE4"
+			rewards: [{
+				id: "714E366F60FE7A04"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Not white dye"
+			tasks: [{
+				id: "5BCFD9BF955B698F"
+				item: "enchanted:anointing_paste"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.3d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: [
+				"&7Another use for a Witch's Cauldron is to boil food to cook it without requiring fuel. This is an effecttive method of cooking and works on most food."
+				""
+				"&7Currently only works on vanilla food."
+			]
+			id: "1A3DC0166A287963"
+			rewards: [{
+				id: "37DCE109337A400C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "minecraft:beef"
+				id: "51CFAD0DB46C23C2"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			title: "Boiling Food"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: ["&7Drop of luck is a liquid which enhances the luck of anybody who drinks it, and can be used in rites or the creation of magickal items. Its main uses are in brews."]
+			id: "017FC45D6B891C91"
+			rewards: [
+				{
+					id: "5647B73FE03C86E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5DB16C82CF209E3B"
+					item: "things:luck_of_the_irish"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30969EFEFCE859C3"
+				item: "enchanted:drop_of_luck"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: ["&7Golden Chalk is used to create the Heart Glyph of a magic circle, which must be right click to be activated. No rite will function without a heart glyph."]
+			id: "13423182590A5B84"
+			rewards: [{
+				id: "661D441624FDB75D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D50369B255B5A1E"
+				item: {
+					Count: 1
+					id: "enchanted:golden_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: [
+				"&7Infernal Chalk, or also called Nether Chalk, is a deep red chalk which appears to be burning."
+				""
+				"&7Infernal Chalk is used for most rites involving the Nether, demonic beings or dire. "
+				""
+				"&7Must be created in a Cauldron."
+			]
+			id: "40B9DEF0584606C4"
+			rewards: [
+				{
+					id: "65F33494EF2BEF00"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0A6DEA348D5C4C1E"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BFAB73EAA7916C4"
+				item: {
+					Count: 1
+					id: "enchanted:nether_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: [
+				"&7While expensive, Nether Warts can be synthesized in a Cauldron in the case that the Witch cannot find any via normal means."
+				""
+				"&7It is recommended not to do this as it is both expensive and ineffective."
+			]
+			id: "43A1C4B1FF991ADE"
+			rewards: [{
+				id: "108B806C59E0F2E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7313940081164A8C"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "Nether Wart"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23C2C4580B40658E"]
+			description: ["&7Otherwhere Chalk is a rich purple chalk, typically used for rites involving teleportation/transposition, relocation or the End of time(End)."]
+			id: "1B8AC63851FE70A2"
+			rewards: [{
+				id: "3977C7C7C9DF4FBD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "773FCD0ABF116B34"
+				item: {
+					Count: 1
+					id: "enchanted:otherwhere_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24DE04A86FFBCD7F"]
+			description: ["&7This section details the Witch Oven and its byproducts used for magical purposes."]
+			icon: "enchanted:fume_funnel"
+			id: "156FC17E34F3328E"
+			rewards: [
+				{
+					id: "1E976AC4DDDC03B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1AAD83C9E1F28DFA"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "175F9E502A4298B2"
+				title: "Collecting Fumes"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["156FC17E34F3328E"]
+			description: [
+				"&7The Witch's Oven is a modified furnace used to collect byproducts in a clay jar. Unline a furnace, this Oven cannot process ores."
+				""
+				"&7Fume funnels and filtered fume funnels may be placed on each side to increase byproduct yield."
+			]
+			id: "50C40DFDA5D0FDFF"
+			rewards: [
+				{
+					count: 12
+					id: "1D424EA0AB1EBC99"
+					item: "enchanted:clay_jar"
+					type: "item"
+				}
+				{
+					id: "78F77CAA96D87D1E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Did i forget to turn off the oven?"
+			tasks: [{
+				id: "13DF225D60A7006B"
+				item: "enchanted:witch_oven"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: ["&7Birch is a tree of healing and protection. Due to its silvery appearance, this tree is sometimes called the \"White Lady of the Woods\" and is associated with the Goddess Brigid."]
+			id: "1BFA28FC4984B705"
+			rewards: [{
+				id: "2BDC5522410F081B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5DB38E2306E53D47"
+				item: "enchanted:breath_of_the_goddess"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"&7The Horned God, sometimes called The Oak King is a Wiccan deity based on Cernunnos, symbolising wisdom, youth and strength."
+				""
+				"&7The Fumes produced by oaks are said to be the Horned God's exhale, carrying some of the properties associated with him."
+			]
+			id: "2BB14A1E75713B7F"
+			rewards: [{
+				id: "5D4CE1B9DD9FE507"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C750EBCD887ED78"
+				item: "enchanted:exhale_of_the_horned_one"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"&7Sulfur dioxide, reffered to as Foul Fumes, is a colorless gas with a very pungent odor."
+				""
+				"&7Can be toxic at high concentrations, witches should avoid opening the jar."
+			]
+			id: "2CF066B6BB9E8EEB"
+			rewards: [{
+				id: "03BD574E4183C663"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Is that your breath?"
+			tasks: [{
+				id: "054F0876F774FD49"
+				item: "enchanted:foul_fume"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"&7In celtic lore, Spruce Trees are associated with the birth of the divine child and are as such a symbol of rebirth, a common theme within Tree mythology."
+				""
+				"&7Regardless, they make good firewood."
+			]
+			id: "08F4ECBF7A7821E6"
+			rewards: [
+				{
+					id: "5AD681888CC2EDB7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "70CBE50BF3A407A8"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FC5BE1D63B51037"
+				item: "enchanted:hint_of_rebirth"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"&7Hawthorn can be used to collect a powerful purifying agent called Ordour of Purity, which is used in the creattion of any pure substances. "
+				""
+				"&7This Tree is sacred to the Goddesses Aine and Brigid."
+			]
+			id: "0E6DF5CEDADDB050"
+			rewards: [{
+				id: "22B5EAC404F96C8A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "769417EA15359519"
+				item: "enchanted:odour_of_purity"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"&7The highly sacred Alder Tree symbolising nature itself appears to bleed when cut, brings misfortune to all. It is thought that the tree contains the souls of some ancestors."
+				""
+				"&7The fumes produced from burrning can be collected, keeping this effect."
+			]
+			id: "007B5E4FE8428B09"
+			rewards: [{
+				id: "241C0B82A4B84F84"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "123FA8F41BFB1A47"
+				item: "enchanted:reek_of_misfortune"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["50C40DFDA5D0FDFF"]
+			description: [
+				"&7The Magickal Capacity of a Rowan Tree is seldom matched, and as such it can be a potent source of energy."
+				""
+				"&7Whiff of magic is a condensed magickal energy thought to provide some protection against malevolent beings."
+			]
+			id: "58A247BFBAB9DC76"
+			rewards: [{
+				id: "75C09BAF0E4E13DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5043E1409551C194"
+				item: "enchanted:whiff_of_magic"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["24DE04A86FFBCD7F"]
+			description: ["&7The Distillery and the ways it can be used to create magickal substances are detailed in this section."]
+			id: "392DD827C1A89426"
+			rewards: [
+				{
+					id: "64613FCF91E58238"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 12
+					id: "4DEB29809A3DFC84"
+					item: "enchanted:clay_jar"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D1065A5D6DD8FAC"
+				item: "enchanted:distillery"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "036FCBF7425889C1"
+			rewards: [{
+				id: "2C727F43CD858D59"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "316ADD3E4ED6D6C9"
+				item: "enchanted:demonic_blood"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "09BF6E4F6D1A3B5E"
+			rewards: [{
+				id: "56861B8DD6BC8793"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6905834A08C7A8DE"
+				item: "enchanted:diamond_vapour"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "2F6AB0640E4CD002"
+			rewards: [{
+				id: "23024B5009A91617"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E875F7610179987"
+				item: "enchanted:ender_dew"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			description: [
+				"&7Sulfur dioxide, reffered to as Foul Fumes, is a colorless gas with a very pungent odor."
+				""
+				"&7Can be toxic at high concentrations, witches should avoid opening the jar."
+			]
+			id: "297896F8CC866077"
+			rewards: [
+				{
+					id: "4A22FCB1A0775A9E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "16930BEC0B8B24E4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Is that your breath?"
+			tasks: [{
+				id: "63D30E6C5F7A6DE0"
+				item: "enchanted:foul_fume"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			description: ["&7Whilst mining Glowstone Dust is still an effective way, you can also create it with the Distillery."]
+			id: "19C640D645BCCFF5"
+			rewards: [{
+				id: "6E496702CC1E0EC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75233B0D3FC4AE85"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "1A845919E54304AB"
+			rewards: [{
+				id: "105DA9C20FFB6A5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "282314E2915BB903"
+				item: "enchanted:gypsum"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			description: [
+				"&7Hawthorn can be used to collect a powerful purifying agent called Ordour of Purity, which is used in the creattion of any pure substances. "
+				""
+				"&7This Tree is sacred to the Goddesses Aine and Brigid."
+			]
+			id: "7C9053AAA7862F35"
+			rewards: [{
+				id: "245EC48693887513"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "696CB80D91260773"
+				item: "enchanted:odour_of_purity"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "2257E0A4E1C8AC7B"
+			rewards: [{
+				id: "4D040AFE80F9227C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "391D63D35FE88B49"
+				item: "enchanted:oil_of_vitriol"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			description: [
+				"&7The highly sacred Alder Tree symbolising nature itself appears to bleed when cut, brings misfortune to all. It is thought that the tree contains the souls of some ancestors."
+				""
+				"&7The fumes produced from burrning can be collected, keeping this effect."
+			]
+			id: "7C4046654A263CE3"
+			rewards: [
+				{
+					id: "244F258BF1C3A039"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6AB7F7FACE672667"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "093C614C5C7EE372"
+				item: "enchanted:reek_of_misfortune"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "1277E8AD25A2DA0E"
+			rewards: [{
+				id: "76642400050CA0B5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "576FE4C3FEBF0618"
+				item: "enchanted:refined_evil"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "5F163AF0E7E7E28A"
+			rewards: [{
+				id: "1720556DFAEB61EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FAAFD6C1D682F73"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			id: "6049A73E67B739DB"
+			rewards: [{
+				id: "36171ABC286461BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11EFE26C7F76D1BA"
+				item: "enchanted:tear_of_the_goddess"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["392DD827C1A89426"]
+			description: [
+				"&7The Magickal Capacity of a Rowan Tree is seldom matched, and as such it can be a potent source of energy."
+				""
+				"&7Whiff of magic is a condensed magickal energy thought to provide some protection against malevolent beings."
+			]
+			id: "40DD1AFB0E6B8DB0"
+			rewards: [
+				{
+					id: "0E7AB31FEDA1EED3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "314259AFABF09695"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3C5A0898FA9785E8"
+				item: "enchanted:whiff_of_magic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3B45C160EDC3E1D7"]
+			description: ["&7This section details the process used to perform a circle magic rite."]
+			icon: {
+				Count: 1
+				id: "enchanted:golden_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "75E4EA90D9D93054"
+			rewards: [{
+				id: "77FB3A57F8CC7B96"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D7A3CAB9E56A3A2"
+				type: "checkmark"
+			}]
+			title: "Performing Rites"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B558DB5BB091F2C"]
+			description: ["&7Circle Magic is the Practice of using Chalk Circles or other materials in combination with foci items to collect magical energy from the environment and achieve the intended effect."]
+			icon: {
+				Count: 1
+				id: "enchanted:circle_talisman"
+				tag: {
+					circle_magic_shape_map: {
+						"enchanted:large_circle": "enchanted:otherwhere_chalk"
+					}
+				}
+			}
+			id: "3B45C160EDC3E1D7"
+			rewards: [{
+				id: "5C27158D9EC63B76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7D0EA479EF342453"
+					item: {
+						Count: 1
+						id: "enchanted:golden_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50EA884405F9A7DF"
+					item: {
+						Count: 1
+						id: "enchanted:ritual_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Circle Magic"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75E4EA90D9D93054"]
+			description: [
+				"&7To perform a rite, the correct chalk circles must be constructed first. Rites can use three types of chalk; ritual, infernal and otherwhere, which are placed around a heart glyph drawn with golden chalk."
+				""
+				"&7Each rite needs a suitable amount of power from an altar and foci items."
+			]
+			icon: {
+				Count: 1
+				id: "enchanted:ritual_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4596FE789462F045"
+			rewards: [{
+				id: "0A8E7E5A04B82196"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "25CE06FD5EF7B9BD"
+				title: "Performing a Rite"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["&7This section details rites intended to bind a magical effect or property to an object."]
+			icon: "minecraft:chain"
+			id: "307C0DD2A98811B5"
+			rewards: [{
+				id: "57E4C1C551F34E95"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28377B55EA61C219"
+				title: "Binding Rites"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["307C0DD2A98811B5"]
+			description: ["&7Use this rite to bind a familiar to yourself, which can give bonuses to witches."]
+			icon: {
+				Count: 1
+				id: "enchanted:arthana"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "401928D63E6BD7DB"
+			tasks: [{
+				id: "73302424688C8C1E"
+				type: "checkmark"
+			}]
+			title: "Familiar Ritual"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["307C0DD2A98811B5"]
+			description: ["&7This rite of binding is used to bind chalk circles of the correct configuration to a Circle Talisman. These circles can be placed in another location using the talisman, and the bound circle is released into the world."]
+			icon: "enchanted:circle_talisman"
+			id: "0C06A9C24B21904F"
+			rewards: [{
+				id: "6795044522B666F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41DFD5955F637C83"
+				title: "Talisman Ritual"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["&7Using magicks to power an imbued object is known as charging. This works on players, creatures and inanimate objects."]
+			icon: "enchanted:attuned_stone"
+			id: "41D1D201D61A0913"
+			rewards: [{
+				id: "5676307D3B743E1D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "773D34772AD1F014"
+				title: "Charging Rites"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41D1D201D61A0913"]
+			description: ["&7Gather Power to imbue an attuned stone with magical energy. This stone can be used for various purposes such as substituting an altar or creating magical objects."]
+			id: "07F0EF02D2614E5D"
+			rewards: [
+				{
+					id: "1D6AF98A29A3C060"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "15BFC703BB5250ED"
+					item: "enchanted:attuned_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B4636800B47B00D"
+				item: "enchanted:attuned_stone_charged"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["&7Creature rites are used to change or limit the behaviour of creatures affected by the circle. Rites of this type can often be used for warding."]
+			icon: "minecraft:bat_spawn_egg"
+			id: "1597CAC3E8A7377E"
+			rewards: [{
+				id: "2C27ACBAC366747D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Featuring the creature"
+			tasks: [{
+				id: "37FB522891AF016D"
+				title: "Creature Rites"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1597CAC3E8A7377E"]
+			description: [
+				"&7Prevent monsters from leaving the circle."
+				""
+				"&7While effect, this barrier is certainly not inpenetrable. High speeds or teleportation can cause a monster to escape."
+			]
+			icon: "minecraft:iron_bars"
+			id: "30FE56434A7AFF73"
+			tasks: [{
+				id: "64728E32408D18C9"
+				title: "Imprisonment"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1597CAC3E8A7377E"]
+			description: [
+				"&7Summon an impenetrable dome which can only be passed through by sneaking players."
+				""
+				"&7Available in different sizes."
+			]
+			icon: {
+				Count: 1
+				id: "paladins:iron_kite_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "45A7D8038588E461"
+			tasks: [{
+				id: "1F838F16FED0BA1F"
+				title: "Protection"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1597CAC3E8A7377E"]
+			description: [
+				"&7Prevent monsters from entering the Circle."
+				""
+				"&7While effective, this barrier is certainly not impenetrable. High speeds can cause a monster to rebound inside the circle."
+			]
+			icon: "minecraft:feather"
+			id: "379078E43DD9DFE3"
+			rewards: [{
+				id: "38D77EEC8610CB9D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1EEB48E2483538FE"
+				title: "Sanctity"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["&7Curses are a malicious form of circle magic intended to cause harm to a specific person over a sustained period of time."]
+			icon: "endrem:cursed_eye"
+			id: "51E951EE8CE87653"
+			rewards: [{
+				id: "0F2F068E7610B72B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "061A84CE3F8F91EE"
+				title: "Curses"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["51E951EE8CE87653"]
+			description: ["&7Curses at their core are the same as any other circle magic, however the level of the curse is increased by the skill of the caster. Witches and Warlokcs with a cat familiar or those who perform the rite with a coven will be more skilled at cursing others."]
+			icon: "minecraft:skeleton_skull"
+			id: "279BB02B704D8149"
+			rewards: [{
+				id: "46EF4291BB72D857"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D5B4A95C324AD08"
+				title: "Casting Curses"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["51E951EE8CE87653"]
+			description: ["&7The only known ways to lift a curse from an afflicted person are to perform the appropriate rite of curse removal."]
+			icon: "betterarcheology:creeper_fossil_head"
+			id: "14301CB90C114A3A"
+			rewards: [{
+				id: "661EC0E4DE7DFD2F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7DB89947819B57A2"
+				title: "Removing curses"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["&7Some objects can be imbued with magickal properties to help the user. This is called an infusion."]
+			icon: "soulsweapons:infused_blackstone"
+			id: "5C6FEDC36F9CDCA3"
+			rewards: [{
+				id: "1607E7F0B3D59624"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "503EFA6E02738B5D"
+				title: "Infusion Rituals"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5C6FEDC36F9CDCA3"]
+			description: [
+				"&7Imbue a standard broom with the power of flight, allowing the witch or warlock to ride it."
+				""
+				"&7Default controls are WASD, Space/Lcontrol and c/v."
+			]
+			id: "46690325565C8E97"
+			rewards: [{
+				id: "68F96FD23D954500"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "513F79C3DDBA9597"
+				item: "enchanted:enchanted_broomstick"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1597CAC3E8A7377E"]
+			description: ["&7Summon the familiar bound to the caster of the rite, causing them to teleport to the casting circle. This rite is capable of summoning dismissed or deceased familiars."]
+			icon: "mcwholidays:cat_wall_deco_1"
+			id: "40DC2AD2DDB5CB21"
+			rewards: [{
+				id: "3599D51352218EA1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A6926C04AA50CEA"
+				title: "Summon Familiar"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: ["&7Translocation Rites are aimed to transport objects from y to z. "]
+			icon: {
+				Count: 1
+				id: "enchanted:otherwhere_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7ECECF07C599F6CD"
+			rewards: [{
+				id: "3AB6613B4E9B9873"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6886F59A86B6DC58"
+				title: "Transposition"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7ECECF07C599F6CD"]
+			description: ["&7Transpose all usefull iron from underneath the circle to the surface, leaving behind the stone."]
+			icon: "minecraft:raw_iron"
+			id: "748177D51D81616D"
+			rewards: [
+				{
+					count: 32
+					id: "5493F12F910EBEB4"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "25A4084CD3E0E320"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "375DA6E02368FEEA"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			title: "Transpose Iron"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4596FE789462F045"]
+			description: [
+				"&7There is multiple World rites, that change the world around the Magic Circle or summon/process items."
+				""
+				"&7This can often prove dangerous."
+				""
+				""
+				"&7Rites include: Broiling food, Summoning a forest around the circle, Summoning a lightning storm, making a eclipse happen, grow plants, heal animals and cure villagers."
+			]
+			icon: "minecraft:oak_sapling"
+			id: "4EC000B13E071D0A"
+			rewards: [{
+				id: "6AA7F1992F16322C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4C7D19F20F2CC49A"
+				title: "In World Rituals"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7953668FC30DDF15"]
+			hide_until_deps_complete: true
+			icon: "enchanted:rowan_sapling"
+			id: "1E8529983F9CB72A"
+			invisible: true
+			rewards: [{
+				id: "0ED84095242AA076"
+				item: "enchanted:rowan_sapling"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.77d
+			tasks: [{
+				count: 128L
+				id: "6D50739D3CE1C6B6"
+				item: "enchanted:mutandis"
+				title: "Get 128 Mutandis"
+				type: "item"
+			}]
+			title: "Still no luck with the Rowan Sapling?"
+			x: -12.0d
+			y: -4.5d
+		}
+	]
+	subtitle: ["Enchanted:Witchcraft"]
+	title: "&c Witchcraft \\& Rituals"
+}

@@ -1,0 +1,1737 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "backpacks"
+	group: "555B69C1AF8C1C7F"
+	icon: {
+		Count: 1
+		id: "travelersbackpack:standard"
+		tag: {
+			StarterUpgrades: {
+				Items: [{
+					Count: 1b
+					id: "travelersbackpack:tanks_upgrade"
+				}]
+			}
+		}
+	}
+	id: "486A358714CC5AC5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["702ED6D1B159048D"]
+			description: [
+				"&7Traveler's Backpacks are the best way to carry more loot around you."
+				""
+				"&7Can be accessed by holding it in the Main hand and right-clicking"
+				""
+				""
+				"&7The Backpack is equippable on the back by clicking the \"Equip\" button in the backpack GUI, located on the right side just above the player's inventory slots."
+				""
+				""
+				"&7Though, this storage comes at a price:"
+				""
+				"&7You can only carry &9one&r &7backpack equipped and &93&r &7more in your inventory, &9otherwise you will get slowness&r"
+			]
+			id: "525D2B3932686298"
+			rewards: [{
+				id: "4B5A2C48BA093F45"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "This Quest is Unlocked once you have crafted a Backpack"
+			tasks: [{
+				id: "56F7309044C7780B"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Travelers Backpacks"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7This Backpack gives 4 armor if worn."]
+			id: "6D8D4B8780EB1CA3"
+			rewards: [{
+				id: "71688882994149F7"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5993BEEBC1EE1019"
+				item: {
+					Count: 1
+					id: "travelersbackpack:netherite"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7This Backpack gives 3 Armor if worn."]
+			id: "4139465DD6056A81"
+			rewards: [{
+				id: "736CAF0CE5664A0D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "69075125E899F86F"
+				item: {
+					Count: 1
+					id: "travelersbackpack:diamond"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7This Backpack gives 2 Armor if worn."]
+			id: "3959C7D31ED5B82A"
+			rewards: [{
+				id: "27910E0B19B4C182"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "30E86D402E20F0E4"
+				item: {
+					Count: 1
+					id: "travelersbackpack:gold"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7This backpack gives + 1 Luck if worn"]
+			id: "203506F3C98A79E0"
+			rewards: [{
+				id: "1EF3601470E624D5"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "636C2E09975343BE"
+				item: {
+					Count: 1
+					id: "travelersbackpack:emerald"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: [
+				"&7This backpack gives + 2 Armor if worn."
+				""
+				"[ \"Note: These do not increase the amount of slots the backpack has. for that, \", { \"text\": \"head over to the upgrades\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"33A6964936E495F8\" } } ]"
+			]
+			id: "26DD84828415CB78"
+			rewards: [{
+				id: "5C6C846707C644C3"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2EF6F024A06E4151"
+				item: {
+					Count: 1
+					id: "travelersbackpack:iron"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7This backpack gives a 15% to double the amount of incoming experience if worn"]
+			id: "72D1500EF6724A61"
+			rewards: [{
+				id: "08A2D14DE5046B09"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "08846380A04509B5"
+				item: {
+					Count: 1
+					id: "travelersbackpack:lapis"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7This Backpack provides maximum strength redstone signals if worn"]
+			id: "62CCFDAE54F475C3"
+			rewards: [{
+				id: "2D6298C27AEDFBE1"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "777EB545F5A5B861"
+				item: {
+					Count: 1
+					id: "travelersbackpack:redstone"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7When worn, grants Haste I."]
+			id: "30528626E99F414D"
+			rewards: [{
+				id: "4C60EA482E06174C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2BB194F2B4C019A1"
+				item: {
+					Count: 1
+					id: "travelersbackpack:quartz"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: [
+				"&7Can be played like a bookshelf around an Enchanting table to get the bonus of 5 Bookshelves."
+				""
+				"&4Not really Recommended at all.&r"
+			]
+			id: "253BC215CDB8517D"
+			rewards: [{
+				id: "4BED3C40BEECA22B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "79E39F370AF5581D"
+				item: {
+					Count: 1
+					id: "travelersbackpack:bookshelf"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "7EF3545F46FCBC26"
+			rewards: [{
+				id: "6A800CC19E91671B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "453B3A0183DE1148"
+				item: {
+					Count: 1
+					id: "travelersbackpack:coal"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "032B1C581C5047AD"
+			rewards: [{
+				id: "6D0CB34F63DB093B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2CFD541E35E576FB"
+				item: {
+					Count: 1
+					id: "travelersbackpack:end"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "7879C3647BF4C7E6"
+			rewards: [{
+				id: "084345DA421C2932"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "71100F0277774196"
+				item: {
+					Count: 1
+					id: "travelersbackpack:nether"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "12CAE31517CEFF58"
+			rewards: [{
+				id: "3602F82EC6C94AF1"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5456720A808E386B"
+				item: {
+					Count: 1
+					id: "travelersbackpack:sandstone"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "1DBA3E01A2B7A563"
+			rewards: [{
+				id: "1CE10E0C904DB18B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6ECA4DEB5169F886"
+				item: {
+					Count: 1
+					id: "travelersbackpack:snow"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7Works like sponge and additionally fills tank with every water block collected until tanks are full."]
+			id: "5AA5A86ECA5E8224"
+			rewards: [{
+				id: "05B5D130D3C36E18"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "0344A6ED876F3BFD"
+				item: {
+					Count: 1
+					id: "travelersbackpack:sponge"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7Restores full hunger and grants Regeneration I for 10 seconds. Cooldown is random."]
+			id: "2E5602ABF14B1A8A"
+			rewards: [{
+				id: "75C25326C99AD1A4"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "&7The Cake is a lie"
+			tasks: [{
+				id: "7695CEAFF7B9BEA7"
+				item: {
+					Count: 1
+					id: "travelersbackpack:cake"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7If the backpack is placed on the ground and it's raining, it will fill tanks with speed of 1ml per 5 ticks. If player wears backpack and it's raining, it will fill with speed of 1 ml per 5 ticks, if player is under water it will with speed of 2ml per 5 ticks."]
+			id: "55BA486B6005C3CF"
+			rewards: [{
+				id: "1D7091D8B2C05356"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "75CA95A7CFEBB41D"
+				item: {
+					Count: 1
+					id: "travelersbackpack:cactus"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			description: [""]
+			id: "5837E119A692D874"
+			rewards: [{
+				id: "7C8E50D9C85CE9FF"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5E2A0F66286AEEEF"
+				item: {
+					Count: 1
+					id: "travelersbackpack:hay"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7When harvested, there's random chance to spawn 0 to 3 melon slices. The cooldown is randomly selected from range of 2 minutes to 6 minutes"]
+			id: "04A41F198E2C9C5C"
+			rewards: [{
+				id: "7E9013AD5BBE237D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "300C177B6EBFE583"
+				item: {
+					Count: 1
+					id: "travelersbackpack:melon"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7When worn, Endermen no longer aggro on you. Does the same as the End Veil Enchantment."]
+			id: "11F8571A010C07A4"
+			rewards: [{
+				id: "335BF60FE1C3156C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "32ACEF4A3FF42148"
+				item: {
+					Count: 1
+					id: "travelersbackpack:pumpkin"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: [
+				"&7When worn, it prevents the player from dying, setting the player back to 1 HP, removing all negative effects, granting Regeneration 2, Absorption 2 and fire Resistance. Also blows up, dealing damage to mobs around you. "
+				""
+				"&7Has a Cooldown of 10-15 minutes."
+			]
+			id: "087E23A5E93E970B"
+			rewards: [{
+				id: "1A2DF84B220A34CA"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3C655C5E93B2CF7F"
+				item: {
+					Count: 1
+					id: "travelersbackpack:creeper"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7When worn, gives the wearer Regeneration 1 and Strength 1."]
+			id: "2118FFF7316E384B"
+			rewards: [{
+				id: "74B083B260FD7E61"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "014AD018C2458F63"
+				item: {
+					Count: 1
+					id: "travelersbackpack:dragon"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7Extends your building range by 1. &nDoes not work with Combat.&r"]
+			id: "390F2A5F6AA8BCF0"
+			rewards: [{
+				id: "761C30818B3983F7"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4D73E4D06021FB0B"
+				item: {
+					Count: 1
+					id: "travelersbackpack:enderman"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7Grants the wearer immunity to fall damage, removes small fireballs sent by blazes if they hit the player."]
+			id: "17ADE979FA776F04"
+			rewards: [{
+				id: "7DC589D17514C0DF"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "47D5296384C49CFB"
+				item: {
+					Count: 1
+					id: "travelersbackpack:blaze"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7When worn, Ghasts will not attack the player first, unless they are being attacked."]
+			id: "742D6E070007E3F0"
+			rewards: [{
+				id: "30D11B4B50FC898B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4F92170AA49AE79A"
+				item: {
+					Count: 1
+					id: "travelersbackpack:ghast"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7Grants Fire Resistance when worn."]
+			id: "58DBCD5A78185F1A"
+			rewards: [{
+				id: "179455F8B03F9B2B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1BCE902243C3F0DD"
+				item: {
+					Count: 1
+					id: "travelersbackpack:magma_cube"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "7448321531031C03"
+			rewards: [{
+				id: "5141730FFE873872"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6C071FD246BD2A74"
+				item: {
+					Count: 1
+					id: "travelersbackpack:skeleton"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7Allows wearer to climb walls just like ladders."]
+			id: "13D2C1743425BE2B"
+			rewards: [{
+				id: "39559A935B79D644"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "608130C5BCD60FD9"
+				item: {
+					Count: 1
+					id: "travelersbackpack:spider"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7Removes inflicted wither effect from the wearer and applies Wither II for 3 seconds to attacked enemies."]
+			id: "15DBE7397C5B35E4"
+			rewards: [{
+				id: "5A64161C338B3BBD"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "62DE3E602BAD88D6"
+				item: {
+					Count: 1
+					id: "travelersbackpack:wither"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "5A0D56EDC561E097"
+			rewards: [{
+				id: "3ECD4F01A2F27FE8"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "47E0972C4E11C02A"
+				item: {
+					Count: 1
+					id: "travelersbackpack:warden"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7Gives the wearer Night vision, similar to the Monocle or the Night Vision Goggles."]
+			id: "4330E3096F6847B8"
+			rewards: [{
+				id: "78E4F709B7FBAF57"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7EB5BF6A19851E19"
+				item: {
+					Count: 1
+					id: "travelersbackpack:bat"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7When worn, stings the attacked creature with strength of 1 heart, increases stinger count in attacked creature (if possible) and grants poison I for 4 seconds"]
+			id: "0D1829C85ACF626B"
+			rewards: [{
+				id: "70D15F7C9F681DC1"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1814088301362246"
+				item: {
+					Count: 1
+					id: "travelersbackpack:bee"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "73F4B3C6D3FFC5F3"
+			rewards: [{
+				id: "44F536DAB9FBD938"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2FF4F0244BD259EB"
+				item: {
+					Count: 1
+					id: "travelersbackpack:wolf"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "4B5DE060E019F0DF"
+			rewards: [{
+				id: "67CABB02CC6373B9"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "776D2891B3DB774B"
+				item: {
+					Count: 1
+					id: "travelersbackpack:fox"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7When the wearer is near Hostile mobs, gain Speed 1."]
+			id: "1C3BBBCD20209CF3"
+			rewards: [{
+				id: "4A1AC74B33BF4397"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6AF8BDC33B1732EB"
+				item: {
+					Count: 1
+					id: "travelersbackpack:ocelot"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "685C650B9C413C29"
+			rewards: [{
+				id: "7F22933041097133"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4725B17B94D09988"
+				item: {
+					Count: 1
+					id: "travelersbackpack:horse"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7Cleanses many negative effects. The cooldown is between 7.5 minutes and 10 minutes."]
+			id: "23251912A5B9C281"
+			rewards: [{
+				id: "36A4D1293DA1F19E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "374FAF1EECC92F59"
+				item: {
+					Count: 1
+					id: "travelersbackpack:cow"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "292C2CEA8AC5389D"
+			rewards: [{
+				id: "25CB2440FB7014AE"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2A443EDE9DE786AA"
+				item: {
+					Count: 1
+					id: "travelersbackpack:pig"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "0FBC035368DE88AB"
+			rewards: [{
+				id: "1E606207EDFFAB3C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4CF3E14CB8C0D4BD"
+				item: {
+					Count: 1
+					id: "travelersbackpack:sheep"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7When worn, spawns an egg every 6-10 minutes. Why??"]
+			id: "2A8A54C88BBB8ABF"
+			rewards: [{
+				id: "31888EF725E40214"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "58E8130CE4269A1E"
+				item: {
+					Count: 1
+					id: "travelersbackpack:chicken"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E6CFE8F4E97643E"]
+			description: ["&7Grants the wearer Water Breathing I and Night Vision I while being in water."]
+			id: "46F38DB45C5CC76F"
+			rewards: [{
+				id: "765B0322EA11D556"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7741C5273A779452"
+				item: {
+					Count: 1
+					id: "travelersbackpack:squid"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "6C1151D95B28A1A7"
+			rewards: [{
+				id: "027761E918A29625"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3D28D8CA27F6A90D"
+				item: {
+					Count: 1
+					id: "travelersbackpack:villager"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["632344613FCF7BE6"]
+			id: "614197B9B64A6143"
+			rewards: [{
+				id: "527BB6F6F84ECAF8"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "488B32F181BFD93F"
+				item: {
+					Count: 1
+					id: "travelersbackpack:iron_golem"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["525D2B3932686298"]
+			id: "1E6CFE8F4E97643E"
+			rewards: [{
+				id: "40768DB60E63527F"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5A73AA38D244F13B"
+				title: "Backpacks with Abilities"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["525D2B3932686298"]
+			description: ["&7Some backpacks are only really cosmetic. Whilst they don't have Abilities, they can still obviously carry items."]
+			id: "632344613FCF7BE6"
+			rewards: [{
+				id: "03C087CE00D3334A"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "65806F57E66307E6"
+				title: "Backpacks without abilities"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["525D2B3932686298"]
+			description: ["&7Don't like how your backpack looks? Just use the Transmogging table and make it look like another backpack!"]
+			id: "3317F67638D1A2B1"
+			rewards: [{
+				id: "7CDFBD9A77FBDF1E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6C63C5EA5295A73B"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			title: "Transmogging Backpacks"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["525D2B3932686298"]
+			description: ["&7Upgrading Backpacks is incredibly easy and is done in a Smithing Table."]
+			icon: "minecraft:smithing_table"
+			id: "3226DF3C94B1BC21"
+			rewards: [
+				{
+					id: "7BA6DE48E803E28C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "51DEF3FF8AE59BD9"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7194CB1E06F82B9E"
+					title: "Backpack Upgrades"
+					type: "checkmark"
+				}
+				{
+					id: "71F8A45A0F165082"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3226DF3C94B1BC21"]
+			id: "6EE536BD7721091F"
+			rewards: [
+				{
+					id: "30BDED4E10048DFC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "5A05A2B998CDB67D"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "369947035AA38F89"
+				item: "travelersbackpack:blank_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: ["&7These upgrades increase the amount of slots a backpack has. Highly recommended to do."]
+			id: "33A6964936E495F8"
+			rewards: [{
+				id: "1B353570B65AB91E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2BAC0ECDD7F74009"
+				item: "travelersbackpack:iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["33A6964936E495F8"]
+			id: "7891B2DE603591EC"
+			rewards: [{
+				id: "23E6D8E275B4B217"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "03D1FD8846C4DFF2"
+				item: "travelersbackpack:gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7891B2DE603591EC"]
+			id: "2AEEB61E1DA367A9"
+			rewards: [{
+				id: "403658C8FB399AE0"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "55FF7494110C42D7"
+				item: "travelersbackpack:diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2AEEB61E1DA367A9"]
+			id: "06DDB61A5CF0930B"
+			rewards: [{
+				id: "00EA41FD854C6C4E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "403EF01559D1F339"
+				item: "travelersbackpack:netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: [
+				"&7Enhances the backpack with two fluid tanks."
+				"&7Fluids can be added through the upgrade tab slots or by holding a fluid container at the cursor and clicking on the desired tank."
+				"&7Potions can be stored in the tank, preserving their effects and allowing them to be used with a hose in drink mode."
+				"&7Splash and lingering potions can also be stored and used with the hose in spill mode to throw them into the world."
+			]
+			id: "3C406DC8BE95F490"
+			rewards: [{
+				id: "1999376E8C6260D9"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2DFE1790152A6145"
+				item: "travelersbackpack:tanks_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: [
+				"&7Adds a crafting grid to the backpack."
+				"&7An arrow in the upgrade tab determines whether the crafted item goes to the backpack or the player's inventory when shift-clicked."
+			]
+			id: "0E3D4FE881B9A8F3"
+			rewards: [{
+				id: "7556423C30FA3A53"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "462FBBA546FF18A3"
+				item: "travelersbackpack:crafting_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: ["&7Adds a furnace to the backpack. Works like a standard furnace."]
+			id: "5158383F5A0A7F2A"
+			rewards: [{
+				id: "52022D51A89CBBAC"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "565FACC216C40EAD"
+				item: "travelersbackpack:furnace_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: ["&7Adds a smoker to the backpack. Works like a standard smoker (cooks food faster)."]
+			id: "35B09A1F3B49FB38"
+			rewards: [{
+				id: "22179A5BB96FDAE8"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "130411FD24918865"
+				item: "travelersbackpack:smoker_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: ["&7Adds a blast furnace to the backpack. Works like a standard blast furnace (smelts ores faster)."]
+			id: "3F6203796605E6E4"
+			rewards: [{
+				id: "722D8A33F798ED8B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6A6AD2FA7393D094"
+				item: "travelersbackpack:blast_furnace_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: [
+				"&7Feeds the player with food from the backpack."
+				"&7Applying upgrade without changing the filter settings will eat every food from the backpack, starting from the top - foods with negative effects are ignored."
+			]
+			id: "339339B55C927A5F"
+			rewards: [{
+				id: "4D7843283309A88B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3E6672C388FF073C"
+				item: "travelersbackpack:feeding_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			id: "4526CDAEA75529BA"
+			rewards: [{
+				id: "2E302DD5E3E0EF2F"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "0230BB47617D0145"
+				item: "travelersbackpack:refill_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: [
+				"&7Allows items to be picked up from the ground and stored directly in the backpack."
+				"&7Applying upgrade without changing the filter settings will pickup all items and place them in the backpack storage."
+			]
+			id: "132F13E3F373AD9E"
+			rewards: [{
+				id: "06FFD7798A357168"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "11FA818D69026D29"
+				item: "travelersbackpack:pickup_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: [
+				"&7Pulls nearby items to the player in a radius of 5 blocks (Pull range can be changed in config)"
+				"&7Applying upgrade without changing the filter settings will pull all detected items to the player."
+			]
+			id: "04BB18B729D30F70"
+			rewards: [{
+				id: "2A1E5CDA3564F850"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5A13DA14D8FE027E"
+				item: "travelersbackpack:magnet_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: [
+				"&7Provides a trash slot for manual item deletion and filters to automatically void items when they enter the backpack via the Pickup Upgrade or hoppers."
+				"&7Applying upgrade without changing the filter settings will not void any items. Add an item to the filter slot to have it voided when it enters the backpack via the Pickup Upgrade or a Hopper."
+			]
+			id: "5B6AB9E8FB9AD7DD"
+			rewards: [{
+				id: "584217D77B2C29E0"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "475F135109B1CB39"
+				item: "travelersbackpack:void_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: [
+				"&7Allows listening to music."
+				"&7Accepts only music disks in the slot."
+				"&7Music is available only for player who wears the backpack, other players do not hear the music."
+			]
+			id: "5AABB5F863743B4A"
+			rewards: [{
+				id: "03A085A430C219D0"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3BECA5C760F5DE30"
+				item: "travelersbackpack:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6EE536BD7721091F"]
+			description: ["&7Provides light around player."]
+			id: "1B4CF85866B068ED"
+			rewards: [{
+				id: "7BFFE011A20B740E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "77FBE4FB7A51DD50"
+				item: "travelersbackpack:lantern_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["40A010A3DDF42559"]
+			description: [
+				"&7The hose can be used with the Tank upgrades."
+				""
+				"&7Hose modes"
+				"&7Suck Mode - You can pick up fluid from the world or - when clicking on a suitable tank - transfer fluid from the clicked tank to your backpack's tank."
+				""
+				"&7Spill Mode - You can spill fluid into the world or - when clicking on a suitable tank - transfer fluid from your backpack's tank to the clicked tank."
+				""
+				"&7Drink Mode - Allows the player to drink the contents of certain tanks - not all fluids are drinkable, and some of them may give special effects."
+				""
+				"&7If you hold the Hose item in your main hand and have the backpack equipped, press Z (configurable in controls) to open the mode/tank selection wheel."
+			]
+			id: "58B7EE3AC76D5B81"
+			rewards: [{
+				id: "34225DD4894C06E0"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2A6E5B58ABEF16B0"
+				item: "travelersbackpack:hose"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["525D2B3932686298"]
+			id: "40A010A3DDF42559"
+			rewards: [{
+				id: "2BD5CFED955BECEC"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "75CB53C3D1181B03"
+				item: "travelersbackpack:hose_nozzle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["525D2B3932686298"]
+			description: ["&7If you do not like the backpack you got/crafted, you can always place it down, use shears on it and it will reveert to a Standard Travelers Backpack."]
+			id: "2D102805183317F7"
+			rewards: [{
+				id: "7ADBB8E5678BF0F2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D8D091E55747FC2"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Reverting your custom Backpack"
+			x: -3.0d
+			y: 2.5d
+		}
+	]
+	title: "&e Backpacks "
+}

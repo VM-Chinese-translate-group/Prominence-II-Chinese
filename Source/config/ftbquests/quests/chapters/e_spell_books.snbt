@@ -1,0 +1,422 @@
+{
+	autofocus_id: "3D769BC0E31CF27B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e_spell_books"
+	group: "5EA21B61C2E147CB"
+	id: "0A5ED3FF6297E59E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eThe Spell Binding Table is the source of creation of Tier I spellbooks. It also allows you to attach spells to all spellbooks, regardless of their tier."
+				""
+				"&7To maximize its performance and allow it to unlock all spells, you must surround it with &eBookshelves&7 similarly to an Enchanting Table. &n&l&4You will require 18 Bookshelves to get all four Spells.&r&r&r"
+			]
+			id: "2ACBF734342376E6"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				id: "27A316975F783582"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			title: "&eThe Spell Binding Table"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ACBF734342376E6"]
+			description: [
+				"&eBefore delving into creating your first spellbook, you might want to ask, what do tiers mean?"
+				"&8The difficulty next to them defines the complexity of each book, how hard it is to master them."
+				""
+				"&eTier I: &7Base class books that can be obtained through the Spell Binding Table."
+				"&6Tier II: &7Hybrid class books that require a crafting recipe using a Tier I book to be obtained."
+				"&cTier III: &7Advanced class books that expand / evolve Tier II books, or have an advanced gameplay. They require a Cinderstone Trophy to be made."
+				""
+				"&7A higher tier book &cdoes not mean it is stronger&7, rather that it is obtained in a different way."
+			]
+			id: "3D769BC0E31CF27B"
+			rewards: [{
+				count: 8
+				id: "63E0801C38149B0D"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				id: "5C2381C13E96EC72"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "&eThe Power Within You"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eWarrior's Codex"
+				"&7A basic book for bruisers or protectors. A great middle ground for slower Physical Damage builds."
+			]
+			id: "680CDC0CDDB2A1E7"
+			shape: "diamond"
+			subtitle: "&eTier I&7- &aEasy"
+			tasks: [{
+				id: "0CC8838FD229F0D3"
+				item: "rogues:warrior_spell_book"
+				type: "item"
+			}]
+			title: "&eA Berskerking Path"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eRogue Handbook"
+				"&7A spellbook that focuses on providing utilities for rogue builds, from stacking damage increases to teleports, stuns and quick stealth."
+			]
+			id: "78944A4B5A1CD1EA"
+			shape: "diamond"
+			subtitle: "&eTier I &7- &aEasy"
+			tasks: [{
+				id: "420A3C82E6373505"
+				item: "rogues:rogue_spell_book"
+				type: "item"
+			}]
+			title: "&eLethal Shadows"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eArchery Manual"
+				"&7The basic spell book for Archers. Focuses on improving the archery gameplay with extra abilities. From a passive improvement of your shots, to crowd control and a rapidfire of arrows."
+			]
+			id: "39463E71A1709CE8"
+			shape: "diamond"
+			subtitle: "&eTier I &7- &aEasy"
+			tasks: [{
+				id: "659C0887A14C58E8"
+				item: "archers:archer_spell_book"
+				type: "item"
+			}]
+			title: "&eThe Bullseye"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eHoly Book"
+				"&7Channel the primordial Holy powers to heal your allies."
+			]
+			id: "420BD41EBB2FCBF2"
+			shape: "diamond"
+			subtitle: "&eTier I &7- &aEasy"
+			tasks: [{
+				id: "4A76EA93FA7EBA05"
+				item: "paladins:priest_spell_book"
+				type: "item"
+			}]
+			title: "&eA Holy Healer"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eTome of Arcane"
+				"&7A ranged casting spell book that uses Arcane magic to deal very powerful attacks with high critical damage."
+				""
+				"- &eTome of Frost"
+				"&7A ranged casting spell book that uses Frost magic to deal constant and quick damage with utilities such as crowd control and defensive spells."
+				""
+				"- &eTome of Fire"
+				"&7A ranged casting spell book that uses Fire magic to deal strong attacks with a high critical chance."
+			]
+			id: "2FE046702FE7E363"
+			shape: "diamond"
+			subtitle: "&eTier I  &7- &aEasy"
+			tasks: [
+				{
+					id: "767C8498E6F73BF4"
+					item: "wizards:arcane_spell_book"
+					type: "item"
+				}
+				{
+					id: "1645A1DF79B0CC8F"
+					item: "wizards:frost_spell_book"
+					type: "item"
+				}
+				{
+					id: "0AC2E4E46CF093ED"
+					item: "wizards:fire_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eElemental Magic"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"680CDC0CDDB2A1E7"
+				"420BD41EBB2FCBF2"
+			]
+			description: [
+				"- &ePaladin Libram (Tank)"
+				"&7A combination of a Warrior and a Priest, a protector that summons the Holy to protect their allies."
+				"- &eOath Of Defiance (Tank)"
+				"&7A combination of a Tank and a Priest, a defender of whats behind him and a aggressor to what stands in his way"
+				"- &eOath Of Vengeance (Tank)"
+				"&7A combination of a Tank with a few techniques old Monks would use. Meant for taunting the enemy and showing how solid your armor is, making protecting your allies easier"
+			]
+			id: "55D2E1055E762E33"
+			shape: "pentagon"
+			subtitle: "&6Tier II &7- &eMedium"
+			tasks: [
+				{
+					id: "1B0545C60E16399F"
+					item: "paladins:paladin_spell_book"
+					type: "item"
+				}
+				{
+					id: "4EC5F01ABFBED7BA"
+					item: "spellbladenext:defiance_spell_book"
+					type: "item"
+				}
+				{
+					id: "0F29E2EE6A65CD5B"
+					item: "spellbladenext:vengeance_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eA Holy Warrior"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["680CDC0CDDB2A1E7"]
+			description: [
+				"&7There are three types of Death Knights"
+				""
+				"- &eTome of Eternal Winter (Frost - DPS)"
+				"&7Focused towards dealing damage to multiple targets, easy to understand but the hardest of all three to masterize."
+				""
+				"- &eTome of Unholy Teachings (Unholy, DPS)"
+				"&7Focused on dealing high damage to a single target, especially good with the Decaying Devotion fate talent."
+				""
+				"- &eTome of Vampriric Knowledge (Blood - Tank)"
+				"&7Focused on self sustain, with spells that focus on self healing based on maximum health."
+			]
+			id: "12369F6ACB62CBC1"
+			shape: "pentagon"
+			subtitle: "&6Tier II &7- &eMedium"
+			tasks: [
+				{
+					id: "7F6EA37603A11140"
+					item: "death_knights:blood_spell_book"
+					type: "item"
+				}
+				{
+					id: "4A010BC27744790E"
+					item: "death_knights:unholy_spell_book"
+					type: "item"
+				}
+				{
+					id: "5022B3CA9933DD1B"
+					item: "death_knights:frost_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eDeath's Knights"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2FE046702FE7E363"
+				"78944A4B5A1CD1EA"
+			]
+			description: [
+				"&eSpellblades combine the lethal rogues with the use of magic."
+				""
+				"- &eTechniques Books"
+				"&7A series of books with elemental melee spells."
+			]
+			id: "2D6DC01DD507C1EC"
+			shape: "pentagon"
+			subtitle: "&6Tier II &7- &aEasy"
+			tasks: [
+				{
+					id: "17F3314D40F30CEE"
+					item: "spellbladenext:frost_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "7BABA4105E09F7BE"
+					item: "spellbladenext:fire_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "6CFA154E9DDFAF6B"
+					item: "spellbladenext:arcane_battlemage_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eThe Spellblades"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2FE046702FE7E363"]
+			description: [
+				"&eAstral magic is the combination of Arcane, Fire and Frost magics."
+				""
+				"- &eAstral Invocations"
+				"&7Use the power of the astral elements to cast three different spells of each element. You can use an ultimate spell that will change according to the elements used."
+				""
+				"&cWith a total of &l39&r&c possible spells, this is the hardest spell book. "
+			]
+			id: "6EBA56E6576665E2"
+			shape: "hexagon"
+			subtitle: "&cTier III &7- &cHard"
+			tasks: [{
+				id: "6FF598197E4A5471"
+				item: "invoke:invoker_spell_book"
+				type: "item"
+			}]
+			title: "&eAstral Magic"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39463E71A1709CE8"]
+			description: [
+				"- &eMintaka's Fright"
+				"&7An archery book that combines archery with frost magic, focusing on crowd control with stuns."
+				""
+				"- &eAlnilam's Sight"
+				"&7An archery book made for lethal rogue archers, focusing on fast gameplay."
+				""
+				"- &eAlnitak's Might"
+				"&7An archery book that combines archery with fire magic, focusing on high damage with burning and explosions."
+			]
+			id: "24588E0C17F50C15"
+			shape: "pentagon"
+			subtitle: "&cTier III &7- &eMedium"
+			tasks: [
+				{
+					id: "362CF726EC9049D2"
+					item: "archers_expansion:tundra_hunter_spell_book"
+					type: "item"
+				}
+				{
+					id: "3BDCCF2AA3A70E04"
+					item: "archers_expansion:deadeye_spell_book"
+					type: "item"
+				}
+				{
+					id: "09E48B2921BFBA96"
+					item: "archers_expansion:war_archer_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eThe Three Hunters"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D6DC01DD507C1EC"]
+			description: [
+				"&eEvolutions of technique books, slightly more advanced."
+				""
+				"- &eEchoes Unleashed"
+				"&7An enigmatic evolution of the Arcane Techniques."
+				""
+				"- &eDeathchill Tome"
+				"&7A frozen evolution of the Frost Techniques."
+				""
+				"- &ePhoenix Rites"
+				"&7A pyromantic evolution of the Fire Techniques."
+			]
+			id: "54865C68BCE9863A"
+			shape: "hexagon"
+			subtitle: "&cTier III &7- &eMedium"
+			tasks: [
+				{
+					id: "0C0195D29CA499EE"
+					item: "spellbladenext:runic_echoes_spell_book"
+					type: "item"
+				}
+				{
+					id: "1822DD768F03A89D"
+					item: "spellbladenext:deathchill_spell_book"
+					type: "item"
+				}
+				{
+					id: "61E0031395517090"
+					item: "spellbladenext:phoenix_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eMagister's Knowledge"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eWay of the Spirit Fist"
+				"&7A spellbook that focuses on punching, getting closer to the opponent, whilst using soul and physical damage."
+			]
+			id: "67895CAA675A5B43"
+			shape: "diamond"
+			subtitle: "&eTier II &7- &aMedium"
+			tasks: [{
+				id: "4AB151D6D5D2485C"
+				item: "forcemaster_rpg:forcemaster_spell_book"
+				type: "item"
+			}]
+			title: "&eWays of the Fist"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eSongs of Harmony"
+				"&7A basic book for supporting your teammates, cleansing debuffs, whilst healing and dealing some damage. Great for Utility and for more supportive Bards."
+				"- &eSongs of Valor"
+				"&7A basic book for Bards that want to utilize Crowd Control, whilst not losing out on healing or damage. Great for a Tankier build, but can also just be used like a support."
+			]
+			id: "46965AED1B06D22B"
+			shape: "diamond"
+			subtitle: "&eTier I&7- &aEasy"
+			tasks: [
+				{
+					id: "3F291FBC53208B35"
+					item: "bards_rpg:bard_spell_book"
+					type: "item"
+				}
+				{
+					id: "1320A2F4CE9D2A14"
+					item: "bards_rpg:bard2_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eSongs of Legends"
+			x: 2.5d
+			y: -0.5d
+		}
+	]
+	title: "&e Unlocking Abilities"
+}

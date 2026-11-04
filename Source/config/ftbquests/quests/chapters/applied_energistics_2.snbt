@@ -1,0 +1,4278 @@
+{
+	autofocus_id: "3E16A507D824EBC4"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "applied_energistics_2"
+	group: "49D52BD6447C5CC0"
+	hide_quest_until_deps_complete: true
+	icon: "ae2:controller"
+	id: "75FDA9480EE7777C"
+	images: [
+		{
+			dependency: "7E285F99BE4AE6D6"
+			height: 2.0d
+			image: "ae2:block/mysterious_cube_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependency: "33697797A2EDB4A9"
+			height: 3.0d
+			image: "ae2:item/certus_quartz_crystal_charged"
+			rotation: 0.0d
+			width: 3.0d
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependency: "4FC13E2D1139A1E5"
+			height: 1.3d
+			image: "simplyskills:item/effect/barrier"
+			rotation: 45.0d
+			width: 1.3d
+			x: -6.05d
+			y: -0.6d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 3.0d
+			image: "ae2:block/controller_powered"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 3.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 3.0d
+			image: "ae2:block/controller_powered"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 3.0d
+			image: "ae2:block/controller_conflict"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 1.0d
+			image: "ftblibrary:icons/close"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			dependency: "6EBDCC83D38A000D"
+			height: 1.0d
+			image: "ftblibrary:icons/check"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -14.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/mysterious_cube_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/flawed_budding_quartz"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/flawed_budding_quartz"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "ae2:block/flawed_budding_quartz"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -24.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -24.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: -24.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: -25.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -25.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -26.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -26.0d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: -26.0d
+		}
+		{
+			dependency: "1DBAA45791630D40"
+			height: 1.2d
+			image: "ae2:block/quantum_link"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -25.0d
+		}
+		{
+			dependency: "3E4019DD56F89EBE"
+			height: 1.0d
+			image: "ae2:item/quantum_entangled_singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -25.0d
+		}
+		{
+			dependency: "0A623086FF2017E3"
+			height: 1.0d
+			image: "ae2:block/condenser"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -25.0d
+		}
+		{
+			dependency: "60E7BE37F1AC6DFF"
+			height: 1.0d
+			image: "ae2:item/singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -27.0d
+		}
+		{
+			dependency: "4EE628A11EB6D43D"
+			height: 1.2d
+			image: "ae2:block/molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -17.5d
+		}
+		{
+			dependency: "5E520FA94363E9E9"
+			height: 1.2d
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -17.5d
+		}
+		{
+			dependency: "4EE628A11EB6D43D"
+			height: 1.2d
+			image: "ae2:block/molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -18.5d
+		}
+		{
+			dependency: "4EE628A11EB6D43D"
+			height: 1.2d
+			image: "ae2:block/molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -19.5d
+		}
+		{
+			dependency: "4EE628A11EB6D43D"
+			height: 1.2d
+			image: "ae2:block/molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -20.5d
+		}
+		{
+			dependency: "5E520FA94363E9E9"
+			height: 1.2d
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -18.5d
+		}
+		{
+			dependency: "5E520FA94363E9E9"
+			height: 1.2d
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -19.5d
+		}
+		{
+			dependency: "5E520FA94363E9E9"
+			height: 1.2d
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -20.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.5d
+			y: -30.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.5d
+			y: -30.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.5d
+			y: -30.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.5d
+			y: -29.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.5d
+			y: -29.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.5d
+			y: -28.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.5d
+			y: -28.5d
+		}
+		{
+			dependency: "6BACD7084BB795B0"
+			height: 1.2d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.5d
+			y: -28.5d
+		}
+		{
+			dependency: "1DBAA45791630D40"
+			height: 1.2d
+			image: "ae2:block/quantum_link"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.5d
+			y: -29.5d
+		}
+		{
+			dependency: "3E4019DD56F89EBE"
+			height: 1.0d
+			image: "ae2:item/quantum_entangled_singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -29.5d
+		}
+		{
+			dependency: "249D86491E0FDC89"
+			height: 1.2d
+			image: "extendedae:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -20.5d
+		}
+		{
+			dependency: "272F61CDA6380050"
+			height: 1.2d
+			image: "extendedae:block/ex_molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -17.5d
+		}
+		{
+			dependency: "249D86491E0FDC89"
+			height: 1.2d
+			image: "extendedae:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -17.5d
+		}
+		{
+			dependency: "249D86491E0FDC89"
+			height: 1.2d
+			image: "extendedae:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -18.5d
+		}
+		{
+			dependency: "249D86491E0FDC89"
+			height: 1.2d
+			image: "extendedae:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -19.5d
+		}
+		{
+			dependency: "272F61CDA6380050"
+			height: 1.2d
+			image: "extendedae:block/ex_molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -18.5d
+		}
+		{
+			dependency: "272F61CDA6380050"
+			height: 1.2d
+			image: "extendedae:block/ex_molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -19.5d
+		}
+		{
+			dependency: "272F61CDA6380050"
+			height: 1.2d
+			image: "extendedae:block/ex_molecular_assembler"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -20.5d
+		}
+		{
+			dependency: "249D86491E0FDC89"
+			height: 1.2d
+			image: "extendedae:block/ex_pattern_provider"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.5d
+			y: -17.5d
+		}
+		{
+			dependency: "6E8030B3BA9269A4"
+			height: 1.2d
+			image: "techreborn:block/machines/tier0_machines/iron_alloy_furnace_front_off"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.5d
+			y: -17.5d
+		}
+		{
+			dependency: "5E520FA94363E9E9"
+			height: 1.2d
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.5d
+			y: -17.5d
+		}
+		{
+			dependency: "012D045CC6FC44D0"
+			height: 1.2d
+			image: "ae2:block/crafting/1k_storage"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -18.0d
+		}
+		{
+			dependency: "5B6A78E548D04686"
+			height: 1.2d
+			image: "ae2:block/crafting/4k_storage"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -19.0d
+		}
+		{
+			dependency: "7069D61C57C75C7F"
+			height: 1.2d
+			image: "ae2:block/crafting/16k_storage"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -20.0d
+		}
+		{
+			dependency: "3FB6BB6943442095"
+			height: 1.2d
+			image: "ae2:block/crafting/64k_storage"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -21.0d
+		}
+		{
+			dependency: "426C57A866F564A8"
+			height: 1.2d
+			image: "ae2:block/crafting/256k_storage"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -22.0d
+		}
+		{
+			dependency: "5B6A78E548D04686"
+			height: 1.2d
+			image: "ae2:block/crafting/4k_storage_light"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -19.0d
+		}
+		{
+			dependency: "7069D61C57C75C7F"
+			height: 1.2d
+			image: "ae2:block/crafting/16k_storage_light"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -20.0d
+		}
+		{
+			dependency: "3FB6BB6943442095"
+			height: 1.2d
+			image: "ae2:block/crafting/64k_storage_light"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -21.0d
+		}
+		{
+			dependency: "426C57A866F564A8"
+			height: 1.2d
+			image: "ae2:block/crafting/256k_storage_light"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -22.0d
+		}
+		{
+			dependency: "012D045CC6FC44D0"
+			height: 1.2d
+			image: "ae2:block/crafting/1k_storage_light"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -18.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["33697797A2EDB4A9"]
+			description: [
+				"&7A wrench made of Certus Quartz Crystal or Nether Quartz. Useful for rotating blocks, and removing individual parts from cables."
+				""
+				"&7This Wrench is great for also moving Growth Accelerators without picking up the block and also picking up ME Drives, since it drops all items directly into your inventory!"
+			]
+			id: "6CF436D4831F590C"
+			optional: true
+			rewards: [
+				{
+					id: "7C36387AF835846D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "182113DDE4152A4B"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "6DD0B7F79E511E2A"
+					item: "ae2:flawless_budding_quartz"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EA3D64A96FA7D0D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_wrench"
+							}
+							{
+								Count: 1b
+								id: "ae2:nether_quartz_wrench"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Rotating Your Machines"
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			id: "386BB0A6D8D16F8D"
+			rewards: [
+				{
+					count: 6
+					id: "77FB614EA59587E6"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "0D3BC9C872978757"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Used in the creation of Calculation Processors in an Inscriber."
+			tasks: [{
+				id: "730C6C0DFD9ED426"
+				item: "ae2:printed_calculation_processor"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			id: "0B07F044C4AD8C6A"
+			rewards: [
+				{
+					count: 6
+					id: "251829A57DC1C984"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "345400CDDD512945"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Used in the creation of Engineering Processors in an Inscriber."
+			tasks: [{
+				id: "5F7A54FA2EF9E9AA"
+				item: "ae2:printed_engineering_processor"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			id: "145B60BAC740910A"
+			rewards: [
+				{
+					id: "58AF2295766079F6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 6
+					id: "0E0E2CA4C515C87E"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Used in the creation of Logic Processors in an Inscriber."
+			tasks: [{
+				id: "0F0C927B0578FE62"
+				item: "ae2:printed_logic_processor"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["42A4FAD05869BF4A"]
+			id: "12CAEA99C1F2148D"
+			rewards: [
+				{
+					count: 16
+					id: "0C4CFCB1C2278794"
+					item: "ae2:silicon"
+					type: "item"
+				}
+				{
+					id: "7E588738718F5F7B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Used in the creation of all Processors."
+			tasks: [{
+				id: "3B4ABFDA13975AB3"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			id: "42A4FAD05869BF4A"
+			rewards: [
+				{
+					count: 10
+					id: "28C31F4A67ACA1D6"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "793595D46292946F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			subtitle: "Silicon can be crafted by smelting Certus Quartz Dust. It's used alongside an Inscriber and Inscriber Silicon Press to create Printed Silicon."
+			tasks: [{
+				id: "24324D7D876CB420"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			description: ["&7Used for some later game items."]
+			hide_dependent_lines: true
+			id: "126B63BE0CB0D54B"
+			rewards: [{
+				count: 10
+				id: "5C222722D1F7D78A"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "181AECB6AE9347EC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:ender_pearl_dusts"
+					}
+				}
+				title: "Any #c:ender_pearl_dusts"
+				type: "item"
+			}]
+			title: "Ender Pearl Dust"
+			x: -17.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"515A836404CA1374"
+				"78928965010FE03A"
+			]
+			description: ["&7Same as its non crushed friend, it is also a very important part, mainly used for additions to AE2."]
+			id: "31FA79C3BEBB98E5"
+			rewards: [
+				{
+					count: 10
+					id: "54F3CAF83A286613"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "591660879EDE6E04"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3ADFFC4F54E91AEC"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			description: ["&7Made from Sky Stone, this is mostly for MEGA Cells and the beloved Wireless Connectors."]
+			hide_dependent_lines: true
+			id: "6B5493F80C24051C"
+			rewards: [
+				{
+					count: 10
+					id: "555DF47B733B39D3"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+				{
+					id: "2312C4567552BF2E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3631E4A84AB5821F"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["386BB0A6D8D16F8D"]
+			id: "3D550CD9EEE29E6F"
+			rewards: [
+				{
+					count: 4
+					id: "092B0A409C7732EC"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "293F98F8BFC819DE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Medium tier processor."
+			tasks: [{
+				id: "04010B4761D37E97"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0B07F044C4AD8C6A"]
+			id: "5CFE6E363FC52BDD"
+			rewards: [
+				{
+					count: 4
+					id: "6A9A4885B01AB4D2"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "434AF030733EB94C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Most Advanced Processor."
+			tasks: [{
+				id: "672ED8F45A5EA6CD"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["145B60BAC740910A"]
+			id: "736D489426858C6C"
+			rewards: [
+				{
+					count: 4
+					id: "076DFBE5E3271FAF"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "09C1450B4C0DAEAC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Most basic processor."
+			tasks: [{
+				id: "5A4D826E9A34C2AB"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			description: ["&7You will need a lot of this."]
+			id: "3D5BF7E05FE7FF71"
+			rewards: [
+				{
+					count: 8
+					id: "4B6919AD6C11787B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "153E03EC31B2D4D4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			subtitle: "Redstone is a component when creating Processors."
+			tasks: [{
+				id: "738D2517D2F6BF15"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["167B049E0F50FEFE"]
+			description: [
+				"&7A component required for making item storage cells. Storage Cells are one of the core mechanics of storage in Applied Energistics 2, there are three kinds: one for items, one for fluids, and one for regions of space. These ones store items only."
+				""
+				"&7Once combined into Item Cells, they can be uncrafted by sneak right clicking."
+			]
+			hide_dependent_lines: true
+			id: "7991B5D4970CDCFE"
+			rewards: [
+				{
+					id: "14403ACBBD2863C8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "7FAF0D71A1A148A2"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "5B56842ACD469029"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"4B2D031595A25305"
+				"275B3ADEFB7FE735"
+				"0EF8916F6F832917"
+			]
+			id: "2AA2D0140E9B0F88"
+			rewards: [{
+				id: "59F80FDDAD78058E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.5d
+			subtitle: "Used to display inventories of ME Chests and to hold Storage Drives."
+			tasks: [{
+				id: "76A1D105E526A568"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["167B049E0F50FEFE"]
+			id: "4B2D031595A25305"
+			rewards: [{
+				id: "566B502AF531FA45"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "A component used in the creation of an ME Terminal."
+			tasks: [{
+				id: "3A43960E6E52F985"
+				item: "ae2:semi_dark_monitor"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["167B049E0F50FEFE"]
+			hide_dependent_lines: true
+			id: "21D071C553C01CA3"
+			rewards: [{
+				id: "63067CFDFEF59163"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Fluid Cells are the same as Item Cells, but instead of storing items they store fluids."
+			tasks: [{
+				id: "691D74EA299E9AB0"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["736D489426858C6C"]
+			id: "6BA81EEC6176D279"
+			rewards: [{
+				id: "05B98E5E9125A2FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Storage components are the base of any cell you will make in AE2."
+			tasks: [{
+				id: "5AA14A1CAB53D12F"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6BA81EEC6176D279"
+				"3D550CD9EEE29E6F"
+			]
+			id: "6965B19BD3B71CDF"
+			rewards: [{
+				id: "32EE0A23293C95F3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7852B9C45FEDD5B5"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6965B19BD3B71CDF"]
+			id: "1C3D02337D74236D"
+			rewards: [{
+				id: "79CD3EE7C645A332"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2382A194230F4FE8"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C3D02337D74236D"]
+			id: "10F78B944D78AB3E"
+			rewards: [{
+				id: "1673787A84D2929C"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "69AD245CFDD65D3B"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["10F78B944D78AB3E"]
+			id: "5A35DC8E1B5C5C1C"
+			rewards: [
+				{
+					id: "215F9EA9E4D4FEFA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3BABA62CF997BF81"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:ae2_storagecells_lottery"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "258FA1394A29B79B"
+					item: {
+						Count: 1
+						id: "prominent:loot_box"
+						tag: {
+							lottery_id: "prominent:ae2_storagecells_lottery"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34EE85B15BABBB51"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"184DECF8F8641439"
+			]
+			hide_dependency_lines: true
+			id: "449772CDAE2C0F9C"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "044EA1A27746FB35"
+				item: "megacells:mega_item_cell_housing"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"184DECF8F8641439"
+			]
+			hide_dependency_lines: true
+			id: "013D0D433BC1453E"
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "62B38B674FEED18A"
+				item: "megacells:mega_fluid_cell_housing"
+				type: "item"
+			}]
+			x: -35.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6594D1D0893FC111"]
+			id: "404F8E90E684897A"
+			optional: true
+			rewards: [{
+				id: "08A97CEBDB21BE64"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "61D92190C7DE2B7A"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"404F8E90E684897A"
+				"126B63BE0CB0D54B"
+			]
+			id: "4DB79C938A013520"
+			optional: true
+			rewards: [{
+				id: "5DDA3D98F165C88D"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "3865F52A6D7F086E"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4DB79C938A013520"
+				"126B63BE0CB0D54B"
+			]
+			id: "53667AE11FFFAC3F"
+			optional: true
+			rewards: [{
+				id: "217E47FDDDA14C7D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "4B3601745F56270C"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53667AE11FFFAC3F"]
+			id: "6F34909783DD3D8A"
+			optional: true
+			rewards: [{
+				id: "5A06251AC8BCFF1E"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			tasks: [{
+				id: "72F525FE1EAFE574"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F34909783DD3D8A"]
+			description: ["&7Are you proud of yourself?"]
+			id: "3C670B8D50E994C1"
+			optional: true
+			rewards: [
+				{
+					id: "122AFB1A68EEF2D0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3657B8A8DCF2CFBC"
+					item: "croptopia:banana"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "34B209523D27FBBE"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"6BA81EEC6176D279"
+			]
+			id: "2015C13CBE4C04EA"
+			rewards: [{
+				id: "44D4568A87956F3A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4696F75329791E02"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"6965B19BD3B71CDF"
+			]
+			id: "099C6C1ECFAA8988"
+			rewards: [{
+				id: "6137FDB34EB86D35"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5280A20140E9B855"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"1C3D02337D74236D"
+			]
+			id: "65C9F147DE28049E"
+			rewards: [{
+				id: "62934DC9F1838F7F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7EFBE049944FE119"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -25.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"10F78B944D78AB3E"
+			]
+			id: "120129247CA4354A"
+			rewards: [{
+				id: "68E274C68846C448"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "45B8E9EED0FDA41A"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7991B5D4970CDCFE"
+				"5A35DC8E1B5C5C1C"
+			]
+			id: "52DF04779A3F142F"
+			rewards: [{
+				id: "2E6820FBAF69E405"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "01C57620D90A9BAE"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"449772CDAE2C0F9C"
+				"404F8E90E684897A"
+				"6B5493F80C24051C"
+			]
+			id: "2189645CF41DEEE8"
+			optional: true
+			rewards: [{
+				id: "0E15F7B07A807CA9"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "01F942B2319FD779"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_1m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -33.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"449772CDAE2C0F9C"
+				"4DB79C938A013520"
+				"6B5493F80C24051C"
+			]
+			id: "38FAF68954EDC76E"
+			optional: true
+			rewards: [{
+				id: "5A4EDD13E97C89F7"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "002A9855BA5926F1"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_4m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -34.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"449772CDAE2C0F9C"
+				"53667AE11FFFAC3F"
+				"6B5493F80C24051C"
+			]
+			id: "71868D43777AB2DB"
+			optional: true
+			rewards: [{
+				id: "032B433C5DB22187"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "5DACF6D44C3561F1"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_16m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -35.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"449772CDAE2C0F9C"
+				"6F34909783DD3D8A"
+				"6B5493F80C24051C"
+			]
+			id: "28FEABAFA3D516F8"
+			optional: true
+			rewards: [{
+				id: "56F158D8F3E371CC"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			tasks: [{
+				id: "5B6F45969ADBDEFE"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_64m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -36.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"449772CDAE2C0F9C"
+				"3C670B8D50E994C1"
+				"6B5493F80C24051C"
+			]
+			id: "12CA9F10581B180F"
+			optional: true
+			rewards: [{
+				id: "37C5738C1A7ADA4C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4429E2DC37BED28C"
+				item: {
+					Count: 1
+					id: "megacells:item_storage_cell_256m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -37.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"6BA81EEC6176D279"
+			]
+			id: "0EB40422787DADB7"
+			rewards: [{
+				id: "266E27A2BA957747"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7B49907FEEAE04B2"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"6965B19BD3B71CDF"
+			]
+			id: "5C23AABE273D559B"
+			rewards: [{
+				id: "02D501BBAF290AA2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "13440EA0ACEAB070"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"1C3D02337D74236D"
+			]
+			id: "4E25207381F8999F"
+			rewards: [{
+				id: "5CCDCF9406FF9382"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "407C5673E824B9FD"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -25.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"10F78B944D78AB3E"
+			]
+			id: "50CD701DC35E1532"
+			rewards: [{
+				id: "5E254A1A8AE26B71"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "746D4613CB317EDB"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21D071C553C01CA3"
+				"5A35DC8E1B5C5C1C"
+			]
+			id: "107CEF6630C5070B"
+			rewards: [{
+				id: "7BF6EAA5F2DE5E90"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7B23089179FF4570"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"013D0D433BC1453E"
+				"404F8E90E684897A"
+				"6B5493F80C24051C"
+			]
+			id: "48E5092B70741DBE"
+			optional: true
+			rewards: [{
+				id: "52AEF511562B7049"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "60597CD73E32A642"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_1m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -33.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"013D0D433BC1453E"
+				"4DB79C938A013520"
+				"6B5493F80C24051C"
+			]
+			id: "519EBF8D02EC27BD"
+			optional: true
+			rewards: [{
+				id: "6B8DDEEAE24C737D"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "2A5D723FF5E0158F"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_4m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -34.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"013D0D433BC1453E"
+				"53667AE11FFFAC3F"
+				"6B5493F80C24051C"
+			]
+			id: "6A8FF7B29CCB6DC6"
+			optional: true
+			rewards: [{
+				id: "44AAC672721C6726"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "6156FD0FF7E8C248"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_16m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -35.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"013D0D433BC1453E"
+				"6F34909783DD3D8A"
+				"6B5493F80C24051C"
+			]
+			id: "788CC2380A983F63"
+			optional: true
+			rewards: [{
+				id: "34A7E9ABFB9E1694"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			tasks: [{
+				id: "0C975CA8085EF18A"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_64m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -36.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"013D0D433BC1453E"
+				"3C670B8D50E994C1"
+				"6B5493F80C24051C"
+			]
+			id: "3DB6BABB4EF0D205"
+			optional: true
+			rewards: [{
+				id: "19E00435DCE72F16"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6988B7A4516A3E87"
+				item: {
+					Count: 1
+					id: "megacells:fluid_storage_cell_256m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -37.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BA81EEC6176D279"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ae2:portable_item_cell_64k"
+				tag: {
+					internalCurrentPower: 20000.0d
+				}
+			}
+			id: "6AA5455AAC85BB9A"
+			shape: "circle"
+			subtitle: "Portable cells are regular cells, but you can open them up like a backpack (minus the keybind). These still require energy, but can be great early game if your backpack isn't doing enough for you."
+			tasks: [{
+				id: "499196DA5227D9E6"
+				title: "About Portable Cells"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: -2.0d
+		}
+		{
+			id: "4FC13E2D1139A1E5"
+			invisible: true
+			rewards: [{
+				id: "3C1D2814BCB43398"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.35d
+			tasks: [{
+				id: "77D2CA2DBA4F8C81"
+				stat: "ae2:items_extracted"
+				type: "stat"
+				value: 1000000
+			}]
+			x: -6.075d
+			y: -0.675d
+		}
+		{
+			dependencies: ["1C3D02337D74236D"]
+			description: ["Ever felt like drowning in a endless ocean? No? Just me? Well now you can anyways."]
+			id: "3CDD62549F889825"
+			rewards: [
+				{
+					id: "3F9C05B1DDA33360"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "02747441CF9F3548"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "228414D300BB8B5B"
+				item: {
+					Count: 1
+					id: "extendedae:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C3D02337D74236D"]
+			description: ["This item is great for any automation, it saves you a ton of work and is easily crafted. A must have for every Tech enthusiast!"]
+			id: "6C334F83DD405381"
+			rewards: [
+				{
+					id: "5898FDD49A8F25E5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3DE47A03C53306C4"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D22BE939218D105"
+				item: {
+					Count: 1
+					id: "extendedae:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"&7This Questbook Tab will help you Progress through all of Applied Energistics."
+				""
+				"&n&9&lA guide on which items you will need is unlocked once you have completed the Inscriber Quest.&r&r&r"
+			]
+			icon: "ae2:controller"
+			id: "3435639D143892EF"
+			tasks: [{
+				id: "264520BA5C06B7A2"
+				title: "Starting Applied Energistics"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E16A507D824EBC4"]
+			description: ["&7The charger has some less important, but still necessary Recipes. The Charger itself has no interface and using a Hopper or other item transportation way is recommended."]
+			id: "71124D23985D4D8E"
+			rewards: [
+				{
+					count: 3
+					id: "0575B1C37255647F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "7E7453A0193CF687"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0594B493EC9B8432"
+				item: "ae2:charger"
+				title: "Craft a Charger"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71124D23985D4D8E"]
+			description: ["&7This little Compass only leads you to Meteorites."]
+			id: "5985458AE3930D26"
+			optional: true
+			rewards: [{
+				id: "42A2A2D6C3D5BBB5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50B5BEFA6CD23DD2"
+				item: "ae2:meteorite_compass"
+				title: "Craft a Meteorite Compass"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E16A507D824EBC4"
+				"5985458AE3930D26"
+			]
+			dependency_requirement: "one_completed"
+			id: "7E285F99BE4AE6D6"
+			rewards: [{
+				id: "4C79FDF3B11452F7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Find a Meteorite and loot its Core!"
+			tasks: [{
+				icon: "ae2:sky_stone_block"
+				id: "0F1F8B27208E8AB1"
+				structure: "ae2:meteorite"
+				title: "Find a Meteorite"
+				type: "structure"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3435639D143892EF"]
+			description: [
+				"&7The first step to start your Storage and Processing, is to find a meteorite."
+				""
+				"&7Finding a meteorite is quite easy with the tools provided by Applied Energistics as well as the Explorers Compass."
+			]
+			icon: "minecraft:fire_charge"
+			id: "3E16A507D824EBC4"
+			rewards: [{
+				id: "1515C99C90265D92"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C6A9B09C42CC33E"
+				title: "Locating a Meteorite"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71124D23985D4D8E"]
+			description: ["&7The Hand Crank is the simplest way of powering a Charger, it's also the worst. Please only use this until you find a better solution."]
+			id: "17C370946B391D6C"
+			rewards: [{
+				id: "054E6948EA139974"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DDBFAFE1B96FAB9"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			title: "Good ol' Reliable"
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71124D23985D4D8E"]
+			description: ["&7Other power solutions also include the Generator from Tech Reborn, Solar Panels, Wind mills and even Water Mills."]
+			icon: "techreborn:solid_fuel_generator"
+			id: "05159E51D0CEE4E8"
+			rewards: [
+				{
+					id: "347D334BAA46E232"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "238B8D91DC73D1EF"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01691F611650844A"
+				title: "Other Power solutions"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E285F99BE4AE6D6"]
+			description: ["&7Finding the Patterns is the most important part, as without them, it's impossible to progress any further. You can always dupe the presses."]
+			id: "48264769D5A5B3E4"
+			rewards: [
+				{
+					id: "5FE173CC7E0256AA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 6
+					id: "4B122C56196047FE"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "7A76BEBD65469DFE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:inscriber_presses"
+					}
+				}
+				title: "Find Inscriber Presses"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48264769D5A5B3E4"]
+			description: [
+				"&7The Inscriber is a crucial machine and the first machine with a set in and output."
+				""
+				"&7All Circuits need a Press, the Press is not consumed."
+				""
+				"&7Combining them always requires Redstone."
+			]
+			id: "515A836404CA1374"
+			rewards: [{
+				id: "6130F9E122AFFF8D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "48E22FF19FEF64C0"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E285F99BE4AE6D6"]
+			description: [
+				"&7Growing Certus is easier than one can think. "
+				"&7Doing so permanently, can be annoying, since Flawless Certus Blocks cannot be mined."
+			]
+			id: "489902DA25B45BE9"
+			rewards: [{
+				id: "4E5FEC4335D9E41C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "00DD53BFA5705955"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "Growing Certus"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["489902DA25B45BE9"]
+			description: [
+				"&7Moving Certus without any Power is nearly impossible. The only way is to use a Minecart Contraption. "
+				""
+				"&7Place the Rail directly under the Flawless Certus Block, then place the Minecart Assembler on it, then place the Minecart and give the entire thing a Redstone Signal."
+				""
+				"&7Once done, you should be able to pick up the Contraption"
+				""
+				"&7You can use this method to move a ton of things."
+			]
+			icon: "minecraft:minecart"
+			id: "13484250005B7E53"
+			rewards: [
+				{
+					count: 8
+					id: "2B03AB634BC0CD6D"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "1A9F02349821BCB2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5674CFC001AFF042"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "49ED23D625BF1402"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+				{
+					id: "33394B9299542EFD"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					id: "6D05372290D8CE81"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					id: "2EFD0653D90C74EA"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			title: "Moving Flawless Certus the Create way"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E4939F30B9D32CE"]
+			description: [
+				"&7Certus charged in the Charger becomes Charged Certus. (say that 3 times fast)"
+				""
+				"&7This can be used mainly for specific items and also in crafting Fluix."
+			]
+			id: "33697797A2EDB4A9"
+			tasks: [{
+				id: "32075DF7FB0A6574"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["33697797A2EDB4A9"]
+			description: [
+				"&7Without Fluix, you won't have cables, without cables, you wont have anything."
+				""
+				"&7Fluix is incredibly useful in both its Crystaline and Dust form. Many different Items and Blocks require Fluix, now and also further down the line."
+			]
+			id: "78928965010FE03A"
+			rewards: [
+				{
+					count: 8
+					id: "7CCCC17AC725B9C0"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "4B76AEEBF7E3D196"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "75AAC73DC6B77A6F"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["31FA79C3BEBB98E5"]
+			description: ["&7Mostly used for Formation Planes and Export buses."]
+			id: "0EF8916F6F832917"
+			rewards: [{
+				id: "69F327965C39317F"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "5100F30046950D83"
+				item: "ae2:formation_core"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["31FA79C3BEBB98E5"]
+			description: ["&7Mostly used for Annihilation Planes and Import buses."]
+			id: "275B3ADEFB7FE735"
+			rewards: [{
+				id: "7208579873305D70"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "2ACE41C24765FBD2"
+				item: "ae2:annihilation_core"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"489902DA25B45BE9"
+				"78928965010FE03A"
+			]
+			description: [
+				"&7Growth Accelerators are a farmer's best friend. They speed up growth of most, if not all Plants, but also Certus. Placing them can be hard, but is made easier with a wrench. "
+				""
+				"&7They need to be connected with Fluix ME Cables in order to recieve energy to work."
+			]
+			id: "33C318B27DA7F9DE"
+			rewards: [
+				{
+					count: 12
+					id: "535D22AA9A9DDE33"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "177E1080D5B5D1EB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "28A27A1CA7F2CD47"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["78928965010FE03A"]
+			description: ["&7The Crystal Resonance Generator is the easiest way to power tiny AE2 systems or smaller subnets, without having them dependant on the bigger one. This little guy also needs no power, with a whopping 20 AE it can hold it's own."]
+			id: "20E2AE3D528A2E70"
+			rewards: [{
+				id: "6F7C55D66BA22322"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "22A346488707845B"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7E285F99BE4AE6D6"]
+			description: [
+				"&7Certus Quartz is the heart of Applied Energistics. Without it, the mod would basically be useless."
+				""
+				"&7Farming Certus is one of the most important things, so you can expand your AE2 System. "
+				""
+				"&7It's best if you start farming as soon as possible."
+			]
+			id: "1E4939F30B9D32CE"
+			rewards: [
+				{
+					count: 4
+					id: "0B4D34261D88C556"
+					item: "ae2:quartz_block"
+					type: "item"
+				}
+				{
+					id: "2D30CC04F0082FC2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7EA67FC5F963CD2B"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			description: ["&7Made in the Inscriber, this is a vital component to everything in AE2"]
+			id: "45119607CAB35179"
+			rewards: [{
+				count: 16
+				id: "426BC215C862B743"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EA70D0DF9D82DC9"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["45119607CAB35179"]
+			description: ["&7Glass, but no liner."]
+			id: "167B049E0F50FEFE"
+			rewards: [
+				{
+					count: 6
+					id: "133FB06723E58259"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					id: "4721F19BF56E81B8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "271A194A9C40AF15"
+				item: "ae2:quartz_glass"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["167B049E0F50FEFE"]
+			description: ["&7Glows, thats basically it."]
+			id: "184DECF8F8641439"
+			rewards: [{
+				id: "77F3E1A78287C34D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E6DDC91E5093E4B"
+				item: "ae2:quartz_vibrant_glass"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["71124D23985D4D8E"]
+			dependency_requirement: "all_started"
+			description: ["&7Unlike all other mods using Power(Ignoring Botania), AE2 has a conversion rate of 1 E = 2 AE."]
+			id: "66DEA0F523CF482A"
+			rewards: [{
+				id: "5979C361039AFB5F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "052B20E526CAF771"
+				title: "Applied Energistics Power"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E285F99BE4AE6D6"]
+			description: [
+				"&7Sky Stone is a crucial Component to making a ME Controller."
+				""
+				"&7Sky Stone can be mined in a Meteorite."
+				""
+				"&7A more advanced alternative is placing a Annihilation Plane facing the sky at build height."
+			]
+			id: "6B35A87AD763C947"
+			rewards: [{
+				id: "39F0C5F5E836F1C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "6968E96EF66FFFD9"
+				item: "ae2:sky_stone_block"
+				title: "Collect Sky Stone"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5CFD1A5DA7441452"]
+			id: "31009FC5E27644F3"
+			tasks: [{
+				id: "24724537A2601BCE"
+				item: "megacells:printed_accumulation_processor"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A35DC8E1B5C5C1C"]
+			description: ["&7This little guy can be crafted with a Singularity and some presses, quite expensive, but you'll learn more about that later."]
+			id: "5CFD1A5DA7441452"
+			rewards: [{
+				id: "4FDA83EEC6046732"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76E2C7BAEA716D78"
+				item: "megacells:accumulation_processor_press"
+				type: "item"
+			}]
+			x: -29.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31009FC5E27644F3"]
+			id: "6594D1D0893FC111"
+			tasks: [{
+				id: "36EAB02966520192"
+				item: "megacells:accumulation_processor"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45119607CAB35179"]
+			description: ["&7Quartz Fiber is not a cable yet, but it can be used to only transport power into a subnet for example."]
+			id: "537E6D452013907C"
+			rewards: [{
+				count: 12
+				id: "02205AA088C62D26"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6731F551C2739379"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["515A836404CA1374"]
+			description: [
+				"&aDifficulty: Easy&r"
+				""
+				"&7This is the most simple AE2 System you can make. It has space for 10 ME Storage Cells."
+				""
+				"&7This Quest serves more as a checklist. "
+				""
+				"&7You can place the Crystal Resonance Generator directly onto the ME Controller."
+			]
+			hide_dependency_lines: true
+			icon: "ae2:drive"
+			id: "566A147DB00F3067"
+			rewards: [{
+				id: "5EB1AB7795B22F87"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "7B1397C29E29B670"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "368B3C2BA08FB6CA"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "0CA12CC574ADE71B"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_4k"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C5F999937FAD3BD"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "37782D183BE84331"
+					item: "ae2:crystal_resonance_generator"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2C192D540BD6545F"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			title: "Your First AE2 System"
+			x: -23.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["537E6D452013907C"]
+			description: ["&7The Fluix ME Glass Cable is the first cable and holds 8 Channels."]
+			id: "5CDBA8488B2C383B"
+			rewards: [{
+				count: 16
+				id: "688D4B7942E0B484"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "4D4331ABA0724C35"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5CDBA8488B2C383B"]
+			description: [
+				"&7This is the starting point for SpatialIO."
+				""
+				"&7Spatial IO lets you move almost everything. It has a pocket dimension that it uses to store."
+				""
+				"&7Whilst this Quest Page won't go over all the details, Spatial IO is pretty confusing and not recommended for beginners."
+				""
+				"&7To perform a spatial IO operation, place a spatial storage cell in the input slot and give the spatial IO port a redstone pulse. It will then swap the volume in the pylons with the volume in the spatial storage dimension. This means that if you send some set of blocks to the spatial storage dimension, then put another set of blocks in the pylons, put the cell back in the input slot, and trigger the IO port again, the 2nd set of blocks will disappear and the 1st set of blcks will reappear."
+				""
+				"&7&9BE CAREFUL&r&7, Any entity in the defined volume, including you, will be carried along, and if you have no way of getting out, you will be trapped in the spatial storage dimension, in a dark, featureless box. Use this to prank your friends!"
+			]
+			id: "6A4D6F91D3C47E81"
+			rewards: [{
+				id: "64EB8B7FA3FD5249"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00F0B921B6DD6C45"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5CDBA8488B2C383B"]
+			description: ["&7The ME drive can hold up to 10 Storage Cells of any type, meaning Fluid, Item or else."]
+			id: "3B33284690D03544"
+			rewards: [{
+				id: "4FF49A8DE4191D05"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1D7C16A4B3A5A999"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5CDBA8488B2C383B"]
+			description: ["&7Same as the normal one, but covered."]
+			id: "728B9647DF17E039"
+			rewards: [{
+				id: "04C6AC2A0A1866E5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52257D0FE432F1C7"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["728B9647DF17E039"]
+			description: ["&7Same Channel amount as the basic one, this Cable shows you how many Channels you have left."]
+			id: "4E708B78C061F5D7"
+			rewards: [{
+				id: "25BA7CDDF5B7D217"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09208486B708DB37"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["728B9647DF17E039"]
+			description: ["&7A Thicker Cable that has a total of 32 Channels."]
+			id: "7B0CEA0D85847FAA"
+			rewards: [{
+				id: "0131A72460AA8E1A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5908E60543DE3FB7"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"7B0CEA0D85847FAA"
+				"4E708B78C061F5D7"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&7Like the normal Dense ME Cable, this one also has 32 Channels, but like the normal Smart cable, you can see how many you have left."]
+			id: "1A5E58FCABEBADA2"
+			rewards: [{
+				id: "441E7D2F943B6018"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55177290EC3E4CEB"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6A4D6F91D3C47E81"]
+			description: [
+				"&7This should be everything you need for your first Spatial Setup to move something or someone."
+				""
+				"&9Rules&r"
+				""
+				"&7The rules are:"
+				""
+				"&7Minimum size of 3x3x3 (which defines a 1x1x1 volume)"
+				"&7All spatial pylons must be in the outside bounding box"
+				"&7All spatial pylons must be on the same network"
+				"&7All pylons must be at least 2 blocks long"
+			]
+			icon: "ae2:spatial_io_port"
+			id: "6C9B267791DD5301"
+			rewards: [{
+				id: "7442258F522831E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "549AED54FF3245D6"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "795689E30254EB15"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+				{
+					id: "25011451A4DE6AB1"
+					item: "ae2:spatial_storage_cell_2"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64822983DECE2CD8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:buttons"
+						}
+					}
+					optional_task: true
+					title: "Any Button"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1B3F8F4C6665E206"
+					item: { Count: 3, id: "ae2:fluix_smart_cable" }
+					type: "item"
+				}
+			]
+			title: "Your first Spatial setup "
+			x: -19.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["566A147DB00F3067"]
+			description: [
+				"&7Powering your AE2 can be done with a lot of methods, Magmators being the best, since they do not need much Maintenance, as a matter of fact they don't need any."
+				""
+				"&7Wind and Water Mills are a great way to power your AE2 system aswell, though are less scale-able and less efficient, but lazier."
+				""
+				"&7Solar Panels fill a nice niche between convenience and efficiency, with the only downside being that they only work at Daytime."
+			]
+			icon: "techreborn:solid_fuel_generator"
+			id: "6CB79F064309DD6A"
+			rewards: [
+				{
+					id: "3FFD627AE9AFF966"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 6
+					id: "5BFA5C85A58FC939"
+					item: "techreborn:advanced_circuit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34FFE4C8608CE898"
+					item: "techreborn:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "211703ACA1135AED"
+					item: "techreborn:refined_iron_storage_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40EADD02DCEF0FEA"
+					title: "Power Solutions"
+					type: "checkmark"
+				}
+				{
+					id: "2A2029B050F819BC"
+					item: "powah:magmator_hardened"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11ABC5ABAF5F61D8"
+					item: "techreborn:wind_mill"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "04FD0244FB144BFE"
+					item: "techreborn:water_mill"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "210963F03B30642B"
+					item: "techreborn:industrial_solar_panel"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Power Solutions"
+			x: -26.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["566A147DB00F3067"]
+			description: [
+				"&aDifficulty: Easy&r"
+				""
+				"&7Use this quest as a checklist."
+				""
+				"&7This is all the items required for a more advanced setup, IGNORING any energy requirements."
+				""
+				"&9With this setup you will be able to access your Storage from anywhere, at any time, no matter what dimension you are.&r&n&l"
+				""
+				"&7Cables not included"
+				""
+				"&7Check the individual quests for the items for more info."
+			]
+			icon: "extendedae:ex_drive"
+			id: "5AEDD690E6D8CE8C"
+			rewards: [{
+				id: "1165E9338AC89AC3"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "591ABDE0A2B64C09"
+					item: "extendedae:drive_upgrade"
+					type: "item"
+				}
+				{
+					id: "67327CA0A4E59294"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "3795E8FDF4516BCC"
+					item: "ae2:spatial_anchor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "06E21165F35BFDC0"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "502DCB9ECC8395AD"
+					item: "ae2:quantum_link"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "More Space and Wireless"
+			x: -26.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5AEDD690E6D8CE8C"]
+			description: [
+				"&7Now that you can access your AE2 from everywhere, there is one small thing you need to keep in mind. "
+				""
+				"&7You AE2 System can only load when its Chunkloaded/you are loading it, otherwise it will not work."
+				""
+				"&7This can be done in 2 main ways, the Spatial Anchor or by Claiming and Forceloading the chunk it is in via the map. Highly recommended you also claim the Chunks where your power is in."
+			]
+			id: "58080509C5592465"
+			rewards: [{
+				id: "4ADFDABA840C8FBF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26B4D674AD7AC0EA"
+				title: "About loading chunks and your AE2"
+				type: "checkmark"
+			}]
+			x: -23.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5CDBA8488B2C383B"]
+			description: ["&7Channels are what keeps AE2 \"balanced\". Basic cables have 8 channels and Dense Cables have 32. Once above the limit, the newly plugged in machines won't work."]
+			id: "39D1FCFF776D6027"
+			tasks: [{
+				id: "3BB078591D5422C9"
+				title: "About Channels"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["78928965010FE03A"]
+			description: [
+				"&7The ME Controller is the Heart of every AE2 system. you can add multiple controllers into one Multiblock."
+				""
+				"&7This Multiblock can reach a size of 7x7x7. If you make an invalid Multiblock, it will turn red."
+				""
+				"&7Consult the graph to the right of the Quest for more info!"
+			]
+			id: "6EBDCC83D38A000D"
+			rewards: [{
+				id: "410865D34F663C0D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "The Heart of your system"
+			tasks: [{
+				id: "223710951403700F"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "The ME Controller"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5AEDD690E6D8CE8C"]
+			description: [
+				"&aDifficulty: Medium&r"
+				""
+				"&7If you are adept at Tech and AE2, which you should be at this point, this should be a breeze for you to do. "
+				""
+				"&7If you hate crafting large orders yourself, Autocrafting is great for you to take that time from you. "
+				""
+				"&9Cables, once again, not included&r"
+				""
+				""
+				"[ \"Make sure to read the quest about \", { \"text\": \"automation - click me!\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6E8030B3BA9269A4\" } } ]"
+			]
+			icon: "ae2:pattern_provider"
+			id: "18AEABF41D278518"
+			rewards: [
+				{
+					count: 32
+					id: "366AF111C3568504"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "38243834E5BD23DD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "1C1C27ACF31BB887"
+					item: "ae2:crafting_unit"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "609F740589F431FF"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "37FA8B06D7A5D819"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "3BD7F4A43D756554"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "15D04D05F29F9F23"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
+			title: "Autocrafting in your Storage"
+			x: -28.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2AA2D0140E9B0F88"]
+			description: ["&7The Patternb Encoding Terminal is only needed for creating Crafting and Processing Patterns for Autocrafting, if you do not wish to use Autocrafting, then this is useless for you."]
+			id: "7387F332F811734B"
+			rewards: [{
+				id: "05CB6645A2B706E6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "757AD838E46405D2"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["5CDBA8488B2C383B"]
+			description: ["&7Crafting units are not actual functional blocks, they are only filler blocks for autocrafting and crafting components for Crafting CPUs."]
+			id: "6561B5CD3C72BBAE"
+			rewards: [{
+				id: "038AF2DC40D4F277"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BB1A89A1D4C51DB"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["167B049E0F50FEFE"]
+			description: ["&7This is used for autocrafting. You need to encode it in a Pattern Encoding Terminal to make this useful, can be wiped by sneak right clicking or just by overwriting it in the Encoding Terminal."]
+			id: "74D064D0233C8A8B"
+			rewards: [{
+				id: "338F7316A5449668"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "2936F38AED1FACD0"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7387F332F811734B"]
+			id: "4EE628A11EB6D43D"
+			tasks: [{
+				id: "16CE6E7A39298DF3"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["4EE628A11EB6D43D"]
+			description: ["&7Can do more things at once."]
+			id: "272F61CDA6380050"
+			rewards: [{
+				id: "76EFAAEFF7B5010A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51B56010C7B5CAAD"
+				item: "extendedae:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["3B33284690D03544"]
+			description: [
+				"&7Double it and give it to the next Extended ME Drive."
+				""
+				"&7This increases the ME Drive capacity to 20."
+			]
+			icon: "extendedae:ex_drive"
+			id: "34A0277FCD0BEE9D"
+			rewards: [{
+				id: "72CF1656B4DEA969"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4DC319DC8556003A"
+					item: "extendedae:ex_drive"
+					type: "item"
+				}
+				{
+					id: "6C41A78A768C68DB"
+					item: "extendedae:drive_upgrade"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6561B5CD3C72BBAE"]
+			description: ["&7Crafting Co-Processing Units increase the speed at which Pattern Providers put items into the adjacent machine. They do not increase crafting speed, if the machine is too slow."]
+			id: "755C8CB813A610CE"
+			rewards: [{
+				id: "67F28B16F0860A5B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C52B8194D6900EA"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6561B5CD3C72BBAE"]
+			description: ["&7Similar to storage cells, these Crafting Storage blocks, have bytes too. This means, the bigger and more complicated your Pattern is, the more bytes are consumed. This obviously also increases with the amount you craft an item."]
+			id: "012D045CC6FC44D0"
+			rewards: [{
+				id: "048E2B0D04C5F806"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "262D15A136A66520"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["012D045CC6FC44D0"]
+			id: "5B6A78E548D04686"
+			tasks: [{
+				id: "08D722DEF1175456"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["5B6A78E548D04686"]
+			id: "7069D61C57C75C7F"
+			tasks: [{
+				id: "433CE6BE12B5109A"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["7069D61C57C75C7F"]
+			id: "3FB6BB6943442095"
+			tasks: [{
+				id: "4E00A11AC8D20815"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["3FB6BB6943442095"]
+			id: "426C57A866F564A8"
+			tasks: [{
+				id: "4F18D562F9DA957A"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -22.0d
+		}
+		{
+			dependencies: [
+				"6594D1D0893FC111"
+				"426C57A866F564A8"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "610D3927C4320333"
+			tasks: [{
+				id: "29825BD4BAEBBF91"
+				item: "megacells:mega_crafting_unit"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["610D3927C4320333"]
+			id: "2752A15E10FD0D90"
+			tasks: [{
+				id: "4CCAEB7D59C76BFD"
+				item: "megacells:mega_crafting_accelerator"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["610D3927C4320333"]
+			id: "5171002B34B74593"
+			tasks: [{
+				id: "3108D7AAF1E991F3"
+				item: "megacells:1m_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["5171002B34B74593"]
+			id: "40BF4F617282E559"
+			tasks: [{
+				id: "6ECB29AC3E058B90"
+				item: "megacells:4m_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["40BF4F617282E559"]
+			id: "1A43273B919BF061"
+			tasks: [{
+				id: "54CEAEDAB9037D54"
+				item: "megacells:16m_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["1A43273B919BF061"]
+			id: "3A37B0D15CBE248A"
+			tasks: [{
+				id: "1A2970D26E02F16C"
+				item: "megacells:64m_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -28.0d
+		}
+		{
+			dependencies: ["3A37B0D15CBE248A"]
+			description: ["&7Now i want you to be honest with me, why would you EVER need this much crafting storage?????"]
+			id: "6872B0B2F3FEB3BB"
+			rewards: [{
+				id: "17DD33EA3921BE30"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				id: "52493CCFEBFDF243"
+				item: "megacells:256m_crafting_storage"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -29.0d
+		}
+		{
+			dependencies: [
+				"0EF8916F6F832917"
+				"275B3ADEFB7FE735"
+			]
+			description: ["&7This thing is basically a Import bus and a Export bus in one."]
+			id: "341E6DC3142F8D67"
+			rewards: [{
+				id: "717DD42CF95E3631"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "300F67823D882061"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0EF8916F6F832917"]
+			description: ["&7Export busses send items from the ME System &lOUT&r &7of the System"]
+			id: "7C5B6A6798EFB9DF"
+			rewards: [{
+				id: "2DD27E7C37E5D160"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "776F392733233EE0"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["275B3ADEFB7FE735"]
+			description: ["&7Import Buses take items out of inventories and brings them &linto&r &7the ME system"]
+			id: "5FC57A6A135DC8F7"
+			rewards: [{
+				id: "253153DA8CFCE1B4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5827536279D41A69"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["341E6DC3142F8D67"]
+			description: ["&7The Storage Bus is a very unique AE2 block, as it can make any storage that it is connected to, into a \"Storage Cell\". This means you can format it, you can access it from your AE2 system and you can also filter it, via Storages buses, like the Tag Storage bus."]
+			id: "67A681FD26A6CEC3"
+			rewards: [{
+				count: 2
+				id: "00B6B6196374E436"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BD427E3D25F53B9"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0CC65A484FBC8631"]
+			description: ["&7Same as the Terminal before, just with a crafting Grid."]
+			icon: {
+				Count: 1
+				id: "ae2:wireless_crafting_terminal"
+				tag: {
+					internalCurrentPower: 1600000.0d
+				}
+			}
+			id: "06A587267F284FC8"
+			rewards: [{
+				id: "1E31AE0839E7A9F4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "31326CA5E47D72D8"
+					item: "ae2:wireless_crafting_terminal"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "58289E9575C86387"
+					title: "Obtain a Wireless Terminal"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0CC65A484FBC8631"]
+			description: [
+				"&7To pair a Wireless Terminal, simply insert it into the Wireless Access Point."
+				""
+				"&7Make sure the Wireless Access point is connected to your ME system."
+				""
+				""
+				"&7The Wireless Access point is unfortunately not optional, you will have to craft it regardless - whether you wanna stay here or go cross dimensional. You need it to pair."
+			]
+			hide_dependent_lines: true
+			id: "21BFA2C732E6D2AF"
+			rewards: [{
+				id: "5427F152B19E6B15"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D457E1983DC47BC"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			title: "Wifi but for Storage"
+			x: -7.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["4C4938A6253E94EE"]
+			description: ["&7One of the two components for a Quantum Link Chamber."]
+			id: "6BACD7084BB795B0"
+			rewards: [{
+				id: "1D0470108CAFD578"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 8L
+				id: "414E7D39B8CA7EFB"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["4C4938A6253E94EE"]
+			description: ["&7One of the two components for a Quantum Link Chamber."]
+			id: "1DBAA45791630D40"
+			rewards: [{
+				id: "7DF47A03C565C6EA"
+				item: "ae2:tiny_tnt"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1174382EC3CF47C1"
+				item: "ae2:quantum_link"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"06A587267F284FC8"
+				"21BFA2C732E6D2AF"
+			]
+			description: [
+				"&7Do you want to access your storage from anywhere? In another dimension, at your friends base, or even during a teamfight because you forgot food? "
+				""
+				"&7Look no further as the Quantum Card(and the things you need to make it to work.)"
+			]
+			id: "4C4938A6253E94EE"
+			rewards: [{
+				id: "023B08822801C129"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AC204B5EDA00854"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["06A587267F284FC8"]
+			description: ["&7The Magnet card gives insane utility to the Wireless Terminal. Not only are you the Number one Thief, but you can also pick up items from incredibly far away, you can even choose if it sends the items into your ME system or into your inventory, there is nothing that makes Mining easier!"]
+			id: "7533888FB2ED079B"
+			rewards: [
+				{
+					count: 3
+					id: "417DDF5C1E955E9A"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "5E2F92C57DEB4330"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "79C323099898624B"
+				item: "ae2wtlib:magnet_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -20.5d
+		}
+		{
+			dependencies: [
+				"515A836404CA1374"
+				"3D550CD9EEE29E6F"
+			]
+			dependency_requirement: "all_started"
+			description: ["&7Acceleration Cards are the best friend of anyone who likes not wasting their time watching some Inscribers do their job. They are a Must-Have for anyone who plans big."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "40540D5FA0B7D7F4"
+			rewards: [{
+				count: 4
+				id: "4C33512731F29BF3"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			subtitle: "FASTER FASTER"
+			tasks: [{
+				id: "228413E58A750238"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2AA2D0140E9B0F88"]
+			description: ["&7The Wireless Terminal is the first step towards access to all of your storage. It can only access the Storage and can't craft."]
+			id: "0CC65A484FBC8631"
+			rewards: [{
+				id: "2137AE8FA68896B6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18619413AFEAB6AA"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			title: "Terminal but Phone"
+			x: -6.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["06A587267F284FC8"]
+			description: ["&7Makes you store more energy into your Terminal."]
+			id: "17F7769F7E8AED32"
+			rewards: [{
+				id: "0BFB117EBB17D7C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CD08C3A000EFB3E"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["17F7769F7E8AED32"]
+			description: ["&7Same thing but even bigger energy storage."]
+			id: "35EF2F2766F8D9C1"
+			rewards: [{
+				id: "564F8D731682F62F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "08AB4DAD183266B9"
+				item: "megacells:greater_energy_card"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["0A623086FF2017E3"]
+			id: "60E7BE37F1AC6DFF"
+			tasks: [{
+				id: "060BE07FBD9F00F5"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -26.5d
+		}
+		{
+			dependencies: [
+				"6BACD7084BB795B0"
+				"1DBAA45791630D40"
+			]
+			description: ["&7The Matter Condenser can be used to make Singularities, as a trash can and also to make Matter Balls, used by the Matter Cannon, a pretty fun and lethal Ranged weapon."]
+			id: "0A623086FF2017E3"
+			rewards: [{
+				id: "0828B9ED0019A487"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "05FFF77945392D22"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["7387F332F811734B"]
+			description: ["&7This Terminal can access every single Pattern Provider that you have in your AE2 System. It is a great tool for massive Systems with many duplicate Machines and such."]
+			id: "5F53EDEFAADB7C1F"
+			rewards: [{
+				id: "47FEC6449096C2C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "308127BA19244CBD"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["7387F332F811734B"]
+			description: ["&7Pattern Providers are placed next to machines to make them send the items from the Processing Pattern to the Machine. They also collect the items, if able."]
+			id: "5E520FA94363E9E9"
+			rewards: [{
+				id: "42E0D9CF31C0D0BB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0266A5350DA44A92"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["5E520FA94363E9E9"]
+			description: ["&7This has 4x the Slots the normal Pattern Provider has, great value!"]
+			icon: "extendedae:ex_pattern_provider"
+			id: "249D86491E0FDC89"
+			rewards: [{
+				id: "2D1644EA4EB47CD6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "26AF99BDE4054546"
+					item: "extendedae:ex_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "37126150D7EB8C33"
+					item: "extendedae:pattern_provider_upgrade"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -18.5d
+		}
+		{
+			dependencies: [
+				"5E520FA94363E9E9"
+				"4EE628A11EB6D43D"
+			]
+			description: [
+				"&7Pattern Providers work by doing the job they are told to- this means, for example:"
+				""
+				"&7Turn Logs into Planks "
+				"&7The Pattern Provider will send the Log to the adjacent machine(s) and expects that in the future, it will get the specified amount of Planks. How it gets these planks doesnt matter. The process is only done once the ME System has obtained that specific amount of Planks."
+				""
+				"&n&7Make sure to set in and outputs of machines and allow them to be automated!!!!&r"
+			]
+			icon: "supplementaries:cog_block"
+			id: "6E8030B3BA9269A4"
+			rewards: [{
+				id: "464716707D71FCAB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7D8865FE224A78EB"
+				title: "Automating other machines"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["60E7BE37F1AC6DFF"]
+			description: [
+				"&7The Quantum Entangled Singularity always comes in pairs, this means these Pairs are premanently intertwined. "
+				""
+				"&7If you want to use it with your Terminal, simply place one into the Slot in your Wireless Terminal (requires the quantum card!). Place the second one into a Quantum Chamber inside the Quantum ring"
+				""
+				"&7If you want to make a Quantum Tunnel, place one of them into the first Quantum Ring, and the other one gets the other. "
+				""
+				"&7&nEvery Terminal needs its own Quantum Ring, quantum card and pair of Singularities. If you want to make one for your friend you will need to craft everything another time.&r"
+				""
+				"&7&9Make sure to rename your Singularities!&r"
+			]
+			icon: "ae2:quantum_entangled_singularity"
+			id: "3E4019DD56F89EBE"
+			rewards: [{
+				id: "1A4E0AD09C60280D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2DD638DCBA74B559"
+					item: "ae2:quantum_entangled_singularity"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49601DD329CC21CC"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["6B5493F80C24051C"]
+			description: ["&7The Wireless Connector is the greatest way of saving you from a Spaghetti base. Simply pair them in a 255 block range and load both parts and you will be fine."]
+			hide_dependency_lines: false
+			id: "62813BD0CE2CC2A4"
+			rewards: [{
+				count: 2
+				id: "5C1DCD99D0B214E3"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54E38F9193DBC554"
+				item: "extendedae:wireless_connect"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["62813BD0CE2CC2A4"]
+			description: ["&7This is used to pair two Wireless Connectors together."]
+			id: "0D898949477581C8"
+			rewards: [{
+				id: "49092C7D0AB10809"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73C69B5D749B1A42"
+				item: "extendedae:wireless_tool"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3B33284690D03544"]
+			description: ["&7You have older lower tier Storage Cells you wanna get empty? This is the item for you, increase the speed with Acceleration Cards."]
+			id: "2D3436BB20BE002B"
+			rewards: [{
+				id: "5A98B26E8DA2AB1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "511F7B7F1DEBE27A"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["67A681FD26A6CEC3"]
+			description: [
+				"&7Whilst Storage Buses have great versatility, you must consider one thing:"
+				""
+				"&7Storing many unstackable items in things like the Item Vault from create, is great for convenience, but horrible for servers - please be responsible with your storages."
+			]
+			id: "160CB90E35A1B2AC"
+			rewards: [{
+				id: "79068E6381B46C10"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Please Read me"
+			tasks: [{
+				id: "530594F169201F03"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			title: "Stacking NBTS"
+			x: -6.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1E4939F30B9D32CE"]
+			description: ["&7Whilst not the best for shanking, its great for making Cable Anchors"]
+			id: "7BCD721A386D6E71"
+			rewards: [{
+				id: "46D9E106B16455D0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "65B6ADC9263E42FE"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "215D7EEE721B81C5"
+					item: {
+						Count: 1
+						id: "ae2:nether_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Stabby Stab"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7BCD721A386D6E71"]
+			description: ["&7These little guys are used to seperate cables. Sometimes you dont want to have a cable touch another, so you use one of these."]
+			id: "1D4ADBA7D05B0956"
+			rewards: [{
+				id: "38E6AAA689B1E472"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F4EE48F58EB85B6"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1D4ADBA7D05B0956"]
+			description: ["&7Don't like Cables everywhere? Every block can be made into a Facade, so you can hide cables efficiently."]
+			id: "213BDCCBB6F814D6"
+			rewards: [{
+				id: "6EB657C03BE510E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E0838F213F5C1AA"
+				item: {
+					Count: 1
+					id: "ae2:facade"
+					tag: { }
+				}
+				title: "Any Facade"
+				type: "item"
+			}]
+			title: "Making Things Pretty"
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["06A587267F284FC8"]
+			description: ["&7Now you may ponder as to how you can charge your Terminal effectively. The Easiest way is a Battery Box from Tech reborn. Once you have made it Quantum entangled, you no longer need to charge it, as it draws power from the AE2 System itself."]
+			icon: {
+				Count: 1
+				id: "ae2:energy_cell"
+				tag: { }
+			}
+			id: "10CD06C7A854B61A"
+			rewards: [{
+				id: "3AE6CC54D2A3FAC0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6AC689935F5F9E78"
+					title: "Powering the Terminal"
+					type: "checkmark"
+				}
+				{
+					id: "2DC048A39C08CACD"
+					item: "techreborn:low_voltage_su"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["0A623086FF2017E3"]
+			description: ["&7Filling the Matter condenser is best done with one of the Infinity Item Cells, as you don't need much to make them. They are not only great to export infinite cobble or water into the Matter condenser, but also great for a Recycler Setup from Tech Reborn. Highly recommended for making more than 1 Singularity."]
+			icon: {
+				Count: 1
+				id: "extendedae:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "2934C92DB26AA05D"
+			rewards: [{
+				id: "7DD67D18844B6A68"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "61EDFEC759A41436"
+					item: {
+						Count: 1
+						id: "extendedae:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6EFE304DE8F00531"
+					item: {
+						Count: 1
+						id: "extendedae:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49973B9DA06216B8"
+					type: "checkmark"
+				}
+			]
+			title: "Getting the Matter Condenser full"
+			x: -8.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["566A147DB00F3067"]
+			description: ["&7There is two main ways of storing power. Many Players opt into not storing any, but the Energy Cells from AE2 or the Ender Cells(insert a Battery into them!) are the most commonly used ways to store."]
+			icon: {
+				Count: 1
+				id: "ae2:energy_cell"
+				tag: { }
+			}
+			id: "2669C3178EF82A5B"
+			rewards: [{
+				id: "1F2563B11A9DF48E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "37887D37C1381EF3"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "78F7D09E0C12EBAF"
+					item: "powah:ender_cell_hardened"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Energy Storage for ME Systems"
+			x: -26.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0A623086FF2017E3"]
+			description: ["&7And not as bad for the environment."]
+			id: "3495FBC4E864C0CE"
+			rewards: [{
+				id: "22B154CEE01591D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2F7DAE0C5D76033A"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			title: "Like Airsoft but lethal"
+			x: -8.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["3495FBC4E864C0CE"]
+			description: ["&7The Matter Cannon is a fun Ranged weapon that scales with Ranged damage."]
+			id: "386A729E1C52BA2F"
+			rewards: [{
+				id: "3E20308664532973"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "2B1AD81940CD9303"
+				item: {
+					Count: 1
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -26.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6BA81EEC6176D279"]
+			description: ["&7If you feel lucky, you may get your storage upgrade, or maybe not."]
+			icon: {
+				Count: 1
+				id: "prominent:loot_box"
+				tag: {
+					lootbox_uuid: "093aa09a-3dce-44cb-a11b-d32af3391d26"
+					lottery_id: "prominent:corruption_items_lottery"
+				}
+			}
+			id: "24EADFD9883F5FCC"
+			rewards: [{
+				id: "2A5C79D882F2466A"
+				item: {
+					Count: 1
+					id: "prominent:loot_box"
+					tag: {
+						lottery_id: "prominent:ae2_storagecells_lottery"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "1DDCAE6D0BBF0E0F"
+					item: "ae2:quartz_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2C709B057CA29879"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "4F46AA0CA8594047"
+					item: { Count: 2, id: "minecraft:iron_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "10D477AADF1E3B4E"
+					item: { Count: 3, id: "minecraft:redstone_block" }
+					type: "item"
+				}
+			]
+			title: "Lets Go Gambling!"
+			x: -21.0d
+			y: -6.0d
+		}
+	]
+	subtitle: ["AE2 and all of it's Addons!"]
+	title: "&9 Applied Energistics 2"
+}

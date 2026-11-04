@@ -1,0 +1,641 @@
+{
+	autofocus_id: "6D2F2513F741BEBA"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "8the_prision"
+	group: "3E586F2160161EEA"
+	icon: "graveyard:dark_iron_bars"
+	id: "419EFD597601A50B"
+	images: [
+		{
+			height: 3.0d
+			image: "minecells:item/blood_sword"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependency: "7FA12D0EE258394E"
+			height: 2.5d
+			image: "minecells:item/boss_stem_cell"
+			rotation: 0.0d
+			width: 2.5d
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependency: "786169EB402AB151"
+			height: 1.5d
+			image: "minecells:item/conjunctivius_respawn_rune"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependency: "392849A6BB50F469"
+			height: 2.5d
+			image: "minecells:item/concierge_respawn_rune"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "minecells:item/health_flask"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/assassins_dagger"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/crate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/crate_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/crate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/chain_pile_block"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/broadsword"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "minecells:item/explosive_bolt"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecells:item/monster_cell"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: -4.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D2F2513F741BEBA"]
+			description: [
+				""
+				"{image:minecells:textures/gui/guidebook/images/prison.png width:100 height:100 align:center}"
+			]
+			id: "0D23A31DAF3866F4"
+			rewards: [{
+				count: 6
+				id: "4A4473CE89392149"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "The Prison is the first of the three major Dimensions part of Minecells"
+			tasks: [{
+				dimension: "minecells:prison"
+				icon: "graveyard:dark_iron_bars"
+				id: "0E868C4F785876CA"
+				title: "Enter the Prison"
+				type: "dimension"
+			}]
+			title: "&8Enter the Prison"
+			x: 0.0d
+			y: 1.875d
+		}
+		{
+			dependencies: ["786169EB402AB151"]
+			id: "056835280827D016"
+			rewards: [
+				{
+					id: "2FCF73BFB5EB1746"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "2634DBDF6AD90B9B"
+					item: "minecells:sewer_calamari"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Spawns in &1The Lair&r, which can be found after obtaining a &dVine Rune&r To deal damage to the &dConjunctivius&r, you must first kill the tentacles."
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60BB85E2901C9AFB"
+				title: "Defeat Conjunctivius"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&lBossfight: &d&lConjunctivius"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			description: [
+				""
+				"{image:minecells:textures/gui/guidebook/images/promenade.png width:100 height:100 align:center}"
+			]
+			id: "3C8D91F2793CECAD"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&7Found by going deep into the Prison.    &eIt is suggested to bring a waystone or a pocket wormhole with you to come back to your home."
+			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:promenade_torch"
+				id: "3D4982DEF40E26A6"
+				title: "Visit the Promenade"
+				type: "dimension"
+			}]
+			title: "&7Enter the &cPromenade"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F0FA8C53795453D"]
+			id: "58E9FDE95BB414C8"
+			subtitle: "Monster Cells drop from monsters in the &8Prison &rdimension."
+			tasks: [{
+				id: "5A6C4572411834AA"
+				item: "minecells:monster_cell"
+				type: "item"
+			}]
+			title: "Loot a Monster Cell"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58E9FDE95BB414C8"]
+			id: "364E9528AE5F1047"
+			subtitle: "Some weapons that can be made in the Cell Crafter require Cell-Infused Steel to make. Keep this in mind."
+			tasks: [{
+				id: "492AFFEA634E0376"
+				item: "minecells:cell_infused_steel"
+				type: "item"
+			}]
+			title: "Craft Some &bCell-Infused &rSteel"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			description: ["&eCan be cell crafted with Guts and Monster Cells."]
+			id: "447E7AA3CB192FE4"
+			rewards: [{
+				count: 10
+				id: "0A6ADFFF5197516C"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			subtitle: "The Health Flask is a really useful item that heals you 10% of your maximum health and grants regeneration for a few seconds."
+			tasks: [{
+				icon: "minecells:health_flask"
+				id: "2D109EBD7B56015A"
+				item: "minecells:health_flask"
+				title: "Quick Healing!"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&7The Overworld Portal is your entrance to the Prison, one of 3 Dimensions containing 2 bosses and a ton of loot!"
+				""
+				"&7Due to the large amount of chests, it is great for finding resources, Simply Swords and much more!"
+			]
+			id: "69D69BD1D3500C6A"
+			rewards: [{
+				id: "2FE408F561BBBECB"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.2d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecells:prison_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "196E583EF3C77C8B"
+				structure: "minecells:overworld_portal"
+				title: "Find the Overworld Portal"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69D69BD1D3500C6A"]
+			description: [
+				"&7The Portal you have just found is also the way to &eselect&r &7to which Dimension you want to go. Many of them have a Teleport at the end, which bring you back to the&e Overworld. &r"
+				""
+				"&7You can either open the Portal for &eeveryone&r &7or &eonly for you&r.&7 Everyone will be in the same Dimension if you decide on sharing it. &eLoot is instanced per player&r&7 and mobs spawn depending on how many players you bring with you."
+			]
+			icon: {
+				Count: 1
+				id: "minecells:prison_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "6D2F2513F741BEBA"
+			rewards: [{
+				id: "18F543067E94FFB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20CE52F5F638929B"
+				title: "Portals"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["52A09B92E3A16003"]
+			description: [
+				"&7To obtain the Vine Rune, you must defeat a &eElite Enemy.&r"
+				""
+				"&7Defeat the foe and claim the Rune."
+			]
+			id: "32AD907B1C467139"
+			rewards: [
+				{
+					id: "7876D2FF42680DBE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					advancement: "minecells:vine_rune"
+					auto: "enabled"
+					criterion: ""
+					id: "3249D08403A56801"
+					type: "advancement"
+				}
+			]
+			tasks: [{
+				id: "0409EF76ACF617D8"
+				item: {
+					Count: 1
+					id: "minecells:vine_rune"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Obtain a Vine Rune"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C8D91F2793CECAD"]
+			description: [
+				"&7Finding the Vine Rune is simple. &eCheck the Signs&r &7scattered around the pathways for the Vine Rune. These will lead you directly to the Vine Rune and the Ramparts."
+				""
+				"&7&nYou will need the Vine Rune to continue.&r"
+			]
+			icon: "minecells:arrow_sign"
+			id: "52A09B92E3A16003"
+			rewards: [{
+				id: "47452E5B3A60781E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43B67FFBA352B18B"
+				title: "Find the Vine Rune"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52A09B92E3A16003"]
+			description: [
+				"&7Use the Vine rune on the Vine, found with the same Signs you have used to find the Vine Rune."
+				""
+				"&7Simply use the Vine Rune on the Vine block found at the end."
+				""
+				""
+				"{image:minecells:textures/gui/guidebook/images/runic_vine_plant.png width:100 height:100 align:center}"
+			]
+			id: "19A13E818C2E97D7"
+			rewards: [{
+				id: "06321FC0D60A986A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecells:vine_rune"
+				criterion: ""
+				id: "6ABACEEF3F0409D0"
+				type: "advancement"
+			}]
+			title: "Jack and the Beanstalk"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19A13E818C2E97D7"]
+			description: [
+				"&7The Cell Crafter can be used to craft Weapons, Potions, Throwables and even some Decoration for your base."
+				""
+				"&7Keep in mind many Weapons and such are unlocked via certain milestones, such as killing an enemy a specific amount of times, or visiting a specific dimension."
+				""
+				""
+				"&7&nNote:&r&3To finish this quest you will need to find the Uncraftable Cell Crafter and interact with it to complete this quest.&r"
+			]
+			id: "3F0FA8C53795453D"
+			rewards: [{
+				id: "2C8A86386DF30D96"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "You can craft these too!"
+			tasks: [{
+				icon: "minecells:cell_crafter"
+				id: "65448170569AF6B8"
+				observe_type: 0
+				timer: 0L
+				title: "Find the Cell Crafter at the end of the Promenade"
+				to_observe: "minecells:unbreakable_cell_crafter"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F0FA8C53795453D"]
+			description: [
+				"&7The Ramparts is the final level before Concierge. The Ramparts are high in the sky, &emeaning falling down will not kill you but will reset you&r&7. You can go back to the Overworld from here to continue further. &eBring blocks and maybe a Glider with you.&r"
+				""
+				""
+				"{image:minecells:textures/gui/guidebook/images/ramparts.png width:100 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecells:ramparts_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "7FA12D0EE258394E"
+			rewards: [
+				{
+					id: "36A58D26A98BFA3D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 12
+					id: "55B57F3317E4C4F4"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecells:ramparts"
+				icon: {
+					Count: 1
+					id: "minecells:ramparts_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "7545EF04441CAA9D"
+				title: "Visit the Ramparts"
+				type: "biome"
+			}]
+			title: "Visit the Ramparts"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7FA12D0EE258394E"]
+			description: ["&7Getting to Concierge means finding the Portal to the Black Bridge."]
+			icon: "minecells:hardstone"
+			id: "5D643BB63647DB8A"
+			tasks: [{
+				id: "57CDDC8701890BD7"
+				type: "checkmark"
+			}]
+			title: "Getting to Concierge"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5D643BB63647DB8A"]
+			description: ["&7There is not much in this Dimension. Only a Bridge and something to kill. The question is, is it you, or him?"]
+			icon: {
+				Count: 1
+				id: "minecells:black_bridge_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "392849A6BB50F469"
+			rewards: [
+				{
+					count: 6
+					id: "2F8795B2E69CDA3E"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					id: "704A8F3D54F2757A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "minecells:black_bridge"
+				icon: {
+					Count: 1
+					id: "minecells:black_bridge_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "51DE4059A6FD8FC3"
+				title: "Visit the Black Bridge"
+				type: "biome"
+			}]
+			title: "Visit the Black Bridge to confront Concierge"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["392849A6BB50F469"]
+			id: "289AE54974A0835D"
+			rewards: [
+				{
+					advancement: "minecells:concierge"
+					auto: "enabled"
+					criterion: ""
+					id: "70D2D628909C7A56"
+					title: "Steam Rolled!"
+					type: "advancement"
+				}
+				{
+					id: "658AB9CBDC52C5BB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 7
+					id: "09EA426333980BDB"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecells:concierge"
+				icon: "minecells:concierge_respawn_rune"
+				id: "02FB4335C4239BE5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Concierge"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7FA12D0EE258394E"]
+			description: [
+				"&7The insufferable crypt is where the worst of the worst are kept."
+				"{image:minecells:textures/gui/guidebook/images/insufferable_crypt.png width:100 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecells:insufferable_crypt_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "786169EB402AB151"
+			rewards: [{
+				id: "52D48EFD2E3D89A8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				biome: "minecells:insufferable_crypt"
+				icon: {
+					Count: 1
+					id: "minecells:insufferable_crypt_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "4FA59940B75D3D3D"
+				title: "Visit the Insufferable Crypt"
+				type: "biome"
+			}]
+			title: "Visit the Insufferable Crypt"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3C8D91F2793CECAD"]
+			description: ["&7Like the Elevators in Minecells? You can make them yourself!"]
+			id: "033D13B0BF22DB3D"
+			rewards: [{
+				id: "0875AA681088B43A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 2L
+				id: "271203E170919B3C"
+				item: { Count: 2, id: "minecells:elevator_mechanism" }
+				title: "Craft two Elevator Mechanism"
+				type: "item"
+			}]
+			title: "&7Making an Elevator"
+			x: -2.0d
+			y: -1.0d
+		}
+	]
+	title: " &7Minecells"
+}

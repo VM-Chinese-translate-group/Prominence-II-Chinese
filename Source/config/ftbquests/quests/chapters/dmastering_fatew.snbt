@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dmastering_fatew"
+	group: "7367AB870F5BB5DC"
+	icon: "botania:third_eye"
+	id: "14309A6A38A14BAB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: " &dMastering Fate"
+}
