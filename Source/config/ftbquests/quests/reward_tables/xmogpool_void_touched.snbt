@@ -1,0 +1,11 @@
+{
+	id: "6F22568FE83E7861"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "prominent:xmog_void_touched_blade" }
+		{ item: "prominent:xmog_void_touched_saber" }
+		{ item: "prominent:xmog_void_touched_scythe" }
+	]
+	title: "xmogpool_void_touched"
+}

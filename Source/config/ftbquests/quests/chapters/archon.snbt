@@ -1,0 +1,1168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "archon"
+	group: "244F516C4853FD2F"
+	icon: {
+		Count: 1
+		id: "wizards:wand_fire"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "184A69F072ECA80E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "archon:grimoire"
+			id: "0AD9BE143D39268F"
+			rewards: [
+				{
+					id: "2009BAE85FB8319E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 5
+					id: "14F1B61D053B0F18"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			subtitle: "Welcome to the world of runes. This is where we make use of runes and mana to create magic spells, weaponry and even armor. Are you ready to learn the world of sorcery and runes?"
+			tasks: [
+				{
+					id: "4A5671A5B0CD7CD3"
+					title: "Are you ready to become a Sorcerer?"
+					type: "checkmark"
+				}
+				{
+					id: "4613B914D39D4B45"
+					item: "archon:grimoire"
+					type: "item"
+				}
+			]
+			title: "First Magic Steps"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "596D88086910FE78"
+			shape: "diamond"
+			subtitle: "Beneath the depths of the world are Earth Essences, finding them will be no small task as the world underground is huge."
+			tasks: [{
+				id: "166125A8F31A4AF4"
+				item: "archon:earth_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			description: [""]
+			id: "01258A1B33747993"
+			shape: "diamond"
+			subtitle: "Beyond the void lie the End Essences found within End Islands, they will be very difficult to find unless you're determined enough."
+			tasks: [{
+				id: "6811A109A2B99E71"
+				item: "archon:end_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			description: ["You may also hold the channeler in your off hand and a block of your chosen metal to work."]
+			id: "1780D396DC014BA0"
+			rewards: [
+				{
+					id: "12C24B12F06DFF66"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "6A2EE2401F255A2B"
+					item: "archon:mana_berries"
+					type: "item"
+				}
+			]
+			subtitle: "The Channeler is a wand that can infuse mana into certain blocks that will create its crafted version or a new magic material. Test out some materials."
+			tasks: [{
+				id: "1F130DEA61749920"
+				item: "archon:channeler"
+				type: "item"
+			}]
+			title: "Alchemy on a Stick"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "3225D08099FF42D1"
+			rewards: [{
+				id: "1D5ED91613D3C915"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Spires are tall towers found in forest and mountain biomes that contain certain loot found there. Watch out for leeches!"
+			tasks: [{
+				id: "22D665001A85F2BD"
+				structure: "archon:spire"
+				title: "Find a Spire"
+				type: "structure"
+			}]
+			title: "Find a Spire"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3225D08099FF42D1"
+				"0C1026686D425091"
+			]
+			id: "572B7DC7185B8D61"
+			rewards: [{
+				id: "76A9DB8342C6E299"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "These Ancient Scrolls are used to help enhance a person's mana by either increasing one's capacity or mana regeneration capability."
+			tasks: [
+				{
+					id: "320435EC60BCA545"
+					item: "archon:capacity_scroll"
+					type: "item"
+				}
+				{
+					id: "311484D8F55C8CEB"
+					item: "archon:removal_scroll"
+					type: "item"
+				}
+			]
+			title: "Are they made of Papyrus?"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1780D396DC014BA0"]
+			id: "4CA7E7DA58B3B6C7"
+			rewards: [
+				{
+					id: "729F1DF03193454C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "2BA3C7E0CB49F240"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			subtitle: "Looks like you figured out how to use the Channeler. Maybe you can do more with this material?"
+			tasks: [{
+				id: "202BB1E0C0815F14"
+				item: "archon:glisteel_ingot"
+				type: "item"
+			}]
+			title: "Sorcerer's Metal"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "498575A162B584BA"
+			subtitle: "The Mask of Power boosts mana regeneration to 4 Mana per second while wearing it."
+			tasks: [{
+				id: "5398332BD46C3DD3"
+				item: {
+					Count: 1
+					id: "archon:mask_of_power"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sorcerer's Helmet"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "5065CA5BF502C166"
+			rewards: [{
+				id: "5E3F32BEDC7EBEE7"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "A Mana Catalyst boosts the mana capacity of all player with an extra 50 Mana with the radius of 16 blocks."
+			tasks: [{
+				id: "72B068BE05DD165D"
+				item: "archon:mana_catalyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5065CA5BF502C166"]
+			id: "5902382AF39E025B"
+			rewards: [{
+				id: "1447F2852B46FD71"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "An upgraded Mana Catalyst that boosts the mana capacity to 100 with a radius of 22 blocks."
+			tasks: [{
+				id: "3409F3F1F5E5F4CF"
+				item: "archon:diamond_mana_catalyst"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5902382AF39E025B"]
+			id: "264F98EA94806BFD"
+			rewards: [{
+				id: "5FD88F7F5DA11A65"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "A powerful Mana Catalyst that boosts the mana capacity to 200 within the range of 34 blocks."
+			tasks: [{
+				id: "1D13EB7516BA9670"
+				item: "archon:netherite_mana_catalyst"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "7E60780B737DD1D2"
+			rewards: [{
+				id: "3F85D801A656AD77"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Sword allows the user to launch a small cloud of slowness to nearby targets."
+			tasks: [{
+				id: "54BBD82D93AC2563"
+				item: {
+					Count: 1
+					id: "archon:frost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "64A67185CA3803CB"
+			rewards: [{
+				id: "40612B57312756E5"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "The Charm allows the holder to walk on water when held in main hand and breathe underwater when inside the inventory."
+			tasks: [{
+				id: "7C184EBE6A7E8369"
+				item: "archon:sea_master_charm"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "3AF01B2FC9C43D67"
+			rewards: [{
+				id: "0E90D85B135F749A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Bow launches a Ghast fireball and increases speed of the shot the longer the bow is pulled back."
+			tasks: [{
+				id: "3755E9409961A81F"
+				item: {
+					Count: 1
+					id: "archon:heat_ranger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "76BF9FAE02BCBC4F"
+			rewards: [{
+				id: "69598316DE90F4BE"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "The Coat grants the wearer fire resistance and the implosion ability to cause explosion damage, the more mana the higher the damage."
+			tasks: [{
+				id: "7045685A90496FF7"
+				item: {
+					Count: 1
+					id: "archon:infernal_coat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "1A05717ECF6DE912"
+			rewards: [{
+				id: "3CF19BEA90F6C152"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Blade grants the wielder the ability to teleport 8 blocks in the direction they're facing."
+			tasks: [{
+				id: "1279B4ABCC1E83FA"
+				item: {
+					Count: 1
+					id: "archon:ender_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "4582AA8695D7C497"
+			rewards: [{
+				id: "491EA51F85C3E338"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "The Scepter grants the wielder the ability to teleport 10 blocks away in the direction they're facing, but will always cause implosion damage."
+			tasks: [{
+				id: "2FB7594EC933F904"
+				item: {
+					Count: 1
+					id: "archon:void_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "3419E86BFC533271"
+			rewards: [{
+				id: "33ED7F7850D6E117"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Mace slams the ground, flinging around nearby targets around the user into the air and receive fall damage. Does not damage pets."
+			tasks: [{
+				id: "0279E54654D52F0B"
+				item: {
+					Count: 1
+					id: "archon:terrain_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "212337E36BE98725"
+			rewards: [{
+				id: "4ACD18EF8FF254E6"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "16B48CF0C7179D07"
+				item: {
+					Count: 1
+					id: "archon:fist_of_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "1DFB92FFA9EA18FB"
+			rewards: [{
+				id: "7815BB588948D7F2"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "The Axe grants the user a few seconds of resistance and ability to deflect projectiles away from the user."
+			tasks: [{
+				id: "7F83BC7E74B126C2"
+				item: {
+					Count: 1
+					id: "archon:terranean_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			description: ["The ingredients to summon the bosses are in your Grimoire."]
+			id: "719EE06DB5C14C73"
+			rewards: [{
+				id: "3BB1615C5B551B58"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Pedestal is used to summon bosses using the right ingredients. You can shift click on it to remove all ingredients. Right click holding the ingredients onto the pedestal as there's no GUI."
+			tasks: [{
+				id: "25802A48A70C6EF9"
+				item: "archon:summoning_pedestal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "75279E814DD9CC2B"
+			rewards: [{
+				id: "137FEC265144557B"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Crusher turns all target souls into mana. 20 mana per mob kill, 30 mana per player kill, and 50 mana per boss kill."
+			tasks: [{
+				id: "380768867D8D8CF1"
+				item: {
+					Count: 1
+					id: "archon:soul_crusher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4CA7E7DA58B3B6C7"]
+			id: "3167EFF48EC07804"
+			rewards: [{
+				id: "7A8E7EF349CFD265"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "The Scythe grants the wielder a chance to reap out souls from their preferred target. The Staff of Undead is used to summon minions when given a core."
+			tasks: [
+				{
+					id: "38E3369502B92326"
+					item: {
+						Count: 1
+						id: "archon:soul_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E4968B9B17F4D10"
+					item: "archon:undead_staff"
+					type: "item"
+				}
+			]
+			title: "Grim Reaper's Toys"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "63E59E2AF9E3212A"
+			rewards: [
+				{
+					id: "2A1BA180613A8708"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1E3CE062120A9331"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "The Scripture Table grants the player the ability to craft spell tomes using various ingredients. Similar to alchemy."
+			tasks: [{
+				id: "417F1BA3D82A6C67"
+				item: "archon:scripture_table"
+				type: "item"
+			}]
+			title: "Alchemy, but for Spellbooks"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "1DBE4C392FA662F5"
+			rewards: [{
+				id: "2B4D6ED3F8B05FFA"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "15C9B951455CCC64"
+				item: "archon:fire_essence"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "66AC80AD26AE6447"
+			rewards: [{
+				id: "296B168EF46E2A85"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "00785D3C2C822EDB"
+				item: "archon:water_essence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "444BFAF1CC19067C"
+			rewards: [{
+				id: "55285A3584BF2A40"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "716F84648AE17DC4"
+				item: "archon:sky_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["444BFAF1CC19067C"]
+			id: "34DF5FBF5F85F328"
+			rewards: [{
+				id: "1419B4B332A0DA15"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "The Wand of Sky, can only use sky spells found in villages."
+			tasks: [{
+				id: "611F65B429A0DF07"
+				item: {
+					Count: 1
+					id: "archon:sky_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "2B493ED51109E97A"
+			rewards: [{
+				id: "51684706EF706DA4"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "The Wand of Water, can only use water spells found in Ocean structures and fishing."
+			tasks: [{
+				id: "776C19E8B948579B"
+				item: {
+					Count: 1
+					id: "archon:water_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "71354BED076EFCB4"
+			rewards: [{
+				id: "673E42CCCF20E86E"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "The Wand of End, can only use end spells found in End Cities or Strongholds."
+			tasks: [{
+				id: "72305223DA5927DF"
+				item: {
+					Count: 1
+					id: "archon:end_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "02986E00C637B71A"
+			rewards: [{
+				id: "2D3AF785AB1A149A"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "The Wand of Earth, can only use earth spells found in temples and mineshafts."
+			tasks: [{
+				id: "7AD3C9B9978B1421"
+				item: {
+					Count: 1
+					id: "archon:earth_wand"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "7C2CF79D5DABC617"
+			rewards: [{
+				id: "5AB2F55B892FFC62"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "61E4E8EBCEC20ACA"
+					item: "archon:aqua_shield_tome"
+					type: "item"
+				}
+				{
+					id: "5B6A2C0487BC2719"
+					item: "archon:freeze_tome"
+					type: "item"
+				}
+				{
+					id: "73400EEED20273F7"
+					item: "archon:mend_tome"
+					type: "item"
+				}
+			]
+			title: "Water Spells"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "72C391EA7497368D"
+			rewards: [{
+				id: "7204DDAB887D76D5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "7E1DF19FBF750513"
+					item: "archon:propel_tome"
+					type: "item"
+				}
+				{
+					id: "7B4AFBDA5A363B2D"
+					item: "archon:gust_tome"
+					type: "item"
+				}
+				{
+					id: "2678D8B2CD455A2B"
+					item: "archon:cloudshot_tome"
+					type: "item"
+				}
+			]
+			title: "Sky Spells"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "07DB2F535985042D"
+			rewards: [{
+				id: "22E28C53552D4750"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "57DC457D1FD6922F"
+					item: "archon:rumble_tome"
+					type: "item"
+				}
+				{
+					id: "157A713FEC88676E"
+					item: "archon:crush_tome"
+					type: "item"
+				}
+				{
+					id: "6835905C9B2CF7C9"
+					item: "archon:terrain_toss_tome"
+					type: "item"
+				}
+			]
+			title: "Earth Spells"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63E59E2AF9E3212A"]
+			id: "562419B5DE97151B"
+			rewards: [{
+				id: "403F29B31E8236E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "35A723D0DE04D8E5"
+				item: "archon:ender_tome"
+				type: "item"
+			}]
+			title: "End Spells"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C1026686D425091"]
+			id: "1346633DE684A124"
+			rewards: [{
+				id: "772AF4658152ECDE"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "As the name implies, it contains lightning that can be released onto the ground when thrown. Can also be created when an empty bottle is struck by lightning."
+			tasks: [{
+				id: "2C0E35986C988B35"
+				item: "archon:lightning_bottle"
+				type: "item"
+			}]
+			title: "Thor's Breath"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "0C1026686D425091"
+			rewards: [
+				{
+					id: "41388712788104DF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "09CEA17274019A20"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "Magical Bookshelves are not only good for decoration, but used by Wizard Villagers to allow trade with magical trinkets."
+			tasks: [{
+				id: "27236DE839F10DFA"
+				item: "archon:magical_bookshelf"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1780D396DC014BA0"]
+			id: "58C19792A4305FFE"
+			rewards: [{
+				id: "585BF431600D262D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Pixie Leaves are created with leaf blocks and channeler."
+			tasks: [{
+				id: "44C69C4B62C5A18C"
+				item: "archon:pixie_leaves"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1780D396DC014BA0"]
+			id: "4A2BB75BFAEAC38C"
+			rewards: [{
+				id: "5295CEA552170A92"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Spry Dust is created by infusing sand with mana using the Channeler."
+			tasks: [{
+				id: "56BEC1279C60C482"
+				item: "archon:spry_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58C19792A4305FFE"]
+			id: "2655A30B4B1130E7"
+			rewards: [
+				{
+					id: "553C0FA8C5025F26"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "538623ECC8C3FDA0"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "Wearing these boots grants the wearer to fertilize plants and crops using mana and by crouching."
+			tasks: [{
+				id: "292102AC8D26DBAB"
+				item: {
+					Count: 1
+					id: "archon:druid_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Magical Farmer"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DBE4C392FA662F5"]
+			id: "6B1CB8B78FD963E5"
+			rewards: [{
+				id: "2F463BBF43A6C5BB"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Fire Harvester increases mob loot chance related to fire."
+			tasks: [{
+				id: "4245080FFBF7FAB8"
+				item: {
+					Count: 1
+					id: "archon:flaming_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["444BFAF1CC19067C"]
+			id: "4A14DF58C18FF4DD"
+			rewards: [{
+				id: "1A3B7297CE709A65"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Breezy Harvester increases mob loot chance related to wind or air."
+			tasks: [{
+				id: "322A63DA6ADF5CBB"
+				item: {
+					Count: 1
+					id: "archon:breezy_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66AC80AD26AE6447"]
+			id: "3B0A0F4B0F54AB22"
+			rewards: [{
+				id: "7F66E28149E92EAC"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Soaking Harvester increases mob loot chance related to water."
+			tasks: [{
+				id: "38249728822F838A"
+				item: {
+					Count: 1
+					id: "archon:soaking_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01258A1B33747993"]
+			id: "389D82938C93E56F"
+			rewards: [{
+				id: "5922D2BB5B77D399"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Warping Harvester increases mob loot chance related to the End."
+			tasks: [{
+				id: "2D176598582F1DDE"
+				item: {
+					Count: 1
+					id: "archon:warping_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["596D88086910FE78"]
+			id: "65CEB8D4AC52BF28"
+			rewards: [{
+				id: "6DBD88B655BDDCED"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "The Rocky Harvester increases mob loot chance related to the earth."
+			tasks: [{
+				id: "0ED01AE891B58E3D"
+				item: {
+					Count: 1
+					id: "archon:rocky_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0AD9BE143D39268F"]
+			id: "43804968CD10C39F"
+			rewards: [{
+				id: "500F869E0F44AF71"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Small pouches used to store XP when needed. The pouch can store 550 XP."
+			tasks: [{
+				id: "34872FD95C254318"
+				item: {
+					Count: 1
+					id: "archon:experience_pouch"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43804968CD10C39F"]
+			description: [""]
+			id: "50F46E32A29E3290"
+			rewards: [{
+				id: "79F40F1D32731339"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "pentagon"
+			subtitle: "An upgraded pouch that can store up to 2920 XP."
+			tasks: [{
+				id: "3733C69851295D5E"
+				item: {
+					Count: 1
+					id: "archon:super_experience_pouch"
+					tag: {
+						archon: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "51A049502F5B868E"
+			rewards: [
+				{
+					id: "2DCACC98959E8C05"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "20A8F94E43E23E72"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "You must defeat this creature in order to harness the essence of the earth."
+			tasks: [{
+				entity: "archon:tar"
+				id: "64F464705D0CF636"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Earth Elemental"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "63A3A558A3BA0065"
+			rewards: [
+				{
+					id: "7EC17531EA3EA5A9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "054D291C0F43FC5E"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "You must defeat this creature in order to harness the essence of the skies."
+			tasks: [{
+				entity: "archon:ayla"
+				id: "393F2822E6349AA9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Sky Elemental"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "0D40904111245F80"
+			rewards: [
+				{
+					id: "2E53A6D1AB9C8B5A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1F7A7A90E5C8878D"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "You must defeat this creature in order to harness the essence of flame."
+			tasks: [{
+				entity: "archon:inigo"
+				id: "096E0352AE193913"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Fire Elemental"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["719EE06DB5C14C73"]
+			id: "21A154E44E6158F4"
+			rewards: [
+				{
+					id: "13B02C9D8EBE6518"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "372051982668460A"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "You must defeat this creature in order to harness the essence of the seas."
+			tasks: [{
+				entity: "archon:leven"
+				id: "43D121342CCCEDE9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Water Elemental"
+			x: -1.0d
+			y: 11.5d
+		}
+	]
+	title: " &bSpellcasting"
+}
