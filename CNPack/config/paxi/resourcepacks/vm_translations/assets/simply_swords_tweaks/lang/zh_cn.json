@@ -47,15 +47,15 @@
 
   "sst.category.bug_fixes": "Bug修复",
   "sst.category.bug_fixes.desc": "修复了§6简易刀剑§f中的各种bug。",
-  "sst.option.fix_status_effect_stacking": "Fix Effect Capping Bug",
+  "sst.option.fix_status_effect_stacking": "修复效果等级上限异常",
   "sst.option.fix_status_effect_stacking.desc": "Fixes the effect stacking bug where a battle standard maintains a higher amplifier than configured if granted by an external source (e.g. §6Enigma§f retaining §6Twisted Blade's§f Haste XV while near §6Galeforce§f).",
   "sst.option.fix_elemental_vortex_leak": "Fix Elemental Vortex State Leak",
   "sst.option.fix_elemental_vortex_leak.desc": "Fixes §6Galeforce§f attacking its owner while under the effect of the §6Elemental Vortex§f status effect.",
   "sst.option.icewhisper_slowness_cap": "Icewhisper Slowness Cap",
   "sst.option.icewhisper_slowness_cap.desc": "Caps the maximum §6Slowness§f debuff amplifier that §6Icewhisper§f can stack onto targets.\n\nFixes Simply Swords' bug where Slowness can stack infinitely.\n\n§6-1§f: Disables fix (retains infinite stacking)",
 
-  "sst.category.compatibility": "Compatibility",
-  "sst.category.compatibility.desc": "Integrations and balancing with other mods.",
+  "sst.category.compatibility": "兼容性",
+  "sst.category.compatibility.desc": "与其他模组的兼容及平衡性调整。",
   "sst.option.rebalance_compat_enabled": "Enable ReBalance Scaling",
   "sst.option.rebalance_compat_enabled.desc": "Applies §6ReBalance§f's PvP damage multiplier and global reduction threshold to §6Battle Standard§f aura damage dealt to players."
 }
