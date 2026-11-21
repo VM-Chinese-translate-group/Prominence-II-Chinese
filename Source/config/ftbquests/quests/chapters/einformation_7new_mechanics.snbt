@@ -4863,6 +4863,13 @@
 				"&7For artifact choice, you have &6Fury of a Thousand Fists&7 for monk builds, or &6Ash'edar&7 for swordman builds. A dagger artifact is coming in the future."
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "mcda:souldancer_robe_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "53391B7A86496FCB"
 			min_required_dependencies: 1
 			rewards: [{
