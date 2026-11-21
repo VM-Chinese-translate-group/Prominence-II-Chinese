@@ -76,8 +76,8 @@
 			order: 1
 			rotation: 45.0d
 			width: 3.0d
-			x: -12.5d
-			y: -17.5d
+			x: -11.5d
+			y: -15.5d
 		}
 		{
 			dependency: "6A8665FBC017A00F"
@@ -161,13 +161,12 @@
 			y: -13.5d
 		}
 		{
-			dependency: "10710081934A30C6"
 			height: 2.0d
 			image: "simplyswords:item/unique_longsword_tainted_whole_32x32"
 			rotation: 0.0d
 			width: 2.0d
-			x: -22.0d
-			y: 3.0d
+			x: -19.0d
+			y: -1.0d
 		}
 		{
 			dependency: "306AAF14EBD13866"
@@ -260,13 +259,12 @@
 			y: 1.5d
 		}
 		{
-			dependency: "1E65DAC37F8D34F9"
 			height: 3.0d
 			image: "simplyswords:item/unique_longsword_holy"
 			rotation: 45.0d
 			width: 3.0d
-			x: -25.0d
-			y: -1.5d
+			x: -22.0d
+			y: -1.0d
 		}
 		{
 			dependency: "556C78463DB00269"
@@ -287,7 +285,6 @@
 			y: -3.0d
 		}
 		{
-			dependency: "1E65DAC37F8D34F9"
 			height: 1.7d
 			image: "simplyswords:item/bramblethorn_layer"
 			rotation: 0.0d
@@ -314,51 +311,6 @@
 			y: -11.0d
 		}
 		{
-			dependency: "6ECFB00CAB6FADAC"
-			height: 2.0d
-			image: "simplybows:item/bubble_bow/bubble_bow"
-			rotation: 0.0d
-			width: 2.0d
-			x: -11.0d
-			y: 14.5d
-		}
-		{
-			dependency: "16FD124AF03A6DA9"
-			height: 2.0d
-			image: "simplybows:item/vine_bow/vine_bow"
-			rotation: 0.0d
-			width: 2.0d
-			x: -13.5d
-			y: 12.5d
-		}
-		{
-			dependency: "515E31092F36D31D"
-			height: 2.0d
-			image: "simplybows:item/earth_bow/earth_bow"
-			rotation: 0.0d
-			width: 2.0d
-			x: -7.5d
-			y: 13.5d
-		}
-		{
-			dependency: "21E3DF72858C3D6B"
-			height: 1.0d
-			image: "simplybows:item/upgrades/enchanted_bow_string"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 9.5d
-		}
-		{
-			dependency: "21E3DF72858C3D6B"
-			height: 1.0d
-			image: "simplybows:item/upgrades/reinforced_bow_frame"
-			rotation: 0.0d
-			width: 1.0d
-			x: -11.5d
-			y: 9.0d
-		}
-		{
 			dependency: "08AEEA46BD870294"
 			height: 3.0d
 			image: "simplyswords:item/stormbringer_layer"
@@ -368,13 +320,12 @@
 			y: -13.5d
 		}
 		{
-			dependency: "0395861176F7F402"
 			height: 2.0d
 			image: "simplyswords:item/fsd/lichblade_edge"
 			rotation: 0.0d
 			width: 2.0d
-			x: -12.5d
-			y: -17.5d
+			x: -11.5d
+			y: -15.5d
 		}
 	]
 	order_index: 0
@@ -657,166 +608,6 @@
 			}]
 			x: -20.0d
 			y: -2.5d
-		}
-		{
-			dependencies: ["1A59D35015E0BB3F"]
-			description: ["&7Look at your righteousness.  If only they could see you now."]
-			hide_until_deps_complete: true
-			id: "1E65DAC37F8D34F9"
-			rewards: [
-				{
-					count: 4
-					id: "0E71C79F09F1D234"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					id: "4A1A3317D2320B18"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-				{
-					id: "4D4664097A94E786"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "All Mighty!"
-			tasks: [{
-				id: "70287F102D2FE077"
-				item: {
-					Count: 1
-					id: "simplyswords:righteous_relic"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -22.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["1A59D35015E0BB3F"]
-			description: ["&7You were sent to destroy them, not join them!"]
-			hide_until_deps_complete: true
-			id: "10710081934A30C6"
-			rewards: [
-				{
-					id: "63937C3288DE0667"
-					item: "minecraft:ender_eye"
-					type: "item"
-				}
-				{
-					id: "24410DEACDE6303C"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					id: "1F3F63D864A2579F"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "Tainted and Twisted."
-			tasks: [{
-				id: "7B79D2A0339B4CFC"
-				item: {
-					Count: 1
-					id: "simplyswords:tainted_relic"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -20.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["1E65DAC37F8D34F9"]
-			description: ["&7Where there is Light, there is Darkness. Are you sure youre up to the Challenge?"]
-			hide_until_deps_complete: true
-			id: "3B50D775CE678833"
-			rewards: [
-				{
-					id: "270A0151325730F0"
-					item: "minecraft:dragon_breath"
-					type: "item"
-				}
-				{
-					id: "196792A0E772FEA1"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					id: "35CBCEA6D5519A6D"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "08666B06A2472292"
-					item: "prominent:molten_remnant"
-					type: "item"
-				}
-			]
-			subtitle: "Pure Light."
-			tasks: [{
-				id: "1CECDA302A1F41AE"
-				item: {
-					Count: 1
-					id: "simplyswords:sunfire"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -23.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["10710081934A30C6"]
-			description: ["&7He is gone. I am what remains."]
-			hide_until_deps_complete: true
-			id: "3B253027B3A56099"
-			rewards: [
-				{
-					id: "1599BEFB22AC6BA5"
-					item: "simplyswords:empowered_remnant"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "0C97AA455652678D"
-					item: "minecraft:ender_eye"
-					type: "item"
-				}
-				{
-					id: "61DC296EEFD8DFFA"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "1BAB7350E1D7E652"
-					item: "prominent:molten_remnant"
-					type: "item"
-				}
-			]
-			subtitle: "Death Awaits."
-			tasks: [{
-				id: "31C29D8D28776CF2"
-				item: {
-					Count: 1
-					id: "simplyswords:harbinger"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -21.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["6A8665FBC017A00F"]
@@ -1610,77 +1401,6 @@
 			}]
 			x: -12.0d
 			y: -13.5d
-		}
-		{
-			dependencies: ["1C6075524C120092"]
-			description: ["&7It has gotten stronger. You can feel that it hasn't reached it's full potential yet. You must keep pushing. Youre far too gone to stop now, right? Cannibalize life."]
-			hide_until_deps_complete: true
-			id: "2629BC0942CC42F6"
-			rewards: [
-				{
-					id: "0477E13CFD9EEC4E"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-				{
-					id: "20442D710C59F698"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			subtitle: "It is becoming awake..."
-			tasks: [{
-				id: "5ECB8411482DF1D5"
-				item: {
-					Count: 1
-					id: "simplyswords:waking_lichblade"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Currently unavailable, sorry! Fixed soon!"
-			x: -12.0d
-			y: -15.0d
-		}
-		{
-			dependencies: ["1C6075524C120092"]
-			description: ["&7The Blade whispers gratitude towards you. Materializing something that will &4be of great use sooner or later&r&7 to you. Long shall be their suffering. Joyous be their pain."]
-			hide_until_deps_complete: true
-			id: "0395861176F7F402"
-			rewards: [
-				{
-					id: "51CE52336784BA50"
-					item: "prominent:infused_molten_remnant"
-					type: "item"
-				}
-				{
-					id: "58E74C7A157CE8F2"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					count: 3
-					id: "486CF177C76F28D0"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
-			subtitle: "AT FULL POTENTIAL"
-			tasks: [{
-				id: "5332CA7293781217"
-				item: {
-					Count: 1
-					id: "simplyswords:awakened_lichblade"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.0d
-			y: -16.5d
 		}
 		{
 			dependencies: ["5AC50DF4F52A548F"]
@@ -2712,10 +2432,10 @@
 		{
 			dependencies: ["0F426527B63F854D"]
 			description: [
-				"&7The Runic forge is used to improve Simply Swords. You can fully unleash the power of your Simply Sword by adding 8 Runic tablets to them. You can also use the Runic Forge to add and remove Gems from weapons. "
+				"&7The Runic forge is used to only some improve Simply Swords. You can fully unleash the power of the lichblade and the Dormant relic by adding 8 Runic tablets to them. You can also use the Runic Forge to add and remove Gems from weapons. "
 				""
 				""
-				"&6In some places, you can even obtain new variants of weapons when awakening them there...&r"
+				"&6Only a handful of Simply Swords work with the runic forge!&r"
 			]
 			hide_until_deps_complete: true
 			id: "29802A82F21E90C7"
@@ -2738,251 +2458,6 @@
 			}]
 			x: -7.5d
 			y: 7.5d
-		}
-		{
-			dependencies: ["0F426527B63F854D"]
-			description: [
-				"&7These Simply Bows, can be upgraded with Enchanted String and Reinforced Frame to become even more powerful as they are."
-				""
-				"&7They also use an Etching system for their runes."
-				"&7Unique bows can have runes etched into them at an anvil. These etchings alter the ability of the bow, in some cases resulting in significantly different behaviour."
-				""
-				"&7The effect of the rune can be seen on the second tooltip tab of the bow. At the time of writing, each bow can be etched with one of four different runes - meaning there are a combination of 28 unique ability behaviours."
-				""
-				"&7Rune etchings can be overriden, so if you don't like the way a etching has modified your bow ability, you can replace it at an anvil.&r"
-			]
-			hide_until_deps_complete: true
-			id: "21E3DF72858C3D6B"
-			rewards: [{
-				id: "70F9A68EEB8EA599"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "7F0E5FBB8D23E728"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "c:simplybows"
-					}
-				}
-				title: "Obtain any Simplybow"
-				type: "item"
-			}]
-			title: "&eObtain a Simply Bow"
-			x: -10.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["21E3DF72858C3D6B"]
-			id: "16FD124AF03A6DA9"
-			rewards: [
-				{
-					id: "1E322DFC37B7D096"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4286FF0A2A1D89D1"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
-			subtitle: "Sometimes a field of flowers is the rest you need"
-			tasks: [{
-				id: "1BF20A2F74969377"
-				item: {
-					Count: 1
-					id: "simplybows:vine_bow/vine_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["21E3DF72858C3D6B"]
-			id: "6ECFB00CAB6FADAC"
-			rewards: [
-				{
-					id: "0DFEFEDC371216BE"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2910EB46A7B21A1E"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
-			subtitle: "Blub Blub"
-			tasks: [{
-				id: "52BF4D8CCF67E6B9"
-				item: {
-					Count: 1
-					id: "simplybows:bubble_bow/bubble_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["21E3DF72858C3D6B"]
-			id: "75B0F005EEE82F1C"
-			rewards: [
-				{
-					id: "5DCE119118B1C851"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "64EA58079A7F03B9"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
-			subtitle: "Boooring"
-			tasks: [{
-				id: "364FAFA1995C9BE0"
-				item: {
-					Count: 1
-					id: "simplybows:bee_bow/bee_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -9.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["21E3DF72858C3D6B"]
-			id: "68D67D3843FB8D0C"
-			rewards: [
-				{
-					id: "52C1842E2EB2B8A1"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "3711C3A31E4A3F70"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
-			subtitle: "Sometimes the wind brings more than just a Petal."
-			tasks: [{
-				id: "530D6D621A46DF04"
-				item: {
-					Count: 1
-					id: "simplybows:blossom_bow/blossom_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -8.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["21E3DF72858C3D6B"]
-			id: "515E31092F36D31D"
-			rewards: [
-				{
-					id: "0C714934FBA4D91A"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "106AD0C06D7D0ABC"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
-			subtitle: "First the Rumbling, then the Flames."
-			tasks: [{
-				id: "7B8FADFB6ACCD81D"
-				item: {
-					Count: 1
-					id: "simplybows:earth_bow/earth_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["21E3DF72858C3D6B"]
-			id: "0BC1D1A91080DA24"
-			rewards: [
-				{
-					id: "38545851843573BC"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "32F2588782C14ABB"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
-			subtitle: "Like an Echo in the Wind"
-			tasks: [{
-				id: "7646BA86DCD67CAC"
-				item: {
-					Count: 1
-					id: "simplybows:echo_bow/echo_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["21E3DF72858C3D6B"]
-			id: "781DE40D51BE1DD4"
-			rewards: [
-				{
-					id: "43E4683E129D2AEA"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7AD84C9D7B8DD618"
-					item: "simplyswords:runic_tablet"
-					type: "item"
-				}
-			]
-			subtitle: "Dont turn your back on the cold"
-			tasks: [{
-				id: "2EDFF480FCB6EC6B"
-				item: {
-					Count: 1
-					id: "simplybows:ice_bow/ice_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -10.0d
-			y: 12.5d
 		}
 		{
 			dependencies: ["306AAF14EBD13866"]
